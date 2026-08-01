@@ -13,6 +13,7 @@ import {
   MIN_PASSWORD_LENGTH,
   NotConfigured,
 } from "./auth/shared";
+import { WaitingForEmail } from "./auth/WaitingForEmail";
 
 /**
  * One form for signing in and signing up.
@@ -91,24 +92,17 @@ export function SignInForm() {
 
   if (sent) {
     return (
-      <AuthShell title="Fast fertig">
-        <p className="font-medium text-slate-900">
-          Bitte bestätigen Sie Ihre E-Mail-Adresse.
-        </p>
-        <p className="mt-1 text-sm text-slate-600">
-          {sent.existing
-            ? "Dieses Konto ist noch nicht bestätigt. Wir haben Ihnen den Link noch einmal geschickt an "
-            : "Wir haben eine E-Mail geschickt an "}
-          <strong>{email}</strong>. Klicken Sie auf den Link darin, dann sind Sie
-          angemeldet. Schauen Sie auch im Spam-Ordner nach.
-        </p>
-        {!sent.delivered && (
-          <p className="mt-3 rounded-lg bg-amber-50 p-3 text-sm text-amber-900">
-            Hinweis für die Entwicklung: Es ist kein E-Mail-Dienst eingerichtet.
-            Der Link steht im Terminal, in dem der Server läuft.
-          </p>
-        )}
-      </AuthShell>
+      <WaitingForEmail
+        email={email}
+        delivered={sent.delivered}
+        existing={sent.existing}
+        // Re-running /start with the same credentials issues a fresh link and
+        // invalidates the old one, which is exactly what "send again" means.
+        onResend={async () => {
+          const again = await authStart(email.trim(), password);
+          return again.ok ? null : again.error;
+        }}
+      />
     );
   }
 

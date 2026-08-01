@@ -69,6 +69,12 @@ export function forgetMe() {
   mePromise = null;
 }
 
+/** Ignores the cache. Used while waiting for someone to click a link. */
+export function refreshMe(): Promise<Me> {
+  forgetMe();
+  return getMe();
+}
+
 export const authStart = (email: string, password: string) =>
   call<StartResult>("/api/auth/start", {
     method: "POST",

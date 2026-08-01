@@ -33,6 +33,19 @@ There is no separate sign-up page — `/registrieren` redirects to `/anmelden`.
 Clicking the link in the e-mail confirms the address **and** signs the learner
 in, because asking someone to confirm and then log in again is a pointless step.
 
+**The waiting tab notices.** A mail client opens the link in a *new* tab, which
+would leave the original one still saying "please confirm your e-mail" — two
+windows and no clue which is real. So the waiting screen polls its own session
+every three seconds and moves on by itself once the confirmation lands. The
+cookie is shared across tabs of the same browser, so nothing has to be passed
+between them.
+
+Polling only runs while the tab is visible — it usually is not, because the
+learner is in their inbox — and re-checks immediately on focus, which is the
+moment that actually matters. After 45 seconds it offers to send the e-mail
+again; after ten minutes it stops and suggests signing in with the password,
+which is the honest answer when the link was opened on a different device.
+
 ## Security decisions worth knowing
 
 **Passwords** use scrypt from Node's standard library — memory-hard, and with

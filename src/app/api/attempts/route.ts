@@ -46,32 +46,41 @@ export async function POST(request: Request) {
   if (!user) return fail("Nicht angemeldet.", 401);
 
   const body = await readJson<{ attempts?: AttemptPayload[] }>(request);
-  const incoming = Array.isArray(body.attempts) ? body.attempts : [];
+  const incoming = (Array.isArray(body.attempts) ? body.attempts : []).filter(
+    (a) => typeof a?.testId === "string",
+  );
   if (incoming.length === 0) return json({ imported: 0 });
 
   const store = await attempts();
-  const existing = await store
-    .find({ userId: user._id }, { projection: { testId: 1 } })
-    .toArray();
-  const known = new Set(existing.map((doc: { testId: string }) => doc.testId));
 
-  const fresh = incoming.filter(
-    (a) => typeof a.testId === "string" && !known.has(a.testId),
-  );
-  if (fresh.length === 0) return json({ imported: 0 });
-
-  await store.insertMany(
-    fresh.map((a) => ({
-      _id: `${user._id}:${a.testId}`,
-      userId: user._id,
-      testId: a.testId,
-      answers: a.answers ?? {},
-      selfAssessment: a.selfAssessment ?? {},
-      submittedSections: a.submittedSections ?? [],
-      updatedAt: new Date(),
+  /**
+   * `$setOnInsert` for everything, so a row already in the account is left
+   * exactly as it is and only genuinely new tests are written.
+   *
+   * This has to be idempotent: after confirming an e-mail there are two tabs
+   * signed in at once, and both try to import at the same moment. An
+   * insertMany would have one of them fail on a duplicate key; an upsert simply
+   * does nothing the second time.
+   */
+  const result = await store.bulkWrite(
+    incoming.map((a) => ({
+      updateOne: {
+        filter: { _id: `${user._id}:${a.testId}` },
+        update: {
+          $setOnInsert: {
+            userId: user._id,
+            testId: a.testId,
+            answers: a.answers ?? {},
+            selfAssessment: a.selfAssessment ?? {},
+            submittedSections: a.submittedSections ?? [],
+            updatedAt: new Date(),
+          },
+        },
+        upsert: true,
+      },
     })),
     { ordered: false },
   );
 
-  return json({ imported: fresh.length });
+  return json({ imported: result.upsertedCount });
 }
