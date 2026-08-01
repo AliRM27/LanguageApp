@@ -1,0 +1,859 @@
+{
+  "id": "uebungstest-a2-09",
+  "language": "de",
+  "level": "A2",
+  "title": "Übungstest A2 – Nr. 9",
+  "description": "Ein vollständiger Übungstest auf Niveau A2 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Stadt, Verkehr und Umwelt.",
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 30,
+      "description": "Sie hören Nachrichten, eine Radiosendung und einen Bericht. Notieren Sie Informationen, wählen Sie die richtige Antwort und ordnen Sie zu.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Notizen ergänzen",
+          "instructions": "Sie hören fünf kurze Nachrichten. Ergänzen Sie die fehlende Information im Satz. Sie hören jede Nachricht zweimal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-09/hoeren-teil-1.mp3",
+            "transcript": "Nachricht 1\nLiebe Fahrgäste, wegen Bauarbeiten fährt die Straßenbahnlinie 4 ab Montag nicht bis zum Zoo. Bitte steigen Sie an der Haltestelle Rathaus in den Ersatzbus um.\n\nNachricht 2\nGuten Tag, hier ist das Fundbüro. Ihr Fahrradschlüssel ist abgegeben worden. Sie können ihn abholen, wir haben bis 16 Uhr geöffnet.\n\nNachricht 3\nHallo, hier ist die Stadtverwaltung. Ihre Anwohnerparkkarte ist fertig. Sie kostet im Jahr 65 Euro.\n\nNachricht 4\nGuten Tag, Frau Adamu. Die Sperrmüllabholung ist bestätigt. Bitte stellen Sie alles am 6. Mai bis 7 Uhr an die Straße.\n\nNachricht 5\nLiebe Bürgerinnen und Bürger, das neue Recyclinghöfchen in der Industriestraße öffnet am Samstag. Die Abgabe ist für Privatpersonen kostenlos."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-notiz-1",
+              "stimuli": [
+                {
+                  "title": "Notiz 1",
+                  "text": "STRASSENBAHN LINIE 4\nAb Montag Bauarbeiten – Ersatzbus"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-1",
+                  "prompt": "Ab Montag muss man an der Haltestelle ___ in den Ersatzbus umsteigen.",
+                  "solution": "Rathaus",
+                  "acceptedAnswers": [
+                    "am Rathaus",
+                    "Haltestelle Rathaus"
+                  ],
+                  "explanation": "„Bitte steigen Sie an der Haltestelle Rathaus in den Ersatzbus um.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-2",
+              "stimuli": [
+                {
+                  "title": "Notiz 2",
+                  "text": "FUNDBÜRO\nFahrradschlüssel abgegeben – abholen!"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-2",
+                  "prompt": "Der Fahrradschlüssel kann bis ___ Uhr abgeholt werden.",
+                  "solution": "16",
+                  "acceptedAnswers": [
+                    "16:00",
+                    "sechzehn"
+                  ],
+                  "explanation": "„Sie können ihn abholen, wir haben bis 16 Uhr geöffnet.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3",
+                  "text": "STADTVERWALTUNG\nAnwohnerparkkarte ist fertig."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-3",
+                  "prompt": "Die Anwohnerparkkarte kostet ___ Euro im Jahr.",
+                  "solution": "65",
+                  "acceptedAnswers": [
+                    "65 Euro",
+                    "65,00"
+                  ],
+                  "explanation": "„Sie kostet im Jahr 65 Euro.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-4",
+              "stimuli": [
+                {
+                  "title": "Notiz 4",
+                  "text": "SPERRMÜLL\nAbholung bestätigt"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-4",
+                  "prompt": "Der Sperrmüll wird am ___ abgeholt, alles muss bis 7 Uhr an der Straße stehen.",
+                  "solution": "6. Mai",
+                  "acceptedAnswers": [
+                    "06.05.",
+                    "6.5.",
+                    "sechsten Mai"
+                  ],
+                  "explanation": "„Bitte stellen Sie alles am 6. Mai bis 7 Uhr an die Straße.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-5",
+              "stimuli": [
+                {
+                  "title": "Notiz 5",
+                  "text": "NEUER RECYCLINGHOF\nFür Privatpersonen: kostenlos"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-5",
+                  "prompt": "Der neue Recyclinghof ist in der ___ und öffnet am Samstag.",
+                  "solution": "Industriestraße",
+                  "acceptedAnswers": [
+                    "in der Industriestraße",
+                    "Industriestr."
+                  ],
+                  "explanation": "„… das neue Recyclinghöfchen in der Industriestraße öffnet am Samstag.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Radiosendung",
+          "instructions": "Sie hören ein Interview im Radio. Wählen Sie zu jeder Aufgabe die richtige Antwort. Sie hören das Interview einmal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-09/hoeren-teil-2.mp3",
+            "transcript": "Moderator: In unserer Stadt kann man seit einem Jahr Lastenräder kostenlos ausleihen. Bei mir ist Frau Grace Adamu vom Verein Stadtrad. Frau Adamu, wie funktioniert das?\n\nGrace Adamu: Man meldet sich einmal auf unserer Internetseite an und reserviert dann ein Rad für maximal drei Tage. Abgeholt wird es bei einem Laden oder Café in der Nähe.\n\nModerator: Und das kostet wirklich nichts?\n\nAdamu: Genau. Wir finanzieren uns über Spenden und über die Stadt. Man kann etwas geben, muss aber nicht.\n\nModerator: Wofür nutzen die Leute die Räder?\n\nAdamu: Am häufigsten für den Wocheneinkauf und für Umzüge – also für kleine Umzüge, ein Sofa passt natürlich nicht drauf. Überraschend viele Eltern fahren auch ihre Kinder damit.\n\nModerator: Gibt es Probleme?\n\nAdamu: Zwei. Erstens sind die Räder oft ausgebucht, besonders am Wochenende. Zweitens haben viele Angst, so ein großes Rad zu fahren. Deshalb bieten wir jetzt eine kostenlose Übungsstunde an.\n\nModerator: Wie viele Räder haben Sie?\n\nAdamu: Angefangen haben wir mit drei. Jetzt sind es neun, und im nächsten Jahr sollen es fünfzehn werden."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-1",
+                  "prompt": "Wie lange darf man ein Rad behalten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Höchstens drei Tage."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Höchstens einen Tag."
+                    },
+                    {
+                      "id": "c",
+                      "text": "So lange man möchte."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… reserviert dann ein Rad für maximal drei Tage.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-2",
+                  "prompt": "Was kostet das Ausleihen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Fünf Euro pro Tag."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Nichts, eine Spende ist freiwillig."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Einen Jahresbeitrag."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Man kann etwas geben, muss aber nicht.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-3",
+                  "prompt": "Wofür benutzen die Leute die Räder am häufigsten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Für den Weg zur Arbeit."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Für den Einkauf und kleine Umzüge."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Für Ausflüge am Wochenende."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Am häufigsten für den Wocheneinkauf und für Umzüge.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-4",
+                  "prompt": "Warum gibt es jetzt eine Übungsstunde?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil die Stadt es verlangt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil die Räder oft kaputt sind."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil viele Angst vor den großen Rädern haben."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Zweitens haben viele Angst, so ein großes Rad zu fahren.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-5",
+                  "prompt": "Wie viele Räder hat der Verein im Moment?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Neun"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Drei"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Fünfzehn"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Angefangen haben wir mit drei. Jetzt sind es neun.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Zuordnung",
+          "instructions": "Sie hören eine Person, die über fünf andere Personen erzählt. Ordnen Sie jeder Person die passende Aussage zu. Drei Aussagen bleiben übrig. Sie hören den Text zweimal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-09/hoeren-teil-3.mp3",
+            "transcript": "Ein Kollege erklärt einem neuen Mitarbeiter, wie die anderen im Team zur Arbeit kommen.\n\nKollege: Wir kommen alle ganz unterschiedlich ins Büro.\nGrace fährt jeden Tag mit dem Rad, bei jedem Wetter, zwanzig Minuten hin und zwanzig zurück. Das ist ihr Sport.\nPeter hat es am nächsten. Er braucht zwölf Minuten, wenn er normal geht. Ein Auto hat er gar nicht mehr.\nSandra nimmt die Bahn. Die Linie 4 hält direkt vor ihrer Haustür. Ab Montag wird es allerdings schwierig, da ist eine Baustelle.\nMehmet muss mit dem Auto kommen. Er wohnt auf dem Dorf, und der Bus fährt dort nur dreimal am Tag. Er nimmt aber immer zwei Kollegen mit.\nUnd Lisa sitzt zu Hause am Schreibtisch. Sie kommt nur dienstags ins Büro, sonst arbeitet sie von zu Hause. Manchmal fehlen ihr die Gespräche in der Pause.\nMit dem Zug kommt bei uns niemand, und einen Motorroller hat auch keiner."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-block",
+              "prompt": "Wie kommt diese Person normalerweise zur Arbeit?",
+              "stimuli": [
+                {
+                  "title": "Aussagen",
+                  "text": "A  mit dem Fahrrad\nB  zu Fuß\nC  mit der Straßenbahn\nD  mit dem Auto\nE  mit dem Zug\nF  mit dem Motorroller\nG  gar nicht, sie arbeitet meistens zu Hause\nH  mit dem Bus"
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "A  mit dem Fahrrad"
+                },
+                {
+                  "id": "b",
+                  "text": "B  zu Fuß"
+                },
+                {
+                  "id": "c",
+                  "text": "C  mit der Straßenbahn"
+                },
+                {
+                  "id": "d",
+                  "text": "D  mit dem Auto"
+                },
+                {
+                  "id": "e",
+                  "text": "E  mit dem Zug"
+                },
+                {
+                  "id": "f",
+                  "text": "F  mit dem Motorroller"
+                },
+                {
+                  "id": "g",
+                  "text": "G  gar nicht, sie arbeitet meistens zu Hause"
+                },
+                {
+                  "id": "h",
+                  "text": "H  mit dem Bus"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h3-1",
+                  "prompt": "Grace",
+                  "solution": "a",
+                  "explanation": "„Grace fährt jeden Tag mit dem Rad, bei jedem Wetter.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-2",
+                  "prompt": "Peter",
+                  "solution": "b",
+                  "explanation": "„Er braucht zwölf Minuten, wenn er normal geht.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-3",
+                  "prompt": "Sandra",
+                  "solution": "c",
+                  "explanation": "„Sandra nimmt die Bahn. Die Linie 4 hält direkt vor ihrer Haustür.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-4",
+                  "prompt": "Mehmet",
+                  "solution": "d",
+                  "explanation": "„Mehmet muss mit dem Auto kommen … der Bus fährt dort nur dreimal am Tag.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-5",
+                  "prompt": "Lisa",
+                  "solution": "g",
+                  "explanation": "„Sie kommt nur dienstags ins Büro, sonst arbeitet sie von zu Hause.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 25,
+      "description": "Sie lesen einen Zeitungstext, Anzeigen und kurze Texte aus dem Alltag und lösen dazu Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Zeitungstext",
+          "instructions": "Lesen Sie den Text. Sind die Sätze richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-text",
+              "stimuli": [
+                {
+                  "title": "Eine Straße ohne Autos – ein Versuch",
+                  "text": "Sechs Monate lang durfte in der Lessingstraße kein Auto fahren. Die Stadt wollte ausprobieren, was dann passiert.\n\nAm Anfang waren viele Anwohner dagegen. „Ich habe gedacht, ich kann meine Einkäufe nicht mehr nach Hause bringen“, erzählt Peter Sandu, der seit 30 Jahren dort wohnt. Heute sieht er es anders. Vor seinem Haus stehen jetzt Bänke und Blumenkästen, und die Kinder spielen auf der Straße.\n\nNicht alle sind zufrieden. Der Bäcker an der Ecke hat weniger verkauft, weil die Kundschaft aus anderen Stadtteilen mit dem Auto kam. „Für mich war das ein schlechtes halbes Jahr“, sagt er.\n\nJetzt entscheidet der Stadtrat, ob die Regel bleibt. Eine Umfrage zeigt: 62 Prozent der Anwohner sind dafür, 31 Prozent dagegen. Der Rest hat keine Meinung."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-1",
+                  "statement": "In der Lessingstraße war ein halbes Jahr lang kein Autoverkehr erlaubt.",
+                  "solution": true,
+                  "explanation": "„Sechs Monate lang durfte in der Lessingstraße kein Auto fahren.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-2",
+                  "statement": "Herr Sandu war von Anfang an für die Idee.",
+                  "solution": false,
+                  "explanation": "„Am Anfang waren viele Anwohner dagegen“ – auch er. Erst heute sieht er es anders."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-3",
+                  "statement": "Der Bäcker hat in dieser Zeit weniger verdient.",
+                  "solution": true,
+                  "explanation": "„Der Bäcker an der Ecke hat weniger verkauft.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-4",
+                  "statement": "Die Mehrheit der Anwohner möchte die autofreie Straße behalten.",
+                  "solution": true,
+                  "explanation": "„62 Prozent der Anwohner sind dafür, 31 Prozent dagegen.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-5",
+                  "statement": "Die Entscheidung ist schon gefallen.",
+                  "solution": false,
+                  "explanation": "„Jetzt entscheidet der Stadtrat, ob die Regel bleibt.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Anzeigen",
+          "instructions": "Lesen Sie die acht Anzeigen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Nicht alle Anzeigen werden gebraucht.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "text": "Lastenrad kostenlos ausleihen – Verein Stadtrad.\nAnmeldung online, maximal drei Tage."
+                },
+                {
+                  "title": "Anzeige b",
+                  "text": "Fundbüro der Stadt – Mo bis Fr 9 bis 16 Uhr,\nRathaus, Zimmer 004."
+                },
+                {
+                  "title": "Anzeige c",
+                  "text": "Recyclinghof Industriestraße – Farben, Elektrogeräte,\nAltholz. Für Privatpersonen kostenlos."
+                },
+                {
+                  "title": "Anzeige d",
+                  "text": "Anwohnerparkkarte – Antrag online oder im Bürgerbüro.\n65 Euro pro Jahr."
+                },
+                {
+                  "title": "Anzeige e",
+                  "text": "Fahrradwerkstatt zum Selbermachen – Werkzeug und Hilfe.\nDonnerstags 16 bis 20 Uhr, Spende erwünscht."
+                },
+                {
+                  "title": "Anzeige f",
+                  "text": "Semesterticket für Studierende – Bus und Bahn\nim ganzen Stadtgebiet, im Beitrag enthalten."
+                },
+                {
+                  "title": "Anzeige g",
+                  "text": "Carsharing Stadtauto – ab 3 Euro pro Stunde,\nüber 40 Stationen. Führerschein seit 1 Jahr nötig."
+                },
+                {
+                  "title": "Anzeige h",
+                  "text": "Baumpflanzaktion am 12. April im Stadtpark.\nHelferinnen und Helfer willkommen, Spaten mitbringen."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Lastenrad ausleihen"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Fundbüro der Stadt"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Recyclinghof Industriestraße"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Anwohnerparkkarte"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Fahrradwerkstatt zum Selbermachen"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Semesterticket für Studierende"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Carsharing Stadtauto"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Baumpflanzaktion"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Sie müssen einen alten Fernseher loswerden und wollen nichts bezahlen.",
+                  "solution": "c",
+                  "explanation": "Der Recyclinghof nimmt Elektrogeräte, für Privatpersonen kostenlos."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Sie brauchen nur einmal im Monat ein Auto und haben seit zwei Jahren den Führerschein.",
+                  "solution": "g",
+                  "explanation": "Carsharing kostet ab 3 Euro pro Stunde; der Führerschein muss ein Jahr alt sein."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Ihr Fahrrad hat einen Platten und Sie möchten es selbst reparieren.",
+                  "solution": "e",
+                  "explanation": "In der Fahrradwerkstatt zum Selbermachen gibt es Werkzeug und Hilfe."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie haben Ihren Geldbeutel in der Straßenbahn verloren.",
+                  "solution": "b",
+                  "explanation": "Verlorene Sachen landen im Fundbüro der Stadt."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie möchten am Wochenende etwas für die Umwelt tun und andere Leute treffen.",
+                  "solution": "h",
+                  "explanation": "Bei der Baumpflanzaktion sind Helferinnen und Helfer willkommen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Schilder und Notizen",
+          "instructions": "Lesen Sie die Schilder und Notizen. Zu jedem Text gibt es eine Frage. Wählen Sie die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-schild-1",
+              "stimuli": [
+                {
+                  "title": "Schild 1 – an der Haltestelle",
+                  "text": "LINIE 4 – BAUSTELLE\nVom 6. Mai bis 30. Juni\nfährt die Bahn nur bis Rathaus.\nWeiter mit dem Ersatzbus SEV 4."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-1",
+                  "prompt": "Was müssen Fahrgäste am Rathaus tun?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ein neues Ticket kaufen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "In den Ersatzbus umsteigen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Zu Fuß weitergehen"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Weiter mit dem Ersatzbus SEV 4.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-2",
+              "stimuli": [
+                {
+                  "title": "Schild 2 – im Park",
+                  "text": "Grillen ist nur auf den markierten Plätzen erlaubt.\nBitte nehmen Sie Ihren Müll wieder mit.\nDie Behälter sind am Wochenende oft voll."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was soll man mit dem Müll machen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Neben die Behälter stellen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Im Park lassen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Wieder mitnehmen"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Bitte nehmen Sie Ihren Müll wieder mit.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3 – im Hausflur",
+                  "text": "Liebe Nachbarn,\nam Samstag machen wir eine Fahrradtour zum See.\nAbfahrt 10 Uhr vor dem Haus.\nWer mitkommen will, schreibt bitte seinen Namen darunter.\nFamilie Adamu"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-3",
+                  "prompt": "Was soll man tun, wenn man mitfahren möchte?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Bei Familie Adamu klingeln"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Seinen Namen auf den Zettel schreiben"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Einfach um 10 Uhr da sein"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Wer mitkommen will, schreibt bitte seinen Namen darunter.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-4",
+              "stimuli": [
+                {
+                  "title": "Schild 4 – am Parkautomaten",
+                  "text": "PARKEN\nMo – Sa 9 bis 19 Uhr gebührenpflichtig\nHöchstparkdauer 2 Stunden\nSonntags frei"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Wann muss man hier nicht bezahlen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Am Samstagnachmittag"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Nie"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Am Sonntag"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Sonntags frei“."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-5",
+              "stimuli": [
+                {
+                  "title": "Schild 5 – am Recyclinghof",
+                  "text": "ANNAHME\nPrivatpersonen: kostenlos, bis 2 m³ pro Tag\nGewerbe: nur mit Anmeldung und gegen Gebühr\nKeine Annahme von Altreifen"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-5",
+                  "prompt": "Was kann man hier nicht abgeben?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Elektrogeräte"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Altholz"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Altreifen"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Keine Annahme von Altreifen“."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 25,
+      "description": "Sie füllen ein Formular aus und schreiben eine E-Mail. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie zu jeder Aufgabe eine Musterlösung.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "Teil 1 – Formular",
+          "instructions": "Ihre Nachbarin Grace Adamu beantragt eine Anwohnerparkkarte im Bürgerbüro. Sie kommt aus Ghana und ist am 11.10.1985 in Kumasi geboren. Sie wohnt in der Lessingstraße 9 in 04109 Leipzig. Ihr Autokennzeichen ist L-GA 2718. Füllen Sie das Formular für sie aus.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-formular",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Familienname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Adamu"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-2",
+                  "prompt": "Vorname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Grace"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-3",
+                  "prompt": "Geburtsdatum",
+                  "inputMode": "single-line",
+                  "musterloesung": "11.10.1985"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-4",
+                  "prompt": "Straße und Hausnummer",
+                  "inputMode": "single-line",
+                  "musterloesung": "Lessingstraße 9"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-5",
+                  "prompt": "Kennzeichen",
+                  "inputMode": "single-line",
+                  "musterloesung": "L-GA 2718"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schreiben-teil-2",
+          "title": "Teil 2 – E-Mail",
+          "instructions": "In Ihrer Straße gibt es ein Problem: Die Mülltonnen stehen seit Tagen voll auf dem Gehweg. Schreiben Sie eine E-Mail an die Stadtverwaltung. Schreiben Sie 40 bis 50 Wörter.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-2-mail",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s2-1",
+                  "prompt": "Schreiben Sie die E-Mail an die Stadtverwaltung.",
+                  "criteria": [
+                    "Grund: Warum schreiben Sie?",
+                    "Problem: Was genau ist los und seit wann?",
+                    "Folge: Warum ist das ein Problem?",
+                    "Wunsch: Was soll die Stadt tun?"
+                  ],
+                  "hints": [
+                    "Schreiben Sie förmlich („Sehr geehrte Damen und Herren“).",
+                    "Nennen Sie Ihre Straße."
+                  ],
+                  "minWords": 40,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Damen und Herren,\n\nich wohne in der Lessingstraße 9. Seit über einer Woche sind die Mülltonnen voll und stehen auf dem Gehweg.\n\nMit dem Kinderwagen kommt man kaum noch vorbei, und es riecht sehr schlecht.\n\nKönnen Sie die Tonnen bitte bald leeren lassen? Vielleicht ist eine zusätzliche Tonne nötig.\n\nMit freundlichen Grüßen\nGrace Adamu"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet. Nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie zu den Stichwörtern. Sie können Ihre Antwort hier kurz notieren – das ist freiwillig.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Alter – Herkunft – Wohnort – Familie – Beruf – Sprachen – Warum lernen Sie Deutsch?",
+                  "hints": [
+                    "Sprechen Sie in ganzen Sätzen, etwa zwei Minuten.",
+                    "Sagen Sie auch, was Ihnen an Ihrer Stadt gefällt.",
+                    "Buchstabieren Sie am Ende Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Mein Name ist Grace Adamu. Ich bin 39 Jahre alt und komme aus Ghana, aus Kumasi. Seit sieben Jahren wohne ich in Leipzig, in der Lessingstraße. Ich bin verheiratet und habe zwei Kinder. Ich arbeite als Erzieherin in einer Kita. Ich spreche Twi, Englisch und Deutsch. Deutsch lerne ich weiter, weil ich mit den Eltern in der Kita gut sprechen möchte. An meiner Stadt gefällt mir, dass alles mit dem Rad zu erreichen ist. Mein Familienname ist Adamu: A – D – A – M – U."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Ein Alltagsgespräch führen",
+          "instructions": "Thema: Stadt und Verkehr. Bilden Sie mit dem Satzanfang eine Frage an Ihre Gesprächspartnerin oder Ihren Gesprächspartner – und antworten Sie dann selbst darauf.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Satzanfang: „Wie kommen Sie …?“",
+                  "musterloesung": "Frage: Wie kommen Sie normalerweise zur Arbeit?\nAntwort: Fast immer mit dem Fahrrad, das dauert zwanzig Minuten. Wenn es stark regnet, nehme ich die Straßenbahn."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Satzanfang: „Was gefällt Ihnen …?“",
+                  "musterloesung": "Frage: Was gefällt Ihnen an Ihrer Stadt am besten?\nAntwort: Mir gefallen die vielen Parks. Man ist schnell im Grünen. Weniger gut finde ich, dass die Mieten immer teurer werden."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Zusammen etwas planen",
+          "instructions": "Lesen Sie die Situation. Planen Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner. Machen Sie Vorschläge, reagieren Sie auf Vorschläge und einigen Sie sich am Ende.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "In Ihrem Haus soll der Hof schöner werden. Sie möchten mit den Nachbarn einen Arbeitstag organisieren. Planen Sie zu zweit.",
+                  "hints": [
+                    "Wann soll der Arbeitstag sein?",
+                    "Was wollen Sie machen (Blumen, Bänke, Müll)?",
+                    "Was brauchen Sie und wer besorgt es?",
+                    "Wie sagen Sie es allen Nachbarn?"
+                  ],
+                  "musterloesung": "A: Unser Hof sieht wirklich traurig aus. Sollen wir mit den Nachbarn einen Arbeitstag machen?\nB: Ja, gute Idee. Wann denn? Am besten am Wochenende.\nA: Ich schlage Samstag, den 12., vor. Von zehn bis vielleicht drei.\nB: Samstag ist gut, aber fünf Stunden sind viel. Machen wir lieber zehn bis eins?\nA: Einverstanden. Was machen wir zuerst?\nB: Erst den alten Müll wegräumen, dann die Blumenkästen bepflanzen. Und die Bank müsste gestrichen werden.\nA: Dann brauchen wir Farbe, Pinsel, Erde und Blumen. Ich frage die Hausverwaltung, ob sie das bezahlt.\nB: Sehr gut. Werkzeug haben wir selbst, und ich bringe meine Schubkarre mit.\nA: Und wie erreichen wir alle? Nicht jeder liest die Zettel im Flur.\nB: Ich hänge einen Zettel auf und klingele zusätzlich bei allen. Machst du Kaffee und Kuchen für zwischendurch?\nA: Klar, das übernehme ich."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

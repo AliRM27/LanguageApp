@@ -1,0 +1,856 @@
+{
+  "id": "uebungstest-a2-03",
+  "language": "de",
+  "level": "A2",
+  "title": "Übungstest A2 – Nr. 3",
+  "description": "Ein vollständiger Übungstest auf Niveau A2 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Gesundheit und Krankenkasse.",
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 30,
+      "description": "Sie hören Nachrichten, eine Radiosendung und einen Bericht. Notieren Sie Informationen, wählen Sie die richtige Antwort und ordnen Sie zu.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Notizen ergänzen",
+          "instructions": "Sie hören fünf kurze Nachrichten. Ergänzen Sie die fehlende Information im Satz. Sie hören jede Nachricht zweimal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-03/hoeren-teil-1.mp3",
+            "transcript": "Nachricht 1\nGuten Tag, Frau Lindner, hier ist die Praxis Dr. Hoffmann. Ihr Termin muss leider verschoben werden. Wir bieten Ihnen Donnerstag um 10:30 Uhr an. Bitte sagen Sie kurz Bescheid.\n\nNachricht 2\nHallo, hier ist die Apotheke am Ring. Ihr Medikament ist da. Sie können es ab morgen abholen. Bitte bringen Sie das Rezept mit, sonst dürfen wir es nicht herausgeben.\n\nNachricht 3\nGuten Tag, hier ist die Krankenkasse. Für Ihre Anfrage brauchen wir Ihre Versichertennummer: A 12 34 56 78. Zur Sicherheit noch einmal: A 12 34 56 78.\n\nNachricht 4\nPhysiotherapie Bewegung, guten Tag. Ihre erste Behandlung ist am Montag. Bitte kommen Sie in Raum 3, nicht in Raum 1 wie beim letzten Mal.\n\nNachricht 5\nGuten Tag, Herr Yilmaz. Ihre Brille ist fertig. Der Rest kostet noch 45 Euro. Die Anzahlung von 30 Euro haben wir schon."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-notiz-1",
+              "stimuli": [
+                {
+                  "title": "Notiz 1",
+                  "text": "PRAXIS DR. HOFFMANN\nTermin wird verschoben"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-1",
+                  "prompt": "Der neue Termin ist am Donnerstag um ___ Uhr.",
+                  "solution": "10:30",
+                  "acceptedAnswers": [
+                    "10.30",
+                    "halb elf"
+                  ],
+                  "explanation": "„Wir bieten Ihnen Donnerstag um 10:30 Uhr an.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-2",
+              "stimuli": [
+                {
+                  "title": "Notiz 2",
+                  "text": "APOTHEKE AM RING\nMedikament ist da – abholen ab morgen"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-2",
+                  "prompt": "Zum Abholen des Medikaments muss man ___ mitbringen.",
+                  "solution": "das Rezept",
+                  "acceptedAnswers": [
+                    "Rezept"
+                  ],
+                  "explanation": "„Bitte bringen Sie das Rezept mit, sonst dürfen wir es nicht herausgeben.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3",
+                  "text": "KRANKENKASSE\nRückruf – Angaben für die Anfrage"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-3",
+                  "prompt": "Die Krankenkasse braucht die Versichertennummer ___ .",
+                  "solution": "A 12 34 56 78",
+                  "acceptedAnswers": [
+                    "A12345678"
+                  ],
+                  "explanation": "„… brauchen wir Ihre Versichertennummer: A 12 34 56 78.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-4",
+              "stimuli": [
+                {
+                  "title": "Notiz 4",
+                  "text": "PHYSIOTHERAPIE BEWEGUNG\nErste Behandlung: Montag"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-4",
+                  "prompt": "Die erste Behandlung ist am Montag in Raum ___ .",
+                  "solution": "3",
+                  "acceptedAnswers": [
+                    "Raum 3",
+                    "drei"
+                  ],
+                  "explanation": "„Bitte kommen Sie in Raum 3, nicht in Raum 1 wie beim letzten Mal.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-5",
+              "stimuli": [
+                {
+                  "title": "Notiz 5",
+                  "text": "OPTIKER\nBrille ist fertig"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-5",
+                  "prompt": "Nach der Anzahlung von 30 Euro sind noch ___ Euro zu bezahlen.",
+                  "solution": "45",
+                  "acceptedAnswers": [
+                    "45 Euro",
+                    "45,00"
+                  ],
+                  "explanation": "„Der Rest kostet noch 45 Euro.“ Die 30 Euro sind schon bezahlt."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Radiosendung",
+          "instructions": "Sie hören ein Interview im Radio. Wählen Sie zu jeder Aufgabe die richtige Antwort. Sie hören das Interview einmal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-03/hoeren-teil-2.mp3",
+            "transcript": "Moderator: Willkommen zurück. Bei uns im Studio ist heute Frau Dr. Anke Reimer. Sie ist Hausärztin und hat ein Buch über Schlaf geschrieben. Frau Reimer, wie viele Stunden Schlaf braucht ein Erwachsener?\n\nDr. Reimer: Das ist sehr unterschiedlich. Die meisten Menschen brauchen zwischen sieben und acht Stunden. Es gibt aber auch Leute, denen sechs Stunden reichen. Wichtig ist nicht die Zahl, sondern wie man sich am Morgen fühlt.\n\nModerator: Viele Menschen sagen, sie können abends nicht einschlafen. Was raten Sie?\n\nDr. Reimer: Der häufigste Fehler ist das Handy im Bett. Das Licht vom Bildschirm sagt dem Körper: Es ist noch Tag. Ich empfehle, das Handy eine Stunde vor dem Schlafen wegzulegen.\n\nModerator: Und Sport am Abend?\n\nDr. Reimer: Sport ist gut, aber nicht direkt vor dem Schlafengehen. Zwei bis drei Stunden vorher ist ideal. Ein Spaziergang am Abend ist dagegen immer gut.\n\nModerator: Hilft ein Glas Wein beim Einschlafen?\n\nDr. Reimer: Beim Einschlafen ja, aber danach schläft man deutlich schlechter. Man wacht nachts öfter auf. Ich rate deshalb davon ab.\n\nModerator: Wann sollte man zum Arzt gehen?\n\nDr. Reimer: Wenn die Probleme länger als vier Wochen dauern und man tagsüber sehr müde ist. Dann steckt manchmal eine Krankheit dahinter."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-1",
+                  "prompt": "Wie viel Schlaf brauchen die meisten Erwachsenen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Genau acht Stunden."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Höchstens sechs Stunden."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sieben bis acht Stunden."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Die meisten Menschen brauchen zwischen sieben und acht Stunden.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-2",
+                  "prompt": "Was ist laut Frau Dr. Reimer wichtiger als die Stundenzahl?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Wann man ins Bett geht."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Wie man sich morgens fühlt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Wie dunkel das Zimmer ist."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Wichtig ist nicht die Zahl, sondern wie man sich am Morgen fühlt.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-3",
+                  "prompt": "Was rät sie zum Thema Handy?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das Handy leise stellen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Im Bett nur kurz lesen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Das Handy eine Stunde vorher weglegen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ich empfehle, das Handy eine Stunde vor dem Schlafen wegzulegen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-4",
+                  "prompt": "Was sagt sie über Alkohol am Abend?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ein Glas Wein hilft die ganze Nacht."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Alkohol macht überhaupt nicht müde."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Man schläft ein, wacht aber öfter auf."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Beim Einschlafen ja, aber danach schläft man deutlich schlechter.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-5",
+                  "prompt": "Wann sollte man zum Arzt gehen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Wenn die Probleme über vier Wochen dauern."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Nach einer schlechten Nacht."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nur wenn man Schmerzen hat."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Wenn die Probleme länger als vier Wochen dauern und man tagsüber sehr müde ist.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Zuordnung",
+          "instructions": "Sie hören eine Person, die über fünf andere Personen erzählt. Ordnen Sie jeder Person die passende Aussage zu. Drei Aussagen bleiben übrig. Sie hören den Text zweimal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-03/hoeren-teil-3.mp3",
+            "transcript": "Eine Teamleiterin erklärt einem Kollegen, warum diese Woche mehrere Personen fehlen.\n\nTeamleiterin: Diese Woche ist bei uns viel los, fast alle haben einen Termin.\nFrau Lindner hat seit Tagen Zahnschmerzen. Sie geht morgen früh hin, sie hält es nicht mehr aus.\nHerr Yilmaz hat Probleme mit dem Rücken. Der Arzt hat ihm zehn Termine verschrieben, Übungen und Massage. Die erste Behandlung ist am Montag.\nFrau Bergmann sieht seit einiger Zeit schlecht, besonders abends beim Autofahren. Sie lässt zuerst die Augen untersuchen; die neue Brille kommt später.\nHerr Sandu muss nur ein Formular abgeben. Seine Frau war im Ausland beim Arzt, und sie bekommen das Geld zurück. Das macht er in der Mittagspause.\nUnd Frau Nowak bringt ihren Sohn hin. Er ist gestern vom Klettergerüst gefallen, der Arm ist dick und muss sofort geröntgt werden. Warten kann sie damit nicht.\nIn die Apotheke muss zum Glück niemand, und ins Fitnessstudio geht diese Woche auch keiner."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-block",
+              "prompt": "Wohin geht diese Person in dieser Woche?",
+              "stimuli": [
+                {
+                  "title": "Aussagen",
+                  "text": "A  zum Zahnarzt\nB  in die Apotheke\nC  zur Physiotherapie\nD  zur Augenärztin\nE  zur Krankenkasse\nF  in die Notaufnahme\nG  zur Ernährungsberatung\nH  ins Fitnessstudio"
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "A  zum Zahnarzt"
+                },
+                {
+                  "id": "b",
+                  "text": "B  in die Apotheke"
+                },
+                {
+                  "id": "c",
+                  "text": "C  zur Physiotherapie"
+                },
+                {
+                  "id": "d",
+                  "text": "D  zur Augenärztin"
+                },
+                {
+                  "id": "e",
+                  "text": "E  zur Krankenkasse"
+                },
+                {
+                  "id": "f",
+                  "text": "F  in die Notaufnahme"
+                },
+                {
+                  "id": "g",
+                  "text": "G  zur Ernährungsberatung"
+                },
+                {
+                  "id": "h",
+                  "text": "H  ins Fitnessstudio"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h3-1",
+                  "prompt": "Frau Lindner",
+                  "solution": "a",
+                  "explanation": "„Frau Lindner hat seit Tagen Zahnschmerzen. Sie geht morgen früh hin.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-2",
+                  "prompt": "Herr Yilmaz",
+                  "solution": "c",
+                  "explanation": "„Der Arzt hat ihm zehn Termine verschrieben, Übungen und Massage.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-3",
+                  "prompt": "Frau Bergmann",
+                  "solution": "d",
+                  "explanation": "„Sie lässt zuerst die Augen untersuchen“ – die Brille kommt erst danach."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-4",
+                  "prompt": "Herr Sandu",
+                  "solution": "e",
+                  "explanation": "Er gibt ein Formular ab, um Geld für eine Behandlung im Ausland zurückzubekommen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-5",
+                  "prompt": "Frau Nowak",
+                  "solution": "f",
+                  "explanation": "Der Arm des Sohnes muss sofort geröntgt werden: „Warten kann sie damit nicht.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 25,
+      "description": "Sie lesen einen Zeitungstext, Anzeigen und kurze Texte aus dem Alltag und lösen dazu Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Zeitungstext",
+          "instructions": "Lesen Sie den Text. Sind die Sätze richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-text",
+              "stimuli": [
+                {
+                  "title": "Ein Arzt, der Deutsch erklärt",
+                  "text": "In der Praxis von Dr. Samir Haddad in Duisburg hängt kein normales Wartezimmer-Plakat an der Wand, sondern eine Liste mit Wörtern: Überweisung, Rezept, Krankschreibung, Facharzt.\n\n„Viele meiner Patientinnen und Patienten sprechen noch nicht gut Deutsch“, sagt Haddad. „Sie verstehen dann nicht, warum sie zu einem anderen Arzt gehen sollen.“ Deshalb erklärt er die wichtigsten Wörter gleich am Anfang.\n\nEinmal im Monat bietet die Praxis außerdem einen Abend für neue Patienten an. Dort erklärt eine Mitarbeiterin, wie das deutsche Gesundheitssystem funktioniert: Was zahlt die Krankenkasse? Wann braucht man einen Termin? Wohin geht man am Wochenende?\n\nDer Abend ist kostenlos, eine Anmeldung ist aber nötig, weil nur zwanzig Personen Platz haben. „Am Anfang kamen fünf Leute“, erzählt Haddad. „Heute ist der Raum jedes Mal voll.“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-1",
+                  "statement": "Dr. Haddad erklärt seinen Patienten wichtige deutsche Wörter.",
+                  "solution": true,
+                  "explanation": "„Deshalb erklärt er die wichtigsten Wörter gleich am Anfang.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-2",
+                  "statement": "Der Informationsabend findet jede Woche statt.",
+                  "solution": false,
+                  "explanation": "„Einmal im Monat bietet die Praxis … einen Abend für neue Patienten an.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-3",
+                  "statement": "Für den Abend muss man bezahlen.",
+                  "solution": false,
+                  "explanation": "„Der Abend ist kostenlos.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-4",
+                  "statement": "Man muss sich für den Abend anmelden.",
+                  "solution": true,
+                  "explanation": "„… eine Anmeldung ist aber nötig, weil nur zwanzig Personen Platz haben.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-5",
+                  "statement": "Heute kommen mehr Menschen zu dem Abend als am Anfang.",
+                  "solution": true,
+                  "explanation": "„Am Anfang kamen fünf Leute … Heute ist der Raum jedes Mal voll.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Anzeigen",
+          "instructions": "Lesen Sie die acht Anzeigen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Nicht alle Anzeigen werden gebraucht.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "text": "Hausarztpraxis Dr. Haddad – Sprechstunde ohne Termin\njeden Morgen von 8 bis 10 Uhr. Beratung auch auf Arabisch."
+                },
+                {
+                  "title": "Anzeige b",
+                  "text": "Apotheken-Notdienst – welche Apotheke heute Nacht geöffnet hat,\nerfahren Sie unter www.notdienst-apotheke.de"
+                },
+                {
+                  "title": "Anzeige c",
+                  "text": "Rückenkurs der Krankenkasse – 10 Termine, montags 18 Uhr.\nDie Kasse zahlt 80 Prozent der Kosten."
+                },
+                {
+                  "title": "Anzeige d",
+                  "text": "Zahnarztpraxis Lang – Angstpatienten willkommen.\nWir nehmen uns Zeit. Termine auch am Samstag."
+                },
+                {
+                  "title": "Anzeige e",
+                  "text": "Hebammenpraxis Storchennest – Kurse für werdende Eltern\nund Betreuung nach der Geburt."
+                },
+                {
+                  "title": "Anzeige f",
+                  "text": "Krankenkasse Nord – wir beraten Sie zum Wechsel.\nOnline oder in unserer Filiale am Markt."
+                },
+                {
+                  "title": "Anzeige g",
+                  "text": "Sanitätshaus Fischer – Gehhilfen, Rollstühle und Bandagen.\nAuf Rezept oder zum Kauf."
+                },
+                {
+                  "title": "Anzeige h",
+                  "text": "Sportverein Aktiv – Wassergymnastik für Menschen ab 60.\nDienstags und freitags im Hallenbad."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Hausarztpraxis Dr. Haddad"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Apotheken-Notdienst"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Rückenkurs der Krankenkasse"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Zahnarztpraxis Lang"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Hebammenpraxis Storchennest"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Krankenkasse Nord"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Sanitätshaus Fischer"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Sportverein Aktiv"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Sie haben nachts starke Schmerzen und brauchen ein Medikament.",
+                  "solution": "b",
+                  "explanation": "Der Notdienst zeigt, welche Apotheke nachts geöffnet hat."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Sie erwarten ein Kind und suchen einen Kurs zur Vorbereitung.",
+                  "solution": "e",
+                  "explanation": "Die Hebammenpraxis bietet Kurse für werdende Eltern an."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Ihre Mutter ist 72 und soll sich im Wasser bewegen.",
+                  "solution": "h",
+                  "explanation": "Wassergymnastik für Menschen ab 60 im Hallenbad."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie haben große Angst vor dem Bohrer und arbeiten unter der Woche.",
+                  "solution": "d",
+                  "explanation": "Die Zahnarztpraxis nimmt Angstpatienten und bietet Samstagstermine."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Ihr Vater kann nach der Operation nicht gut laufen und braucht eine Gehhilfe.",
+                  "solution": "g",
+                  "explanation": "Das Sanitätshaus hat Gehhilfen, auf Rezept oder zum Kauf."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Schilder und Notizen",
+          "instructions": "Lesen Sie die Schilder und Notizen. Zu jedem Text gibt es eine Frage. Wählen Sie die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-schild-1",
+              "stimuli": [
+                {
+                  "title": "Schild 1 – im Wartezimmer",
+                  "text": "Liebe Patientinnen und Patienten,\nbitte melden Sie sich zuerst am Empfang an,\nauch wenn Sie einen Termin haben.\nOhne Anmeldung werden Sie nicht aufgerufen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-1",
+                  "prompt": "Was gilt für Patienten mit Termin?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie müssen sich auch anmelden."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie können direkt Platz nehmen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie werden zuerst aufgerufen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… bitte melden Sie sich zuerst am Empfang an, auch wenn Sie einen Termin haben.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-2",
+              "stimuli": [
+                {
+                  "title": "Schild 2 – an der Apothekentür",
+                  "text": "NOTDIENST HEUTE\nStern-Apotheke, Bahnhofstraße 12\nBitte klingeln – die Tür ist nachts geschlossen.\nNotdienstgebühr: 2,50 €"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was müssen Sie nachts tun?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Klingeln und eine Gebühr zahlen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Vorher anrufen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Tür aufmachen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Bitte klingeln … Notdienstgebühr: 2,50 €“."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3 – vom Arzt",
+                  "text": "Frau Lindner,\nnehmen Sie die Tabletten dreimal täglich,\nimmer nach dem Essen.\nWenn es nach fünf Tagen nicht besser ist,\nkommen Sie bitte noch einmal.\nDr. Hoffmann"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-3",
+                  "prompt": "Wann soll Frau Lindner wiederkommen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "In jedem Fall nach fünf Tagen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Nur wenn es ihr nicht besser geht."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sofort nach den Tabletten."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Wenn es nach fünf Tagen nicht besser ist, kommen Sie bitte noch einmal.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-4",
+              "stimuli": [
+                {
+                  "title": "Schild 4 – im Krankenhaus",
+                  "text": "STATION 4B\nBitte desinfizieren Sie sich die Hände,\nbevor Sie das Zimmer betreten.\nBlumen sind auf dieser Station nicht erlaubt."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Was dürfen Besucher hier nicht mitbringen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Essen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Blumen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Kinder"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Blumen sind auf dieser Station nicht erlaubt.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-5",
+              "stimuli": [
+                {
+                  "title": "Schild 5 – bei der Krankenkasse",
+                  "text": "WICHTIG\nKrankmeldungen müssen spätestens am dritten Tag\nbei uns eingehen.\nSie können sie auch online hochladen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-5",
+                  "prompt": "Bis wann muss die Krankmeldung da sein?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Am ersten Tag"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Spätestens am dritten Tag"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Innerhalb einer Woche"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Krankmeldungen müssen spätestens am dritten Tag bei uns eingehen.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 25,
+      "description": "Sie füllen ein Formular aus und schreiben eine E-Mail. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie zu jeder Aufgabe eine Musterlösung.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "Teil 1 – Formular",
+          "instructions": "Ihr Kollege Tuan Pham meldet sich in der Hausarztpraxis Dr. Haddad als neuer Patient an. Er kommt aus Vietnam und ist am 03.12.1994 in Hanoi geboren. Er wohnt in 47051 Duisburg. Seine Krankenkasse ist die Krankenkasse Nord. Füllen Sie das Formular für ihn aus.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-formular",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Familienname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Pham"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-2",
+                  "prompt": "Vorname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Tuan"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-3",
+                  "prompt": "Geburtsdatum",
+                  "inputMode": "single-line",
+                  "musterloesung": "03.12.1994"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-4",
+                  "prompt": "Postleitzahl und Wohnort",
+                  "inputMode": "single-line",
+                  "musterloesung": "47051 Duisburg"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-5",
+                  "prompt": "Krankenkasse",
+                  "inputMode": "single-line",
+                  "musterloesung": "Krankenkasse Nord"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schreiben-teil-2",
+          "title": "Teil 2 – E-Mail",
+          "instructions": "Sie sind seit drei Tagen krank und können nicht zur Arbeit kommen. Schreiben Sie eine E-Mail an Ihre Chefin, Frau Bergmann. Schreiben Sie 40 bis 50 Wörter.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-2-mail",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s2-1",
+                  "prompt": "Schreiben Sie die E-Mail an Frau Bergmann.",
+                  "criteria": [
+                    "Grund: Warum schreiben Sie?",
+                    "Dauer: Wie lange fehlen Sie voraussichtlich?",
+                    "Krankmeldung: Was machen Sie mit dem Attest?",
+                    "Arbeit: Wer übernimmt Ihre Aufgaben?"
+                  ],
+                  "hints": [
+                    "Schreiben Sie förmlich („Sehr geehrte Frau Bergmann“).",
+                    "Vergessen Sie den Gruß am Ende nicht."
+                  ],
+                  "minWords": 40,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Frau Bergmann,\n\nleider bin ich krank. Ich habe eine starke Erkältung und Fieber. Der Arzt hat mich bis Freitag krankgeschrieben.\n\nDie Krankmeldung schicke ich Ihnen heute noch per Post. Herr Pham hat gesagt, dass er meine Termine übernehmen kann.\n\nMit freundlichen Grüßen\nMaria Lindner"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet. Nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie zu den Stichwörtern. Sie können Ihre Antwort hier kurz notieren – das ist freiwillig.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Alter – Herkunft – Wohnort – Familie – Beruf – Sprachen – Warum lernen Sie Deutsch?",
+                  "hints": [
+                    "Sprechen Sie in ganzen Sätzen, etwa zwei Minuten.",
+                    "Sagen Sie auch, seit wann Sie in Deutschland leben.",
+                    "Buchstabieren Sie am Ende Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Mein Name ist Tuan Pham. Ich bin 30 Jahre alt und komme aus Vietnam, aus Hanoi. Seit zwei Jahren wohne ich in Duisburg. Ich lebe hier mit meinem Bruder zusammen. Von Beruf bin ich Krankenpfleger und arbeite in einem Altenheim. Ich spreche Vietnamesisch, Englisch und Deutsch. Deutsch lerne ich vor allem für die Arbeit: Ich muss mit den Bewohnern und mit den Ärzten sprechen. Mein Familienname ist Pham: P – H – A – M."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Ein Alltagsgespräch führen",
+          "instructions": "Thema: Gesundheit. Bilden Sie mit dem Satzanfang eine Frage an Ihre Gesprächspartnerin oder Ihren Gesprächspartner – und antworten Sie dann selbst darauf.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Satzanfang: „Wie oft …?“",
+                  "musterloesung": "Frage: Wie oft gehen Sie zum Arzt?\nAntwort: Nicht sehr oft, vielleicht zweimal im Jahr. Zum Zahnarzt gehe ich aber regelmäßig, einmal jedes halbe Jahr zur Kontrolle."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Satzanfang: „Was machen Sie, wenn …?“",
+                  "musterloesung": "Frage: Was machen Sie, wenn Sie eine Erkältung haben?\nAntwort: Ich trinke viel Tee mit Honig und bleibe einen Tag im Bett. Wenn ich Fieber bekomme, rufe ich meinen Hausarzt an."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Zusammen etwas planen",
+          "instructions": "Lesen Sie die Situation. Planen Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner. Machen Sie Vorschläge, reagieren Sie auf Vorschläge und einigen Sie sich am Ende.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Eine Kollegin liegt nach einer Operation im Krankenhaus. Sie möchten sie zu zweit besuchen. Planen Sie zusammen.",
+                  "hints": [
+                    "Wann besuchen Sie sie? (Besuchszeit beachten)",
+                    "Wie kommen Sie zum Krankenhaus?",
+                    "Was bringen Sie mit?",
+                    "Wer sagt der Kollegin Bescheid?"
+                  ],
+                  "musterloesung": "A: Hast du gehört, dass Frau Nowak operiert wurde? Wollen wir sie besuchen?\nB: Ja, gern. Wann können wir denn hin?\nA: Die Besuchszeit ist täglich von 14 bis 18 Uhr. Wie wäre es am Mittwoch nach der Arbeit?\nB: Mittwoch kann ich leider nicht, da habe ich einen Termin. Geht auch Donnerstag?\nA: Ja, Donnerstag passt mir auch. Treffen wir uns um halb vier vor dem Krankenhaus?\nB: Gut. Fährst du mit dem Auto? Dann könnte ich mitkommen.\nA: Ja, ich hole dich um Viertel nach drei ab. Und was bringen wir mit?\nB: Blumen sind auf der Station leider verboten. Vielleicht Obst und eine Karte vom ganzen Team?\nA: Sehr gute Idee. Ich kaufe das Obst, du besorgst die Karte und lässt sie im Büro unterschreiben.\nB: Mache ich. Und ich schreibe ihr kurz, dass wir kommen."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

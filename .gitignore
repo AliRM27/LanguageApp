@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+build/
+.DS_Store
+*.pem
+npm-debug.log*
+.env
+.env*.local
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# Synthesised speech, cached per segment. Regenerate with `npm run audio:build`.
+audio/.cache/
+
+keys/

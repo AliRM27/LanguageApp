@@ -1,0 +1,855 @@
+{
+  "id": "uebungstest-a2-02",
+  "language": "de",
+  "level": "A2",
+  "title": "Übungstest A2 – Nr. 2",
+  "description": "Ein vollständiger Übungstest auf Niveau A2 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Wohnen und Umzug.",
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 30,
+      "description": "Sie hören Nachrichten, eine Radiosendung und einen Bericht. Notieren Sie Informationen, wählen Sie die richtige Antwort und ordnen Sie zu.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Notizen ergänzen",
+          "instructions": "Sie hören fünf kurze Nachrichten. Ergänzen Sie die fehlende Information im Satz. Sie hören jede Nachricht zweimal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-02/hoeren-teil-1.mp3",
+            "transcript": "Nachricht 1\nGuten Tag, Herr Aydin, hier ist die Hausverwaltung Meier. Der Techniker kommt am Dienstag zwischen 9 und 12 Uhr. Bitte seien Sie zu Hause.\n\nNachricht 2\nHallo, hier ist die Umzugsfirma Leicht und Schnell. Wir haben Ihren Termin notiert. Der Wagen kommt am 15. April um sieben Uhr morgens.\n\nNachricht 3\nGuten Tag, Frau Weber. Ihr neuer Kühlschrank wird geliefert. Bitte notieren Sie die Auftragsnummer: 48 21 07. Also noch einmal: 48 21 07.\n\nNachricht 4\nLiebe Mieterinnen und Mieter, ab nächster Woche ist das Hausmeisterbüro nicht mehr im Keller, sondern im Erdgeschoss neben dem Eingang.\n\nNachricht 5\nGuten Tag, hier ist das Möbelhaus Wagner. Ihr Sofa kostet mit Lieferung 640 Euro. Die Lieferung selbst ist kostenlos, das Sofa allein kostet 640 Euro."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-notiz-1",
+              "stimuli": [
+                {
+                  "title": "Notiz 1",
+                  "text": "HAUSVERWALTUNG MEIER\nBesuch vom Techniker"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-1",
+                  "prompt": "Der Techniker kommt am ___ zwischen 9 und 12 Uhr.",
+                  "solution": "Dienstag",
+                  "acceptedAnswers": [
+                    "Di",
+                    "Di."
+                  ],
+                  "explanation": "„Der Techniker kommt am Dienstag zwischen 9 und 12 Uhr.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-2",
+              "stimuli": [
+                {
+                  "title": "Notiz 2",
+                  "text": "UMZUG\nFirma: Leicht und Schnell"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-2",
+                  "prompt": "Der Möbelwagen kommt am ___ um sieben Uhr morgens.",
+                  "solution": "15. April",
+                  "acceptedAnswers": [
+                    "15.04.",
+                    "15.4.",
+                    "fünfzehnten April"
+                  ],
+                  "explanation": "„Der Wagen kommt am 15. April um sieben Uhr morgens.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3",
+                  "text": "LIEFERUNG KÜHLSCHRANK\nFür: Frau Weber"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-3",
+                  "prompt": "Die Auftragsnummer für den Kühlschrank ist ___ .",
+                  "solution": "48 21 07",
+                  "explanation": "„Bitte notieren Sie die Auftragsnummer: 48 21 07.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-4",
+              "stimuli": [
+                {
+                  "title": "Notiz 4",
+                  "text": "AUSHANG IM TREPPENHAUS\nDas Hausmeisterbüro zieht um."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-4",
+                  "prompt": "Das Hausmeisterbüro ist ab nächster Woche im ___ .",
+                  "solution": "Erdgeschoss",
+                  "acceptedAnswers": [
+                    "EG",
+                    "Erdgeschoß"
+                  ],
+                  "explanation": "„… nicht mehr im Keller, sondern im Erdgeschoss neben dem Eingang.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-5",
+              "stimuli": [
+                {
+                  "title": "Notiz 5",
+                  "text": "MÖBELHAUS WAGNER\nBestellung: Sofa"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-5",
+                  "prompt": "Das Sofa kostet ___ Euro, die Lieferung ist kostenlos.",
+                  "solution": "640",
+                  "acceptedAnswers": [
+                    "640 Euro",
+                    "640,00"
+                  ],
+                  "explanation": "„Das Sofa allein kostet 640 Euro.“ Die Lieferung ist kostenlos."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Radiosendung",
+          "instructions": "Sie hören ein Interview im Radio. Wählen Sie zu jeder Aufgabe die richtige Antwort. Sie hören das Interview einmal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-02/hoeren-teil-2.mp3",
+            "transcript": "Moderatorin: Guten Tag. Heute sprechen wir über ein besonderes Wohnprojekt in Dresden. Mein Gast ist Herr Thomas Renz. Herr Renz, was ist das Besondere an Ihrem Haus?\n\nThomas Renz: Bei uns wohnen junge Familien und ältere Menschen zusammen in einem Haus. Wir haben 24 Wohnungen und außerdem einen großen Gemeinschaftsraum im Erdgeschoss.\n\nModeratorin: Und wofür benutzen Sie diesen Raum?\n\nRenz: Für alles Mögliche. Einmal in der Woche kochen wir dort zusammen. Manchmal feiern wir Geburtstage, und die Kinder machen dort auch ihre Hausaufgaben, wenn die Eltern noch arbeiten.\n\nModeratorin: Ist die Miete teurer als anderswo?\n\nRenz: Nein, im Gegenteil. Wir zahlen ungefähr einen Euro weniger pro Quadratmeter als in der Nachbarschaft. Dafür müssen aber alle mithelfen: Jeder arbeitet zwei Stunden im Monat für die Gemeinschaft, zum Beispiel im Garten oder im Treppenhaus.\n\nModeratorin: Gibt es auch Probleme?\n\nRenz: Natürlich. Am Anfang haben wir über jede Kleinigkeit diskutiert, das war sehr anstrengend. Heute treffen wir uns nur noch einmal im Monat und entscheiden alles gemeinsam. Das funktioniert viel besser.\n\nModeratorin: Kann man bei Ihnen einziehen?\n\nRenz: Im Moment leider nicht. Wir haben eine Warteliste, und da stehen etwa 60 Familien darauf. Aber es gibt inzwischen ähnliche Projekte in anderen Städten."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-1",
+                  "prompt": "Wer wohnt in dem Haus?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nur ältere Menschen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Junge Familien und ältere Menschen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Vor allem Studenten."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Bei uns wohnen junge Familien und ältere Menschen zusammen in einem Haus.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-2",
+                  "prompt": "Was passiert im Gemeinschaftsraum?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dort wird nur gefeiert."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dort ist das Büro der Hausverwaltung."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dort wird gekocht, gefeiert und gelernt."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Gemeinsames Kochen, Geburtstage und Hausaufgaben der Kinder."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-3",
+                  "prompt": "Wie hoch ist die Miete?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Deutlich höher, wegen des Gemeinschaftsraums."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Genauso hoch wie überall."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Etwas niedriger als in der Nachbarschaft."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Wir zahlen ungefähr einen Euro weniger pro Quadratmeter.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-4",
+                  "prompt": "Was müssen die Bewohner dafür tun?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie müssen im Garten wohnen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie müssen jeden Tag zusammen kochen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie arbeiten zwei Stunden im Monat für alle."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Jeder arbeitet zwei Stunden im Monat für die Gemeinschaft.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-5",
+                  "prompt": "Warum kann man im Moment nicht einziehen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das Haus wird gerade renoviert."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Wohnungen sind zu teuer geworden."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Es gibt eine lange Warteliste."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Wir haben eine Warteliste, und da stehen etwa 60 Familien darauf.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Zuordnung",
+          "instructions": "Sie hören eine Person, die über fünf andere Personen erzählt. Ordnen Sie jeder Person die passende Aussage zu. Drei Aussagen bleiben übrig. Sie hören den Text zweimal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-02/hoeren-teil-3.mp3",
+            "transcript": "Die Hausmeisterin ruft bei der Hausverwaltung an und meldet die Probleme aus dem Haus.\n\nHausmeisterin: Guten Tag, ich rufe wegen der Beschwerden aus der Lindenstraße 24 an. Ich habe mir alles notiert.\nBei Herrn Aydin wird es im Winter einfach nicht warm. Die Heizung bleibt lauwarm, egal wie hoch er sie stellt. Der Techniker war schon zweimal da.\nFrau Weber beschwert sich über die Familie über ihr. Bis elf Uhr abends hört sie jeden Schritt und kann kaum noch schlafen.\nHerr Novak wohnt im sechsten Stock. Seit drei Wochen steht der Aufzug still, und seine Frau hat ein krankes Knie. Für sie ist das sehr schwierig.\nBei Frau Silva tropft es. Im Bad ist die Decke schon ganz nass, und im Schlafzimmer riecht es nach Feuchtigkeit.\nUnd Herr Kowalski hat letzte Woche im Hof sein Fahrrad gesucht – es war weg. Das Schloss lag noch da.\nÜber die Miete hat sich diesmal niemand beschwert, und Schlüssel sind auch keine verloren gegangen."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-block",
+              "prompt": "Welches Problem hat diese Person?",
+              "stimuli": [
+                {
+                  "title": "Aussagen",
+                  "text": "A  Die Heizung wird nicht richtig warm.\nB  Die Nachbarn sind zu laut.\nC  Die Miete ist zu teuer geworden.\nD  Der Aufzug funktioniert nicht.\nE  Es gibt kein Internet in der Wohnung.\nF  In der Wohnung ist Wasser eingedrungen.\nG  Das Fahrrad wurde gestohlen.\nH  Der Schlüssel ist verloren gegangen."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "A  Die Heizung wird nicht richtig warm."
+                },
+                {
+                  "id": "b",
+                  "text": "B  Die Nachbarn sind zu laut."
+                },
+                {
+                  "id": "c",
+                  "text": "C  Die Miete ist zu teuer geworden."
+                },
+                {
+                  "id": "d",
+                  "text": "D  Der Aufzug funktioniert nicht."
+                },
+                {
+                  "id": "e",
+                  "text": "E  Es gibt kein Internet in der Wohnung."
+                },
+                {
+                  "id": "f",
+                  "text": "F  In der Wohnung ist Wasser eingedrungen."
+                },
+                {
+                  "id": "g",
+                  "text": "G  Das Fahrrad wurde gestohlen."
+                },
+                {
+                  "id": "h",
+                  "text": "H  Der Schlüssel ist verloren gegangen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h3-1",
+                  "prompt": "Herr Aydin",
+                  "solution": "a",
+                  "explanation": "„Die Heizung bleibt lauwarm, egal wie hoch er sie stellt.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-2",
+                  "prompt": "Frau Weber",
+                  "solution": "b",
+                  "explanation": "„Bis elf Uhr abends hört sie jeden Schritt und kann kaum noch schlafen.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-3",
+                  "prompt": "Herr Novak",
+                  "solution": "d",
+                  "explanation": "„Seit drei Wochen steht der Aufzug still.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-4",
+                  "prompt": "Frau Silva",
+                  "solution": "f",
+                  "explanation": "„Im Bad ist die Decke schon ganz nass, und im Schlafzimmer riecht es nach Feuchtigkeit.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-5",
+                  "prompt": "Herr Kowalski",
+                  "solution": "g",
+                  "explanation": "„… hat letzte Woche im Hof sein Fahrrad gesucht – es war weg. Das Schloss lag noch da.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 25,
+      "description": "Sie lesen einen Zeitungstext, Anzeigen und kurze Texte aus dem Alltag und lösen dazu Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Zeitungstext",
+          "instructions": "Lesen Sie den Text. Sind die Sätze richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-text",
+              "stimuli": [
+                {
+                  "title": "Kleiner wohnen, mehr erleben",
+                  "text": "Vor zwei Jahren ist Familie Berger aus einem Haus mit 140 Quadratmetern in eine Wohnung mit 75 Quadratmetern gezogen. „Unsere Kinder sind ausgezogen, und wir haben die Hälfte der Zimmer gar nicht mehr benutzt“, erzählt Petra Berger.\n\nDer Umzug war viel Arbeit. Drei Monate lang haben die beiden Möbel verkauft und Kisten gepackt. „Am schwersten war es bei den Büchern. Wir hatten über tausend Stück, jetzt sind es noch dreihundert.“\n\nHeute zahlen die Bergers 400 Euro weniger im Monat. Von diesem Geld machen sie jedes Jahr eine größere Reise. Außerdem müssen sie nicht mehr am Wochenende den Garten pflegen.\n\nEines vermissen sie aber doch: den alten Nachbarn. „In der neuen Straße kennen wir erst wenige Leute. Das braucht Zeit.“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-1",
+                  "statement": "Familie Berger wohnt jetzt in einer kleineren Wohnung.",
+                  "solution": true,
+                  "explanation": "Von 140 Quadratmetern in eine Wohnung mit 75 Quadratmetern."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-2",
+                  "statement": "Die Bergers sind umgezogen, weil sie mehr Platz brauchten.",
+                  "solution": false,
+                  "explanation": "Die Kinder sind ausgezogen und die Hälfte der Zimmer wurde nicht mehr benutzt."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-3",
+                  "statement": "Die Familie hat fast alle Bücher behalten.",
+                  "solution": false,
+                  "explanation": "Von über tausend Büchern sind noch dreihundert übrig."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-4",
+                  "statement": "Mit dem gesparten Geld machen die Bergers eine Reise im Jahr.",
+                  "solution": true,
+                  "explanation": "„Von diesem Geld machen sie jedes Jahr eine größere Reise.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-5",
+                  "statement": "In der neuen Straße haben sie schon viele Menschen kennengelernt.",
+                  "solution": false,
+                  "explanation": "„In der neuen Straße kennen wir erst wenige Leute.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Anzeigen",
+          "instructions": "Lesen Sie die acht Anzeigen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Nicht alle Anzeigen werden gebraucht.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "text": "Möbelhaus Wagner – Küchen nach Maß.\nKostenlose Beratung, Lieferung und Aufbau."
+                },
+                {
+                  "title": "Anzeige b",
+                  "text": "Schlüsseldienst Nord – rund um die Uhr erreichbar.\nFestpreis 89 Euro, auch nachts und am Wochenende."
+                },
+                {
+                  "title": "Anzeige c",
+                  "text": "Zwischenmiete: möbliertes Zimmer für drei Monate,\n350 Euro, ab 1. Juni. Nur für Studierende."
+                },
+                {
+                  "title": "Anzeige d",
+                  "text": "Malerbetrieb Farbe & Form – wir streichen Ihre Wohnung\nvor dem Auszug. Angebot kostenlos."
+                },
+                {
+                  "title": "Anzeige e",
+                  "text": "Mieterverein Leipzig – Beratung bei Problemen mit dem Vermieter.\nMitgliedsbeitrag 8 Euro im Monat."
+                },
+                {
+                  "title": "Anzeige f",
+                  "text": "Transporter zu mieten – 7,5 m³, ab 45 Euro pro Tag.\nFührerschein Klasse B genügt."
+                },
+                {
+                  "title": "Anzeige g",
+                  "text": "Sperrmüll-Abholung der Stadt – zweimal im Jahr kostenlos.\nAnmeldung online nötig."
+                },
+                {
+                  "title": "Anzeige h",
+                  "text": "Wohnungsreinigung Blitzblank – Endreinigung nach dem Umzug.\nAb 120 Euro."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Möbelhaus Wagner"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Schlüsseldienst Nord"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Zwischenmiete für Studierende"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Malerbetrieb Farbe & Form"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Mieterverein Leipzig"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Transporter zu mieten"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Sperrmüll-Abholung der Stadt"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Wohnungsreinigung Blitzblank"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Sie ziehen selbst um und brauchen für einen Tag ein größeres Auto.",
+                  "solution": "f",
+                  "explanation": "Der Transporter kostet ab 45 Euro pro Tag, Führerschein Klasse B genügt."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Ihr Vermieter will die Kaution nicht zurückzahlen und Sie brauchen Rat.",
+                  "solution": "e",
+                  "explanation": "Der Mieterverein berät bei Problemen mit dem Vermieter."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Sie müssen ein altes Sofa und einen kaputten Schrank loswerden.",
+                  "solution": "g",
+                  "explanation": "Die Sperrmüll-Abholung der Stadt ist zweimal im Jahr kostenlos."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie stehen um zwei Uhr nachts vor Ihrer Wohnungstür und kommen nicht hinein.",
+                  "solution": "b",
+                  "explanation": "Der Schlüsseldienst ist rund um die Uhr erreichbar, auch nachts."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie studieren und suchen für ein Semester ein günstiges Zimmer.",
+                  "solution": "c",
+                  "explanation": "Die Zwischenmiete für drei Monate ist nur für Studierende."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Schilder und Notizen",
+          "instructions": "Lesen Sie die Schilder und Notizen. Zu jedem Text gibt es eine Frage. Wählen Sie die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-schild-1",
+              "stimuli": [
+                {
+                  "title": "Schild 1 – im Waschkeller",
+                  "text": "WASCHMASCHINEN\nBitte tragen Sie sich in die Liste ein.\nJede Wohnung darf zwei Zeiten pro Woche buchen.\nNach dem Waschen bitte das Flusensieb reinigen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-1",
+                  "prompt": "Wie oft pro Woche darf eine Wohnung waschen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Zweimal"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Einmal"
+                    },
+                    {
+                      "id": "c",
+                      "text": "So oft man möchte"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Jede Wohnung darf zwei Zeiten pro Woche buchen.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-2",
+              "stimuli": [
+                {
+                  "title": "Schild 2 – an der Haustür",
+                  "text": "Liebe Bewohnerinnen und Bewohner,\nam Donnerstag wird das Treppenhaus gestrichen.\nBitte stellen Sie bis Mittwochabend alles aus dem Flur.\nSchuhe und Kinderwagen werden sonst entfernt."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was müssen die Bewohner tun?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Am Donnerstag zu Hause bleiben."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Den Flur bis Mittwochabend leer räumen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Selbst streichen."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Bitte stellen Sie bis Mittwochabend alles aus dem Flur.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3 – im Briefkasten",
+                  "text": "Sehr geehrte Frau Silva,\nwir waren heute wegen des Wasserschadens bei Ihnen,\nhaben Sie aber nicht angetroffen.\nBitte rufen Sie uns bis Freitag an,\nsonst müssen wir einen neuen Termin berechnen.\nFirma Rohr & Co."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-3",
+                  "prompt": "Was passiert, wenn Frau Silva nicht anruft?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der nächste Termin kostet Geld."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Firma kommt einfach noch einmal."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der Schaden wird nicht repariert."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… sonst müssen wir einen neuen Termin berechnen.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-4",
+              "stimuli": [
+                {
+                  "title": "Schild 4 – im Hof",
+                  "text": "FAHRRÄDER\nBitte nur in den markierten Bereichen abstellen.\nFahrräder im Hausflur werden entfernt –\ndas ist aus Brandschutzgründen verboten."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Warum darf man Fahrräder nicht im Hausflur abstellen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil sie dort gestohlen werden."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Wegen des Brandschutzes."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil der Hof zu klein ist."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… das ist aus Brandschutzgründen verboten.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-5",
+              "stimuli": [
+                {
+                  "title": "Schild 5 – am Mülltonnenplatz",
+                  "text": "BIOTONNE\nHier hinein: Obst, Gemüse, Kaffeesatz, Gartenabfälle.\nNicht hinein: Plastiktüten – auch keine „Bio-Tüten“!"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-5",
+                  "prompt": "Was darf nicht in die Biotonne?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Tüten aus Plastik"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Kaffeesatz"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Gartenabfälle"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Nicht hinein: Plastiktüten – auch keine ‚Bio-Tüten‘!“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 25,
+      "description": "Sie füllen ein Formular aus und schreiben eine E-Mail. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie zu jeder Aufgabe eine Musterlösung.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "Teil 1 – Formular",
+          "instructions": "Ihre Freundin Amara Okoro meldet sich beim Mieterverein Leipzig an. Sie kommt aus Nigeria und ist am 07.02.1992 in Lagos geboren. Sie wohnt in der Gohliser Straße 12 in 04155 Leipzig und arbeitet als Buchhalterin. Füllen Sie das Formular für sie aus.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-formular",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Familienname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Okoro"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-2",
+                  "prompt": "Vorname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Amara"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-3",
+                  "prompt": "Geburtsdatum",
+                  "inputMode": "single-line",
+                  "musterloesung": "07.02.1992"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-4",
+                  "prompt": "Straße und Hausnummer",
+                  "inputMode": "single-line",
+                  "musterloesung": "Gohliser Straße 12"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-5",
+                  "prompt": "Beruf",
+                  "inputMode": "single-line",
+                  "musterloesung": "Buchhalterin"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schreiben-teil-2",
+          "title": "Teil 2 – E-Mail",
+          "instructions": "In Ihrer Wohnung gibt es seit einer Woche einen Wasserschaden im Bad. Schreiben Sie eine E-Mail an Ihre Hausverwaltung. Schreiben Sie 40 bis 50 Wörter.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-2-mail",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s2-1",
+                  "prompt": "Schreiben Sie die E-Mail an die Hausverwaltung.",
+                  "criteria": [
+                    "Grund: Warum schreiben Sie?",
+                    "Problem: Was genau ist passiert und seit wann?",
+                    "Wunsch: Was soll die Hausverwaltung tun?",
+                    "Termin: Wann sind Sie zu Hause?"
+                  ],
+                  "hints": [
+                    "Schreiben Sie förmlich („Sehr geehrte Frau …“).",
+                    "Vergessen Sie den Gruß am Ende nicht."
+                  ],
+                  "minWords": 40,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Frau Meier,\n\nich schreibe Ihnen wegen eines Wasserschadens in meiner Wohnung. Seit einer Woche tropft es im Bad, und die Decke ist schon ganz nass.\n\nKönnen Sie bitte so schnell wie möglich einen Handwerker schicken? Ich bin am Montag und am Mittwoch ab 15 Uhr zu Hause.\n\nMit freundlichen Grüßen\nAmara Okoro"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet. Nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie zu den Stichwörtern. Sie können Ihre Antwort hier kurz notieren – das ist freiwillig.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Alter – Herkunft – Wohnort – Familie – Beruf – Sprachen – Warum lernen Sie Deutsch?",
+                  "hints": [
+                    "Sprechen Sie in ganzen Sätzen, etwa zwei Minuten.",
+                    "Sagen Sie auch, seit wann Sie in Deutschland leben.",
+                    "Buchstabieren Sie am Ende Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Ich heiße Amara Okoro. Ich bin 32 Jahre alt und komme aus Nigeria, aus Lagos. Seit drei Jahren wohne ich in Leipzig, zusammen mit meinem Mann. Ich habe in Nigeria Wirtschaft studiert und arbeite hier als Buchhalterin. Ich spreche Englisch, Igbo und Deutsch. Deutsch lerne ich, weil ich mich im Büro sicherer fühlen möchte. Außerdem verstehe ich dann Briefe vom Amt besser. Mein Familienname ist Okoro: O – K – O – R – O."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Ein Alltagsgespräch führen",
+          "instructions": "Thema: Wohnen. Bilden Sie mit dem Satzanfang eine Frage an Ihre Gesprächspartnerin oder Ihren Gesprächspartner – und antworten Sie dann selbst darauf.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Satzanfang: „Wie lange …?“",
+                  "musterloesung": "Frage: Wie lange wohnen Sie schon in Ihrer Wohnung?\nAntwort: Seit drei Jahren. Am Anfang war die Wohnung fast leer, aber jetzt gefällt sie mir sehr gut. Nur die Küche ist ein bisschen klein."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Satzanfang: „Können Sie …?“",
+                  "musterloesung": "Frage: Können Sie mir Ihre Wohnung kurz beschreiben?\nAntwort: Gern. Ich habe zwei Zimmer, eine Küche und ein Bad. Das Wohnzimmer ist am größten und hat einen Balkon. Dort sitze ich im Sommer sehr oft."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Zusammen etwas planen",
+          "instructions": "Lesen Sie die Situation. Planen Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner. Machen Sie Vorschläge, reagieren Sie auf Vorschläge und einigen Sie sich am Ende.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Ein Freund von Ihnen zieht nächsten Samstag in eine neue Wohnung. Sie möchten ihm zu zweit beim Umzug helfen. Planen Sie zusammen.",
+                  "hints": [
+                    "Wann fangen Sie an?",
+                    "Wer organisiert den Transporter?",
+                    "Was nehmen Sie mit (Kartons, Werkzeug, Essen)?",
+                    "Wer fragt noch andere Leute?"
+                  ],
+                  "musterloesung": "A: Sami zieht am Samstag um. Sollen wir ihm helfen?\nB: Ja, unbedingt. Wann sollen wir anfangen?\nA: Ich schlage acht Uhr vor. Dann sind wir am Nachmittag fertig.\nB: Acht ist mir ehrlich gesagt zu früh. Wie wäre es mit neun?\nA: Gut, einigen wir uns auf neun. Und wer holt den Transporter?\nB: Das mache ich. Es gibt eine Firma am Bahnhof, dort kostet er 45 Euro am Tag.\nA: Perfekt. Dann besorge ich Kartons und bringe Werkzeug mit.\nB: Und das Essen? Nach vier Stunden haben alle Hunger.\nA: Ich bestelle am Mittag Pizza für alle. Fragst du noch Lena und Tobias?\nB: Ja, ich schreibe ihnen heute Abend. Dann bis Samstag um neun!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

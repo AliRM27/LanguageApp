@@ -1,0 +1,857 @@
+{
+  "id": "uebungstest-a2-08",
+  "language": "de",
+  "level": "A2",
+  "title": "Übungstest A2 – Nr. 8",
+  "description": "Ein vollständiger Übungstest auf Niveau A2 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Schule, Kinder und Weiterbildung.",
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 30,
+      "description": "Sie hören Nachrichten, eine Radiosendung und einen Bericht. Notieren Sie Informationen, wählen Sie die richtige Antwort und ordnen Sie zu.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Notizen ergänzen",
+          "instructions": "Sie hören fünf kurze Nachrichten. Ergänzen Sie die fehlende Information im Satz. Sie hören jede Nachricht zweimal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-08/hoeren-teil-1.mp3",
+            "transcript": "Nachricht 1\nGuten Tag, hier ist die Grundschule am Wald. Der Elternabend beginnt um 19 Uhr, und zwar im Musikraum, nicht in der Aula.\n\nNachricht 2\nHallo Frau Diallo, hier ist die Klassenlehrerin. Ihr Sohn hat sein Sportzeug vergessen. Bitte denken Sie am Mittwoch daran.\n\nNachricht 3\nGuten Tag, hier ist die Volkshochschule. Der Kurs kostet 96 Euro. Mit dem Bildungsgutschein zahlen Sie nichts.\n\nNachricht 4\nLiebe Eltern, der Ausflug in den Zoo kostet 8 Euro pro Kind. Bitte geben Sie das Geld bis Freitag in einem Umschlag mit.\n\nNachricht 5\nGuten Tag, hier ist das Sekretariat. Die Zeugnisse gibt es am letzten Schultag, dem 19. Juli. Der Unterricht endet an diesem Tag um 11 Uhr."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-notiz-1",
+              "stimuli": [
+                {
+                  "title": "Notiz 1",
+                  "text": "GRUNDSCHULE AM WALD\nElternabend"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-1",
+                  "prompt": "Der Elternabend beginnt um 19 Uhr im ___ , nicht in der Aula.",
+                  "solution": "Musikraum",
+                  "acceptedAnswers": [
+                    "im Musikraum"
+                  ],
+                  "explanation": "„… und zwar im Musikraum, nicht in der Aula.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-2",
+              "stimuli": [
+                {
+                  "title": "Notiz 2",
+                  "text": "NACHRICHT DER KLASSENLEHRERIN\nSohn hat das Sportzeug vergessen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-2",
+                  "prompt": "Das Sportzeug muss am ___ wieder mitgegeben werden.",
+                  "solution": "Mittwoch",
+                  "acceptedAnswers": [
+                    "Mi",
+                    "Mi."
+                  ],
+                  "explanation": "„Bitte denken Sie am Mittwoch daran.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3",
+                  "text": "VOLKSHOCHSCHULE\nKursgebühr"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-3",
+                  "prompt": "Der Kurs kostet ___ Euro, mit Bildungsgutschein ist er kostenlos.",
+                  "solution": "96",
+                  "acceptedAnswers": [
+                    "96 Euro",
+                    "96,00"
+                  ],
+                  "explanation": "„Der Kurs kostet 96 Euro.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-4",
+              "stimuli": [
+                {
+                  "title": "Notiz 4",
+                  "text": "ZOO-AUSFLUG\nGeld bis Freitag im Umschlag mitgeben"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-4",
+                  "prompt": "Der Ausflug in den Zoo kostet ___ Euro pro Kind.",
+                  "solution": "8",
+                  "acceptedAnswers": [
+                    "8 Euro",
+                    "acht"
+                  ],
+                  "explanation": "„Der Ausflug in den Zoo kostet 8 Euro pro Kind.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-5",
+              "stimuli": [
+                {
+                  "title": "Notiz 5",
+                  "text": "SEKRETARIAT\nZeugnisse am letzten Schultag"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-5",
+                  "prompt": "Am letzten Schultag, dem 19. Juli, endet der Unterricht um ___ Uhr.",
+                  "solution": "11",
+                  "acceptedAnswers": [
+                    "11:00",
+                    "elf"
+                  ],
+                  "explanation": "„Der Unterricht endet an diesem Tag um 11 Uhr.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Radiosendung",
+          "instructions": "Sie hören ein Interview im Radio. Wählen Sie zu jeder Aufgabe die richtige Antwort. Sie hören das Interview einmal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-08/hoeren-teil-2.mp3",
+            "transcript": "Moderatorin: An der Schillerschule gibt es seit zwei Jahren ein Projekt, über das viel gesprochen wird. Bei mir ist der Lehrer Herr Paul Winter. Herr Winter, worum geht es?\n\nPaul Winter: Wir haben aus dem alten Schulhof einen Garten gemacht. Jede Klasse hat ein kleines Beet und kümmert sich das ganze Jahr darum.\n\nModeratorin: Was lernen die Kinder dabei?\n\nWinter: Vieles, aber nicht nur über Pflanzen. Sie lernen zu warten. Eine Tomate wächst nicht in einer Woche. Das ist für viele Kinder heute eine ganz neue Erfahrung.\n\nModeratorin: Findet der Unterricht dann draußen statt?\n\nWinter: Einmal pro Woche, ja. Wir machen dort auch Mathematik: Wie viel Wasser braucht ein Beet? Wie groß ist die Fläche? Das verstehen die Kinder draußen oft schneller als im Klassenzimmer.\n\nModeratorin: Wer hilft mit?\n\nWinter: Am Anfang nur wir Lehrer. Inzwischen kommen jeden Freitag zwei Großväter und helfen. Einer war früher Gärtner, das merkt man.\n\nModeratorin: Und was passiert mit dem Gemüse?\n\nWinter: Das kochen wir gemeinsam. Was übrig bleibt, dürfen die Kinder mit nach Hause nehmen. Verkauft wird nichts."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-1",
+                  "prompt": "Was ist auf dem alten Schulhof entstanden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ein Sportplatz."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ein Garten."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ein Parkplatz."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Wir haben aus dem alten Schulhof einen Garten gemacht.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-2",
+                  "prompt": "Was ist für die Kinder laut Herrn Winter neu?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass Gemüse gesund ist."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass Pflanzen Wasser brauchen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass man warten muss."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Sie lernen zu warten. Eine Tomate wächst nicht in einer Woche.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-3",
+                  "prompt": "Wie oft findet der Unterricht im Garten statt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Jeden Tag."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Einmal pro Woche."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nur im Sommer."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Einmal pro Woche, ja.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-4",
+                  "prompt": "Wer hilft inzwischen im Garten mit?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Eine Gärtnerei aus der Stadt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Zwei Großväter."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Schüler aus einer anderen Schule."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Inzwischen kommen jeden Freitag zwei Großväter und helfen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-5",
+                  "prompt": "Was passiert mit dem Gemüse?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Es wird auf dem Markt verkauft."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Es wird an ein Restaurant gegeben."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Es wird gekocht oder mit nach Hause genommen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Das kochen wir gemeinsam. Was übrig bleibt, dürfen die Kinder mitnehmen. Verkauft wird nichts.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Zuordnung",
+          "instructions": "Sie hören eine Person, die über fünf Kinder erzählt. Ordnen Sie jedem Kind die passende Aussage zu. Drei Aussagen bleiben übrig. Sie hören den Text zweimal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-08/hoeren-teil-3.mp3",
+            "transcript": "Frau Diallo erzählt einer Freundin, was die Kinder aus der Nachbarschaft am Nachmittag machen.\n\nFrau Diallo: Bei uns in der Straße ist der Nachmittag bei jedem Kind anders.\nAmina, die Tochter von Frau Winter, bleibt bis vier im Hort. Sie macht dort auch ihre Hausaufgaben, das ist für ihre Eltern eine große Hilfe.\nIhr Bruder Lukas geht dienstags und donnerstags zum Fußball. Er redet von nichts anderem mehr.\nMeine Fatou hat leider Probleme in Mathe. Sie geht jetzt zweimal in der Woche zur Nachhilfe, eine Studentin hilft ihr.\nOmar ist erst fünf. Er geht noch in den Kindergarten, erst nächstes Jahr kommt er in die Schule.\nUnd meine Große, Samira, ist schon siebzehn. Sie macht eine Ausbildung als Friseurin: nachmittags ist sie im Salon und zweimal in der Woche in der Berufsschule.\nEin Instrument lernt bei uns kein Kind, und zum Schwimmunterricht geht im Moment auch keines."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-block",
+              "prompt": "Was macht dieses Kind am Nachmittag?",
+              "stimuli": [
+                {
+                  "title": "Aussagen",
+                  "text": "A  Es bleibt im Hort und macht dort Hausaufgaben.\nB  Es spielt Fußball im Verein.\nC  Es bekommt Nachhilfe.\nD  Es lernt ein Instrument.\nE  Es geht noch in den Kindergarten.\nF  Es macht eine Ausbildung.\nG  Es hilft im Geschäft der Eltern.\nH  Es geht zum Schwimmunterricht."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "A  Es bleibt im Hort und macht dort Hausaufgaben."
+                },
+                {
+                  "id": "b",
+                  "text": "B  Es spielt Fußball im Verein."
+                },
+                {
+                  "id": "c",
+                  "text": "C  Es bekommt Nachhilfe."
+                },
+                {
+                  "id": "d",
+                  "text": "D  Es lernt ein Instrument."
+                },
+                {
+                  "id": "e",
+                  "text": "E  Es geht noch in den Kindergarten."
+                },
+                {
+                  "id": "f",
+                  "text": "F  Es macht eine Ausbildung."
+                },
+                {
+                  "id": "g",
+                  "text": "G  Es hilft im Geschäft der Eltern."
+                },
+                {
+                  "id": "h",
+                  "text": "H  Es geht zum Schwimmunterricht."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h3-1",
+                  "prompt": "Amina",
+                  "solution": "a",
+                  "explanation": "„Amina … bleibt bis vier im Hort. Sie macht dort auch ihre Hausaufgaben.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-2",
+                  "prompt": "Lukas",
+                  "solution": "b",
+                  "explanation": "„Ihr Bruder Lukas geht dienstags und donnerstags zum Fußball.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-3",
+                  "prompt": "Fatou",
+                  "solution": "c",
+                  "explanation": "„Sie geht jetzt zweimal in der Woche zur Nachhilfe.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-4",
+                  "prompt": "Omar",
+                  "solution": "e",
+                  "explanation": "„Omar ist erst fünf. Er geht noch in den Kindergarten.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-5",
+                  "prompt": "Samira",
+                  "solution": "f",
+                  "explanation": "„Samira … macht eine Ausbildung als Friseurin.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 25,
+      "description": "Sie lesen einen Zeitungstext, Anzeigen und kurze Texte aus dem Alltag und lösen dazu Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Zeitungstext",
+          "instructions": "Lesen Sie den Text. Sind die Sätze richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-text",
+              "stimuli": [
+                {
+                  "title": "Mit 43 noch einmal in die Schule",
+                  "text": "Zwölf Jahre lang hat Fatou Diallo in einer Großküche gearbeitet. Dann hatte sie einen Unfall und konnte nicht mehr lange stehen. „Ich musste etwas Neues finden“, sagt sie.\n\nHeute, mit 43 Jahren, macht sie eine Umschulung zur Bürokauffrau. Zwei Jahre dauert sie. Morgens ist Unterricht, nachmittags lernt sie zu Hause – meistens erst, wenn die Kinder im Bett sind.\n\nAm schwersten fiel ihr der Anfang. „Ich hatte seit über zwanzig Jahren keine Prüfung mehr geschrieben. Beim ersten Test habe ich vor Aufregung fast nichts gewusst.“ Beim zweiten Test lief es dann deutlich besser.\n\nGeld bekommt sie in dieser Zeit von der Agentur für Arbeit. „Ohne das wäre es unmöglich. Ich habe drei Kinder.“\n\nIhr Rat an andere: „Man ist nie zu alt. Aber man braucht Menschen, die einen unterstützen.“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-1",
+                  "statement": "Fatou Diallo hat ihre alte Arbeit wegen eines Unfalls aufgegeben.",
+                  "solution": true,
+                  "explanation": "„Dann hatte sie einen Unfall und konnte nicht mehr lange stehen.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-2",
+                  "statement": "Die Umschulung dauert ein Jahr.",
+                  "solution": false,
+                  "explanation": "„Zwei Jahre dauert sie.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-3",
+                  "statement": "Sie lernt nachmittags, oft erst am Abend.",
+                  "solution": true,
+                  "explanation": "„… nachmittags lernt sie zu Hause – meistens erst, wenn die Kinder im Bett sind.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-4",
+                  "statement": "Der erste Test lief besser als der zweite.",
+                  "solution": false,
+                  "explanation": "„Beim zweiten Test lief es dann deutlich besser.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-5",
+                  "statement": "Während der Umschulung bekommt sie kein Geld.",
+                  "solution": false,
+                  "explanation": "„Geld bekommt sie in dieser Zeit von der Agentur für Arbeit.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Anzeigen",
+          "instructions": "Lesen Sie die acht Anzeigen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Nicht alle Anzeigen werden gebraucht.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "text": "Hausaufgabenhilfe im Familienzentrum – Montag bis Donnerstag,\n14 bis 16 Uhr. Für Klasse 1 bis 6, kostenlos."
+                },
+                {
+                  "title": "Anzeige b",
+                  "text": "Elternkurs „Stark durch die Pubertät“ – vier Abende,\nmit Kinderbetreuung. Anmeldung im Familienzentrum."
+                },
+                {
+                  "title": "Anzeige c",
+                  "text": "Volkshochschule – Umschulung und Weiterbildung.\nBeratung kostenlos, Bildungsgutschein möglich."
+                },
+                {
+                  "title": "Anzeige d",
+                  "text": "Musikschule sucht Schülerinnen und Schüler ab 6 Jahren.\nErste Stunde gratis, Instrumente können geliehen werden."
+                },
+                {
+                  "title": "Anzeige e",
+                  "text": "Ferienbetreuung in den Sommerferien – zwei Wochen,\nfür Kinder von 6 bis 12 Jahren. 60 Euro pro Woche."
+                },
+                {
+                  "title": "Anzeige f",
+                  "text": "Schulranzen und Schulmaterial günstig –\nSecond-Hand-Basar am 20. August in der Turnhalle."
+                },
+                {
+                  "title": "Anzeige g",
+                  "text": "Deutschkurs für Mütter mit Kinderbetreuung –\nvormittags, dreimal pro Woche. Beitrag 1 Euro pro Stunde."
+                },
+                {
+                  "title": "Anzeige h",
+                  "text": "Nachhilfe Mathematik und Englisch, Klasse 5 bis 10.\nStudentin, 15 Euro pro Stunde, auch bei Ihnen zu Hause."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Hausaufgabenhilfe im Familienzentrum"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Elternkurs „Stark durch die Pubertät“"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Volkshochschule – Umschulung"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Musikschule"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Ferienbetreuung"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Second-Hand-Basar Schulmaterial"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Deutschkurs für Mütter"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Nachhilfe Mathematik und Englisch"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Ihre Tochter ist in der 8. Klasse und hat schlechte Noten in Mathe.",
+                  "solution": "h",
+                  "explanation": "Die Nachhilfe ist für Klasse 5 bis 10 in Mathematik und Englisch."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Sie möchten Deutsch lernen, haben aber ein kleines Kind zu Hause.",
+                  "solution": "g",
+                  "explanation": "Der Deutschkurs für Mütter bietet Kinderbetreuung an."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Sie müssen im Sommer arbeiten und wissen nicht, wohin mit Ihrem neunjährigen Sohn.",
+                  "solution": "e",
+                  "explanation": "Die Ferienbetreuung ist für Kinder von 6 bis 12 Jahren."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie können in Ihrem Beruf nicht mehr arbeiten und möchten etwas Neues lernen.",
+                  "solution": "c",
+                  "explanation": "Die Volkshochschule berät kostenlos zu Umschulung und Weiterbildung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Ihr Kind kommt in die Schule und Sie brauchen günstig einen Ranzen.",
+                  "solution": "f",
+                  "explanation": "Auf dem Second-Hand-Basar gibt es Schulranzen und Material günstig."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Schilder und Notizen",
+          "instructions": "Lesen Sie die Schilder und Notizen. Zu jedem Text gibt es eine Frage. Wählen Sie die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-schild-1",
+              "stimuli": [
+                {
+                  "title": "Schild 1 – am Schuleingang",
+                  "text": "KRANKMELDUNG\nBitte melden Sie Ihr Kind bis 8:00 Uhr\ntelefonisch im Sekretariat.\nEine schriftliche Entschuldigung bringt Ihr Kind mit,\nwenn es wiederkommt."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-1",
+                  "prompt": "Was müssen Eltern zuerst tun?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Eine E-Mail schreiben."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Vor 8 Uhr anrufen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Einen Brief schicken."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Bitte melden Sie Ihr Kind bis 8:00 Uhr telefonisch im Sekretariat.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-notiz-2",
+              "stimuli": [
+                {
+                  "title": "Notiz 2 – im Hausaufgabenheft",
+                  "text": "Liebe Frau Diallo,\nFatou hat ihr Mathebuch seit zwei Wochen nicht dabei.\nBitte sprechen Sie mit ihr.\nWenn das Buch verloren ist, melden Sie sich bitte bei mir.\nP. Winter"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Wann soll Frau Diallo den Lehrer kontaktieren?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nur wenn das Buch weg ist."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Auf jeden Fall sofort."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Gar nicht."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Wenn das Buch verloren ist, melden Sie sich bitte bei mir.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-3",
+              "stimuli": [
+                {
+                  "title": "Schild 3 – in der Turnhalle",
+                  "text": "Betreten der Halle nur mit Hallenschuhen.\nStraßenschuhe bitte draußen ausziehen.\nTaschen und Jacken bleiben in der Umkleide."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-3",
+                  "prompt": "Wo bleiben Taschen und Jacken?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "In der Halle"
+                    },
+                    {
+                      "id": "b",
+                      "text": "In der Umkleide"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Draußen vor der Tür"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Taschen und Jacken bleiben in der Umkleide.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-4",
+              "stimuli": [
+                {
+                  "title": "Schild 4 – im Familienzentrum",
+                  "text": "HAUSAUFGABENHILFE\nMo – Do, 14:00 – 16:00 Uhr\nBitte kommen Sie pünktlich.\nWer später als 14:30 Uhr kommt,\nkann an diesem Tag nicht mehr teilnehmen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Was passiert, wenn ein Kind um 14:45 Uhr kommt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Es muss draußen warten."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Es bekommt eine Extraaufgabe."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Es darf an diesem Tag nicht mitmachen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Wer später als 14:30 Uhr kommt, kann an diesem Tag nicht mehr teilnehmen.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-5",
+              "stimuli": [
+                {
+                  "title": "Schild 5 – an der Volkshochschule",
+                  "text": "ANMELDUNG\nSie können sich online, telefonisch\noder persönlich anmelden.\nDie Anmeldung ist erst gültig,\nwenn Sie die Gebühr bezahlt haben."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-5",
+                  "prompt": "Wann ist die Anmeldung fertig?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Wenn man das Formular abgibt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Wenn man bezahlt hat."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Wenn man angerufen hat."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Die Anmeldung ist erst gültig, wenn Sie die Gebühr bezahlt haben.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 25,
+      "description": "Sie füllen ein Formular aus und schreiben eine E-Mail. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie zu jeder Aufgabe eine Musterlösung.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "Teil 1 – Formular",
+          "instructions": "Ihre Nachbarin Fatou Diallo meldet ihren Sohn für die Ferienbetreuung an. Der Sohn heißt Omar Diallo und ist am 04.09.2015 in Berlin geboren. Die Familie wohnt in 13347 Berlin. Frau Diallos Telefonnummer ist 0170 88 44 22. Füllen Sie das Formular aus.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-formular",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Familienname des Kindes",
+                  "inputMode": "single-line",
+                  "musterloesung": "Diallo"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-2",
+                  "prompt": "Vorname des Kindes",
+                  "inputMode": "single-line",
+                  "musterloesung": "Omar"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-3",
+                  "prompt": "Geburtsdatum des Kindes",
+                  "inputMode": "single-line",
+                  "musterloesung": "04.09.2015"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-4",
+                  "prompt": "Postleitzahl und Wohnort",
+                  "inputMode": "single-line",
+                  "musterloesung": "13347 Berlin"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-5",
+                  "prompt": "Telefonnummer für Notfälle",
+                  "inputMode": "single-line",
+                  "musterloesung": "0170 88 44 22"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schreiben-teil-2",
+          "title": "Teil 2 – E-Mail",
+          "instructions": "Ihr Kind kann diese Woche nicht am Schwimmunterricht teilnehmen. Schreiben Sie eine E-Mail an die Klassenlehrerin, Frau Winter. Schreiben Sie 40 bis 50 Wörter.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-2-mail",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s2-1",
+                  "prompt": "Schreiben Sie die E-Mail an Frau Winter.",
+                  "criteria": [
+                    "Grund: Warum schreiben Sie?",
+                    "Erklärung: Warum kann Ihr Kind nicht teilnehmen?",
+                    "Dauer: Wie lange geht das so?",
+                    "Frage: Was soll Ihr Kind in dieser Zeit tun?"
+                  ],
+                  "hints": [
+                    "Schreiben Sie förmlich („Sehr geehrte Frau Winter“).",
+                    "Vergessen Sie den Gruß am Ende nicht."
+                  ],
+                  "minWords": 40,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Frau Winter,\n\nmein Sohn Omar kann diese Woche nicht am Schwimmunterricht teilnehmen. Er hat eine Ohrenentzündung, und der Arzt hat es ihm verboten.\n\nNächste Woche darf er wieder ins Wasser. Soll er trotzdem mitkommen und zuschauen, oder darf er in dieser Zeit in der Bibliothek arbeiten?\n\nMit freundlichen Grüßen\nFatou Diallo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet. Nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie zu den Stichwörtern. Sie können Ihre Antwort hier kurz notieren – das ist freiwillig.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Alter – Herkunft – Wohnort – Familie – Beruf – Sprachen – Warum lernen Sie Deutsch?",
+                  "hints": [
+                    "Sprechen Sie in ganzen Sätzen, etwa zwei Minuten.",
+                    "Erzählen Sie auch etwas über Ihre Kinder oder Ihre Ausbildung.",
+                    "Buchstabieren Sie am Ende Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Mein Name ist Fatou Diallo. Ich bin 43 Jahre alt und komme aus Senegal. Ich wohne seit vierzehn Jahren in Berlin. Ich habe drei Kinder: Samira ist siebzehn, Fatou zwölf und Omar erst fünf. Früher habe ich in einer Großküche gearbeitet. Jetzt mache ich eine Umschulung zur Bürokauffrau. Ich spreche Wolof, Französisch und Deutsch. Deutsch lerne ich weiter, weil ich in der Prüfung schreiben und telefonieren muss. Mein Familienname ist Diallo: D – I – A – L – L – O."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Ein Alltagsgespräch führen",
+          "instructions": "Thema: Lernen und Schule. Bilden Sie mit dem Satzanfang eine Frage an Ihre Gesprächspartnerin oder Ihren Gesprächspartner – und antworten Sie dann selbst darauf.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Satzanfang: „Wie lernen Sie …?“",
+                  "musterloesung": "Frage: Wie lernen Sie am besten neue Wörter?\nAntwort: Ich schreibe sie auf kleine Karten und nehme sie mit in die Bahn. Abends lese ich sie noch einmal durch. Nur zuhören reicht bei mir nicht."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Satzanfang: „Wann haben Sie …?“",
+                  "musterloesung": "Frage: Wann haben Sie Zeit zum Lernen?\nAntwort: Meistens erst abends, wenn die Kinder schlafen. Am Wochenende lerne ich manchmal auch vormittags, ungefähr zwei Stunden."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Zusammen etwas planen",
+          "instructions": "Lesen Sie die Situation. Planen Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner. Machen Sie Vorschläge, reagieren Sie auf Vorschläge und einigen Sie sich am Ende.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "In zwei Monaten ist Ihre A2-Prüfung. Sie möchten sich mit einer Person aus dem Kurs zusammen vorbereiten. Planen Sie gemeinsam, wie Sie lernen.",
+                  "hints": [
+                    "Wie oft und wann treffen Sie sich?",
+                    "Wo lernen Sie?",
+                    "Was üben Sie zuerst?",
+                    "Wie üben Sie das Sprechen?"
+                  ],
+                  "musterloesung": "A: Die Prüfung ist schon in zwei Monaten. Sollen wir zusammen lernen?\nB: Ja, unbedingt. Allein mache ich viel zu wenig. Wie oft treffen wir uns?\nA: Ich würde sagen zweimal pro Woche, Dienstag und Samstag.\nB: Dienstag ist schwierig, da arbeite ich bis acht. Können wir Mittwoch machen?\nA: Gut, Mittwoch und Samstag. Und wo? Bei mir sind die Kinder laut.\nB: In der Bibliothek gibt es kleine Räume, die kann man kostenlos reservieren.\nA: Sehr gut. Womit fangen wir an?\nB: Ich finde Schreiben am schwersten – die E-Mails mit den vier Punkten.\nA: Dann üben wir zuerst das. Und für das Sprechen machen wir immer die letzten zwanzig Minuten Teil 2 und 3, mit Handy aufnehmen.\nB: Einverstanden. Ich reserviere den Raum für Mittwoch."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

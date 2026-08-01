@@ -1,0 +1,824 @@
+{
+  "id": "uebungstest-a1-07",
+  "language": "de",
+  "level": "A1",
+  "title": "Übungstest A1 – Nr. 7",
+  "description": "Ein vollständiger Übungstest auf Niveau A1 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Reisen und Verkehr.",
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 20,
+      "description": "Sie hören Gespräche, Ansagen und kurze Nachrichten. Zu jedem Text gibt es Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1",
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Wählen Sie die richtige Antwort.",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-07/hoeren-teil-1.mp3",
+            "transcript": "Gespräch 1\nMann: Eine Fahrkarte nach Dresden, bitte.\nVerkäuferin: Einfach oder hin und zurück?\nMann: Hin und zurück, bitte.\n\nGespräch 2\nFrau: Von welchem Gleis fährt der Zug nach Bremen?\nMitarbeiter: Von Gleis 9.\n\nGespräch 3\nMann: Wie lange dauert die Fahrt nach Hamburg?\nFrau: Etwa zwei Stunden.\n\nGespräch 4\nFrau: Entschuldigung, fährt dieser Bus zum Flughafen?\nMann: Nein, nehmen Sie die Linie 5.\n\nGespräch 5\nRezeptionist: Ihr Zimmer ist Nummer 312, im dritten Stock.\nFrau: Und wann gibt es Frühstück?\nRezeptionist: Von 7 bis 10 Uhr."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-1",
+                  "prompt": "Gespräch 1: Welche Fahrkarte kauft der Mann?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Eine einfache Fahrt"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Hin und zurück"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Eine Monatskarte"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Hin und zurück, bitte.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Gespräch 2: Von welchem Gleis fährt der Zug nach Bremen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Von Gleis 9"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Von Gleis 5"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Von Gleis 19"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Von Gleis 9.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-3",
+                  "prompt": "Gespräch 3: Wie lange dauert die Fahrt nach Hamburg?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Etwa eine Stunde"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Etwa drei Stunden"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Etwa zwei Stunden"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Etwa zwei Stunden.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Gespräch 4: Welchen Bus soll die Frau nehmen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Diesen Bus"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Linie 15"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Linie 5"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Nein, nehmen Sie die Linie 5.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-5",
+                  "prompt": "Gespräch 5: Wann gibt es Frühstück?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Von 7 bis 10 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Von 8 bis 11 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ab 10 Uhr"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Von 7 bis 10 Uhr.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2",
+          "instructions": "Sie hören fünf Ansagen. Sind die Sätze richtig oder falsch?",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-07/hoeren-teil-2.mp3",
+            "transcript": "Ansage 1\nLiebe Fahrgäste, der ICE nach Frankfurt hat heute etwa 20 Minuten Verspätung. Wir bitten um Entschuldigung.\n\nAnsage 2\nAchtung an Gleis 4: Der Regionalzug nach Rostock fällt heute aus. Bitte nehmen Sie den Zug um 15:40 Uhr.\n\nAnsage 3\nLiebe Fahrgäste, bitte denken Sie daran: Im Bus können Sie keine Fahrkarte kaufen. Bitte kaufen Sie Ihr Ticket vorher am Automaten.\n\nAnsage 4\nGuten Tag, hier ist das Hotel Seeblick. Sie können Ihr Zimmer ab 15 Uhr beziehen. Am Abreisetag bitte bis 11 Uhr auschecken.\n\nAnsage 5\nWegen Bauarbeiten fährt die Straßenbahnlinie 3 diese Woche nicht. Bitte benutzen Sie den Ersatzbus."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-1",
+                  "statement": "Der ICE nach Frankfurt kommt später.",
+                  "solution": true,
+                  "explanation": "„… hat heute etwa 20 Minuten Verspätung.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-2",
+                  "statement": "Der Regionalzug nach Rostock fährt wie geplant.",
+                  "solution": false,
+                  "explanation": "Der Zug fällt heute aus."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-3",
+                  "statement": "Man muss die Fahrkarte vor der Fahrt kaufen.",
+                  "solution": true,
+                  "explanation": "„Im Bus können Sie keine Fahrkarte kaufen.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-4",
+                  "statement": "Man kann das Hotelzimmer schon um 12 Uhr beziehen.",
+                  "solution": false,
+                  "explanation": "Das Zimmer gibt es erst ab 15 Uhr."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-5",
+                  "statement": "Diese Woche fährt statt der Straßenbahn 3 ein Bus.",
+                  "solution": true,
+                  "explanation": "„Bitte benutzen Sie den Ersatzbus.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3",
+          "instructions": "Sie hören fünf kurze Situationen. Wählen Sie die richtige Antwort.",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-07/hoeren-teil-3.mp3",
+            "transcript": "Situation 1\nFrau: Ich möchte ein Zimmer für zwei Nächte.\nRezeptionist: Mit Frühstück kostet es 89 Euro pro Nacht, ohne Frühstück 75 Euro.\nFrau: Ohne Frühstück, bitte.\n\nSituation 2 (Anrufbeantworter)\nHallo Ana, hier ist Timo. Unser Zug fährt schon um 6:40 Uhr, nicht um 7:40 Uhr. Wir treffen uns bitte um 6:20 Uhr am Bahnhof.\n\nSituation 3\nMann: Entschuldigung, wie komme ich zum Museum?\nFrau: Fahren Sie mit der U2 bis Marktplatz. Von dort sind es fünf Minuten zu Fuß.\n\nSituation 4\nFrau: Wohin fahrt ihr im Urlaub?\nMann: Wir wollten nach Italien. Aber jetzt fahren wir nach Österreich – das ist billiger.\n\nSituation 5\nMitarbeiterin: Ihr Koffer ist leider zu schwer. Er wiegt 26 Kilo, erlaubt sind 23.\nMann: Dann nehme ich die Bücher heraus."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-1",
+                  "prompt": "Situation 1: Wie viel bezahlt die Frau pro Nacht?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "150 Euro"
+                    },
+                    {
+                      "id": "b",
+                      "text": "89 Euro"
+                    },
+                    {
+                      "id": "c",
+                      "text": "75 Euro"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Sie nimmt das Zimmer ohne Frühstück – das kostet 75 Euro."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Situation 2: Wann treffen sich Ana und Timo?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Um 6:20 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Um 6:40 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Um 7:40 Uhr"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Wir treffen uns bitte um 6:20 Uhr am Bahnhof.“ Der Zug fährt um 6:40 Uhr."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-3",
+                  "prompt": "Situation 3: Wie kommt der Mann zum Museum?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nur zu Fuß"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Mit dem Bus"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Mit der U2 und dann zu Fuß"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Fahren Sie mit der U2 bis Marktplatz. Von dort sind es fünf Minuten zu Fuß.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Situation 4: Wohin fährt die Familie im Urlaub?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nach Italien"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie bleiben zu Hause"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nach Österreich"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Italien war der Plan, jetzt fahren sie nach Österreich."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-5",
+                  "prompt": "Situation 5: Was ist das Problem?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Koffer ist zu schwer"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Der Koffer ist zu groß"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der Mann hat keinen Pass"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Ihr Koffer ist leider zu schwer. Er wiegt 26 Kilo, erlaubt sind 23.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 25,
+      "description": "Sie lesen E-Mails, Anzeigen und kurze Texte aus dem Alltag und lösen dazu Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1",
+          "instructions": "Lesen Sie die E-Mails. Sind die Sätze richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-mail-1",
+              "stimuli": [
+                {
+                  "title": "E-Mail 1",
+                  "text": "Hallo Timo,\n\nim Juli fahre ich zwei Wochen nach Spanien. Ich fliege am 5. Juli von Berlin nach Malaga.\n\nMein Hotel liegt direkt am Meer. Ich möchte jeden Tag schwimmen und viel lesen.\n\nKannst du in dieser Zeit meine Katze füttern?\n\nLiebe Grüße\nAna"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-1",
+                  "statement": "Ana fliegt im Juli nach Spanien.",
+                  "solution": true,
+                  "explanation": "„Im Juli fahre ich zwei Wochen nach Spanien. Ich fliege am 5. Juli …“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-2",
+                  "statement": "Timo soll mit nach Spanien kommen.",
+                  "solution": false,
+                  "explanation": "Timo soll die Katze füttern."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-1-mail-2",
+              "stimuli": [
+                {
+                  "title": "E-Mail 2",
+                  "text": "Sehr geehrte Frau Petrova,\n\nvielen Dank für Ihre Buchung. Wir haben ein Doppelzimmer für Sie reserviert, vom 12. bis 15. August.\n\nDas Frühstück ist im Preis nicht enthalten. Es kostet 12 Euro pro Person. Parken können Sie kostenlos hinter dem Hotel.\n\nMit freundlichen Grüßen\nHotel Seeblick"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-3",
+                  "statement": "Frau Petrova bleibt drei Nächte im Hotel.",
+                  "solution": true,
+                  "explanation": "Vom 12. bis 15. August sind das drei Nächte."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-4",
+                  "statement": "Das Frühstück kostet extra.",
+                  "solution": true,
+                  "explanation": "„Das Frühstück ist im Preis nicht enthalten. Es kostet 12 Euro pro Person.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-5",
+                  "statement": "Für das Parken muss man bezahlen.",
+                  "solution": false,
+                  "explanation": "„Parken können Sie kostenlos hinter dem Hotel.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2",
+          "instructions": "Lesen Sie die acht Anzeigen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Nicht alle Anzeigen werden gebraucht.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "text": "Mitfahrzentrale – günstig mit dem Auto reisen.\nBerlin–Hamburg ab 15 Euro."
+                },
+                {
+                  "title": "Anzeige b",
+                  "text": "Jugendherberge Waldblick – Bett im Mehrbettzimmer ab 22 Euro.\nFrühstück inklusive."
+                },
+                {
+                  "title": "Anzeige c",
+                  "text": "Fahrschule Nord – Führerschein Klasse B.\nTheorie auch auf Arabisch."
+                },
+                {
+                  "title": "Anzeige d",
+                  "text": "Stadtrundfahrt mit dem Bus – täglich um 10 und 14 Uhr.\nDauer: 90 Minuten."
+                },
+                {
+                  "title": "Anzeige e",
+                  "text": "Monatskarte für Bus und Bahn – 59 Euro.\nFür Schüler und Studenten 29 Euro."
+                },
+                {
+                  "title": "Anzeige f",
+                  "text": "Autovermietung Rapid – Kleinwagen ab 35 Euro pro Tag.\nAb 21 Jahren."
+                },
+                {
+                  "title": "Anzeige g",
+                  "text": "Reisebüro Weltweit – Beratung für Flüge und Hotels.\nMo–Sa 10 bis 18 Uhr."
+                },
+                {
+                  "title": "Anzeige h",
+                  "text": "Flughafenbus Express – alle 30 Minuten vom Hauptbahnhof.\nFahrzeit 25 Minuten."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Mitfahrzentrale"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Jugendherberge Waldblick"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Fahrschule Nord"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Stadtrundfahrt mit dem Bus"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Monatskarte für Bus und Bahn"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Autovermietung Rapid"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Reisebüro Weltweit"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Flughafenbus Express"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Sie sind Studentin und fahren jeden Tag mit dem Bus zur Uni.",
+                  "solution": "e",
+                  "explanation": "Die Monatskarte kostet für Studenten nur 29 Euro."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Sie müssen zum Flughafen und haben kein Auto.",
+                  "solution": "h",
+                  "explanation": "Der Flughafenbus fährt alle 30 Minuten vom Hauptbahnhof."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Sie sind neu in der Stadt und möchten sie kennenlernen.",
+                  "solution": "d",
+                  "explanation": "Die Stadtrundfahrt dauert 90 Minuten und startet täglich."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie reisen allein und suchen eine sehr günstige Übernachtung.",
+                  "solution": "b",
+                  "explanation": "Ein Bett in der Jugendherberge kostet ab 22 Euro mit Frühstück."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie möchten am Wochenende ein Auto für zwei Tage.",
+                  "solution": "f",
+                  "explanation": "Die Autovermietung Rapid vermietet Kleinwagen ab 35 Euro pro Tag."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3",
+          "instructions": "Lesen Sie die Schilder und Notizen. Zu jedem Text gibt es eine Frage. Wählen Sie die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-schild-1",
+              "stimuli": [
+                {
+                  "title": "Schild 1 – am Bahnsteig",
+                  "text": "Gleis 4\nICE 573 nach Frankfurt\nheute ca. 20 Minuten später\nAbfahrt: 14:35 Uhr"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-1",
+                  "prompt": "Wann fährt der Zug heute?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Um 14:15 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Um 15:35 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Um 14:35 Uhr"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Abfahrt: 14:35 Uhr“ – das ist die neue Zeit mit Verspätung."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-2",
+              "stimuli": [
+                {
+                  "title": "Schild 2 – im Bus",
+                  "text": "Bitte halten Sie Ihre Fahrkarte bereit.\nKontrolle jederzeit möglich."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was sollen Sie im Bus machen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Vorne einsteigen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Eine Fahrkarte kaufen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Fahrkarte bereithalten"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Bitte halten Sie Ihre Fahrkarte bereit.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3 – im Hotelzimmer",
+                  "text": "Liebe Gäste,\ndas Frühstück gibt es im Restaurant\nim Erdgeschoss.\nBitte bringen Sie Ihre Zimmerkarte mit."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-3",
+                  "prompt": "Was sollen die Gäste zum Frühstück mitbringen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Den Pass"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Zimmerkarte"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Geld"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Bitte bringen Sie Ihre Zimmerkarte mit.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-4",
+              "stimuli": [
+                {
+                  "title": "Schild 4 – am Fahrkartenautomaten",
+                  "text": "AUTOMAT AUSSER BETRIEB\nBitte kaufen Sie Ihre Fahrkarte\nam Schalter in der Halle."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Wo bekommen Sie jetzt eine Fahrkarte?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Am Automaten"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Am Schalter in der Halle"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Im Zug"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Bitte kaufen Sie Ihre Fahrkarte am Schalter in der Halle.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-5",
+              "stimuli": [
+                {
+                  "title": "Schild 5 – am Flughafen",
+                  "text": "HANDGEPÄCK\nmaximal 8 kg\nGrößere Taschen bitte aufgeben."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-5",
+                  "prompt": "Wie schwer darf das Handgepäck sein?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Höchstens 23 Kilo"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Höchstens 18 Kilo"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Höchstens 8 Kilo"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„HANDGEPÄCK maximal 8 kg“."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 20,
+      "description": "Sie füllen ein Formular aus und schreiben eine kurze Nachricht. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie zu jeder Aufgabe eine Musterlösung.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "Teil 1 – Formular",
+          "instructions": "Ihre Kollegin Ivana Petrova bucht ein Zimmer im Hotel Seeblick. Sie kommt aus Bulgarien und ist am 14.02.1991 in Sofia geboren. Sie wohnt in 70173 Stuttgart. Sie bleibt drei Nächte. Füllen Sie das Formular für sie aus.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-formular",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Familienname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Petrova"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-2",
+                  "prompt": "Vorname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Ivana"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-3",
+                  "prompt": "Geburtsdatum",
+                  "inputMode": "single-line",
+                  "musterloesung": "14.02.1991"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-4",
+                  "prompt": "Postleitzahl und Wohnort",
+                  "inputMode": "single-line",
+                  "musterloesung": "70173 Stuttgart"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-5",
+                  "prompt": "Anzahl der Nächte",
+                  "inputMode": "single-line",
+                  "musterloesung": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schreiben-teil-2",
+          "title": "Teil 2 – Kurze E-Mail",
+          "instructions": "Sie fahren nächste Woche in den Urlaub. Schreiben Sie eine E-Mail an Ihre Freundin Ana. Schreiben Sie etwa 30 Wörter.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-2-mail",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s2-1",
+                  "prompt": "Schreiben Sie die E-Mail an Ana.",
+                  "hints": [
+                    "Wohin fahren Sie?",
+                    "Wann fahren Sie und wie lange bleiben Sie?",
+                    "Worum bitten Sie Ana?",
+                    "Vergessen Sie Anrede und Gruß nicht."
+                  ],
+                  "minWords": 30,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Liebe Ana,\n\nnächste Woche fahre ich nach Österreich. Ich fahre am Montag mit dem Zug und bleibe zehn Tage. Kannst du bitte meine Post aus dem Briefkasten holen?\n\nDen Schlüssel bringe ich dir am Sonntag.\n\nViele Grüße\nIvana"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet. Nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie zu den Stichwörtern. Sie können Ihre Antwort hier kurz notieren – das ist freiwillig.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Alter – Land – Wohnort – Sprachen – Beruf – Hobby",
+                  "hints": [
+                    "Sprechen Sie in ganzen Sätzen.",
+                    "Sprechen Sie etwa eine Minute.",
+                    "Buchstabieren Sie am Ende Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Mein Name ist Ivana Petrova. Ich bin 33 Jahre alt und komme aus Bulgarien. Ich wohne in Stuttgart. Ich spreche Bulgarisch, Englisch und ein bisschen Deutsch. Ich arbeite in einem Hotel. Mein Hobby ist Reisen. Im Sommer fahre ich immer ans Meer. Mein Familienname ist Petrova: P – E – T – R – O – V – A."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Um Informationen bitten",
+          "instructions": "Thema: Reisen und Verkehr. Bilden Sie zum Stichwort eine Frage und antworten Sie auch selbst darauf.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Stichwort: Urlaub",
+                  "musterloesung": "Frage: Wohin fährst du im Urlaub?\nAntwort: Im Sommer fahre ich nach Bulgarien. Ich besuche meine Familie und gehe ans Meer."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Stichwort: Bus oder Bahn",
+                  "musterloesung": "Frage: Fährst du lieber mit dem Bus oder mit der Bahn?\nAntwort: Ich fahre lieber mit der Bahn. Das geht schneller und ich kann dabei lesen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Bitten formulieren",
+          "instructions": "Formulieren Sie zu jeder Situation eine höfliche Bitte und eine passende Reaktion.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Sie finden den Weg zum Bahnhof nicht. Stichwort: Weg zeigen",
+                  "musterloesung": "Bitte: Entschuldigung, können Sie mir bitte den Weg zum Bahnhof zeigen?\nReaktion: Ja, gern. Gehen Sie hier geradeaus und dann rechts."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp3-2",
+                  "prompt": "Ihr Koffer ist sehr schwer. Stichwort: helfen",
+                  "musterloesung": "Bitte: Können Sie mir bitte mit dem Koffer helfen?\nReaktion: Natürlich, ich nehme ihn."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

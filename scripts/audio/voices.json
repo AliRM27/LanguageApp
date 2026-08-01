@@ -1,0 +1,42 @@
+{
+  "_readme": [
+    "Maps abstract voice slots to real voices of one TTS provider.",
+    "The plan (audio/plan.json) only ever refers to slots, so changing provider",
+    "means editing this file and re-running the synthesis step — never re-planning.",
+    "",
+    "Fill voiceMap from your provider's own voice list, e.g.:",
+    "  Google: gcloud ml speech ... or GET /v1/voices?languageCode=de-DE",
+    "  ElevenLabs: GET /v1/voices",
+    "Pick clearly distinguishable voices — the point of separate slots is that a",
+    "learner can tell two speakers apart.",
+    "",
+    "'speakers' overrides the automatic slot choice per test, per part, per person.",
+    "Use it when the planner reports that it cannot tell someone's gender, or when",
+    "you simply want a different voice for a character."
+  ],
+
+  "provider": "google",
+  "languageCode": "de-DE",
+
+  "voiceMap": {
+    "narrator": "de-DE-Studio-C",
+
+    "female-1": "de-DE-Chirp3-HD-Achernar",
+    "female-2": "de-DE-Chirp3-HD-Aoede",
+    "female-3": "de-DE-Chirp3-HD-Kore",
+    "female-4": "de-DE-Chirp3-HD-Zephyr",
+
+    "male-1": "de-DE-Chirp3-HD-Achird",
+    "male-2": "de-DE-Chirp3-HD-Algenib",
+    "male-3": "de-DE-Chirp3-HD-Charon",
+    "male-4": "de-DE-Chirp3-HD-Fenrir"
+  },
+
+  "speakers": {
+    "uebungstest-a2-03": {
+      "hoeren-teil-2": {
+        "Dr. Reimer": "female-2"
+      }
+    }
+  }
+}

@@ -1,0 +1,6186 @@
+{
+  "generatedAt": "2026-07-30T20:03:43.849Z",
+  "files": [
+    {
+      "testId": "uebungstest-a1-01",
+      "partId": "hoeren-teil-1",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-01/hoeren-teil-1.mp3",
+      "rate": 0.88,
+      "speakers": {
+        "Frau": "female-1",
+        "Mann": "male-1",
+        "Verkäufer": "male-2"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Entschuldigung, wie spät ist es bitte?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Es ist halb neun.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Oh, danke! Mein Zug fährt um neun Uhr.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Verkäufer",
+          "text": "Guten Tag, was möchten Sie?",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Ich möchte bitte ein Brot. Und haben Sie auch Milch?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Verkäufer",
+          "text": "Milch haben wir leider nicht. Nur Käse.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Dann nehme ich nur das Brot, danke.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Guten Tag, mein Name ist Nowak.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Freut mich. Woher kommen Sie, Herr Nowak?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Ich komme aus Polen, aus Krakau.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Lena, fährst du mit dem Bus zur Arbeit?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Nein, ich fahre mit dem Fahrrad. Das ist schneller.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Und wenn es regnet?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Dann gehe ich zu Fuß.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Was machst du am Wochenende?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Am Samstag spiele ich Fußball. Und am Sonntag besuche ich meine Eltern.",
+          "pauseAfterMs": 300,
+          "slot": "male-1",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-01",
+      "partId": "hoeren-teil-2",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-01/hoeren-teil-2.mp3",
+      "rate": 0.88,
+      "speakers": {},
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Achtung, bitte beachten Sie: Der Zug nach München fährt heute nicht von Gleis 3, sondern von Gleis 7.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Kundinnen und Kunden, unser Supermarkt schließt in zehn Minuten. Bitte kommen Sie jetzt zur Kasse.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist die Praxis Dr. Berger. Wir haben heute geschlossen. Bitte rufen Sie morgen ab acht Uhr wieder an.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Eltern, der Deutschkurs am Montag beginnt um 18 Uhr, nicht um 17 Uhr.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Fahrgäste, die Buslinie 12 fährt heute wegen einer Baustelle nicht bis zum Hauptbahnhof. Bitte steigen Sie an der Haltestelle Marktplatz aus.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-01",
+      "partId": "hoeren-teil-3",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-01/hoeren-teil-3.mp3",
+      "rate": 0.88,
+      "speakers": {
+        "Frau": "female-1",
+        "Mann": "male-1",
+        "Patient": "male-2",
+        "Ärztin": "female-2"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 1 (Anrufbeantworter)",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Hallo Maria, hier ist Tom. Wir treffen uns am Samstag um vier Uhr vor dem Kino. Bis dann!",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Entschuldigung, wo ist die Post?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Gehen Sie hier geradeaus und dann die zweite Straße links. Die Post ist neben der Bank.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Ärztin",
+          "text": "Guten Tag. Was fehlt Ihnen denn?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Patient",
+          "text": "Ich habe seit gestern starke Kopfschmerzen.",
+          "pauseAfterMs": 1800,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Wie viel kostet das Zimmer pro Nacht?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "45 Euro. Mit Frühstück 55 Euro.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Gut, dann nehme ich es mit Frühstück.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Entschuldigung, wann fährt der nächste Zug nach Köln?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Um 14:20 Uhr, von Gleis 5.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Und der übernächste?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Der fährt um 15:50 Uhr.",
+          "pauseAfterMs": 300,
+          "slot": "male-1",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-02",
+      "partId": "hoeren-teil-1",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-02/hoeren-teil-1.mp3",
+      "rate": 0.88,
+      "speakers": {
+        "Frau": "female-1",
+        "Kellner": "male-1",
+        "Mann": "male-2",
+        "Mitarbeiter": "male-3",
+        "Verkäuferin": "female-2"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Verkäuferin",
+          "text": "Guten Morgen! Was darf es sein?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Ich möchte bitte drei Brötchen und einen Kaffee.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Verkäuferin",
+          "text": "Gern. Das macht 4 Euro 50.",
+          "pauseAfterMs": 1800,
+          "slot": "female-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Entschuldigung, wo ist der Zucker?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiter",
+          "text": "Der Zucker steht in Regal drei, neben dem Mehl.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Vielen Dank.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kellner",
+          "text": "Möchten Sie noch etwas trinken?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Ja, einen Apfelsaft bitte. Ohne Eis.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Was kostet ein Kilo Tomaten?",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Verkäuferin",
+          "text": "Zwei Euro achtzig.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Gut, ich nehme zwei Kilo.",
+          "pauseAfterMs": 1800,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Was isst du gern zum Frühstück?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Ich esse gern Müsli mit Obst. Kaffee trinke ich nicht.",
+          "pauseAfterMs": 300,
+          "slot": "male-2",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-02",
+      "partId": "hoeren-teil-2",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-02/hoeren-teil-2.mp3",
+      "rate": 0.88,
+      "speakers": {},
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Kundinnen und Kunden, heute sind alle Äpfel im Angebot: ein Kilo nur ein Euro fünfzig.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist das Restaurant Adler. Am Montag haben wir Ruhetag. Von Dienstag bis Sonntag sind wir ab 12 Uhr für Sie da.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Achtung: Die Bäckerei im Bahnhof ist wegen Umbau bis zum 15. Mai geschlossen.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Kundinnen und Kunden, ab morgen nehmen wir auch Kreditkarten. Bitte beachten Sie: Heute können Sie nur bar bezahlen.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Der Wochenmarkt findet ab Juni nicht mehr am Mittwoch statt, sondern am Freitag von 7 bis 13 Uhr.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-02",
+      "partId": "hoeren-teil-3",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-02/hoeren-teil-3.mp3",
+      "rate": 0.88,
+      "speakers": {
+        "Frau": "female-1",
+        "Kellner": "male-1",
+        "Mann": "male-2",
+        "Verkäufer": "male-3"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Ich hätte gern ein Stück Käsekuchen.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kellner",
+          "text": "Tut mir leid, Käsekuchen haben wir heute nicht mehr. Wir haben Apfelkuchen und Schokoladenkuchen.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Dann nehme ich den Apfelkuchen.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Wir treffen uns um sieben im Restaurant, oder?",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Nein, um halb acht. Das Restaurant öffnet erst um sieben.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Verkäufer",
+          "text": "Das macht zusammen 23 Euro 40.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Hier sind 25 Euro.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Verkäufer",
+          "text": "Danke. Und 1 Euro 60 zurück.",
+          "pauseAfterMs": 1800,
+          "slot": "male-3",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Isst du Fleisch?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Nein, ich bin Vegetarier. Aber Fisch esse ich manchmal.",
+          "pauseAfterMs": 1800,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 5 (Anrufbeantworter)",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Hallo Sabine, hier ist Nina. Kannst du bitte noch Milch und Eier mitbringen? Brot habe ich schon gekauft. Danke!",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-03",
+      "partId": "hoeren-teil-1",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-03/hoeren-teil-1.mp3",
+      "rate": 0.88,
+      "speakers": {
+        "Frau": "female-1",
+        "Mann": "male-1",
+        "Nachbar": "male-2"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Wie viele Zimmer hat deine neue Wohnung?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Drei Zimmer. Und einen kleinen Balkon.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "In welchem Stock wohnst du?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Im vierten Stock. Aber es gibt zum Glück einen Aufzug.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Nachbar",
+          "text": "Guten Tag, ich bin Herr Klein aus der Wohnung nebenan.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Freut mich! Ich heiße Amina Sow. Ich bin neu hier.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Wann kommt der Möbelwagen?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Am Samstag um acht Uhr morgens.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "So früh? Gut, dann stehe ich um sieben auf.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Wo ist die Waschmaschine?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Im Keller. Jede Wohnung hat einen Schlüssel dafür.",
+          "pauseAfterMs": 300,
+          "slot": "male-1",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-03",
+      "partId": "hoeren-teil-2",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-03/hoeren-teil-2.mp3",
+      "rate": 0.88,
+      "speakers": {},
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Mieterinnen und Mieter, am Dienstag kommt zwischen 9 und 12 Uhr ein Techniker. Bitte bleiben Sie zu Hause.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Achtung: Das Treppenhaus wird morgen gestrichen. Bitte benutzen Sie am Vormittag den hinteren Eingang.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist die Hausverwaltung Meier. Unser Büro ist diese Woche nur am Montag und Mittwoch geöffnet.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Nachbarn, am Sonntag feiern wir im Hof ein kleines Fest. Alle sind herzlich eingeladen. Es beginnt um 15 Uhr.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Bitte beachten Sie: Die Mülltonnen werden ab nächster Woche nicht mehr am Freitag geleert, sondern am Mittwoch.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-03",
+      "partId": "hoeren-teil-3",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-03/hoeren-teil-3.mp3",
+      "rate": 0.88,
+      "speakers": {
+        "Frau": "female-1",
+        "Hausmeister": "male-1",
+        "Mann": "male-2",
+        "Nachbarin": "female-2",
+        "Techniker": "male-3"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Die Wohnung kostet 700 Euro kalt.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Und mit Heizung und Wasser?",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Dann sind es 850 Euro.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 2 (Anrufbeantworter)",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Hallo Herr Yilmaz, hier ist Frau Berg von der Hausverwaltung. Wir können die Wohnung am Donnerstag um 16 Uhr besichtigen. Passt Ihnen das?",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Meine Heizung ist kaputt. Können Sie kommen?",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Techniker",
+          "text": "Heute leider nicht mehr. Aber morgen früh bin ich da.",
+          "pauseAfterMs": 1800,
+          "slot": "male-3",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Nachbarin",
+          "text": "Entschuldigung, Ihre Musik ist sehr laut. Es ist schon nach 22 Uhr.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Oh, das tut mir leid. Ich mache sie sofort leiser.",
+          "pauseAfterMs": 1800,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Wo kann ich mein Fahrrad abstellen?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Hausmeister",
+          "text": "Nicht im Treppenhaus. Bitte stellen Sie es in den Fahrradkeller.",
+          "pauseAfterMs": 300,
+          "slot": "male-1",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-04",
+      "partId": "hoeren-teil-1",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-04/hoeren-teil-1.mp3",
+      "rate": 0.88,
+      "speakers": {
+        "Chefin": "female-1",
+        "Frau": "female-2",
+        "Kollegin": "female-3",
+        "Mann": "male-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Was sind Sie von Beruf?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Ich bin Krankenpfleger. Ich arbeite im Krankenhaus.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Wann beginnt deine Arbeit?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Um sieben Uhr. Ich stehe schon um halb sechs auf.",
+          "pauseAfterMs": 1800,
+          "slot": "female-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Chefin",
+          "text": "Herr Demir, wie lange arbeiten Sie schon bei uns?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Seit drei Jahren.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Arbeitest du auch am Wochenende?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Am Samstag manchmal. Am Sonntag nie.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Wo ist das Büro von Frau Schulz?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kollegin",
+          "text": "Im zweiten Stock, Zimmer 214.",
+          "pauseAfterMs": 300,
+          "slot": "female-3",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-04",
+      "partId": "hoeren-teil-2",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-04/hoeren-teil-2.mp3",
+      "rate": 0.88,
+      "speakers": {},
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Kolleginnen und Kollegen, die Besprechung am Montag beginnt nicht um 10 Uhr, sondern schon um 9 Uhr.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist die Firma Berger. Unser Büro ist heute ab 14 Uhr geschlossen. Bitte rufen Sie morgen wieder an.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Achtung: Die Kantine ist diese Woche wegen Renovierung geschlossen. Es gibt aber ein kleines Café im Erdgeschoss.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Mitarbeiterinnen und Mitarbeiter, ab Januar können Sie an zwei Tagen pro Woche im Homeoffice arbeiten.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Bitte beachten Sie: Der Parkplatz hinter dem Haus ist nur für Kunden. Mitarbeiter parken bitte auf dem Parkplatz an der Schule.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-04",
+      "partId": "hoeren-teil-3",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-04/hoeren-teil-3.mp3",
+      "rate": 0.88,
+      "speakers": {
+        "Chef": "male-1",
+        "Chefin": "female-1",
+        "Frau": "female-2",
+        "Kollege": "male-2",
+        "Kollegin": "female-3",
+        "Mann": "male-3"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Ich möchte gern Urlaub im August nehmen.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Chefin",
+          "text": "Im August ist es schwierig. Können Sie im September fahren?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Ja, das geht auch.",
+          "pauseAfterMs": 1800,
+          "slot": "male-3",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 2 (Anrufbeantworter)",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, Frau Silva. Hier ist die Firma Krause. Wir laden Sie zu einem Gespräch ein: am Mittwoch um 11 Uhr. Bitte rufen Sie kurz zurück.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kollege",
+          "text": "Wie kommst du zur Arbeit?",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Normalerweise mit der U-Bahn. Heute bin ich mit dem Auto gekommen, denn ich hatte viel zu tragen.",
+          "pauseAfterMs": 1800,
+          "slot": "female-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Chef",
+          "text": "Wie viele Stunden arbeiten Sie in der Woche?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "30 Stunden. Ich arbeite in Teilzeit.",
+          "pauseAfterMs": 1800,
+          "slot": "female-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Der Drucker funktioniert nicht.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kollegin",
+          "text": "Nimm den im Zimmer 108. Unserer ist seit gestern kaputt.",
+          "pauseAfterMs": 300,
+          "slot": "female-3",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-05",
+      "partId": "hoeren-teil-1",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-05/hoeren-teil-1.mp3",
+      "rate": 0.88,
+      "speakers": {
+        "Frau": "female-1",
+        "Mann": "male-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Was machst du gern in deiner Freizeit?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Ich schwimme gern. Zweimal in der Woche gehe ich ins Schwimmbad.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Gehen wir am Freitag ins Kino?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Ja, gern! Der Film beginnt um 20 Uhr.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Spielst du ein Instrument?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Ja, Gitarre. Aber nicht sehr gut.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Wie viel kostet die Karte für das Konzert?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Für Studenten 12 Euro, sonst 18 Euro.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Ich bin Student.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Wo ist der Sportverein?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "In der Parkstraße, direkt neben dem Schwimmbad.",
+          "pauseAfterMs": 300,
+          "slot": "male-1",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-05",
+      "partId": "hoeren-teil-2",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-05/hoeren-teil-2.mp3",
+      "rate": 0.88,
+      "speakers": {},
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Gäste, das Schwimmbad schließt heute schon um 18 Uhr. Bitte verlassen Sie das Wasser um Viertel vor sechs.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist das Kino Astor. Der Film um 20 Uhr ist leider ausverkauft. Es gibt noch Karten für 22 Uhr.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Achtung: Das Fußballspiel am Samstag findet nicht im Stadtpark statt, sondern im Sportzentrum Nord.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Mitglieder, unser Sportverein hat ab September einen neuen Kurs: Yoga am Mittwochabend.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Das Museum ist am Montag geschlossen. Von Dienstag bis Sonntag sind wir von 10 bis 18 Uhr für Sie da.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-05",
+      "partId": "hoeren-teil-3",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-05/hoeren-teil-3.mp3",
+      "rate": 0.88,
+      "speakers": {
+        "Frau": "female-1",
+        "Mann": "male-1",
+        "Mitarbeiter": "male-2"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 1 (Anrufbeantworter)",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Hallo Ben, hier ist Clara. Wir gehen morgen wandern. Treffpunkt ist um acht Uhr am Bahnhof, nicht am Parkplatz. Bring bitte Wasser mit!",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Spielst du am Samstag Tennis?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Eigentlich ja. Aber es soll regnen. Dann gehe ich lieber ins Fitnessstudio.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiter",
+          "text": "Der Kurs kostet 80 Euro für zehn Termine.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Und wenn ich nur fünfmal komme?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiter",
+          "text": "Dann zahlen Sie 45 Euro.",
+          "pauseAfterMs": 1800,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Was hast du am Wochenende gemacht?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Ich war im Museum. Am Sonntag habe ich lange geschlafen.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Kommst du mit ins Konzert?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Ich kann leider nicht. Ich muss auf meine kleine Schwester aufpassen.",
+          "pauseAfterMs": 300,
+          "slot": "male-1",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-06",
+      "partId": "hoeren-teil-1",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-06/hoeren-teil-1.mp3",
+      "rate": 0.88,
+      "speakers": {
+        "Apothekerin": "female-1",
+        "Arzt": "male-1",
+        "Frau": "female-2",
+        "Mann": "male-2",
+        "Sprechstundenhilfe": "female-3"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Arzt",
+          "text": "Guten Tag. Was tut Ihnen weh?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Mein Rücken. Seit drei Tagen.",
+          "pauseAfterMs": 1800,
+          "slot": "female-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Sprechstundenhilfe",
+          "text": "Wann möchten Sie kommen?",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Am Freitag, bitte. Am besten am Nachmittag.",
+          "pauseAfterMs": 1800,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Apothekerin",
+          "text": "Nehmen Sie die Tabletten dreimal am Tag.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Vor dem Essen oder nach dem Essen?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Apothekerin",
+          "text": "Nach dem Essen.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Wie geht es dir?",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Nicht so gut. Ich habe Halsschmerzen und kann fast nicht sprechen.",
+          "pauseAfterMs": 1800,
+          "slot": "female-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Arzt",
+          "text": "Rauchen Sie?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Früher ja. Seit zwei Jahren nicht mehr.",
+          "pauseAfterMs": 300,
+          "slot": "male-2",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-06",
+      "partId": "hoeren-teil-2",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-06/hoeren-teil-2.mp3",
+      "rate": 0.88,
+      "speakers": {},
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist die Praxis Dr. Wagner. Wir machen Betriebsferien vom 1. bis 15. August. In dieser Zeit hilft Ihnen Dr. Sommer in der Gartenstraße.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Patientinnen und Patienten, bitte bringen Sie zu jedem Termin Ihre Versichertenkarte mit.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Achtung: Die Apotheke am Markt hat heute Notdienst. Sie ist die ganze Nacht geöffnet.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist die Zahnarztpraxis Lang. Ihr Termin am Donnerstag um 9 Uhr muss leider verschoben werden. Bitte rufen Sie uns an.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Besucher, im Krankenhaus ist Besuchszeit täglich von 14 bis 18 Uhr.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-06",
+      "partId": "hoeren-teil-3",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-06/hoeren-teil-3.mp3",
+      "rate": 0.88,
+      "speakers": {
+        "Apotheker": "male-1",
+        "Frau": "female-1",
+        "Mann": "male-2",
+        "Mitarbeiter": "male-3",
+        "Ärztin": "female-2"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Ärztin",
+          "text": "Sie haben eine Erkältung. Bleiben Sie drei Tage zu Hause.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Und wann kann ich wieder arbeiten?",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Ärztin",
+          "text": "Ab Montag, wenn es Ihnen besser geht.",
+          "pauseAfterMs": 1800,
+          "slot": "female-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 2 (Anrufbeantworter)",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, Frau Kaya. Hier ist die Praxis Dr. Wagner. Ihr Termin ist am Dienstag um 8:30 Uhr, nicht um 9:30 Uhr. Bitte kommen Sie zehn Minuten früher.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Apotheker",
+          "text": "Das Medikament kostet 9 Euro 80.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Brauche ich dafür ein Rezept?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Apotheker",
+          "text": "Nein, dieses Medikament bekommen Sie ohne Rezept.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Wo ist die Kinderärztin?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiter",
+          "text": "Im ersten Stock. Der Zahnarzt ist im Erdgeschoss.",
+          "pauseAfterMs": 1800,
+          "slot": "male-3",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Ich habe seit gestern Fieber.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Ärztin",
+          "text": "Wie hoch?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Heute Morgen 38,5 Grad.",
+          "pauseAfterMs": 300,
+          "slot": "male-2",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-07",
+      "partId": "hoeren-teil-1",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-07/hoeren-teil-1.mp3",
+      "rate": 0.88,
+      "speakers": {
+        "Frau": "female-1",
+        "Mann": "male-1",
+        "Mitarbeiter": "male-2",
+        "Rezeptionist": "male-3",
+        "Verkäuferin": "female-2"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Eine Fahrkarte nach Dresden, bitte.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Verkäuferin",
+          "text": "Einfach oder hin und zurück?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Hin und zurück, bitte.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Von welchem Gleis fährt der Zug nach Bremen?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiter",
+          "text": "Von Gleis 9.",
+          "pauseAfterMs": 1800,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Wie lange dauert die Fahrt nach Hamburg?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Etwa zwei Stunden.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Entschuldigung, fährt dieser Bus zum Flughafen?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Nein, nehmen Sie die Linie 5.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Rezeptionist",
+          "text": "Ihr Zimmer ist Nummer 312, im dritten Stock.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Und wann gibt es Frühstück?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Rezeptionist",
+          "text": "Von 7 bis 10 Uhr.",
+          "pauseAfterMs": 300,
+          "slot": "male-3",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-07",
+      "partId": "hoeren-teil-2",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-07/hoeren-teil-2.mp3",
+      "rate": 0.88,
+      "speakers": {},
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Fahrgäste, der ICE nach Frankfurt hat heute etwa 20 Minuten Verspätung. Wir bitten um Entschuldigung.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Achtung an Gleis 4: Der Regionalzug nach Rostock fällt heute aus. Bitte nehmen Sie den Zug um 15:40 Uhr.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Fahrgäste, bitte denken Sie daran: Im Bus können Sie keine Fahrkarte kaufen. Bitte kaufen Sie Ihr Ticket vorher am Automaten.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist das Hotel Seeblick. Sie können Ihr Zimmer ab 15 Uhr beziehen. Am Abreisetag bitte bis 11 Uhr auschecken.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Wegen Bauarbeiten fährt die Straßenbahnlinie 3 diese Woche nicht. Bitte benutzen Sie den Ersatzbus.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-07",
+      "partId": "hoeren-teil-3",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-07/hoeren-teil-3.mp3",
+      "rate": 0.88,
+      "speakers": {
+        "Frau": "female-1",
+        "Mann": "male-1",
+        "Mitarbeiterin": "female-2",
+        "Rezeptionist": "male-2"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Ich möchte ein Zimmer für zwei Nächte.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Rezeptionist",
+          "text": "Mit Frühstück kostet es 89 Euro pro Nacht, ohne Frühstück 75 Euro.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Ohne Frühstück, bitte.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 2 (Anrufbeantworter)",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Hallo Ana, hier ist Timo. Unser Zug fährt schon um 6:40 Uhr, nicht um 7:40 Uhr. Wir treffen uns bitte um 6:20 Uhr am Bahnhof.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Entschuldigung, wie komme ich zum Museum?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Fahren Sie mit der U2 bis Marktplatz. Von dort sind es fünf Minuten zu Fuß.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Wohin fahrt ihr im Urlaub?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Wir wollten nach Italien. Aber jetzt fahren wir nach Österreich – das ist billiger.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiterin",
+          "text": "Ihr Koffer ist leider zu schwer. Er wiegt 26 Kilo, erlaubt sind 23.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Dann nehme ich die Bücher heraus.",
+          "pauseAfterMs": 300,
+          "slot": "male-1",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-08",
+      "partId": "hoeren-teil-1",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-08/hoeren-teil-1.mp3",
+      "rate": 0.88,
+      "speakers": {
+        "Frau": "female-1",
+        "Mann": "male-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Hast du Geschwister?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Ja, eine Schwester und zwei Brüder.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Wie alt ist deine Tochter?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Sie ist sieben. Sie geht seit einem Jahr in die Schule.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Wann hat dein Vater Geburtstag?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Am 3. Mai. Wir feiern immer zusammen im Garten.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Was schenkst du deiner Mutter?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Ein Buch. Blumen bekommt sie schon von meinem Bruder.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Kommt deine Familie zu Weihnachten?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Meine Eltern kommen. Meine Schwester bleibt in Wien.",
+          "pauseAfterMs": 300,
+          "slot": "male-1",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-08",
+      "partId": "hoeren-teil-2",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-08/hoeren-teil-2.mp3",
+      "rate": 0.88,
+      "speakers": {},
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Eltern, das Sommerfest der Schule beginnt am Samstag um 14 Uhr auf dem Schulhof. Bei Regen findet es in der Turnhalle statt.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist das Restaurant Linde. Ihre Reservierung für acht Personen am Sonntag um 13 Uhr ist bestätigt.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Achtung: Der Weihnachtsmarkt am Rathausplatz öffnet erst am 28. November, nicht wie geplant am 25. November.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Nachbarn, am Samstag feiern wir die Hochzeit unserer Tochter. Es kann etwas lauter werden. Vielen Dank für Ihr Verständnis.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Hallo, hier ist die Kita Regenbogen. Am Freitag ist die Kita geschlossen. Wir machen einen Ausflug mit den Kindern erst am Montag.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-08",
+      "partId": "hoeren-teil-3",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-08/hoeren-teil-3.mp3",
+      "rate": 0.88,
+      "speakers": {
+        "Frau": "female-1",
+        "Mann": "male-1",
+        "Verkäuferin": "female-2"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 1 (Anrufbeantworter)",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Hallo Sofia, hier ist Mehmet. Die Party ist nicht am Samstag, sondern am Freitag. Sie beginnt um 19 Uhr bei meiner Schwester.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Wie viele Personen kommen zum Essen?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Wir sind zu sechst. Meine Eltern, mein Bruder mit Frau und wir zwei.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Verkäuferin",
+          "text": "Möchten Sie das Geschenk einpacken lassen?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Ja, bitte. Und können Sie eine Karte dazulegen?",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Wann kommt Oma an?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Ihr Zug kommt um 16:50 Uhr. Ich hole sie vom Bahnhof ab.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Was macht ihr an Silvester?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Nichts Großes. Wir bleiben zu Hause und essen mit den Kindern.",
+          "pauseAfterMs": 300,
+          "slot": "male-1",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-09",
+      "partId": "hoeren-teil-1",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-09/hoeren-teil-1.mp3",
+      "rate": 0.88,
+      "speakers": {
+        "Frau": "female-1",
+        "Lehrerin": "female-2",
+        "Mann": "male-1",
+        "Schüler": "male-2"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Wie ist das Wetter heute?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Es regnet. Nimm bitte einen Schirm mit.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Lehrerin",
+          "text": "Welches Buch brauchen wir morgen?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Schüler",
+          "text": "Das grüne Buch, Seite 42.",
+          "pauseAfterMs": 1800,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Wie viele Leute sind in deinem Deutschkurs?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Zwölf. Wir kommen aus neun Ländern.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Wann sind die Sommerferien?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Sie beginnen am 15. Juli.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Wie kalt ist es draußen?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Minus zwei Grad. Zieh dir eine warme Jacke an.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-09",
+      "partId": "hoeren-teil-2",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-09/hoeren-teil-2.mp3",
+      "rate": 0.88,
+      "speakers": {},
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Kursteilnehmerinnen und Kursteilnehmer, der Deutschkurs beginnt nächste Woche in Raum 105, nicht mehr in Raum 12.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Achtung: Wegen Schnee fällt der Unterricht heute in der Grundschule aus. Die Kinder bleiben zu Hause.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist die Volkshochschule. Für den Kurs A2 sind noch drei Plätze frei. Bitte melden Sie sich bis Freitag an.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Eltern, das Zeugnis bekommen die Kinder am letzten Schultag, dem 14. Juli.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Der Wetterbericht: Morgen wird es warm und sonnig, bis 26 Grad. Am Wochenende kommt Regen.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a1-09",
+      "partId": "hoeren-teil-3",
+      "level": "A1",
+      "language": "de",
+      "output": "/audio/de/a1/uebungstest-a1-09/hoeren-teil-3.mp3",
+      "rate": 0.88,
+      "speakers": {
+        "Frau": "female-1",
+        "Lehrer": "male-1",
+        "Lehrerin": "female-2",
+        "Mann": "male-2",
+        "Mitarbeiterin": "female-3",
+        "Schülerin": "female-4"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiterin",
+          "text": "Der Kurs kostet 240 Euro. Mit Ermäßigung zahlen Sie 160 Euro.",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Ich bekomme Ermäßigung. Hier ist mein Ausweis.",
+          "pauseAfterMs": 1800,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 2 (Anrufbeantworter)",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Hallo Frau Ito, hier ist die Volkshochschule. Ihr Kurs beginnt am Montag, dem 8. Januar, um 18 Uhr. Bitte kommen Sie zehn Minuten früher.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Lehrer",
+          "text": "Haben Sie die Hausaufgabe gemacht?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Nein, leider nicht. Ich hatte gestern keine Zeit. Ich bringe sie morgen mit.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau",
+          "text": "Was ziehst du morgen an?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mann",
+          "text": "Eine Jacke. Es soll den ganzen Tag regnen.",
+          "pauseAfterMs": 1800,
+          "slot": "male-2",
+          "rate": 0.88
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Situation 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Schülerin",
+          "text": "Wann ist die Prüfung?",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 0.88
+        },
+        {
+          "kind": "speech",
+          "speaker": "Lehrerin",
+          "text": "Am 20. März. Aber wir üben schon ab Februar.",
+          "pauseAfterMs": 300,
+          "slot": "female-2",
+          "rate": 0.88
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-01",
+      "partId": "hoeren-teil-1",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-01/hoeren-teil-1.mp3",
+      "rate": 0.94,
+      "speakers": {},
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, Frau Schneider, hier ist die Autowerkstatt Berg. Ihr Auto ist leider erst am Freitag fertig, nicht schon am Mittwoch. Sie können es dann ab 14 Uhr abholen.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Praxis Dr. Neumann, guten Tag. Wir haben eine neue Telefonnummer. Bitte notieren Sie:",
+          "pauseAfterMs": 350,
+          "slow": false,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "0341",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "55",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "88",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "22",
+          "pauseAfterMs": 450,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Ich wiederhole:",
+          "pauseAfterMs": 350,
+          "slow": false,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "0341",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "55",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "88",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "22",
+          "pauseAfterMs": 450,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Die alte Nummer gilt nur noch bis Ende des Monats.",
+          "pauseAfterMs": 1800,
+          "slow": false,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Information für die Reisenden nach Leipzig: Der Intercity",
+          "pauseAfterMs": 350,
+          "slow": false,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "2043",
+          "pauseAfterMs": 450,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "fährt heute nicht von Gleis 8, sondern von Gleis 12. Wir bitten Sie, die Änderung zu beachten.",
+          "pauseAfterMs": 1800,
+          "slow": false,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist die Sprachschule Lingua. Ihr Kurs beginnt am 3. Oktober um 18 Uhr in Raum 204. Bitte kommen Sie am ersten Tag zehn Minuten früher.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Gäste, wir müssen Ihnen leider mitteilen: Die Vorstellung beginnt heute nicht um 19:30 Uhr, sondern erst um 20:15 Uhr. Die Kasse öffnet um 19:45 Uhr.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-01",
+      "partId": "hoeren-teil-2",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-01/hoeren-teil-2.mp3",
+      "rate": 0.94,
+      "speakers": {
+        "Katrin Sommer": "female-1",
+        "Moderator": "male-1"
+      },
+      "segments": [
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Guten Morgen, liebe Hörerinnen und Hörer. Heute ist Katrin Sommer bei uns im Studio. Sie organisiert das Reparatur-Café in Leipzig. Frau Sommer, was ist eigentlich ein Reparatur-Café?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Katrin Sommer",
+          "text": "Guten Morgen. Bei uns reparieren die Leute ihre kaputten Sachen selbst – aber nicht allein. Sie bringen zum Beispiel eine Lampe, ein Fahrrad oder eine Kaffeemaschine mit, und wir helfen ihnen dabei.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Und was kostet das?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Katrin Sommer",
+          "text": "Unsere Hilfe ist kostenlos. Nur die Ersatzteile müssen die Leute selbst bezahlen. Viele geben uns trotzdem freiwillig etwas Geld, damit wir neues Werkzeug kaufen können.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Wann kann man zu Ihnen kommen?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Katrin Sommer",
+          "text": "Wir öffnen jeden zweiten Samstag im Monat, von 14 bis 18 Uhr. Im Winter machen wir manchmal auch am Mittwochabend auf, aber das steht immer erst kurz vorher fest.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Wer hilft bei Ihnen mit?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Katrin Sommer",
+          "text": "Im Moment sind wir zwölf Personen. Die meisten sind Rentner, wir haben aber auch drei Studenten. Fast alle haben früher in einem technischen Beruf gearbeitet.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Und warum machen Sie das?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Katrin Sommer",
+          "text": "Am Anfang war für mich die Umwelt der wichtigste Grund. Wir werfen einfach viel zu viele Dinge weg. Aber inzwischen finde ich etwas anderes noch schöner: Die Leute sitzen zusammen, trinken Kaffee und reden miteinander. Das Reparieren ist fast schon Nebensache.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Brauchen Sie noch Unterstützung?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Katrin Sommer",
+          "text": "Ja, sehr gern. Wir suchen vor allem jemanden, der sich mit Computern auskennt.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-01",
+      "partId": "hoeren-teil-3",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-01/hoeren-teil-3.mp3",
+      "rate": 0.94,
+      "speakers": {
+        "Frau Kern": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Frau Kern erzählt einer Freundin, was ihre Nachbarn, die Familie Bauer, am Samstag vorhaben.",
+          "pauseAfterMs": 550,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kern",
+          "text": "Bei Familie Bauer ist am Samstag richtig etwas los, jeder macht etwas anderes.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kern",
+          "text": "Herr Bauer bleibt zu Hause. Das Wetter soll schön werden, und die Hecke im Garten ist ihm schon lange zu hoch. Das will er endlich machen.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kern",
+          "text": "Frau Bauer fährt in die Stadt. Sie haben nichts mehr zu essen im Haus, und neue Schuhe braucht sie auch.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kern",
+          "text": "Lena, die Tochter, hat um zehn Training. Nächste Woche hat ihre Mannschaft ein wichtiges Spiel, da darf sie nicht fehlen.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kern",
+          "text": "Tobias ist den ganzen Nachmittag bei Marie. Er hat ihr versprochen, dass er kommt, denn sie möchte ihm ihren neuen Computer zeigen. Reparieren muss er zum Glück nichts.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kern",
+          "text": "Und die Oma hat einen Termin. Ihr Knie tut schon seit Wochen weh, und am Samstag geht sie endlich zur Ärztin.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kern",
+          "text": "Gekocht wird bei ihnen übrigens nicht, Frau Bauer bringt etwas aus der Stadt mit. Und den Keller räumen sie erst nächstes Wochenende auf.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-02",
+      "partId": "hoeren-teil-1",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-02/hoeren-teil-1.mp3",
+      "rate": 0.94,
+      "speakers": {},
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, Herr Aydin, hier ist die Hausverwaltung Meier. Der Techniker kommt am Dienstag zwischen 9 und 12 Uhr. Bitte seien Sie zu Hause.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Hallo, hier ist die Umzugsfirma Leicht und Schnell. Wir haben Ihren Termin notiert. Der Wagen kommt am 15. April um sieben Uhr morgens.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, Frau Weber. Ihr neuer Kühlschrank wird geliefert. Bitte notieren Sie die Auftragsnummer:",
+          "pauseAfterMs": 350,
+          "slow": false,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "48",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "21",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "07",
+          "pauseAfterMs": 450,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Also noch einmal:",
+          "pauseAfterMs": 350,
+          "slow": false,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "48",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "21",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "07",
+          "pauseAfterMs": 1800,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Mieterinnen und Mieter, ab nächster Woche ist das Hausmeisterbüro nicht mehr im Keller, sondern im Erdgeschoss neben dem Eingang.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist das Möbelhaus Wagner. Ihr Sofa kostet mit Lieferung 640 Euro. Die Lieferung selbst ist kostenlos, das Sofa allein kostet 640 Euro.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-02",
+      "partId": "hoeren-teil-2",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-02/hoeren-teil-2.mp3",
+      "rate": 0.94,
+      "speakers": {
+        "Moderatorin": "female-1",
+        "Thomas Renz": "male-1"
+      },
+      "segments": [
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Guten Tag. Heute sprechen wir über ein besonderes Wohnprojekt in Dresden. Mein Gast ist Herr Thomas Renz. Herr Renz, was ist das Besondere an Ihrem Haus?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Thomas Renz",
+          "text": "Bei uns wohnen junge Familien und ältere Menschen zusammen in einem Haus. Wir haben 24 Wohnungen und außerdem einen großen Gemeinschaftsraum im Erdgeschoss.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Und wofür benutzen Sie diesen Raum?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Thomas Renz",
+          "text": "Für alles Mögliche. Einmal in der Woche kochen wir dort zusammen. Manchmal feiern wir Geburtstage, und die Kinder machen dort auch ihre Hausaufgaben, wenn die Eltern noch arbeiten.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Ist die Miete teurer als anderswo?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Thomas Renz",
+          "text": "Nein, im Gegenteil. Wir zahlen ungefähr einen Euro weniger pro Quadratmeter als in der Nachbarschaft. Dafür müssen aber alle mithelfen: Jeder arbeitet zwei Stunden im Monat für die Gemeinschaft, zum Beispiel im Garten oder im Treppenhaus.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Gibt es auch Probleme?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Thomas Renz",
+          "text": "Natürlich. Am Anfang haben wir über jede Kleinigkeit diskutiert, das war sehr anstrengend. Heute treffen wir uns nur noch einmal im Monat und entscheiden alles gemeinsam. Das funktioniert viel besser.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Kann man bei Ihnen einziehen?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Thomas Renz",
+          "text": "Im Moment leider nicht. Wir haben eine Warteliste, und da stehen etwa 60 Familien darauf. Aber es gibt inzwischen ähnliche Projekte in anderen Städten.",
+          "pauseAfterMs": 300,
+          "slot": "male-1",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-02",
+      "partId": "hoeren-teil-3",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-02/hoeren-teil-3.mp3",
+      "rate": 0.94,
+      "speakers": {
+        "Hausmeisterin": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Die Hausmeisterin ruft bei der Hausverwaltung an und meldet die Probleme aus dem Haus.",
+          "pauseAfterMs": 550,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Hausmeisterin",
+          "text": "Guten Tag, ich rufe wegen der Beschwerden aus der Lindenstraße 24 an. Ich habe mir alles notiert.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Hausmeisterin",
+          "text": "Bei Herrn Aydin wird es im Winter einfach nicht warm. Die Heizung bleibt lauwarm, egal wie hoch er sie stellt. Der Techniker war schon zweimal da.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Hausmeisterin",
+          "text": "Frau Weber beschwert sich über die Familie über ihr. Bis elf Uhr abends hört sie jeden Schritt und kann kaum noch schlafen.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Hausmeisterin",
+          "text": "Herr Novak wohnt im sechsten Stock. Seit drei Wochen steht der Aufzug still, und seine Frau hat ein krankes Knie. Für sie ist das sehr schwierig.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Hausmeisterin",
+          "text": "Bei Frau Silva tropft es. Im Bad ist die Decke schon ganz nass, und im Schlafzimmer riecht es nach Feuchtigkeit.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Hausmeisterin",
+          "text": "Und Herr Kowalski hat letzte Woche im Hof sein Fahrrad gesucht – es war weg. Das Schloss lag noch da.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Hausmeisterin",
+          "text": "Über die Miete hat sich diesmal niemand beschwert, und Schlüssel sind auch keine verloren gegangen.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-03",
+      "partId": "hoeren-teil-1",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-03/hoeren-teil-1.mp3",
+      "rate": 0.94,
+      "speakers": {},
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, Frau Lindner, hier ist die Praxis Dr. Hoffmann. Ihr Termin muss leider verschoben werden. Wir bieten Ihnen Donnerstag um 10:30 Uhr an. Bitte sagen Sie kurz Bescheid.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Hallo, hier ist die Apotheke am Ring. Ihr Medikament ist da. Sie können es ab morgen abholen. Bitte bringen Sie das Rezept mit, sonst dürfen wir es nicht herausgeben.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist die Krankenkasse. Für Ihre Anfrage brauchen wir Ihre Versichertennummer:",
+          "pauseAfterMs": 350,
+          "slow": false,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "A 12",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "34",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "56",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "78",
+          "pauseAfterMs": 450,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Zur Sicherheit noch einmal:",
+          "pauseAfterMs": 350,
+          "slow": false,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "A 12",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "34",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "56",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "78",
+          "pauseAfterMs": 1800,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Physiotherapie Bewegung, guten Tag. Ihre erste Behandlung ist am Montag. Bitte kommen Sie in Raum 3, nicht in Raum 1 wie beim letzten Mal.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, Herr Yilmaz. Ihre Brille ist fertig. Der Rest kostet noch 45 Euro. Die Anzahlung von 30 Euro haben wir schon.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-03",
+      "partId": "hoeren-teil-2",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-03/hoeren-teil-2.mp3",
+      "rate": 0.94,
+      "speakers": {
+        "Dr. Reimer": "female-2",
+        "Moderator": "male-1"
+      },
+      "segments": [
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Willkommen zurück. Bei uns im Studio ist heute Frau Dr. Anke Reimer. Sie ist Hausärztin und hat ein Buch über Schlaf geschrieben. Frau Reimer, wie viele Stunden Schlaf braucht ein Erwachsener?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Dr. Reimer",
+          "text": "Das ist sehr unterschiedlich. Die meisten Menschen brauchen zwischen sieben und acht Stunden. Es gibt aber auch Leute, denen sechs Stunden reichen. Wichtig ist nicht die Zahl, sondern wie man sich am Morgen fühlt.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Viele Menschen sagen, sie können abends nicht einschlafen. Was raten Sie?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Dr. Reimer",
+          "text": "Der häufigste Fehler ist das Handy im Bett. Das Licht vom Bildschirm sagt dem Körper: Es ist noch Tag. Ich empfehle, das Handy eine Stunde vor dem Schlafen wegzulegen.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Und Sport am Abend?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Dr. Reimer",
+          "text": "Sport ist gut, aber nicht direkt vor dem Schlafengehen. Zwei bis drei Stunden vorher ist ideal. Ein Spaziergang am Abend ist dagegen immer gut.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Hilft ein Glas Wein beim Einschlafen?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Dr. Reimer",
+          "text": "Beim Einschlafen ja, aber danach schläft man deutlich schlechter. Man wacht nachts öfter auf. Ich rate deshalb davon ab.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Wann sollte man zum Arzt gehen?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Dr. Reimer",
+          "text": "Wenn die Probleme länger als vier Wochen dauern und man tagsüber sehr müde ist. Dann steckt manchmal eine Krankheit dahinter.",
+          "pauseAfterMs": 300,
+          "slot": "female-2",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-03",
+      "partId": "hoeren-teil-3",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-03/hoeren-teil-3.mp3",
+      "rate": 0.94,
+      "speakers": {
+        "Teamleiterin": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Eine Teamleiterin erklärt einem Kollegen, warum diese Woche mehrere Personen fehlen.",
+          "pauseAfterMs": 550,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Teamleiterin",
+          "text": "Diese Woche ist bei uns viel los, fast alle haben einen Termin.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Teamleiterin",
+          "text": "Frau Lindner hat seit Tagen Zahnschmerzen. Sie geht morgen früh hin, sie hält es nicht mehr aus.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Teamleiterin",
+          "text": "Herr Yilmaz hat Probleme mit dem Rücken. Der Arzt hat ihm zehn Termine verschrieben, Übungen und Massage. Die erste Behandlung ist am Montag.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Teamleiterin",
+          "text": "Frau Bergmann sieht seit einiger Zeit schlecht, besonders abends beim Autofahren. Sie lässt zuerst die Augen untersuchen; die neue Brille kommt später.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Teamleiterin",
+          "text": "Herr Sandu muss nur ein Formular abgeben. Seine Frau war im Ausland beim Arzt, und sie bekommen das Geld zurück. Das macht er in der Mittagspause.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Teamleiterin",
+          "text": "Und Frau Nowak bringt ihren Sohn hin. Er ist gestern vom Klettergerüst gefallen, der Arm ist dick und muss sofort geröntgt werden. Warten kann sie damit nicht.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Teamleiterin",
+          "text": "In die Apotheke muss zum Glück niemand, und ins Fitnessstudio geht diese Woche auch keiner.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-04",
+      "partId": "hoeren-teil-1",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-04/hoeren-teil-1.mp3",
+      "rate": 0.94,
+      "speakers": {},
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, Frau Duarte, hier ist die Firma Kranz. Wir möchten Sie gern kennenlernen. Passt Ihnen der Mittwoch um 9 Uhr? Bitte rufen Sie kurz zurück.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Hallo Herr Berisha, hier ist das Personalbüro. Sie haben nach dem Gehalt gefragt: Wir zahlen 15 Euro pro Stunde, in der Probezeit 14 Euro.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist die Agentur für Arbeit. Ihre Beraterin heißt Frau Kern. Ihr Zimmer ist die Nummer 218 im zweiten Stock. Ich wiederhole: Zimmer 218.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Kolleginnen und Kollegen, die Betriebsversammlung findet nicht am Freitag statt, sondern am Montag um 14 Uhr in der Kantine.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, Frau Ivanova. Für die Bewerbung fehlt uns noch ein Dokument: Ihr Arbeitszeugnis von der letzten Stelle. Alles andere haben wir bekommen.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-04",
+      "partId": "hoeren-teil-2",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-04/hoeren-teil-2.mp3",
+      "rate": 0.94,
+      "speakers": {
+        "Jonas Feld": "male-1",
+        "Moderatorin": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Heute geht es um das Thema Bewerbung. Bei mir ist Herr Jonas Feld. Er arbeitet seit zwölf Jahren im Personalbüro einer großen Firma. Herr Feld, wie lange schauen Sie sich eine Bewerbung an?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Feld",
+          "text": "Beim ersten Mal wirklich nur kurz – etwa eine Minute. Erst wenn mir etwas auffällt, lese ich alles genau.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Worauf achten Sie zuerst?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Feld",
+          "text": "Viele denken, das Foto sei das Wichtigste. Das stimmt nicht. Ich schaue zuerst, ob die Person zu der Stelle passt: Welche Erfahrung hat sie, was hat sie zuletzt gemacht?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Was ist der häufigste Fehler?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Feld",
+          "text": "Ganz klar: der falsche Firmenname im Anschreiben. Die Leute schicken zwanzig Bewerbungen und vergessen, den Namen zu ändern. Das sehe ich jede Woche.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Und wie wichtig ist perfektes Deutsch?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Feld",
+          "text": "Weniger wichtig, als viele glauben. Ein paar Fehler sind kein Problem, wenn ich verstehe, was die Person kann und will. Bei uns arbeiten Menschen aus 14 Ländern.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Ein letzter Tipp?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Feld",
+          "text": "Rufen Sie vorher an und stellen Sie eine Frage zur Stelle. Dann kenne ich den Namen schon, wenn die Bewerbung kommt. Das hilft mehr als jedes schöne Foto.",
+          "pauseAfterMs": 300,
+          "slot": "male-1",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-04",
+      "partId": "hoeren-teil-3",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-04/hoeren-teil-3.mp3",
+      "rate": 0.94,
+      "speakers": {
+        "Kollege": "male-1"
+      },
+      "segments": [
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Ein Kollege zeigt einer neuen Mitarbeiterin die Firma und erklärt, wo sie wen findet.",
+          "pauseAfterMs": 550,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kollege",
+          "text": "Ich zeige dir kurz, wo du wen findest.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kollege",
+          "text": "Gleich hier links ist der Empfang. Dort sitzt Frau Ahmadi. Sie nimmt alle Anrufe an und gibt den Besuchern die Ausweise.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kollege",
+          "text": "Der Chef, Herr Kranz, sitzt ganz oben im dritten Stock. Sein Büro ist das letzte am Ende vom Flur. Er ist allerdings oft unterwegs.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kollege",
+          "text": "Frau Duarte, unsere Buchhalterin, findest du im ersten Stock, direkt neben dem Kopierraum. Wenn du eine Rechnung hast, gehst du zu ihr.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kollege",
+          "text": "Milan, unser Praktikant, ist meistens im Lager. Er packt die Pakete und bringt sie zur Post.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kollege",
+          "text": "Und wenn eine Maschine kaputt ist, brauchst du Herrn Berisha. Ihn findest du in der Werkstatt hinter dem Hof. Schreib ihm am besten vorher eine Nachricht, er hört die Maschinen nicht immer.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kollege",
+          "text": "In der Kantine triffst du natürlich alle – aber erst um zwölf.",
+          "pauseAfterMs": 300,
+          "slot": "male-1",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-05",
+      "partId": "hoeren-teil-1",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-05/hoeren-teil-1.mp3",
+      "rate": 0.94,
+      "speakers": {},
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist das Hotel Seeblick. Wir bestätigen Ihr Zimmer. Sie können ab 15 Uhr einchecken, auschecken müssen Sie bis 11 Uhr.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Fluggäste, der Flug",
+          "pauseAfterMs": 350,
+          "slow": false,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "LH 1428",
+          "pauseAfterMs": 450,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "nach Wien startet heute von Gate B 14, nicht von Gate B 4. Ich wiederhole: Gate B 14. Bitte beachten Sie die Änderung.",
+          "pauseAfterMs": 1800,
+          "slow": false,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Hallo Marek, hier ist Julia. Der Bus fährt schon um sechs Uhr, nicht um sieben. Wir treffen uns bitte um Viertel vor sechs am Busbahnhof.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, Frau Costa. Ihre Buchung ist fertig. Bitte notieren Sie die Buchungsnummer:",
+          "pauseAfterMs": 350,
+          "slow": false,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "X 7",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "3",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "9",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "2",
+          "pauseAfterMs": 450,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Ich wiederhole:",
+          "pauseAfterMs": 350,
+          "slow": false,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "X 7",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "3",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "9",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "2",
+          "pauseAfterMs": 1800,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Information für unsere Gäste: Das Frühstück gibt es von 6:30 bis 10 Uhr. Am Sonntag beginnt es eine Stunde später.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-05",
+      "partId": "hoeren-teil-2",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-05/hoeren-teil-2.mp3",
+      "rate": 0.94,
+      "speakers": {
+        "Bianca Costa": "female-1",
+        "Moderator": "male-1"
+      },
+      "segments": [
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Urlaub muss nicht teuer sein – das sagt jedenfalls unser Gast Frau Bianca Costa. Sie schreibt einen Reiseblog. Frau Costa, was ist der größte Fehler beim Buchen?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Bianca Costa",
+          "text": "Die meisten buchen viel zu spät oder viel zu früh. Am günstigsten ist es meistens sechs bis acht Wochen vorher. Und man sollte nicht am Wochenende buchen – da sind die Preise oft höher.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Wirklich? Woran liegt das?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Bianca Costa",
+          "text": "Am Wochenende suchen einfach mehr Leute. Dienstag oder Mittwoch sind besser.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Sie reisen selbst sehr viel. Wie machen Sie das?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Bianca Costa",
+          "text": "Ich fahre fast immer außerhalb der Ferien. Im September ist das Wetter am Mittelmeer noch schön, aber die Hotels kosten die Hälfte. Für Familien mit Schulkindern geht das natürlich nicht.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Was halten Sie von sehr billigen Flügen?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Bianca Costa",
+          "text": "Vorsicht. Der Flug kostet 20 Euro, aber der Koffer 45 und der Transfer vom Flughafen noch einmal 30. Am Ende ist der Zug oft billiger – und man sitzt bequemer.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Ihr wichtigster Tipp?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Bianca Costa",
+          "text": "Nehmen Sie weniger mit. Ich reise seit Jahren nur mit Handgepäck. Das spart Geld, Zeit und Nerven.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-05",
+      "partId": "hoeren-teil-3",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-05/hoeren-teil-3.mp3",
+      "rate": 0.94,
+      "speakers": {
+        "Kursleiterin": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Eine Kursleiterin erzählt im Lehrerzimmer, was ihre Teilnehmerinnen und Teilnehmer in den Ferien machen.",
+          "pauseAfterMs": 550,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kursleiterin",
+          "text": "Meine Gruppe hat ganz unterschiedliche Pläne für die Ferien.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kursleiterin",
+          "text": "Marek fährt nach Polen zu seinen Eltern. Er war seit zwei Jahren nicht mehr dort, und seine Mutter kocht bestimmt schon eine Woche vorher.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kursleiterin",
+          "text": "Bei Julia wird es sportlich. Sie wandert eine Woche in den Alpen, jeden Tag ungefähr fünf Stunden, und abends schlafen sie in kleinen Hütten.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kursleiterin",
+          "text": "Hassan bleibt hier. Seine Wohnung muss endlich renoviert werden, und im Sommer hat er sowieso wenig Geld. Vielleicht macht er ein paar Tagesausflüge.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kursleiterin",
+          "text": "Bianca fliegt nach Lissabon, zwei Freundinnen wohnen dort. Sie wollen die Stadt anschauen, in Cafés sitzen und abends tanzen gehen.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kursleiterin",
+          "text": "Und Olga fährt mit den Kindern aufs Land. Dort gibt es Kühe, Pferde und einen großen Garten, und die Kinder dürfen beim Füttern helfen.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kursleiterin",
+          "text": "Einen Sprachkurs macht diesmal niemand, und ans Meer zum Baden fährt auch keiner.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-06",
+      "partId": "hoeren-teil-1",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-06/hoeren-teil-1.mp3",
+      "rate": 0.94,
+      "speakers": {},
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, Frau Marchetti, hier ist das Elektrogeschäft Volt. Ihre Waschmaschine wird geliefert. Der Fahrer kommt am Samstag zwischen 8 und 12 Uhr.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Hallo, hier ist der Kundenservice. Für die Reklamation brauchen wir Ihre Bestellnummer. Sie steht auf der Rechnung:",
+          "pauseAfterMs": 350,
+          "slow": false,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "504",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "982",
+          "pauseAfterMs": 450,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Noch einmal:",
+          "pauseAfterMs": 350,
+          "slow": false,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "504",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "982",
+          "pauseAfterMs": 1800,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.73
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, Herr Traoré. Ihre Schuhe sind repariert. Sie kosten 24 Euro. Sie können sie bis Samstag abholen, danach sind wir zwei Wochen im Urlaub.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Kundinnen und Kunden, unser Geschäft zieht um. Ab dem 1. September finden Sie uns in der Bahnhofstraße 7.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Hallo, hier ist das Möbelhaus. Sie haben nach der Lieferzeit gefragt: Der Tisch ist in vier Wochen da, die Stühle schon in zwei Wochen.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-06",
+      "partId": "hoeren-teil-2",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-06/hoeren-teil-2.mp3",
+      "rate": 0.94,
+      "speakers": {
+        "Lisa Marchetti": "female-1",
+        "Moderatorin": "female-2"
+      },
+      "segments": [
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Kleidung tauschen statt kaufen – geht das? Bei mir ist Frau Lisa Marchetti. Sie organisiert Kleidertauschpartys. Frau Marchetti, wie funktioniert das?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Lisa Marchetti",
+          "text": "Ganz einfach. Jeder bringt saubere Kleidung mit, die er nicht mehr trägt. Wir hängen alles auf, und dann darf jeder mitnehmen, was ihm gefällt. Man muss nichts bezahlen.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Muss man genauso viel mitnehmen, wie man bringt?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Lisa Marchetti",
+          "text": "Nein, das kontrolliert niemand. Manche bringen zehn Teile und nehmen keins mit. Andere bringen zwei und nehmen fünf.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Und was passiert mit der Kleidung, die übrig bleibt?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Lisa Marchetti",
+          "text": "Die geht an eine soziale Einrichtung in der Stadt. Nichts wird weggeworfen, das ist uns wichtig.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Wie viele Leute kommen?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Lisa Marchetti",
+          "text": "Beim ersten Mal waren es fünfzehn. Jetzt kommen jedes Mal etwa hundert. Wir mussten schon in einen größeren Raum umziehen.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Kommen nur Frauen?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Lisa Marchetti",
+          "text": "Am Anfang ja, fast nur. Inzwischen ist etwa jeder vierte Gast ein Mann. Kinderkleidung ist übrigens am beliebtesten – die ist ja meistens noch fast neu, wenn sie zu klein wird.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-06",
+      "partId": "hoeren-teil-3",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-06/hoeren-teil-3.mp3",
+      "rate": 0.94,
+      "speakers": {
+        "Mitarbeiterin": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Eine Mitarbeiterin an der Information übergibt die Schicht und liest ihrer Kollegin ihre Notizen vor.",
+          "pauseAfterMs": 550,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiterin",
+          "text": "Ich habe mir alles aufgeschrieben, damit du Bescheid weißt.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiterin",
+          "text": "Herr Traoré hat letzte Woche ein Hemd gekauft. Zu Hause hat er gesehen, dass ein Knopf fehlt. Er möchte genau dasselbe Hemd noch einmal, in derselben Größe.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiterin",
+          "text": "Frau Berg war wegen einer Jacke da. Ihre Tochter hat sie zu Weihnachten bekommen, aber sie ist zu klein. Sie fragt, ob wir die Jacke eine Nummer größer haben.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiterin",
+          "text": "Herr Lang hat eine Kaffeemaschine gekauft, erst vier Monate alt, und sie macht kein heißes Wasser mehr. Die Rechnung hatte er dabei. Er möchte sein Geld zurück.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiterin",
+          "text": "Frau Okoro wollte nur wissen, wo die Toiletten und danach das Café sind. Ihre Freundin hat dort schon auf sie gewartet.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiterin",
+          "text": "Und Herr Novak hat gestern bei uns eingekauft. Er glaubt, dass er seinen Regenschirm liegen gelassen hat, einen blauen mit Holzgriff, und fragt, ob wir so etwas gefunden haben.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiterin",
+          "text": "Beschwert hat sich diesmal niemand, und bestellen wollte auch keiner etwas.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-07",
+      "partId": "hoeren-teil-1",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-07/hoeren-teil-1.mp3",
+      "rate": 0.94,
+      "speakers": {},
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist der Sportverein Aktiv. Das Training fällt diese Woche aus. Wir sehen uns wieder am Donnerstag, wie immer um 19 Uhr.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Hallo, hier ist das Schwimmbad Nordbad. Sie haben nach dem Preis gefragt: Die Zehnerkarte für Erwachsene kostet 38 Euro.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Abend, hier ist das Theater am Park. Ihre Karten liegen an der Abendkasse. Bitte kommen Sie spätestens um 19:15 Uhr, die Vorstellung beginnt um 19:30 Uhr.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Hallo Sofia, hier ist Ben. Wir treffen uns am Sonntag nicht am Kino, sondern direkt am Eingang vom Stadtpark.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist die Musikschule. Für den Gitarrenkurs sind noch Plätze frei. Der Kurs hat insgesamt 12 Termine und beginnt am 9. Januar.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-07",
+      "partId": "hoeren-teil-2",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-07/hoeren-teil-2.mp3",
+      "rate": 0.94,
+      "speakers": {
+        "Moderator": "male-1",
+        "Nadine Roth": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Heute geht es um einen Sportverein, in dem etwas anders läuft. Mein Gast ist Frau Nadine Roth vom SV Nordstern. Frau Roth, was ist bei Ihnen besonders?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Nadine Roth",
+          "text": "Bei uns kostet der Beitrag nicht für alle gleich viel. Wer wenig verdient, zahlt weniger. Wir fragen nicht nach Papieren, die Leute sagen uns einfach, was für sie möglich ist.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Funktioniert das denn?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Nadine Roth",
+          "text": "Sehr gut sogar. Wir hatten Angst, dass alle den kleinsten Betrag wählen. Das Gegenteil ist passiert: Manche zahlen freiwillig mehr als früher.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Wie viele Mitglieder haben Sie?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Nadine Roth",
+          "text": "Im Moment 340. Vor dem neuen System waren es 280. Besonders viele Familien sind dazugekommen.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Welche Sportarten bieten Sie an?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Nadine Roth",
+          "text": "Fußball, Handball und seit zwei Jahren auch Tischtennis. Am beliebtesten ist aber die Laufgruppe am Samstagmorgen – da kommen alle, vom Kind bis zur Rentnerin.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Brauchen Sie noch Trainerinnen und Trainer?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Nadine Roth",
+          "text": "Ja, dringend. Man braucht keine Ausbildung. Wichtig ist, dass man Zeit hat und gern mit Menschen arbeitet. Die Ausbildung bezahlen wir.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-07",
+      "partId": "hoeren-teil-3",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-07/hoeren-teil-3.mp3",
+      "rate": 0.94,
+      "speakers": {
+        "Kursteilnehmerin": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Eine Kursteilnehmerin erzählt einer Freundin, was die anderen aus ihrem Deutschkurs in der Freizeit machen.",
+          "pauseAfterMs": 550,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kursteilnehmerin",
+          "text": "In unserem Kurs hat jeder ein anderes Hobby, das finde ich schön.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kursteilnehmerin",
+          "text": "Sofia geht zweimal in der Woche ins Wasser, morgens um sieben, noch vor der Arbeit. Danach ist sie den ganzen Tag wach.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kursteilnehmerin",
+          "text": "Bei Ben ist es ruhiger. Er hat eine kleine Kamera und läuft damit am Wochenende durch die Stadt. Am liebsten fotografiert er alte Häuser.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kursteilnehmerin",
+          "text": "Nadine singt. Sie ist mit ungefähr dreißig Leuten in einem Chor und trifft sich jeden Mittwochabend in der Kirche. Im Dezember geben sie immer ein Konzert.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kursteilnehmerin",
+          "text": "Marco kocht für sein Leben gern, aber immer dasselbe. Deshalb macht er jetzt einen Kurs; letzte Woche haben sie indisch gekocht.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kursteilnehmerin",
+          "text": "Und Yuki sitzt samstags im Garten – aber nicht in ihrem eigenen. Sie hat ein kleines Stück Land gemietet, zwanzig Minuten mit dem Rad von hier. Dort wachsen Tomaten und Salat, und im Sommer kauft sie fast kein Gemüse.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kursteilnehmerin",
+          "text": "Ein Instrument spielt bei uns niemand, und ins Kino geht auch fast keiner.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-08",
+      "partId": "hoeren-teil-1",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-08/hoeren-teil-1.mp3",
+      "rate": 0.94,
+      "speakers": {},
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist die Grundschule am Wald. Der Elternabend beginnt um 19 Uhr, und zwar im Musikraum, nicht in der Aula.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Hallo Frau Diallo, hier ist die Klassenlehrerin. Ihr Sohn hat sein Sportzeug vergessen. Bitte denken Sie am Mittwoch daran.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist die Volkshochschule. Der Kurs kostet 96 Euro. Mit dem Bildungsgutschein zahlen Sie nichts.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Eltern, der Ausflug in den Zoo kostet 8 Euro pro Kind. Bitte geben Sie das Geld bis Freitag in einem Umschlag mit.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist das Sekretariat. Die Zeugnisse gibt es am letzten Schultag, dem 19. Juli. Der Unterricht endet an diesem Tag um 11 Uhr.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-08",
+      "partId": "hoeren-teil-2",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-08/hoeren-teil-2.mp3",
+      "rate": 0.94,
+      "speakers": {
+        "Moderatorin": "female-1",
+        "Paul Winter": "male-1"
+      },
+      "segments": [
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "An der Schillerschule gibt es seit zwei Jahren ein Projekt, über das viel gesprochen wird. Bei mir ist der Lehrer Herr Paul Winter. Herr Winter, worum geht es?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Paul Winter",
+          "text": "Wir haben aus dem alten Schulhof einen Garten gemacht. Jede Klasse hat ein kleines Beet und kümmert sich das ganze Jahr darum.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Was lernen die Kinder dabei?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Paul Winter",
+          "text": "Vieles, aber nicht nur über Pflanzen. Sie lernen zu warten. Eine Tomate wächst nicht in einer Woche. Das ist für viele Kinder heute eine ganz neue Erfahrung.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Findet der Unterricht dann draußen statt?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Paul Winter",
+          "text": "Einmal pro Woche, ja. Wir machen dort auch Mathematik: Wie viel Wasser braucht ein Beet? Wie groß ist die Fläche? Das verstehen die Kinder draußen oft schneller als im Klassenzimmer.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Wer hilft mit?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Paul Winter",
+          "text": "Am Anfang nur wir Lehrer. Inzwischen kommen jeden Freitag zwei Großväter und helfen. Einer war früher Gärtner, das merkt man.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Und was passiert mit dem Gemüse?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Paul Winter",
+          "text": "Das kochen wir gemeinsam. Was übrig bleibt, dürfen die Kinder mit nach Hause nehmen. Verkauft wird nichts.",
+          "pauseAfterMs": 300,
+          "slot": "male-1",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-08",
+      "partId": "hoeren-teil-3",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-08/hoeren-teil-3.mp3",
+      "rate": 0.94,
+      "speakers": {
+        "Frau Diallo": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Frau Diallo erzählt einer Freundin, was die Kinder aus der Nachbarschaft am Nachmittag machen.",
+          "pauseAfterMs": 550,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Diallo",
+          "text": "Bei uns in der Straße ist der Nachmittag bei jedem Kind anders.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Diallo",
+          "text": "Amina, die Tochter von Frau Winter, bleibt bis vier im Hort. Sie macht dort auch ihre Hausaufgaben, das ist für ihre Eltern eine große Hilfe.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Diallo",
+          "text": "Ihr Bruder Lukas geht dienstags und donnerstags zum Fußball. Er redet von nichts anderem mehr.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Diallo",
+          "text": "Meine Fatou hat leider Probleme in Mathe. Sie geht jetzt zweimal in der Woche zur Nachhilfe, eine Studentin hilft ihr.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Diallo",
+          "text": "Omar ist erst fünf. Er geht noch in den Kindergarten, erst nächstes Jahr kommt er in die Schule.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Diallo",
+          "text": "Und meine Große, Samira, ist schon siebzehn. Sie macht eine Ausbildung als Friseurin: nachmittags ist sie im Salon und zweimal in der Woche in der Berufsschule.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Diallo",
+          "text": "Ein Instrument lernt bei uns kein Kind, und zum Schwimmunterricht geht im Moment auch keines.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-09",
+      "partId": "hoeren-teil-1",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-09/hoeren-teil-1.mp3",
+      "rate": 0.94,
+      "speakers": {},
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Fahrgäste, wegen Bauarbeiten fährt die Straßenbahnlinie 4 ab Montag nicht bis zum Zoo. Bitte steigen Sie an der Haltestelle Rathaus in den Ersatzbus um.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier ist das Fundbüro. Ihr Fahrradschlüssel ist abgegeben worden. Sie können ihn abholen, wir haben bis 16 Uhr geöffnet.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Hallo, hier ist die Stadtverwaltung. Ihre Anwohnerparkkarte ist fertig. Sie kostet im Jahr 65 Euro.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, Frau Adamu. Die Sperrmüllabholung ist bestätigt. Bitte stellen Sie alles am 6. Mai bis 7 Uhr an die Straße.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Nachricht 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Bürgerinnen und Bürger, das neue Recyclinghöfchen in der Industriestraße öffnet am Samstag. Die Abgabe ist für Privatpersonen kostenlos.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-09",
+      "partId": "hoeren-teil-2",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-09/hoeren-teil-2.mp3",
+      "rate": 0.94,
+      "speakers": {
+        "Grace Adamu": "female-1",
+        "Moderator": "male-1"
+      },
+      "segments": [
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "In unserer Stadt kann man seit einem Jahr Lastenräder kostenlos ausleihen. Bei mir ist Frau Grace Adamu vom Verein Stadtrad. Frau Adamu, wie funktioniert das?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Grace Adamu",
+          "text": "Man meldet sich einmal auf unserer Internetseite an und reserviert dann ein Rad für maximal drei Tage. Abgeholt wird es bei einem Laden oder Café in der Nähe.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Und das kostet wirklich nichts?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Grace Adamu",
+          "text": "Genau. Wir finanzieren uns über Spenden und über die Stadt. Man kann etwas geben, muss aber nicht.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Wofür nutzen die Leute die Räder?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Grace Adamu",
+          "text": "Am häufigsten für den Wocheneinkauf und für Umzüge – also für kleine Umzüge, ein Sofa passt natürlich nicht drauf. Überraschend viele Eltern fahren auch ihre Kinder damit.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Gibt es Probleme?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Grace Adamu",
+          "text": "Zwei. Erstens sind die Räder oft ausgebucht, besonders am Wochenende. Zweitens haben viele Angst, so ein großes Rad zu fahren. Deshalb bieten wir jetzt eine kostenlose Übungsstunde an.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderator",
+          "text": "Wie viele Räder haben Sie?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Grace Adamu",
+          "text": "Angefangen haben wir mit drei. Jetzt sind es neun, und im nächsten Jahr sollen es fünfzehn werden.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-a2-09",
+      "partId": "hoeren-teil-3",
+      "level": "A2",
+      "language": "de",
+      "output": "/audio/de/a2/uebungstest-a2-09/hoeren-teil-3.mp3",
+      "rate": 0.94,
+      "speakers": {
+        "Kollege": "male-1"
+      },
+      "segments": [
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Ein Kollege erklärt einem neuen Mitarbeiter, wie die anderen im Team zur Arbeit kommen.",
+          "pauseAfterMs": 550,
+          "slot": "narrator",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kollege",
+          "text": "Wir kommen alle ganz unterschiedlich ins Büro.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kollege",
+          "text": "Grace fährt jeden Tag mit dem Rad, bei jedem Wetter, zwanzig Minuten hin und zwanzig zurück. Das ist ihr Sport.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kollege",
+          "text": "Peter hat es am nächsten. Er braucht zwölf Minuten, wenn er normal geht. Ein Auto hat er gar nicht mehr.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kollege",
+          "text": "Sandra nimmt die Bahn. Die Linie 4 hält direkt vor ihrer Haustür. Ab Montag wird es allerdings schwierig, da ist eine Baustelle.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kollege",
+          "text": "Mehmet muss mit dem Auto kommen. Er wohnt auf dem Dorf, und der Bus fährt dort nur dreimal am Tag. Er nimmt aber immer zwei Kollegen mit.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kollege",
+          "text": "Und Lisa sitzt zu Hause am Schreibtisch. Sie kommt nur dienstags ins Büro, sonst arbeitet sie von zu Hause. Manchmal fehlen ihr die Gespräche in der Pause.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 0.94
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kollege",
+          "text": "Mit dem Zug kommt bei uns niemand, und einen Motorroller hat auch keiner.",
+          "pauseAfterMs": 300,
+          "slot": "male-1",
+          "rate": 0.94
+        }
+      ]
+    }
+  ]
+}

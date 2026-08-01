@@ -1,0 +1,824 @@
+{
+  "id": "uebungstest-a1-03",
+  "language": "de",
+  "level": "A1",
+  "title": "Übungstest A1 – Nr. 3",
+  "description": "Ein vollständiger Übungstest auf Niveau A1 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Wohnen und Nachbarn.",
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 20,
+      "description": "Sie hören Gespräche, Ansagen und kurze Nachrichten. Zu jedem Text gibt es Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1",
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Wählen Sie die richtige Antwort.",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-03/hoeren-teil-1.mp3",
+            "transcript": "Gespräch 1\nMann: Wie viele Zimmer hat deine neue Wohnung?\nFrau: Drei Zimmer. Und einen kleinen Balkon.\n\nGespräch 2\nFrau: In welchem Stock wohnst du?\nMann: Im vierten Stock. Aber es gibt zum Glück einen Aufzug.\n\nGespräch 3\nNachbar: Guten Tag, ich bin Herr Klein aus der Wohnung nebenan.\nFrau: Freut mich! Ich heiße Amina Sow. Ich bin neu hier.\n\nGespräch 4\nMann: Wann kommt der Möbelwagen?\nFrau: Am Samstag um acht Uhr morgens.\nMann: So früh? Gut, dann stehe ich um sieben auf.\n\nGespräch 5\nFrau: Wo ist die Waschmaschine?\nMann: Im Keller. Jede Wohnung hat einen Schlüssel dafür."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-1",
+                  "prompt": "Gespräch 1: Wie viele Zimmer hat die Wohnung?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Zwei Zimmer"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Drei Zimmer"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Vier Zimmer"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Drei Zimmer. Und einen kleinen Balkon.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Gespräch 2: In welchem Stock wohnt der Mann?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Im vierten Stock"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Im zweiten Stock"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Im Erdgeschoss"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Im vierten Stock.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-3",
+                  "prompt": "Gespräch 3: Wer ist Herr Klein?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Vermieter"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Der Nachbar"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der Postbote"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… ich bin Herr Klein aus der Wohnung nebenan.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Gespräch 4: Wann kommt der Möbelwagen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Am Samstag um 7 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Am Sonntag um 8 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Am Samstag um 8 Uhr"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Der Wagen kommt um acht. Um sieben steht der Mann nur auf."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-5",
+                  "prompt": "Gespräch 5: Wo ist die Waschmaschine?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Im Bad"
+                    },
+                    {
+                      "id": "b",
+                      "text": "In der Küche"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Im Keller"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Im Keller. Jede Wohnung hat einen Schlüssel dafür.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2",
+          "instructions": "Sie hören fünf Ansagen. Sind die Sätze richtig oder falsch?",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-03/hoeren-teil-2.mp3",
+            "transcript": "Ansage 1\nLiebe Mieterinnen und Mieter, am Dienstag kommt zwischen 9 und 12 Uhr ein Techniker. Bitte bleiben Sie zu Hause.\n\nAnsage 2\nAchtung: Das Treppenhaus wird morgen gestrichen. Bitte benutzen Sie am Vormittag den hinteren Eingang.\n\nAnsage 3\nGuten Tag, hier ist die Hausverwaltung Meier. Unser Büro ist diese Woche nur am Montag und Mittwoch geöffnet.\n\nAnsage 4\nLiebe Nachbarn, am Sonntag feiern wir im Hof ein kleines Fest. Alle sind herzlich eingeladen. Es beginnt um 15 Uhr.\n\nAnsage 5\nBitte beachten Sie: Die Mülltonnen werden ab nächster Woche nicht mehr am Freitag geleert, sondern am Mittwoch."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-1",
+                  "statement": "Am Dienstag soll man zu Hause bleiben.",
+                  "solution": true,
+                  "explanation": "„… kommt ein Techniker. Bitte bleiben Sie zu Hause.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-2",
+                  "statement": "Morgen Vormittag soll man den vorderen Eingang benutzen.",
+                  "solution": false,
+                  "explanation": "Man soll den hinteren Eingang benutzen."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-3",
+                  "statement": "Das Büro der Hausverwaltung ist diese Woche jeden Tag offen.",
+                  "solution": false,
+                  "explanation": "Es ist nur am Montag und Mittwoch geöffnet."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-4",
+                  "statement": "Das Fest im Hof beginnt am Sonntag um 15 Uhr.",
+                  "solution": true,
+                  "explanation": "„Es beginnt um 15 Uhr.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-5",
+                  "statement": "Die Mülltonnen werden ab nächster Woche am Mittwoch geleert.",
+                  "solution": true,
+                  "explanation": "„… nicht mehr am Freitag, sondern am Mittwoch.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3",
+          "instructions": "Sie hören fünf kurze Situationen. Wählen Sie die richtige Antwort.",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-03/hoeren-teil-3.mp3",
+            "transcript": "Situation 1\nFrau: Die Wohnung kostet 700 Euro kalt.\nMann: Und mit Heizung und Wasser?\nFrau: Dann sind es 850 Euro.\n\nSituation 2 (Anrufbeantworter)\nHallo Herr Yilmaz, hier ist Frau Berg von der Hausverwaltung. Wir können die Wohnung am Donnerstag um 16 Uhr besichtigen. Passt Ihnen das?\n\nSituation 3\nMann: Meine Heizung ist kaputt. Können Sie kommen?\nTechniker: Heute leider nicht mehr. Aber morgen früh bin ich da.\n\nSituation 4\nNachbarin: Entschuldigung, Ihre Musik ist sehr laut. Es ist schon nach 22 Uhr.\nMann: Oh, das tut mir leid. Ich mache sie sofort leiser.\n\nSituation 5\nFrau: Wo kann ich mein Fahrrad abstellen?\nHausmeister: Nicht im Treppenhaus. Bitte stellen Sie es in den Fahrradkeller."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-1",
+                  "prompt": "Situation 1: Wie viel kostet die Wohnung warm?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "700 Euro"
+                    },
+                    {
+                      "id": "b",
+                      "text": "850 Euro"
+                    },
+                    {
+                      "id": "c",
+                      "text": "150 Euro"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Mit Heizung und Wasser sind es 850 Euro. 700 Euro ist die Kaltmiete."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Situation 2: Wann soll die Besichtigung sein?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Am Donnerstag um 16 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Am Dienstag um 16 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Am Donnerstag um 6 Uhr"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… am Donnerstag um 16 Uhr besichtigen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-3",
+                  "prompt": "Situation 3: Wann kommt der Techniker?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Heute Abend"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Morgen früh"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Er kommt nicht"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Heute leider nicht mehr. Aber morgen früh bin ich da.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Situation 4: Was ist das Problem?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Musik ist zu laut"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Der Fernseher ist kaputt"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Nachbarin schläft nicht"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Ihre Musik ist sehr laut. Es ist schon nach 22 Uhr.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-5",
+                  "prompt": "Situation 5: Wo soll die Frau ihr Fahrrad abstellen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Im Treppenhaus"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Im Fahrradkeller"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Vor dem Haus"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Nicht im Treppenhaus. Bitte stellen Sie es in den Fahrradkeller.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 25,
+      "description": "Sie lesen E-Mails, Anzeigen und kurze Texte aus dem Alltag und lösen dazu Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1",
+          "instructions": "Lesen Sie die E-Mails. Sind die Sätze richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-mail-1",
+              "stimuli": [
+                {
+                  "title": "E-Mail 1",
+                  "text": "Hallo Tom,\n\nich ziehe am 1. Oktober um! Meine neue Wohnung ist in der Lindenstraße 24. Sie hat zwei Zimmer und ist sehr hell.\n\nKannst du mir am Samstag beim Umzug helfen? Wir fangen um neun Uhr an. Am Abend bestelle ich Pizza für alle.\n\nViele Grüße\nJonas"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-1",
+                  "statement": "Jonas bekommt eine neue Wohnung.",
+                  "solution": true,
+                  "explanation": "„Ich ziehe am 1. Oktober um! Meine neue Wohnung ist in der Lindenstraße 24.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-2",
+                  "statement": "Tom soll am Sonntag helfen.",
+                  "solution": false,
+                  "explanation": "Jonas fragt nach Hilfe am Samstag."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-1-mail-2",
+              "stimuli": [
+                {
+                  "title": "E-Mail 2",
+                  "text": "Sehr geehrte Frau Nowak,\n\nIhre Waschmaschine im Keller ist repariert. Sie können sie ab heute wieder benutzen.\n\nBitte denken Sie daran: Waschen ist nur von 7 bis 22 Uhr erlaubt, am Sonntag gar nicht.\n\nMit freundlichen Grüßen\nHausverwaltung Meier"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-3",
+                  "statement": "Die Waschmaschine funktioniert wieder.",
+                  "solution": true,
+                  "explanation": "„Ihre Waschmaschine im Keller ist repariert.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-4",
+                  "statement": "Am Sonntag darf man waschen.",
+                  "solution": false,
+                  "explanation": "„… am Sonntag gar nicht.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-5",
+                  "statement": "Man darf um 8 Uhr morgens waschen.",
+                  "solution": true,
+                  "explanation": "Waschen ist von 7 bis 22 Uhr erlaubt."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2",
+          "instructions": "Lesen Sie die acht Anzeigen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Nicht alle Anzeigen werden gebraucht.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "text": "1-Zimmer-Wohnung in der Stadtmitte, 35 m², 450 Euro warm.\nFrei ab sofort."
+                },
+                {
+                  "title": "Anzeige b",
+                  "text": "Umzugshilfe Schnell & Stark – wir tragen Ihre Möbel.\nAb 40 Euro pro Stunde. Tel. 0176 55 44 33"
+                },
+                {
+                  "title": "Anzeige c",
+                  "text": "Sofa und Tisch günstig abzugeben. Guter Zustand, 120 Euro.\nNur Selbstabholung."
+                },
+                {
+                  "title": "Anzeige d",
+                  "text": "Elektriker Sahin – Reparaturen in der ganzen Stadt.\nAuch am Wochenende. Tel. 030 22 11 00"
+                },
+                {
+                  "title": "Anzeige e",
+                  "text": "WG sucht Mitbewohnerin! Zimmer 18 m², 320 Euro.\nWir sind zwei Studentinnen."
+                },
+                {
+                  "title": "Anzeige f",
+                  "text": "Reinigungsfirma Blitz – Treppenhaus und Büro.\nZuverlässig und günstig."
+                },
+                {
+                  "title": "Anzeige g",
+                  "text": "Garage zu vermieten, Nähe Bahnhof.\n60 Euro im Monat."
+                },
+                {
+                  "title": "Anzeige h",
+                  "text": "Möbelhaus Wagner – Betten, Schränke, Küchen.\nLieferung frei Haus ab 200 Euro."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) 1-Zimmer-Wohnung"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Umzugshilfe Schnell & Stark"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Sofa und Tisch günstig"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Elektriker Sahin"
+                },
+                {
+                  "id": "e",
+                  "text": "e) WG sucht Mitbewohnerin"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Reinigungsfirma Blitz"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Garage zu vermieten"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Möbelhaus Wagner"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Sie brauchen Hilfe beim Tragen Ihrer Möbel.",
+                  "solution": "b",
+                  "explanation": "Die Umzugshilfe trägt die Möbel."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Sie sind Studentin und möchten nicht allein wohnen.",
+                  "solution": "e",
+                  "explanation": "Die WG sucht eine Mitbewohnerin."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "In Ihrer Wohnung funktioniert das Licht nicht.",
+                  "solution": "d",
+                  "explanation": "Der Elektriker macht Reparaturen, auch am Wochenende."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie suchen einen Platz für Ihr Auto.",
+                  "solution": "g",
+                  "explanation": "Die Garage in der Nähe des Bahnhofs kostet 60 Euro im Monat."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie brauchen ein neues Bett und möchten es nach Hause geliefert bekommen.",
+                  "solution": "h",
+                  "explanation": "Das Möbelhaus Wagner liefert frei Haus ab 200 Euro."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3",
+          "instructions": "Lesen Sie die Schilder und Notizen. Zu jedem Text gibt es eine Frage. Wählen Sie die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-schild-1",
+              "stimuli": [
+                {
+                  "title": "Schild 1 – im Treppenhaus",
+                  "text": "HAUSORDNUNG\nRuhezeit: 22:00 – 7:00 Uhr\nund sonntags den ganzen Tag"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-1",
+                  "prompt": "Wann muss es im Haus ruhig sein?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nachts und sonntags"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Nur am Sonntag"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Immer"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Ruhezeit ist 22 bis 7 Uhr und sonntags den ganzen Tag."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-2",
+              "stimuli": [
+                {
+                  "title": "Schild 2 – an der Mülltonne",
+                  "text": "GELBE TONNE\nNur Plastik und Verpackungen.\nKein Papier, kein Glas!"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was darf in die gelbe Tonne?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Plastik"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Papier"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Glas"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Nur Plastik und Verpackungen.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3 – an der Wohnungstür",
+                  "text": "Liebe Frau Sow,\nich war da, aber Sie waren nicht zu Hause.\nIhr Paket ist bei Familie Klein, Wohnung 12.\nIhr Postbote"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-3",
+                  "prompt": "Wo ist das Paket?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Bei der Post"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Vor der Tür"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Bei den Nachbarn"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ihr Paket ist bei Familie Klein, Wohnung 12.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-4",
+              "stimuli": [
+                {
+                  "title": "Schild 4 – am Aufzug",
+                  "text": "Am Montag, 12. Mai,\nfunktioniert der Aufzug von 8 bis 14 Uhr nicht.\nWir bitten um Verständnis."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Wann kann man den Aufzug am 12. Mai wieder benutzen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ab 8 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ab 14 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Gar nicht an diesem Tag"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Von 8 bis 14 Uhr funktioniert er nicht – danach wieder."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-5",
+              "stimuli": [
+                {
+                  "title": "Schild 5 – im Hof",
+                  "text": "Liebe Nachbarn,\nbitte gießen Sie die Blumen im Hof,\nwenn es lange nicht regnet.\nDanke!"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-5",
+                  "prompt": "Worum bittet das Schild?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Neue Blumen kaufen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Blumen gießen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Den Hof putzen"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… bitte gießen Sie die Blumen im Hof.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 20,
+      "description": "Sie füllen ein Formular aus und schreiben eine kurze Nachricht. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie zu jeder Aufgabe eine Musterlösung.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "Teil 1 – Formular",
+          "instructions": "Ihre Nachbarin Olena Kovalenko meldet sich beim Bürgeramt an. Sie kommt aus der Ukraine und ist am 22.11.1990 in Lwiw geboren. Sie wohnt jetzt in der Lindenstraße 24 in Berlin. Sie ist Verkäuferin. Füllen Sie das Formular für sie aus.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-formular",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Familienname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Kovalenko"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-2",
+                  "prompt": "Vorname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Olena"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-3",
+                  "prompt": "Geburtsdatum",
+                  "inputMode": "single-line",
+                  "musterloesung": "22.11.1990"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-4",
+                  "prompt": "Straße und Hausnummer",
+                  "inputMode": "single-line",
+                  "musterloesung": "Lindenstraße 24"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-5",
+                  "prompt": "Beruf",
+                  "inputMode": "single-line",
+                  "musterloesung": "Verkäuferin"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schreiben-teil-2",
+          "title": "Teil 2 – Kurze E-Mail",
+          "instructions": "In Ihrer Wohnung ist die Heizung kaputt. Schreiben Sie eine E-Mail an die Hausverwaltung, Frau Berg. Schreiben Sie etwa 30 Wörter.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-2-mail",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s2-1",
+                  "prompt": "Schreiben Sie die E-Mail an Frau Berg.",
+                  "hints": [
+                    "Was ist das Problem?",
+                    "Seit wann ist es so?",
+                    "Was möchten Sie?",
+                    "Vergessen Sie Anrede und Gruß nicht."
+                  ],
+                  "minWords": 30,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Frau Berg,\n\nmeine Heizung ist kaputt. Seit gestern ist es in der Wohnung sehr kalt. Können Sie bitte einen Techniker schicken? Am Montag und Dienstag bin ich ab 16 Uhr zu Hause.\n\nVielen Dank und freundliche Grüße\nOlena Kovalenko"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet. Nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie zu den Stichwörtern. Sie können Ihre Antwort hier kurz notieren – das ist freiwillig.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Alter – Land – Wohnort – Sprachen – Beruf – Hobby",
+                  "hints": [
+                    "Sprechen Sie in ganzen Sätzen.",
+                    "Sprechen Sie etwa eine Minute.",
+                    "Buchstabieren Sie am Ende Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Mein Name ist Olena Kovalenko. Ich bin 34 Jahre alt und komme aus der Ukraine. Ich wohne seit einem Jahr in Berlin. Ich spreche Ukrainisch, Russisch und ein bisschen Deutsch. Ich bin Verkäuferin. Mein Hobby ist Lesen. Mein Familienname ist Kovalenko: K – O – V – A – L – E – N – K – O."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Um Informationen bitten",
+          "instructions": "Thema: Meine Stadt und meine Nachbarn. Bilden Sie zum Stichwort eine Frage und antworten Sie auch selbst darauf.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Stichwort: Nachbarn",
+                  "musterloesung": "Frage: Kennst du deine Nachbarn?\nAntwort: Ja, ein bisschen. Familie Klein wohnt neben mir. Wir sagen immer Guten Tag."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Stichwort: Supermarkt",
+                  "musterloesung": "Frage: Wo ist der nächste Supermarkt?\nAntwort: Der Supermarkt ist ganz nah. Ich gehe fünf Minuten zu Fuß."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Bitten formulieren",
+          "instructions": "Formulieren Sie zu jeder Situation eine höfliche Bitte und eine passende Reaktion.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Sie fahren eine Woche weg. Stichwort: Blumen gießen",
+                  "musterloesung": "Bitte: Können Sie bitte nächste Woche meine Blumen gießen?\nReaktion: Ja, gern. Geben Sie mir bitte den Schlüssel."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp3-2",
+                  "prompt": "Ihr Nachbar hört sehr laute Musik. Stichwort: leiser machen",
+                  "musterloesung": "Bitte: Entschuldigen Sie, können Sie die Musik bitte leiser machen?\nReaktion: Oh, das tut mir leid. Ich mache sie sofort leiser."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

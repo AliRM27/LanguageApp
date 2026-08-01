@@ -1,0 +1,824 @@
+{
+  "id": "uebungstest-a1-08",
+  "language": "de",
+  "level": "A1",
+  "title": "Übungstest A1 – Nr. 8",
+  "description": "Ein vollständiger Übungstest auf Niveau A1 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Familie und Feste.",
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 20,
+      "description": "Sie hören Gespräche, Ansagen und kurze Nachrichten. Zu jedem Text gibt es Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1",
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Wählen Sie die richtige Antwort.",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-08/hoeren-teil-1.mp3",
+            "transcript": "Gespräch 1\nFrau: Hast du Geschwister?\nMann: Ja, eine Schwester und zwei Brüder.\n\nGespräch 2\nMann: Wie alt ist deine Tochter?\nFrau: Sie ist sieben. Sie geht seit einem Jahr in die Schule.\n\nGespräch 3\nFrau: Wann hat dein Vater Geburtstag?\nMann: Am 3. Mai. Wir feiern immer zusammen im Garten.\n\nGespräch 4\nMann: Was schenkst du deiner Mutter?\nFrau: Ein Buch. Blumen bekommt sie schon von meinem Bruder.\n\nGespräch 5\nFrau: Kommt deine Familie zu Weihnachten?\nMann: Meine Eltern kommen. Meine Schwester bleibt in Wien."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-1",
+                  "prompt": "Gespräch 1: Wie viele Geschwister hat der Mann?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Zwei"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Keine"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Drei"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Eine Schwester und zwei Brüder – zusammen drei."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Gespräch 2: Wie alt ist die Tochter?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sieben Jahre"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ein Jahr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Zehn Jahre"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Sie ist sieben.“ Seit einem Jahr geht sie in die Schule."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-3",
+                  "prompt": "Gespräch 3: Wann hat der Vater Geburtstag?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Am 3. Mai"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Am 3. März"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Am 13. Mai"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Am 3. Mai.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Gespräch 4: Was schenkt die Frau ihrer Mutter?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nichts"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Blumen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ein Buch"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Blumen bekommt die Mutter vom Bruder. Die Frau schenkt ein Buch."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-5",
+                  "prompt": "Gespräch 5: Wer kommt zu Weihnachten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Eltern"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Schwester"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Niemand"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Meine Eltern kommen. Meine Schwester bleibt in Wien.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2",
+          "instructions": "Sie hören fünf Ansagen. Sind die Sätze richtig oder falsch?",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-08/hoeren-teil-2.mp3",
+            "transcript": "Ansage 1\nLiebe Eltern, das Sommerfest der Schule beginnt am Samstag um 14 Uhr auf dem Schulhof. Bei Regen findet es in der Turnhalle statt.\n\nAnsage 2\nGuten Tag, hier ist das Restaurant Linde. Ihre Reservierung für acht Personen am Sonntag um 13 Uhr ist bestätigt.\n\nAnsage 3\nAchtung: Der Weihnachtsmarkt am Rathausplatz öffnet erst am 28. November, nicht wie geplant am 25. November.\n\nAnsage 4\nLiebe Nachbarn, am Samstag feiern wir die Hochzeit unserer Tochter. Es kann etwas lauter werden. Vielen Dank für Ihr Verständnis.\n\nAnsage 5\nHallo, hier ist die Kita Regenbogen. Am Freitag ist die Kita geschlossen. Wir machen einen Ausflug mit den Kindern erst am Montag."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-1",
+                  "statement": "Bei Regen fällt das Sommerfest aus.",
+                  "solution": false,
+                  "explanation": "Bei Regen findet es in der Turnhalle statt."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-2",
+                  "statement": "Der Tisch ist für acht Personen reserviert.",
+                  "solution": true,
+                  "explanation": "„Ihre Reservierung für acht Personen … ist bestätigt.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-3",
+                  "statement": "Der Weihnachtsmarkt öffnet später als geplant.",
+                  "solution": true,
+                  "explanation": "Er öffnet erst am 28. November statt am 25. November."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-4",
+                  "statement": "Am Samstag ist eine Hochzeit im Haus.",
+                  "solution": true,
+                  "explanation": "„Am Samstag feiern wir die Hochzeit unserer Tochter.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-5",
+                  "statement": "Die Kita macht am Freitag einen Ausflug.",
+                  "solution": false,
+                  "explanation": "Am Freitag ist die Kita geschlossen. Der Ausflug ist am Montag."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3",
+          "instructions": "Sie hören fünf kurze Situationen. Wählen Sie die richtige Antwort.",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-08/hoeren-teil-3.mp3",
+            "transcript": "Situation 1 (Anrufbeantworter)\nHallo Sofia, hier ist Mehmet. Die Party ist nicht am Samstag, sondern am Freitag. Sie beginnt um 19 Uhr bei meiner Schwester.\n\nSituation 2\nFrau: Wie viele Personen kommen zum Essen?\nMann: Wir sind zu sechst. Meine Eltern, mein Bruder mit Frau und wir zwei.\n\nSituation 3\nVerkäuferin: Möchten Sie das Geschenk einpacken lassen?\nMann: Ja, bitte. Und können Sie eine Karte dazulegen?\n\nSituation 4\nFrau: Wann kommt Oma an?\nMann: Ihr Zug kommt um 16:50 Uhr. Ich hole sie vom Bahnhof ab.\n\nSituation 5\nFrau: Was macht ihr an Silvester?\nMann: Nichts Großes. Wir bleiben zu Hause und essen mit den Kindern."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-1",
+                  "prompt": "Situation 1: Wann ist die Party?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Am Sonntag"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Am Samstag"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Am Freitag"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Die Party ist nicht am Samstag, sondern am Freitag.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Situation 2: Wie viele Personen kommen zum Essen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Vier"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Acht"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sechs"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Wir sind zu sechst.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-3",
+                  "prompt": "Situation 3: Was möchte der Mann?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das Geschenk einpacken lassen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das Geschenk zurückgeben"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ein anderes Geschenk"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Ja, bitte. Und können Sie eine Karte dazulegen?“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Situation 4: Wann kommt der Zug der Oma an?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Um 16:50 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Um 16:15 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Um 15:50 Uhr"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Ihr Zug kommt um 16:50 Uhr.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-5",
+                  "prompt": "Situation 5: Was macht die Familie an Silvester?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie feiert eine große Party"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie bleibt zu Hause"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie fährt weg"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Wir bleiben zu Hause und essen mit den Kindern.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 25,
+      "description": "Sie lesen E-Mails, Anzeigen und kurze Texte aus dem Alltag und lösen dazu Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1",
+          "instructions": "Lesen Sie die E-Mails. Sind die Sätze richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-mail-1",
+              "stimuli": [
+                {
+                  "title": "E-Mail 1",
+                  "text": "Liebe Sofia,\n\nmeine Tochter Leyla wird am 20. Juni fünf Jahre alt. Wir feiern am Samstag, dem 22. Juni, um 15 Uhr im Park.\n\nBitte sag mir bis Mittwoch, ob du kommst. Kuchen und Getränke bringe ich mit.\n\nLiebe Grüße\nMehmet"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-1",
+                  "statement": "Die Feier ist am 22. Juni.",
+                  "solution": true,
+                  "explanation": "„Wir feiern am Samstag, dem 22. Juni, um 15 Uhr im Park.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-2",
+                  "statement": "Sofia soll den Kuchen mitbringen.",
+                  "solution": false,
+                  "explanation": "„Kuchen und Getränke bringe ich mit“ – das macht Mehmet."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-1-mail-2",
+              "stimuli": [
+                {
+                  "title": "E-Mail 2",
+                  "text": "Liebe Eltern,\n\nam Donnerstag machen wir mit den Kindern einen Ausflug in den Zoo.\n\nBitte geben Sie Ihrem Kind ein Frühstück und eine Flasche Wasser mit. Wir sind um 8 Uhr in der Kita und kommen um 16 Uhr zurück.\n\nViele Grüße\nKita Regenbogen"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-3",
+                  "statement": "Die Kinder fahren am Donnerstag in den Zoo.",
+                  "solution": true,
+                  "explanation": "„Am Donnerstag machen wir mit den Kindern einen Ausflug in den Zoo.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-4",
+                  "statement": "Die Eltern sollen Essen und Trinken mitgeben.",
+                  "solution": true,
+                  "explanation": "„… ein Frühstück und eine Flasche Wasser mit.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-5",
+                  "statement": "Die Kinder sind um 8 Uhr wieder zurück.",
+                  "solution": false,
+                  "explanation": "Um 8 Uhr geht es los. Zurück sind sie um 16 Uhr."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2",
+          "instructions": "Lesen Sie die acht Anzeigen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Nicht alle Anzeigen werden gebraucht.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "text": "Partyservice Fest & Freude – warmes Essen für Ihre Feier.\nAb 20 Personen."
+                },
+                {
+                  "title": "Anzeige b",
+                  "text": "Blumen Rosa – Sträuße ab 12 Euro.\nWir liefern auch nach Hause."
+                },
+                {
+                  "title": "Anzeige c",
+                  "text": "Fotostudio Licht – Familienfotos und Hochzeitsfotos.\nTermine nach Vereinbarung."
+                },
+                {
+                  "title": "Anzeige d",
+                  "text": "Spielzeugladen Bärchen – Geschenke für Kinder von 1 bis 10 Jahren."
+                },
+                {
+                  "title": "Anzeige e",
+                  "text": "Saal im Gemeindehaus zu mieten – Platz für 50 Personen.\n80 Euro pro Abend."
+                },
+                {
+                  "title": "Anzeige f",
+                  "text": "Babysitter-Vermittlung – zuverlässige Betreuung am Abend.\nAb 10 Euro pro Stunde."
+                },
+                {
+                  "title": "Anzeige g",
+                  "text": "Konditorei Süß – Torten für Geburtstage und Hochzeiten.\nBestellung 3 Tage vorher."
+                },
+                {
+                  "title": "Anzeige h",
+                  "text": "Weihnachtsmarkt am Rathausplatz – täglich ab 28. November,\n11 bis 21 Uhr."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Partyservice Fest & Freude"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Blumen Rosa"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Fotostudio Licht"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Spielzeugladen Bärchen"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Saal im Gemeindehaus"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Babysitter-Vermittlung"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Konditorei Süß"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Weihnachtsmarkt am Rathausplatz"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Sie brauchen eine Torte für den Geburtstag Ihrer Tochter.",
+                  "solution": "g",
+                  "explanation": "Die Konditorei Süß macht Torten für Geburtstage."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Sie feiern Hochzeit und brauchen einen großen Raum.",
+                  "solution": "e",
+                  "explanation": "Der Saal im Gemeindehaus hat Platz für 50 Personen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Sie möchten am Abend ins Konzert, aber Ihr Kind ist noch klein.",
+                  "solution": "f",
+                  "explanation": "Die Babysitter-Vermittlung bietet Betreuung am Abend."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie suchen ein Geschenk für ein sechsjähriges Kind.",
+                  "solution": "d",
+                  "explanation": "Der Spielzeugladen hat Geschenke für Kinder von 1 bis 10 Jahren."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Ihre Mutter hat Geburtstag und Sie möchten ihr etwas schicken.",
+                  "solution": "b",
+                  "explanation": "Blumen Rosa liefert Sträuße auch nach Hause."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3",
+          "instructions": "Lesen Sie die Schilder und Notizen. Zu jedem Text gibt es eine Frage. Wählen Sie die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-schild-1",
+              "stimuli": [
+                {
+                  "title": "Schild 1 – am Gemeindehaus",
+                  "text": "SOMMERFEST\nSamstag, 15 Uhr, im Garten\nBei Regen im großen Saal"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-1",
+                  "prompt": "Wo ist das Fest, wenn es regnet?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Im Garten"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Im großen Saal"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Es fällt aus"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Bei Regen im großen Saal“."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-notiz-2",
+              "stimuli": [
+                {
+                  "title": "Notiz 2 – auf dem Tisch",
+                  "text": "Liebe Leyla,\nOma kommt heute um 17 Uhr.\nBitte räum dein Zimmer auf!\nIch bin um 18 Uhr zu Hause.\nPapa"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was soll Leyla machen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Kochen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Oma abholen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ihr Zimmer aufräumen"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Bitte räum dein Zimmer auf!“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-3",
+              "stimuli": [
+                {
+                  "title": "Schild 3 – im Restaurant",
+                  "text": "Liebe Gäste,\nheute Abend ab 18 Uhr\ngeschlossene Gesellschaft.\nWir bitten um Verständnis."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-3",
+                  "prompt": "Was bedeutet das Schild?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das Restaurant öffnet um 18 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das Restaurant ist ab 18 Uhr nur für eine Feier da"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Das Restaurant ist den ganzen Tag zu"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Geschlossene Gesellschaft“ heißt: nur für eine private Feier."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-4",
+              "stimuli": [
+                {
+                  "title": "Schild 4 – in der Kita",
+                  "text": "BRINGZEIT\nMontag bis Freitag\nbis spätestens 9:00 Uhr\nDanach ist die Tür geschlossen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Bis wann müssen die Kinder in der Kita sein?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Bis 8:00 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bis 9:00 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Bis 10:00 Uhr"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… bis spätestens 9:00 Uhr“."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-5",
+              "stimuli": [
+                {
+                  "title": "Schild 5 – auf dem Weihnachtsmarkt",
+                  "text": "Für Ihre Tasse\nzahlen Sie 3 Euro Pfand.\nSie bekommen das Geld zurück,\nwenn Sie die Tasse zurückbringen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-5",
+                  "prompt": "Wann bekommen Sie die 3 Euro zurück?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Wenn Sie noch einmal kaufen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Wenn Sie die Tasse zurückbringen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Gar nicht"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Sie bekommen das Geld zurück, wenn Sie die Tasse zurückbringen.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 20,
+      "description": "Sie füllen ein Formular aus und schreiben eine kurze Nachricht. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie zu jeder Aufgabe eine Musterlösung.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "Teil 1 – Formular",
+          "instructions": "Ihre Freundin Sofia Marino meldet ihre Tochter in der Kita Regenbogen an. Die Tochter heißt Giulia Marino und ist am 11.06.2020 in Berlin geboren. Sie wohnen in 13355 Berlin. Sofias Telefonnummer ist 0160 12 34 56. Füllen Sie das Formular aus.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-formular",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Familienname des Kindes",
+                  "inputMode": "single-line",
+                  "musterloesung": "Marino"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-2",
+                  "prompt": "Vorname des Kindes",
+                  "inputMode": "single-line",
+                  "musterloesung": "Giulia"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-3",
+                  "prompt": "Geburtsdatum des Kindes",
+                  "inputMode": "single-line",
+                  "musterloesung": "11.06.2020"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-4",
+                  "prompt": "Postleitzahl und Wohnort",
+                  "inputMode": "single-line",
+                  "musterloesung": "13355 Berlin"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-5",
+                  "prompt": "Telefonnummer der Mutter",
+                  "inputMode": "single-line",
+                  "musterloesung": "0160 12 34 56"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schreiben-teil-2",
+          "title": "Teil 2 – Kurze E-Mail",
+          "instructions": "Sie feiern Ihren Geburtstag und möchten Ihren Freund Mehmet einladen. Schreiben Sie eine E-Mail. Schreiben Sie etwa 30 Wörter.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-2-mail",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s2-1",
+                  "prompt": "Schreiben Sie die E-Mail an Mehmet.",
+                  "hints": [
+                    "Warum schreiben Sie?",
+                    "Wann und wo feiern Sie?",
+                    "Was soll Mehmet machen oder mitbringen?",
+                    "Vergessen Sie Anrede und Gruß nicht."
+                  ],
+                  "minWords": 30,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Lieber Mehmet,\n\nam Samstag habe ich Geburtstag. Ich lade dich herzlich ein. Wir feiern um 18 Uhr bei mir zu Hause. Es gibt Kuchen und warmes Essen.\n\nBring bitte deine Gitarre mit! Sag mir bis Donnerstag Bescheid.\n\nViele Grüße\nSofia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet. Nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie zu den Stichwörtern. Sie können Ihre Antwort hier kurz notieren – das ist freiwillig.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Alter – Land – Wohnort – Familie – Beruf – Hobby",
+                  "hints": [
+                    "Sprechen Sie in ganzen Sätzen.",
+                    "Sprechen Sie etwa eine Minute.",
+                    "Buchstabieren Sie am Ende Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Hallo. Mein Name ist Sofia Marino. Ich bin 30 Jahre alt und komme aus Italien. Ich wohne in Berlin. Ich bin verheiratet und habe eine Tochter. Sie ist vier Jahre alt. Ich arbeite als Friseurin. Mein Hobby ist Tanzen. Mein Familienname ist Marino: M – A – R – I – N – O."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Um Informationen bitten",
+          "instructions": "Thema: Familie und Feste. Bilden Sie zum Stichwort eine Frage und antworten Sie auch selbst darauf.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Stichwort: Geschwister",
+                  "musterloesung": "Frage: Hast du Geschwister?\nAntwort: Ja, ich habe einen Bruder. Er ist zwei Jahre älter als ich und wohnt in Rom."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Stichwort: Geburtstag",
+                  "musterloesung": "Frage: Wie feierst du deinen Geburtstag?\nAntwort: Ich koche für meine Freunde. Wir essen zusammen und hören Musik."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Bitten formulieren",
+          "instructions": "Formulieren Sie zu jeder Situation eine höfliche Bitte und eine passende Reaktion.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Sie brauchen für Ihre Feier mehr Stühle. Stichwort: Stühle leihen",
+                  "musterloesung": "Bitte: Können Sie mir bitte für Samstag vier Stühle leihen?\nReaktion: Ja, gern. Sie können sie am Freitag abholen."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp3-2",
+                  "prompt": "Sie möchten ein Foto von der Familie. Stichwort: zusammenstellen",
+                  "musterloesung": "Bitte: Könnt ihr euch bitte für ein Foto zusammenstellen?\nReaktion: Ja, klar. Wo sollen wir uns hinstellen?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

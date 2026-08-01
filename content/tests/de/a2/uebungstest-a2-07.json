@@ -1,0 +1,859 @@
+{
+  "id": "uebungstest-a2-07",
+  "language": "de",
+  "level": "A2",
+  "title": "Übungstest A2 – Nr. 7",
+  "description": "Ein vollständiger Übungstest auf Niveau A2 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Freizeit, Sport und Medien.",
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 30,
+      "description": "Sie hören Nachrichten, eine Radiosendung und einen Bericht. Notieren Sie Informationen, wählen Sie die richtige Antwort und ordnen Sie zu.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Notizen ergänzen",
+          "instructions": "Sie hören fünf kurze Nachrichten. Ergänzen Sie die fehlende Information im Satz. Sie hören jede Nachricht zweimal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-07/hoeren-teil-1.mp3",
+            "transcript": "Nachricht 1\nGuten Tag, hier ist der Sportverein Aktiv. Das Training fällt diese Woche aus. Wir sehen uns wieder am Donnerstag, wie immer um 19 Uhr.\n\nNachricht 2\nHallo, hier ist das Schwimmbad Nordbad. Sie haben nach dem Preis gefragt: Die Zehnerkarte für Erwachsene kostet 38 Euro.\n\nNachricht 3\nGuten Abend, hier ist das Theater am Park. Ihre Karten liegen an der Abendkasse. Bitte kommen Sie spätestens um 19:15 Uhr, die Vorstellung beginnt um 19:30 Uhr.\n\nNachricht 4\nHallo Sofia, hier ist Ben. Wir treffen uns am Sonntag nicht am Kino, sondern direkt am Eingang vom Stadtpark.\n\nNachricht 5\nGuten Tag, hier ist die Musikschule. Für den Gitarrenkurs sind noch Plätze frei. Der Kurs hat insgesamt 12 Termine und beginnt am 9. Januar."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-notiz-1",
+              "stimuli": [
+                {
+                  "title": "Notiz 1",
+                  "text": "SPORTVEREIN AKTIV\nTraining fällt diese Woche aus."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-1",
+                  "prompt": "Das nächste Training ist am ___ wie immer um 19 Uhr.",
+                  "solution": "Donnerstag",
+                  "acceptedAnswers": [
+                    "Do",
+                    "Do."
+                  ],
+                  "explanation": "„Wir sehen uns wieder am Donnerstag, wie immer um 19 Uhr.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-2",
+              "stimuli": [
+                {
+                  "title": "Notiz 2",
+                  "text": "NORDBAD\nPreisauskunft: Zehnerkarte, Erwachsene"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-2",
+                  "prompt": "Die Zehnerkarte für Erwachsene kostet ___ Euro.",
+                  "solution": "38",
+                  "acceptedAnswers": [
+                    "38 Euro",
+                    "38,00"
+                  ],
+                  "explanation": "„Die Zehnerkarte für Erwachsene kostet 38 Euro.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3",
+                  "text": "THEATER AM PARK\nKarten an der Abendkasse"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-3",
+                  "prompt": "Die Vorstellung beginnt um 19:30 Uhr, da sein soll man spätestens um ___ Uhr.",
+                  "solution": "19:15",
+                  "acceptedAnswers": [
+                    "19.15",
+                    "Viertel nach sieben"
+                  ],
+                  "explanation": "„Bitte kommen Sie spätestens um 19:15 Uhr.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-4",
+              "stimuli": [
+                {
+                  "title": "Notiz 4",
+                  "text": "NACHRICHT VON BEN\nTreffen am Sonntag – Ort hat sich geändert"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-4",
+                  "prompt": "Wir treffen uns am Sonntag nicht am Kino, sondern ___ .",
+                  "solution": "am Eingang vom Stadtpark",
+                  "acceptedAnswers": [
+                    "Eingang Stadtpark",
+                    "Stadtpark",
+                    "am Stadtpark"
+                  ],
+                  "explanation": "„… nicht am Kino, sondern direkt am Eingang vom Stadtpark.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-5",
+              "stimuli": [
+                {
+                  "title": "Notiz 5",
+                  "text": "MUSIKSCHULE – GITARRENKURS"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-5",
+                  "prompt": "Der Gitarrenkurs hat ___ Termine und beginnt am 9. Januar.",
+                  "solution": "12",
+                  "acceptedAnswers": [
+                    "zwölf",
+                    "12 Termine"
+                  ],
+                  "explanation": "„Der Kurs hat insgesamt 12 Termine.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Radiosendung",
+          "instructions": "Sie hören ein Interview im Radio. Wählen Sie zu jeder Aufgabe die richtige Antwort. Sie hören das Interview einmal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-07/hoeren-teil-2.mp3",
+            "transcript": "Moderator: Heute geht es um einen Sportverein, in dem etwas anders läuft. Mein Gast ist Frau Nadine Roth vom SV Nordstern. Frau Roth, was ist bei Ihnen besonders?\n\nNadine Roth: Bei uns kostet der Beitrag nicht für alle gleich viel. Wer wenig verdient, zahlt weniger. Wir fragen nicht nach Papieren, die Leute sagen uns einfach, was für sie möglich ist.\n\nModerator: Funktioniert das denn?\n\nRoth: Sehr gut sogar. Wir hatten Angst, dass alle den kleinsten Betrag wählen. Das Gegenteil ist passiert: Manche zahlen freiwillig mehr als früher.\n\nModerator: Wie viele Mitglieder haben Sie?\n\nRoth: Im Moment 340. Vor dem neuen System waren es 280. Besonders viele Familien sind dazugekommen.\n\nModerator: Welche Sportarten bieten Sie an?\n\nRoth: Fußball, Handball und seit zwei Jahren auch Tischtennis. Am beliebtesten ist aber die Laufgruppe am Samstagmorgen – da kommen alle, vom Kind bis zur Rentnerin.\n\nModerator: Brauchen Sie noch Trainerinnen und Trainer?\n\nRoth: Ja, dringend. Man braucht keine Ausbildung. Wichtig ist, dass man Zeit hat und gern mit Menschen arbeitet. Die Ausbildung bezahlen wir."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-1",
+                  "prompt": "Wie funktioniert der Mitgliedsbeitrag?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Jeder zahlt, was er kann."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Alle zahlen gleich viel."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der Verein ist kostenlos."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Wer wenig verdient, zahlt weniger … die Leute sagen uns einfach, was für sie möglich ist.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-2",
+                  "prompt": "Was war die Befürchtung des Vereins?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass die Stadt das verbietet."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass niemand mehr kommt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass alle den kleinsten Betrag wählen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Wir hatten Angst, dass alle den kleinsten Betrag wählen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-3",
+                  "prompt": "Wie viele Mitglieder hat der Verein jetzt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "340"
+                    },
+                    {
+                      "id": "b",
+                      "text": "300"
+                    },
+                    {
+                      "id": "c",
+                      "text": "280"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Im Moment 340. Vor dem neuen System waren es 280.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-4",
+                  "prompt": "Was ist im Verein am beliebtesten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Tischtennis."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Laufgruppe am Samstag."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Handball."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Am beliebtesten ist aber die Laufgruppe am Samstagmorgen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-5",
+                  "prompt": "Was braucht man, um Trainer zu werden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Eine fertige Ausbildung."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Man muss selbst gut Sport machen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Zeit und Freude an der Arbeit mit Menschen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Man braucht keine Ausbildung. Wichtig ist, dass man Zeit hat und gern mit Menschen arbeitet.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Zuordnung",
+          "instructions": "Sie hören eine Person, die über fünf andere Personen erzählt. Ordnen Sie jeder Person die passende Aussage zu. Drei Aussagen bleiben übrig. Sie hören den Text zweimal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-07/hoeren-teil-3.mp3",
+            "transcript": "Eine Kursteilnehmerin erzählt einer Freundin, was die anderen aus ihrem Deutschkurs in der Freizeit machen.\n\nKursteilnehmerin: In unserem Kurs hat jeder ein anderes Hobby, das finde ich schön.\nSofia geht zweimal in der Woche ins Wasser, morgens um sieben, noch vor der Arbeit. Danach ist sie den ganzen Tag wach.\nBei Ben ist es ruhiger. Er hat eine kleine Kamera und läuft damit am Wochenende durch die Stadt. Am liebsten fotografiert er alte Häuser.\nNadine singt. Sie ist mit ungefähr dreißig Leuten in einem Chor und trifft sich jeden Mittwochabend in der Kirche. Im Dezember geben sie immer ein Konzert.\nMarco kocht für sein Leben gern, aber immer dasselbe. Deshalb macht er jetzt einen Kurs; letzte Woche haben sie indisch gekocht.\nUnd Yuki sitzt samstags im Garten – aber nicht in ihrem eigenen. Sie hat ein kleines Stück Land gemietet, zwanzig Minuten mit dem Rad von hier. Dort wachsen Tomaten und Salat, und im Sommer kauft sie fast kein Gemüse.\nEin Instrument spielt bei uns niemand, und ins Kino geht auch fast keiner."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-block",
+              "prompt": "Was macht diese Person in ihrer Freizeit?",
+              "stimuli": [
+                {
+                  "title": "Aussagen",
+                  "text": "A  Sie geht schwimmen.\nB  Sie fotografiert.\nC  Sie singt in einem Chor.\nD  Sie spielt ein Instrument.\nE  Sie besucht einen Kochkurs.\nF  Sie arbeitet in einem Garten.\nG  Sie spielt Fußball im Verein.\nH  Sie geht oft ins Kino."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "A  Sie geht schwimmen."
+                },
+                {
+                  "id": "b",
+                  "text": "B  Sie fotografiert."
+                },
+                {
+                  "id": "c",
+                  "text": "C  Sie singt in einem Chor."
+                },
+                {
+                  "id": "d",
+                  "text": "D  Sie spielt ein Instrument."
+                },
+                {
+                  "id": "e",
+                  "text": "E  Sie besucht einen Kochkurs."
+                },
+                {
+                  "id": "f",
+                  "text": "F  Sie arbeitet in einem Garten."
+                },
+                {
+                  "id": "g",
+                  "text": "G  Sie spielt Fußball im Verein."
+                },
+                {
+                  "id": "h",
+                  "text": "H  Sie geht oft ins Kino."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h3-1",
+                  "prompt": "Sofia",
+                  "solution": "a",
+                  "explanation": "„Sofia geht zweimal in der Woche ins Wasser, morgens um sieben.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-2",
+                  "prompt": "Ben",
+                  "solution": "b",
+                  "explanation": "„Er hat eine kleine Kamera … Am liebsten fotografiert er alte Häuser.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-3",
+                  "prompt": "Nadine",
+                  "solution": "c",
+                  "explanation": "„Nadine singt. Sie ist mit ungefähr dreißig Leuten in einem Chor.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-4",
+                  "prompt": "Marco",
+                  "solution": "e",
+                  "explanation": "„Deshalb macht er jetzt einen Kurs; letzte Woche haben sie indisch gekocht.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-5",
+                  "prompt": "Yuki",
+                  "solution": "f",
+                  "explanation": "„Sie hat ein kleines Stück Land gemietet … Dort wachsen Tomaten und Salat.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 25,
+      "description": "Sie lesen einen Zeitungstext, Anzeigen und kurze Texte aus dem Alltag und lösen dazu Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Zeitungstext",
+          "instructions": "Lesen Sie den Text. Sind die Sätze richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-text",
+              "stimuli": [
+                {
+                  "title": "Ein Kino, das den Leuten gehört",
+                  "text": "Das kleine Kino in der Poststraße sollte vor drei Jahren schließen. Es kamen zu wenige Besucher, und der Besitzer ging in Rente.\n\nDann haben sich 200 Menschen aus dem Stadtteil zusammengetan. Jeder hat mindestens 100 Euro gegeben, und gemeinsam haben sie das Kino gekauft. Heute gehört es einem Verein.\n\nDie meiste Arbeit machen Freiwillige: Sie verkaufen Karten, machen sauber und suchen die Filme aus. Nur zwei Personen bekommen Geld – der Techniker und die Geschäftsführerin.\n\nDas Programm ist heute anders als früher. Montags läuft ein Film in Originalsprache mit deutschen Untertiteln, mittwochs gibt es Kino für Familien mit kleinen Kindern: Der Ton ist leiser, das Licht bleibt an.\n\n„Wir verdienen kein Geld“, sagt die Geschäftsführerin. „Aber wir haben mehr Zuschauer als in den letzten zehn Jahren.“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-1",
+                  "statement": "Das Kino wäre fast geschlossen worden.",
+                  "solution": true,
+                  "explanation": "„Das kleine Kino … sollte vor drei Jahren schließen.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-2",
+                  "statement": "Eine große Firma hat das Kino gekauft.",
+                  "solution": false,
+                  "explanation": "200 Menschen aus dem Stadtteil haben es gemeinsam gekauft; heute gehört es einem Verein."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-3",
+                  "statement": "Alle Mitarbeiter bekommen Geld für ihre Arbeit.",
+                  "solution": false,
+                  "explanation": "„Nur zwei Personen bekommen Geld – der Techniker und die Geschäftsführerin.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-4",
+                  "statement": "Mittwochs ist das Kino besonders für Familien mit kleinen Kindern gedacht.",
+                  "solution": true,
+                  "explanation": "„… mittwochs gibt es Kino für Familien mit kleinen Kindern.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-5",
+                  "statement": "Heute kommen weniger Zuschauer als früher.",
+                  "solution": false,
+                  "explanation": "„Aber wir haben mehr Zuschauer als in den letzten zehn Jahren.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Anzeigen",
+          "instructions": "Lesen Sie die acht Anzeigen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Nicht alle Anzeigen werden gebraucht.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "text": "Kino Poststraße – montags Filme in Originalsprache\nmit deutschen Untertiteln. Karte 7 Euro."
+                },
+                {
+                  "title": "Anzeige b",
+                  "text": "Laufgruppe SV Nordstern – jeden Samstag 9 Uhr am Park.\nFür alle Altersgruppen, erste vier Wochen kostenlos."
+                },
+                {
+                  "title": "Anzeige c",
+                  "text": "Kleingarten zu verpachten – 200 m², Gartenhaus vorhanden.\n180 Euro im Jahr."
+                },
+                {
+                  "title": "Anzeige d",
+                  "text": "Musikschule Klang – Gitarre, Klavier, Gesang.\nEine Probestunde gratis."
+                },
+                {
+                  "title": "Anzeige e",
+                  "text": "Stadtbibliothek – über 200 Zeitschriften und Zeitungen,\nauch in anderen Sprachen. Lesen vor Ort kostenlos."
+                },
+                {
+                  "title": "Anzeige f",
+                  "text": "Fotokurs für Anfänger – Kamera oder Handy.\nSechs Samstage, 75 Euro."
+                },
+                {
+                  "title": "Anzeige g",
+                  "text": "Nordbad – Frühschwimmen ab 6:30 Uhr,\nZehnerkarte 38 Euro."
+                },
+                {
+                  "title": "Anzeige h",
+                  "text": "Chor Cantare sucht neue Stimmen.\nProbe mittwochs 19:30 Uhr, keine Vorkenntnisse nötig."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Kino Poststraße"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Laufgruppe SV Nordstern"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Kleingarten zu verpachten"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Musikschule Klang"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Stadtbibliothek"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Fotokurs für Anfänger"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Nordbad"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Chor Cantare"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Sie möchten vor der Arbeit schwimmen gehen.",
+                  "solution": "g",
+                  "explanation": "Im Nordbad gibt es Frühschwimmen ab 6:30 Uhr."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Sie singen gern, haben es aber noch nie in einer Gruppe gemacht.",
+                  "solution": "h",
+                  "explanation": "Beim Chor Cantare sind keine Vorkenntnisse nötig."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Sie möchten Filme auf Englisch sehen und dabei Deutsch mitlesen.",
+                  "solution": "a",
+                  "explanation": "Montags laufen Filme in Originalsprache mit deutschen Untertiteln."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie möchten Sport machen, aber erst einmal nichts bezahlen.",
+                  "solution": "b",
+                  "explanation": "Bei der Laufgruppe sind die ersten vier Wochen kostenlos."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie möchten Zeitungen aus Ihrem Heimatland lesen und haben wenig Geld.",
+                  "solution": "e",
+                  "explanation": "In der Bibliothek ist das Lesen vor Ort kostenlos, auch Zeitungen in anderen Sprachen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Schilder und Notizen",
+          "instructions": "Lesen Sie die Schilder und Notizen. Zu jedem Text gibt es eine Frage. Wählen Sie die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-schild-1",
+              "stimuli": [
+                {
+                  "title": "Schild 1 – am Schwimmbad",
+                  "text": "FRÜHSCHWIMMEN\nMo, Mi, Fr von 6:30 bis 8:00 Uhr\nIn dieser Zeit ist das große Becken\nfür Sportschwimmer reserviert."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-1",
+                  "prompt": "Für wen ist das große Becken morgens reserviert?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Für Sportschwimmer"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Für Kinder"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Für Kurse"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… ist das große Becken für Sportschwimmer reserviert.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-2",
+              "stimuli": [
+                {
+                  "title": "Schild 2 – im Kino",
+                  "text": "FAMILIENVORSTELLUNG\nDer Ton ist leiser als sonst,\ndas Licht bleibt an.\nKinderwagen dürfen mit in den Saal."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was ist bei dieser Vorstellung anders?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Film ist kürzer."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Es ist leiser und hell im Saal."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der Eintritt ist frei."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Der Ton ist leiser als sonst, das Licht bleibt an.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3 – am Schwarzen Brett",
+                  "text": "Wer hat Lust, mittwochs mit uns Volleyball zu spielen?\nWir sind sechs Leute und brauchen noch zwei.\nHalle ist gebucht, 3 Euro pro Abend.\nMeldet euch bei Marco, Wohnung 8."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-3",
+                  "prompt": "Wie viele Personen fehlen noch?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Zwei"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sechs"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Acht"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Wir sind sechs Leute und brauchen noch zwei.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-4",
+              "stimuli": [
+                {
+                  "title": "Schild 4 – in der Bibliothek",
+                  "text": "AUSLEIHE\nBücher 4 Wochen · DVDs 1 Woche\nVerlängerung online möglich,\naußer wenn ein anderer Leser das Medium bestellt hat."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Wann kann man nicht verlängern?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Wenn jemand anderes das Buch bestellt hat"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bei DVDs"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nach vier Wochen"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… außer wenn ein anderer Leser das Medium bestellt hat.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-5",
+              "stimuli": [
+                {
+                  "title": "Schild 5 – am Sportplatz",
+                  "text": "Liebe Eltern,\nbitte warten Sie während des Trainings\nnicht am Spielfeldrand, sondern auf der Tribüne.\nDie Kinder können sich sonst schlecht konzentrieren."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-5",
+                  "prompt": "Wo sollen die Eltern warten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Am Spielfeldrand"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Draußen vor dem Platz"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Auf der Tribüne"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… nicht am Spielfeldrand, sondern auf der Tribüne.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 25,
+      "description": "Sie füllen ein Formular aus und schreiben eine E-Mail. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie zu jeder Aufgabe eine Musterlösung.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "Teil 1 – Formular",
+          "instructions": "Ihre Freundin Yuki Tanaka möchte Mitglied im Sportverein SV Nordstern werden. Sie kommt aus Japan und ist am 28.05.1993 in Kyoto geboren. Sie wohnt in 04277 Leipzig. Sie möchte in die Laufgruppe. Füllen Sie das Formular für sie aus.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-formular",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Familienname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Tanaka"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-2",
+                  "prompt": "Vorname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Yuki"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-3",
+                  "prompt": "Geburtsdatum",
+                  "inputMode": "single-line",
+                  "musterloesung": "28.05.1993"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-4",
+                  "prompt": "Postleitzahl und Wohnort",
+                  "inputMode": "single-line",
+                  "musterloesung": "04277 Leipzig"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-5",
+                  "prompt": "Gewünschte Sportgruppe",
+                  "inputMode": "single-line",
+                  "musterloesung": "Laufgruppe"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schreiben-teil-2",
+          "title": "Teil 2 – E-Mail",
+          "instructions": "Sie möchten mit Freunden am Wochenende etwas unternehmen. Schreiben Sie eine E-Mail an Ihre Freundin Sofia. Schreiben Sie 40 bis 50 Wörter.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-2-mail",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s2-1",
+                  "prompt": "Schreiben Sie die E-Mail an Sofia.",
+                  "criteria": [
+                    "Vorschlag: Was möchten Sie machen?",
+                    "Zeit und Ort: Wann und wo treffen Sie sich?",
+                    "Kosten: Was kostet es ungefähr?",
+                    "Bitte: Was soll Sofia tun oder mitbringen?"
+                  ],
+                  "hints": [
+                    "Schreiben Sie persönlich („Liebe Sofia“).",
+                    "Vergessen Sie den Gruß am Ende nicht."
+                  ],
+                  "minWords": 40,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Liebe Sofia,\n\nam Sonntag läuft im Kino Poststraße ein Film auf Englisch mit deutschen Untertiteln. Hast du Lust mitzukommen?\n\nWir könnten uns um 17:30 Uhr am Eingang treffen. Die Karte kostet nur sieben Euro.\n\nKannst du bitte Ben fragen, ob er auch kommt? Schreib mir bis Freitag.\n\nLiebe Grüße\nYuki"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet. Nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie zu den Stichwörtern. Sie können Ihre Antwort hier kurz notieren – das ist freiwillig.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Alter – Herkunft – Wohnort – Familie – Beruf – Sprachen – Warum lernen Sie Deutsch?",
+                  "hints": [
+                    "Sprechen Sie in ganzen Sätzen, etwa zwei Minuten.",
+                    "Erzählen Sie auch von einem Hobby.",
+                    "Buchstabieren Sie am Ende Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Mein Name ist Yuki Tanaka. Ich bin 31 Jahre alt und komme aus Japan, aus Kyoto. Seit zwei Jahren lebe ich in Leipzig. Meine Familie ist noch in Japan, aber wir telefonieren jede Woche. Ich arbeite in einem Labor an der Universität. Ich spreche Japanisch, Englisch und Deutsch. Deutsch lerne ich, weil ich hier länger bleiben möchte und im Alltag nicht immer Englisch sprechen will. In meiner Freizeit habe ich einen kleinen Garten. Mein Familienname ist Tanaka: T – A – N – A – K – A."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Ein Alltagsgespräch führen",
+          "instructions": "Thema: Freizeit und Medien. Bilden Sie mit dem Satzanfang eine Frage an Ihre Gesprächspartnerin oder Ihren Gesprächspartner – und antworten Sie dann selbst darauf.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Satzanfang: „Was machen Sie …?“",
+                  "musterloesung": "Frage: Was machen Sie am liebsten am Wochenende?\nAntwort: Am Samstag arbeite ich in meinem Garten, das entspannt mich. Am Sonntag treffe ich Freunde oder gehe ins Kino."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Satzanfang: „Sehen Sie gern …?“",
+                  "musterloesung": "Frage: Sehen Sie gern Filme auf Deutsch?\nAntwort: Ja, aber nur mit Untertiteln. Ohne Untertitel verstehe ich noch zu wenig. Serien finde ich einfacher als Nachrichten."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Zusammen etwas planen",
+          "instructions": "Lesen Sie die Situation. Planen Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner. Machen Sie Vorschläge, reagieren Sie auf Vorschläge und einigen Sie sich am Ende.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Sie möchten mit Ihrer Nachbarin oder Ihrem Nachbarn zusammen mit dem Sport anfangen. Planen Sie gemeinsam, wie Sie das machen.",
+                  "hints": [
+                    "Welche Sportart machen Sie?",
+                    "Wie oft und wann trainieren Sie?",
+                    "Wo machen Sie das und was kostet es?",
+                    "Wie helfen Sie sich, damit Sie nicht aufhören?"
+                  ],
+                  "musterloesung": "A: Ich möchte endlich wieder Sport machen. Machst du mit? Allein schaffe ich das nie.\nB: Gern! Woran denkst du – Fitnessstudio?\nA: Ehrlich gesagt ist mir das zu teuer. Und die Musik dort mag ich nicht.\nB: Dann vielleicht die Laufgruppe vom SV Nordstern? Samstags um neun am Park, die ersten vier Wochen sind kostenlos.\nA: Das klingt gut. Aber reicht einmal pro Woche?\nB: Wahrscheinlich nicht. Wir könnten zusätzlich dienstags und donnerstags früh eine kleine Runde laufen, so 20 Minuten.\nA: Einverstanden, aber bitte erst um halb sieben, nicht um sechs.\nB: Gut, halb sieben. Und wenn einer keine Lust hat?\nA: Dann klingelt der andere einfach an der Tür. Kein Ausreden!\nB: Abgemacht. Wir fangen nächsten Dienstag an."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

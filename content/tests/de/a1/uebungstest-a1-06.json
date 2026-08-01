@@ -1,0 +1,824 @@
+{
+  "id": "uebungstest-a1-06",
+  "language": "de",
+  "level": "A1",
+  "title": "Übungstest A1 – Nr. 6",
+  "description": "Ein vollständiger Übungstest auf Niveau A1 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Gesundheit und Arzt.",
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 20,
+      "description": "Sie hören Gespräche, Ansagen und kurze Nachrichten. Zu jedem Text gibt es Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1",
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Wählen Sie die richtige Antwort.",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-06/hoeren-teil-1.mp3",
+            "transcript": "Gespräch 1\nArzt: Guten Tag. Was tut Ihnen weh?\nFrau: Mein Rücken. Seit drei Tagen.\n\nGespräch 2\nSprechstundenhilfe: Wann möchten Sie kommen?\nMann: Am Freitag, bitte. Am besten am Nachmittag.\n\nGespräch 3\nApothekerin: Nehmen Sie die Tabletten dreimal am Tag.\nFrau: Vor dem Essen oder nach dem Essen?\nApothekerin: Nach dem Essen.\n\nGespräch 4\nMann: Wie geht es dir?\nFrau: Nicht so gut. Ich habe Halsschmerzen und kann fast nicht sprechen.\n\nGespräch 5\nArzt: Rauchen Sie?\nMann: Früher ja. Seit zwei Jahren nicht mehr."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-1",
+                  "prompt": "Gespräch 1: Was tut der Frau weh?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Kopf"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Der Rücken"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der Bauch"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Mein Rücken. Seit drei Tagen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Gespräch 2: Wann möchte der Mann kommen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Am Freitagnachmittag"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Am Freitagvormittag"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Am Montagnachmittag"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Am Freitag, bitte. Am besten am Nachmittag.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-3",
+                  "prompt": "Gespräch 3: Wann soll die Frau die Tabletten nehmen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Vor dem Essen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Nach dem Essen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nur am Morgen"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Nach dem Essen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Gespräch 4: Was hat die Frau?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Fieber"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Zahnschmerzen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Halsschmerzen"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ich habe Halsschmerzen und kann fast nicht sprechen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-5",
+                  "prompt": "Gespräch 5: Raucht der Mann?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ja, jeden Tag"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Nein, seit zwei Jahren nicht mehr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Er hat nie geraucht"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Früher ja. Seit zwei Jahren nicht mehr.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2",
+          "instructions": "Sie hören fünf Ansagen. Sind die Sätze richtig oder falsch?",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-06/hoeren-teil-2.mp3",
+            "transcript": "Ansage 1\nGuten Tag, hier ist die Praxis Dr. Wagner. Wir machen Betriebsferien vom 1. bis 15. August. In dieser Zeit hilft Ihnen Dr. Sommer in der Gartenstraße.\n\nAnsage 2\nLiebe Patientinnen und Patienten, bitte bringen Sie zu jedem Termin Ihre Versichertenkarte mit.\n\nAnsage 3\nAchtung: Die Apotheke am Markt hat heute Notdienst. Sie ist die ganze Nacht geöffnet.\n\nAnsage 4\nGuten Tag, hier ist die Zahnarztpraxis Lang. Ihr Termin am Donnerstag um 9 Uhr muss leider verschoben werden. Bitte rufen Sie uns an.\n\nAnsage 5\nLiebe Besucher, im Krankenhaus ist Besuchszeit täglich von 14 bis 18 Uhr."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-1",
+                  "statement": "Im August kann man zu Dr. Sommer gehen.",
+                  "solution": true,
+                  "explanation": "„In dieser Zeit hilft Ihnen Dr. Sommer in der Gartenstraße.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-2",
+                  "statement": "Man braucht für den Termin keine Versichertenkarte.",
+                  "solution": false,
+                  "explanation": "„… bringen Sie zu jedem Termin Ihre Versichertenkarte mit.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-3",
+                  "statement": "Die Apotheke am Markt ist heute Nacht geöffnet.",
+                  "solution": true,
+                  "explanation": "„Sie hat Notdienst und ist die ganze Nacht geöffnet.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-4",
+                  "statement": "Der Termin am Donnerstag bleibt wie geplant.",
+                  "solution": false,
+                  "explanation": "Der Termin muss verschoben werden."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-5",
+                  "statement": "Man kann Patienten am Vormittag besuchen.",
+                  "solution": false,
+                  "explanation": "Besuchszeit ist täglich von 14 bis 18 Uhr, also am Nachmittag."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3",
+          "instructions": "Sie hören fünf kurze Situationen. Wählen Sie die richtige Antwort.",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-06/hoeren-teil-3.mp3",
+            "transcript": "Situation 1\nÄrztin: Sie haben eine Erkältung. Bleiben Sie drei Tage zu Hause.\nMann: Und wann kann ich wieder arbeiten?\nÄrztin: Ab Montag, wenn es Ihnen besser geht.\n\nSituation 2 (Anrufbeantworter)\nGuten Tag, Frau Kaya. Hier ist die Praxis Dr. Wagner. Ihr Termin ist am Dienstag um 8:30 Uhr, nicht um 9:30 Uhr. Bitte kommen Sie zehn Minuten früher.\n\nSituation 3\nApotheker: Das Medikament kostet 9 Euro 80.\nFrau: Brauche ich dafür ein Rezept?\nApotheker: Nein, dieses Medikament bekommen Sie ohne Rezept.\n\nSituation 4\nFrau: Wo ist die Kinderärztin?\nMitarbeiter: Im ersten Stock. Der Zahnarzt ist im Erdgeschoss.\n\nSituation 5\nMann: Ich habe seit gestern Fieber.\nÄrztin: Wie hoch?\nMann: Heute Morgen 38,5 Grad."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-1",
+                  "prompt": "Situation 1: Wann kann der Mann wieder arbeiten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ab morgen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Erst in drei Wochen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ab Montag"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ab Montag, wenn es Ihnen besser geht.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Situation 2: Wann ist der Termin von Frau Kaya?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Um 10:00 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Um 9:30 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Um 8:30 Uhr"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… am Dienstag um 8:30 Uhr, nicht um 9:30 Uhr.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-3",
+                  "prompt": "Situation 3: Braucht die Frau ein Rezept?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nein"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ja"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nur für Kinder"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… dieses Medikament bekommen Sie ohne Rezept.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Situation 4: Wo ist die Kinderärztin?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Im ersten Stock"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Im Erdgeschoss"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Im zweiten Stock"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Im ersten Stock.“ Im Erdgeschoss ist der Zahnarzt."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-5",
+                  "prompt": "Situation 5: Wie hoch war das Fieber heute Morgen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "37,5 Grad"
+                    },
+                    {
+                      "id": "b",
+                      "text": "38,5 Grad"
+                    },
+                    {
+                      "id": "c",
+                      "text": "39,5 Grad"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Heute Morgen 38,5 Grad.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 25,
+      "description": "Sie lesen E-Mails, Anzeigen und kurze Texte aus dem Alltag und lösen dazu Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1",
+          "instructions": "Lesen Sie die E-Mails. Sind die Sätze richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-mail-1",
+              "stimuli": [
+                {
+                  "title": "E-Mail 1",
+                  "text": "Liebe Nadia,\n\nich liege im Bett. Ich habe eine Grippe und Fieber. Der Arzt sagt, ich muss eine Woche zu Hause bleiben.\n\nKannst du bitte am Mittwoch mein Paket von der Post abholen? Der Zettel liegt bei mir im Briefkasten.\n\nDanke dir!\nRosa"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-1",
+                  "statement": "Rosa ist krank.",
+                  "solution": true,
+                  "explanation": "„Ich habe eine Grippe und Fieber.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-2",
+                  "statement": "Nadia soll für Rosa einkaufen gehen.",
+                  "solution": false,
+                  "explanation": "Nadia soll ein Paket von der Post abholen."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-1-mail-2",
+              "stimuli": [
+                {
+                  "title": "E-Mail 2",
+                  "text": "Sehr geehrter Herr Farah,\n\nwir bestätigen Ihren Termin am Montag, 12. September, um 11:15 Uhr.\n\nBitte kommen Sie 15 Minuten früher und bringen Sie Ihre Versichertenkarte mit. Wenn Sie nicht kommen können, sagen Sie bitte einen Tag vorher ab.\n\nMit freundlichen Grüßen\nPraxis Dr. Wagner"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-3",
+                  "statement": "Herr Farah hat am Montag einen Termin.",
+                  "solution": true,
+                  "explanation": "„… Ihren Termin am Montag, 12. September, um 11:15 Uhr.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-4",
+                  "statement": "Herr Farah soll pünktlich um 11:15 Uhr kommen.",
+                  "solution": false,
+                  "explanation": "Er soll 15 Minuten früher kommen, also um 11:00 Uhr."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-5",
+                  "statement": "Herr Farah muss seine Versichertenkarte mitbringen.",
+                  "solution": true,
+                  "explanation": "„… bringen Sie Ihre Versichertenkarte mit.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2",
+          "instructions": "Lesen Sie die acht Anzeigen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Nicht alle Anzeigen werden gebraucht.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "text": "Zahnarztpraxis Lang – auch am Samstagvormittag geöffnet.\nTermine: 030 12 34 56"
+                },
+                {
+                  "title": "Anzeige b",
+                  "text": "Apotheke am Markt – Notdienst jede Nacht.\nWir beraten Sie auch auf Türkisch und Russisch."
+                },
+                {
+                  "title": "Anzeige c",
+                  "text": "Kinderärztin Dr. Ali – Sprechstunde ohne Termin\njeden Morgen von 8 bis 10 Uhr."
+                },
+                {
+                  "title": "Anzeige d",
+                  "text": "Physiotherapie Bewegung – Hilfe bei Rückenschmerzen.\nTermine auch am Abend."
+                },
+                {
+                  "title": "Anzeige e",
+                  "text": "Krankenkasse AOK – Beratung für neue Mitglieder.\nMo–Fr 9 bis 16 Uhr."
+                },
+                {
+                  "title": "Anzeige f",
+                  "text": "Brillen Optik Klar – Sehtest kostenlos.\nBrille in einer Stunde fertig."
+                },
+                {
+                  "title": "Anzeige g",
+                  "text": "Erste-Hilfe-Kurs für den Führerschein.\nSamstag, 9 bis 17 Uhr, 45 Euro."
+                },
+                {
+                  "title": "Anzeige h",
+                  "text": "Fitness und Gesundheit – Rückenkurs für Anfänger.\nMontags 18 Uhr, 10 Termine."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Zahnarztpraxis Lang"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Apotheke am Markt"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Kinderärztin Dr. Ali"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Physiotherapie Bewegung"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Krankenkasse AOK"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Brillen Optik Klar"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Erste-Hilfe-Kurs"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Fitness und Gesundheit"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Ihr Kind ist krank und Sie haben keinen Termin.",
+                  "solution": "c",
+                  "explanation": "Bei Dr. Ali gibt es jeden Morgen eine Sprechstunde ohne Termin."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Sie brauchen in der Nacht dringend ein Medikament.",
+                  "solution": "b",
+                  "explanation": "Die Apotheke am Markt hat jede Nacht Notdienst."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Sie machen den Führerschein und brauchen einen Kurs.",
+                  "solution": "g",
+                  "explanation": "Der Erste-Hilfe-Kurs ist für den Führerschein."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie sehen schlecht und möchten Ihre Augen testen lassen.",
+                  "solution": "f",
+                  "explanation": "Bei Optik Klar ist der Sehtest kostenlos."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie arbeiten den ganzen Tag und haben Rückenschmerzen.",
+                  "solution": "d",
+                  "explanation": "Die Physiotherapie hilft bei Rückenschmerzen und bietet Abendtermine."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3",
+          "instructions": "Lesen Sie die Schilder und Notizen. Zu jedem Text gibt es eine Frage. Wählen Sie die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-schild-1",
+              "stimuli": [
+                {
+                  "title": "Schild 1 – an der Praxistür",
+                  "text": "PRAXIS DR. WAGNER\nMo, Di, Do: 8:00 – 12:00 und 15:00 – 18:00\nMi, Fr: 8:00 – 12:00\nMittwochnachmittag geschlossen"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-1",
+                  "prompt": "Wann ist die Praxis am Mittwochnachmittag geöffnet?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Gar nicht"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Von 15 bis 18 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Von 8 bis 12 Uhr"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Mittwochnachmittag geschlossen“."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-2",
+              "stimuli": [
+                {
+                  "title": "Schild 2 – im Wartezimmer",
+                  "text": "Bitte schalten Sie Ihr Handy aus\noder stellen Sie es leise."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was sollen Sie im Wartezimmer machen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das Handy leise stellen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Laut telefonieren"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Das Handy abgeben"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… schalten Sie Ihr Handy aus oder stellen Sie es leise.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3 – auf dem Tisch",
+                  "text": "Liebe Rosa,\ndeine Tabletten sind in der Küche.\nNimm eine am Morgen und eine am Abend.\nIch komme um 18 Uhr zurück.\nNadia"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-3",
+                  "prompt": "Wie oft soll Rosa eine Tablette nehmen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Einmal am Tag"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dreimal am Tag"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Zweimal am Tag"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Nimm eine am Morgen und eine am Abend.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-4",
+              "stimuli": [
+                {
+                  "title": "Schild 4 – im Krankenhaus",
+                  "text": "BESUCHSZEIT\ntäglich 14:00 – 18:00 Uhr\nBitte höchstens zwei Personen pro Zimmer."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Wie viele Personen dürfen zusammen ins Zimmer?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Höchstens zwei"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Nur eine"
+                    },
+                    {
+                      "id": "c",
+                      "text": "So viele wie möglich"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Bitte höchstens zwei Personen pro Zimmer.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-5",
+              "stimuli": [
+                {
+                  "title": "Schild 5 – in der Apotheke",
+                  "text": "Achtung:\nMedikamente mit Rezept holen Sie bitte\nan Schalter 2 ab."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-5",
+                  "prompt": "Wohin gehen Sie mit einem Rezept?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Zu Schalter 2"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Zu Schalter 1"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Zur Kasse"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Medikamente mit Rezept holen Sie bitte an Schalter 2 ab.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 20,
+      "description": "Sie füllen ein Formular aus und schreiben eine kurze Nachricht. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie zu jeder Aufgabe eine Musterlösung.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "Teil 1 – Formular",
+          "instructions": "Ihr Freund Omar Farah ist neu in der Praxis Dr. Wagner. Er kommt aus Somalia und ist am 08.01.1986 in Mogadischu geboren. Er wohnt in 04109 Leipzig. Seine Krankenkasse ist die AOK. Füllen Sie das Formular für ihn aus.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-formular",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Familienname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Farah"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-2",
+                  "prompt": "Vorname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Omar"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-3",
+                  "prompt": "Geburtsdatum",
+                  "inputMode": "single-line",
+                  "musterloesung": "08.01.1986"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-4",
+                  "prompt": "Postleitzahl und Wohnort",
+                  "inputMode": "single-line",
+                  "musterloesung": "04109 Leipzig"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-5",
+                  "prompt": "Krankenkasse",
+                  "inputMode": "single-line",
+                  "musterloesung": "AOK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schreiben-teil-2",
+          "title": "Teil 2 – Kurze E-Mail",
+          "instructions": "Sie haben am Montag einen Termin beim Arzt, können aber nicht kommen. Schreiben Sie eine E-Mail an die Praxis Dr. Wagner. Schreiben Sie etwa 30 Wörter.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-2-mail",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s2-1",
+                  "prompt": "Schreiben Sie die E-Mail an die Praxis.",
+                  "hints": [
+                    "Wann ist Ihr Termin?",
+                    "Warum können Sie nicht kommen?",
+                    "Wann möchten Sie einen neuen Termin?",
+                    "Vergessen Sie Anrede und Gruß nicht."
+                  ],
+                  "minWords": 30,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Damen und Herren,\n\nich habe am Montag um 11:15 Uhr einen Termin. Leider kann ich nicht kommen, denn ich muss arbeiten. Haben Sie am Donnerstag am Nachmittag einen Termin frei?\n\nVielen Dank und freundliche Grüße\nOmar Farah"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet. Nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie zu den Stichwörtern. Sie können Ihre Antwort hier kurz notieren – das ist freiwillig.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Alter – Land – Wohnort – Sprachen – Beruf – Hobby",
+                  "hints": [
+                    "Sprechen Sie in ganzen Sätzen.",
+                    "Sprechen Sie etwa eine Minute.",
+                    "Buchstabieren Sie am Ende Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Ich heiße Omar Farah. Ich bin 38 Jahre alt und komme aus Somalia. Ich wohne jetzt in Leipzig. Ich spreche Somali, Arabisch und ein bisschen Deutsch. Ich arbeite als Fahrer. Mein Hobby ist Laufen. Ich laufe jeden Morgen im Park. Mein Familienname ist Farah: F – A – R – A – H."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Um Informationen bitten",
+          "instructions": "Thema: Gesundheit. Bilden Sie zum Stichwort eine Frage und antworten Sie auch selbst darauf.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Stichwort: Arzt",
+                  "musterloesung": "Frage: Wie oft gehst du zum Arzt?\nAntwort: Nicht oft. Vielleicht zweimal im Jahr. Zum Zahnarzt gehe ich jedes Jahr einmal."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Stichwort: gesund leben",
+                  "musterloesung": "Frage: Was machst du für deine Gesundheit?\nAntwort: Ich esse viel Obst und Gemüse. Ich laufe jeden Morgen und rauche nicht."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Bitten formulieren",
+          "instructions": "Formulieren Sie zu jeder Situation eine höfliche Bitte und eine passende Reaktion.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Sie brauchen schnell einen Termin beim Arzt. Stichwort: Termin",
+                  "musterloesung": "Bitte: Guten Tag, können Sie mir bitte diese Woche noch einen Termin geben?\nReaktion: Am Freitag um 15 Uhr ist etwas frei. Passt Ihnen das?"
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp3-2",
+                  "prompt": "Sie verstehen den Namen des Medikaments nicht. Stichwort: aufschreiben",
+                  "musterloesung": "Bitte: Können Sie mir den Namen bitte aufschreiben?\nReaktion: Ja, natürlich. Hier, bitte sehr."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

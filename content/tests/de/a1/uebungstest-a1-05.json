@@ -1,0 +1,824 @@
+{
+  "id": "uebungstest-a1-05",
+  "language": "de",
+  "level": "A1",
+  "title": "Übungstest A1 – Nr. 5",
+  "description": "Ein vollständiger Übungstest auf Niveau A1 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Freizeit und Hobbys.",
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 20,
+      "description": "Sie hören Gespräche, Ansagen und kurze Nachrichten. Zu jedem Text gibt es Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1",
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Wählen Sie die richtige Antwort.",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-05/hoeren-teil-1.mp3",
+            "transcript": "Gespräch 1\nFrau: Was machst du gern in deiner Freizeit?\nMann: Ich schwimme gern. Zweimal in der Woche gehe ich ins Schwimmbad.\n\nGespräch 2\nMann: Gehen wir am Freitag ins Kino?\nFrau: Ja, gern! Der Film beginnt um 20 Uhr.\n\nGespräch 3\nFrau: Spielst du ein Instrument?\nMann: Ja, Gitarre. Aber nicht sehr gut.\n\nGespräch 4\nMann: Wie viel kostet die Karte für das Konzert?\nFrau: Für Studenten 12 Euro, sonst 18 Euro.\nMann: Ich bin Student.\n\nGespräch 5\nFrau: Wo ist der Sportverein?\nMann: In der Parkstraße, direkt neben dem Schwimmbad."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-1",
+                  "prompt": "Gespräch 1: Was macht der Mann gern?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Er spielt Fußball"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Er schwimmt"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Er liest"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ich schwimme gern. Zweimal in der Woche gehe ich ins Schwimmbad.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Gespräch 2: Wann beginnt der Film?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Um 18 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Um 20 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Um 22 Uhr"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Der Film beginnt um 20 Uhr.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-3",
+                  "prompt": "Gespräch 3: Welches Instrument spielt der Mann?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Klavier"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Kein Instrument"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Gitarre"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ja, Gitarre. Aber nicht sehr gut.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Gespräch 4: Wie viel bezahlt der Mann für die Karte?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "12 Euro"
+                    },
+                    {
+                      "id": "b",
+                      "text": "18 Euro"
+                    },
+                    {
+                      "id": "c",
+                      "text": "30 Euro"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Er ist Student, deshalb kostet die Karte 12 Euro."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-5",
+                  "prompt": "Gespräch 5: Wo ist der Sportverein?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Neben dem Schwimmbad"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Neben dem Kino"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Neben dem Park"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„In der Parkstraße, direkt neben dem Schwimmbad.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2",
+          "instructions": "Sie hören fünf Ansagen. Sind die Sätze richtig oder falsch?",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-05/hoeren-teil-2.mp3",
+            "transcript": "Ansage 1\nLiebe Gäste, das Schwimmbad schließt heute schon um 18 Uhr. Bitte verlassen Sie das Wasser um Viertel vor sechs.\n\nAnsage 2\nGuten Tag, hier ist das Kino Astor. Der Film um 20 Uhr ist leider ausverkauft. Es gibt noch Karten für 22 Uhr.\n\nAnsage 3\nAchtung: Das Fußballspiel am Samstag findet nicht im Stadtpark statt, sondern im Sportzentrum Nord.\n\nAnsage 4\nLiebe Mitglieder, unser Sportverein hat ab September einen neuen Kurs: Yoga am Mittwochabend.\n\nAnsage 5\nDas Museum ist am Montag geschlossen. Von Dienstag bis Sonntag sind wir von 10 bis 18 Uhr für Sie da."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-1",
+                  "statement": "Das Schwimmbad schließt heute um 18 Uhr.",
+                  "solution": true,
+                  "explanation": "„… das Schwimmbad schließt heute schon um 18 Uhr.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-2",
+                  "statement": "Für den Film um 20 Uhr gibt es noch Karten.",
+                  "solution": false,
+                  "explanation": "Der Film um 20 Uhr ist ausverkauft. Karten gibt es für 22 Uhr."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-3",
+                  "statement": "Das Fußballspiel ist am Samstag im Sportzentrum Nord.",
+                  "solution": true,
+                  "explanation": "„… nicht im Stadtpark, sondern im Sportzentrum Nord.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-4",
+                  "statement": "Der neue Yogakurs ist am Wochenende.",
+                  "solution": false,
+                  "explanation": "Der Yogakurs ist am Mittwochabend."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-5",
+                  "statement": "Am Montag kann man nicht ins Museum gehen.",
+                  "solution": true,
+                  "explanation": "„Das Museum ist am Montag geschlossen.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3",
+          "instructions": "Sie hören fünf kurze Situationen. Wählen Sie die richtige Antwort.",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-05/hoeren-teil-3.mp3",
+            "transcript": "Situation 1 (Anrufbeantworter)\nHallo Ben, hier ist Clara. Wir gehen morgen wandern. Treffpunkt ist um acht Uhr am Bahnhof, nicht am Parkplatz. Bring bitte Wasser mit!\n\nSituation 2\nFrau: Spielst du am Samstag Tennis?\nMann: Eigentlich ja. Aber es soll regnen. Dann gehe ich lieber ins Fitnessstudio.\n\nSituation 3\nMitarbeiter: Der Kurs kostet 80 Euro für zehn Termine.\nFrau: Und wenn ich nur fünfmal komme?\nMitarbeiter: Dann zahlen Sie 45 Euro.\n\nSituation 4\nMann: Was hast du am Wochenende gemacht?\nFrau: Ich war im Museum. Am Sonntag habe ich lange geschlafen.\n\nSituation 5\nFrau: Kommst du mit ins Konzert?\nMann: Ich kann leider nicht. Ich muss auf meine kleine Schwester aufpassen."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-1",
+                  "prompt": "Situation 1: Wo ist der Treffpunkt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Bei Clara zu Hause"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Am Parkplatz"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Am Bahnhof"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Treffpunkt ist um acht Uhr am Bahnhof, nicht am Parkplatz.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Situation 2: Was macht der Mann, wenn es regnet?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Er spielt Tennis"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Er geht ins Fitnessstudio"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Er bleibt zu Hause"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Dann gehe ich lieber ins Fitnessstudio.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-3",
+                  "prompt": "Situation 3: Wie viel kostet der Kurs für fünf Termine?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "45 Euro"
+                    },
+                    {
+                      "id": "b",
+                      "text": "80 Euro"
+                    },
+                    {
+                      "id": "c",
+                      "text": "40 Euro"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Dann zahlen Sie 45 Euro.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Situation 4: Was hat die Frau am Wochenende gemacht?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie war im Kino"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie hat gearbeitet"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie war im Museum"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ich war im Museum.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-5",
+                  "prompt": "Situation 5: Warum kommt der Mann nicht mit?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Er ist krank"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Er hat keine Karte"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Er passt auf seine Schwester auf"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ich muss auf meine kleine Schwester aufpassen.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 25,
+      "description": "Sie lesen E-Mails, Anzeigen und kurze Texte aus dem Alltag und lösen dazu Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1",
+          "instructions": "Lesen Sie die E-Mails. Sind die Sätze richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-mail-1",
+              "stimuli": [
+                {
+                  "title": "E-Mail 1",
+                  "text": "Hallo Sara,\n\nam Sonntag machen wir eine Fahrradtour. Wir fahren zum See und machen dort ein Picknick.\n\nWir treffen uns um zehn Uhr vor der Bibliothek. Bitte bring etwas zu trinken mit. Hast du Lust?\n\nLiebe Grüße\nNiklas"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-1",
+                  "statement": "Die Gruppe fährt am Sonntag mit dem Fahrrad zum See.",
+                  "solution": true,
+                  "explanation": "„Am Sonntag machen wir eine Fahrradtour. Wir fahren zum See.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-2",
+                  "statement": "Sara soll etwas zu trinken mitbringen.",
+                  "solution": true,
+                  "explanation": "„Bitte bring etwas zu trinken mit.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-1-mail-2",
+              "stimuli": [
+                {
+                  "title": "E-Mail 2",
+                  "text": "Liebe Kursteilnehmerinnen,\n\nder Yogakurs am Mittwoch fällt diese Woche leider aus. Unsere Lehrerin ist krank.\n\nNächste Woche findet der Kurs wieder normal statt, um 19 Uhr im Raum 2.\n\nViele Grüße\nSportverein Fit & Frei"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-3",
+                  "statement": "Diese Woche gibt es keinen Yogakurs.",
+                  "solution": true,
+                  "explanation": "„Der Yogakurs am Mittwoch fällt diese Woche leider aus.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-4",
+                  "statement": "Der Kurs findet nächste Woche um 19 Uhr statt.",
+                  "solution": true,
+                  "explanation": "„Nächste Woche findet der Kurs wieder normal statt, um 19 Uhr.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-5",
+                  "statement": "Der Kurs hat eine neue Lehrerin.",
+                  "solution": false,
+                  "explanation": "Die Lehrerin ist krank. Von einer neuen Lehrerin steht nichts im Text."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2",
+          "instructions": "Lesen Sie die acht Anzeigen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Nicht alle Anzeigen werden gebraucht.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "text": "Stadtbibliothek – über 5000 Bücher auch in anderen Sprachen.\nDer Ausweis ist kostenlos."
+                },
+                {
+                  "title": "Anzeige b",
+                  "text": "Schwimmkurs für Anfänger – für Erwachsene.\nSamstags 9 bis 10 Uhr, 8 Termine."
+                },
+                {
+                  "title": "Anzeige c",
+                  "text": "Kino Astor – jeden Dienstag alle Filme nur 6 Euro."
+                },
+                {
+                  "title": "Anzeige d",
+                  "text": "Fahrradverleih am Bahnhof – 10 Euro pro Tag.\nTäglich von 8 bis 20 Uhr."
+                },
+                {
+                  "title": "Anzeige e",
+                  "text": "Gitarrenunterricht für Anfänger.\nEinzelstunde 25 Euro. Tel. 0157 88 99 00"
+                },
+                {
+                  "title": "Anzeige f",
+                  "text": "Fußballverein SV Grün sucht neue Spieler.\nTraining: Dienstag und Donnerstag ab 18 Uhr."
+                },
+                {
+                  "title": "Anzeige g",
+                  "text": "Museumsnacht am 5. Juli – alle Museen bis 24 Uhr geöffnet.\nEintritt frei."
+                },
+                {
+                  "title": "Anzeige h",
+                  "text": "Tanzkurs für Paare – Salsa und Walzer.\nFreitags um 20 Uhr."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Stadtbibliothek"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Schwimmkurs für Anfänger"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Kino Astor"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Fahrradverleih am Bahnhof"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Gitarrenunterricht"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Fußballverein SV Grün"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Museumsnacht"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Tanzkurs für Paare"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Sie möchten Fußball spielen und suchen einen Verein.",
+                  "solution": "f",
+                  "explanation": "Der SV Grün sucht neue Spieler."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Sie möchten Bücher in Ihrer Sprache lesen und wenig bezahlen.",
+                  "solution": "a",
+                  "explanation": "Die Bibliothek hat Bücher in anderen Sprachen, der Ausweis ist kostenlos."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Sie sind erwachsen und können nicht schwimmen.",
+                  "solution": "b",
+                  "explanation": "Der Schwimmkurs für Anfänger ist für Erwachsene."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie möchten mit Ihrer Partnerin tanzen lernen.",
+                  "solution": "h",
+                  "explanation": "Der Tanzkurs ist für Paare."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie haben kein Fahrrad, möchten aber einen Tag lang fahren.",
+                  "solution": "d",
+                  "explanation": "Der Fahrradverleih kostet 10 Euro pro Tag."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3",
+          "instructions": "Lesen Sie die Schilder und Notizen. Zu jedem Text gibt es eine Frage. Wählen Sie die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-schild-1",
+              "stimuli": [
+                {
+                  "title": "Schild 1 – am Schwimmbad",
+                  "text": "SCHWIMMBAD\nMo–Fr: 6:00 – 21:00 Uhr\nSa/So: 9:00 – 19:00 Uhr\nLetzter Einlass: 30 Minuten vor Schluss"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-1",
+                  "prompt": "Bis wann kann man am Samstag in das Schwimmbad hinein?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Bis 20:30 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bis 19:00 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Bis 18:30 Uhr"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Samstag bis 19 Uhr, letzter Einlass 30 Minuten vorher – also 18:30 Uhr."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-2",
+              "stimuli": [
+                {
+                  "title": "Schild 2 – im Park",
+                  "text": "Liebe Besucher,\nbitte lassen Sie Hunde\nan der Leine.\nDanke!"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was sollen Hundebesitzer machen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Den Hund zu Hause lassen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Den Hund an der Leine führen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Mit dem Hund spielen"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… bitte lassen Sie Hunde an der Leine.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3 – am Kühlschrank",
+                  "text": "Hallo Ben,\nich bin beim Sport.\nDeine Kinokarte liegt auf dem Tisch.\nWir treffen uns direkt im Kino um 19:30 Uhr.\nClara"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-3",
+                  "prompt": "Wo treffen sich Ben und Clara?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Im Kino"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Beim Sport"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Zu Hause"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Wir treffen uns direkt im Kino um 19:30 Uhr.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-4",
+              "stimuli": [
+                {
+                  "title": "Schild 4 – am Museum",
+                  "text": "MUSEUM FÜR STADTGESCHICHTE\nEintritt: 8 Euro\nKinder unter 12 Jahren: frei\nJeden ersten Sonntag im Monat: Eintritt frei"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Wer bezahlt keinen Eintritt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nur Erwachsene"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Alle Kinder und Erwachsene am ersten Sonntag"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Niemand"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Kinder unter 12 zahlen nie, am ersten Sonntag im Monat ist der Eintritt für alle frei."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-5",
+              "stimuli": [
+                {
+                  "title": "Schild 5 – im Sportverein",
+                  "text": "Bitte die Straßenschuhe\nvor der Halle ausziehen.\nNur Sportschuhe in der Halle!"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-5",
+                  "prompt": "Was darf man in der Halle tragen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Straßenschuhe"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sportschuhe"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Keine Schuhe"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Nur Sportschuhe in der Halle!“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 20,
+      "description": "Sie füllen ein Formular aus und schreiben eine kurze Nachricht. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie zu jeder Aufgabe eine Musterlösung.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "Teil 1 – Formular",
+          "instructions": "Ihre Freundin Marta Nowak möchte Mitglied im Sportverein Fit & Frei werden. Sie kommt aus Polen und ist am 30.07.1997 in Gdańsk geboren. Sie wohnt in 80331 München. Ihre Telefonnummer ist 0176 45 67 89. Füllen Sie das Formular für sie aus.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-formular",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Familienname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Nowak"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-2",
+                  "prompt": "Vorname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Marta"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-3",
+                  "prompt": "Geburtsdatum",
+                  "inputMode": "single-line",
+                  "musterloesung": "30.07.1997"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-4",
+                  "prompt": "Postleitzahl und Wohnort",
+                  "inputMode": "single-line",
+                  "musterloesung": "80331 München"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-5",
+                  "prompt": "Telefonnummer",
+                  "inputMode": "single-line",
+                  "musterloesung": "0176 45 67 89"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schreiben-teil-2",
+          "title": "Teil 2 – Kurze E-Mail",
+          "instructions": "Sie möchten mit Ihrer Freundin Clara am Wochenende etwas unternehmen. Schreiben Sie eine E-Mail. Schreiben Sie etwa 30 Wörter.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-2-mail",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s2-1",
+                  "prompt": "Schreiben Sie die E-Mail an Clara.",
+                  "hints": [
+                    "Was möchten Sie machen?",
+                    "Wann und wo treffen Sie sich?",
+                    "Was soll Clara mitbringen?",
+                    "Vergessen Sie Anrede und Gruß nicht."
+                  ],
+                  "minWords": 30,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Liebe Clara,\n\nhast du am Samstag Zeit? Ich möchte gern ins Schwimmbad gehen. Wir treffen uns um 14 Uhr am Eingang. Bring bitte ein Handtuch mit.\n\nSchreib mir bitte heute Abend.\n\nViele Grüße\nMarta"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet. Nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie zu den Stichwörtern. Sie können Ihre Antwort hier kurz notieren – das ist freiwillig.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Alter – Land – Wohnort – Sprachen – Beruf – Hobby",
+                  "hints": [
+                    "Sprechen Sie in ganzen Sätzen.",
+                    "Sprechen Sie etwa eine Minute.",
+                    "Buchstabieren Sie am Ende Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Hallo, ich heiße Marta Nowak. Ich bin 27 Jahre alt und komme aus Polen. Ich wohne in München. Ich spreche Polnisch, Englisch und ein bisschen Deutsch. Ich arbeite in einem Büro. In meiner Freizeit schwimme ich gern und gehe ins Kino. Mein Familienname ist Nowak: N – O – W – A – K."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Um Informationen bitten",
+          "instructions": "Thema: Freizeit. Bilden Sie zum Stichwort eine Frage und antworten Sie auch selbst darauf.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Stichwort: Wochenende",
+                  "musterloesung": "Frage: Was machst du am Wochenende?\nAntwort: Am Samstag treffe ich Freunde. Am Sonntag schlafe ich lange und lese ein Buch."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Stichwort: Sport",
+                  "musterloesung": "Frage: Machst du Sport?\nAntwort: Ja, ich gehe zweimal in der Woche schwimmen. Fußball spiele ich nicht."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Bitten formulieren",
+          "instructions": "Formulieren Sie zu jeder Situation eine höfliche Bitte und eine passende Reaktion.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Sie möchten ein Foto von sich und Ihren Freunden. Stichwort: Foto machen",
+                  "musterloesung": "Bitte: Entschuldigung, können Sie bitte ein Foto von uns machen?\nReaktion: Ja, gern. Bitte lächeln!"
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp3-2",
+                  "prompt": "Sie haben Ihr Fahrrad nicht dabei. Stichwort: Fahrrad leihen",
+                  "musterloesung": "Bitte: Kannst du mir bitte am Sonntag dein Fahrrad leihen?\nReaktion: Ja, kein Problem. Ich bringe es dir am Samstag."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,823 @@
+{
+  "id": "uebungstest-a1-01",
+  "language": "de",
+  "level": "A1",
+  "title": "Übungstest A1 – Nr. 1",
+  "description": "Ein vollständiger Übungstest auf Niveau A1 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Der Aufbau ist einer A1-Prüfung nachempfunden.",
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 20,
+      "description": "Sie hören Gespräche, Ansagen und kurze Nachrichten. Zu jedem Text gibt es Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1",
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Wählen Sie die richtige Antwort.",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-01/hoeren-teil-1.mp3",
+            "transcript": "Gespräch 1\nFrau: Entschuldigung, wie spät ist es bitte?\nMann: Es ist halb neun.\nFrau: Oh, danke! Mein Zug fährt um neun Uhr.\n\nGespräch 2\nVerkäufer: Guten Tag, was möchten Sie?\nFrau: Ich möchte bitte ein Brot. Und haben Sie auch Milch?\nVerkäufer: Milch haben wir leider nicht. Nur Käse.\nFrau: Dann nehme ich nur das Brot, danke.\n\nGespräch 3\nMann: Guten Tag, mein Name ist Nowak.\nFrau: Freut mich. Woher kommen Sie, Herr Nowak?\nMann: Ich komme aus Polen, aus Krakau.\n\nGespräch 4\nMann: Lena, fährst du mit dem Bus zur Arbeit?\nFrau: Nein, ich fahre mit dem Fahrrad. Das ist schneller.\nMann: Und wenn es regnet?\nFrau: Dann gehe ich zu Fuß.\n\nGespräch 5\nFrau: Was machst du am Wochenende?\nMann: Am Samstag spiele ich Fußball. Und am Sonntag besuche ich meine Eltern."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-1",
+                  "prompt": "Gespräch 1: Wie spät ist es?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Acht Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Halb neun"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Neun Uhr"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Der Mann sagt: „Es ist halb neun.“ Um neun Uhr fährt erst der Zug."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Gespräch 2: Was kauft die Frau?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Milch"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Brot"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Käse"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Milch gibt es nicht, Käse möchte sie nicht. Sie sagt: „Dann nehme ich nur das Brot.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-3",
+                  "prompt": "Gespräch 3: Woher kommt Herr Nowak?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Aus Portugal"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Aus Spanien"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Aus Polen"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ich komme aus Polen, aus Krakau.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Gespräch 4: Wie fährt Lena normalerweise zur Arbeit?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Mit dem Bus"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Zu Fuß"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Mit dem Fahrrad"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Sie fährt mit dem Fahrrad. Zu Fuß geht sie nur, wenn es regnet."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-5",
+                  "prompt": "Gespräch 5: Was macht der Mann am Sonntag?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Er spielt Fußball"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Er arbeitet"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Er besucht seine Eltern"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Fußball spielt er am Samstag. Am Sonntag besucht er seine Eltern."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2",
+          "instructions": "Sie hören fünf Ansagen. Sind die Sätze richtig oder falsch?",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-01/hoeren-teil-2.mp3",
+            "transcript": "Ansage 1\nAchtung, bitte beachten Sie: Der Zug nach München fährt heute nicht von Gleis 3, sondern von Gleis 7.\n\nAnsage 2\nLiebe Kundinnen und Kunden, unser Supermarkt schließt in zehn Minuten. Bitte kommen Sie jetzt zur Kasse.\n\nAnsage 3\nGuten Tag, hier ist die Praxis Dr. Berger. Wir haben heute geschlossen. Bitte rufen Sie morgen ab acht Uhr wieder an.\n\nAnsage 4\nLiebe Eltern, der Deutschkurs am Montag beginnt um 18 Uhr, nicht um 17 Uhr.\n\nAnsage 5\nLiebe Fahrgäste, die Buslinie 12 fährt heute wegen einer Baustelle nicht bis zum Hauptbahnhof. Bitte steigen Sie an der Haltestelle Marktplatz aus."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-1",
+                  "statement": "Der Zug nach München fährt von Gleis 3.",
+                  "solution": false,
+                  "explanation": "Er fährt heute von Gleis 7, nicht von Gleis 3."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-2",
+                  "statement": "Der Supermarkt schließt bald.",
+                  "solution": true,
+                  "explanation": "„Unser Supermarkt schließt in zehn Minuten.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-3",
+                  "statement": "Die Praxis Dr. Berger ist heute geöffnet.",
+                  "solution": false,
+                  "explanation": "„Wir haben heute geschlossen.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-4",
+                  "statement": "Der Deutschkurs beginnt am Montag um 18 Uhr.",
+                  "solution": true,
+                  "explanation": "„… beginnt um 18 Uhr, nicht um 17 Uhr.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-5",
+                  "statement": "Der Bus der Linie 12 fährt heute bis zum Hauptbahnhof.",
+                  "solution": false,
+                  "explanation": "Wegen einer Baustelle fährt der Bus nur bis zur Haltestelle Marktplatz."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3",
+          "instructions": "Sie hören fünf kurze Situationen. Wählen Sie die richtige Antwort.",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-01/hoeren-teil-3.mp3",
+            "transcript": "Situation 1 (Anrufbeantworter)\nHallo Maria, hier ist Tom. Wir treffen uns am Samstag um vier Uhr vor dem Kino. Bis dann!\n\nSituation 2\nFrau: Entschuldigung, wo ist die Post?\nMann: Gehen Sie hier geradeaus und dann die zweite Straße links. Die Post ist neben der Bank.\n\nSituation 3\nÄrztin: Guten Tag. Was fehlt Ihnen denn?\nPatient: Ich habe seit gestern starke Kopfschmerzen.\n\nSituation 4\nMann: Wie viel kostet das Zimmer pro Nacht?\nFrau: 45 Euro. Mit Frühstück 55 Euro.\nMann: Gut, dann nehme ich es mit Frühstück.\n\nSituation 5\nFrau: Entschuldigung, wann fährt der nächste Zug nach Köln?\nMann: Um 14:20 Uhr, von Gleis 5.\nFrau: Und der übernächste?\nMann: Der fährt um 15:50 Uhr."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-1",
+                  "prompt": "Situation 1: Wann treffen sich Maria und Tom?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Am Samstag um 14 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Am Samstag um 16 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Am Sonntag um 16 Uhr"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Am Samstag um vier Uhr“ – also um 16 Uhr."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Situation 2: Wo ist die Post?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Neben der Bank"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Neben dem Kino"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Neben dem Bahnhof"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Die Post ist neben der Bank.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-3",
+                  "prompt": "Situation 3: Was hat der Patient?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Bauchschmerzen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Zahnschmerzen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Kopfschmerzen"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ich habe seit gestern starke Kopfschmerzen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Situation 4: Wie viel bezahlt der Mann pro Nacht?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "45 Euro"
+                    },
+                    {
+                      "id": "b",
+                      "text": "50 Euro"
+                    },
+                    {
+                      "id": "c",
+                      "text": "55 Euro"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Er nimmt das Zimmer mit Frühstück – das kostet 55 Euro."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-5",
+                  "prompt": "Situation 5: Wann fährt der nächste Zug nach Köln?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Um 14:20 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Um 15:20 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Um 15:50 Uhr"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Der nächste Zug fährt um 14:20 Uhr. Um 15:50 Uhr fährt erst der übernächste."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 25,
+      "description": "Sie lesen E-Mails, Anzeigen und kurze Texte aus dem Alltag und lösen dazu Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1",
+          "instructions": "Lesen Sie die E-Mails. Sind die Sätze richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-mail-1",
+              "stimuli": [
+                {
+                  "title": "E-Mail 1",
+                  "text": "Liebe Anna,\n\nwie geht es dir? Ich bin jetzt in Hamburg. Ich wohne in einer kleinen Wohnung in der Stadtmitte. Meine Wohnung hat zwei Zimmer und einen Balkon.\n\nIch arbeite von Montag bis Freitag in einem Café. Am Wochenende habe ich frei. Kommst du mich im August besuchen?\n\nViele Grüße\nSofia"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-1",
+                  "statement": "Sofia wohnt in Hamburg.",
+                  "solution": true,
+                  "explanation": "„Ich bin jetzt in Hamburg. Ich wohne in einer kleinen Wohnung in der Stadtmitte.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-2",
+                  "statement": "Sofia arbeitet auch am Samstag.",
+                  "solution": false,
+                  "explanation": "Sie arbeitet von Montag bis Freitag. Am Wochenende hat sie frei."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-1-mail-2",
+              "stimuli": [
+                {
+                  "title": "E-Mail 2",
+                  "text": "Hallo Herr Keller,\n\nleider kann ich am Dienstag nicht zum Deutschkurs kommen. Ich habe einen Termin beim Zahnarzt. Können Sie mir bitte die Hausaufgaben per E-Mail schicken? Am Donnerstag bin ich wieder da.\n\nMit freundlichen Grüßen\nAhmad Yusuf"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-3",
+                  "statement": "Ahmad kommt am Dienstag nicht zum Deutschkurs.",
+                  "solution": true,
+                  "explanation": "„… leider kann ich am Dienstag nicht zum Deutschkurs kommen.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-4",
+                  "statement": "Ahmad möchte die Hausaufgaben am Telefon bekommen.",
+                  "solution": false,
+                  "explanation": "Er bittet um die Hausaufgaben per E-Mail."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-5",
+                  "statement": "Ahmad kommt am Donnerstag wieder zum Deutschkurs.",
+                  "solution": true,
+                  "explanation": "„Am Donnerstag bin ich wieder da.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2",
+          "instructions": "Lesen Sie die acht Anzeigen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Nicht alle Anzeigen werden gebraucht.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "text": "Sprachschule Aktiv – Deutschkurse A1 bis C1. Auch abends von 18 bis 21 Uhr.\nTel. 030 555 12 34"
+                },
+                {
+                  "title": "Anzeige b",
+                  "text": "Fahrrad zu verkaufen. Gut und günstig, 80 Euro. Nur Abholung.\nTel. 0176 22 33 44"
+                },
+                {
+                  "title": "Anzeige c",
+                  "text": "Wohnung zu vermieten: 2 Zimmer, Küche, Bad, Balkon. 600 Euro warm.\nFrei ab 1. September."
+                },
+                {
+                  "title": "Anzeige d",
+                  "text": "Babysitter gesucht für Samstagabend, 12 Euro pro Stunde.\nBitte melden bei Familie Weber."
+                },
+                {
+                  "title": "Anzeige e",
+                  "text": "Restaurant Sonne sucht Kellnerin oder Kellner in Teilzeit.\nGute Deutschkenntnisse nötig."
+                },
+                {
+                  "title": "Anzeige f",
+                  "text": "Fahrschule Meier – Führerschein in 8 Wochen. Theorie auch auf Englisch.\nTel. 030 444 88 99"
+                },
+                {
+                  "title": "Anzeige g",
+                  "text": "Kinderarztpraxis Dr. Klein – neue Patienten willkommen.\nTermine online oder telefonisch."
+                },
+                {
+                  "title": "Anzeige h",
+                  "text": "Flohmarkt im Stadtpark, jeden Samstag von 8 bis 16 Uhr.\nEintritt frei."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Sprachschule Aktiv"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Fahrrad zu verkaufen"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Wohnung zu vermieten"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Babysitter gesucht"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Restaurant Sonne"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Fahrschule Meier"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Kinderarztpraxis Dr. Klein"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Flohmarkt im Stadtpark"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Sie suchen eine Arbeit in einem Restaurant.",
+                  "solution": "e",
+                  "explanation": "Anzeige e) sucht eine Kellnerin oder einen Kellner."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Sie arbeiten tagsüber und möchten am Abend Deutsch lernen.",
+                  "solution": "a",
+                  "explanation": "Anzeige a) bietet Kurse auch abends von 18 bis 21 Uhr an."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Sie brauchen ab September eine neue Wohnung.",
+                  "solution": "c",
+                  "explanation": "Die Wohnung in Anzeige c) ist ab 1. September frei."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Ihr Kind ist krank. Sie suchen einen Arzt für Kinder.",
+                  "solution": "g",
+                  "explanation": "Anzeige g) ist eine Kinderarztpraxis und nimmt neue Patienten."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie möchten am Samstag gebrauchte Sachen günstig kaufen.",
+                  "solution": "h",
+                  "explanation": "Der Flohmarkt in Anzeige h) ist jeden Samstag von 8 bis 16 Uhr."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3",
+          "instructions": "Lesen Sie die Schilder und Notizen. Zu jedem Text gibt es eine Frage. Wählen Sie die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-schild-1",
+              "stimuli": [
+                {
+                  "title": "Schild 1 – Stadtbibliothek",
+                  "text": "STADTBIBLIOTHEK\nMontag bis Freitag: 9:00 – 18:00 Uhr\nSamstag: 10:00 – 14:00 Uhr\nSonntag: geschlossen"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-1",
+                  "prompt": "Wann können Sie am Sonntag in die Bibliothek gehen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Von 9:00 bis 18:00 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Von 10:00 bis 14:00 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Gar nicht – die Bibliothek ist geschlossen"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Sonntag: geschlossen“."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-2",
+              "stimuli": [
+                {
+                  "title": "Schild 2 – im Hausflur",
+                  "text": "ACHTUNG!\nDer Aufzug ist heute außer Betrieb.\nBitte benutzen Sie die Treppe."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was sollen Sie machen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Treppe benutzen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Den Aufzug reparieren"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Zu Hause bleiben"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Bitte benutzen Sie die Treppe.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3 – auf dem Küchentisch",
+                  "text": "Hallo Papa,\nich bin bei Julia. Ich komme um 19 Uhr nach Hause.\nDas Essen ist im Kühlschrank.\nLisa"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-3",
+                  "prompt": "Wo ist Lisa?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Bei Julia"
+                    },
+                    {
+                      "id": "b",
+                      "text": "In der Schule"
+                    },
+                    {
+                      "id": "c",
+                      "text": "In der Küche"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Ich bin bei Julia.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-4",
+              "stimuli": [
+                {
+                  "title": "Schild 4 – Rathaus",
+                  "text": "BÜRGERBÜRO\nTermine nur nach Vereinbarung.\nTermin online buchen: www.stadt-musterhausen.de/termin"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Wie bekommen Sie einen Termin im Bürgerbüro?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Man kann ohne Termin kommen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Man muss einen Brief schreiben"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Man muss den Termin vorher buchen"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Termine nur nach Vereinbarung“ – man bucht den Termin vorher, zum Beispiel online."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-5",
+              "stimuli": [
+                {
+                  "title": "Schild 5 – an der Apotheke",
+                  "text": "APOTHEKEN-NOTDIENST\nHeute: Stern-Apotheke\nBahnhofstraße 12\nGeöffnet bis 22:00 Uhr"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-5",
+                  "prompt": "Bis wann hat die Stern-Apotheke heute geöffnet?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Bis 22:00 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bis 20:00 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die ganze Nacht"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Geöffnet bis 22:00 Uhr“."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 20,
+      "description": "Sie füllen ein Formular aus und schreiben eine kurze Nachricht. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie zu jeder Aufgabe eine Musterlösung.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "Teil 1 – Formular",
+          "instructions": "Ihre Freundin Eszter Kovács möchte einen Deutschkurs besuchen. Sie kommt aus Ungarn und ist am 12.03.1995 in Budapest geboren. Jetzt wohnt sie in 10115 Berlin. Sie möchte einen Kurs auf Niveau A2 besuchen. Füllen Sie das Anmeldeformular für sie aus.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-formular",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Familienname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Kovács"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-2",
+                  "prompt": "Vorname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Eszter"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-3",
+                  "prompt": "Geburtsdatum",
+                  "inputMode": "single-line",
+                  "musterloesung": "12.03.1995"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-4",
+                  "prompt": "Postleitzahl und Wohnort",
+                  "inputMode": "single-line",
+                  "musterloesung": "10115 Berlin"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-5",
+                  "prompt": "Gewünschtes Kursniveau",
+                  "inputMode": "single-line",
+                  "musterloesung": "A2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schreiben-teil-2",
+          "title": "Teil 2 – Kurze E-Mail",
+          "instructions": "Sie sind krank und können morgen nicht zum Deutschkurs kommen. Schreiben Sie eine E-Mail an Ihre Lehrerin, Frau Schmidt. Schreiben Sie etwa 30 Wörter. Schreiben Sie zu jedem Punkt ein bis zwei Sätze. Vergessen Sie Anrede und Gruß nicht.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-2-mail",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s2-1",
+                  "prompt": "Schreiben Sie die E-Mail an Frau Schmidt.",
+                  "hints": [
+                    "Warum können Sie nicht kommen?",
+                    "Wie lange sind Sie krank?",
+                    "Was möchten Sie von Frau Schmidt?"
+                  ],
+                  "minWords": 30,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Liebe Frau Schmidt,\n\nleider bin ich krank. Ich habe Fieber und Halsschmerzen. Deshalb kann ich morgen nicht zum Deutschkurs kommen. Der Arzt sagt, ich muss drei Tage zu Hause bleiben. Können Sie mir bitte die Hausaufgaben schicken?\n\nVielen Dank und viele Grüße\nMaria Silva"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet. Nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie zu den Stichwörtern. Sie können Ihre Antwort hier kurz notieren – das ist freiwillig.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Alter – Land – Wohnort – Sprachen – Beruf – Hobby",
+                  "hints": [
+                    "Sprechen Sie in ganzen Sätzen.",
+                    "Sprechen Sie etwa eine Minute.",
+                    "Buchstabieren Sie am Ende Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Mein Name ist Amir Haddad. Ich bin 29 Jahre alt und komme aus Marokko. Jetzt wohne ich in Köln. Ich spreche Arabisch, Französisch und ein bisschen Deutsch. Ich bin Koch und arbeite in einem Restaurant. Mein Hobby ist Fußball. Ich spiele jeden Samstag mit meinen Freunden. Mein Familienname ist Haddad: H – A – D – D – A – D."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Um Informationen bitten",
+          "instructions": "Thema: Wohnen. Bilden Sie zum Stichwort eine Frage und antworten Sie auch selbst darauf.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Stichwort: Zimmer",
+                  "musterloesung": "Frage: Wie viele Zimmer hat deine Wohnung?\nAntwort: Meine Wohnung hat zwei Zimmer. Das Wohnzimmer ist groß und hell."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Stichwort: Miete",
+                  "musterloesung": "Frage: Wie hoch ist deine Miete?\nAntwort: Meine Miete ist 550 Euro im Monat. Das ist leider ziemlich teuer."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Bitten formulieren",
+          "instructions": "Formulieren Sie zu jeder Situation eine höfliche Bitte und eine passende Reaktion.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Im Zimmer ist es sehr warm. Stichwort: Fenster",
+                  "musterloesung": "Bitte: Entschuldigung, können Sie bitte das Fenster öffnen?\nReaktion: Ja, natürlich. Gern."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp3-2",
+                  "prompt": "Sie verstehen das Wort nicht. Stichwort: wiederholen",
+                  "musterloesung": "Bitte: Entschuldigung, können Sie das bitte noch einmal wiederholen?\nReaktion: Ja, kein Problem. Ich sage es langsam."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

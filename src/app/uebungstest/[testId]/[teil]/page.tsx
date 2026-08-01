@@ -1,0 +1,41 @@
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { getAllTests, getSection, nextSectionKind } from "@/lib/content";
+import { SECTION_LABEL, type SectionKind } from "@/lib/schema";
+import { SectionRunner } from "@/components/SectionRunner";
+
+export function generateStaticParams() {
+  return getAllTests().flatMap((test) =>
+    test.sections.map((section) => ({ testId: test.id, teil: section.kind })),
+  );
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ testId: string; teil: string }>;
+}): Promise<Metadata> {
+  const { testId, teil } = await params;
+  const found = getSection(testId, teil);
+  if (!found) return {};
+  return {
+    title: `${SECTION_LABEL[found.section.kind]} – ${found.test.title}`,
+    description: found.section.description,
+  };
+}
+
+export default async function SectionPage({
+  params,
+}: {
+  params: Promise<{ testId: string; teil: string }>;
+}) {
+  const { testId, teil } = await params;
+  const found = getSection(testId, teil);
+  if (!found) notFound();
+
+  const next = nextSectionKind(found.test, found.section.kind as SectionKind);
+
+  return (
+    <SectionRunner test={found.test} section={found.section} nextKind={next} />
+  );
+}

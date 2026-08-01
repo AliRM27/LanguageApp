@@ -1,0 +1,824 @@
+{
+  "id": "uebungstest-a1-02",
+  "language": "de",
+  "level": "A1",
+  "title": "Übungstest A1 – Nr. 2",
+  "description": "Ein vollständiger Übungstest auf Niveau A1 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Einkaufen und Essen.",
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 20,
+      "description": "Sie hören Gespräche, Ansagen und kurze Nachrichten. Zu jedem Text gibt es Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1",
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Wählen Sie die richtige Antwort.",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-02/hoeren-teil-1.mp3",
+            "transcript": "Gespräch 1\nVerkäuferin: Guten Morgen! Was darf es sein?\nMann: Ich möchte bitte drei Brötchen und einen Kaffee.\nVerkäuferin: Gern. Das macht 4 Euro 50.\n\nGespräch 2\nFrau: Entschuldigung, wo ist der Zucker?\nMitarbeiter: Der Zucker steht in Regal drei, neben dem Mehl.\nFrau: Vielen Dank.\n\nGespräch 3\nKellner: Möchten Sie noch etwas trinken?\nFrau: Ja, einen Apfelsaft bitte. Ohne Eis.\n\nGespräch 4\nMann: Was kostet ein Kilo Tomaten?\nVerkäuferin: Zwei Euro achtzig.\nMann: Gut, ich nehme zwei Kilo.\n\nGespräch 5\nFrau: Was isst du gern zum Frühstück?\nMann: Ich esse gern Müsli mit Obst. Kaffee trinke ich nicht."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-1",
+                  "prompt": "Gespräch 1: Was kauft der Mann?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nur einen Kaffee"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Brot und Milch"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Brötchen und einen Kaffee"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ich möchte bitte drei Brötchen und einen Kaffee.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Gespräch 2: Wo steht der Zucker?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Neben dem Mehl"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Neben dem Salz"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Neben dem Brot"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Der Zucker steht in Regal drei, neben dem Mehl.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-3",
+                  "prompt": "Gespräch 3: Was möchte die Frau trinken?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Wasser"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Kaffee"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Apfelsaft"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ja, einen Apfelsaft bitte.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Gespräch 4: Was kostet ein Kilo Tomaten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "3 Euro 80"
+                    },
+                    {
+                      "id": "b",
+                      "text": "2 Euro 80"
+                    },
+                    {
+                      "id": "c",
+                      "text": "5 Euro 60"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Zwei Euro achtzig.“ Der Mann kauft zwei Kilo, aber gefragt ist der Preis für ein Kilo."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-5",
+                  "prompt": "Gespräch 5: Was isst der Mann zum Frühstück?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Müsli mit Obst"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Brot mit Käse"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Er trinkt nur Kaffee"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Ich esse gern Müsli mit Obst.“ Kaffee trinkt er nicht."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2",
+          "instructions": "Sie hören fünf Ansagen. Sind die Sätze richtig oder falsch?",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-02/hoeren-teil-2.mp3",
+            "transcript": "Ansage 1\nLiebe Kundinnen und Kunden, heute sind alle Äpfel im Angebot: ein Kilo nur ein Euro fünfzig.\n\nAnsage 2\nGuten Tag, hier ist das Restaurant Adler. Am Montag haben wir Ruhetag. Von Dienstag bis Sonntag sind wir ab 12 Uhr für Sie da.\n\nAnsage 3\nAchtung: Die Bäckerei im Bahnhof ist wegen Umbau bis zum 15. Mai geschlossen.\n\nAnsage 4\nLiebe Kundinnen und Kunden, ab morgen nehmen wir auch Kreditkarten. Bitte beachten Sie: Heute können Sie nur bar bezahlen.\n\nAnsage 5\nDer Wochenmarkt findet ab Juni nicht mehr am Mittwoch statt, sondern am Freitag von 7 bis 13 Uhr."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-1",
+                  "statement": "Ein Kilo Äpfel kostet heute 1 Euro 50.",
+                  "solution": true,
+                  "explanation": "„… ein Kilo nur ein Euro fünfzig.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-2",
+                  "statement": "Das Restaurant Adler ist am Montag geöffnet.",
+                  "solution": false,
+                  "explanation": "„Am Montag haben wir Ruhetag.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-3",
+                  "statement": "Die Bäckerei im Bahnhof ist im Moment geschlossen.",
+                  "solution": true,
+                  "explanation": "Sie ist wegen Umbau bis zum 15. Mai geschlossen."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-4",
+                  "statement": "Heute kann man mit Kreditkarte bezahlen.",
+                  "solution": false,
+                  "explanation": "Kreditkarten gibt es erst ab morgen. Heute nur bar."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-5",
+                  "statement": "Ab Juni ist der Wochenmarkt am Freitag.",
+                  "solution": true,
+                  "explanation": "„… nicht mehr am Mittwoch, sondern am Freitag von 7 bis 13 Uhr.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3",
+          "instructions": "Sie hören fünf kurze Situationen. Wählen Sie die richtige Antwort.",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-02/hoeren-teil-3.mp3",
+            "transcript": "Situation 1\nFrau: Ich hätte gern ein Stück Käsekuchen.\nKellner: Tut mir leid, Käsekuchen haben wir heute nicht mehr. Wir haben Apfelkuchen und Schokoladenkuchen.\nFrau: Dann nehme ich den Apfelkuchen.\n\nSituation 2\nMann: Wir treffen uns um sieben im Restaurant, oder?\nFrau: Nein, um halb acht. Das Restaurant öffnet erst um sieben.\n\nSituation 3\nVerkäufer: Das macht zusammen 23 Euro 40.\nFrau: Hier sind 25 Euro.\nVerkäufer: Danke. Und 1 Euro 60 zurück.\n\nSituation 4\nFrau: Isst du Fleisch?\nMann: Nein, ich bin Vegetarier. Aber Fisch esse ich manchmal.\n\nSituation 5 (Anrufbeantworter)\nHallo Sabine, hier ist Nina. Kannst du bitte noch Milch und Eier mitbringen? Brot habe ich schon gekauft. Danke!"
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-1",
+                  "prompt": "Situation 1: Welchen Kuchen bekommt die Frau?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Käsekuchen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Schokoladenkuchen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Apfelkuchen"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Käsekuchen gibt es nicht mehr. Sie nimmt den Apfelkuchen."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Situation 2: Wann treffen sich die beiden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Um 7:00 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Um 8:00 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Um 7:30 Uhr"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Nein, um halb acht.“ Um sieben öffnet nur das Restaurant."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-3",
+                  "prompt": "Situation 3: Wie viel Geld bekommt die Frau zurück?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1 Euro 60"
+                    },
+                    {
+                      "id": "b",
+                      "text": "2 Euro 40"
+                    },
+                    {
+                      "id": "c",
+                      "text": "23 Euro 40"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Und 1 Euro 60 zurück.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Situation 4: Was isst der Mann?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Manchmal Fisch"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Fleisch"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Kein Fleisch und keinen Fisch"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Er ist Vegetarier, aber Fisch isst er manchmal."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-5",
+                  "prompt": "Situation 5: Was soll Sabine mitbringen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Milch und Eier"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Brot und Milch"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nur Eier"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Brot hat Nina schon gekauft."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 25,
+      "description": "Sie lesen E-Mails, Anzeigen und kurze Texte aus dem Alltag und lösen dazu Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1",
+          "instructions": "Lesen Sie die E-Mails. Sind die Sätze richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-mail-1",
+              "stimuli": [
+                {
+                  "title": "E-Mail 1",
+                  "text": "Liebe Fatima,\n\nam Samstag habe ich Geburtstag. Ich lade dich herzlich ein! Wir treffen uns um 18 Uhr bei mir zu Hause. Ich koche türkisch und mache auch einen Salat.\n\nBitte bring nichts mit. Kannst du kommen? Schreib mir bitte bis Donnerstag.\n\nLiebe Grüße\nElif"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-1",
+                  "statement": "Elif feiert am Samstag ihren Geburtstag.",
+                  "solution": true,
+                  "explanation": "„Am Samstag habe ich Geburtstag. Ich lade dich herzlich ein!“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-2",
+                  "statement": "Fatima soll etwas zu essen mitbringen.",
+                  "solution": false,
+                  "explanation": "„Bitte bring nichts mit.“ Elif kocht selbst."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-1-mail-2",
+              "stimuli": [
+                {
+                  "title": "E-Mail 2",
+                  "text": "Hallo Frau Bauer,\n\nvielen Dank für Ihre Bestellung. Ihr Brot und Ihr Kuchen sind fertig. Sie können alles ab Freitag um 9 Uhr in unserer Bäckerei abholen.\n\nBitte bezahlen Sie bar – Karten nehmen wir leider nicht.\n\nFreundliche Grüße\nBäckerei Sommer"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-3",
+                  "statement": "Frau Bauer kann die Bestellung ab Freitag abholen.",
+                  "solution": true,
+                  "explanation": "„Sie können alles ab Freitag um 9 Uhr … abholen.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-4",
+                  "statement": "Frau Bauer kann mit Karte bezahlen.",
+                  "solution": false,
+                  "explanation": "„Bitte bezahlen Sie bar – Karten nehmen wir leider nicht.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-5",
+                  "statement": "Die Bäckerei bringt die Bestellung nach Hause.",
+                  "solution": false,
+                  "explanation": "Frau Bauer muss die Bestellung selbst in der Bäckerei abholen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2",
+          "instructions": "Lesen Sie die acht Anzeigen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Nicht alle Anzeigen werden gebraucht.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "text": "Café Milano – Frühstück jeden Tag von 8 bis 12 Uhr.\nAuch zum Mitnehmen."
+                },
+                {
+                  "title": "Anzeige b",
+                  "text": "Wochenmarkt am Rathausplatz – Obst und Gemüse direkt vom Bauern.\nJeden Freitag von 7 bis 13 Uhr."
+                },
+                {
+                  "title": "Anzeige c",
+                  "text": "Kochkurs für Anfänger – wir kochen italienisch.\nDienstags um 19 Uhr, 15 Euro pro Abend."
+                },
+                {
+                  "title": "Anzeige d",
+                  "text": "Pizzeria Roma – Lieferung nach Hause ab 15 Euro.\nTel. 030 77 88 99"
+                },
+                {
+                  "title": "Anzeige e",
+                  "text": "Supermarkt Nord sucht Aushilfe für Samstag.\n13 Euro pro Stunde."
+                },
+                {
+                  "title": "Anzeige f",
+                  "text": "Bioladen Grünes Blatt – neu in der Hauptstraße 5.\nEröffnung am 3. April."
+                },
+                {
+                  "title": "Anzeige g",
+                  "text": "Getränkemarkt Fischer – Wasser, Saft und Bier günstig.\nMo–Sa 9 bis 20 Uhr."
+                },
+                {
+                  "title": "Anzeige h",
+                  "text": "Restaurant Athen – Mittagsmenü für 9,50 Euro.\nMontag bis Freitag."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Café Milano"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Wochenmarkt am Rathausplatz"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Kochkurs für Anfänger"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Pizzeria Roma"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Supermarkt Nord"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Bioladen Grünes Blatt"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Getränkemarkt Fischer"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Restaurant Athen"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Sie möchten am Abend zu Hause essen, aber nicht kochen.",
+                  "solution": "d",
+                  "explanation": "Die Pizzeria Roma liefert nach Hause."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Sie möchten am Freitagvormittag frisches Gemüse kaufen.",
+                  "solution": "b",
+                  "explanation": "Der Wochenmarkt ist freitags von 7 bis 13 Uhr."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Sie möchten lernen, wie man italienisch kocht.",
+                  "solution": "c",
+                  "explanation": "Der Kochkurs für Anfänger kocht italienisch."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie suchen eine Arbeit am Samstag.",
+                  "solution": "e",
+                  "explanation": "Der Supermarkt Nord sucht eine Aushilfe für Samstag."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie möchten in der Mittagspause günstig essen gehen.",
+                  "solution": "h",
+                  "explanation": "Das Restaurant Athen hat ein Mittagsmenü für 9,50 Euro."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3",
+          "instructions": "Lesen Sie die Schilder und Notizen. Zu jedem Text gibt es eine Frage. Wählen Sie die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-schild-1",
+              "stimuli": [
+                {
+                  "title": "Schild 1 – Eingang Supermarkt",
+                  "text": "SUPERMARKT NORD\nMontag bis Samstag: 7:00 – 22:00 Uhr\nSonn- und Feiertage: geschlossen"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-1",
+                  "prompt": "Wann ist der Supermarkt geschlossen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Am Sonntag"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Am Samstag"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Am Montag"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Sonn- und Feiertage: geschlossen“."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-2",
+              "stimuli": [
+                {
+                  "title": "Schild 2 – in der Obstabteilung",
+                  "text": "Bitte legen Sie Obst und Gemüse vor dem Bezahlen auf die Waage."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was sollen Sie machen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Obst und Gemüse waschen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Obst und Gemüse wiegen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "An der Kasse warten"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… auf die Waage legen“ bedeutet wiegen."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3 – in der Küche",
+                  "text": "Hallo Max,\nich bin im Supermarkt. Der Kuchen ist im Backofen.\nBitte hol ihn um 17 Uhr heraus!\nMama"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-3",
+                  "prompt": "Was soll Max machen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Den Kuchen aus dem Backofen holen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Einkaufen gehen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Einen Kuchen backen"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Bitte hol ihn um 17 Uhr heraus!“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-4",
+              "stimuli": [
+                {
+                  "title": "Schild 4 – an der Tür",
+                  "text": "CAFÉ SONNE\nHeute Ruhetag.\nAb morgen sind wir wieder für Sie da."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Wann ist das Café wieder geöffnet?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Heute Abend"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Morgen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nächste Woche"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ab morgen sind wir wieder für Sie da.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-5",
+              "stimuli": [
+                {
+                  "title": "Schild 5 – an der Kasse",
+                  "text": "KASSE 3\nNur für Kundinnen und Kunden\nmit weniger als 10 Artikeln"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-5",
+                  "prompt": "Wer darf an Kasse 3 bezahlen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Alle Kunden"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Kunden mit wenigen Artikeln"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nur Kunden mit Karte"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… mit weniger als 10 Artikeln“."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 20,
+      "description": "Sie füllen ein Formular aus und schreiben eine kurze Nachricht. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie zu jeder Aufgabe eine Musterlösung.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "Teil 1 – Formular",
+          "instructions": "Ihr Freund Pedro Alves möchte eine Kundenkarte für den Supermarkt Nord. Er kommt aus Portugal und ist am 05.09.1988 in Porto geboren. Jetzt wohnt er in 20095 Hamburg. Seine E-Mail-Adresse ist pedro.alves@mail.de. Füllen Sie das Formular für ihn aus.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-formular",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Familienname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Alves"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-2",
+                  "prompt": "Vorname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Pedro"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-3",
+                  "prompt": "Geburtsdatum",
+                  "inputMode": "single-line",
+                  "musterloesung": "05.09.1988"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-4",
+                  "prompt": "Postleitzahl und Wohnort",
+                  "inputMode": "single-line",
+                  "musterloesung": "20095 Hamburg"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-5",
+                  "prompt": "E-Mail-Adresse",
+                  "inputMode": "single-line",
+                  "musterloesung": "pedro.alves@mail.de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schreiben-teil-2",
+          "title": "Teil 2 – Kurze E-Mail",
+          "instructions": "Sie möchten Ihre Freundin Elif zum Essen einladen. Schreiben Sie eine E-Mail. Schreiben Sie etwa 30 Wörter.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-2-mail",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s2-1",
+                  "prompt": "Schreiben Sie die E-Mail an Elif.",
+                  "hints": [
+                    "Warum schreiben Sie?",
+                    "Wann und wo treffen Sie sich?",
+                    "Was kochen Sie?",
+                    "Vergessen Sie Anrede und Gruß nicht."
+                  ],
+                  "minWords": 30,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Liebe Elif,\n\nich möchte dich gern zum Essen einladen. Hast du am Samstag Zeit? Wir treffen uns um 19 Uhr bei mir zu Hause. Ich koche Fisch mit Reis und mache einen Salat.\n\nBitte schreib mir bis Freitag.\n\nViele Grüße\nAmina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet. Nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie zu den Stichwörtern. Sie können Ihre Antwort hier kurz notieren – das ist freiwillig.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Alter – Land – Wohnort – Sprachen – Beruf – Hobby",
+                  "hints": [
+                    "Sprechen Sie in ganzen Sätzen.",
+                    "Sprechen Sie etwa eine Minute.",
+                    "Buchstabieren Sie am Ende Ihren Vornamen."
+                  ],
+                  "musterloesung": "Hallo. Ich heiße Linh Nguyen. Ich bin 24 Jahre alt und komme aus Vietnam. Ich wohne jetzt in Hamburg. Ich spreche Vietnamesisch, Englisch und ein bisschen Deutsch. Ich arbeite in einem Café. Mein Hobby ist Kochen. Am Wochenende koche ich für meine Freunde. Mein Vorname ist Linh: L – I – N – H."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Um Informationen bitten",
+          "instructions": "Thema: Essen und Trinken. Bilden Sie zum Stichwort eine Frage und antworten Sie auch selbst darauf.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Stichwort: Frühstück",
+                  "musterloesung": "Frage: Was isst du zum Frühstück?\nAntwort: Ich esse Brot mit Marmelade und trinke einen Tee. Am Wochenende esse ich auch ein Ei."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Stichwort: Restaurant",
+                  "musterloesung": "Frage: Gehst du oft ins Restaurant?\nAntwort: Nein, nicht oft. Ungefähr einmal im Monat. Ich esse gern italienisch."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Bitten formulieren",
+          "instructions": "Formulieren Sie zu jeder Situation eine höfliche Bitte und eine passende Reaktion.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Sie sitzen im Restaurant und möchten zahlen. Stichwort: Rechnung",
+                  "musterloesung": "Bitte: Entschuldigung, können wir bitte die Rechnung haben?\nReaktion: Ja, sofort. Zusammen oder getrennt?"
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp3-2",
+                  "prompt": "Das Essen schmeckt nicht salzig genug. Stichwort: Salz",
+                  "musterloesung": "Bitte: Kannst du mir bitte das Salz geben?\nReaktion: Ja, hier bitte."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,857 @@
+{
+  "id": "uebungstest-a2-05",
+  "language": "de",
+  "level": "A2",
+  "title": "Übungstest A2 – Nr. 5",
+  "description": "Ein vollständiger Übungstest auf Niveau A2 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Reisen und Urlaub.",
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 30,
+      "description": "Sie hören Nachrichten, eine Radiosendung und einen Bericht. Notieren Sie Informationen, wählen Sie die richtige Antwort und ordnen Sie zu.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Notizen ergänzen",
+          "instructions": "Sie hören fünf kurze Nachrichten. Ergänzen Sie die fehlende Information im Satz. Sie hören jede Nachricht zweimal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-05/hoeren-teil-1.mp3",
+            "transcript": "Nachricht 1\nGuten Tag, hier ist das Hotel Seeblick. Wir bestätigen Ihr Zimmer. Sie können ab 15 Uhr einchecken, auschecken müssen Sie bis 11 Uhr.\n\nNachricht 2\nLiebe Fluggäste, der Flug LH 1428 nach Wien startet heute von Gate B 14, nicht von Gate B 4. Ich wiederhole: Gate B 14. Bitte beachten Sie die Änderung.\n\nNachricht 3\nHallo Marek, hier ist Julia. Der Bus fährt schon um sechs Uhr, nicht um sieben. Wir treffen uns bitte um Viertel vor sechs am Busbahnhof.\n\nNachricht 4\nGuten Tag, Frau Costa. Ihre Buchung ist fertig. Bitte notieren Sie die Buchungsnummer: X 7 3 9 2. Ich wiederhole: X 7 3 9 2.\n\nNachricht 5\nInformation für unsere Gäste: Das Frühstück gibt es von 6:30 bis 10 Uhr. Am Sonntag beginnt es eine Stunde später."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-notiz-1",
+              "stimuli": [
+                {
+                  "title": "Notiz 1",
+                  "text": "HOTEL SEEBLICK\nZimmer bestätigt"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-1",
+                  "prompt": "Einchecken kann man ab 15 Uhr, auschecken muss man bis ___ Uhr.",
+                  "solution": "11",
+                  "acceptedAnswers": [
+                    "11:00",
+                    "elf"
+                  ],
+                  "explanation": "„… auschecken müssen Sie bis 11 Uhr.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-2",
+              "stimuli": [
+                {
+                  "title": "Notiz 2",
+                  "text": "FLUGHAFEN – DURCHSAGE\nFlug LH 1428 nach Wien"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-2",
+                  "prompt": "Der Flug LH 1428 nach Wien startet heute von Gate ___ .",
+                  "solution": "B 14",
+                  "acceptedAnswers": [
+                    "B14",
+                    "Gate B 14"
+                  ],
+                  "explanation": "„… startet heute von Gate B 14, nicht von Gate B 4.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3",
+                  "text": "NACHRICHT VON JULIA\nAbfahrt Bus: 6 Uhr"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-3",
+                  "prompt": "Der Bus fährt um sechs Uhr, treffen wollen wir uns um ___ Uhr am Busbahnhof.",
+                  "solution": "5:45",
+                  "acceptedAnswers": [
+                    "5.45",
+                    "Viertel vor sechs"
+                  ],
+                  "explanation": "„Wir treffen uns bitte um Viertel vor sechs am Busbahnhof.“ Der Bus fährt um sechs."
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-4",
+              "stimuli": [
+                {
+                  "title": "Notiz 4",
+                  "text": "REISEBÜRO\nBuchung für Frau Costa ist fertig."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-4",
+                  "prompt": "Die Buchungsnummer von Frau Costa ist ___ .",
+                  "solution": "X 7 3 9 2",
+                  "acceptedAnswers": [
+                    "X7392"
+                  ],
+                  "explanation": "„Bitte notieren Sie die Buchungsnummer: X 7 3 9 2.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-5",
+              "stimuli": [
+                {
+                  "title": "Notiz 5",
+                  "text": "HOTEL – INFORMATION\nFrühstück"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-5",
+                  "prompt": "Werktags gibt es Frühstück ab 6:30 Uhr, am Sonntag erst ab ___ Uhr.",
+                  "solution": "7:30",
+                  "acceptedAnswers": [
+                    "7.30",
+                    "halb acht"
+                  ],
+                  "explanation": "„Am Sonntag beginnt es eine Stunde später“ – also um 7:30 Uhr."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Radiosendung",
+          "instructions": "Sie hören ein Interview im Radio. Wählen Sie zu jeder Aufgabe die richtige Antwort. Sie hören das Interview einmal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-05/hoeren-teil-2.mp3",
+            "transcript": "Moderator: Urlaub muss nicht teuer sein – das sagt jedenfalls unser Gast Frau Bianca Costa. Sie schreibt einen Reiseblog. Frau Costa, was ist der größte Fehler beim Buchen?\n\nBianca Costa: Die meisten buchen viel zu spät oder viel zu früh. Am günstigsten ist es meistens sechs bis acht Wochen vorher. Und man sollte nicht am Wochenende buchen – da sind die Preise oft höher.\n\nModerator: Wirklich? Woran liegt das?\n\nCosta: Am Wochenende suchen einfach mehr Leute. Dienstag oder Mittwoch sind besser.\n\nModerator: Sie reisen selbst sehr viel. Wie machen Sie das?\n\nCosta: Ich fahre fast immer außerhalb der Ferien. Im September ist das Wetter am Mittelmeer noch schön, aber die Hotels kosten die Hälfte. Für Familien mit Schulkindern geht das natürlich nicht.\n\nModerator: Was halten Sie von sehr billigen Flügen?\n\nCosta: Vorsicht. Der Flug kostet 20 Euro, aber der Koffer 45 und der Transfer vom Flughafen noch einmal 30. Am Ende ist der Zug oft billiger – und man sitzt bequemer.\n\nModerator: Ihr wichtigster Tipp?\n\nCosta: Nehmen Sie weniger mit. Ich reise seit Jahren nur mit Handgepäck. Das spart Geld, Zeit und Nerven."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-1",
+                  "prompt": "Wann sollte man am besten buchen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "So früh wie möglich."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sechs bis acht Wochen vorher."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Erst kurz vor der Reise."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Am günstigsten ist es meistens sechs bis acht Wochen vorher.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-2",
+                  "prompt": "Warum soll man nicht am Wochenende buchen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Reisebüros haben zu."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Internetseiten funktionieren schlechter."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dann suchen mehr Leute und die Preise steigen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Am Wochenende suchen einfach mehr Leute.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-3",
+                  "prompt": "Wann reist Frau Costa selbst am liebsten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Außerhalb der Ferien, zum Beispiel im September."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Über Weihnachten."
+                    },
+                    {
+                      "id": "c",
+                      "text": "In den Sommerferien."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Ich fahre fast immer außerhalb der Ferien. Im September …“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-4",
+                  "prompt": "Was sagt sie über sehr billige Flüge?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Am Ende kommen viele Extrakosten dazu."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie sind immer die beste Wahl."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie sind gefährlich."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Der Flug kostet 20 Euro, aber der Koffer 45 und der Transfer noch einmal 30.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-5",
+                  "prompt": "Was ist ihr wichtigster Tipp?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Immer mit dem Zug fahren."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ein Hotel am Meer wählen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nur mit Handgepäck reisen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ich reise seit Jahren nur mit Handgepäck.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Zuordnung",
+          "instructions": "Sie hören eine Person, die über fünf andere Personen erzählt. Ordnen Sie jeder Person die passende Aussage zu. Drei Aussagen bleiben übrig. Sie hören den Text zweimal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-05/hoeren-teil-3.mp3",
+            "transcript": "Eine Kursleiterin erzählt im Lehrerzimmer, was ihre Teilnehmerinnen und Teilnehmer in den Ferien machen.\n\nKursleiterin: Meine Gruppe hat ganz unterschiedliche Pläne für die Ferien.\nMarek fährt nach Polen zu seinen Eltern. Er war seit zwei Jahren nicht mehr dort, und seine Mutter kocht bestimmt schon eine Woche vorher.\nBei Julia wird es sportlich. Sie wandert eine Woche in den Alpen, jeden Tag ungefähr fünf Stunden, und abends schlafen sie in kleinen Hütten.\nHassan bleibt hier. Seine Wohnung muss endlich renoviert werden, und im Sommer hat er sowieso wenig Geld. Vielleicht macht er ein paar Tagesausflüge.\nBianca fliegt nach Lissabon, zwei Freundinnen wohnen dort. Sie wollen die Stadt anschauen, in Cafés sitzen und abends tanzen gehen.\nUnd Olga fährt mit den Kindern aufs Land. Dort gibt es Kühe, Pferde und einen großen Garten, und die Kinder dürfen beim Füttern helfen.\nEinen Sprachkurs macht diesmal niemand, und ans Meer zum Baden fährt auch keiner."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-block",
+              "prompt": "Was macht diese Person in den Ferien?",
+              "stimuli": [
+                {
+                  "title": "Aussagen",
+                  "text": "A  Sie besucht die Familie im Heimatland.\nB  Sie macht eine Wanderung in den Bergen.\nC  Sie bleibt zu Hause und arbeitet in der Wohnung.\nD  Sie fährt mit dem Schiff.\nE  Sie besucht eine große Stadt im Ausland.\nF  Sie fährt mit den Kindern auf einen Bauernhof.\nG  Sie macht einen Sprachkurs im Ausland.\nH  Sie fährt ans Meer zum Baden."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "A  Sie besucht die Familie im Heimatland."
+                },
+                {
+                  "id": "b",
+                  "text": "B  Sie macht eine Wanderung in den Bergen."
+                },
+                {
+                  "id": "c",
+                  "text": "C  Sie bleibt zu Hause und arbeitet in der Wohnung."
+                },
+                {
+                  "id": "d",
+                  "text": "D  Sie fährt mit dem Schiff."
+                },
+                {
+                  "id": "e",
+                  "text": "E  Sie besucht eine große Stadt im Ausland."
+                },
+                {
+                  "id": "f",
+                  "text": "F  Sie fährt mit den Kindern auf einen Bauernhof."
+                },
+                {
+                  "id": "g",
+                  "text": "G  Sie macht einen Sprachkurs im Ausland."
+                },
+                {
+                  "id": "h",
+                  "text": "H  Sie fährt ans Meer zum Baden."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h3-1",
+                  "prompt": "Marek",
+                  "solution": "a",
+                  "explanation": "„Marek fährt nach Polen zu seinen Eltern.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-2",
+                  "prompt": "Julia",
+                  "solution": "b",
+                  "explanation": "„Sie wandert eine Woche in den Alpen.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-3",
+                  "prompt": "Hassan",
+                  "solution": "c",
+                  "explanation": "„Hassan bleibt hier. Seine Wohnung muss endlich renoviert werden.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-4",
+                  "prompt": "Bianca",
+                  "solution": "e",
+                  "explanation": "„Bianca fliegt nach Lissabon … Sie wollen die Stadt anschauen.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-5",
+                  "prompt": "Olga",
+                  "solution": "f",
+                  "explanation": "„Olga fährt mit den Kindern aufs Land. Dort gibt es Kühe, Pferde und einen großen Garten.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 25,
+      "description": "Sie lesen einen Zeitungstext, Anzeigen und kurze Texte aus dem Alltag und lösen dazu Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Zeitungstext",
+          "instructions": "Lesen Sie den Text. Sind die Sätze richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-text",
+              "stimuli": [
+                {
+                  "title": "Mit dem Zug statt mit dem Flugzeug",
+                  "text": "Früher ist Familie Lang jedes Jahr nach Mallorca geflogen. Seit drei Jahren fahren die vier lieber mit dem Zug – meistens nach Österreich oder Tschechien.\n\n„Der erste Grund war das Geld“, sagt Vater Stefan Lang. „Zu viert kostet ein Flug schnell 1200 Euro. Mit der Bahn zahlen wir die Hälfte.“ Inzwischen gibt es aber noch einen zweiten Grund: „Die Kinder finden die Fahrt selbst schön. Im Flugzeug muss man sitzen bleiben, im Zug kann man herumlaufen.“\n\nEin Nachteil bleibt: Die Reise dauert länger. Nach Prag sind es sechs Stunden, nach Wien acht. „Wir nehmen Spiele mit und essen unterwegs. Für uns gehört das jetzt zum Urlaub dazu.“\n\nNur einmal hat es nicht geklappt: Im letzten Sommer fiel der Zug aus, und die Familie kam erst nachts um zwei im Hotel an."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-1",
+                  "statement": "Familie Lang fliegt heute nicht mehr in den Urlaub.",
+                  "solution": true,
+                  "explanation": "„Seit drei Jahren fahren die vier lieber mit dem Zug.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-2",
+                  "statement": "Der wichtigste Grund am Anfang war die Umwelt.",
+                  "solution": false,
+                  "explanation": "„Der erste Grund war das Geld.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-3",
+                  "statement": "Mit der Bahn zahlt die Familie ungefähr halb so viel.",
+                  "solution": true,
+                  "explanation": "„Zu viert kostet ein Flug schnell 1200 Euro. Mit der Bahn zahlen wir die Hälfte.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-4",
+                  "statement": "Den Kindern ist die lange Fahrt zu langweilig.",
+                  "solution": false,
+                  "explanation": "„Die Kinder finden die Fahrt selbst schön.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-5",
+                  "statement": "Einmal kam die Familie sehr spät im Hotel an.",
+                  "solution": true,
+                  "explanation": "„Im letzten Sommer fiel der Zug aus, und die Familie kam erst nachts um zwei im Hotel an.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Anzeigen",
+          "instructions": "Lesen Sie die acht Anzeigen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Nicht alle Anzeigen werden gebraucht.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "text": "Ferienwohnung an der Ostsee – 2 Zimmer, Hunde erlaubt.\nAb 65 Euro pro Nacht, mindestens 3 Nächte."
+                },
+                {
+                  "title": "Anzeige b",
+                  "text": "Bahn-Spartickets – deutschlandweit ab 19,90 Euro.\nNur mit fester Zugbindung."
+                },
+                {
+                  "title": "Anzeige c",
+                  "text": "Reisebüro Weltweit – wir buchen Flug, Hotel und Transfer.\nBeratung auf Deutsch, Türkisch und Russisch."
+                },
+                {
+                  "title": "Anzeige d",
+                  "text": "Camping am Waldsee – Stellplatz ab 18 Euro pro Nacht.\nDuschen und Waschmaschine vorhanden."
+                },
+                {
+                  "title": "Anzeige e",
+                  "text": "Reiseversicherung Sicher unterwegs – Schutz bei Krankheit\nund Gepäckverlust. Ab 29 Euro im Jahr."
+                },
+                {
+                  "title": "Anzeige f",
+                  "text": "Stadtführung Dresden – täglich 11 und 15 Uhr.\nAuch in einfacher Sprache für Deutschlernende."
+                },
+                {
+                  "title": "Anzeige g",
+                  "text": "Fernbus nach Prag – ab 12 Euro, Fahrzeit 5 Stunden.\nWLAN und Steckdosen an Bord."
+                },
+                {
+                  "title": "Anzeige h",
+                  "text": "Jugendherberge am Hafen – Familienzimmer ab 78 Euro,\nFrühstücksbuffet inklusive."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Ferienwohnung an der Ostsee"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Bahn-Spartickets"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Reisebüro Weltweit"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Camping am Waldsee"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Reiseversicherung Sicher unterwegs"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Stadtführung Dresden"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Fernbus nach Prag"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Jugendherberge am Hafen"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Sie möchten mit Ihrem Hund eine Woche ans Meer fahren.",
+                  "solution": "a",
+                  "explanation": "In der Ferienwohnung an der Ostsee sind Hunde erlaubt."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Sie lernen Deutsch und möchten eine Stadt kennenlernen, ohne alles zu verstehen.",
+                  "solution": "f",
+                  "explanation": "Die Stadtführung gibt es auch in einfacher Sprache für Deutschlernende."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Sie möchten sehr günstig für ein Wochenende nach Tschechien.",
+                  "solution": "g",
+                  "explanation": "Der Fernbus nach Prag kostet ab 12 Euro."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie haben ein Zelt und wollen billig übernachten.",
+                  "solution": "d",
+                  "explanation": "Der Stellplatz auf dem Campingplatz kostet ab 18 Euro pro Nacht."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie haben Angst, dass im Urlaub Ihr Koffer verloren geht.",
+                  "solution": "e",
+                  "explanation": "Die Reiseversicherung schützt bei Krankheit und Gepäckverlust."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Schilder und Notizen",
+          "instructions": "Lesen Sie die Schilder und Notizen. Zu jedem Text gibt es eine Frage. Wählen Sie die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-schild-1",
+              "stimuli": [
+                {
+                  "title": "Schild 1 – im Zug",
+                  "text": "RUHEBEREICH\nBitte telefonieren Sie im Bereich zwischen den Wagen.\nMusik nur mit Kopfhörern."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-1",
+                  "prompt": "Was darf man in diesem Bereich nicht?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Auf dem Platz telefonieren"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Essen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Schlafen"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Bitte telefonieren Sie im Bereich zwischen den Wagen.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-2",
+              "stimuli": [
+                {
+                  "title": "Schild 2 – an der Hotelrezeption",
+                  "text": "Liebe Gäste,\nam Abreisetag geben Sie bitte den Schlüssel bis 11 Uhr ab.\nIhr Gepäck können Sie kostenlos bei uns lassen\nund am Nachmittag abholen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was können Gäste nach dem Auschecken tun?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das Gepäck kostenlos im Hotel lassen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Im Zimmer bleiben."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ein zweites Frühstück bekommen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Ihr Gepäck können Sie kostenlos bei uns lassen.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3 – von der Nachbarin",
+                  "text": "Liebe Familie Lang,\nich gieße wie besprochen die Blumen\nund leere den Briefkasten.\nDen Schlüssel gebe ich am 14. zurück.\nSchöne Ferien!\nFrau Kern"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-3",
+                  "prompt": "Was macht Frau Kern nicht?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Wohnung putzen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Den Briefkasten leeren"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Blumen gießen"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Sie gießt die Blumen und leert den Briefkasten. Vom Putzen steht nichts da."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-4",
+              "stimuli": [
+                {
+                  "title": "Schild 4 – am Flughafen",
+                  "text": "SICHERHEITSKONTROLLE\nFlüssigkeiten nur in Behältern bis 100 ml,\nzusammen höchstens 1 Liter,\nin einem durchsichtigen Beutel."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Wie viel Flüssigkeit darf man insgesamt mitnehmen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1 Liter"
+                    },
+                    {
+                      "id": "b",
+                      "text": "100 ml"
+                    },
+                    {
+                      "id": "c",
+                      "text": "So viel man möchte"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… zusammen höchstens 1 Liter“ in Behältern bis 100 ml."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-5",
+              "stimuli": [
+                {
+                  "title": "Schild 5 – am Campingplatz",
+                  "text": "NACHTRUHE 22:00 – 7:00 UHR\nIn dieser Zeit ist die Schranke geschlossen.\nAutos bitte auf dem Parkplatz vor dem Eingang abstellen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-5",
+                  "prompt": "Was gilt nachts für Autos?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie müssen draußen parken."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie dürfen langsam fahren."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie müssen am Zelt stehen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Die Schranke ist zu, Autos parken auf dem Parkplatz vor dem Eingang."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 25,
+      "description": "Sie füllen ein Formular aus und schreiben eine E-Mail. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie zu jeder Aufgabe eine Musterlösung.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "Teil 1 – Formular",
+          "instructions": "Ihr Freund Hassan Cheikh bucht ein Zimmer in der Jugendherberge am Hafen. Er kommt aus Syrien und ist am 09.03.1996 in Aleppo geboren. Er wohnt in 20537 Hamburg. Er bleibt vier Nächte und reist am 12. Juli an. Füllen Sie das Formular für ihn aus.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-formular",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Familienname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Cheikh"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-2",
+                  "prompt": "Vorname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Hassan"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-3",
+                  "prompt": "Geburtsdatum",
+                  "inputMode": "single-line",
+                  "musterloesung": "09.03.1996"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-4",
+                  "prompt": "Anreisedatum",
+                  "inputMode": "single-line",
+                  "musterloesung": "12. Juli"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-5",
+                  "prompt": "Anzahl der Nächte",
+                  "inputMode": "single-line",
+                  "musterloesung": "4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schreiben-teil-2",
+          "title": "Teil 2 – E-Mail",
+          "instructions": "Sie haben ein Hotelzimmer gebucht, möchten die Buchung aber ändern. Schreiben Sie eine E-Mail an das Hotel. Schreiben Sie 40 bis 50 Wörter.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-2-mail",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s2-1",
+                  "prompt": "Schreiben Sie die E-Mail an das Hotel.",
+                  "criteria": [
+                    "Buchung: Wann und für wen haben Sie gebucht?",
+                    "Änderung: Was möchten Sie ändern?",
+                    "Grund: Warum möchten Sie das ändern?",
+                    "Frage: Was möchten Sie vom Hotel wissen (Preis, Bestätigung)?"
+                  ],
+                  "hints": [
+                    "Schreiben Sie förmlich („Sehr geehrte Damen und Herren“).",
+                    "Nennen Sie Ihre Buchungsnummer, wenn Sie eine haben."
+                  ],
+                  "minWords": 40,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Damen und Herren,\n\nich habe bei Ihnen ein Doppelzimmer vom 12. bis 16. Juli gebucht, Buchungsnummer X 7392.\n\nLeider muss ich einen Tag später anreisen, weil mein Zug ausfällt. Können Sie die Buchung auf den 13. Juli ändern?\n\nKostet die Änderung etwas? Bitte schicken Sie mir eine neue Bestätigung.\n\nMit freundlichen Grüßen\nHassan Cheikh"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet. Nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie zu den Stichwörtern. Sie können Ihre Antwort hier kurz notieren – das ist freiwillig.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Alter – Herkunft – Wohnort – Familie – Beruf – Sprachen – Warum lernen Sie Deutsch?",
+                  "hints": [
+                    "Sprechen Sie in ganzen Sätzen, etwa zwei Minuten.",
+                    "Erzählen Sie auch etwas über Ihre Freizeit.",
+                    "Buchstabieren Sie am Ende Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Mein Name ist Hassan Cheikh. Ich bin 28 Jahre alt und komme aus Syrien, aus Aleppo. Seit fünf Jahren lebe ich in Hamburg. Meine Schwester wohnt auch hier, meine Eltern sind noch in Syrien. Ich arbeite als Verkäufer in einem Elektrogeschäft. Ich spreche Arabisch, Englisch und Deutsch. Deutsch lerne ich, weil ich die A2-Prüfung brauche und später eine Ausbildung machen möchte. In meiner Freizeit fahre ich gern Fahrrad. Mein Familienname ist Cheikh: C – H – E – I – K – H."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Ein Alltagsgespräch führen",
+          "instructions": "Thema: Reisen und Urlaub. Bilden Sie mit dem Satzanfang eine Frage an Ihre Gesprächspartnerin oder Ihren Gesprächspartner – und antworten Sie dann selbst darauf.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Satzanfang: „Wohin …?“",
+                  "musterloesung": "Frage: Wohin fahren Sie am liebsten in den Urlaub?\nAntwort: Am liebsten fahre ich ans Meer. Letztes Jahr war ich an der Ostsee. Das Wasser war kalt, aber die Strände waren schön und ruhig."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Satzanfang: „Mit wem …?“",
+                  "musterloesung": "Frage: Mit wem reisen Sie normalerweise?\nAntwort: Meistens mit meiner Schwester. Wir planen alles zusammen. Manchmal fahre ich aber auch allein, dann kann ich machen, was ich will."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Zusammen etwas planen",
+          "instructions": "Lesen Sie die Situation. Planen Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner. Machen Sie Vorschläge, reagieren Sie auf Vorschläge und einigen Sie sich am Ende.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Ihr Deutschkurs möchte am Samstag einen gemeinsamen Tagesausflug machen. Planen Sie zu zweit den Ausflug für die Gruppe.",
+                  "hints": [
+                    "Wohin fahren Sie?",
+                    "Wie fahren Sie und wann treffen Sie sich?",
+                    "Was kostet der Ausflug ungefähr?",
+                    "Was nehmen alle mit?"
+                  ],
+                  "musterloesung": "A: Am Samstag wollen wir mit dem Kurs einen Ausflug machen. Hast du eine Idee?\nB: Wie wäre es mit Dresden? Es gibt eine Stadtführung in einfacher Sprache.\nA: Das gefällt mir. Aber ist das nicht teuer? Manche im Kurs haben wenig Geld.\nB: Mit dem Gruppenticket der Bahn zahlt jeder nur ungefähr zehn Euro. Die Führung kostet fünf.\nA: Fünfzehn Euro pro Person – das geht. Wann treffen wir uns?\nB: Der Zug fährt um 8:40 Uhr. Sagen wir 8:20 Uhr am Hauptbahnhof, vor dem Reisezentrum?\nA: Gut. Und Mittagessen? Ein Restaurant ist für zwölf Leute schwierig.\nB: Jeder bringt etwas zu essen mit, und wir machen ein Picknick am Fluss.\nA: Perfekt. Ich schreibe die Informationen in unsere Kursgruppe.\nB: Und ich kaufe morgen die Tickets. Dann bis Samstag!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

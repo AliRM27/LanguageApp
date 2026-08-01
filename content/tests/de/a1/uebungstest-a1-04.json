@@ -1,0 +1,824 @@
+{
+  "id": "uebungstest-a1-04",
+  "language": "de",
+  "level": "A1",
+  "title": "Übungstest A1 – Nr. 4",
+  "description": "Ein vollständiger Übungstest auf Niveau A1 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Arbeit und Beruf.",
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 20,
+      "description": "Sie hören Gespräche, Ansagen und kurze Nachrichten. Zu jedem Text gibt es Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1",
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Wählen Sie die richtige Antwort.",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-04/hoeren-teil-1.mp3",
+            "transcript": "Gespräch 1\nFrau: Was sind Sie von Beruf?\nMann: Ich bin Krankenpfleger. Ich arbeite im Krankenhaus.\n\nGespräch 2\nMann: Wann beginnt deine Arbeit?\nFrau: Um sieben Uhr. Ich stehe schon um halb sechs auf.\n\nGespräch 3\nChefin: Herr Demir, wie lange arbeiten Sie schon bei uns?\nMann: Seit drei Jahren.\n\nGespräch 4\nFrau: Arbeitest du auch am Wochenende?\nMann: Am Samstag manchmal. Am Sonntag nie.\n\nGespräch 5\nMann: Wo ist das Büro von Frau Schulz?\nKollegin: Im zweiten Stock, Zimmer 214."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-1",
+                  "prompt": "Gespräch 1: Was ist der Mann von Beruf?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Krankenpfleger"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Arzt"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Lehrer"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Ich bin Krankenpfleger. Ich arbeite im Krankenhaus.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Gespräch 2: Wann beginnt die Arbeit der Frau?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Um 5:30 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Um 7:00 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Um 6:00 Uhr"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Die Arbeit beginnt um sieben. Um halb sechs steht sie nur auf."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-3",
+                  "prompt": "Gespräch 3: Wie lange arbeitet Herr Demir schon in der Firma?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Seit einem Jahr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Seit drei Jahren"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Seit zehn Jahren"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Seit drei Jahren.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Gespräch 4: Wann arbeitet der Mann nie?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Am Samstag"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Am Freitag"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Am Sonntag"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Am Samstag manchmal. Am Sonntag nie.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-5",
+                  "prompt": "Gespräch 5: Wo ist das Büro von Frau Schulz?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Im vierten Stock"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Im zweiten Stock"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Im Erdgeschoss"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Im zweiten Stock, Zimmer 214.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2",
+          "instructions": "Sie hören fünf Ansagen. Sind die Sätze richtig oder falsch?",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-04/hoeren-teil-2.mp3",
+            "transcript": "Ansage 1\nLiebe Kolleginnen und Kollegen, die Besprechung am Montag beginnt nicht um 10 Uhr, sondern schon um 9 Uhr.\n\nAnsage 2\nGuten Tag, hier ist die Firma Berger. Unser Büro ist heute ab 14 Uhr geschlossen. Bitte rufen Sie morgen wieder an.\n\nAnsage 3\nAchtung: Die Kantine ist diese Woche wegen Renovierung geschlossen. Es gibt aber ein kleines Café im Erdgeschoss.\n\nAnsage 4\nLiebe Mitarbeiterinnen und Mitarbeiter, ab Januar können Sie an zwei Tagen pro Woche im Homeoffice arbeiten.\n\nAnsage 5\nBitte beachten Sie: Der Parkplatz hinter dem Haus ist nur für Kunden. Mitarbeiter parken bitte auf dem Parkplatz an der Schule."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-1",
+                  "statement": "Die Besprechung am Montag beginnt um 9 Uhr.",
+                  "solution": true,
+                  "explanation": "„… nicht um 10 Uhr, sondern schon um 9 Uhr.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-2",
+                  "statement": "Das Büro der Firma Berger ist heute den ganzen Tag offen.",
+                  "solution": false,
+                  "explanation": "Es ist heute ab 14 Uhr geschlossen."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-3",
+                  "statement": "Diese Woche kann man nicht in der Kantine essen.",
+                  "solution": true,
+                  "explanation": "„Die Kantine ist diese Woche wegen Renovierung geschlossen.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-4",
+                  "statement": "Ab Januar darf man jeden Tag im Homeoffice arbeiten.",
+                  "solution": false,
+                  "explanation": "Nur an zwei Tagen pro Woche."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-5",
+                  "statement": "Mitarbeiter sollen hinter dem Haus parken.",
+                  "solution": false,
+                  "explanation": "Der Parkplatz hinter dem Haus ist nur für Kunden."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3",
+          "instructions": "Sie hören fünf kurze Situationen. Wählen Sie die richtige Antwort.",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-04/hoeren-teil-3.mp3",
+            "transcript": "Situation 1\nMann: Ich möchte gern Urlaub im August nehmen.\nChefin: Im August ist es schwierig. Können Sie im September fahren?\nMann: Ja, das geht auch.\n\nSituation 2 (Anrufbeantworter)\nGuten Tag, Frau Silva. Hier ist die Firma Krause. Wir laden Sie zu einem Gespräch ein: am Mittwoch um 11 Uhr. Bitte rufen Sie kurz zurück.\n\nSituation 3\nKollege: Wie kommst du zur Arbeit?\nFrau: Normalerweise mit der U-Bahn. Heute bin ich mit dem Auto gekommen, denn ich hatte viel zu tragen.\n\nSituation 4\nChef: Wie viele Stunden arbeiten Sie in der Woche?\nFrau: 30 Stunden. Ich arbeite in Teilzeit.\n\nSituation 5\nMann: Der Drucker funktioniert nicht.\nKollegin: Nimm den im Zimmer 108. Unserer ist seit gestern kaputt."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-1",
+                  "prompt": "Situation 1: Wann macht der Mann Urlaub?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Im September"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Im August"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Er macht keinen Urlaub"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Im August geht es nicht. Er fährt im September."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Situation 2: Wann ist das Gespräch?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Am Mittwoch um 11 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Am Montag um 11 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Am Mittwoch um 1 Uhr"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… am Mittwoch um 11 Uhr.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-3",
+                  "prompt": "Situation 3: Wie fährt die Frau normalerweise zur Arbeit?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Mit der U-Bahn"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Mit dem Auto"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Mit dem Fahrrad"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Normalerweise mit der U-Bahn. Nur heute mit dem Auto."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Situation 4: Wie viele Stunden arbeitet die Frau pro Woche?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "13 Stunden"
+                    },
+                    {
+                      "id": "b",
+                      "text": "40 Stunden"
+                    },
+                    {
+                      "id": "c",
+                      "text": "30 Stunden"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„30 Stunden. Ich arbeite in Teilzeit.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-5",
+                  "prompt": "Situation 5: Was soll der Mann machen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Den Drucker reparieren"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Den Drucker in Zimmer 108 benutzen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Bis morgen warten"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Nimm den im Zimmer 108.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 25,
+      "description": "Sie lesen E-Mails, Anzeigen und kurze Texte aus dem Alltag und lösen dazu Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1",
+          "instructions": "Lesen Sie die E-Mails. Sind die Sätze richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-mail-1",
+              "stimuli": [
+                {
+                  "title": "E-Mail 1",
+                  "text": "Hallo Marek,\n\nich habe eine neue Arbeit! Ab dem 1. März arbeite ich in einem Hotel. Ich mache dort das Frühstück.\n\nDie Arbeit beginnt sehr früh, schon um sechs Uhr. Aber am Nachmittag habe ich frei. Das finde ich gut.\n\nViele Grüße\nDaniela"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-1",
+                  "statement": "Daniela arbeitet ab März in einem Hotel.",
+                  "solution": true,
+                  "explanation": "„Ab dem 1. März arbeite ich in einem Hotel.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-2",
+                  "statement": "Daniela arbeitet am Nachmittag.",
+                  "solution": false,
+                  "explanation": "Am Nachmittag hat sie frei. Sie beginnt um sechs Uhr morgens."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-1-mail-2",
+              "stimuli": [
+                {
+                  "title": "E-Mail 2",
+                  "text": "Sehr geehrter Herr Osei,\n\nvielen Dank für Ihre Bewerbung. Wir möchten Sie gern kennenlernen.\n\nKommen Sie bitte am Dienstag, 14. Juni, um 10 Uhr in unser Büro in der Marktstraße 3. Bringen Sie bitte Ihre Zeugnisse mit.\n\nMit freundlichen Grüßen\nFirma Krause"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-3",
+                  "statement": "Herr Osei hat sich bei der Firma Krause beworben.",
+                  "solution": true,
+                  "explanation": "„Vielen Dank für Ihre Bewerbung.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-4",
+                  "statement": "Herr Osei soll seine Zeugnisse mitbringen.",
+                  "solution": true,
+                  "explanation": "„Bringen Sie bitte Ihre Zeugnisse mit.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-5",
+                  "statement": "Das Gespräch ist am Nachmittag.",
+                  "solution": false,
+                  "explanation": "Das Gespräch ist um 10 Uhr, also am Vormittag."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2",
+          "instructions": "Lesen Sie die acht Anzeigen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Nicht alle Anzeigen werden gebraucht.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "text": "Café Herz sucht Kellner/in für den Vormittag.\nMontag bis Freitag, 8 bis 13 Uhr."
+                },
+                {
+                  "title": "Anzeige b",
+                  "text": "Bewerbungstraining im Jobcenter – kostenlos.\nJeden Donnerstag um 14 Uhr. Anmeldung nötig."
+                },
+                {
+                  "title": "Anzeige c",
+                  "text": "Taxiunternehmen Schnell sucht Fahrer/in.\nFührerschein seit mindestens 2 Jahren nötig."
+                },
+                {
+                  "title": "Anzeige d",
+                  "text": "Deutschkurs für den Beruf – B1.\nAbends von 18 bis 20 Uhr, 12 Wochen."
+                },
+                {
+                  "title": "Anzeige e",
+                  "text": "Kita Sonnenschein sucht Erzieherin in Teilzeit.\n25 Stunden pro Woche."
+                },
+                {
+                  "title": "Anzeige f",
+                  "text": "Computerkurs für Anfänger – Word und E-Mail.\nSamstags, 6 Termine, 60 Euro."
+                },
+                {
+                  "title": "Anzeige g",
+                  "text": "Reinigungsfirma sucht Personal für Büros.\nArbeitszeit: früh morgens ab 5 Uhr."
+                },
+                {
+                  "title": "Anzeige h",
+                  "text": "Praktikum in der Autowerkstatt Müller.\nDrei Monate, für Schülerinnen und Schüler."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Café Herz"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Bewerbungstraining im Jobcenter"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Taxiunternehmen Schnell"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Deutschkurs für den Beruf"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Kita Sonnenschein"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Computerkurs für Anfänger"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Reinigungsfirma"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Praktikum Autowerkstatt Müller"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Sie brauchen Hilfe bei Ihrer Bewerbung und haben wenig Geld.",
+                  "solution": "b",
+                  "explanation": "Das Bewerbungstraining im Jobcenter ist kostenlos."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Sie sind Erzieherin und möchten nur halbtags arbeiten.",
+                  "solution": "e",
+                  "explanation": "Die Kita Sonnenschein sucht eine Erzieherin in Teilzeit."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Sie möchten am Computer schreiben lernen.",
+                  "solution": "f",
+                  "explanation": "Der Computerkurs für Anfänger behandelt Word und E-Mail."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie haben nur am Vormittag Zeit und suchen Arbeit in einem Café.",
+                  "solution": "a",
+                  "explanation": "Das Café Herz sucht eine Kellnerin oder einen Kellner für 8 bis 13 Uhr."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie gehen noch zur Schule und möchten in einer Werkstatt arbeiten.",
+                  "solution": "h",
+                  "explanation": "Das Praktikum ist für Schülerinnen und Schüler."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3",
+          "instructions": "Lesen Sie die Schilder und Notizen. Zu jedem Text gibt es eine Frage. Wählen Sie die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-schild-1",
+              "stimuli": [
+                {
+                  "title": "Schild 1 – an der Bürotür",
+                  "text": "PERSONALBÜRO\nSprechzeiten:\nDienstag 9:00 – 12:00 Uhr\nDonnerstag 13:00 – 16:00 Uhr"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-1",
+                  "prompt": "Wann können Sie am Donnerstag ins Personalbüro gehen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Am Vormittag"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Den ganzen Tag"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Am Nachmittag"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Donnerstag von 13 bis 16 Uhr – das ist der Nachmittag."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-2",
+              "stimuli": [
+                {
+                  "title": "Schild 2 – in der Werkstatt",
+                  "text": "ACHTUNG!\nIn diesem Raum immer\nSchutzbrille und Handschuhe tragen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was müssen Sie in diesem Raum tragen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nur eine Schutzbrille"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Schutzbrille und Handschuhe"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Feste Schuhe"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… immer Schutzbrille und Handschuhe tragen.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3 – auf dem Schreibtisch",
+                  "text": "Hallo Frau Silva,\nHerr Weber hat angerufen.\nBitte rufen Sie ihn heute noch zurück:\n0176 33 22 11\nDanke, Katrin"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-3",
+                  "prompt": "Was soll Frau Silva machen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Auf einen Anruf warten"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Katrin eine E-Mail schreiben"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Herrn Weber anrufen"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Bitte rufen Sie ihn heute noch zurück.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-4",
+              "stimuli": [
+                {
+                  "title": "Schild 4 – in der Kantine",
+                  "text": "MITTAGESSEN\n11:30 – 14:00 Uhr\nWarme Küche nur bis 13:30 Uhr"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Bis wann bekommt man ein warmes Essen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Bis 11:30 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bis 13:30 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Bis 14:00 Uhr"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Warme Küche nur bis 13:30 Uhr.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-5",
+              "stimuli": [
+                {
+                  "title": "Schild 5 – am Eingang",
+                  "text": "Liebe Besucherinnen und Besucher,\nbitte melden Sie sich zuerst\nam Empfang im Erdgeschoss."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-5",
+                  "prompt": "Was sollen Besucher zuerst machen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Direkt ins Büro gehen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Zum Empfang gehen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Anrufen"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… bitte melden Sie sich zuerst am Empfang.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 20,
+      "description": "Sie füllen ein Formular aus und schreiben eine kurze Nachricht. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie zu jeder Aufgabe eine Musterlösung.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "Teil 1 – Formular",
+          "instructions": "Ihr Kollege Kwame Osei meldet sich für einen Deutschkurs für den Beruf an. Er kommt aus Ghana und ist am 17.04.1993 in Accra geboren. Er wohnt in 50667 Köln und arbeitet als Mechaniker. Füllen Sie das Formular für ihn aus.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-formular",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Familienname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Osei"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-2",
+                  "prompt": "Vorname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Kwame"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-3",
+                  "prompt": "Geburtsdatum",
+                  "inputMode": "single-line",
+                  "musterloesung": "17.04.1993"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-4",
+                  "prompt": "Postleitzahl und Wohnort",
+                  "inputMode": "single-line",
+                  "musterloesung": "50667 Köln"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-5",
+                  "prompt": "Beruf",
+                  "inputMode": "single-line",
+                  "musterloesung": "Mechaniker"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schreiben-teil-2",
+          "title": "Teil 2 – Kurze E-Mail",
+          "instructions": "Sie können morgen nicht zur Arbeit kommen, weil Ihr Kind krank ist. Schreiben Sie eine E-Mail an Ihren Chef, Herrn Weber. Schreiben Sie etwa 30 Wörter.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-2-mail",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s2-1",
+                  "prompt": "Schreiben Sie die E-Mail an Herrn Weber.",
+                  "hints": [
+                    "Warum können Sie nicht kommen?",
+                    "Wie lange bleiben Sie zu Hause?",
+                    "Was machen Sie mit Ihrer Arbeit?",
+                    "Vergessen Sie Anrede und Gruß nicht."
+                  ],
+                  "minWords": 30,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrter Herr Weber,\n\nmein Sohn ist krank. Deshalb kann ich morgen leider nicht zur Arbeit kommen. Ich bleibe bis Freitag zu Hause. Kann Frau Silva bitte meine Termine übernehmen?\n\nVielen Dank und freundliche Grüße\nKwame Osei"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet. Nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie zu den Stichwörtern. Sie können Ihre Antwort hier kurz notieren – das ist freiwillig.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Alter – Land – Wohnort – Sprachen – Beruf – Hobby",
+                  "hints": [
+                    "Sprechen Sie in ganzen Sätzen.",
+                    "Sprechen Sie etwa eine Minute.",
+                    "Buchstabieren Sie am Ende Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Ich heiße Kwame Osei. Ich bin 31 Jahre alt und komme aus Ghana. Jetzt wohne ich in Köln. Ich spreche Englisch, Twi und ein bisschen Deutsch. Ich bin Mechaniker und arbeite in einer Autowerkstatt. Mein Hobby ist Musik. Mein Familienname ist Osei: O – S – E – I."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Um Informationen bitten",
+          "instructions": "Thema: Arbeit und Beruf. Bilden Sie zum Stichwort eine Frage und antworten Sie auch selbst darauf.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Stichwort: Arbeitszeit",
+                  "musterloesung": "Frage: Wann beginnt deine Arbeit?\nAntwort: Meine Arbeit beginnt um acht Uhr und endet um halb fünf. Am Freitag höre ich früher auf."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Stichwort: Kollegen",
+                  "musterloesung": "Frage: Wie sind deine Kollegen?\nAntwort: Meine Kollegen sind sehr nett. Wir essen jeden Tag zusammen Mittag."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Bitten formulieren",
+          "instructions": "Formulieren Sie zu jeder Situation eine höfliche Bitte und eine passende Reaktion.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Sie brauchen am Freitag frei. Stichwort: Urlaub",
+                  "musterloesung": "Bitte: Entschuldigung, kann ich am Freitag bitte einen Tag Urlaub nehmen?\nReaktion: Ja, das geht. Schreiben Sie es bitte in den Kalender."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp3-2",
+                  "prompt": "Sie verstehen eine Aufgabe nicht. Stichwort: erklären",
+                  "musterloesung": "Bitte: Können Sie mir das bitte noch einmal erklären?\nReaktion: Ja, natürlich. Ich zeige es Ihnen."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

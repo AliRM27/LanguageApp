@@ -1,0 +1,855 @@
+{
+  "id": "uebungstest-a2-01",
+  "language": "de",
+  "level": "A2",
+  "title": "Übungstest A2 – Nr. 1",
+  "description": "Ein vollständiger Übungstest auf Niveau A2 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Alltag, Arbeit und Nachbarschaft.",
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 30,
+      "description": "Sie hören Nachrichten, eine Radiosendung und einen Bericht. Notieren Sie Informationen, wählen Sie die richtige Antwort und ordnen Sie zu.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Notizen ergänzen",
+          "instructions": "Sie hören fünf kurze Nachrichten. Ergänzen Sie die fehlende Information im Satz. Sie hören jede Nachricht zweimal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-01/hoeren-teil-1.mp3",
+            "transcript": "Nachricht 1\nGuten Tag, Frau Schneider, hier ist die Autowerkstatt Berg. Ihr Auto ist leider erst am Freitag fertig, nicht schon am Mittwoch. Sie können es dann ab 14 Uhr abholen.\n\nNachricht 2\nPraxis Dr. Neumann, guten Tag. Wir haben eine neue Telefonnummer. Bitte notieren Sie: 0341 55 88 22. Ich wiederhole: 0341 55 88 22. Die alte Nummer gilt nur noch bis Ende des Monats.\n\nNachricht 3\nInformation für die Reisenden nach Leipzig: Der Intercity 2043 fährt heute nicht von Gleis 8, sondern von Gleis 12. Wir bitten Sie, die Änderung zu beachten.\n\nNachricht 4\nGuten Tag, hier ist die Sprachschule Lingua. Ihr Kurs beginnt am 3. Oktober um 18 Uhr in Raum 204. Bitte kommen Sie am ersten Tag zehn Minuten früher.\n\nNachricht 5\nLiebe Gäste, wir müssen Ihnen leider mitteilen: Die Vorstellung beginnt heute nicht um 19:30 Uhr, sondern erst um 20:15 Uhr. Die Kasse öffnet um 19:45 Uhr."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-notiz-1",
+              "stimuli": [
+                {
+                  "title": "Notiz 1",
+                  "text": "TELEFONNOTIZ\nAnruf von: Autowerkstatt Berg\nFür: Frau Schneider"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-1",
+                  "prompt": "Das Auto ist ab ___ fertig und kann ab 14 Uhr abgeholt werden.",
+                  "solution": "Freitag",
+                  "acceptedAnswers": [
+                    "Fr",
+                    "Fr."
+                  ],
+                  "explanation": "„Ihr Auto ist leider erst am Freitag fertig, nicht schon am Mittwoch.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-2",
+              "stimuli": [
+                {
+                  "title": "Notiz 2",
+                  "text": "PRAXIS DR. NEUMANN\nWichtig: Die Nummer hat sich geändert."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-2",
+                  "prompt": "Die neue Telefonnummer der Praxis lautet ___ .",
+                  "solution": "0341 55 88 22",
+                  "explanation": "„Bitte notieren Sie: 0341 55 88 22.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3",
+                  "text": "BAHNHOF – DURCHSAGE\nIntercity 2043 nach Leipzig"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-3",
+                  "prompt": "Der Intercity 2043 nach Leipzig fährt heute von Gleis ___ .",
+                  "solution": "12",
+                  "acceptedAnswers": [
+                    "Gleis 12",
+                    "zwölf"
+                  ],
+                  "explanation": "„… fährt heute nicht von Gleis 8, sondern von Gleis 12.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-4",
+              "stimuli": [
+                {
+                  "title": "Notiz 4",
+                  "text": "SPRACHSCHULE LINGUA\nKursbeginn – bitte notieren"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-4",
+                  "prompt": "Der Kurs beginnt am ___ um 18 Uhr in Raum 204.",
+                  "solution": "3. Oktober",
+                  "acceptedAnswers": [
+                    "03.10.",
+                    "3.10.",
+                    "dritten Oktober"
+                  ],
+                  "explanation": "„Ihr Kurs beginnt am 3. Oktober um 18 Uhr.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-5",
+              "stimuli": [
+                {
+                  "title": "Notiz 5",
+                  "text": "THEATER – ANSAGE\nAchtung: Die Anfangszeit hat sich geändert."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-5",
+                  "prompt": "Die Vorstellung beginnt heute erst um ___ Uhr.",
+                  "solution": "20:15",
+                  "acceptedAnswers": [
+                    "20.15",
+                    "20 15"
+                  ],
+                  "explanation": "„… nicht um 19:30 Uhr, sondern erst um 20:15 Uhr.“ Um 19:45 Uhr öffnet nur die Kasse."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Radiosendung",
+          "instructions": "Sie hören ein Interview im Radio. Wählen Sie zu jeder Aufgabe die richtige Antwort. Sie hören das Interview einmal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-01/hoeren-teil-2.mp3",
+            "transcript": "Moderator: Guten Morgen, liebe Hörerinnen und Hörer. Heute ist Katrin Sommer bei uns im Studio. Sie organisiert das Reparatur-Café in Leipzig. Frau Sommer, was ist eigentlich ein Reparatur-Café?\n\nKatrin Sommer: Guten Morgen. Bei uns reparieren die Leute ihre kaputten Sachen selbst – aber nicht allein. Sie bringen zum Beispiel eine Lampe, ein Fahrrad oder eine Kaffeemaschine mit, und wir helfen ihnen dabei.\n\nModerator: Und was kostet das?\n\nSommer: Unsere Hilfe ist kostenlos. Nur die Ersatzteile müssen die Leute selbst bezahlen. Viele geben uns trotzdem freiwillig etwas Geld, damit wir neues Werkzeug kaufen können.\n\nModerator: Wann kann man zu Ihnen kommen?\n\nSommer: Wir öffnen jeden zweiten Samstag im Monat, von 14 bis 18 Uhr. Im Winter machen wir manchmal auch am Mittwochabend auf, aber das steht immer erst kurz vorher fest.\n\nModerator: Wer hilft bei Ihnen mit?\n\nSommer: Im Moment sind wir zwölf Personen. Die meisten sind Rentner, wir haben aber auch drei Studenten. Fast alle haben früher in einem technischen Beruf gearbeitet.\n\nModerator: Und warum machen Sie das?\n\nSommer: Am Anfang war für mich die Umwelt der wichtigste Grund. Wir werfen einfach viel zu viele Dinge weg. Aber inzwischen finde ich etwas anderes noch schöner: Die Leute sitzen zusammen, trinken Kaffee und reden miteinander. Das Reparieren ist fast schon Nebensache.\n\nModerator: Brauchen Sie noch Unterstützung?\n\nSommer: Ja, sehr gern. Wir suchen vor allem jemanden, der sich mit Computern auskennt."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-1",
+                  "prompt": "Was machen die Besucher im Reparatur-Café?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie kaufen gebrauchte Geräte."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie reparieren ihre Sachen mit Hilfe."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie geben ihre Sachen zur Reparatur ab."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Bei uns reparieren die Leute ihre kaputten Sachen selbst – aber nicht allein … wir helfen ihnen dabei.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-2",
+                  "prompt": "Was müssen die Besucher bezahlen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Gar nichts."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Einen kleinen Eintritt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Ersatzteile."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Unsere Hilfe ist kostenlos. Nur die Ersatzteile müssen die Leute selbst bezahlen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-3",
+                  "prompt": "Wann ist das Reparatur-Café normalerweise geöffnet?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Einmal im Monat samstags."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Zweimal im Monat samstags."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Jeden Samstag."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Jeden zweiten Samstag im Monat“ – also einmal im Monat."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-4",
+                  "prompt": "Wer arbeitet im Reparatur-Café mit?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Zwölf Handwerker aus einer Firma."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Nur Studentinnen und Studenten."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Vor allem Rentnerinnen und Rentner."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Die meisten sind Rentner, wir haben aber auch drei Studenten.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-5",
+                  "prompt": "Was ist für Frau Sommer heute am wichtigsten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass man Geld spart."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass weniger weggeworfen wird."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass die Leute sich treffen und reden."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Die Umwelt war der Grund am Anfang. „Inzwischen finde ich etwas anderes noch schöner: Die Leute sitzen zusammen … und reden miteinander.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Zuordnung",
+          "instructions": "Sie hören eine Person, die über fünf andere Personen erzählt. Ordnen Sie jeder Person die passende Aussage zu. Drei Aussagen bleiben übrig. Sie hören den Text zweimal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-01/hoeren-teil-3.mp3",
+            "transcript": "Frau Kern erzählt einer Freundin, was ihre Nachbarn, die Familie Bauer, am Samstag vorhaben.\n\nFrau Kern: Bei Familie Bauer ist am Samstag richtig etwas los, jeder macht etwas anderes.\nHerr Bauer bleibt zu Hause. Das Wetter soll schön werden, und die Hecke im Garten ist ihm schon lange zu hoch. Das will er endlich machen.\nFrau Bauer fährt in die Stadt. Sie haben nichts mehr zu essen im Haus, und neue Schuhe braucht sie auch.\nLena, die Tochter, hat um zehn Training. Nächste Woche hat ihre Mannschaft ein wichtiges Spiel, da darf sie nicht fehlen.\nTobias ist den ganzen Nachmittag bei Marie. Er hat ihr versprochen, dass er kommt, denn sie möchte ihm ihren neuen Computer zeigen. Reparieren muss er zum Glück nichts.\nUnd die Oma hat einen Termin. Ihr Knie tut schon seit Wochen weh, und am Samstag geht sie endlich zur Ärztin.\nGekocht wird bei ihnen übrigens nicht, Frau Bauer bringt etwas aus der Stadt mit. Und den Keller räumen sie erst nächstes Wochenende auf."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-block",
+              "prompt": "Was macht diese Person am Samstag?",
+              "stimuli": [
+                {
+                  "title": "Aussagen",
+                  "text": "A  geht zum Sport\nB  besucht eine Freundin\nC  arbeitet im Garten\nD  fährt zum Einkaufen in die Stadt\nE  kocht das Mittagessen\nF  geht zur Ärztin\nG  räumt den Keller auf\nH  repariert einen Computer"
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "A  geht zum Sport"
+                },
+                {
+                  "id": "b",
+                  "text": "B  besucht eine Freundin"
+                },
+                {
+                  "id": "c",
+                  "text": "C  arbeitet im Garten"
+                },
+                {
+                  "id": "d",
+                  "text": "D  fährt zum Einkaufen in die Stadt"
+                },
+                {
+                  "id": "e",
+                  "text": "E  kocht das Mittagessen"
+                },
+                {
+                  "id": "f",
+                  "text": "F  geht zur Ärztin"
+                },
+                {
+                  "id": "g",
+                  "text": "G  räumt den Keller auf"
+                },
+                {
+                  "id": "h",
+                  "text": "H  repariert einen Computer"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h3-1",
+                  "prompt": "Herr Bauer",
+                  "solution": "c",
+                  "explanation": "„Das Wetter soll schön werden, und die Hecke im Garten ist ihm schon lange zu hoch.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-2",
+                  "prompt": "Frau Bauer",
+                  "solution": "d",
+                  "explanation": "„Frau Bauer fährt in die Stadt. Sie haben nichts mehr zu essen im Haus.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-3",
+                  "prompt": "Lena",
+                  "solution": "a",
+                  "explanation": "„Lena, die Tochter, hat um zehn Training.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-4",
+                  "prompt": "Tobias",
+                  "solution": "b",
+                  "explanation": "Er ist den ganzen Nachmittag bei Marie. „Reparieren muss er zum Glück nichts“ – der Computer ist eine Falle."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-5",
+                  "prompt": "Oma",
+                  "solution": "f",
+                  "explanation": "„Ihr Knie tut schon seit Wochen weh, und am Samstag geht sie endlich zur Ärztin.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 25,
+      "description": "Sie lesen einen Zeitungstext, Anzeigen und kurze Texte aus dem Alltag und lösen dazu Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Zeitungstext",
+          "instructions": "Lesen Sie den Text. Sind die Sätze richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-text",
+              "stimuli": [
+                {
+                  "title": "Mit dem Fahrrad zur Arbeit",
+                  "text": "Seit drei Jahren fährt Miriam Ott jeden Tag mit dem Fahrrad zur Arbeit: zwölf Kilometer hin und zwölf Kilometer zurück. „Am Anfang war das ziemlich anstrengend“, sagt die 42-jährige Krankenschwester. „Aber nach zwei Wochen ging es schon viel besser.“\n\nFrüher ist sie mit dem Auto gefahren. Morgens stand sie aber oft im Stau und musste danach lange einen Parkplatz suchen. Heute braucht sie mit dem Rad ungefähr 40 Minuten – also fast genauso lange wie damals mit dem Auto.\n\nBei starkem Regen nimmt sie trotzdem manchmal die Bahn. „Im Winter fahre ich nur, wenn keine Glätte ist. Sicherheit ist mir wichtiger als Sport.“\n\nIhr Arbeitgeber findet die Idee gut: Das Krankenhaus hat einen neuen Fahrradraum gebaut und zahlt allen Mitarbeiterinnen und Mitarbeitern, die mit dem Rad kommen, 20 Euro im Monat extra."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-1",
+                  "statement": "Miriam Ott fährt schon seit drei Jahren mit dem Rad zur Arbeit.",
+                  "solution": true,
+                  "explanation": "„Seit drei Jahren fährt Miriam Ott jeden Tag mit dem Fahrrad zur Arbeit.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-2",
+                  "statement": "Am Anfang fiel ihr das Radfahren leicht.",
+                  "solution": false,
+                  "explanation": "„Am Anfang war das ziemlich anstrengend.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-3",
+                  "statement": "Mit dem Auto war Miriam Ott früher viel schneller.",
+                  "solution": false,
+                  "explanation": "Mit dem Rad braucht sie „fast genauso lange wie damals mit dem Auto“."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-4",
+                  "statement": "Bei Glätte fährt sie im Winter nicht mit dem Rad.",
+                  "solution": true,
+                  "explanation": "„Im Winter fahre ich nur, wenn keine Glätte ist.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-5",
+                  "statement": "Das Krankenhaus zahlt Mitarbeitern mit Fahrrad zusätzlich Geld.",
+                  "solution": true,
+                  "explanation": "„… zahlt allen Mitarbeiterinnen und Mitarbeitern, die mit dem Rad kommen, 20 Euro im Monat extra.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Anzeigen",
+          "instructions": "Lesen Sie die acht Anzeigen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Nicht alle Anzeigen werden gebraucht.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "text": "Volkshochschule Leipzig – Kurs „Deutsch für den Beruf“.\nDienstags und donnerstags, 18:00 bis 20:30 Uhr.\nErmäßigung für Arbeitslose."
+                },
+                {
+                  "title": "Anzeige b",
+                  "text": "Fahrradwerkstatt Kette – Reparaturen innerhalb von 24 Stunden.\nAußerdem Verleih von Lastenrädern."
+                },
+                {
+                  "title": "Anzeige c",
+                  "text": "Wohnungstausch: Wir haben drei Zimmer im Erdgeschoss\nund suchen zwei Zimmer mit Balkon."
+                },
+                {
+                  "title": "Anzeige d",
+                  "text": "Nachbarschaftshilfe Süd – wir begleiten ältere Menschen\nzu Arztterminen und zum Amt. Kostenlos."
+                },
+                {
+                  "title": "Anzeige e",
+                  "text": "Second-Hand-Laden „Neu für dich“ – gut erhaltene Kinderkleidung,\nGröße 50 bis 152."
+                },
+                {
+                  "title": "Anzeige f",
+                  "text": "Reparatur-Café im Stadtteilzentrum – jeden zweiten Samstag,\n14 bis 18 Uhr. Hilfe kostenlos, Ersatzteile selbst bezahlen."
+                },
+                {
+                  "title": "Anzeige g",
+                  "text": "Umzugsfirma Leicht & Schnell – Festpreis,\nkeine versteckten Kosten."
+                },
+                {
+                  "title": "Anzeige h",
+                  "text": "Hundebetreuung Pfote – wir gehen mit Ihrem Hund spazieren,\nwenn Sie arbeiten müssen."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Volkshochschule Leipzig"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Fahrradwerkstatt Kette"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Wohnungstausch"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Nachbarschaftshilfe Süd"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Second-Hand-Laden „Neu für dich“"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Reparatur-Café im Stadtteilzentrum"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Umzugsfirma Leicht & Schnell"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Hundebetreuung Pfote"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Ihre Kaffeemaschine ist kaputt, aber Sie möchten sie nicht wegwerfen.",
+                  "solution": "f",
+                  "explanation": "Im Reparatur-Café hilft man Ihnen beim Reparieren."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Ihre Mutter ist 80 Jahre alt und kann nicht mehr allein zum Arzt gehen.",
+                  "solution": "d",
+                  "explanation": "Die Nachbarschaftshilfe begleitet ältere Menschen zu Arztterminen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Sie brauchen günstige Kleidung für Ihr zweijähriges Kind.",
+                  "solution": "e",
+                  "explanation": "Der Second-Hand-Laden hat Kinderkleidung ab Größe 50."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie arbeiten den ganzen Tag und niemand ist bei Ihrem Tier zu Hause.",
+                  "solution": "h",
+                  "explanation": "Die Hundebetreuung geht mit dem Hund spazieren, während Sie arbeiten."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie sind arbeitslos und möchten Ihr Deutsch für den Beruf verbessern.",
+                  "solution": "a",
+                  "explanation": "Die Volkshochschule bietet den Kurs mit Ermäßigung für Arbeitslose an."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Schilder und Notizen",
+          "instructions": "Lesen Sie die Schilder und Notizen. Zu jedem Text gibt es eine Frage. Wählen Sie die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-schild-1",
+              "stimuli": [
+                {
+                  "title": "Schild 1 – im Waschsalon",
+                  "text": "MÜNZWASCHSALON\nWaschen 4,00 € · Trocknen 1,00 € pro 15 Minuten\nLetzte Maschine: 21:00 Uhr\nBitte Waschmittel selbst mitbringen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-1",
+                  "prompt": "Was müssen Sie selbst mitbringen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Münzen für den Trockner"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Waschmittel"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ein Handtuch"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Bitte Waschmittel selbst mitbringen.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-2",
+              "stimuli": [
+                {
+                  "title": "Schild 2 – an der Paketstation",
+                  "text": "ABHOLUNG NUR MIT AUSWEIS\nPakete werden 7 Tage aufbewahrt.\nDanach gehen sie zurück an den Absender."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was passiert nach sieben Tagen mit dem Paket?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Es wird nach Hause gebracht."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Es geht zurück an den Absender."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Es bleibt noch eine Woche liegen."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Danach gehen sie zurück an den Absender.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3 – im Büro",
+                  "text": "Liebe Kolleginnen und Kollegen,\nder Kopierer im 2. Stock ist kaputt.\nBitte benutzt bis Freitag den Kopierer im Erdgeschoss.\nDie Reparatur ist schon bestellt.\nMartin"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-3",
+                  "prompt": "Was sollen die Kolleginnen und Kollegen tun?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Den Kopierer selbst reparieren."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bis Freitag nicht kopieren."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Den Kopierer im Erdgeschoss benutzen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Bitte benutzt bis Freitag den Kopierer im Erdgeschoss.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-4",
+              "stimuli": [
+                {
+                  "title": "Schild 4 – am Eingang zur Sauna",
+                  "text": "SAUNA\nDer Eintritt ins Schwimmbad ist im Saunapreis enthalten.\nKinder unter 16 Jahren haben keinen Zutritt."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Wer darf nicht in die Sauna?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Gäste ohne Schwimmbad-Ticket"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Erwachsene ohne Handtuch"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Kinder unter 16 Jahren"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Kinder unter 16 Jahren haben keinen Zutritt.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-5",
+              "stimuli": [
+                {
+                  "title": "Schild 5 – im Hausflur",
+                  "text": "Liebe Mieterinnen und Mieter,\nab dem 1. März wird der Müll nur noch mittwochs abgeholt.\nBitte stellen Sie die Tonnen erst am Dienstagabend an die Straße."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-5",
+                  "prompt": "Wann sollen die Tonnen an die Straße gestellt werden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Am Mittwochmorgen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Am Montag"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Am Dienstagabend"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Bitte stellen Sie die Tonnen erst am Dienstagabend an die Straße.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 25,
+      "description": "Sie füllen ein Formular aus und schreiben eine E-Mail. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie zu jeder Aufgabe eine Musterlösung.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "Teil 1 – Formular",
+          "instructions": "Ihr Nachbar Dragan Petrović möchte den Kurs „Deutsch für den Beruf“ an der Volkshochschule besuchen. Er kommt aus Serbien und ist am 19.05.1989 in Novi Sad geboren. Er wohnt in der Karl-Liebknecht-Straße 45 in 04107 Leipzig und arbeitet als Elektriker. Füllen Sie das Formular für ihn aus.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-formular",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Familienname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Petrović"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-2",
+                  "prompt": "Vorname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Dragan"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-3",
+                  "prompt": "Geburtsdatum",
+                  "inputMode": "single-line",
+                  "musterloesung": "19.05.1989"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-4",
+                  "prompt": "Straße und Hausnummer",
+                  "inputMode": "single-line",
+                  "musterloesung": "Karl-Liebknecht-Straße 45"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-5",
+                  "prompt": "Beruf",
+                  "inputMode": "single-line",
+                  "musterloesung": "Elektriker"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schreiben-teil-2",
+          "title": "Teil 2 – E-Mail",
+          "instructions": "Sie haben im Internet ein Fahrrad bestellt. Das Fahrrad ist gestern angekommen, aber es ist beschädigt. Schreiben Sie eine E-Mail an den Online-Shop. Schreiben Sie 40 bis 50 Wörter.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-2-mail",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s2-1",
+                  "prompt": "Schreiben Sie die E-Mail an den Online-Shop.",
+                  "criteria": [
+                    "Grund: Warum schreiben Sie? (Bestellung, Datum)",
+                    "Problem: Was genau ist kaputt?",
+                    "Wunsch: Was soll der Shop tun?",
+                    "Erreichbarkeit: Wann kann man Sie erreichen?"
+                  ],
+                  "hints": [
+                    "Schreiben Sie förmlich („Sehr geehrte Damen und Herren“).",
+                    "Vergessen Sie den Gruß am Ende nicht."
+                  ],
+                  "minWords": 40,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Damen und Herren,\n\nam 12. März habe ich bei Ihnen ein Fahrrad bestellt. Gestern ist es angekommen, aber leider ist es beschädigt: Das Vorderrad ist verbogen und der Sattel fehlt.\n\nIch möchte das Fahrrad gern umtauschen. Können Sie mir bitte ein neues schicken?\n\nSie erreichen mich von Montag bis Freitag nach 17 Uhr unter 0176 22 33 44.\n\nMit freundlichen Grüßen\nDragan Petrović"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet. Nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie zu den Stichwörtern. Sie können Ihre Antwort hier kurz notieren – das ist freiwillig.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Alter – Herkunft – Wohnort – Familie – Beruf – Sprachen – Warum lernen Sie Deutsch?",
+                  "hints": [
+                    "Sprechen Sie in ganzen Sätzen, etwa zwei Minuten.",
+                    "Sagen Sie auch, seit wann Sie in Deutschland leben.",
+                    "Buchstabieren Sie am Ende Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Mein Name ist Dragan Petrović. Ich bin 35 Jahre alt und komme aus Serbien, aus Novi Sad. Seit vier Jahren wohne ich in Leipzig. Ich bin verheiratet und habe zwei Kinder. Von Beruf bin ich Elektriker und arbeite bei einer kleinen Firma. Ich spreche Serbisch, Englisch und Deutsch. Deutsch lerne ich, weil ich mich bei der Arbeit besser mit den Kollegen und den Kunden unterhalten möchte. Später möchte ich vielleicht eine eigene Firma haben. Mein Familienname ist Petrović: P – E – T – R – O – V – I – Ć."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Ein Alltagsgespräch führen",
+          "instructions": "Thema: Essen und Trinken. Bilden Sie mit dem Satzanfang eine Frage an Ihre Gesprächspartnerin oder Ihren Gesprächspartner – und antworten Sie dann selbst darauf.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Satzanfang: „Möchten Sie …?“",
+                  "musterloesung": "Frage: Möchten Sie lieber zu Hause essen oder ins Restaurant gehen?\nAntwort: Ich esse lieber zu Hause, weil das billiger ist und ich gern koche. Aber am Wochenende gehe ich manchmal mit Freunden ins Restaurant. Am liebsten essen wir italienisch."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Satzanfang: „Wann …?“",
+                  "musterloesung": "Frage: Wann essen Sie normalerweise zu Abend?\nAntwort: Meistens um halb sieben, wenn alle zu Hause sind. Wenn ich Spätschicht habe, esse ich erst um neun. Dann nehme ich nur eine Kleinigkeit, zum Beispiel ein Brot mit Käse."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Zusammen etwas planen",
+          "instructions": "Lesen Sie die Situation. Planen Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner. Machen Sie Vorschläge, reagieren Sie auf Vorschläge und einigen Sie sich am Ende.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Eine Kollegin aus Ihrem Deutschkurs geht bald zurück in ihr Heimatland. Sie möchten für sie eine kleine Abschiedsfeier organisieren. Planen Sie zusammen.",
+                  "hints": [
+                    "Wann und wo soll die Feier sein?",
+                    "Was gibt es zu essen und zu trinken?",
+                    "Wollen Sie ein Geschenk kaufen?",
+                    "Wer macht was?"
+                  ],
+                  "musterloesung": "A: Ich habe gehört, Amina fliegt nächsten Monat zurück. Wollen wir eine kleine Abschiedsfeier machen?\nB: Ja, gute Idee! Wann passt es denn? Vielleicht am letzten Kurstag?\nA: Das finde ich gut. Der letzte Kurstag ist Freitag, der 28. Wir könnten nach dem Unterricht im Kursraum bleiben.\nB: Im Kursraum ist es ein bisschen langweilig. Wie wäre es mit dem Park neben der Schule? Das Wetter soll schön werden.\nA: Einverstanden. Und was essen wir?\nB: Am besten bringt jeder etwas mit – etwas aus seinem Land. Ich mache einen Salat.\nA: Perfekt, ich backe einen Kuchen und bringe Getränke mit. Kaufen wir auch ein Geschenk?\nB: Ja, lass uns Geld sammeln. Zehn Euro pro Person, dann kaufen wir ein Fotobuch vom Kurs.\nA: Sehr schön. Ich frage die anderen und du sprichst mit der Lehrerin, okay?\nB: Ja, mache ich. Dann bis Freitag!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

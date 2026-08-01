@@ -1,0 +1,824 @@
+{
+  "id": "uebungstest-a1-09",
+  "language": "de",
+  "level": "A1",
+  "title": "Übungstest A1 – Nr. 9",
+  "description": "Ein vollständiger Übungstest auf Niveau A1 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Kurs, Schule und Wetter.",
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 20,
+      "description": "Sie hören Gespräche, Ansagen und kurze Nachrichten. Zu jedem Text gibt es Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1",
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Wählen Sie die richtige Antwort.",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-09/hoeren-teil-1.mp3",
+            "transcript": "Gespräch 1\nFrau: Wie ist das Wetter heute?\nMann: Es regnet. Nimm bitte einen Schirm mit.\n\nGespräch 2\nLehrerin: Welches Buch brauchen wir morgen?\nSchüler: Das grüne Buch, Seite 42.\n\nGespräch 3\nMann: Wie viele Leute sind in deinem Deutschkurs?\nFrau: Zwölf. Wir kommen aus neun Ländern.\n\nGespräch 4\nFrau: Wann sind die Sommerferien?\nMann: Sie beginnen am 15. Juli.\n\nGespräch 5\nMann: Wie kalt ist es draußen?\nFrau: Minus zwei Grad. Zieh dir eine warme Jacke an."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-1",
+                  "prompt": "Gespräch 1: Wie ist das Wetter?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Es schneit"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Sonne scheint"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Es regnet"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Es regnet. Nimm bitte einen Schirm mit.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Gespräch 2: Welches Buch brauchen die Schüler?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das rote Buch"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das grüne Buch"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Das blaue Buch"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Das grüne Buch, Seite 42.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-3",
+                  "prompt": "Gespräch 3: Wie viele Personen sind im Deutschkurs?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Neun"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Zwölf"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Zwanzig"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Zwölf.“ Neun ist die Zahl der Länder."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Gespräch 4: Wann beginnen die Sommerferien?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Am 15. Juli"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Am 5. Juli"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Am 15. Juni"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Sie beginnen am 15. Juli.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-5",
+                  "prompt": "Gespräch 5: Wie ist die Temperatur draußen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Minus zwei Grad"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Plus zwei Grad"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Minus zwölf Grad"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Minus zwei Grad.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2",
+          "instructions": "Sie hören fünf Ansagen. Sind die Sätze richtig oder falsch?",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-09/hoeren-teil-2.mp3",
+            "transcript": "Ansage 1\nLiebe Kursteilnehmerinnen und Kursteilnehmer, der Deutschkurs beginnt nächste Woche in Raum 105, nicht mehr in Raum 12.\n\nAnsage 2\nAchtung: Wegen Schnee fällt der Unterricht heute in der Grundschule aus. Die Kinder bleiben zu Hause.\n\nAnsage 3\nGuten Tag, hier ist die Volkshochschule. Für den Kurs A2 sind noch drei Plätze frei. Bitte melden Sie sich bis Freitag an.\n\nAnsage 4\nLiebe Eltern, das Zeugnis bekommen die Kinder am letzten Schultag, dem 14. Juli.\n\nAnsage 5\nDer Wetterbericht: Morgen wird es warm und sonnig, bis 26 Grad. Am Wochenende kommt Regen."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-1",
+                  "statement": "Der Deutschkurs ist ab nächster Woche in Raum 105.",
+                  "solution": true,
+                  "explanation": "„… in Raum 105, nicht mehr in Raum 12.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-2",
+                  "statement": "Heute gibt es in der Grundschule Unterricht.",
+                  "solution": false,
+                  "explanation": "Wegen Schnee fällt der Unterricht aus."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-3",
+                  "statement": "Der Kurs A2 ist schon voll.",
+                  "solution": false,
+                  "explanation": "„Für den Kurs A2 sind noch drei Plätze frei.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-4",
+                  "statement": "Die Kinder bekommen am 14. Juli ihr Zeugnis.",
+                  "solution": true,
+                  "explanation": "„… am letzten Schultag, dem 14. Juli.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "h2-5",
+                  "statement": "Am Wochenende scheint die Sonne.",
+                  "solution": false,
+                  "explanation": "Morgen ist es sonnig. Am Wochenende kommt Regen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3",
+          "instructions": "Sie hören fünf kurze Situationen. Wählen Sie die richtige Antwort.",
+          "audio": {
+            "src": "/audio/de/a1/uebungstest-a1-09/hoeren-teil-3.mp3",
+            "transcript": "Situation 1\nMitarbeiterin: Der Kurs kostet 240 Euro. Mit Ermäßigung zahlen Sie 160 Euro.\nMann: Ich bekomme Ermäßigung. Hier ist mein Ausweis.\n\nSituation 2 (Anrufbeantworter)\nHallo Frau Ito, hier ist die Volkshochschule. Ihr Kurs beginnt am Montag, dem 8. Januar, um 18 Uhr. Bitte kommen Sie zehn Minuten früher.\n\nSituation 3\nLehrer: Haben Sie die Hausaufgabe gemacht?\nFrau: Nein, leider nicht. Ich hatte gestern keine Zeit. Ich bringe sie morgen mit.\n\nSituation 4\nFrau: Was ziehst du morgen an?\nMann: Eine Jacke. Es soll den ganzen Tag regnen.\n\nSituation 5\nSchülerin: Wann ist die Prüfung?\nLehrerin: Am 20. März. Aber wir üben schon ab Februar."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-1",
+                  "prompt": "Situation 1: Wie viel bezahlt der Mann?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "160 Euro"
+                    },
+                    {
+                      "id": "b",
+                      "text": "240 Euro"
+                    },
+                    {
+                      "id": "c",
+                      "text": "80 Euro"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Er bekommt Ermäßigung und zahlt deshalb 160 Euro."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Situation 2: Wann beginnt der Kurs?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Am Mittwoch um 18 Uhr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Am Montag um 8 Uhr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Am Montag um 18 Uhr"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… am Montag, dem 8. Januar, um 18 Uhr.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-3",
+                  "prompt": "Situation 3: Was sagt die Frau?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie hat die Hausaufgabe gemacht"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie bringt die Hausaufgabe morgen mit"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie macht keine Hausaufgaben"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ich bringe sie morgen mit.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Situation 4: Wie wird das Wetter morgen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sonnig"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Regnerisch"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Es schneit"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Es soll den ganzen Tag regnen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-5",
+                  "prompt": "Situation 5: Wann ist die Prüfung?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Im Februar"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Am 2. März"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Am 20. März"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Am 20. März.“ Ab Februar wird nur geübt."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 25,
+      "description": "Sie lesen E-Mails, Anzeigen und kurze Texte aus dem Alltag und lösen dazu Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1",
+          "instructions": "Lesen Sie die E-Mails. Sind die Sätze richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-mail-1",
+              "stimuli": [
+                {
+                  "title": "E-Mail 1",
+                  "text": "Hallo Yuki,\n\nich lerne jetzt auch Deutsch! Mein Kurs ist montags und mittwochs von 18 bis 20 Uhr.\n\nDie Lehrerin ist sehr nett und spricht langsam. Am Anfang war es schwer, aber jetzt verstehe ich schon viel.\n\nLernst du auch weiter?\n\nLiebe Grüße\nCarlos"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-1",
+                  "statement": "Carlos hat zweimal pro Woche Deutschkurs.",
+                  "solution": true,
+                  "explanation": "„Mein Kurs ist montags und mittwochs.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-2",
+                  "statement": "Carlos versteht nichts im Kurs.",
+                  "solution": false,
+                  "explanation": "„… jetzt verstehe ich schon viel.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-1-mail-2",
+              "stimuli": [
+                {
+                  "title": "E-Mail 2",
+                  "text": "Liebe Frau Ito,\n\nvielen Dank für Ihre Anmeldung zum Kurs A2.\n\nDer Kurs beginnt am 8. Januar und dauert zwölf Wochen. Bitte bezahlen Sie die Kursgebühr bis zum 20. Dezember.\n\nDas Buch bekommen Sie am ersten Kurstag. Es kostet 18 Euro extra.\n\nMit freundlichen Grüßen\nVolkshochschule"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-3",
+                  "statement": "Der Kurs dauert zwölf Wochen.",
+                  "solution": true,
+                  "explanation": "„Der Kurs beginnt am 8. Januar und dauert zwölf Wochen.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-4",
+                  "statement": "Das Buch ist im Preis inklusive.",
+                  "solution": false,
+                  "explanation": "„Es kostet 18 Euro extra.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-5",
+                  "statement": "Frau Ito muss vor dem 20. Dezember bezahlen.",
+                  "solution": true,
+                  "explanation": "„Bitte bezahlen Sie die Kursgebühr bis zum 20. Dezember.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2",
+          "instructions": "Lesen Sie die acht Anzeigen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Nicht alle Anzeigen werden gebraucht.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "text": "Volkshochschule – Deutschkurse A1 bis B2.\nVormittags und abends. Anmeldung online."
+                },
+                {
+                  "title": "Anzeige b",
+                  "text": "Nachhilfe in Mathematik für die Klassen 5 bis 10.\n15 Euro pro Stunde."
+                },
+                {
+                  "title": "Anzeige c",
+                  "text": "Sprachcafé im Stadtteilzentrum – Deutsch sprechen und Leute treffen.\nJeden Donnerstag 17 Uhr, kostenlos."
+                },
+                {
+                  "title": "Anzeige d",
+                  "text": "Bücher für den Deutschkurs – gebraucht und günstig.\nAb 5 Euro."
+                },
+                {
+                  "title": "Anzeige e",
+                  "text": "Alphabetisierungskurs – Lesen und Schreiben lernen.\nKleine Gruppen, langsames Tempo."
+                },
+                {
+                  "title": "Anzeige f",
+                  "text": "Hausaufgabenhilfe in der Bibliothek.\nMo–Do von 15 bis 17 Uhr, für Grundschulkinder."
+                },
+                {
+                  "title": "Anzeige g",
+                  "text": "Computerraum der Bibliothek – Internet kostenlos.\nMit Bibliotheksausweis."
+                },
+                {
+                  "title": "Anzeige h",
+                  "text": "Prüfungstraining A1 – vier Termine vor der Prüfung.\nSamstags, 40 Euro."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Volkshochschule"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Nachhilfe in Mathematik"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Sprachcafé im Stadtteilzentrum"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Bücher für den Deutschkurs"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Alphabetisierungskurs"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Hausaufgabenhilfe in der Bibliothek"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Computerraum der Bibliothek"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Prüfungstraining A1"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Sie möchten Deutsch sprechen üben und dabei nichts bezahlen.",
+                  "solution": "c",
+                  "explanation": "Das Sprachcafé ist kostenlos und findet jeden Donnerstag statt."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Ihr Sohn ist in der 7. Klasse und hat Probleme in Mathematik.",
+                  "solution": "b",
+                  "explanation": "Die Nachhilfe ist für die Klassen 5 bis 10."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "In vier Wochen machen Sie die A1-Prüfung und möchten sich vorbereiten.",
+                  "solution": "h",
+                  "explanation": "Das Prüfungstraining A1 hat vier Termine vor der Prüfung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie können in Ihrer Sprache nicht lesen und schreiben.",
+                  "solution": "e",
+                  "explanation": "Der Alphabetisierungskurs ist genau dafür da."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie haben zu Hause kein Internet und müssen etwas ausdrucken.",
+                  "solution": "g",
+                  "explanation": "Im Computerraum der Bibliothek ist das Internet kostenlos."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3",
+          "instructions": "Lesen Sie die Schilder und Notizen. Zu jedem Text gibt es eine Frage. Wählen Sie die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-schild-1",
+              "stimuli": [
+                {
+                  "title": "Schild 1 – an der Kurstür",
+                  "text": "DEUTSCHKURS A1\nRaum 105\nMontag und Mittwoch\n18:00 – 20:00 Uhr"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-1",
+                  "prompt": "Wie lange dauert der Kurs an einem Tag?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Eine Stunde"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Vier Stunden"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Zwei Stunden"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Von 18:00 bis 20:00 Uhr sind zwei Stunden."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-2",
+              "stimuli": [
+                {
+                  "title": "Schild 2 – in der Bibliothek",
+                  "text": "Bitte leise sprechen.\nEssen und Trinken sind\nim Lesesaal nicht erlaubt."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was ist im Lesesaal verboten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Lesen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Essen und Trinken"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Schreiben"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Essen und Trinken sind im Lesesaal nicht erlaubt.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3 – von der Lehrerin",
+                  "text": "Liebe Kursgruppe,\ndie Hausaufgabe für Montag:\nBuch Seite 42, Übung 3 und 4.\nBitte auch die neuen Wörter lernen.\nFrau Berger"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-3",
+                  "prompt": "Was ist die Hausaufgabe?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Zwei Übungen und die neuen Wörter"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Nur die Wörter lernen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Einen Text schreiben"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Übung 3 und 4. Bitte auch die neuen Wörter lernen.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-4",
+              "stimuli": [
+                {
+                  "title": "Schild 4 – am Schwarzen Brett",
+                  "text": "PRÜFUNG A1\nSamstag, 20. März, 9:00 Uhr\nBitte den Ausweis mitbringen!\nOhne Ausweis keine Prüfung."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Was müssen Sie zur Prüfung mitbringen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Geld"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das Buch"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Den Ausweis"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Bitte den Ausweis mitbringen! Ohne Ausweis keine Prüfung.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-5",
+              "stimuli": [
+                {
+                  "title": "Schild 5 – Wetterhinweis an der Schule",
+                  "text": "ACHTUNG SCHNEE\nHeute endet der Unterricht\nschon um 11:30 Uhr.\nBitte holen Sie Ihre Kinder ab."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-5",
+                  "prompt": "Warum endet der Unterricht früher?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Wegen einer Feier"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Wegen Schnee"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Lehrer sind krank"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„ACHTUNG SCHNEE – Heute endet der Unterricht schon um 11:30 Uhr.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 20,
+      "description": "Sie füllen ein Formular aus und schreiben eine kurze Nachricht. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie zu jeder Aufgabe eine Musterlösung.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "Teil 1 – Formular",
+          "instructions": "Ihre Freundin Yuki Ito meldet sich für die A1-Prüfung an. Sie kommt aus Japan und ist am 26.10.1995 in Osaka geboren. Sie wohnt in 90402 Nürnberg. Sie möchte die Prüfung am 20. März machen. Füllen Sie das Formular für sie aus.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-formular",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Familienname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Ito"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-2",
+                  "prompt": "Vorname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Yuki"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-3",
+                  "prompt": "Geburtsdatum",
+                  "inputMode": "single-line",
+                  "musterloesung": "26.10.1995"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-4",
+                  "prompt": "Postleitzahl und Wohnort",
+                  "inputMode": "single-line",
+                  "musterloesung": "90402 Nürnberg"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-5",
+                  "prompt": "Gewünschter Prüfungstermin",
+                  "inputMode": "single-line",
+                  "musterloesung": "20. März"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schreiben-teil-2",
+          "title": "Teil 2 – Kurze E-Mail",
+          "instructions": "Sie waren letzte Woche nicht im Deutschkurs. Schreiben Sie eine E-Mail an Ihre Lehrerin, Frau Berger. Schreiben Sie etwa 30 Wörter.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-2-mail",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s2-1",
+                  "prompt": "Schreiben Sie die E-Mail an Frau Berger.",
+                  "hints": [
+                    "Warum waren Sie nicht im Kurs?",
+                    "Was möchten Sie wissen?",
+                    "Worum bitten Sie?",
+                    "Vergessen Sie Anrede und Gruß nicht."
+                  ],
+                  "minWords": 30,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Liebe Frau Berger,\n\nletzte Woche war ich nicht im Kurs. Meine Mutter war krank und ich musste ihr helfen.\n\nWas haben Sie im Unterricht gemacht? Können Sie mir bitte die Hausaufgaben schicken?\n\nVielen Dank und viele Grüße\nYuki Ito"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet. Nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie zu den Stichwörtern. Sie können Ihre Antwort hier kurz notieren – das ist freiwillig.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Alter – Land – Wohnort – Sprachen – Beruf – Hobby",
+                  "hints": [
+                    "Sprechen Sie in ganzen Sätzen.",
+                    "Sprechen Sie etwa eine Minute.",
+                    "Buchstabieren Sie am Ende Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Ich heiße Yuki Ito. Ich bin 29 Jahre alt und komme aus Japan. Ich wohne seit sechs Monaten in Nürnberg. Ich spreche Japanisch, Englisch und ein bisschen Deutsch. Ich lerne jetzt Deutsch an der Volkshochschule. Mein Hobby ist Fotografieren. Mein Familienname ist Ito: I – T – O."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Um Informationen bitten",
+          "instructions": "Thema: Deutsch lernen und Wetter. Bilden Sie zum Stichwort eine Frage und antworten Sie auch selbst darauf.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Stichwort: Deutschkurs",
+                  "musterloesung": "Frage: Wann hast du Deutschkurs?\nAntwort: Mein Kurs ist am Montag und am Mittwoch von 18 bis 20 Uhr. Wir sind zwölf Leute."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Stichwort: Wetter",
+                  "musterloesung": "Frage: Wie ist das Wetter heute?\nAntwort: Heute ist es kalt und es regnet. Morgen soll die Sonne scheinen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Bitten formulieren",
+          "instructions": "Formulieren Sie zu jeder Situation eine höfliche Bitte und eine passende Reaktion.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Die Lehrerin spricht zu schnell. Stichwort: langsamer sprechen",
+                  "musterloesung": "Bitte: Entschuldigung, können Sie bitte etwas langsamer sprechen?\nReaktion: Ja, natürlich. Ich wiederhole es noch einmal."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp3-2",
+                  "prompt": "Sie haben Ihren Stift vergessen. Stichwort: Stift leihen",
+                  "musterloesung": "Bitte: Kannst du mir bitte einen Stift leihen?\nReaktion: Ja, gern. Hier hast du einen."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

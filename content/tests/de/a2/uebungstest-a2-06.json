@@ -1,0 +1,858 @@
+{
+  "id": "uebungstest-a2-06",
+  "language": "de",
+  "level": "A2",
+  "title": "Übungstest A2 – Nr. 6",
+  "description": "Ein vollständiger Übungstest auf Niveau A2 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Einkaufen und Reklamation.",
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 30,
+      "description": "Sie hören Nachrichten, eine Radiosendung und einen Bericht. Notieren Sie Informationen, wählen Sie die richtige Antwort und ordnen Sie zu.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Notizen ergänzen",
+          "instructions": "Sie hören fünf kurze Nachrichten. Ergänzen Sie die fehlende Information im Satz. Sie hören jede Nachricht zweimal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-06/hoeren-teil-1.mp3",
+            "transcript": "Nachricht 1\nGuten Tag, Frau Marchetti, hier ist das Elektrogeschäft Volt. Ihre Waschmaschine wird geliefert. Der Fahrer kommt am Samstag zwischen 8 und 12 Uhr.\n\nNachricht 2\nHallo, hier ist der Kundenservice. Für die Reklamation brauchen wir Ihre Bestellnummer. Sie steht auf der Rechnung: 504 – 982. Noch einmal: 504 – 982.\n\nNachricht 3\nGuten Tag, Herr Traoré. Ihre Schuhe sind repariert. Sie kosten 24 Euro. Sie können sie bis Samstag abholen, danach sind wir zwei Wochen im Urlaub.\n\nNachricht 4\nLiebe Kundinnen und Kunden, unser Geschäft zieht um. Ab dem 1. September finden Sie uns in der Bahnhofstraße 7.\n\nNachricht 5\nHallo, hier ist das Möbelhaus. Sie haben nach der Lieferzeit gefragt: Der Tisch ist in vier Wochen da, die Stühle schon in zwei Wochen."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-notiz-1",
+              "stimuli": [
+                {
+                  "title": "Notiz 1",
+                  "text": "ELEKTROGESCHÄFT VOLT\nLieferung Waschmaschine"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-1",
+                  "prompt": "Der Fahrer bringt die Waschmaschine am ___ zwischen 8 und 12 Uhr.",
+                  "solution": "Samstag",
+                  "acceptedAnswers": [
+                    "Sa",
+                    "Sa."
+                  ],
+                  "explanation": "„Der Fahrer kommt am Samstag zwischen 8 und 12 Uhr.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-2",
+              "stimuli": [
+                {
+                  "title": "Notiz 2",
+                  "text": "KUNDENSERVICE\nReklamation – Angaben von der Rechnung"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-2",
+                  "prompt": "Die Bestellnummer auf der Rechnung lautet ___ .",
+                  "solution": "504-982",
+                  "acceptedAnswers": [
+                    "504 982",
+                    "5 0 4 – 9 8 2"
+                  ],
+                  "explanation": "„Sie steht auf der Rechnung: 5 0 4 – 9 8 2.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3",
+                  "text": "SCHUHREPARATUR\nSchuhe sind fertig"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-3",
+                  "prompt": "Die Reparatur kostet ___ Euro, abholen kann man die Schuhe bis Samstag.",
+                  "solution": "24",
+                  "acceptedAnswers": [
+                    "24 Euro",
+                    "24,00"
+                  ],
+                  "explanation": "„Ihre Schuhe sind repariert. Sie kosten 24 Euro.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-4",
+              "stimuli": [
+                {
+                  "title": "Notiz 4",
+                  "text": "GESCHÄFT ZIEHT UM\nNeu ab: 1. September"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-4",
+                  "prompt": "Ab dem 1. September ist das Geschäft in der ___ .",
+                  "solution": "Bahnhofstraße 7",
+                  "acceptedAnswers": [
+                    "Bahnhofstr. 7",
+                    "Bahnhofstrasse 7"
+                  ],
+                  "explanation": "„Ab dem 1. September finden Sie uns in der Bahnhofstraße 7.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-notiz-5",
+              "stimuli": [
+                {
+                  "title": "Notiz 5",
+                  "text": "MÖBELHAUS – LIEFERZEIT"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "luecke",
+                  "id": "h1-5",
+                  "prompt": "Die Stühle kommen in zwei Wochen, der Tisch erst in ___ Wochen.",
+                  "solution": "4",
+                  "acceptedAnswers": [
+                    "vier",
+                    "4 Wochen"
+                  ],
+                  "explanation": "„Der Tisch ist in vier Wochen da, die Stühle schon in zwei Wochen.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Radiosendung",
+          "instructions": "Sie hören ein Interview im Radio. Wählen Sie zu jeder Aufgabe die richtige Antwort. Sie hören das Interview einmal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-06/hoeren-teil-2.mp3",
+            "transcript": "Moderatorin: Kleidung tauschen statt kaufen – geht das? Bei mir ist Frau Lisa Marchetti. Sie organisiert Kleidertauschpartys. Frau Marchetti, wie funktioniert das?\n\nLisa Marchetti: Ganz einfach. Jeder bringt saubere Kleidung mit, die er nicht mehr trägt. Wir hängen alles auf, und dann darf jeder mitnehmen, was ihm gefällt. Man muss nichts bezahlen.\n\nModeratorin: Muss man genauso viel mitnehmen, wie man bringt?\n\nMarchetti: Nein, das kontrolliert niemand. Manche bringen zehn Teile und nehmen keins mit. Andere bringen zwei und nehmen fünf.\n\nModeratorin: Und was passiert mit der Kleidung, die übrig bleibt?\n\nMarchetti: Die geht an eine soziale Einrichtung in der Stadt. Nichts wird weggeworfen, das ist uns wichtig.\n\nModeratorin: Wie viele Leute kommen?\n\nMarchetti: Beim ersten Mal waren es fünfzehn. Jetzt kommen jedes Mal etwa hundert. Wir mussten schon in einen größeren Raum umziehen.\n\nModeratorin: Kommen nur Frauen?\n\nMarchetti: Am Anfang ja, fast nur. Inzwischen ist etwa jeder vierte Gast ein Mann. Kinderkleidung ist übrigens am beliebtesten – die ist ja meistens noch fast neu, wenn sie zu klein wird."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-1",
+                  "prompt": "Was kostet die Teilnahme?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nichts."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Fünf Euro Eintritt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Man zahlt pro Kleidungsstück."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Man muss nichts bezahlen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-2",
+                  "prompt": "Wie viele Teile darf man mitnehmen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Genauso viele, wie man bringt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Höchstens fünf."
+                    },
+                    {
+                      "id": "c",
+                      "text": "So viele, wie man möchte."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Nein, das kontrolliert niemand.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-3",
+                  "prompt": "Was passiert mit der übrigen Kleidung?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie wird weggeworfen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie geht an eine soziale Einrichtung."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie wird beim nächsten Mal verkauft."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Die geht an eine soziale Einrichtung in der Stadt.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-4",
+                  "prompt": "Wie hat sich die Zahl der Gäste entwickelt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie ist kleiner geworden."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie ist gleich geblieben."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Von 15 auf etwa 100."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Beim ersten Mal waren es fünfzehn. Jetzt kommen jedes Mal etwa hundert.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-5",
+                  "prompt": "Welche Kleidung ist am beliebtesten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Kinderkleidung"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Herrenkleidung"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Damenkleidung"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Kinderkleidung ist übrigens am beliebtesten.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Zuordnung",
+          "instructions": "Sie hören eine Person, die über fünf andere Personen erzählt. Ordnen Sie jeder Person die passende Aussage zu. Drei Aussagen bleiben übrig. Sie hören den Text zweimal.",
+          "audio": {
+            "src": "/audio/de/a2/uebungstest-a2-06/hoeren-teil-3.mp3",
+            "transcript": "Eine Mitarbeiterin an der Information übergibt die Schicht und liest ihrer Kollegin ihre Notizen vor.\n\nMitarbeiterin: Ich habe mir alles aufgeschrieben, damit du Bescheid weißt.\nHerr Traoré hat letzte Woche ein Hemd gekauft. Zu Hause hat er gesehen, dass ein Knopf fehlt. Er möchte genau dasselbe Hemd noch einmal, in derselben Größe.\nFrau Berg war wegen einer Jacke da. Ihre Tochter hat sie zu Weihnachten bekommen, aber sie ist zu klein. Sie fragt, ob wir die Jacke eine Nummer größer haben.\nHerr Lang hat eine Kaffeemaschine gekauft, erst vier Monate alt, und sie macht kein heißes Wasser mehr. Die Rechnung hatte er dabei. Er möchte sein Geld zurück.\nFrau Okoro wollte nur wissen, wo die Toiletten und danach das Café sind. Ihre Freundin hat dort schon auf sie gewartet.\nUnd Herr Novak hat gestern bei uns eingekauft. Er glaubt, dass er seinen Regenschirm liegen gelassen hat, einen blauen mit Holzgriff, und fragt, ob wir so etwas gefunden haben.\nBeschwert hat sich diesmal niemand, und bestellen wollte auch keiner etwas."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-block",
+              "prompt": "Was möchte diese Person?",
+              "stimuli": [
+                {
+                  "title": "Aussagen",
+                  "text": "A  Sie möchte einen Artikel umtauschen, weil er nicht passt.\nB  Sie möchte das Geld zurückbekommen.\nC  Sie möchte denselben Artikel noch einmal, weil er einen Fehler hat.\nD  Sie sucht einen verlorenen Gegenstand.\nE  Sie möchte etwas bestellen, das nicht da ist.\nF  Sie fragt nach dem Weg im Haus.\nG  Sie möchte sich über eine Mitarbeiterin beschweren.\nH  Sie möchte eine Rechnung bezahlen."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "A  Sie möchte einen Artikel umtauschen, weil er nicht passt."
+                },
+                {
+                  "id": "b",
+                  "text": "B  Sie möchte das Geld zurückbekommen."
+                },
+                {
+                  "id": "c",
+                  "text": "C  Sie möchte denselben Artikel noch einmal, weil er einen Fehler hat."
+                },
+                {
+                  "id": "d",
+                  "text": "D  Sie sucht einen verlorenen Gegenstand."
+                },
+                {
+                  "id": "e",
+                  "text": "E  Sie möchte etwas bestellen, das nicht da ist."
+                },
+                {
+                  "id": "f",
+                  "text": "F  Sie fragt nach dem Weg im Haus."
+                },
+                {
+                  "id": "g",
+                  "text": "G  Sie möchte sich über eine Mitarbeiterin beschweren."
+                },
+                {
+                  "id": "h",
+                  "text": "H  Sie möchte eine Rechnung bezahlen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h3-1",
+                  "prompt": "Herr Traoré",
+                  "solution": "c",
+                  "explanation": "Am Hemd fehlt ein Knopf: „Er möchte genau dasselbe Hemd noch einmal, in derselben Größe.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-2",
+                  "prompt": "Frau Berg",
+                  "solution": "a",
+                  "explanation": "Die Jacke ist zu klein: „Sie fragt, ob wir die Jacke eine Nummer größer haben.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-3",
+                  "prompt": "Herr Lang",
+                  "solution": "b",
+                  "explanation": "„Er möchte sein Geld zurück.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-4",
+                  "prompt": "Frau Okoro",
+                  "solution": "f",
+                  "explanation": "„Frau Okoro wollte nur wissen, wo die Toiletten und danach das Café sind.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h3-5",
+                  "prompt": "Herr Novak",
+                  "solution": "d",
+                  "explanation": "Er sucht seinen liegen gelassenen Regenschirm."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 25,
+      "description": "Sie lesen einen Zeitungstext, Anzeigen und kurze Texte aus dem Alltag und lösen dazu Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Zeitungstext",
+          "instructions": "Lesen Sie den Text. Sind die Sätze richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-text",
+              "stimuli": [
+                {
+                  "title": "Ein Laden ohne Verpackung",
+                  "text": "In der Gartenstraße hat vor einem Jahr ein besonderer Laden aufgemacht. Es gibt dort Reis, Nudeln, Müsli und Seife – aber keine Plastikverpackung. Die Kundinnen und Kunden bringen ihre eigenen Gläser und Dosen mit.\n\n„Am Anfang haben die Leute das komisch gefunden“, erzählt Inhaberin Ines Berg. „Viele haben ihre Gläser vergessen.“ Deshalb steht heute eine Kiste mit sauberen Gläsern an der Tür. Man darf sie umsonst benutzen und beim nächsten Einkauf zurückbringen.\n\nGünstig ist der Laden nicht. Ein Kilo Nudeln kostet hier mehr als im Supermarkt. „Dafür kauft man aber genau so viel, wie man braucht“, sagt Berg. „Wer allein lebt, nimmt eben 200 Gramm.“\n\nAm besten laufen Waschmittel und Shampoo. „Da merken die Leute sofort, wie viel Plastik sie sparen.“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-1",
+                  "statement": "In dem Laden gibt es Lebensmittel ohne Verpackung.",
+                  "solution": true,
+                  "explanation": "„Es gibt dort Reis, Nudeln, Müsli und Seife – aber keine Plastikverpackung.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-2",
+                  "statement": "Wer sein Glas vergessen hat, kann keins bekommen.",
+                  "solution": false,
+                  "explanation": "„Deshalb steht heute eine Kiste mit sauberen Gläsern an der Tür.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-3",
+                  "statement": "Die Waren sind billiger als im Supermarkt.",
+                  "solution": false,
+                  "explanation": "„Ein Kilo Nudeln kostet hier mehr als im Supermarkt.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-4",
+                  "statement": "Man kann auch kleine Mengen kaufen.",
+                  "solution": true,
+                  "explanation": "„Wer allein lebt, nimmt eben 200 Gramm.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l1-5",
+                  "statement": "Am meisten verkauft der Laden Waschmittel und Shampoo.",
+                  "solution": true,
+                  "explanation": "„Am besten laufen Waschmittel und Shampoo.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Anzeigen",
+          "instructions": "Lesen Sie die acht Anzeigen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Nicht alle Anzeigen werden gebraucht.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "text": "Unverpackt-Laden Gartenstraße – Lebensmittel ohne Plastik.\nBitte eigene Gläser mitbringen."
+                },
+                {
+                  "title": "Anzeige b",
+                  "text": "Elektro Volt – Reparatur von Waschmaschinen und Kühlschränken.\nKostenvoranschlag gratis."
+                },
+                {
+                  "title": "Anzeige c",
+                  "text": "Schneiderei Nadel – Hosen kürzen ab 12 Euro,\nReißverschluss wechseln ab 18 Euro."
+                },
+                {
+                  "title": "Anzeige d",
+                  "text": "Wochenmarkt Neustadt – Obst und Gemüse aus der Region.\nMittwoch und Samstag, 7 bis 14 Uhr."
+                },
+                {
+                  "title": "Anzeige e",
+                  "text": "Verbraucherzentrale – Beratung bei Problemen mit Verträgen\nund Online-Käufen. Termin nötig."
+                },
+                {
+                  "title": "Anzeige f",
+                  "text": "Kleidertauschparty im Stadtteilzentrum –\njeden ersten Sonntag im Monat, Eintritt frei."
+                },
+                {
+                  "title": "Anzeige g",
+                  "text": "Schuhreparatur Sohle & Co. – Absätze und Sohlen,\nfertig in drei Tagen."
+                },
+                {
+                  "title": "Anzeige h",
+                  "text": "Getränkemarkt Quelle – Kasten Wasser 4,99 Euro,\nLieferung ab 5 Kästen kostenlos."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Unverpackt-Laden Gartenstraße"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Elektro Volt"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Schneiderei Nadel"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Wochenmarkt Neustadt"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Verbraucherzentrale"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Kleidertauschparty"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Schuhreparatur Sohle & Co."
+                },
+                {
+                  "id": "h",
+                  "text": "h) Getränkemarkt Quelle"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Ihre neue Hose ist zu lang.",
+                  "solution": "c",
+                  "explanation": "Die Schneiderei kürzt Hosen ab 12 Euro."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Ein Online-Shop will Ihnen das Geld nicht zurückgeben und Sie brauchen Rat.",
+                  "solution": "e",
+                  "explanation": "Die Verbraucherzentrale berät bei Problemen mit Online-Käufen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Ihre Waschmaschine ist kaputt und Sie möchten zuerst wissen, was die Reparatur kostet.",
+                  "solution": "b",
+                  "explanation": "Bei Elektro Volt ist der Kostenvoranschlag gratis."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie möchten Kleidung loswerden und dafür andere mitnehmen, ohne zu bezahlen.",
+                  "solution": "f",
+                  "explanation": "Die Kleidertauschparty ist kostenlos."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie haben kein Auto und möchten viel Wasser nach Hause bekommen.",
+                  "solution": "h",
+                  "explanation": "Der Getränkemarkt liefert ab fünf Kästen kostenlos."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Schilder und Notizen",
+          "instructions": "Lesen Sie die Schilder und Notizen. Zu jedem Text gibt es eine Frage. Wählen Sie die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-schild-1",
+              "stimuli": [
+                {
+                  "title": "Schild 1 – an der Kasse",
+                  "text": "UMTAUSCH\nnur mit Kassenbon und innerhalb von 14 Tagen.\nReduzierte Ware ist vom Umtausch ausgeschlossen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-1",
+                  "prompt": "Was kann man nicht umtauschen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ware im Angebot"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ware mit Kassenbon"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ware nach 10 Tagen"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Reduzierte Ware ist vom Umtausch ausgeschlossen.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-2",
+              "stimuli": [
+                {
+                  "title": "Schild 2 – am Pfandautomaten",
+                  "text": "AUSSER BETRIEB\nBitte geben Sie Ihre Flaschen an Kasse 1 ab.\nSie erhalten dort einen Bon."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Wohin bringt man die Flaschen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Zu Kasse 1"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Zum Automaten am Eingang"
+                    },
+                    {
+                      "id": "c",
+                      "text": "In den Container draußen"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Bitte geben Sie Ihre Flaschen an Kasse 1 ab.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-notiz-3",
+              "stimuli": [
+                {
+                  "title": "Notiz 3 – im Briefkasten",
+                  "text": "Sehr geehrter Herr Novak,\nwir konnten Ihr Paket nicht zustellen.\nSie können es ab morgen in der Filiale\nin der Marktstraße 3 abholen.\nBitte Ausweis nicht vergessen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-3",
+                  "prompt": "Was muss Herr Novak mitbringen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Diese Notiz und einen Ausweis"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das Geld für das Paket"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nichts"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Bitte Ausweis nicht vergessen.“ Die Benachrichtigung braucht man ebenfalls."
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-4",
+              "stimuli": [
+                {
+                  "title": "Schild 4 – im Schaufenster",
+                  "text": "RÄUMUNGSVERKAUF\nAlles muss raus – bis zu 50 % reduziert!\nWir schließen am 30. Juni."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Was passiert mit dem Geschäft?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Es zieht in eine andere Straße."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Es macht am 30. Juni für immer zu."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Es macht nur Urlaub."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Räumungsverkauf … Wir schließen am 30. Juni.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-schild-5",
+              "stimuli": [
+                {
+                  "title": "Schild 5 – an der Obsttheke",
+                  "text": "Diese Äpfel sind vom Hof Meier, 12 km von hier.\nKleine Flecken sind normal –\nsie schmecken trotzdem gut und kosten weniger."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-5",
+                  "prompt": "Warum sind diese Äpfel günstiger?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil sie kleine Flecken haben"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil sie alt sind"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil sie aus dem Ausland kommen"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Kleine Flecken sind normal – sie schmecken trotzdem gut und kosten weniger.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 25,
+      "description": "Sie füllen ein Formular aus und schreiben eine E-Mail. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie zu jeder Aufgabe eine Musterlösung.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "Teil 1 – Formular",
+          "instructions": "Ihr Nachbar Ibrahim Traoré möchte eine Kundenkarte im Elektrogeschäft Volt. Er kommt aus Mali und ist am 15.06.1987 in Bamako geboren. Er wohnt in 45127 Essen. Seine Telefonnummer ist 0151 33 22 11. Füllen Sie das Formular für ihn aus.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-formular",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Familienname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Traoré"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-2",
+                  "prompt": "Vorname",
+                  "inputMode": "single-line",
+                  "musterloesung": "Ibrahim"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-3",
+                  "prompt": "Geburtsdatum",
+                  "inputMode": "single-line",
+                  "musterloesung": "15.06.1987"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-4",
+                  "prompt": "Postleitzahl und Wohnort",
+                  "inputMode": "single-line",
+                  "musterloesung": "45127 Essen"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "s1-5",
+                  "prompt": "Telefonnummer",
+                  "inputMode": "single-line",
+                  "musterloesung": "0151 33 22 11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schreiben-teil-2",
+          "title": "Teil 2 – E-Mail",
+          "instructions": "Sie haben eine Kaffeemaschine im Internet gekauft. Nach vier Monaten ist sie kaputt. Schreiben Sie eine E-Mail an den Kundenservice. Schreiben Sie 40 bis 50 Wörter.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-2-mail",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s2-1",
+                  "prompt": "Schreiben Sie die E-Mail an den Kundenservice.",
+                  "criteria": [
+                    "Kauf: Was und wann haben Sie gekauft?",
+                    "Problem: Was funktioniert nicht?",
+                    "Wunsch: Reparatur, Umtausch oder Geld zurück?",
+                    "Unterlagen: Was schicken Sie mit?"
+                  ],
+                  "hints": [
+                    "Schreiben Sie förmlich („Sehr geehrte Damen und Herren“).",
+                    "Nennen Sie Ihre Bestellnummer."
+                  ],
+                  "minWords": 40,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Damen und Herren,\n\nam 3. Februar habe ich bei Ihnen eine Kaffeemaschine gekauft, Bestellnummer 504-982.\n\nSeit gestern macht das Gerät kein heißes Wasser mehr. Ich habe die Maschine immer nach der Anleitung benutzt.\n\nIch möchte die Maschine gern umtauschen. Eine Kopie der Rechnung schicke ich im Anhang mit.\n\nMit freundlichen Grüßen\nIbrahim Traoré"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet. Nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie zu den Stichwörtern. Sie können Ihre Antwort hier kurz notieren – das ist freiwillig.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Alter – Herkunft – Wohnort – Familie – Beruf – Sprachen – Warum lernen Sie Deutsch?",
+                  "hints": [
+                    "Sprechen Sie in ganzen Sätzen, etwa zwei Minuten.",
+                    "Erzählen Sie auch, was Sie in Ihrer Freizeit machen.",
+                    "Buchstabieren Sie am Ende Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Ich heiße Ibrahim Traoré. Ich bin 37 Jahre alt und komme aus Mali, aus Bamako. Seit sechs Jahren wohne ich in Essen. Ich bin verheiratet und habe drei Kinder. Sie gehen hier zur Schule und sprechen schon besser Deutsch als ich. Ich arbeite als Lagerist bei einer Logistikfirma. Ich spreche Bambara, Französisch und Deutsch. Deutsch lerne ich, weil ich den Führerschein machen möchte und die Theorieprüfung auf Deutsch ist. Mein Familienname ist Traoré: T – R – A – O – R – É."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Ein Alltagsgespräch führen",
+          "instructions": "Thema: Einkaufen. Bilden Sie mit dem Satzanfang eine Frage an Ihre Gesprächspartnerin oder Ihren Gesprächspartner – und antworten Sie dann selbst darauf.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Satzanfang: „Wo …?“",
+                  "musterloesung": "Frage: Wo kaufen Sie normalerweise ein?\nAntwort: Meistens im Supermarkt in meiner Straße, weil er nah ist. Obst und Gemüse kaufe ich aber lieber am Samstag auf dem Wochenmarkt."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Satzanfang: „Kaufen Sie lieber …?“",
+                  "musterloesung": "Frage: Kaufen Sie lieber im Geschäft oder im Internet ein?\nAntwort: Kleidung kaufe ich lieber im Geschäft, weil ich sie anprobieren möchte. Bücher und Technik bestelle ich im Internet, das ist oft günstiger."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Zusammen etwas planen",
+          "instructions": "Lesen Sie die Situation. Planen Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner. Machen Sie Vorschläge, reagieren Sie auf Vorschläge und einigen Sie sich am Ende.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Sie und Ihre Nachbarin möchten für ein gemeinsames Essen mit dem ganzen Haus einkaufen. Planen Sie zusammen den Einkauf.",
+                  "hints": [
+                    "Für wie viele Personen kaufen Sie ein?",
+                    "Was kochen Sie und was brauchen Sie dafür?",
+                    "Wo kaufen Sie ein und wann?",
+                    "Wer bezahlt was?"
+                  ],
+                  "musterloesung": "A: Am Sonntag ist unser Hoffest. Wir müssen noch einkaufen.\nB: Stimmt. Für wie viele Leute planen wir denn?\nA: Es haben sich 18 angemeldet. Rechnen wir lieber mit 20.\nB: Gut. Was kochen wir? Ich schlage einen großen Salat und Gemüse vom Grill vor.\nA: Salat ja, aber nur Gemüse ist vielleicht zu wenig. Machen wir zusätzlich Kartoffeln mit Kräuterquark?\nB: Einverstanden. Dann brauchen wir Kartoffeln, Quark, Gemüse, Salat und Brot.\nA: Und Getränke. Wo kaufen wir ein?\nB: Das Gemüse am Samstag auf dem Wochenmarkt, das ist frischer. Den Rest im Supermarkt.\nA: Ich gehe auf den Markt, du in den Supermarkt?\nB: Ja. Wir sammeln vorher von jedem fünf Euro ein, dann müssen wir nichts vorlegen.\nA: Sehr gut. Ich schreibe heute Abend einen Zettel für das Treppenhaus."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
