@@ -1,7 +1,13 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { getSupabase, isSupabaseConfigured } from "./supabase/client";
+import {
+  fetchAttempt,
+  getMe,
+  importAttempts,
+  saveAttempt,
+  type AttemptPayload,
+} from "./api";
 import type { Answers, AnswerValue, SelfAssessment, SelfRating } from "./scoring";
 import type { SectionKind } from "./schema";
 
@@ -14,6 +20,7 @@ export interface Attempt {
 }
 
 const storageKey = (testId: string) => `uebungstest:attempt:${testId}`;
+const KEY_PREFIX = "uebungstest:attempt:";
 
 function emptyAttempt(testId: string): Attempt {
   return {
@@ -46,64 +53,76 @@ function writeLocalAttempt(attempt: Attempt) {
   }
 }
 
-/* ------------------------------ remote store ------------------------------ */
-
-async function readRemoteAttempt(testId: string): Promise<Attempt | null> {
-  const supabase = getSupabase();
-  if (!supabase) return null;
-
-  const { data: userData } = await supabase.auth.getUser();
-  if (!userData.user) return null;
-
-  const { data, error } = await supabase
-    .from("attempts")
-    .select("answers, self_assessment, submitted_sections, updated_at")
-    .eq("test_id", testId)
-    .eq("user_id", userData.user.id)
-    .maybeSingle();
-
-  if (error || !data) return null;
-
-  return {
-    testId,
-    answers: (data.answers ?? {}) as Answers,
-    selfAssessment: (data.self_assessment ?? {}) as SelfAssessment,
-    submittedSections: (data.submitted_sections ?? []) as SectionKind[],
-    updatedAt: data.updated_at ?? new Date().toISOString(),
-  };
+export function readAllLocalAttempts(): Attempt[] {
+  if (typeof window === "undefined") return [];
+  const all: Attempt[] = [];
+  for (let i = 0; i < window.localStorage.length; i++) {
+    const key = window.localStorage.key(i);
+    if (!key?.startsWith(KEY_PREFIX)) continue;
+    try {
+      all.push(JSON.parse(window.localStorage.getItem(key)!) as Attempt);
+    } catch {
+      // Corrupt entry — skip it rather than lose the rest.
+    }
+  }
+  return all;
 }
 
-async function writeRemoteAttempt(attempt: Attempt): Promise<void> {
-  const supabase = getSupabase();
-  if (!supabase) return;
+export function clearAllLocalAttempts() {
+  try {
+    for (const key of Object.keys(window.localStorage)) {
+      if (key.startsWith(KEY_PREFIX)) window.localStorage.removeItem(key);
+    }
+  } catch {
+    // Nothing was stored here anyway.
+  }
+}
 
-  const { data: userData } = await supabase.auth.getUser();
-  if (!userData.user) return;
+/* -------------------------------- syncing --------------------------------- */
 
-  await supabase.from("attempts").upsert(
-    {
-      user_id: userData.user.id,
-      test_id: attempt.testId,
-      answers: attempt.answers,
-      self_assessment: attempt.selfAssessment,
-      submitted_sections: attempt.submittedSections,
-    },
-    { onConflict: "user_id,test_id" },
+const toPayload = (attempt: Attempt): AttemptPayload => ({
+  testId: attempt.testId,
+  answers: attempt.answers as Record<string, unknown>,
+  selfAssessment: attempt.selfAssessment,
+  submittedSections: attempt.submittedSections,
+  updatedAt: attempt.updatedAt,
+});
+
+/**
+ * Moves whatever this browser did anonymously into the account.
+ *
+ * Without this, a learner who works through three tests and *then* signs up
+ * finds an empty account: progress is only pushed when something changes, and a
+ * finished test is never touched again. Signing up would look like losing
+ * everything.
+ */
+export async function mergeLocalAttemptsIntoAccount(): Promise<number> {
+  const me = await getMe();
+  if (!me.enabled || !me.user) return 0;
+
+  const local = readAllLocalAttempts().filter(
+    (a) => a.submittedSections?.length || Object.keys(a.answers ?? {}).length,
   );
+  if (local.length === 0) return 0;
+
+  const result = await importAttempts(local.map(toPayload));
+  return result.ok ? result.data.imported : 0;
 }
 
 /* --------------------------------- hook ---------------------------------- */
 
 /**
- * Local-first: state lives in the browser and is written synchronously, so the
- * test works offline and without an account. If the user is signed in, the
- * newer of (local, remote) wins on load and changes are pushed up, debounced.
+ * Local-first: state is written to localStorage synchronously, so a test keeps
+ * working offline and without an account. When signed in, the server copy is
+ * loaded on mount if it is newer, and changes are pushed up debounced.
  */
 export function useAttempt(testId: string) {
   const [attempt, setAttempt] = useState<Attempt>(() => emptyAttempt(testId));
   const [loaded, setLoaded] = useState(false);
   const [syncing, setSyncing] = useState(false);
+
   const syncTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const signedIn = useRef(false);
 
   /**
    * The latest state is mirrored into a ref so `update` can read it without
@@ -122,12 +141,24 @@ export function useAttempt(testId: string) {
         setAttempt(local);
       }
 
-      if (isSupabaseConfigured) {
-        const remote = await readRemoteAttempt(testId);
+      const me = await getMe();
+      signedIn.current = Boolean(me.enabled && me.user);
+
+      if (signedIn.current) {
+        const result = await fetchAttempt(testId);
+        const remote = result.ok ? result.data.attempt : null;
+
         if (!cancelled && remote && remote.updatedAt > local.updatedAt) {
-          latest.current = remote;
-          setAttempt(remote);
-          writeLocalAttempt(remote);
+          const merged: Attempt = {
+            testId,
+            answers: remote.answers as Answers,
+            selfAssessment: remote.selfAssessment as SelfAssessment,
+            submittedSections: remote.submittedSections as SectionKind[],
+            updatedAt: remote.updatedAt,
+          };
+          latest.current = merged;
+          setAttempt(merged);
+          writeLocalAttempt(merged);
         }
       }
 
@@ -141,12 +172,17 @@ export function useAttempt(testId: string) {
 
   const persist = useCallback((next: Attempt) => {
     writeLocalAttempt(next);
-    if (!isSupabaseConfigured) return;
+    if (!signedIn.current) return;
 
     if (syncTimer.current) clearTimeout(syncTimer.current);
     setSyncing(true);
     syncTimer.current = setTimeout(() => {
-      void writeRemoteAttempt(next).finally(() => setSyncing(false));
+      void saveAttempt(next.testId, {
+        answers: next.answers as Record<string, unknown>,
+        selfAssessment: next.selfAssessment,
+        submittedSections: next.submittedSections,
+        updatedAt: next.updatedAt,
+      }).finally(() => setSyncing(false));
     }, 1200);
   }, []);
 

@@ -1,9 +1,16 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
-import { getSupabase, isSupabaseConfigured } from "@/lib/supabase/client";
-import { readLocalAttempt } from "@/lib/attempt-store";
+import { useRouter, useSearchParams } from "next/navigation";
+import {
+  authLogout,
+  deleteAccount,
+  fetchAttempts,
+  forgetMe,
+  getMe,
+  type AttemptPayload,
+} from "@/lib/api";
+import { clearAllLocalAttempts, readLocalAttempt } from "@/lib/attempt-store";
 import { Badge, Button, ButtonLink, Card } from "./ui";
 
 interface TestSummary {
@@ -16,52 +23,67 @@ interface TestSummary {
 interface Row {
   test: TestSummary;
   submittedSections: number;
+  answeredTasks: number;
   updatedAt: string | null;
+}
+
+/**
+ * How many tasks have an actual answer.
+ *
+ * Counting only *submitted* sections hid every test that was still in progress,
+ * which is exactly the work a learner most wants to find again.
+ */
+function countAnswered(answers: unknown): number {
+  if (!answers || typeof answers !== "object") return 0;
+  return Object.values(answers as Record<string, unknown>).filter((v) => {
+    if (v === undefined || v === null) return false;
+    if (typeof v === "string") return v.trim().length > 0;
+    return true;
+  }).length;
 }
 
 export function Dashboard({ tests }: { tests: TestSummary[] }) {
   const router = useRouter();
+  const justVerified = useSearchParams().get("willkommen") === "1";
+
   const [email, setEmail] = useState<string | null>(null);
+  const [accountsEnabled, setAccountsEnabled] = useState(false);
   const [rows, setRows] = useState<Row[]>([]);
   const [loading, setLoading] = useState(true);
+  const [deleting, setDeleting] = useState(false);
 
   useEffect(() => {
     (async () => {
-      const supabase = getSupabase();
+      const me = await getMe();
+      setAccountsEnabled(me.enabled);
+      setEmail(me.user?.email ?? null);
 
-      // Remote progress when signed in, local progress otherwise.
-      if (supabase) {
-        const { data: userData } = await supabase.auth.getUser();
-        setEmail(userData.user?.email ?? null);
-
-        if (userData.user) {
-          const { data } = await supabase
-            .from("attempts")
-            .select("test_id, submitted_sections, updated_at")
-            .eq("user_id", userData.user.id);
-
-          setRows(
-            tests.map((test) => {
-              const match = data?.find((row) => row.test_id === test.id);
-              return {
-                test,
-                submittedSections: match?.submitted_sections?.length ?? 0,
-                updatedAt: match?.updated_at ?? null,
-              };
-            }),
-          );
-          setLoading(false);
-          return;
-        }
+      let remote: AttemptPayload[] | null = null;
+      if (me.enabled && me.user) {
+        const result = await fetchAttempts();
+        if (result.ok) remote = result.data.attempts;
       }
 
       setRows(
         tests.map((test) => {
+          const match = remote?.find((a) => a.testId === test.id);
+          if (match) {
+            return {
+              test,
+              submittedSections: match.submittedSections.length,
+              answeredTasks: countAnswered(match.answers),
+              updatedAt: match.updatedAt,
+            };
+          }
+
           const local = readLocalAttempt(test.id);
+          const answeredTasks = countAnswered(local.answers);
+          const started = answeredTasks > 0 || local.submittedSections.length > 0;
           return {
             test,
             submittedSections: local.submittedSections.length,
-            updatedAt: local.submittedSections.length ? local.updatedAt : null,
+            answeredTasks,
+            updatedAt: started ? local.updatedAt : null,
           };
         }),
       );
@@ -70,13 +92,41 @@ export function Dashboard({ tests }: { tests: TestSummary[] }) {
   }, [tests]);
 
   const signOut = async () => {
-    const supabase = getSupabase();
-    await supabase?.auth.signOut();
+    await authLogout();
+    forgetMe();
     router.push("/");
     router.refresh();
   };
 
-  const started = rows.filter((row) => row.submittedSections > 0);
+  const removeAccount = async () => {
+    if (
+      !window.confirm(
+        "Ihr Konto und alle gespeicherten Ergebnisse werden endgültig gelöscht. Das kann nicht rückgängig gemacht werden. Wirklich löschen?",
+      )
+    ) {
+      return;
+    }
+
+    setDeleting(true);
+    const result = await deleteAccount();
+    if (!result.ok) {
+      setDeleting(false);
+      window.alert(result.error);
+      return;
+    }
+
+    // The account is gone; clear this browser too, or the next person here
+    // would see the deleted learner's answers.
+    clearAllLocalAttempts();
+    forgetMe();
+    router.push("/");
+    router.refresh();
+  };
+
+  // Anything touched at all, most recently worked on first.
+  const started = rows
+    .filter((row) => row.submittedSections > 0 || row.answeredTasks > 0)
+    .sort((a, b) => (b.updatedAt ?? "").localeCompare(a.updatedAt ?? ""));
 
   return (
     <div className="space-y-6">
@@ -96,18 +146,26 @@ export function Dashboard({ tests }: { tests: TestSummary[] }) {
         )}
       </header>
 
-      {!isSupabaseConfigured && (
-        <div className="rounded-xl border border-slate-200 bg-white p-4 text-sm text-slate-600">
-          Die Anmeldung ist noch nicht eingerichtet. Ihre Ergebnisse bleiben
-          vorerst nur auf diesem Gerät gespeichert.
+      {justVerified && email && (
+        <div className="rounded-xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-900">
+          Ihre E-Mail-Adresse ist bestätigt und Sie sind angemeldet. Ab jetzt ist
+          Ihr Fortschritt auf allen Geräten gleich.
         </div>
       )}
 
-      {isSupabaseConfigured && !email && !loading && (
+      {!accountsEnabled && (
+        <div className="rounded-xl border border-slate-200 bg-white p-4 text-sm text-slate-600">
+          Die Anmeldung ist auf diesem Server nicht eingerichtet. Ihre Ergebnisse
+          bleiben vorerst nur auf diesem Gerät gespeichert.
+        </div>
+      )}
+
+      {accountsEnabled && !email && !loading && (
         <div className="rounded-xl border border-brand-200 bg-brand-50 p-4 text-sm">
           <p className="text-slate-700">
             Melden Sie sich an, damit Ihr Fortschritt auch auf dem Handy und auf
-            anderen Geräten verfügbar ist.
+            anderen Geräten verfügbar ist. Was Sie hier schon gemacht haben, wird
+            dabei übernommen.
           </p>
           <ButtonLink href="/anmelden" className="mt-3">
             Anmelden
@@ -123,7 +181,7 @@ export function Dashboard({ tests }: { tests: TestSummary[] }) {
         ) : started.length === 0 ? (
           <Card>
             <p className="text-sm text-slate-600">
-              Sie haben noch keinen Übungstest abgegeben.
+              Sie haben noch keinen Übungstest begonnen.
             </p>
             <ButtonLink href="/uebungstests" className="mt-3">
               Übungstest starten
@@ -153,17 +211,28 @@ export function Dashboard({ tests }: { tests: TestSummary[] }) {
                                 <Badge tone="info">{row.test.level}</Badge>
                               </div>
                               <p className="mt-1 text-sm text-slate-600">
-                                {row.submittedSections} von{" "}
-                                {row.test.sectionCount} Teilen abgegeben
+                                {row.submittedSections > 0
+                                  ? `${row.submittedSections} von ${row.test.sectionCount} Teilen abgegeben`
+                                  : `begonnen · ${row.answeredTasks} ${
+                                      row.answeredTasks === 1
+                                        ? "Aufgabe"
+                                        : "Aufgaben"
+                                    } bearbeitet`}
                                 {row.updatedAt &&
                                   ` · zuletzt ${new Date(row.updatedAt).toLocaleDateString("de-DE")}`}
                               </p>
                             </div>
                             <ButtonLink
-                              href={`/uebungstest/${row.test.id}/ergebnis`}
+                              href={
+                                row.submittedSections > 0
+                                  ? `/uebungstest/${row.test.id}/ergebnis`
+                                  : `/uebungstest/${row.test.id}`
+                              }
                               variant="secondary"
                             >
-                              Ergebnis
+                              {row.submittedSections > 0
+                                ? "Ergebnis"
+                                : "Weitermachen"}
                             </ButtonLink>
                           </Card>
                         </li>
@@ -174,6 +243,24 @@ export function Dashboard({ tests }: { tests: TestSummary[] }) {
           </div>
         )}
       </section>
+
+      {email && (
+        <section className="rounded-xl border border-slate-200 bg-white p-5">
+          <h2 className="font-semibold text-slate-900">Konto löschen</h2>
+          <p className="mt-1 text-sm leading-relaxed text-slate-600">
+            Damit werden Ihre E-Mail-Adresse und alle gespeicherten Ergebnisse
+            endgültig gelöscht. Das lässt sich nicht rückgängig machen.
+          </p>
+          <Button
+            variant="secondary"
+            onClick={removeAccount}
+            disabled={deleting}
+            className="mt-3 border-rose-300 text-rose-700 hover:bg-rose-50"
+          >
+            {deleting ? "Wird gelöscht …" : "Konto und alle Daten löschen"}
+          </Button>
+        </section>
+      )}
     </div>
   );
 }

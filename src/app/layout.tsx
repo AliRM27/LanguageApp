@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { AuthSync } from "@/components/AuthSync";
 
 export const metadata: Metadata = {
   title: {
@@ -18,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="de">
       <body className="flex min-h-screen flex-col">
+        <AuthSync />
         <SiteHeader />
         <main className="mx-auto w-full max-w-3xl flex-1 px-4 py-8 sm:py-12">
           {children}

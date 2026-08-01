@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { getAllTests } from "@/lib/content";
 import { Dashboard } from "@/components/Dashboard";
 
@@ -8,8 +9,8 @@ export const metadata: Metadata = {
 };
 
 export default function DashboardPage() {
-  // Content stays on the server; only ids and titles are handed to the client,
-  // which then reads the user's own progress from Supabase.
+  // Content stays on the server; only ids and titles reach the client, which
+  // then loads the learner's own progress from the API.
   const tests = getAllTests().map((test) => ({
     id: test.id,
     title: test.title,
@@ -17,5 +18,13 @@ export default function DashboardPage() {
     sectionCount: test.sections.length,
   }));
 
-  return <Dashboard tests={tests} />;
+  return (
+    <Suspense
+      fallback={
+        <p className="py-16 text-center text-sm text-slate-500">Wird geladen …</p>
+      }
+    >
+      <Dashboard tests={tests} />
+    </Suspense>
+  );
 }

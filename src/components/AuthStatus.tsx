@@ -2,44 +2,25 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { getSupabase, isSupabaseConfigured } from "@/lib/supabase/client";
+import { getMe, type Me } from "@/lib/api";
 
 export function AuthStatus() {
-  const [email, setEmail] = useState<string | null>(null);
-  const [ready, setReady] = useState(false);
+  const [me, setMe] = useState<Me | null>(null);
 
   useEffect(() => {
-    const supabase = getSupabase();
-    if (!supabase) {
-      setReady(true);
-      return;
-    }
-
-    void supabase.auth.getUser().then(({ data }) => {
-      setEmail(data.user?.email ?? null);
-      setReady(true);
-    });
-
-    const { data: sub } = supabase.auth.onAuthStateChange((_event, session) => {
-      setEmail(session?.user?.email ?? null);
-    });
-
-    return () => sub.subscription.unsubscribe();
+    void getMe().then(setMe);
   }, []);
 
-  if (!isSupabaseConfigured || !ready) return null;
-
-  if (!email) {
-    return (
-      <Link href="/anmelden" className="text-brand-600 hover:underline">
-        Anmelden
-      </Link>
-    );
-  }
+  // Nothing until we know: a link that flips from "Anmelden" to "Mein Bereich"
+  // a moment after load is worse than a brief gap.
+  if (!me?.enabled) return null;
 
   return (
-    <Link href="/mein-bereich" className="text-brand-600 hover:underline">
-      Mein Bereich
+    <Link
+      href={me.user ? "/mein-bereich" : "/anmelden"}
+      className="text-brand-600 hover:underline"
+    >
+      {me.user ? "Mein Bereich" : "Anmelden"}
     </Link>
   );
 }

@@ -103,19 +103,19 @@ usable, and the transcript appears after submission.
 
 ## Accounts
 
-Optional. Without `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY`
-the app hides the login entirely and keeps progress in `localStorage`.
+Our own auth, in this app — no third-party auth service. The API lives in
+`src/app/api`, the server code in `src/server`, and the data in MongoDB.
 
-To enable accounts:
+Optional: without `MONGODB_URI` the login disappears and progress stays in
+`localStorage`. Every test works either way.
 
-1. Create a project at supabase.com.
-2. Run `supabase/migrations/0001_init.sql` in the SQL editor.
-3. Put the project URL and anon key in `.env.local`.
-4. In Supabase → Authentication → URL Configuration, add
-   `<your-site>/auth/callback` as a redirect URL.
+One form at `/anmelden` both signs in and signs up — the server works out which
+it is. Passwords are hashed with scrypt, sessions are revocable random tokens
+stored hashed, and e-mail links are single-use and expire in an hour. A learner
+can only ever reach their own data, and deletion is self-service. Work done
+before signing up moves into the account on first sign-in.
 
-Login is magic-link only: no passwords to store and no reset flow to build.
-Row-level security means a user can only ever read and write their own attempts.
+**Setup, testing and the security decisions: [docs/accounts.md](docs/accounts.md)**
 
 ## Deployment
 
