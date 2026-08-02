@@ -3,7 +3,7 @@ import Link from "next/link";
 export function SiteFooter() {
   return (
     <footer className="border-t border-slate-200 bg-white">
-      <div className="mx-auto w-full max-w-3xl space-y-4 px-4 py-8 text-sm text-slate-500">
+      <div className="mx-auto w-full max-w-3xl space-y-5 px-5 py-12 sm:px-6 text-sm text-slate-500">
         <nav className="flex flex-wrap gap-4">
           <Link href="/uebungstests" className="hover:text-slate-800">
             Übungstests
@@ -28,7 +28,7 @@ export function SiteFooter() {
         </p>
 
         <p className="text-xs">
-          © {new Date().getFullYear()} Deutsch Übungstests
+          © {new Date().getFullYear()} Deutsch Test Online
         </p>
       </div>
     </footer>

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getAllTests, getSection, nextSectionKind } from "@/lib/content";
 import { SECTION_LABEL, type SectionKind } from "@/lib/schema";
 import { SectionRunner } from "@/components/SectionRunner";
+import { canonical } from "@/lib/site";
 
 export function generateStaticParams() {
   return getAllTests().flatMap((test) =>
@@ -21,6 +22,7 @@ export async function generateMetadata({
   return {
     title: `${SECTION_LABEL[found.section.kind]} – ${found.test.title}`,
     description: found.section.description,
+    alternates: canonical(`/uebungstest/${found.test.id}/${found.section.kind}`),
   };
 }
 

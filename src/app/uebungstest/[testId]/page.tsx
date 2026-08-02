@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllTests, getTest } from "@/lib/content";
 import { TestOverview } from "@/components/TestOverview";
+import { canonical } from "@/lib/site";
 
 export function generateStaticParams() {
   return getAllTests().map((test) => ({ testId: test.id }));
@@ -15,7 +16,11 @@ export async function generateMetadata({
   const { testId } = await params;
   const test = getTest(testId);
   if (!test) return {};
-  return { title: test.title, description: test.description };
+  return {
+    title: test.title,
+    description: test.description,
+    alternates: canonical(`/uebungstest/${test.id}`),
+  };
 }
 
 export default async function TestPage({

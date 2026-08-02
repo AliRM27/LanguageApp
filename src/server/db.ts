@@ -78,6 +78,16 @@ export interface AttemptDoc {
   answers: Record<string, unknown>;
   selfAssessment: Record<string, string>;
   submittedSections: string[];
+  /**
+   * Per section: { correct, total }, written when the learner submits it.
+   *
+   * Stored rather than derived so that "Mein Bereich" can show results without
+   * the server having to load and score 18 tests on every page view, and
+   * without the browser ever receiving an answer key.
+   *
+   * Optional: attempts written before this field existed simply have none.
+   */
+  scores?: Record<string, { correct: number; total: number }>;
   updatedAt: Date;
 }
 

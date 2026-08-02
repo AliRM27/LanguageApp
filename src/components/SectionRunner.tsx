@@ -39,7 +39,9 @@ export function SectionRunner({
     ) {
       return;
     }
-    submitSection(section.kind);
+    // The score is already on screen; recording it here is what lets
+    // "Mein Bereich" show results without ever loading the answer keys.
+    submitSection(section.kind, { correct: score.correct, total: score.total });
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 

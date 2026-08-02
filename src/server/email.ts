@@ -81,7 +81,7 @@ const layout = (heading: string, body: string) => `
   <h2 style="margin:0 0 12px">${heading}</h2>
   ${body}
   <p style="margin-top:24px;font-size:12px;color:#64748b">
-    Deutsch Übungstests
+    Deutsch Test Online
   </p>
 </div>`;
 
@@ -101,14 +101,14 @@ export function verifyEmailMail(to: string, url: string): Mail {
     to,
     subject: "Bitte bestätigen Sie Ihre E-Mail-Adresse",
     html: layout(
-      "Willkommen bei Deutsch Übungstests",
+      "Willkommen bei Deutsch Test Online",
       `<p>Bitte bestätigen Sie Ihre E-Mail-Adresse. Danach sind Sie angemeldet.</p>
        ${button(url, "E-Mail-Adresse bestätigen")}
        <p style="font-size:13px;color:#475569">Der Link gilt eine Stunde.
        Wenn Sie sich nicht angemeldet haben, können Sie diese E-Mail löschen.</p>`,
     ),
     text: [
-      "Willkommen bei Deutsch Übungstests",
+      "Willkommen bei Deutsch Test Online",
       "",
       "Bitte bestätigen Sie Ihre E-Mail-Adresse:",
       url,
@@ -122,7 +122,7 @@ export function verifyEmailMail(to: string, url: string): Mail {
 export function resetPasswordMail(to: string, url: string): Mail {
   return {
     to,
-    subject: "Neues Passwort für Deutsch Übungstests",
+    subject: "Neues Passwort für Deutsch Test Online",
     html: layout(
       "Neues Passwort",
       `<p>Klicken Sie auf den Knopf, um ein neues Passwort zu wählen.</p>

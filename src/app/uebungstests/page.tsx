@@ -2,18 +2,21 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getLevels, LEVEL_DESCRIPTION, levelSlug } from "@/lib/content";
 import { Card } from "@/components/ui";
+import { FreePhaseNotice } from "@/components/FreePhaseNotice";
+import { canonical } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Übungstests nach Niveau",
   description:
     "Übungstests für die Deutschprüfung, geordnet nach Niveau von A1 bis C1.",
+  alternates: canonical("/uebungstests"),
 };
 
 export default function LevelOverviewPage() {
   const levels = getLevels();
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-10">
       <header className="space-y-2">
         <h1 className="text-3xl font-semibold text-slate-900">Übungstests</h1>
         <p className="text-slate-600">
@@ -21,7 +24,9 @@ export default function LevelOverviewPage() {
         </p>
       </header>
 
-      <ul className="space-y-3">
+      <FreePhaseNotice />
+
+      <ul className="space-y-4">
         {levels.map(({ level, count }) => (
           <li key={level}>
             <Link href={`/uebungstests/${levelSlug(level)}`} className="block">

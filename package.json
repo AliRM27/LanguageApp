@@ -1,5 +1,5 @@
 {
-  "name": "deutsch-uebungstests",
+  "name": "deutschtestonline",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,8 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "validate:content": "tsx scripts/validate-content.ts",
+    "check:release": "node scripts/check-release.mjs",
+    "preflight": "npm run typecheck && npm run validate:content && npm run check:release && npm run build",
     "audio:plan": "node scripts/audio/plan-audio.mjs",
     "audio:check": "node scripts/audio/synthesize.mjs --check",
     "audio:build": "node scripts/audio/synthesize.mjs"

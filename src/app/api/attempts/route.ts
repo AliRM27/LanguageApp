@@ -9,6 +9,8 @@ export interface AttemptPayload {
   answers: Record<string, unknown>;
   selfAssessment: Record<string, string>;
   submittedSections: string[];
+  /** Per section: { correct, total }. Absent on attempts saved before scores. */
+  scores?: Record<string, { correct: number; total: number }>;
   updatedAt: string;
 }
 
@@ -17,6 +19,7 @@ const toPayload = (doc: AttemptDoc): AttemptPayload => ({
   answers: doc.answers ?? {},
   selfAssessment: doc.selfAssessment ?? {},
   submittedSections: doc.submittedSections ?? [],
+  scores: doc.scores ?? {},
   updatedAt: doc.updatedAt.toISOString(),
 });
 
@@ -73,6 +76,7 @@ export async function POST(request: Request) {
             answers: a.answers ?? {},
             selfAssessment: a.selfAssessment ?? {},
             submittedSections: a.submittedSections ?? [],
+            scores: a.scores ?? {},
             updatedAt: new Date(),
           },
         },

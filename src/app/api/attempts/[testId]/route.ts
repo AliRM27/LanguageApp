@@ -25,6 +25,7 @@ export async function GET(
           answers: doc.answers ?? {},
           selfAssessment: doc.selfAssessment ?? {},
           submittedSections: doc.submittedSections ?? [],
+          scores: doc.scores ?? {},
           updatedAt: doc.updatedAt.toISOString(),
         }
       : null,
@@ -52,6 +53,7 @@ export async function PUT(
         answers: body.answers ?? {},
         selfAssessment: body.selfAssessment ?? {},
         submittedSections: body.submittedSections ?? [],
+        scores: body.scores ?? {},
         updatedAt: new Date(),
       },
       $setOnInsert: { userId: user._id, testId },

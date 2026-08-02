@@ -11,11 +11,34 @@ import {
 import type { Answers, AnswerValue, SelfAssessment, SelfRating } from "./scoring";
 import type { SectionKind } from "./schema";
 
+/** What a learner got right in one section, recorded when they submit it. */
+export interface SectionResult {
+  correct: number;
+  total: number;
+}
+
+export type SectionScores = Partial<Record<SectionKind, SectionResult>>;
+
 export interface Attempt {
   testId: string;
   answers: Answers;
   selfAssessment: SelfAssessment;
   submittedSections: SectionKind[];
+  /**
+   * Scores are stored at submission time rather than recomputed later.
+   *
+   * "Mein Bereich" needs to show how well someone did, but it must not receive
+   * the solutions to do it — the dashboard lists all 18 tests, and shipping
+   * every answer key to that page would both bloat it and hand away the
+   * material we intend to put behind a paywall. Writing the two numbers when
+   * the section is submitted, on the page that legitimately holds the content,
+   * avoids the problem entirely and works identically with or without an
+   * account.
+   *
+   * Optional because attempts saved before this existed have none; the
+   * dashboard treats a missing score as "submitted, score unknown".
+   */
+  scores?: SectionScores;
   updatedAt: string;
 }
 
@@ -28,6 +51,7 @@ function emptyAttempt(testId: string): Attempt {
     answers: {},
     selfAssessment: {},
     submittedSections: [],
+    scores: {},
     updatedAt: new Date(0).toISOString(),
   };
 }
@@ -85,6 +109,7 @@ const toPayload = (attempt: Attempt): AttemptPayload => ({
   answers: attempt.answers as Record<string, unknown>,
   selfAssessment: attempt.selfAssessment,
   submittedSections: attempt.submittedSections,
+  scores: attempt.scores ?? {},
   updatedAt: attempt.updatedAt,
 });
 
@@ -154,6 +179,7 @@ export function useAttempt(testId: string) {
             answers: remote.answers as Answers,
             selfAssessment: remote.selfAssessment as SelfAssessment,
             submittedSections: remote.submittedSections as SectionKind[],
+            scores: (remote.scores ?? {}) as SectionScores,
             updatedAt: remote.updatedAt,
           };
           latest.current = merged;
@@ -181,6 +207,7 @@ export function useAttempt(testId: string) {
         answers: next.answers as Record<string, unknown>,
         selfAssessment: next.selfAssessment,
         submittedSections: next.submittedSections,
+        scores: next.scores ?? {},
         updatedAt: next.updatedAt,
       }).finally(() => setSyncing(false));
     }, 1200);
@@ -217,13 +244,22 @@ export function useAttempt(testId: string) {
     [update],
   );
 
+  /**
+   * `result` is what the section page already computed to show the learner, so
+   * it costs nothing here and means the dashboard never has to see a solution.
+   * Re-submitting overwrites, which is what someone expects after a reset.
+   */
   const submitSection = useCallback(
-    (kind: SectionKind) =>
+    (kind: SectionKind, result?: SectionResult) =>
       update((current) => ({
         ...current,
         submittedSections: current.submittedSections.includes(kind)
           ? current.submittedSections
           : [...current.submittedSections, kind],
+        scores:
+          result && result.total > 0
+            ? { ...(current.scores ?? {}), [kind]: result }
+            : current.scores,
       })),
     [update],
   );

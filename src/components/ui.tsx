@@ -4,7 +4,7 @@ import type { ComponentProps, ReactNode } from "react";
 type Variant = "primary" | "secondary" | "ghost";
 
 const base =
-  "inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2.5 text-sm font-medium transition focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none";
+  "inline-flex items-center justify-center gap-2 rounded-lg px-5 py-2.5 text-sm font-medium transition focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none";
 
 const variants: Record<Variant, string> = {
   primary: "bg-brand-600 text-white hover:bg-brand-700 shadow-sm",
@@ -38,7 +38,7 @@ export function Card({
 }) {
   return (
     <div
-      className={`rounded-xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6 ${className}`}
+      className={`rounded-xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8 ${className}`}
     >
       {children}
     </div>

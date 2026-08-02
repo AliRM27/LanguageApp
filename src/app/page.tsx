@@ -1,7 +1,12 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+import { canonical } from "@/lib/site";
 import { getAllTests, getLevels, LEVEL_DESCRIPTION, levelSlug } from "@/lib/content";
 import { ButtonLink, Card } from "@/components/ui";
+import { FreePhaseNotice } from "@/components/FreePhaseNotice";
 import { SECTION_LABEL } from "@/lib/schema";
+
+export const metadata: Metadata = { alternates: canonical("/") };
 
 export default function HomePage() {
   const tests = getAllTests();
@@ -9,7 +14,7 @@ export default function HomePage() {
   const levels = getLevels();
 
   return (
-    <div className="space-y-10">
+    <div className="space-y-16">
       <section className="space-y-4">
         <p className="text-sm font-medium text-brand-600">
           Prüfungsvorbereitung Deutsch
@@ -33,13 +38,14 @@ export default function HomePage() {
             </ButtonLink>
           )}
         </div>
+        <FreePhaseNotice className="mt-2" />
       </section>
 
-      <section className="space-y-3">
+      <section className="space-y-5">
         <h2 className="text-xl font-semibold text-slate-900">
           Wählen Sie Ihr Niveau
         </h2>
-        <div className="grid gap-3 sm:grid-cols-2">
+        <div className="grid gap-4 sm:grid-cols-2">
           {levels.map(({ level, count }) => (
             <Link key={level} href={`/uebungstests/${levelSlug(level)}`}>
               <Card className="h-full transition hover:border-brand-300 hover:shadow">
@@ -62,7 +68,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="grid gap-4 sm:grid-cols-2">
+      <section className="grid gap-5 sm:grid-cols-2">
         {(
           [
             {
@@ -93,11 +99,11 @@ export default function HomePage() {
       </section>
 
       {firstTest && (
-        <section className="space-y-3">
+        <section className="space-y-5">
           <h2 className="text-xl font-semibold text-slate-900">
             Das erwartet Sie
           </h2>
-          <div className="grid gap-3 sm:grid-cols-4">
+          <div className="grid gap-4 sm:grid-cols-4">
             {firstTest.sections.map((section) => (
               <Card key={section.kind} className="text-center">
                 <p className="font-medium text-slate-900">

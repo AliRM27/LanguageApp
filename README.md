@@ -1,4 +1,4 @@
-# Deutsch Übungstests
+# Deutsch Test Online
 
 Web app with practice tests for German language exams (A1–C1), in the format of
 the well-known exams but with entirely original content.

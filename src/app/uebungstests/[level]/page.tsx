@@ -10,6 +10,7 @@ import {
 } from "@/lib/content";
 import { Badge, Card } from "@/components/ui";
 import { SECTION_LABEL, allTasks } from "@/lib/schema";
+import { canonical } from "@/lib/site";
 
 export function generateStaticParams() {
   return getLevels().map(({ level }) => ({ level: levelSlug(level) }));
@@ -25,6 +26,7 @@ export async function generateMetadata({
   return {
     title: `Übungstests ${level}`,
     description: `Kostenlose Übungstests auf Niveau ${level} mit Hören, Lesen, Schreiben und Sprechen. ${LEVEL_DESCRIPTION[level]}`,
+    alternates: canonical(`/uebungstests/${levelSlug(level)}`),
   };
 }
 

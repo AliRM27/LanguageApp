@@ -1,4 +1,5 @@
 import "server-only";
+import { createHash } from "node:crypto";
 import { rates } from "./db";
 
 /**
@@ -8,6 +9,12 @@ import { rates } from "./db";
  * containers, so each one would keep its own count and the limit would be
  * whatever number of containers happen to be warm. The database is the only
  * thing all of them share.
+ *
+ * Keys are hashed before they are stored. The counter only ever needs to know
+ * whether two requests belong together, never who they came from — so keeping
+ * the raw e-mail address or IP would store personal data (including addresses
+ * of people who merely mistyped one) for no benefit at all. Hashing makes the
+ * whole collection non-personal and the privacy notice honest.
  */
 export async function rateLimit(
   key: string,
@@ -15,7 +22,7 @@ export async function rateLimit(
   windowSeconds: number,
 ): Promise<{ ok: boolean; retryAfterSeconds: number }> {
   const bucket = Math.floor(Date.now() / (windowSeconds * 1000));
-  const id = `${key}:${bucket}`;
+  const id = createHash("sha256").update(`${key}:${bucket}`).digest("hex");
   const expiresAt = new Date((bucket + 1) * windowSeconds * 1000);
 
   const store = await rates();
