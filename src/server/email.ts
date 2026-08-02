@@ -143,10 +143,11 @@ export function resetPasswordMail(to: string, url: string): Mail {
   };
 }
 
-/** Absolute URL for links in e-mail, which cannot be relative. */
-export function siteUrl(): string {
-  return (
-    process.env.NEXT_PUBLIC_SITE_URL ??
-    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000")
-  );
-}
+/**
+ * Absolute URL for links in e-mail, which cannot be relative.
+ *
+ * Re-exported from lib/site rather than reimplemented: this used to be a second
+ * copy with its own fallback order, which is precisely how a confirmation link
+ * ends up pointing at a different host than the canonical tags.
+ */
+export { siteUrl } from "@/lib/site";

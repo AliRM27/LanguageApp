@@ -91,9 +91,18 @@ Then Settings → Domains:
 3. If you bought the `.com`, add it too and set it to **Redirect to
    deutschtestonline.de** rather than serving it.
 
-> Set `NEXT_PUBLIC_SITE_URL` before the first real sign-up. It is what the
-> confirmation links are built from — if it is wrong, the links point at the
-> wrong host and nobody can confirm anything.
+> **Add the environment variables before the first deployment, not after.**
+>
+> `NEXT_PUBLIC_SITE_URL` is not read per request — it is baked into the build.
+> The sitemap, robots.txt, every canonical tag and the og:image URL are all
+> generated once, at build time, from that value. Changing it in the dashboard
+> later does nothing until you trigger a **new deployment**.
+>
+> Get this wrong and nothing looks broken: the site works perfectly while
+> telling Google it lives on `localhost:3000` and sending confirmation links to
+> a host that does not exist. The build now refuses rather than let that ship,
+> and `check:release` fails on any build server if the value is missing, not
+> `https://`, or has a trailing slash.
 
 ## 7. Before you tell anyone
 

@@ -133,11 +133,31 @@ for (const f of [
 
 /* -------------------------------- 6. Env ---------------------------------- */
 
-if (!process.env.NEXT_PUBLIC_SITE_URL) {
-  warn(
-    "NEXT_PUBLIC_SITE_URL is not set here",
-    "Fine locally. On Vercel it must be the real https:// domain, or the links\n" +
-      "    inside confirmation e-mails will point at the wrong host.",
+/**
+ * On a build server this is not a warning, it is a broken deploy: the sitemap,
+ * robots.txt, canonical tags and og:image are all generated at build time, so
+ * an unset value ships a site that quietly claims to live on localhost.
+ */
+const onBuildServer = Boolean(process.env.VERCEL || process.env.CI);
+const siteUrlVar = process.env.NEXT_PUBLIC_SITE_URL;
+
+if (!siteUrlVar) {
+  (onBuildServer ? fail : warn)(
+    "NEXT_PUBLIC_SITE_URL is not set",
+    onBuildServer
+      ? "Set it to https://deutschtestonline.de in the Vercel project settings."
+      : "Fine locally — the build will use http://localhost:3000 for the sitemap,\n" +
+        "    canonical tags and og:image. It must be the real domain on Vercel.",
+  );
+} else if (!siteUrlVar.startsWith("https://") && onBuildServer) {
+  fail(
+    "NEXT_PUBLIC_SITE_URL is not an https:// address",
+    `Currently "${siteUrlVar}".`,
+  );
+} else if (siteUrlVar.endsWith("/")) {
+  fail(
+    "NEXT_PUBLIC_SITE_URL ends with a slash",
+    `"${siteUrlVar}" would produce doubled slashes in e-mail links.`,
   );
 }
 if (!process.env.MONGODB_URI) {
