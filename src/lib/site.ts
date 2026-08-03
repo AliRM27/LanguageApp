@@ -77,7 +77,19 @@ export function operatorDetailsMissing(): boolean {
  */
 export function siteUrl(): string {
   const configured = process.env.NEXT_PUBLIC_SITE_URL;
-  if (configured) return configured.replace(/\/+$/, "");
+  if (configured) {
+    // A localhost value on a build server is worse than no value: it is set,
+    // so nothing looks wrong, and every confirmation link in every e-mail
+    // points at the learner's own machine.
+    if (process.env.VERCEL && /localhost|127\.0\.0\.1/.test(configured)) {
+      throw new Error(
+        `NEXT_PUBLIC_SITE_URL is "${configured}" on a deployed build. ` +
+          "Set it to https://deutschtestonline.de in the Vercel project " +
+          "settings — for the Production environment — and redeploy.",
+      );
+    }
+    return configured.replace(/\/+$/, "");
+  }
 
   const production = process.env.VERCEL_PROJECT_PRODUCTION_URL;
   if (production) return `https://${production}`;

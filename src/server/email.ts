@@ -27,6 +27,16 @@ export async function sendMail(mail: Mail): Promise<SendResult> {
   const apiKey = process.env.RESEND_API_KEY;
   const from = process.env.MAIL_FROM;
 
+  /**
+   * Optional, and worth setting.
+   *
+   * Mail goes out from a noreply address, which needs no inbox. But learners at
+   * A1 who cannot sign in will simply hit reply on the confirmation e-mail and
+   * ask for help — that is the most natural thing to do, and without a reply-to
+   * those messages disappear. This routes them to a real address.
+   */
+  const replyTo = process.env.MAIL_REPLY_TO;
+
   if (!apiKey || !from) {
     if (process.env.NODE_ENV === "production") {
       return {
@@ -62,6 +72,7 @@ export async function sendMail(mail: Mail): Promise<SendResult> {
         subject: mail.subject,
         html: mail.html,
         text: mail.text,
+        ...(replyTo ? { reply_to: replyTo } : {}),
       }),
     });
 

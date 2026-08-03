@@ -80,6 +80,7 @@ Production *and* Preview:
 | `NEXT_PUBLIC_SITE_URL` | `https://deutschtestonline.de` — no trailing slash |
 | `RESEND_API_KEY` | from step 4 |
 | `MAIL_FROM` | `Deutsch Test Online <noreply@deutschtestonline.de>` |
+| `MAIL_REPLY_TO` | `kontakt@deutschtestonline.de` — once it receives mail |
 
 `GOOGLE_TTS_API_KEY` is **not** needed here. Audio is generated on your laptop
 and committed as files; the server never calls Google.

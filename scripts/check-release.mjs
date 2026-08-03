@@ -149,6 +149,12 @@ if (!siteUrlVar) {
       : "Fine locally — the build will use http://localhost:3000 for the sitemap,\n" +
         "    canonical tags and og:image. It must be the real domain on Vercel.",
   );
+} else if (onBuildServer && /localhost|127\.0\.0\.1/.test(siteUrlVar)) {
+  fail(
+    "NEXT_PUBLIC_SITE_URL points at localhost on a build server",
+    `Currently "${siteUrlVar}". Every confirmation link would send learners to\n` +
+      "    their own machine. Set it to https://deutschtestonline.de.",
+  );
 } else if (!siteUrlVar.startsWith("https://") && onBuildServer) {
   fail(
     "NEXT_PUBLIC_SITE_URL is not an https:// address",
