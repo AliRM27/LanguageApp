@@ -1,10 +1,9 @@
 "use client";
 
-import Link from "next/link";
 import { allTasks, levelSlug, SECTION_LABEL, type Test } from "@/lib/schema";
 import { scoreSection } from "@/lib/scoring";
 import { useAttempt } from "@/lib/attempt-store";
-import { Badge, Button, ButtonLink, Card } from "./ui";
+import { BackLink, Badge, Button, ButtonLink, Card } from "./ui";
 
 export function TestOverview({ test }: { test: Test }) {
   const { attempt, loaded, reset } = useAttempt(test.id);
@@ -18,12 +17,9 @@ export function TestOverview({ test }: { test: Test }) {
   return (
     <div className="space-y-6">
       <header className="space-y-3">
-        <Link
-          href={`/uebungstests/${levelSlug(test.level)}`}
-          className="text-sm text-brand-600 hover:underline"
-        >
-          ← Alle Übungstests {test.level}
-        </Link>
+        <BackLink href={`/uebungstests/${levelSlug(test.level)}`}>
+          Alle Übungstests {test.level}
+        </BackLink>
         <div className="flex items-start justify-between gap-4">
           <h1 className="text-3xl font-semibold text-slate-900">{test.title}</h1>
           <Badge tone="info">{test.level}</Badge>

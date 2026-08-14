@@ -1,10 +1,9 @@
 "use client";
 
-import Link from "next/link";
 import { SECTION_LABEL, type Test } from "@/lib/schema";
 import { PASS_THRESHOLD_PERCENT, scoreTest } from "@/lib/scoring";
 import { useAttempt } from "@/lib/attempt-store";
-import { Badge, Button, ButtonLink, Card } from "./ui";
+import { BackLink, Badge, Button, ButtonLink, Card } from "./ui";
 
 export function ResultsView({ test }: { test: Test }) {
   const { attempt, loaded, reset } = useAttempt(test.id);
@@ -23,12 +22,7 @@ export function ResultsView({ test }: { test: Test }) {
   return (
     <div className="space-y-6">
       <header className="space-y-3">
-        <Link
-          href={`/uebungstest/${test.id}`}
-          className="text-sm text-brand-600 hover:underline"
-        >
-          ← Zurück zur Übersicht
-        </Link>
+        <BackLink href={`/uebungstest/${test.id}`}>Zur Übersicht</BackLink>
         <h1 className="text-3xl font-semibold text-slate-900">Ihr Ergebnis</h1>
         <p className="text-slate-600">{test.title}</p>
       </header>

@@ -8,7 +8,7 @@ import {
   levelSlug,
   parseLevelSlug,
 } from "@/lib/content";
-import { Badge, Card } from "@/components/ui";
+import { BackLink, Badge, Card } from "@/components/ui";
 import { SECTION_LABEL, allTasks } from "@/lib/schema";
 import { canonical } from "@/lib/site";
 
@@ -44,9 +44,7 @@ export default async function LevelPage({
   return (
     <div className="space-y-6">
       <header className="space-y-3">
-        <Link href="/uebungstests" className="text-sm text-brand-600 hover:underline">
-          ← Alle Niveaus
-        </Link>
+        <BackLink href="/uebungstests">Alle Niveaus</BackLink>
         <div className="flex items-center gap-4">
           <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-brand-100 text-base font-semibold text-brand-700">
             {level}

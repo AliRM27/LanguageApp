@@ -53,6 +53,37 @@ export function AudioPlayer({ src, label }: { src: string; label?: string }) {
     void audio.play().catch(() => setUnavailable(true));
   };
 
+  /**
+   * Ten seconds back.
+   *
+   * The single most useful control in a listening exercise: a learner who
+   * misses a telephone number needs to hear that one sentence again, and
+   * without this the only option was replaying the whole track from the start.
+   */
+  const back10 = () => {
+    const audio = audioRef.current;
+    if (!audio) return;
+    audio.currentTime = Math.max(0, audio.currentTime - 10);
+  };
+
+  /**
+   * Dragging the slider seeks.
+   *
+   * `progress` is updated here as well as by the audio element's own
+   * timeupdate: without it the handle springs back to the old position between
+   * the drag and the next timeupdate, which feels broken.
+   */
+  const seek = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const audio = audioRef.current;
+    if (!audio) return;
+    const seconds = Number(event.target.value);
+    audio.currentTime = seconds;
+    setProgress(seconds);
+  };
+
+  /** Guarded: duration is NaN until the metadata has loaded. */
+  const percent = duration > 0 ? Math.min((progress / duration) * 100, 100) : 0;
+
   const format = (seconds: number) => {
     if (!Number.isFinite(seconds)) return "0:00";
     const m = Math.floor(seconds / 60);
@@ -74,57 +105,77 @@ export function AudioPlayer({ src, label }: { src: string; label?: string }) {
         onTimeUpdate={(e) => setProgress(e.currentTarget.currentTime)}
       />
 
-      <div className="flex flex-wrap items-center gap-3">
+      {label && (
+        <p className="mb-3 text-xs font-medium text-slate-600">{label}</p>
+      )}
+
+      {/* Row 1: play, scrubber, time. Everything else moves below on a phone —
+          the old single row needed about 500px and wrapped into a jumble. */}
+      <div className="flex items-center gap-3">
         <button
           type="button"
           onClick={toggle}
           aria-label={playing ? "Pause" : "Abspielen"}
-          className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-brand-600 text-white transition hover:bg-brand-700"
+          className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-brand-600 text-white transition hover:bg-brand-700 active:bg-brand-700"
         >
           {playing ? (
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+            <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor">
               <rect x="3" y="2" width="4" height="12" rx="1" />
               <rect x="9" y="2" width="4" height="12" rx="1" />
             </svg>
           ) : (
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+            <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor">
               <path d="M4 2.5v11l9-5.5-9-5.5z" />
             </svg>
           )}
         </button>
 
-        <div className="min-w-[8rem] flex-1">
-          {label && (
-            <p className="mb-1 text-xs font-medium text-slate-600">{label}</p>
-          )}
-          <div className="h-1.5 w-full overflow-hidden rounded-full bg-slate-200">
-            <div
-              className="h-full rounded-full bg-brand-500 transition-[width]"
-              style={{
-                width: duration ? `${(progress / duration) * 100}%` : "0%",
-              }}
-            />
-          </div>
-          <p className="mt-1 text-xs tabular-nums text-slate-500">
+        <div className="min-w-0 flex-1">
+          <input
+            type="range"
+            className="audio-range"
+            min={0}
+            max={duration || 0}
+            step={0.1}
+            value={progress}
+            disabled={!duration}
+            onChange={seek}
+            aria-label="Position im Hörtext"
+            aria-valuetext={`${format(progress)} von ${format(duration)}`}
+            style={
+              {
+                "--track": `linear-gradient(to right, var(--color-brand-500) ${percent}%, #cbd5e1 ${percent}%)`,
+              } as React.CSSProperties
+            }
+          />
+          <p className="text-xs tabular-nums text-slate-500">
             {format(progress)} / {format(duration)}
           </p>
         </div>
+      </div>
 
+      {/* Row 2: the three secondary controls, equal width and thumb-sized. */}
+      <div className="mt-3 grid grid-cols-2 gap-2">
         <button
           type="button"
           onClick={restart}
-          className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-xs font-medium text-slate-700 hover:bg-slate-50"
+          className="flex min-h-11 items-center justify-center rounded-lg border border-slate-300 bg-white px-2 text-xs font-medium text-slate-700 transition hover:bg-slate-50 active:bg-slate-100"
         >
-          Noch einmal
+          Von vorn
         </button>
 
-        <div className="flex overflow-hidden rounded-lg border border-slate-300 bg-white">
+        <div
+          role="group"
+          aria-label="Geschwindigkeit"
+          className="flex min-h-11 overflow-hidden rounded-lg border border-slate-300 bg-white"
+        >
           {[0.75, 1].map((value) => (
             <button
               key={value}
               type="button"
+              aria-pressed={rate === value}
               onClick={() => setRate(value)}
-              className={`px-3 py-2 text-xs font-medium transition ${
+              className={`flex-1 px-1 text-xs font-medium transition ${
                 rate === value
                   ? "bg-brand-600 text-white"
                   : "text-slate-700 hover:bg-slate-50"

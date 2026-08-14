@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 import type {
   GapTask,
   MatchingTask,
@@ -51,10 +51,12 @@ export function TaskRenderer(props: TaskProps) {
         {correct === false && <Badge tone="error">Falsch</Badge>}
       </div>
 
-      <div className="pl-9">
+      {/* The 36px indent lines the body up under the prompt on a desktop, but
+          on a 375px phone it costs a tenth of the width of every option. */}
+      <div className="sm:pl-9">
         <TaskBody {...props} />
         {mode === "review" && "explanation" in task && task.explanation && (
-          <p className="mt-3 rounded-lg bg-slate-50 p-3 text-sm text-slate-600">
+          <p className="mt-3 rounded-lg bg-slate-100 p-3 text-sm text-slate-600">
             {task.explanation}
           </p>
         )}
@@ -87,14 +89,55 @@ function TaskBody(props: TaskProps) {
 
 /* ------------------------------ auto-scored ------------------------------- */
 
-function optionClass(state: "idle" | "selected" | "right" | "wrong") {
+type OptionState = "idle" | "selected" | "right" | "wrong";
+
+/**
+ * An answer option.
+ *
+ * The old version was a white box with a hairline border — indistinguishable
+ * from a Card or from the exam text sitting right above it. On a Lesen page
+ * that means the advert and the answers about it looked like the same kind of
+ * thing, and nothing said "tap me".
+ *
+ * Two fixes: a visible border and tinted fill so it reads as a control, and a
+ * radio glyph (below) that fills in when chosen. The glyph does most of the
+ * work — a circle in front of a line of text is understood everywhere, in any
+ * language, which matters when the reader is at A1.
+ */
+function optionClass(state: OptionState) {
   const map = {
-    idle: "border-slate-200 bg-white hover:border-brand-200 hover:bg-brand-50",
-    selected: "border-brand-500 bg-brand-50 ring-1 ring-brand-500",
-    right: "border-emerald-400 bg-emerald-50",
+    idle: "border-slate-300 bg-white hover:border-brand-400 hover:bg-brand-50 active:bg-brand-50",
+    selected: "border-brand-600 bg-brand-50 ring-1 ring-brand-600",
+    right: "border-emerald-500 bg-emerald-50",
     wrong: "border-rose-400 bg-rose-50",
   } as const;
-  return `flex w-full items-center gap-3 rounded-lg border p-3 text-left text-sm transition ${map[state]}`;
+  return `flex w-full min-h-12 items-center gap-3 rounded-lg border-2 p-3 text-left text-sm transition ${map[state]}`;
+}
+
+/** The circle in front of an option: empty, or filled once chosen. */
+function OptionMark({
+  state,
+  children,
+}: {
+  state: OptionState;
+  children?: ReactNode;
+}) {
+  const chosen = state === "selected" || state === "right" || state === "wrong";
+  const tone = {
+    idle: "border-slate-400 bg-white text-slate-600",
+    selected: "border-brand-600 bg-brand-600 text-white",
+    right: "border-emerald-600 bg-emerald-600 text-white",
+    wrong: "border-rose-500 bg-rose-500 text-white",
+  }[state];
+
+  return (
+    <span
+      aria-hidden="true"
+      className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full border-2 text-xs font-semibold uppercase transition ${tone}`}
+    >
+      {chosen && !children ? "✓" : children}
+    </span>
+  );
 }
 
 function MultipleChoice({
@@ -120,12 +163,11 @@ function MultipleChoice({
             key={option.id}
             type="button"
             disabled={mode === "review"}
+            aria-pressed={selected}
             onClick={() => onChange(option.id)}
             className={optionClass(state)}
           >
-            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-slate-300 bg-white text-xs font-semibold uppercase text-slate-600">
-              {option.id}
-            </span>
+            <OptionMark state={state}>{option.id}</OptionMark>
             <span>{option.text}</span>
           </button>
         );
@@ -145,12 +187,12 @@ function TrueFalse({
     { value: false, label: "Falsch" },
   ];
   return (
-    <div className="flex gap-2">
+    // Two equal halves rather than two small pills: on a phone these are the
+    // most-tapped controls in the whole app.
+    <div className="grid grid-cols-2 gap-3">
       {choices.map((choice) => {
         const selected = value === choice.value;
-        let state: "idle" | "selected" | "right" | "wrong" = selected
-          ? "selected"
-          : "idle";
+        let state: OptionState = selected ? "selected" : "idle";
         if (mode === "review") {
           if (choice.value === task.solution) state = "right";
           else if (selected) state = "wrong";
@@ -160,9 +202,11 @@ function TrueFalse({
             key={String(choice.value)}
             type="button"
             disabled={mode === "review"}
+            aria-pressed={selected}
             onClick={() => onChange(choice.value)}
-            className={`${optionClass(state)} max-w-[10rem] justify-center font-medium`}
+            className={`${optionClass(state)} justify-center font-medium`}
           >
+            <OptionMark state={state} />
             {choice.label}
           </button>
         );
@@ -188,7 +232,9 @@ function Matching({
         value={chosen}
         disabled={mode === "review"}
         onChange={(e) => onChange(e.target.value)}
-        className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm disabled:bg-slate-50"
+        // Left as a native select on purpose: phones render it as a full-screen
+        // picker, which beats any custom dropdown for one-handed use.
+        className="min-h-12 w-full rounded-lg border-2 border-slate-300 bg-white px-3 py-2.5 text-base disabled:bg-slate-50 sm:text-sm"
       >
         <option value="">Bitte wählen …</option>
         {options.map((option) => (
@@ -231,12 +277,15 @@ function Gap({ task, value, onChange, mode }: TaskProps & { task: GapTask }) {
           disabled={mode === "review"}
           onChange={(e) => onChange(e.target.value)}
           aria-label="Fehlende Information"
-          className={`min-w-[8rem] max-w-full flex-1 rounded-lg border px-3 py-1.5 text-sm font-normal disabled:bg-slate-50 ${
+          // text-base on phones: anything under 16px makes iOS Safari zoom in
+          // when the field is focused, which throws the whole page sideways
+          // mid-sentence. min-h-11 keeps it thumb-sized.
+          className={`min-h-11 min-w-[8rem] max-w-full flex-1 rounded-lg border-2 px-3 py-2 text-base font-normal disabled:bg-slate-50 sm:text-sm ${
             correct === true
-              ? "border-emerald-400 bg-emerald-50"
+              ? "border-emerald-500 bg-emerald-50"
               : correct === false
                 ? "border-rose-400 bg-rose-50"
-                : "border-slate-300"
+                : "border-slate-300 focus:border-brand-500"
           }`}
         />
         {after && <span>{after.trim()}</span>}
@@ -349,7 +398,7 @@ function Writing({
           value={text}
           disabled={mode === "review"}
           onChange={(e) => onChange(e.target.value)}
-          className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm disabled:bg-slate-50"
+          className="min-h-12 w-full rounded-lg border-2 border-slate-300 px-3 py-2.5 text-base focus:border-brand-500 disabled:bg-slate-50 sm:text-sm"
           placeholder="Ihre Antwort"
         />
       ) : (
@@ -359,7 +408,7 @@ function Writing({
             rows={8}
             disabled={mode === "review"}
             onChange={(e) => onChange(e.target.value)}
-            className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm leading-relaxed disabled:bg-slate-50"
+            className="w-full rounded-lg border-2 border-slate-300 px-3 py-2.5 text-base leading-relaxed focus:border-brand-500 disabled:bg-slate-50 sm:text-sm"
             placeholder="Schreiben Sie hier Ihren Text …"
           />
           <p className="mt-1 text-xs text-slate-500">
@@ -401,7 +450,7 @@ function Speaking({
         rows={4}
         disabled={mode === "review"}
         onChange={(e) => onChange(e.target.value)}
-        className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm leading-relaxed disabled:bg-slate-50"
+        className="w-full rounded-lg border-2 border-slate-300 px-3 py-2.5 text-base leading-relaxed focus:border-brand-500 disabled:bg-slate-50 sm:text-sm"
         placeholder="Notizen zu Ihrer Antwort (freiwillig) – sprechen Sie zuerst laut."
       />
 

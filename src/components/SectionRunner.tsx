@@ -1,13 +1,12 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import Link from "next/link";
 import { allTasks, SECTION_LABEL, type Section, type Test } from "@/lib/schema";
 import { isAnswered, scoreSection } from "@/lib/scoring";
 import { useAttempt } from "@/lib/attempt-store";
 import { AudioPlayer } from "./AudioPlayer";
 import { TaskRenderer } from "./TaskRenderer";
-import { Button, ButtonLink, Card } from "./ui";
+import { BackLink, Button, ButtonLink, Card, ReadingPanel } from "./ui";
 
 export function SectionRunner({
   test,
@@ -56,12 +55,7 @@ export function SectionRunner({
   return (
     <div className="space-y-6">
       <header className="space-y-3">
-        <Link
-          href={`/uebungstest/${test.id}`}
-          className="text-sm text-brand-600 hover:underline"
-        >
-          ← Zurück zur Übersicht
-        </Link>
+        <BackLink href={`/uebungstest/${test.id}`}>Zur Übersicht</BackLink>
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
             <p className="text-sm text-slate-500">{test.title}</p>
@@ -107,11 +101,10 @@ export function SectionRunner({
                 <p className="font-medium text-slate-900">{block.prompt}</p>
               )}
 
+              {/* Reading material, never tappable — flat and tinted so it
+                  cannot be mistaken for the answer options right beneath it. */}
               {block.stimuli?.map((stimulus, i) => (
-                <div
-                  key={i}
-                  className="rounded-lg border border-slate-200 bg-slate-50 p-4"
-                >
+                <ReadingPanel key={i}>
                   {stimulus.title && (
                     <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
                       {stimulus.title}
@@ -120,7 +113,7 @@ export function SectionRunner({
                   <p className="prose-exam text-sm text-slate-800">
                     {stimulus.text}
                   </p>
-                </div>
+                </ReadingPanel>
               ))}
 
               <ol className="space-y-3">
@@ -146,32 +139,43 @@ export function SectionRunner({
         </Card>
       ))}
 
-      <div className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-slate-200 bg-white p-4">
-        <p className="text-sm text-slate-500">
-          {submitted
-            ? "Dieser Teil ist abgegeben."
-            : `${tasks.length - unanswered} von ${tasks.length} Aufgaben bearbeitet`}
-          {syncing && <span className="ml-2 text-xs">· wird gespeichert …</span>}
-        </p>
+      {/*
+        Pinned to the bottom on phones.
 
-        <div className="flex gap-2">
-          {!submitted && <Button onClick={handleSubmit}>Teil abgeben</Button>}
-          {submitted && nextKind && (
-            <ButtonLink href={`/uebungstest/${test.id}/${nextKind}`}>
-              Weiter zu{" "}
-              {SECTION_LABEL[nextKind as keyof typeof SECTION_LABEL] ?? nextKind}
-            </ButtonLink>
-          )}
-          {submitted && !nextKind && (
-            <ButtonLink href={`/uebungstest/${test.id}/ergebnis`}>
-              Gesamtergebnis ansehen
-            </ButtonLink>
-          )}
-          {submitted && (
-            <ButtonLink href={`/uebungstest/${test.id}`} variant="secondary">
-              Übersicht
-            </ButtonLink>
-          )}
+        A Lesen section is several screens long, so both the "how many have I
+        done" count and the submit button used to live somewhere far below the
+        fold — the learner had to scroll to the end to find out where they were.
+        Sticky puts the progress and the action permanently in reach of a thumb.
+        `pb-[env(safe-area-inset-bottom)]` keeps it clear of the iPhone home bar.
+      */}
+      <div className="sticky bottom-0 -mx-5 border-t border-slate-200 bg-white/95 px-5 py-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] backdrop-blur sm:static sm:mx-0 sm:rounded-xl sm:border sm:px-4 sm:py-4 sm:backdrop-blur-none">
+        <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
+          <p className="text-sm text-slate-500">
+            {submitted
+              ? "Dieser Teil ist abgegeben."
+              : `${tasks.length - unanswered} von ${tasks.length} Aufgaben bearbeitet`}
+            {syncing && <span className="ml-2 text-xs">· wird gespeichert …</span>}
+          </p>
+
+          <div className="flex gap-2 [&>*]:flex-1 sm:[&>*]:flex-none">
+            {!submitted && <Button onClick={handleSubmit}>Teil abgeben</Button>}
+            {submitted && nextKind && (
+              <ButtonLink href={`/uebungstest/${test.id}/${nextKind}`}>
+                Weiter zu{" "}
+                {SECTION_LABEL[nextKind as keyof typeof SECTION_LABEL] ?? nextKind}
+              </ButtonLink>
+            )}
+            {submitted && !nextKind && (
+              <ButtonLink href={`/uebungstest/${test.id}/ergebnis`}>
+                Gesamtergebnis ansehen
+              </ButtonLink>
+            )}
+            {submitted && (
+              <ButtonLink href={`/uebungstest/${test.id}`} variant="secondary">
+                Übersicht
+              </ButtonLink>
+            )}
+          </div>
         </div>
       </div>
     </div>

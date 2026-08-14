@@ -32,3 +32,77 @@ body {
   line-height: 1.7;
   white-space: pre-wrap;
 }
+
+/*
+ * The audio scrubber.
+ *
+ * A real <input type="range"> rather than a hand-built handle: dragging with a
+ * mouse, dragging with a thumb, and the arrow keys all work without writing any
+ * of it, and a screen reader announces it as a slider with a position.
+ *
+ * The element is 28px tall so it is comfortably tappable, while the visible
+ * track stays 6px. The played portion is painted with a gradient passed in as
+ * --track, because only Firefox has a ::-moz-range-progress to fill for us.
+ */
+.audio-range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 28px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.audio-range:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+
+.audio-range::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--track, #cbd5e1);
+}
+
+.audio-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  /* (track 6px - thumb 20px) / 2, to centre it on the track */
+  margin-top: -7px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: var(--color-brand-600);
+  border: 2px solid #fff;
+  box-shadow: 0 1px 3px rgb(15 23 42 / 0.35);
+}
+
+.audio-range::-moz-range-track {
+  height: 6px;
+  border-radius: 999px;
+  background: #cbd5e1;
+}
+
+.audio-range::-moz-range-progress {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--color-brand-500);
+}
+
+.audio-range::-moz-range-thumb {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: var(--color-brand-600);
+  border: 2px solid #fff;
+  box-shadow: 0 1px 3px rgb(15 23 42 / 0.35);
+}
+
+.audio-range:focus-visible::-webkit-slider-thumb {
+  outline: 2px solid var(--color-brand-500);
+  outline-offset: 2px;
+}
+
+.audio-range:focus-visible::-moz-range-thumb {
+  outline: 2px solid var(--color-brand-500);
+  outline-offset: 2px;
+}

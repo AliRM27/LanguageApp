@@ -52,7 +52,10 @@ export function Field({
       </label>
       <input
         id={id}
-        className="w-full rounded-lg border border-slate-300 px-3 py-2.5 text-sm"
+        // text-base below sm: under 16px, iOS Safari zooms the page in when the
+        // field gets focus and never zooms back out — on the sign-up form, the
+        // first thing a new learner ever touches.
+        className="min-h-12 w-full rounded-lg border-2 border-slate-300 px-3 py-2.5 text-base focus:border-brand-500 focus:outline-none sm:text-sm"
         {...props}
       />
       {hint && <p className="text-xs text-slate-500">{hint}</p>}
@@ -69,7 +72,12 @@ export function FormError({ children }: { children: ReactNode }) {
 
 export function AuthLink({ href, children }: { href: string; children: ReactNode }) {
   return (
-    <Link href={href} className="text-brand-600 hover:underline">
+    // Permanently underlined, not hover-underlined: hover does not exist on a
+    // phone, so the underline never appeared where it was needed most.
+    <Link
+      href={href}
+      className="inline-flex min-h-11 items-center text-brand-700 underline underline-offset-2 hover:text-brand-800"
+    >
       {children}
     </Link>
   );
