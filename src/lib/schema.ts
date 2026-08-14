@@ -174,9 +174,31 @@ export const audioSchema = z.object({
 
 /** Reading passage, advertisement, sign, note, etc. */
 export const stimulusSchema = z.object({
+  /** Small label above the text, e.g. "Anzeige c". */
   title: z.string().optional(),
+  /**
+   * The text's own headline, set in bold — the name of a shop in an advert,
+   * the subject line of a letter. Separate from `title` because one is our
+   * label for the item and the other belongs to the item itself.
+   */
+  heading: z.string().optional(),
   /** Plain text; newlines are preserved when rendered. */
   text: z.string().min(1),
+  /**
+   * A picture the learner talks about — Sprechen Teil 2 is a Bildbeschreibung,
+   * so the picture *is* the task.
+   *
+   * `alt` is not decoration here. It describes the scene well enough for the
+   * task to still make sense to someone using a screen reader, and it is what
+   * the page shows while the file is missing, so a new test can be reviewed
+   * before anyone has sourced a photograph.
+   */
+  image: z
+    .object({
+      src: z.string().min(1),
+      alt: z.string().min(1),
+    })
+    .optional(),
 });
 
 /**
@@ -197,6 +219,31 @@ export const blockSchema = z.object({
   stimuli: z.array(stimulusSchema).optional(),
   /** Shared answer options for the `zuordnung` tasks in this block. */
   optionPool: z.array(optionSchema).min(2).optional(),
+  /**
+   * Print the option pool as a visible a–f list above the questions.
+   *
+   * Needed when the options are sentences that exist nowhere else — B1 Hören
+   * Teil 4, where the learner matches three spoken opinions against six printed
+   * statements. Without it those statements are only reachable by opening each
+   * dropdown one at a time, which is not how the exam presents them.
+   *
+   * Off by default because in A1/A2 Lesen the options *are* the adverts already
+   * shown as stimuli, and repeating them as a list would only add noise.
+   */
+  showOptionList: z.boolean().optional(),
+  /**
+   * Render the block's first stimulus as a cloze: the gaps written `___(1)___`
+   * in the text become dropdowns in place, and the tasks are not listed
+   * separately underneath.
+   *
+   * This is how a "Wörter ergänzen" task actually looks on paper — the reader
+   * needs the sentence around the gap to choose, and pairing a numbered list
+   * below with markers above forces them to hold the number in their head while
+   * looking back and forth.
+   *
+   * The nth marker uses the nth task, so their order must match.
+   */
+  inlineGaps: z.boolean().optional(),
   tasks: z.array(taskSchema).min(1),
 });
 export type Block = z.infer<typeof blockSchema>;
@@ -227,6 +274,16 @@ export const testSchema = z.object({
   title: z.string().min(1),
   description: z.string().min(1),
   sections: z.array(sectionSchema).min(1),
+  /**
+   * Still being written. Draft tests are visible while developing and hidden
+   * from the live site, and the release checks do not insist that their audio
+   * and images exist yet.
+   *
+   * Without this, one unfinished test blocks the deploy of every finished one —
+   * which in practice means either shipping half a test or not shipping the
+   * improvements to the others.
+   */
+  draft: z.boolean().optional(),
 });
 export type Test = z.infer<typeof testSchema>;
 

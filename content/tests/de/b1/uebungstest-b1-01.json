@@ -1,0 +1,1138 @@
+{
+  "id": "uebungstest-b1-01",
+  "language": "de",
+  "level": "B1",
+  "title": "Übungstest B1 – Nr. 1",
+  "description": "Ein vollständiger Übungstest auf Niveau B1 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen.",
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 25,
+      "description": "Sie hören Ansagen, kurze Informationen aus dem Radio, Gespräche aus dem Alltag und drei Meinungen zu einem Thema. Insgesamt bearbeiten Sie 20 Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Ansagen und Durchsagen",
+          "instructions": "Sie hören vier Ansagen: am Telefon und an öffentlichen Orten. Wählen Sie zu jeder Ansage die richtige Antwort. Sie hören jede Ansage zweimal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-01/hoeren-teil-1.mp3",
+            "transcript": "Ansage 1\nSehr geehrte Fahrgäste, der Regionalexpress nach Hannover, planmäßige Abfahrt 14 Uhr 12, fährt heute nicht von Gleis 3, sondern von Gleis 8. Grund dafür ist eine Störung an einer Weiche. Der Zug hat außerdem etwa zehn Minuten Verspätung. Wir bitten um Ihr Verständnis.\n\nAnsage 2\nSprechstundenhilfe: Guten Tag, Frau Yilmaz, hier ist die Praxis Doktor Sommer. Leider muss ich Ihnen absagen: Ihr Termin am Donnerstag um halb zehn kann nicht stattfinden, Doktor Sommer ist krank geworden. Wir haben Sie schon auf Montag umgetragen, zur gleichen Uhrzeit. Falls Ihnen das nicht passt, rufen Sie uns bitte kurz zurück.\n\nAnsage 3\nLiebe Kundinnen und Kunden, wir möchten Sie darauf hinweisen, dass unser Haus heute bereits um 18 Uhr schließt. Der Grund ist eine Betriebsversammlung. Ab morgen sind wir wieder wie gewohnt bis 20 Uhr für Sie da. Bitte beenden Sie Ihre Einkäufe rechtzeitig.\n\nAnsage 4\nHerr Böhm: Guten Tag, Herr Novak, Autohaus Böhm hier. Ihr Wagen ist fertig, Sie können ihn ab morgen früh abholen. Eine Sache muss ich Ihnen allerdings noch sagen: Wir mussten zusätzlich die Bremsen erneuern, das war leider nicht mehr zu vermeiden. Dadurch wird es ungefähr 180 Euro teurer als besprochen. Melden Sie sich bitte, wenn Sie damit nicht einverstanden sind."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-ansage-1",
+              "prompt": "Ansage 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-1",
+                  "prompt": "Was erfahren die Fahrgäste?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Zug fällt heute aus."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Der Zug fährt von einem anderen Gleis."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der Zug fährt heute früher ab."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… fährt heute nicht von Gleis 3, sondern von Gleis 8.“ Der Zug fällt nicht aus, er ist nur später und woanders."
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-2",
+              "prompt": "Ansage 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Warum ruft die Praxis an?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Termin wurde auf einen anderen Tag gelegt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Frau Yilmaz soll Unterlagen mitbringen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Praxis ist umgezogen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Wir haben Sie schon auf Montag umgetragen, zur gleichen Uhrzeit.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-3",
+              "prompt": "Ansage 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-3",
+                  "prompt": "Was ist heute anders als sonst?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das Kaufhaus bleibt morgen geschlossen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das Kaufhaus öffnet ab morgen länger."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Das Kaufhaus schließt heute früher."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… dass unser Haus heute bereits um 18 Uhr schließt.“ Ab morgen gilt wieder die normale Zeit bis 20 Uhr."
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-4",
+              "prompt": "Ansage 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Worüber informiert Herr Böhm?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ein Ersatzteil fehlt noch."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Reparatur wird teurer als vereinbart."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Das Auto ist erst nächste Woche fertig."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Dadurch wird es ungefähr 180 Euro teurer als besprochen.“ Der Wagen ist fertig, nur der Preis ist höher."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Kurze Informationen aus dem Radio",
+          "instructions": "Sie hören fünf kurze Meldungen aus dem Radio. Wählen Sie zu jeder Meldung die richtige Antwort. Sie hören die Meldungen einmal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-01/hoeren-teil-2.mp3",
+            "transcript": "Meldung 1\nModeratorin: Und nun zum Verkehr. Auf der A7 zwischen Kassel-Nord und Göttingen steht der Verkehr nach einem Unfall auf zehn Kilometern. Die Bergungsarbeiten dauern noch mindestens zwei Stunden. Fahren Sie nach Möglichkeit schon vorher ab und nutzen Sie die Bundesstraße 27.\n\nMeldung 2\nModeratorin: Das Stadtfest am kommenden Wochenende findet trotz der Bauarbeiten am Marktplatz statt, allerdings nicht wie gewohnt in der Innenstadt: Die Stände stehen in diesem Jahr im Stadtpark. Die Veranstalter rechnen mit rund 20.000 Besucherinnen und Besuchern.\n\nMeldung 3\nModeratorin: Eine neue Umfrage unter Beschäftigten zeigt: Fast zwei Drittel möchten auch in Zukunft mindestens zwei Tage pro Woche zu Hause arbeiten. Überraschend ist der wichtigste Grund. Es geht den Befragten nämlich weniger um den Weg zur Arbeit als darum, dass sie zu Hause in Ruhe arbeiten und sich besser konzentrieren können.\n\nMeldung 4\nModeratorin: Ein Hinweis für Verbraucherinnen und Verbraucher: Die Firma Feldhof ruft ihren Kräuterquark mit dem Haltbarkeitsdatum 12. Juni zurück. In einzelnen Bechern wurden kleine Kunststoffteile gefunden. Wer das Produkt gekauft hat, kann es in jedem Markt zurückgeben – der Kassenbon wird dafür nicht gebraucht.\n\nMeldung 5\nModeratorin: Und zum Schluss eine gute Nachricht für Leseratten: Die Stadtbibliothek verlängert ab Oktober ihre Öffnungszeiten. Sie ist dann auch samstags bis 16 Uhr geöffnet. Der Leseausweis für alle unter 18 Jahren bleibt wie bisher kostenlos."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-nachricht-1",
+              "prompt": "Meldung 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-1",
+                  "prompt": "Was wird den Autofahrern empfohlen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Über eine andere Straße zu fahren."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Zwei Stunden zu warten."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Mit dem Zug zu fahren."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Fahren Sie nach Möglichkeit schon vorher ab und nutzen Sie die Bundesstraße 27.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-nachricht-2",
+              "prompt": "Meldung 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-2",
+                  "prompt": "Was ist in diesem Jahr anders?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das Fest fällt wegen der Bauarbeiten aus."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das Fest dauert länger als sonst."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Das Fest findet an einem anderen Ort statt."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Die Stände stehen in diesem Jahr im Stadtpark.“ Das Fest fällt ausdrücklich nicht aus."
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-nachricht-3",
+              "prompt": "Meldung 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-3",
+                  "prompt": "Was ist den Befragten am wichtigsten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass sie ruhiger arbeiten können."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass sie den Weg zur Arbeit sparen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass sie mehr Zeit für die Familie haben."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Es geht den Befragten nämlich weniger um den Weg zur Arbeit als darum, dass sie zu Hause in Ruhe arbeiten … können.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-nachricht-4",
+              "prompt": "Meldung 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-4",
+                  "prompt": "Was können Kundinnen und Kunden tun?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das Produkt nur mit Kassenbon umtauschen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das Produkt in jedem Markt zurückgeben."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Das Produkt an die Firma schicken."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… kann es in jedem Markt zurückgeben – der Kassenbon wird dafür nicht gebraucht.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-nachricht-5",
+              "prompt": "Meldung 5",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-5",
+                  "prompt": "Was ändert sich ab Oktober?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Leseausweis wird für alle kostenlos."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Bibliothek bekommt neue Räume."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Bibliothek ist auch samstags länger geöffnet."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Sie ist dann auch samstags bis 16 Uhr geöffnet.“ Der kostenlose Ausweis für Jugendliche ist nicht neu – er bleibt „wie bisher“."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Alltägliche Gespräche",
+          "instructions": "Sie hören vier kurze Gespräche. Zu jedem Gespräch gibt es zwei Aufgaben: Entscheiden Sie zuerst, ob die Aussage richtig oder falsch ist, und wählen Sie dann die richtige Antwort. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-01/hoeren-teil-3.mp3",
+            "transcript": "Gespräch 1\nFrau Kettner: Sag mal, Tobias, könntest du im August meine Vertretung übernehmen? Ich bin drei Wochen weg.\n\nTobias Reich: Drei Wochen? Puh. Im August ist bei uns eigentlich immer viel los. Aber gut – wenn du mir vorher alles ordentlich übergibst, mache ich es.\n\nFrau Kettner: Klar, ich schreibe dir eine Liste mit allen laufenden Projekten.\n\nTobias Reich: Und die Kundentermine? Die schaffe ich unmöglich alle allein.\n\nFrau Kettner: Die meisten habe ich schon verschoben. Es bleiben zwei, und zu denen kommt Frau Alkan mit.\n\nGespräch 2\nHerr Palm: Frau Delgado, haben Sie das auch gemerkt? Im Treppenhaus riecht es seit gestern feucht.\n\nFrau Delgado: Ja, und ich glaube, das kommt aus dem Keller.\n\nHerr Palm: Ich habe schon beim Hausmeister angerufen. Der ist aber im Urlaub, und seine Vertretung kommt frühestens am Montag.\n\nFrau Delgado: Montag ist viel zu spät. Ich rufe morgen früh direkt bei der Hausverwaltung an, sonst haben wir am Ende noch Schimmel in den Wänden.\n\nHerr Palm: Tun Sie das. Ich schreibe zusätzlich eine Mail, dann haben wir es schriftlich.\n\nGespräch 3\nMerve: Und, wie war die Wohnungsbesichtigung gestern?\n\nJonas Frey: Die Wohnung selbst war richtig gut – hell, dritter Stock, sogar mit einem kleinen Balkon. Nur waren ungefähr vierzig Leute da.\n\nMerve: Vierzig? Dann kannst du sie vergessen.\n\nJonas Frey: Das dachte ich zuerst auch. Aber der Vermieter hat gesagt, ihm ist gar nicht so wichtig, wer am meisten verdient. Er sucht jemanden, der ruhig ist und lange bleiben möchte. Ich habe ihm gleich eine Mappe mit allen Unterlagen dagelassen.\n\nMerve: Clever. Ohne Unterlagen bist du sowieso raus.\n\nGespräch 4\nHerr Nowak: Guten Tag, ich möchte meinen Vertrag kündigen. Ich ziehe nächsten Monat nach Bremen.\n\nMitarbeiterin: Das tut mir leid. Ihr Vertrag läuft eigentlich noch bis Februar. Bei einem Umzug machen wir aber eine Ausnahme – dafür brauchen wir eine Meldebescheinigung.\n\nHerr Nowak: Die bekomme ich ja erst, wenn ich in Bremen angemeldet bin.\n\nMitarbeiterin: Das ist kein Problem, die können Sie nachreichen. Wichtig ist nur, dass Ihre schriftliche Kündigung vorher bei uns ist."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-gespraech-1",
+              "prompt": "Gespräch 1",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-1",
+                  "statement": "Tobias übernimmt die Vertretung.",
+                  "solution": true,
+                  "explanation": "„Aber gut – wenn du mir vorher alles ordentlich übergibst, mache ich es.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Was ist mit den Kundenterminen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie wurden alle abgesagt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bei zwei Terminen kommt eine Kollegin mit."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Tobias muss sie allein übernehmen."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Es bleiben zwei, und zu denen kommt Frau Alkan mit.“ Die übrigen sind verschoben, nicht abgesagt."
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-2",
+              "prompt": "Gespräch 2",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-3",
+                  "statement": "Frau Delgado will bis Montag warten.",
+                  "solution": false,
+                  "explanation": "„Montag ist viel zu spät. Ich rufe morgen früh direkt bei der Hausverwaltung an.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Was wollen die beiden tun?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Selbst einen Handwerker bestellen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Auf die Vertretung des Hausmeisters warten."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Hausverwaltung anrufen und zusätzlich schreiben."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Sie ruft an, er schreibt zusätzlich eine Mail: „dann haben wir es schriftlich“."
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-3",
+              "prompt": "Gespräch 3",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-5",
+                  "statement": "Jonas hat dem Vermieter seine Unterlagen dagelassen.",
+                  "solution": true,
+                  "explanation": "„Ich habe ihm gleich eine Mappe mit allen Unterlagen dagelassen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-6",
+                  "prompt": "Worauf achtet der Vermieter besonders?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Darauf, dass jemand möglichst viel verdient."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Darauf, dass jemand keine Haustiere hat."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Darauf, dass jemand lange in der Wohnung bleibt."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Er sucht jemanden, der ruhig ist und lange bleiben möchte.“ Das Einkommen ist ihm ausdrücklich nicht am wichtigsten."
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-4",
+              "prompt": "Gespräch 4",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-7",
+                  "statement": "Herr Nowak kann den Vertrag ohne Bedingungen sofort beenden.",
+                  "solution": false,
+                  "explanation": "Er braucht eine Meldebescheinigung, und die schriftliche Kündigung muss vorher da sein."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-8",
+                  "prompt": "Was muss Herr Nowak zuerst tun?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Schriftlich kündigen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Meldebescheinigung mitbringen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Bis Februar warten."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Wichtig ist nur, dass Ihre schriftliche Kündigung vorher bei uns ist.“ Die Bescheinigung darf er nachreichen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-4",
+          "title": "Teil 4 – Meinungen zu einem Thema",
+          "instructions": "Sie hören drei Aussagen zum selben Thema. Welcher Satz a–f passt zu welcher Aussage? Es bleiben drei Sätze übrig. Sie hören die Aussagen zweimal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-01/hoeren-teil-4.mp3",
+            "transcript": "Moderatorin: Unser Thema heute: Soll die Innenstadt autofrei werden? Wir haben nachgefragt.\n\nAussage 18: Katrin Bauer\nKatrin Bauer: Ich bin grundsätzlich dafür, wirklich. Weniger Autos, bessere Luft – das ist doch für alle gut. Nur denkt bei solchen Plänen selten jemand an die, die etwas bringen müssen. Ich habe einen kleinen Blumenladen, und meine Ware kommt jeden Morgen mit dem Transporter. Wenn der nicht mehr bis vor die Tür darf, muss ich mir wirklich etwas überlegen.\n\nAussage 19: Ergün Demir\nErgün Demir: Ich halte davon ehrlich gesagt wenig. Für junge, gesunde Leute mit dem Fahrrad ist das alles ganz einfach. Aber meine Mutter ist 78 und kann keine langen Strecken laufen. Und wer mit zwei kleinen Kindern und dem ganzen Wocheneinkauf unterwegs ist, freut sich auch nicht, wenn er dann zwanzig Minuten vom Parkhaus bis zum Geschäft läuft.\n\nAussage 20: Sabine Kroll\nSabine Kroll: Ehrlich gesagt war ich früher strikt dagegen. Ich bin jahrelang jeden Tag mit dem Auto ins Büro gefahren, das war für mich völlig normal. Vor zwei Jahren habe ich es dann abgeschafft, hauptsächlich aus Kostengründen. Und seitdem sehe ich die Stadt mit ganz anderen Augen. Zurück wollte ich heute nicht mehr."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-4-meinungen",
+              "prompt": "Thema: Soll die Innenstadt autofrei werden? Welcher Satz a–f passt zu welcher Aussage? Drei Sätze bleiben übrig.",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Diese Person befürchtet vor allem, dass die Geschäfte weniger verkaufen."
+                },
+                {
+                  "id": "b",
+                  "text": "Diese Person hat ihre Meinung geändert, seit sie kein eigenes Auto mehr hat."
+                },
+                {
+                  "id": "c",
+                  "text": "Diese Person ist dafür, macht sich aber Sorgen um die Lieferungen."
+                },
+                {
+                  "id": "d",
+                  "text": "Diese Person denkt vor allem an ältere Menschen und an Familien."
+                },
+                {
+                  "id": "e",
+                  "text": "Diese Person meint, die Stadt solle zuerst Busse und Bahnen verbessern."
+                },
+                {
+                  "id": "f",
+                  "text": "Diese Person findet die ganze Diskussion übertrieben."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h4-1",
+                  "prompt": "Aussage 18 – Katrin Bauer",
+                  "solution": "c",
+                  "explanation": "Sie ist „grundsätzlich dafür“, sorgt sich aber um den Transporter, der ihre Ware bringt. Um weniger Umsatz geht es ihr nicht."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h4-2",
+                  "prompt": "Aussage 19 – Ergün Demir",
+                  "solution": "d",
+                  "explanation": "Er nennt seine 78-jährige Mutter und Familien mit kleinen Kindern und dem Wocheneinkauf."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h4-3",
+                  "prompt": "Aussage 20 – Sabine Kroll",
+                  "solution": "b",
+                  "explanation": "„Ehrlich gesagt war ich früher strikt dagegen“ – seit sie ihr Auto abgeschafft hat, sieht sie die Stadt anders."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 45,
+      "description": "Sie lesen einen Wegweiser, Anzeigen, zwei kürzere Texte, eine Informationsbroschüre und eine E-Mail. Insgesamt bearbeiten Sie 23 Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Wegweiser",
+          "instructions": "Sie sind in der Stadtverwaltung und suchen verschiedene Informationen. Lesen Sie den Wegweiser und die Aufgaben. In welches Stockwerk gehen Sie? Achtung: Manchmal ist keines der beiden genannten Stockwerke richtig – wählen Sie dann „anderes Stockwerk“.",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-wegweiser",
+              "stimuli": [
+                {
+                  "title": "Wegweiser",
+                  "text": "STADTVERWALTUNG LINDENBERG – WEGWEISER\n\n4. OG\nBauamt\nBaugenehmigungen / Bauanträge / Denkmalschutz / Auskünfte zu Grundstücken\nVermessungsamt\nLagepläne / Grundstücksgrenzen / Auszüge aus dem Liegenschaftskataster\n\n3. OG\nOrdnungsamt\nGewerbeanmeldung / Gaststättenerlaubnis / Wochenmärkte / Lärmbeschwerden / Hundesteuer\nStadtkasse\nGrundsteuer / Zahlungen und Ratenpläne / Mahnungen\n\n2. OG\nSozialamt\nGrundsicherung im Alter / Hilfe zur Pflege / Beratung für Menschen mit Behinderung / Wohngeld\nIntegrationsbüro\nBeratung für Neuzugewanderte / Sprachkursberatung / Anerkennung ausländischer Abschlüsse / Vermittlung ins Ehrenamt\n\n1. OG\nJugend und Familie\nAnmeldung für Kindertagesstätten / Elterngeld / Unterhaltsvorschuss / Pflegefamilien / Ausbildungsförderung (BAföG)\nSchulverwaltung\nSchulanmeldung / Schülerfahrkarten / Zuschüsse für Lernmittel\n\nEG\nBürgerbüro\nPersonalausweis und Reisepass / An-, Um- und Abmeldung des Wohnsitzes / Beglaubigungen / Führungszeugnis / Fundbüro\nKfz-Zulassung\nFahrzeuge an- und abmelden / Kennzeichen / Feinstaubplakette"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-1",
+                  "prompt": "Sie möchten Ihre Tochter für das nächste Schuljahr in der Grundschule anmelden.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Schulanmeldung gehört zur Schulverwaltung im 1. OG."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-2",
+                  "prompt": "Sie wollen ein kleines Café eröffnen und brauchen dafür eine Erlaubnis.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "EG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Die Gaststättenerlaubnis gibt das Ordnungsamt im 3. OG – also ein anderes Stockwerk."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-3",
+                  "prompt": "Sie haben Ihren Berufsabschluss im Ausland gemacht und möchten wissen, ob er hier anerkannt wird.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "4. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Anerkennung ausländischer Abschlüsse“ steht beim Integrationsbüro im 2. OG."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-4",
+                  "prompt": "Sie sind innerhalb der Stadt umgezogen und müssen Ihre neue Adresse melden.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "3. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Die Ummeldung des Wohnsitzes macht das Bürgerbüro im EG – also ein anderes Stockwerk."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-5",
+                  "prompt": "Ihre Nachbarn feiern jede Nacht sehr laut und Sie möchten sich offiziell beschweren.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "3. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "EG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Lärmbeschwerden bearbeitet das Ordnungsamt im 3. OG."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Anzeigen",
+          "instructions": "Lesen Sie die sieben Anzeigen und die fünf Situationen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Zwei Anzeigen bleiben übrig.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "heading": "Sprachcafé im Nachbarschaftshaus",
+                  "text": "Jeden Donnerstag von 17 bis 19 Uhr sprechen wir bei Kaffee und Kuchen Deutsch – kein Unterricht, keine Hausaufgaben, einfach reden.\nOhne Anmeldung, kostenlos, für alle ab 16 Jahren. Sie können jede Woche kommen oder auch nur einmal im Monat.\nNachbarschaftshaus Süd, Lessingstraße 4, Raum 2."
+                },
+                {
+                  "title": "Anzeige b",
+                  "heading": "Nachhilfe-Börse der Volkshochschule",
+                  "text": "Studierende der Universität helfen Schülerinnen und Schülern der Klassen 5 bis 10 in Mathematik, Deutsch und Englisch.\nFeste Termine über das ganze Schuljahr, einmal pro Woche 90 Minuten, 12 Euro pro Stunde. Bei geringem Einkommen ist eine Ermäßigung möglich.\nAnmeldung nur schriftlich über das Formular auf unserer Internetseite."
+                },
+                {
+                  "title": "Anzeige c",
+                  "heading": "Bürgerbus Lindenberg sucht Fahrerinnen und Fahrer",
+                  "text": "Unser kleiner Bus bringt ältere Menschen zum Arzt und zum Einkaufen. Dafür suchen wir ehrenamtliche Fahrerinnen und Fahrer.\nEinsatz einmal pro Woche für etwa drei Stunden, den Tag bestimmen Sie selbst. Voraussetzung ist der Führerschein Klasse B seit mindestens drei Jahren.\nSie bekommen eine Aufwandsentschädigung von 8 Euro pro Fahrt und eine Einweisung."
+                },
+                {
+                  "title": "Anzeige d",
+                  "heading": "Möbellager der Diakonie",
+                  "text": "Gebrauchte Betten, Schränke, Tische und Stühle zu sehr günstigen Preisen. Eine Lieferung nach Hause ist gegen Aufpreis möglich.\nAbgabe nur mit Berechtigungsschein vom Sozialamt – bitte bringen Sie ihn und Ihren Ausweis mit.\nGeöffnet Dienstag und Freitag von 9 bis 14 Uhr, Industriestraße 12."
+                },
+                {
+                  "title": "Anzeige e",
+                  "heading": "Wohnungstausch-Treff",
+                  "text": "Sie wohnen zu zweit in einer großen Wohnung und suchen etwas Kleineres? Oder brauchen Sie mehr Platz für die Familie?\nBeim Wohnungstausch-Treff lernen Sie Menschen kennen, die genau das Gegenteil suchen. Bringen Sie Fotos und die wichtigsten Daten Ihrer Wohnung mit.\nJeden ersten Montag im Monat um 18 Uhr im Stadtteilbüro Nord."
+                },
+                {
+                  "title": "Anzeige f",
+                  "heading": "Computerkurse für Ältere",
+                  "text": "Schritt für Schritt zeigen wir Ihnen, wie Sie mit dem Smartphone umgehen: E-Mails schreiben, Fotos verschicken und Termine online vereinbaren, zum Beispiel bei der Ärztin oder beim Amt.\nAcht Termine, kleine Gruppen mit höchstens sechs Personen, 40 Euro. Für alle ab 60 Jahren, Vorkenntnisse sind nicht nötig.\nEigenes Gerät bitte mitbringen."
+                },
+                {
+                  "title": "Anzeige g",
+                  "heading": "Kleiderkammer im Gemeindezentrum",
+                  "text": "Kleidung und Schuhe für die ganze Familie, für einen kleinen Beitrag von 1 bis 3 Euro pro Stück.\nGeöffnet jeden Dienstag von 10 bis 13 Uhr. Bitte bringen Sie einen Ausweis mit.\nGut erhaltene Spenden nehmen wir zu den Öffnungszeiten gern entgegen – bitte keine kaputten Sachen."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Sprachcafé im Nachbarschaftshaus"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Nachhilfe-Börse der Volkshochschule"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Bürgerbus Lindenberg sucht Fahrerinnen und Fahrer"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Möbellager der Diakonie"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Wohnungstausch-Treff"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Computerkurse für Ältere"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Kleiderkammer im Gemeindezentrum"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Sie möchten regelmäßig Deutsch sprechen üben, haben aber wenig Geld und können sich nicht fest anmelden.",
+                  "solution": "a",
+                  "explanation": "Anzeige a: ohne Anmeldung, kostenlos, „Sie können jede Woche kommen oder auch nur einmal im Monat“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Ihre Mutter ist 68 und möchte lernen, wie man einen Arzttermin im Internet vereinbart.",
+                  "solution": "f",
+                  "explanation": "Anzeige f: Termine online vereinbaren, „zum Beispiel bei der Ärztin“, ab 60 Jahren, ohne Vorkenntnisse."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Sie haben seit fünf Jahren einen Führerschein und möchten in Ihrer Freizeit etwas für andere tun.",
+                  "solution": "c",
+                  "explanation": "Anzeige c: ehrenamtlich, Führerschein Klasse B seit mindestens drei Jahren – Sie haben ihn seit fünf."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Ihr Sohn hat schlechte Noten in Mathematik und braucht das ganze Schuljahr über regelmäßig Hilfe.",
+                  "solution": "b",
+                  "explanation": "Anzeige b: Mathematik, feste Termine über das ganze Schuljahr, Klassen 5 bis 10."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie beziehen Sozialleistungen und brauchen dringend einen günstigen Kleiderschrank.",
+                  "solution": "d",
+                  "explanation": "Anzeige d: gebrauchte Möbel, aber nur mit Berechtigungsschein vom Sozialamt."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Pressetexte und formelle Mitteilungen",
+          "instructions": "Lesen Sie die beiden Texte. Entscheiden Sie zu jedem Text, ob die Aussage richtig oder falsch ist, und wählen Sie danach die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-text-1",
+              "stimuli": [
+                {
+                  "title": "Text 1 – aus der Lindenberger Zeitung",
+                  "text": "Weniger Autos, mehr Platz für Räder\n\nSeit Anfang April ist die Lindenstraße eine Fahrradstraße. Autos dürfen weiterhin fahren, allerdings nur mit 30 Stundenkilometern, und Radfahrende haben Vorrang. Die Stadt hat den Versuch zunächst auf ein Jahr begrenzt.\n\nErste Zahlen zeigen: Auf der Strecke sind rund 40 Prozent mehr Räder unterwegs als im Vorjahr, die Zahl der Autos ist dagegen leicht gesunken. Zufrieden sind trotzdem nicht alle. Mehrere Geschäfte in der Straße berichten von weniger Kundschaft, seit einige Parkplätze weggefallen sind. Das Ordnungsamt hält dagegen, dass die meisten Kundinnen und Kunden aus dem Viertel selbst kommen und ohnehin zu Fuß unterwegs seien.\n\nIm Herbst will die Stadt alle Anwohnerinnen und Anwohner schriftlich befragen. Erst danach soll entschieden werden, ob die Regelung dauerhaft bleibt."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l3-1",
+                  "statement": "In der Lindenstraße fahren mehr Räder als im letzten Jahr.",
+                  "solution": true,
+                  "explanation": "„… rund 40 Prozent mehr Räder unterwegs als im Vorjahr.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was ist für den Herbst geplant?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Parkplätze sollen zurückkommen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Anwohnerinnen und Anwohner werden befragt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Regelung wird auf weitere Straßen ausgeweitet."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Im Herbst will die Stadt alle Anwohnerinnen und Anwohner schriftlich befragen.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-text-2",
+              "stimuli": [
+                {
+                  "title": "Text 2 – Schreiben der Hausverwaltung",
+                  "text": "Hausverwaltung Kern & Partner\n\nSehr geehrte Mieterinnen und Mieter,\n\nin der Woche vom 14. bis 18. Oktober werden in allen Wohnungen die Heizkostenverteiler abgelesen. Die Firma Thermex informiert Sie zwei Werktage vorher durch einen Aushang im Treppenhaus über den genauen Tag. Bitte sorgen Sie dafür, dass alle Heizkörper frei zugänglich sind.\n\nSollten Sie an diesem Tag nicht zu Hause sein, geben Sie bitte einen Schlüssel bei einer Nachbarin oder einem Nachbarn ab oder vereinbaren Sie telefonisch einen Ersatztermin unter 0800 44 55 66. Ein zweiter Besuch ohne vorherige Absprache ist kostenpflichtig; die 45 Euro werden über die Nebenkostenabrechnung abgerechnet.\n\nMit freundlichen Grüßen\nHausverwaltung Kern & Partner"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l3-3",
+                  "statement": "Die Mieterinnen und Mieter erfahren den genauen Termin per Brief.",
+                  "solution": false,
+                  "explanation": "Der genaue Tag wird „durch einen Aushang im Treppenhaus“ bekannt gegeben, nicht per Brief."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Was passiert, wenn jemand nicht zu Hause ist und keinen Ersatztermin vereinbart hat?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Ablesung entfällt für diese Wohnung."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Firma kommt am nächsten Tag noch einmal."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der zweite Besuch kostet 45 Euro."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ein zweiter Besuch ohne vorherige Absprache ist kostenpflichtig; die 45 Euro werden über die Nebenkostenabrechnung abgerechnet.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-4",
+          "title": "Teil 4 – Informationsbroschüre",
+          "instructions": "Lesen Sie die Informationen der Stadtbibliothek. Sind die folgenden Aussagen richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-4-broschuere",
+              "stimuli": [
+                {
+                  "title": "Broschüre",
+                  "text": "STADTBIBLIOTHEK LINDENBERG – GUT ZU WISSEN\n\nAnmeldung\nDer Bibliotheksausweis ist für alle unter 18 Jahren kostenlos. Erwachsene zahlen 15 Euro im Jahr, ermäßigt 8 Euro – zum Beispiel Studierende, Menschen mit Behinderung und Empfängerinnen und Empfänger von Sozialleistungen. Bringen Sie zur Anmeldung bitte einen gültigen Ausweis mit.\n\nAusleihe\nSie können bis zu 20 Medien gleichzeitig ausleihen: Bücher für vier Wochen, DVDs und Spiele für eine Woche. Verlängern können Sie zweimal – online, telefonisch oder bei uns im Haus. Das geht allerdings nicht, wenn jemand anderes das Medium bereits vorgemerkt hat.\n\nAngebote im Haus\nDie Arbeitsplätze und das WLAN können Sie kostenlos nutzen, auch ohne Ausweis. Drucken kostet 10 Cent pro Seite. In der Lernwerkstatt im 1. Stock finden Sie Material zur Prüfungsvorbereitung, unter anderem für die Deutschprüfungen von A1 bis C1.\n\nVeranstaltungen\nSamstags um 11 Uhr lesen wir Kindern von 3 bis 6 Jahren vor; dafür ist keine Anmeldung nötig. Das Sprachcafé findet mittwochs um 16 Uhr statt. Hier bitten wir um Anmeldung, weil die Plätze begrenzt sind."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-1",
+                  "statement": "Jugendliche unter 18 Jahren bezahlen für den Ausweis nichts.",
+                  "solution": true,
+                  "explanation": "„Der Bibliotheksausweis ist für alle unter 18 Jahren kostenlos.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-2",
+                  "statement": "Das WLAN darf man nur mit einem Bibliotheksausweis benutzen.",
+                  "solution": false,
+                  "explanation": "„Die Arbeitsplätze und das WLAN können Sie kostenlos nutzen, auch ohne Ausweis.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-3",
+                  "statement": "Für das Sprachcafé muss man sich vorher anmelden.",
+                  "solution": true,
+                  "explanation": "„Hier bitten wir um Anmeldung, weil die Plätze begrenzt sind.“ Für die Vorlesestunde am Samstag gilt das nicht."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-5",
+          "title": "Teil 5 – Wörter im Brief ergänzen",
+          "instructions": "Lesen Sie die E-Mail und wählen Sie für jede Lücke das passende Wort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-5-brief",
+              "stimuli": [
+                {
+                  "title": "E-Mail an die Sprachschule",
+                  "text": "Sehr ___(1)___ Frau Weber,\n\nich habe im September an Ihrem Abendkurs B1 teilgenommen. Leider musste ich den Kurs nach vier Wochen abbrechen, ___(2)___ ich eine neue Arbeitsstelle mit Schichtdienst angenommen habe.\n\n___(3)___ meiner Anmeldung hatte ich die Kursgebühr für das ganze Semester im Voraus bezahlt. Ich möchte Sie deshalb fragen, ob eine teilweise Rückzahlung möglich ist. Alternativ ___(4)___ ich den Restbetrag auch gern für einen Wochenendkurs im Frühjahr verwenden.\n\nIch hoffe auf Ihr ___(5)___ und danke Ihnen im Voraus für Ihre Mühe. Falls Sie noch Unterlagen von mir brauchen, schicke ich sie Ihnen ___(6)___ zu.\n\nMit freundlichen Grüßen\nAmir Haddad",
+                  "heading": "E-Mail an die Sprachschule"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-1",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "geehrte"
+                    },
+                    {
+                      "id": "b",
+                      "text": "geehrten"
+                    },
+                    {
+                      "id": "c",
+                      "text": "geehrter"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Sehr geehrte Frau Weber“ – nach „Sehr“ steht die weibliche Form im Nominativ.",
+                  "prompt": "Lücke (1) – Anrede"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-2",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "trotzdem"
+                    },
+                    {
+                      "id": "b",
+                      "text": "obwohl"
+                    },
+                    {
+                      "id": "c",
+                      "text": "weil"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Der Satz nennt den Grund für den Abbruch. „obwohl“ wäre das Gegenteil, nach „trotzdem“ müsste das Verb an zweiter Stelle stehen.",
+                  "prompt": "Lücke (2) – Konnektor"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-3",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Bei"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Seit"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Vor"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Bei meiner Anmeldung“ – zum Zeitpunkt der Anmeldung wurde bezahlt.",
+                  "prompt": "Lücke (3) – Präposition"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-4",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "hätte"
+                    },
+                    {
+                      "id": "b",
+                      "text": "würde"
+                    },
+                    {
+                      "id": "c",
+                      "text": "wäre"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Nur „würde“ passt zum Infinitiv „verwenden“: „würde ich … verwenden“.",
+                  "prompt": "Lücke (4) – Konjunktiv II"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-5",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Verstand"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Verständnis"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Verständigung"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„auf Ihr Verständnis hoffen“ ist die feste Wendung. „Verstand“ ist die Denkfähigkeit, „Verständigung“ die Einigung.",
+                  "prompt": "Lücke (5) – Nomen"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-6",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "vielleicht"
+                    },
+                    {
+                      "id": "b",
+                      "text": "wahrscheinlich"
+                    },
+                    {
+                      "id": "c",
+                      "text": "selbstverständlich"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "In einer höflichen Bitte sagt man zu, die Unterlagen selbstverständlich zu schicken – nicht „vielleicht“.",
+                  "prompt": "Lücke (6) – Adverb"
+                }
+              ],
+              "inlineGaps": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 30,
+      "description": "Sie schreiben eine E-Mail und gehen dabei auf vier Punkte ein. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie eine Musterlösung zum Vergleichen.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "E-Mail schreiben",
+          "instructions": "Sie arbeiten seit einem Jahr als Küchenhilfe im Restaurant „Zum Anker“. Ab Oktober möchten Sie abends einen Deutschkurs besuchen und müssten dafür Ihre Arbeitszeiten ändern. Schreiben Sie eine E-Mail an Ihren Chef, Herrn Kowalski. Schreiben Sie mindestens 80 Wörter und gehen Sie auf alle vier Punkte ein.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-email",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Schreiben Sie die E-Mail an Herrn Kowalski.",
+                  "criteria": [
+                    "Grund: Warum schreiben Sie?",
+                    "Warum der Deutschkurs für Sie wichtig ist",
+                    "Welche Arbeitszeiten für Sie möglich wären",
+                    "Ihr Vorschlag, wie die Arbeit trotzdem erledigt wird"
+                  ],
+                  "hints": [
+                    "Schreiben Sie förmlich: „Sehr geehrter Herr Kowalski“ und am Ende „Mit freundlichen Grüßen“.",
+                    "Sie bitten um etwas – begründen Sie Ihre Bitte und machen Sie einen konkreten Vorschlag.",
+                    "Höfliche Bitten stehen im Konjunktiv II: „könnte ich …“, „ich würde gern …“, „wäre es möglich …“."
+                  ],
+                  "minWords": 80,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrter Herr Kowalski,\n\nich arbeite jetzt seit einem Jahr in Ihrem Restaurant und komme sehr gern zur Arbeit. Heute habe ich eine Bitte an Sie.\n\nAb Oktober möchte ich zweimal in der Woche einen Deutschkurs besuchen. Der Kurs findet dienstags und donnerstags von 18 bis 21 Uhr statt. Bessere Deutschkenntnisse würden mir im Beruf sehr helfen, vor allem im Umgang mit den Gästen und mit den Lieferanten.\n\nDeshalb wollte ich fragen, ob ich an diesen beiden Tagen früher Feierabend machen könnte. An allen anderen Tagen wäre ich wie bisher bis 22 Uhr da. Die fehlenden Stunden würde ich gern am Samstagvormittag nachholen, denn da ist im Restaurant erfahrungsgemäß weniger los.\n\nÜber eine kurze Rückmeldung würde ich mich sehr freuen.\n\nMit freundlichen Grüßen\nElena Petrova"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sie stellen sich vor, beschreiben zwei Bilder und planen etwas gemeinsam. Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet; nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie etwa zwei Minuten frei zu den Stichwörtern. Nehmen Sie sich am besten mit dem Handy auf – so hören Sie selbst, wo Sie noch stocken.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Wohnort – Familie – Arbeit oder Ausbildung – Sprachen – Warum lernen Sie Deutsch? – Was möchten Sie in den nächsten Jahren erreichen?",
+                  "hints": [
+                    "Auf B1 reicht eine Liste von Sätzen nicht mehr. Verbinden Sie sie: „… weil …“, „… seit …“, „Zurzeit … , aber später …“.",
+                    "Sprechen Sie auch über Vergangenheit und Zukunft, nicht nur über die Gegenwart.",
+                    "Zum Schluss: Buchstabieren Sie Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Mein Name ist Elena Petrova, ich bin 31 Jahre alt und komme ursprünglich aus der Ukraine, aus Charkiw.\n\nSeit drei Jahren lebe ich in Düsseldorf, zusammen mit meinem Mann und unserer Tochter. Sie ist sechs und geht seit August in die Schule.\n\nIn der Ukraine habe ich als Buchhalterin gearbeitet. Hier arbeite ich zurzeit als Küchenhilfe in einem Restaurant, weil mein Abschluss noch nicht anerkannt ist. Das Verfahren läuft aber gerade.\n\nIch spreche Ukrainisch und Russisch als Muttersprachen, außerdem Englisch und eben Deutsch.\n\nDeutsch lerne ich vor allem aus einem Grund: Ich möchte wieder in meinem Beruf arbeiten. Für die Anerkennung brauche ich mindestens B2, deshalb mache ich jetzt zuerst die B1-Prüfung.\n\nIn den nächsten zwei Jahren möchte ich die Anerkennung abschließen und mich bei einer Firma hier in der Nähe bewerben. Und wenn alles gut läuft, machen wir irgendwann den Führerschein – das fehlt uns beiden noch.\n\nMein Familienname ist Petrova: P – E – T – R – O – V – A."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Ein Bild beschreiben",
+          "instructions": "Thema: Einkaufen im Alltag. Sehen Sie sich das Bild an. Beschreiben Sie zuerst, was Sie sehen, und sagen Sie danach, wo Sie selbst am liebsten einkaufen und warum. Sprechen Sie etwa drei Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-bild-b",
+              "stimuli": [
+                {
+                  "id": "sprechen-bild-b",
+                  "title": "Bild",
+                  "image": {
+                    "src": "/bilder/de/b1/uebungstest-b1-01/sprechen-bild.jpg",
+                    "alt": "Ein Obststand auf dem Gehweg vor einem Backsteinhaus. Eine ältere Frau mit einem Rollator beugt sich über die Auslage und hält zwei Kakis in der Hand. Vor ihr stehen offene Kisten mit Birnen, Melonen, Orangen und Mandarinen; an einer Kiste hängt ein handgeschriebenes Preisschild. Im Hintergrund sind Pflanzen zum Verkauf und parkende Autos zu sehen."
+                  },
+                  "text": "Beschreiben Sie, was Sie auf dem Bild sehen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Beschreiben Sie das Bild und sagen Sie, wo Sie selbst am liebsten einkaufen.",
+                  "hints": [
+                    "Gehen Sie der Reihe nach vor: Wo ist das? Was sieht man? Wer ist zu sehen und was macht die Person?",
+                    "Sagen Sie nicht nur, was sicher ist. Vermutungen gehören dazu: „Ich vermute, dass …“, „Wahrscheinlich …“, „Es sieht so aus, als ob …“.",
+                    "Zum Schluss der eigene Bezug: Markt oder Supermarkt? Begründen Sie mit „einerseits … andererseits …“ oder „Was mir daran gefällt, ist …“."
+                  ],
+                  "musterloesung": "Auf dem Bild sehe ich einen Obststand, der direkt auf dem Gehweg vor einem Haus steht. Ich vermute, es ist ein kleiner Laden im Viertel, der seine Ware nach draußen stellt, oder ein Stand auf einem Straßenmarkt.\n\nIm Vordergrund stehen mehrere offene Kisten mit Obst: Birnen, Melonen, Orangen und Mandarinen, viele noch mit Blättern daran. An einer Kiste hängt ein handgeschriebenes Schild mit dem Preis, ich glaube, es sind 2,50 Euro pro Kilo.\n\nDie wichtigste Person auf dem Bild ist eine ältere Frau. Sie geht am Rollator und beugt sich nach vorn, um sich die Früchte anzusehen. In der Hand hält sie zwei Kakis. Sie trägt eine braune Jacke und hat eine grüne Tasche über der Schulter. Warm scheint es nicht zu sein, deshalb denke ich, dass das Foto im Herbst gemacht wurde – Orangen und Mandarinen passen ja auch zu dieser Jahreszeit.\n\nWas mir an dem Bild auffällt: Die Frau kauft offenbar allein ein, obwohl ihr das Gehen schwerfällt. Ich finde es wichtig, dass es solche Geschäfte im Viertel gibt. Sonst müsste sie mit dem Bus oder mit dem Auto zu einem großen Supermarkt fahren, und das wäre für sie viel schwieriger.\n\nIch selbst kaufe Obst und Gemüse auch am liebsten auf dem Markt. Einerseits ist die Ware dort frischer, andererseits kann man sie ansehen und anfassen, bevor man sie kauft. Im Supermarkt gibt es zwar mehr Auswahl und er hat länger geöffnet, aber die Qualität ist oft schlechter. Was mir am Markt außerdem gefällt: Man spricht mit den Verkäuferinnen und Verkäufern – für mich ist das ganz nebenbei gutes Sprachtraining."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Gemeinsam etwas planen",
+          "instructions": "Lesen Sie die Situation. Planen Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner. Machen Sie Vorschläge, reagieren Sie auf die Vorschläge der anderen Person und einigen Sie sich am Ende auf einen Plan.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "In Ihrem Wohnhaus wohnen viele Familien, aber die Nachbarn kennen sich kaum. Sie und eine Nachbarin möchten deshalb ein Nachbarschaftsfest im Hof organisieren. Planen Sie das Fest zusammen.",
+                  "hints": [
+                    "Wann und wo soll das Fest stattfinden?",
+                    "Was gibt es zu essen und zu trinken – und wer bringt was mit?",
+                    "Wie laden Sie die anderen Nachbarn ein?",
+                    "Wer räumt hinterher auf, und was kostet das Ganze?"
+                  ],
+                  "musterloesung": "A: Ich finde, wir sollten endlich mal ein Fest im Hof machen. Die meisten Nachbarn kennen sich ja gar nicht.\nB: Gute Idee. Wann würdest du es denn machen? Ich wäre für einen Samstagnachmittag, dann müssen die Leute am nächsten Tag nicht früh raus.\nA: Samstag passt mir auch. Wie wäre es mit dem 14. Juni, so ab vier Uhr? Dann ist es noch hell, aber nicht mehr so heiß.\nB: Einverstanden. Und beim Essen – sollen wir grillen?\nA: Ich würde vorschlagen, dass jeder etwas mitbringt. Wir könnten eine Liste ins Treppenhaus hängen, damit nicht am Ende zehn Kartoffelsalate dastehen.\nB: Das gefällt mir besser als grillen, ehrlich gesagt. Beim Grill muss immer jemand stehen, und es wird schnell teuer. Getränke könnten wir zusammen kaufen und die Kosten teilen.\nA: Machen wir. Ich rechne mit ungefähr zwei bis drei Euro pro Person, das geht.\nB: Und die Einladung? Ein Aushang allein reicht vielleicht nicht.\nA: Ich schreibe einen Zettel und werfe ihn in alle Briefkästen. Könntest du bei den Nachbarn im Erdgeschoss zusätzlich klingeln? Die schauen selten auf den Aushang.\nB: Mache ich. Und Tische und Stühle?\nA: Herr Yildiz hat einen großen Tisch, den fragen wir. Den Rest holen wir aus den Wohnungen.\nB: Bleibt nur noch das Aufräumen. Ich schlage vor, wir bitten schon auf dem Zettel darum, dass jeder sein Geschirr wieder mitnimmt. Den Hof kehren wir beide am Sonntagmorgen.\nA: Perfekt. Dann fasse ich zusammen: Samstag, 14. Juni, ab 16 Uhr im Hof, jeder bringt etwas zu essen mit, Getränke kaufen wir gemeinsam, ich mache die Zettel, du klingelst unten – und Sonntag räumen wir auf.\nB: Genau so machen wir es."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "draft": true
+}

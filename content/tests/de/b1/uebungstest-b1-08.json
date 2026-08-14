@@ -1,0 +1,1140 @@
+{
+  "id": "uebungstest-b1-08",
+  "language": "de",
+  "level": "B1",
+  "title": "Übungstest B1 – Nr. 8",
+  "description": "Ein vollständiger Übungstest auf Niveau B1 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Freizeit, Sport und Vereine.",
+  "draft": true,
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 25,
+      "description": "Sie hören Ansagen, kurze Informationen aus dem Radio, Gespräche aus dem Alltag und drei Meinungen zu einem Thema. Insgesamt bearbeiten Sie 20 Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Ansagen und Durchsagen",
+          "instructions": "Sie hören vier Ansagen: am Telefon und an öffentlichen Orten. Wählen Sie zu jeder Ansage die richtige Antwort. Sie hören jede Ansage zweimal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-08/hoeren-teil-1.mp3",
+            "transcript": "Ansage 1\nLiebe Gäste, das Freibad schließt heute wegen des Gewitters bereits um 17 Uhr. Ihre Tageskarte behält bis morgen ihre Gültigkeit, bringen Sie sie einfach mit. Bitte verlassen Sie die Becken jetzt zügig.\n\nAnsage 2\nHerr Böhm: Guten Tag, Frau Sander, hier ist der TSV Lindenberg. Ihre Tochter ist für das Probetraining angemeldet, allerdings hat sich der Termin geändert: nicht Dienstag, sondern Donnerstag um 16 Uhr 30. Sportsachen und Hallenschuhe bitte mitbringen.\n\nAnsage 3\nSehr geehrte Besucherinnen und Besucher, für die Ausstellung im Obergeschoss brauchen Sie ein Zeitfenster-Ticket. Der Eintritt ins Museum allein reicht nicht. Tickets bekommen Sie an der Kasse, solange noch Plätze frei sind.\n\nAnsage 4\nSprechstundenhilfe: Guten Tag, hier ist die Volkshochschule. Ihr Fotokurs am Samstag findet statt, wir treffen uns aber nicht im Kursraum, sondern direkt am Stadtpark, am Eingang Nordtor. Denken Sie an einen vollen Akku."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-ansage-1",
+              "prompt": "Ansage 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-1",
+                  "prompt": "Was gilt für die Tageskarte?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie gilt morgen noch."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie wird zurückerstattet."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie verfällt."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Ihre Tageskarte behält bis morgen ihre Gültigkeit.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-2",
+              "prompt": "Ansage 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Was hat sich geändert?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Sporthalle."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Der Wochentag des Trainings."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der Trainer."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… nicht Dienstag, sondern Donnerstag um 16 Uhr 30.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-3",
+              "prompt": "Ansage 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-3",
+                  "prompt": "Was braucht man für die Ausstellung?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nur den normalen Eintritt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Eine Anmeldung im Internet."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ein zusätzliches Ticket mit Uhrzeit."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… brauchen Sie ein Zeitfenster-Ticket. Der Eintritt ins Museum allein reicht nicht.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-4",
+              "prompt": "Ansage 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Was ist beim Fotokurs zu beachten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Treffpunkt ist ein anderer."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Der Kurs fällt aus."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Man braucht eine eigene Kamera."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… wir treffen uns aber nicht im Kursraum, sondern direkt am Stadtpark.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Kurze Informationen aus dem Radio",
+          "instructions": "Sie hören fünf kurze Meldungen aus dem Radio. Wählen Sie zu jeder Meldung die richtige Antwort. Sie hören die Meldungen einmal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-08/hoeren-teil-2.mp3",
+            "transcript": "Meldung 1\nModeratorin: Zum Sport: Der Handballverein Lindenberg spielt am Samstag zum ersten Mal in der neuen Halle. Der Eintritt ist an diesem Tag für alle frei. Die Vereinsleitung bittet allerdings darum, mit Bus oder Rad zu kommen, weil es kaum Parkplätze gibt.\n\nMeldung 2\nModeratorin: Ein Hinweis für Familien: Die Stadtbibliothek verleiht ab sofort nicht nur Bücher, sondern auch Spiele, Musikinstrumente und Werkzeug. Der Ausweis gilt dafür ohne Aufpreis, die Leihfrist beträgt allerdings nur zwei Wochen.\n\nMeldung 3\nModeratorin: Und noch etwas aus den Vereinen: Immer weniger Menschen übernehmen ein Ehrenamt im Vorstand. Bei drei Vereinen im Kreis konnte zuletzt kein Kassenwart gefunden werden. Ohne Vorstand darf ein Verein rechtlich nicht weiterarbeiten.\n\nMeldung 4\nModeratorin: Zum Kulturprogramm: Das Sommerkino im Stadtpark beginnt am 3. Juli. Gezeigt werden zehn Filme, alle mit deutschen Untertiteln – auch die deutschen. Der Eintritt kostet 5 Euro, Kinder unter zwölf zahlen nichts.\n\nMeldung 5\nModeratorin: Zum Schluss: Der Schachverein sucht keine neuen Mitglieder mehr, sondern Räume. Der bisherige Treffpunkt im Gemeindehaus wird umgebaut. Wer einen Raum für dienstagabends kennt, meldet sich bitte im Bürgerzentrum."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-meldung-1",
+              "prompt": "Meldung 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-1",
+                  "prompt": "Worum bittet der Verein?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Karten vorher zu kaufen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Nicht mit dem Auto zu kommen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Früher zu kommen."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… mit Bus oder Rad zu kommen, weil es kaum Parkplätze gibt.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-2",
+              "prompt": "Meldung 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-2",
+                  "prompt": "Was ist neu in der Bibliothek?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Ausweis wird teurer."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Leihfrist ist länger."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Man kann auch Gegenstände ausleihen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… nicht nur Bücher, sondern auch Spiele, Musikinstrumente und Werkzeug.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-3",
+              "prompt": "Meldung 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-3",
+                  "prompt": "Was ist das Problem?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Es fehlen Menschen für den Vorstand."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Es gibt zu wenig Mitglieder."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Vereine haben kein Geld."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Immer weniger Menschen übernehmen ein Ehrenamt im Vorstand.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-4",
+              "prompt": "Meldung 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-4",
+                  "prompt": "Was ist bei den Filmen besonders?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Alle sind auf Englisch."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Alle haben deutsche Untertitel."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Alle sind kostenlos."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… alle mit deutschen Untertiteln – auch die deutschen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-5",
+              "prompt": "Meldung 5",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-5",
+                  "prompt": "Was sucht der Schachverein?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Neue Mitglieder."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Einen Trainer."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Einen Raum."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… sucht keine neuen Mitglieder mehr, sondern Räume.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Alltägliche Gespräche",
+          "instructions": "Sie hören vier kurze Gespräche. Zu jedem Gespräch gibt es zwei Aufgaben: Entscheiden Sie zuerst, ob die Aussage richtig oder falsch ist, und wählen Sie dann die richtige Antwort. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-08/hoeren-teil-3.mp3",
+            "transcript": "Gespräch 1\nFrau Kettner: Ich überlege, in den Sportverein einzutreten. Aber 15 Euro im Monat sind schon viel.\n\nTobias Reich: Für alle Kurse, die du willst. Rechne mal aus, was ein Fitnessstudio kostet.\n\nFrau Kettner: Stimmt. Und wenn es mir nicht gefällt?\n\nTobias Reich: Zweimal darfst du kostenlos zum Probetraining. Danach kannst du immer noch nein sagen.\n\nFrau Kettner: Und die Kündigung?\n\nTobias Reich: Da musst du aufpassen: Man kann nur zum Jahresende kündigen, drei Monate vorher. Das übersehen viele.\n\nGespräch 2\nHerr Ayala: Wir suchen für unser Sommerfest noch Helfer. Hättest du Lust?\n\nMerve: Kommt darauf an, was ich machen müsste.\n\nHerr Ayala: Am liebsten Kuchenverkauf, zwei Stunden. Aufbauen brauchen wir dich nicht, das machen die Jugendlichen.\n\nMerve: Zwei Stunden schaffe ich. Aber ich kann erst ab drei.\n\nHerr Ayala: Passt perfekt, die zweite Schicht geht von drei bis fünf.\n\nMerve: Dann trag mich ein. Und meine Schwester bringt Kuchen mit.\n\nGespräch 3\nFrau Brinkmann: Guten Tag, ich möchte meinen Sohn zum Schwimmkurs anmelden. Er ist sechs.\n\nMitarbeiter: Da haben Sie Glück, im Anfängerkurs sind noch zwei Plätze frei. Kann er sich schon über Wasser halten?\n\nFrau Brinkmann: Nein, gar nicht.\n\nMitarbeiter: Kein Problem, dafür ist der Kurs da. Wichtig ist nur, dass Sie in den ersten Stunden dabeibleiben – viele Kinder haben am Anfang Angst.\n\nFrau Brinkmann: Muss ich mit ins Wasser?\n\nMitarbeiter: Nein, am Beckenrand reicht völlig.\n\nGespräch 4\nJonas Frey: Wie war eigentlich dein Vereinsausflug?\n\nFrau Delgado: Anstrengend. Wir waren zu fünfzehnt wandern, und keiner hatte die Strecke vorher angeschaut.\n\nJonas Frey: Oh je.\n\nFrau Delgado: Zwölf Kilometer statt sechs, und zwei Ältere sind kaum noch angekommen. Nächstes Mal fahre ich die Strecke vorher ab, das habe ich gelernt.\n\nJonas Frey: Und sonst?\n\nFrau Delgado: Sonst war es schön. Aber ich sage es jetzt jedem: Bei einer Gruppe muss man sich nach den Langsamsten richten, nicht nach den Schnellsten."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-gespraech-1",
+              "prompt": "Gespräch 1",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-1",
+                  "statement": "Frau Kettner kann zweimal kostenlos zum Probetraining kommen.",
+                  "solution": true,
+                  "explanation": "„Zweimal darfst du kostenlos zum Probetraining.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Was soll sie beachten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Kündigungsfrist."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Öffnungszeiten."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Anmeldegebühr."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Man kann nur zum Jahresende kündigen, drei Monate vorher.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-2",
+              "prompt": "Gespräch 2",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-3",
+                  "statement": "Merve soll beim Aufbauen helfen.",
+                  "solution": false,
+                  "explanation": "„Aufbauen brauchen wir dich nicht, das machen die Jugendlichen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Wann hilft Merve?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Von eins bis drei."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Von drei bis fünf."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Den ganzen Tag."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… die zweite Schicht geht von drei bis fünf.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-3",
+              "prompt": "Gespräch 3",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-5",
+                  "statement": "Der Sohn kann schon ein bisschen schwimmen.",
+                  "solution": false,
+                  "explanation": "„Kann er sich schon über Wasser halten?“ – „Nein, gar nicht.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-6",
+                  "prompt": "Was soll Frau Brinkmann tun?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Mit ins Wasser gehen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ihren Sohn allein lassen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "In den ersten Stunden am Beckenrand bleiben."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… dass Sie in den ersten Stunden dabeibleiben“ – am Beckenrand."
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-4",
+              "prompt": "Gespräch 4",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-7",
+                  "statement": "Die Wanderung war länger als geplant.",
+                  "solution": true,
+                  "explanation": "„Zwölf Kilometer statt sechs.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-8",
+                  "prompt": "Was möchte Frau Delgado nächstes Mal anders machen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Strecke vorher selbst gehen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weniger Leute mitnehmen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nur noch mit dem Bus fahren."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Nächstes Mal fahre ich die Strecke vorher ab, das habe ich gelernt.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-4",
+          "title": "Teil 4 – Meinungen zu einem Thema",
+          "instructions": "Sie hören drei Aussagen zum selben Thema. Welcher Satz a–f passt zu welcher Aussage? Es bleiben drei Sätze übrig. Sie hören die Aussagen zweimal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-08/hoeren-teil-4.mp3",
+            "transcript": "Moderatorin: Unser Thema heute: Soll Sport im Verein für Kinder kostenlos sein? Wir haben nachgefragt.\n\nAussage 18: Silke Hartmann\nSilke Hartmann: Ich trainiere seit zwölf Jahren ehrenamtlich eine Mädchenmannschaft. Der Beitrag ist bei uns nicht das Problem, zwölf Euro im Monat kann fast jeder aufbringen. Was die Familien wirklich abschreckt, sind die Fahrten zu Auswärtsspielen und die Ausrüstung. Darüber redet nur niemand.\n\nAussage 19: Dawid Nowak\nDawid Nowak: Wenn etwas nichts kostet, wird es leider auch nicht ernst genommen. Bei uns im Verein haben wir ein Jahr lang beitragsfrei angeboten, und die Hälfte der Angemeldeten ist nach vier Wochen nicht mehr gekommen. Ein kleiner Betrag sorgt dafür, dass man hingeht.\n\nAussage 20: Amira Ben Salah\nAmira Ben Salah: Für uns war der Beitrag sehr wohl die Hürde. Bei drei Kindern sind das schnell vierzig Euro im Monat, und dann kommt noch das Ticket für den Bus dazu. Wir haben zwei Jahre gewartet, bis wir uns das leisten konnten. Deshalb bin ich klar dafür."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-4-meinungen",
+              "prompt": "Thema: Kostenloser Vereinssport für Kinder? Welcher Satz a–f passt zu welcher Aussage? Drei Sätze bleiben übrig.",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Diese Person meint, dass ein kleiner Beitrag zur Verbindlichkeit beiträgt."
+                },
+                {
+                  "id": "b",
+                  "text": "Diese Person sagt, dass für Familien vor allem die Nebenkosten teuer sind."
+                },
+                {
+                  "id": "c",
+                  "text": "Diese Person konnte sich den Beitrag lange selbst nicht leisten."
+                },
+                {
+                  "id": "d",
+                  "text": "Diese Person findet, dass es zu wenige Trainerinnen und Trainer gibt."
+                },
+                {
+                  "id": "e",
+                  "text": "Diese Person schlägt vor, nur Familien mit wenig Einkommen zu befreien."
+                },
+                {
+                  "id": "f",
+                  "text": "Diese Person hält Vereinssport für weniger wichtig als Schule."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h4-1",
+                  "prompt": "Aussage 18 – Silke Hartmann",
+                  "solution": "b",
+                  "explanation": "„Was die Familien wirklich abschreckt, sind die Fahrten zu Auswärtsspielen und die Ausrüstung.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h4-2",
+                  "prompt": "Aussage 19 – Dawid Nowak",
+                  "solution": "a",
+                  "explanation": "„Ein kleiner Betrag sorgt dafür, dass man hingeht.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h4-3",
+                  "prompt": "Aussage 20 – Amira Ben Salah",
+                  "solution": "c",
+                  "explanation": "„Wir haben zwei Jahre gewartet, bis wir uns das leisten konnten.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 45,
+      "description": "Sie lesen einen Wegweiser, Anzeigen, zwei kürzere Texte, eine Informationsbroschüre und eine E-Mail. Insgesamt bearbeiten Sie 23 Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Wegweiser",
+          "instructions": "Sie sind im Sport- und Freizeitzentrum Ihrer Stadt und suchen verschiedene Informationen. Lesen Sie den Wegweiser und die Aufgaben. In welches Stockwerk gehen Sie? Achtung: Manchmal ist keines der beiden genannten Stockwerke richtig – wählen Sie dann „anderes Stockwerk“.",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-wegweiser",
+              "stimuli": [
+                {
+                  "title": "Wegweiser",
+                  "text": "SPORT- UND FREIZEITZENTRUM LINDENBERG – WEGWEISER\n\n3. OG\nVereinsbüros\nGeschäftsstellen der Vereine / Mitgliedsanträge / Übungsleiterausbildung\nSitzungsräume\nBuchung für Versammlungen / Schulungen\n\n2. OG\nKursbüro\nAnmeldung für Kurse / Gutscheine der Krankenkasse / Warteliste\nPhysiotherapie\nBehandlung nach Sportverletzungen / Rehasport auf Rezept\n\n1. OG\nSporthallen 1 bis 3\nHandball / Volleyball / Turnen / Zuschauertribüne\nFitnessbereich\nGeräte / Kurse / Einführung für neue Mitglieder\n\nEG\nKasse und Information\nEintrittskarten / Zehnerkarten / Auskunft zu Kursen / Fundsachen\nSchwimmbad\nSportbecken / Lehrbecken / Schwimmkurse\nUmkleiden und Schließfächer\nMünzpfand 1 Euro / Föhn"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-1",
+                  "prompt": "Sie möchten Ihren Sohn für einen Schwimmkurs anmelden.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "EG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Anmeldungen für Kurse laufen über das Kursbüro im 2. OG – das Becken selbst ist im EG."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-2",
+                  "prompt": "Sie haben nach einer Verletzung ein Rezept für Rehasport bekommen.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Rehasport auf Rezept gehört zur Physiotherapie im 2. OG."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-3",
+                  "prompt": "Sie möchten Mitglied im Handballverein werden.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Mitgliedsanträge nehmen die Vereinsbüros im 3. OG entgegen – also ein anderes Stockwerk."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-4",
+                  "prompt": "Sie haben Ihre Jacke im Schwimmbad vergessen.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "EG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Fundsachen gibt es an der Kasse und Information im EG."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-5",
+                  "prompt": "Sie sind neu im Fitnessbereich und brauchen eine Einweisung an den Geräten.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Die Einführung für neue Mitglieder gehört zum Fitnessbereich im 1. OG."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Anzeigen",
+          "instructions": "Lesen Sie die sieben Anzeigen und die fünf Situationen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Zwei Anzeigen bleiben übrig.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "heading": "Lauftreff für Anfängerinnen und Anfänger",
+                  "text": "In zehn Wochen von null auf fünf Kilometer. Wir laufen langsam und in Intervallen; wer nicht mehr kann, geht ein Stück.\nDienstags und samstags um 9 Uhr am Stadionparkplatz. Kostenlos, Anmeldung per E-Mail, damit wir die Gruppen planen können."
+                },
+                {
+                  "title": "Anzeige b",
+                  "heading": "Schachclub Lindenberg",
+                  "text": "Wir treffen uns dienstags ab 19 Uhr im Bürgerzentrum. Anfängerinnen und Anfänger sind ausdrücklich willkommen, Bretter sind vorhanden.\nMonatsbeitrag 5 Euro, für Schülerinnen und Schüler frei. Zweimal im Jahr veranstalten wir ein offenes Turnier."
+                },
+                {
+                  "title": "Anzeige c",
+                  "heading": "Kanuverleih am Stadtsee",
+                  "text": "Zweier- und Dreierboote stundenweise, ab 8 Euro pro Stunde. Schwimmweste inklusive, Schwimmkenntnisse sind Voraussetzung.\nGeöffnet April bis Oktober, täglich 10 bis 19 Uhr. Ab sechs Booten Rabatt für Gruppen."
+                },
+                {
+                  "title": "Anzeige d",
+                  "heading": "Musikschule – Instrument ausprobieren",
+                  "text": "An einem Nachmittag können Kinder ab sechs Jahren zehn verschiedene Instrumente in die Hand nehmen und ausprobieren, bevor sie sich entscheiden.\nSamstag, 14 bis 17 Uhr, Eintritt frei, keine Anmeldung. Beratung zu Leihinstrumenten vor Ort."
+                },
+                {
+                  "title": "Anzeige e",
+                  "heading": "Wandergruppe „Langsam unterwegs“",
+                  "text": "Wir gehen einmal im Monat sonntags acht bis zehn Kilometer, in gemütlichem Tempo und mit vielen Pausen.\nBesonders geeignet für Menschen über sechzig und für alle, die lange nicht mehr gewandert sind. Fahrten mit dem Zug, Kosten teilen wir."
+                },
+                {
+                  "title": "Anzeige f",
+                  "heading": "Kreativwerkstatt für Erwachsene",
+                  "text": "Töpfern, Zeichnen und Nähen an festen Abenden. Material wird gestellt, Ihre Werke nehmen Sie mit nach Hause.\nZehn Termine für 80 Euro, Ermäßigung auf Nachfrage. Kleine Gruppen, höchstens acht Personen."
+                },
+                {
+                  "title": "Anzeige g",
+                  "heading": "Fußballverein sucht Schiedsrichterinnen und Schiedsrichter",
+                  "text": "Wir übernehmen die Kosten für die Ausbildung, wenn Sie danach mindestens eine Saison bei uns pfeifen.\nVoraussetzung: mindestens 16 Jahre alt. Der Lehrgang dauert vier Wochenenden. Sie bekommen pro Spiel eine Aufwandsentschädigung."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Lauftreff für Anfängerinnen und Anfänger"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Schachclub Lindenberg"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Kanuverleih am Stadtsee"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Musikschule – Instrument ausprobieren"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Wandergruppe „Langsam unterwegs“"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Kreativwerkstatt für Erwachsene"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Fußballverein sucht Schiedsrichterinnen und Schiedsrichter"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Ihre Mutter ist 68, war lange nicht aktiv und möchte wieder etwas in der Natur machen.",
+                  "solution": "e",
+                  "explanation": "Anzeige e: gemütliches Tempo, besonders für Menschen über sechzig."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Ihre Tochter ist sieben und möchte ein Instrument lernen, weiß aber nicht welches.",
+                  "solution": "d",
+                  "explanation": "Anzeige d: zehn Instrumente ausprobieren, ab sechs Jahren, Eintritt frei."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Sie haben noch nie Sport gemacht und möchten langsam mit dem Laufen anfangen.",
+                  "solution": "a",
+                  "explanation": "Anzeige a: von null auf fünf Kilometer, langsam und in Intervallen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie sind 17 und suchen eine Möglichkeit, am Wochenende etwas dazuzuverdienen.",
+                  "solution": "g",
+                  "explanation": "Anzeige g: ab 16 Jahren, Ausbildung bezahlt, Aufwandsentschädigung pro Spiel."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie möchten mit acht Kolleginnen und Kollegen einen Nachmittag auf dem Wasser verbringen.",
+                  "solution": "c",
+                  "explanation": "Anzeige c: Boote stundenweise, ab sechs Booten Rabatt für Gruppen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Pressetexte und formelle Mitteilungen",
+          "instructions": "Lesen Sie die beiden Texte. Entscheiden Sie zu jedem Text, ob die Aussage richtig oder falsch ist, und wählen Sie danach die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-text-1",
+              "stimuli": [
+                {
+                  "title": "Text 1",
+                  "heading": "Sportvereine öffnen sich für den Nachmittag",
+                  "text": "Sieben Vereine in Lindenberg bieten ab diesem Schuljahr Training direkt im Anschluss an den Unterricht an – in den Schulsporthallen statt in den eigenen Anlagen.\n\nDer Grund ist einfach: Viele Kinder schafften den Weg zum Verein nicht mehr, seit die Schule bis 15 Uhr dauert. Die Vereine verloren dadurch in den letzten Jahren rund ein Drittel ihrer jüngsten Mitglieder.\n\nDie Schulen stellen die Hallen kostenlos zur Verfügung, die Vereine bringen die Trainerinnen und Trainer mit. Offen ist noch, wer die Aufsicht auf dem Weg von der Klasse zur Halle übernimmt. Darüber wird derzeit verhandelt."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l3-1",
+                  "statement": "Die Vereine trainieren jetzt in den Schulsporthallen.",
+                  "solution": true,
+                  "explanation": "„… in den Schulsporthallen statt in den eigenen Anlagen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was ist noch nicht geklärt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Wer die Kinder zur Halle begleitet."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Wer die Hallen bezahlt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Welche Sportarten angeboten werden."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Offen ist noch, wer die Aufsicht auf dem Weg von der Klasse zur Halle übernimmt.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-text-2",
+              "stimuli": [
+                {
+                  "title": "Text 2",
+                  "heading": "TSV Lindenberg – Einladung zur Mitgliederversammlung",
+                  "text": "Liebe Mitglieder,\n\nhiermit laden wir Sie zur Mitgliederversammlung am Freitag, dem 14. März, um 19 Uhr in die Vereinsgaststätte ein.\n\nAuf der Tagesordnung stehen der Bericht des Vorstands, die Kassenprüfung und die Wahl eines neuen Kassenwarts. Für dieses Amt liegt bisher keine Kandidatur vor. Sollte sich niemand finden, kann der Verein im kommenden Jahr rechtlich nicht weiterarbeiten.\n\nAnträge zur Tagesordnung reichen Sie bitte bis zum 1. März schriftlich ein. Stimmberechtigt sind alle Mitglieder ab 16 Jahren, die ihren Beitrag bezahlt haben.\n\nMit sportlichen Grüßen\nDer Vorstand"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l3-3",
+                  "statement": "Für das Amt des Kassenwarts gibt es bisher keine Kandidatur.",
+                  "solution": true,
+                  "explanation": "„Für dieses Amt liegt bisher keine Kandidatur vor.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Wer darf bei der Versammlung abstimmen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Alle Mitglieder."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Mitglieder ab 16 mit bezahltem Beitrag."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nur der Vorstand."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Stimmberechtigt sind alle Mitglieder ab 16 Jahren, die ihren Beitrag bezahlt haben.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-4",
+          "title": "Teil 4 – Informationsbroschüre",
+          "instructions": "Lesen Sie die Informationen zur Vereinsmitgliedschaft. Sind die folgenden Aussagen richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-4-broschuere",
+              "stimuli": [
+                {
+                  "title": "Broschüre",
+                  "heading": "MITGLIED WERDEN – WAS SIE WISSEN SOLLTEN",
+                  "text": "Probetraining\nSie dürfen zweimal kostenlos mittrainieren, bevor Sie sich entscheiden. Melden Sie sich vorher kurz beim Übungsleiter an, damit die Gruppengröße passt.\n\nBeitrag\nErwachsene zahlen 15 Euro im Monat, Kinder und Jugendliche 8 Euro. Ab dem dritten Familienmitglied ist der Beitrag frei. Bezahlt wird ausschließlich per Lastschrift.\n\nUnterstützung\nFamilien, die Bürgergeld oder Wohngeld erhalten, können den Beitrag über das Bildungspaket abrechnen lassen. Sprechen Sie uns an – wir helfen beim Ausfüllen und sagen es niemandem weiter.\n\nKündigung\nDie Mitgliedschaft läuft immer bis zum Jahresende und verlängert sich automatisch. Kündigen können Sie bis zum 30. September, schriftlich oder per E-Mail.\n\nVersicherung\nAlle Mitglieder sind während des Trainings und bei Vereinsfahrten unfallversichert. Auf dem Weg zum Training gilt das nicht."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-1",
+                  "statement": "Ab dem dritten Familienmitglied zahlt man nichts mehr.",
+                  "solution": true,
+                  "explanation": "„Ab dem dritten Familienmitglied ist der Beitrag frei.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-2",
+                  "statement": "Man kann jederzeit kündigen.",
+                  "solution": false,
+                  "explanation": "„Kündigen können Sie bis zum 30. September“ – die Mitgliedschaft läuft bis Jahresende."
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-3",
+                  "statement": "Auf dem Weg zum Training ist man über den Verein versichert.",
+                  "solution": false,
+                  "explanation": "„Auf dem Weg zum Training gilt das nicht.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-5",
+          "title": "Teil 5 – Wörter im Brief ergänzen",
+          "instructions": "Lesen Sie die E-Mail und wählen Sie für jede Lücke das passende Wort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-5-brief",
+              "inlineGaps": true,
+              "stimuli": [
+                {
+                  "title": "E-Mail",
+                  "heading": "E-Mail an den Sportverein",
+                  "text": "Sehr ___(1)___ Herr Bergmann,\n\nmein Sohn Adem trainiert seit September in Ihrer Jugendmannschaft und kommt sehr gern zum Training. Heute schreibe ich Ihnen ___(2)___ eines anderen Themas.\n\nAm 12. Mai findet das Auswärtsspiel in Bocholt statt. Leider kann ich Adem an diesem Tag nicht ___(3)___, weil ich arbeiten muss.\n\nGibt es eine Möglichkeit, dass er bei einer anderen Familie ___(4)___? Ich würde mich selbstverständlich an den Fahrtkosten beteiligen.\n\n___(5)___ das nicht klappt, sagen wir das Spiel für ihn ab. Über eine kurze Antwort wäre ich Ihnen ___(6)___.\n\nMit freundlichen Grüßen\nEsra Yılmaz"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-1",
+                  "prompt": "Lücke (1) – Anrede",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "geehrte"
+                    },
+                    {
+                      "id": "b",
+                      "text": "geehrten"
+                    },
+                    {
+                      "id": "c",
+                      "text": "geehrter"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Sehr geehrter Herr Bergmann“ – die männliche Form."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-2",
+                  "prompt": "Lücke (2) – Präposition",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "wegen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "trotz"
+                    },
+                    {
+                      "id": "c",
+                      "text": "statt"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„wegen eines anderen Themas“ – Grund, mit Genitiv."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-3",
+                  "prompt": "Lücke (3) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "fahren"
+                    },
+                    {
+                      "id": "b",
+                      "text": "bringen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "holen"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„jemanden irgendwohin bringen“; „fahren“ ohne Ziel passt hier nicht."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-4",
+                  "prompt": "Lücke (4) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "abfährt"
+                    },
+                    {
+                      "id": "b",
+                      "text": "losfährt"
+                    },
+                    {
+                      "id": "c",
+                      "text": "mitfährt"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„bei einer anderen Familie mitfahren“ – zusammen im Auto."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-5",
+                  "prompt": "Lücke (5) – Konnektor",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Falls"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Obwohl"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Seit"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Eine Bedingung: „Falls das nicht klappt …“."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-6",
+                  "prompt": "Lücke (6) – Adjektiv",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "danke"
+                    },
+                    {
+                      "id": "b",
+                      "text": "dankbar"
+                    },
+                    {
+                      "id": "c",
+                      "text": "bedankt"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ich wäre Ihnen dankbar“ ist die feste Wendung."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 30,
+      "description": "Sie schreiben eine E-Mail und gehen dabei auf vier Punkte ein. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie eine Musterlösung zum Vergleichen.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "E-Mail schreiben",
+          "instructions": "Sie sind seit zwei Jahren Mitglied in einem Sportverein. Ihr Training fällt in den letzten Wochen immer wieder aus, weil die Halle anderweitig belegt ist. Informiert wurden Sie darüber nie vorher. Schreiben Sie eine E-Mail an den Vorstand des Vereins. Schreiben Sie mindestens 80 Wörter und gehen Sie auf alle vier Punkte ein.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-email",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Schreiben Sie die E-Mail an den Vorstand.",
+                  "criteria": [
+                    "Grund: Warum schreiben Sie?",
+                    "Was genau passiert ist",
+                    "Warum Sie das ärgert",
+                    "Ihr Vorschlag für eine Lösung"
+                  ],
+                  "hints": [
+                    "Schreiben Sie förmlich: Anrede am Anfang, Gruß am Ende.",
+                    "Begründen Sie, was Sie schreiben – auf B1 reicht Aufzählen nicht.",
+                    "Höfliche Bitten stehen im Konjunktiv II: „könnte ich …“, „ich würde gern …“, „wäre es möglich …“."
+                  ],
+                  "minWords": 80,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Damen und Herren,\n\nich bin seit zwei Jahren Mitglied in Ihrem Verein und trainiere dienstags in der Volleyballgruppe. Heute schreibe ich Ihnen, weil mich etwas stört, das ich gern gemeinsam lösen würde.\n\nIn den letzten sechs Wochen ist das Training dreimal ausgefallen, weil die Halle anders belegt war. Erfahren haben wir das jedes Mal erst vor Ort. Beim letzten Mal standen wir zu zwölft vor einer verschlossenen Tür.\n\nDas ärgert mich weniger wegen des Trainings selbst – so etwas kommt vor. Ärgerlich ist, dass viele von uns nach der Arbeit quer durch die Stadt fahren und dass zwei Mütter extra eine Betreuung für ihre Kinder organisiert hatten.\n\nMein Vorschlag wäre deshalb ganz einfach: Wenn ein Termin ausfällt, sollte am selben Tag eine kurze Nachricht in unsere Trainingsgruppe geschickt werden. Ich würde diese Aufgabe auch selbst übernehmen, wenn mir jemand rechtzeitig Bescheid gibt.\n\nÜber eine kurze Rückmeldung würde ich mich freuen.\n\nMit freundlichen Grüßen\nEsra Yılmaz"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sie stellen sich vor, beschreiben ein Bild und planen etwas gemeinsam. Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet; nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie etwa zwei Minuten frei zu den Stichwörtern. Nehmen Sie sich am besten mit dem Handy auf – so hören Sie selbst, wo Sie noch stocken.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Wohnort – Familie – Arbeit oder Ausbildung – Sprachen – Warum lernen Sie Deutsch? – Was möchten Sie in den nächsten Jahren erreichen?",
+                  "hints": [
+                    "Auf B1 reicht eine Liste von Sätzen nicht mehr. Verbinden Sie sie: „… weil …“, „… seit …“, „Zurzeit … , aber später …“.",
+                    "Sprechen Sie auch über Vergangenheit und Zukunft, nicht nur über die Gegenwart.",
+                    "Zum Schluss: Buchstabieren Sie Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Mein Name ist Andrii Kovalenko, ich bin 45 Jahre alt und komme aus der Ukraine, aus Odessa.\n\nSeit drei Jahren wohne ich in Krefeld, zusammen mit meiner Frau. Unser Sohn ist erwachsen und lebt in Warschau.\n\nIn Odessa war ich Sportlehrer an einer Schule, fast zwanzig Jahre lang. Hier arbeite ich in einem Lager, aber seit einem Jahr trainiere ich nebenbei ehrenamtlich eine Jugendmannschaft im Fußball.\n\nIch spreche Ukrainisch, Russisch, ein wenig Polnisch und Deutsch.\n\nDeutsch lerne ich, weil ich wieder mit Kindern arbeiten möchte. Beim Training merke ich jeden Tag, wie wichtig Sprache ist – ich muss erklären, trösten und manchmal auch schimpfen.\n\nIn den nächsten Jahren möchte ich die Übungsleiterausbildung machen und vielleicht wieder an einer Schule arbeiten. Dafür brauche ich noch mindestens B2.\n\nMein Familienname ist Kovalenko: K – O – V – A – L – E – N – K – O."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Ein Bild beschreiben",
+          "instructions": "Thema: Freizeit und Vereine. Sehen Sie sich das Bild an. Beschreiben Sie zuerst, was Sie sehen, und sagen Sie danach, wie das bei Ihnen selbst ist. Sprechen Sie etwa drei Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-bild",
+              "stimuli": [
+                {
+                  "title": "Bild",
+                  "image": {
+                    "src": "/bilder/de/b1/uebungstest-b1-08/sprechen-bild.jpg",
+                    "alt": "Eine Sporthalle: Eine Gruppe Kinder in Sportkleidung steht im Kreis um eine Trainerin, die etwas erklärt und dabei auf einen Ball zeigt. Im Hintergrund stehen Tore und Matten an der Wand, auf einer Bank liegen Trinkflaschen und Jacken."
+                  },
+                  "text": "Beschreiben Sie, was Sie auf dem Bild sehen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Beschreiben Sie das Bild und sagen Sie, was Sie selbst in Ihrer Freizeit machen.",
+                  "hints": [
+                    "Gehen Sie der Reihe nach vor: Wo ist das? Was sieht man? Wer ist zu sehen und was macht die Person?",
+                    "Vermutungen gehören dazu: „Ich vermute, dass …“, „Wahrscheinlich …“, „Es sieht so aus, als ob …“.",
+                    "Zum Schluss der eigene Bezug – begründen Sie mit „einerseits … andererseits …“."
+                  ],
+                  "musterloesung": "Auf dem Bild sehe ich eine Sporthalle, in der gerade ein Training stattfindet. Es sind etwa zehn Kinder zu sehen, ich schätze, sie sind acht bis zehn Jahre alt.\n\nSie stehen im Kreis um eine Trainerin herum. Die Frau erklärt offenbar etwas und zeigt dabei auf einen Ball. Die Kinder hören zu, einige schauen sehr konzentriert, ein Junge am Rand ist mit etwas anderem beschäftigt.\n\nIm Hintergrund stehen Tore und Matten an der Wand, auf einer Bank liegen Trinkflaschen und Jacken. Es sieht nach einem ganz normalen Vereinstraining aus, nicht nach einem Wettkampf.\n\nWas mir gefällt: Die Trainerin erklärt zuerst und lässt die Kinder nicht einfach nur laufen. Ich vermute, dass es um eine neue Übung geht.\n\nIch selbst spiele einmal in der Woche Fußball, in einer Freizeitmannschaft ohne Wettkampf. Einerseits geht es mir um die Bewegung, andererseits ehrlich gesagt genauso um die Leute – wir gehen danach immer noch etwas trinken.\n\nAußerdem trainiere ich seit einem Jahr eine Jugendgruppe. Das ist anstrengender als selbst zu spielen, aber es gibt mir viel. Was mir am Anfang schwergefallen ist, war die Sprache: Anfeuern kann man mit Händen, eine Taktik erklären nicht."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Gemeinsam etwas planen",
+          "instructions": "Lesen Sie die Situation. Planen Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner. Machen Sie Vorschläge, reagieren Sie auf die Vorschläge der anderen Person und einigen Sie sich am Ende auf einen Plan.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Ihr Sportverein feiert im Sommer sein fünfzigjähriges Bestehen. Sie und ein anderes Mitglied sollen ein Fest für Mitglieder und Nachbarschaft organisieren. Planen Sie das Fest zusammen.",
+                  "hints": [
+                    "Wann und wo soll das Fest stattfinden?",
+                    "Welches Programm bieten Sie an?",
+                    "Was gibt es zu essen und zu trinken, und wer hilft?",
+                    "Wie laden Sie die Nachbarschaft ein?"
+                  ],
+                  "musterloesung": "A: Fünfzig Jahre Verein – das sollten wir groß feiern.\n\nB: Auf jeden Fall. Aber lass uns realistisch bleiben, wir sind zu zweit in der Planung.\n\nA: Stimmt. Ich würde einen Samstag im Juni nehmen, nachmittags ab drei. Dann können auch Familien mit kleinen Kindern kommen.\n\nB: Einverstanden. Und wo – auf dem Sportplatz oder in der Halle?\n\nA: Draußen auf dem Platz. Bei Regen können wir immer noch in die Halle.\n\nB: Beim Programm würde ich es einfach halten. Ein kleines Turnier für die Jugendmannschaften, und daneben ein paar Stationen zum Ausprobieren für alle.\n\nA: Gute Idee. Ich hätte gern noch eine Rede vom Gründungsmitglied, Herrn Adler. Er ist 86 und war von Anfang an dabei.\n\nB: Schön, aber bitte kurz. Bei langen Reden laufen die Kinder weg.\n\nA: Fünf Minuten, das mache ich mit ihm ab. Und Essen?\n\nB: Grillen. Die Jugendabteilung übernimmt das, dann verdient sie auch etwas für ihre Fahrten. Kuchen bringen die Eltern mit, dafür hänge ich eine Liste aus.\n\nA: Und die Nachbarschaft? Ich möchte, dass nicht nur Vereinsleute kommen.\n\nB: Dann brauchen wir mehr als einen Aushang. Ich frage die Grundschule, ob wir Zettel mitgeben dürfen, und wir hängen etwas in den Läden im Viertel auf.\n\nA: Perfekt. Ich kümmere mich um Tische, Bänke und die Anmeldung beim Ordnungsamt – wegen der Musik brauchen wir eine Genehmigung.\n\nB: Und ich mache das Programm, die Kuchenliste und die Einladungen.\n\nA: Also: Samstag im Juni, ab drei auf dem Sportplatz, Turnier und Stationen, kurze Rede von Herrn Adler, Grillen durch die Jugend, Zettel über die Schule.\n\nB: Genau so."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

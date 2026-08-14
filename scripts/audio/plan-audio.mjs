@@ -90,23 +90,37 @@ const FEMALE_WORDS =
 const MALE_WORDS =
   /(^Herr\b|Moderator$|Verkäufer$|Arzt$|Lehrer$|Kollege$|Schüler$|Apotheker$|Mitarbeiter$|Nachbar$|Chef$|Kellner$|Rezeptionist$|Techniker|Hausmeister|Patient$|Postbote|Berater$)/;
 
+/**
+ * The learners are people who have moved to Germany, so the characters in the
+ * tests are too. Names common in their communities belong in these lists as
+ * much as German ones — otherwise every new test stops the planner with a
+ * "cannot tell the gender" warning and needs a manual override.
+ *
+ * Note the matcher strips everything outside a-z and äöüß, so a name has to be
+ * listed in the form that survives that: "Ayşe" arrives here as "ayse".
+ */
 const FEMALE_NAMES = new Set([
-  "amara","amina","ana","anke","anna","bianca","clara","elena","elif","erika",
-  "eszter","fatima","fatou","giulia","grace","ines","irina","ivana","julia",
-  "katrin","lena","leyla","linh","lisa","maria","marie","marta","miriam",
-  "nadia","nadine","nina","olena","olga","rosa","sabine","samira","sandra",
-  "sara","sofia","yuki",
+  "amara","amina","amira","ana","andrea","anke","anna","aylin","ayse",
+  "bettina","bianca","christine","clara","dilara","elena","elif","erika",
+  "esra","eszter","fatima","fatou","giulia","grace","hatice","heike","ines",
+  "irina","ivana","julia","kateryna","katrin","kerstin","lena","leyla",
+  "linh","lisa","maria","marie","marion","marta","merve","miriam","nadia",
+  "nadine","nasrin","nina","nuray","oksana","olena","olga","petra","renate",
+  "rosa","sabine","samira","sandra","sara","silke","sofia","ute","yuki",
+  "zeynep",
 ]);
 const MALE_NAMES = new Set([
-  "ahmad","amir","ben","carlos","dragan","hassan","ibrahim","jonas","kwame",
-  "lukas","marco","marek","martin","max","mehmet","milan","niklas","omar",
-  "paul","pedro","peter","rafael","samir","sami","stefan","thomas","timo",
-  "tobias","tom","tuan",
+  "adem","ahmad","ali","amir","andrii","bekim","ben","carlos","dawid",
+  "dragan","emre","ergün","georg","hakan","hassan","ibrahim","ismail",
+  "jonas","kerem","kwame","lukas","marco","marek","martin","max","mehmet",
+  "milan","murat","niklas","oleh","omar","paul","pawel","pedro","peter",
+  "rafael","sami","samir","serkan","stefan","thomas","timo","tobias","tom",
+  "tomasz","tuan","viktor","yusuf",
 ]);
 
 /** Lines that introduce an item rather than being spoken by a character. */
 const HEADER_RE =
-  /^(Gespräch|Nachricht|Ansage|Situation|Durchsage|Text|Teil|Aufgabe)\s*\d+/i;
+  /^(Gespräch|Nachricht|Meldung|Ansage|Aussage|Situation|Durchsage|Text|Teil|Aufgabe)\s*\d+/i;
 
 /** "Frau Bauer: ..." — a colon-led speaker label, not a sentence with a colon. */
 const SPEAKER_RE = /^([A-ZÄÖÜ][\wÄÖÜäöüß.\- ]{0,28}?):\s+(.*)$/;

@@ -1,0 +1,1140 @@
+{
+  "id": "uebungstest-b1-09",
+  "language": "de",
+  "level": "B1",
+  "title": "Übungstest B1 – Nr. 9",
+  "description": "Ein vollständiger Übungstest auf Niveau B1 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Medien, Internet und Kommunikation.",
+  "draft": true,
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 25,
+      "description": "Sie hören Ansagen, kurze Informationen aus dem Radio, Gespräche aus dem Alltag und drei Meinungen zu einem Thema. Insgesamt bearbeiten Sie 20 Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Ansagen und Durchsagen",
+          "instructions": "Sie hören vier Ansagen: am Telefon und an öffentlichen Orten. Wählen Sie zu jeder Ansage die richtige Antwort. Sie hören jede Ansage zweimal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-09/hoeren-teil-1.mp3",
+            "transcript": "Ansage 1\nSehr geehrte Kundinnen und Kunden, wegen Wartungsarbeiten ist unser Online-Banking heute Nacht zwischen 23 und 4 Uhr nicht erreichbar. Karten und Automaten funktionieren wie gewohnt. Wir bitten Sie, Überweisungen vorher oder danach zu erledigen.\n\nAnsage 2\nHerr Böhm: Guten Tag, Frau Petrova, hier ist der Kundendienst von NetzPlus. Ihr Internetanschluss wird am Mittwoch freigeschaltet. Der Techniker kommt zwischen 8 und 12 Uhr, jemand muss zu Hause sein. Der Router liegt bereits bei Ihnen im Briefkasten.\n\nAnsage 3\nLiebe Besucherinnen und Besucher, das WLAN in unserer Bibliothek ist für alle frei nutzbar, auch ohne Ausweis. Bitte beachten Sie, dass Sie am Drucker nur mit einer Kopierkarte bezahlen können. Karten gibt es an der Information.\n\nAnsage 4\nSprechstundenhilfe: Guten Tag, hier ist die Volkshochschule Lindenberg. Sie hatten sich für den Kurs „Smartphone für Einsteiger“ angemeldet. Der Kurs ist leider ausgebucht. Wir haben Sie auf die Warteliste gesetzt und melden uns, sobald ein Platz frei wird."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-ansage-1",
+              "prompt": "Ansage 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-1",
+                  "prompt": "Was funktioniert heute Nacht nicht?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das Online-Banking."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Geldautomaten."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Kartenzahlung."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… ist unser Online-Banking heute Nacht … nicht erreichbar.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-2",
+              "prompt": "Ansage 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Was ist am Mittwoch wichtig?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Router muss abgeholt werden."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Jemand muss in der Wohnung sein."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Man muss den Vertrag mitbringen."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Der Techniker kommt zwischen 8 und 12 Uhr, jemand muss zu Hause sein.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-3",
+              "prompt": "Ansage 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-3",
+                  "prompt": "Was braucht man zum Drucken?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Einen Bibliotheksausweis."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bargeld."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Eine Kopierkarte."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… am Drucker nur mit einer Kopierkarte bezahlen können.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-4",
+              "prompt": "Ansage 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Was ist mit dem Kurs?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Er ist voll."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Er fällt aus."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Er beginnt später."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Der Kurs ist leider ausgebucht.“ Die Person steht auf der Warteliste."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Kurze Informationen aus dem Radio",
+          "instructions": "Sie hören fünf kurze Meldungen aus dem Radio. Wählen Sie zu jeder Meldung die richtige Antwort. Sie hören die Meldungen einmal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-09/hoeren-teil-2.mp3",
+            "transcript": "Meldung 1\nModeratorin: Zur Digitalisierung: Ab dem nächsten Jahr können Sie Anträge bei der Stadtverwaltung vollständig online stellen. Wer keinen Computer hat oder sich unsicher fühlt, bekommt weiterhin Hilfe im Bürgerbüro. Niemand muss etwas allein am Bildschirm erledigen.\n\nMeldung 2\nModeratorin: Ein Hinweis der Polizei: Zurzeit sind wieder gefälschte SMS im Umlauf, angeblich von Paketdiensten. Klicken Sie auf keinen Fall auf den Link. Echte Paketdienste fordern Sie niemals per SMS auf, Gebühren zu bezahlen.\n\nMeldung 3\nModeratorin: Und noch etwas aus den Schulen: Ab Februar sind Handys an den weiterführenden Schulen im Kreis während des Unterrichts verboten. In den Pausen dürfen die Geräte weiterhin benutzt werden – anders, als zunächst geplant war.\n\nMeldung 4\nModeratorin: Aus der Bibliothek: Das digitale Angebot wird ausgebaut. Mit Ihrem Ausweis können Sie ab sofort auch Zeitungen und Zeitschriften online lesen, und zwar von zu Hause aus. Der Ausweis kostet weiterhin 15 Euro im Jahr.\n\nMeldung 5\nModeratorin: Zum Schluss: Die Stadt sucht Ehrenamtliche für ihre Digital-Sprechstunde. Gefragt sind Menschen, die Älteren geduldig zeigen, wie man Online-Termine bucht oder Fotos verschickt. Technisches Wissen auf Expertenniveau ist nicht nötig."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-meldung-1",
+              "prompt": "Meldung 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-1",
+                  "prompt": "Was gilt für Menschen ohne Computer?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie müssen einen Bekannten mitbringen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie bekommen weiterhin Hilfe im Amt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Für sie ändert sich der Weg nicht."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Wer keinen Computer hat …, bekommt weiterhin Hilfe im Bürgerbüro.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-2",
+              "prompt": "Meldung 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-2",
+                  "prompt": "Woran erkennt man die falschen Nachrichten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "An der Uhrzeit."
+                    },
+                    {
+                      "id": "b",
+                      "text": "An der fremden Sprache."
+                    },
+                    {
+                      "id": "c",
+                      "text": "An der Aufforderung, Gebühren zu zahlen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Echte Paketdienste fordern Sie niemals per SMS auf, Gebühren zu bezahlen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-3",
+              "prompt": "Meldung 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-3",
+                  "prompt": "Was gilt ab Februar?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Handys sind nur im Unterricht verboten."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Handys sind den ganzen Tag verboten."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Handys müssen zu Hause bleiben."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„In den Pausen dürfen die Geräte weiterhin benutzt werden.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-4",
+              "prompt": "Meldung 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-4",
+                  "prompt": "Was ist neu?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Ausweis ist teurer geworden."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Man kann Zeitungen zu Hause online lesen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Es gibt mehr gedruckte Zeitschriften."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… auch Zeitungen und Zeitschriften online lesen, und zwar von zu Hause aus.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-5",
+              "prompt": "Meldung 5",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-5",
+                  "prompt": "Wen sucht die Stadt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ausgebildete IT-Fachleute."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Vor allem Jugendliche."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Menschen mit Geduld und Alltagswissen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… die Älteren geduldig zeigen … Technisches Wissen auf Expertenniveau ist nicht nötig.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Alltägliche Gespräche",
+          "instructions": "Sie hören vier kurze Gespräche. Zu jedem Gespräch gibt es zwei Aufgaben: Entscheiden Sie zuerst, ob die Aussage richtig oder falsch ist, und wählen Sie dann die richtige Antwort. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-09/hoeren-teil-3.mp3",
+            "transcript": "Gespräch 1\nFrau Sander: Mein Vater bekommt ständig komische Anrufe. Angeblich von der Bank.\n\nHerr Ayala: Da muss er aufpassen. Hat er schon mal etwas gesagt?\n\nFrau Sander: Nein, zum Glück legt er immer auf.\n\nHerr Ayala: Sehr gut. Eine Bank fragt nie am Telefon nach der PIN, das ist die wichtigste Regel.\n\nFrau Sander: Soll ich die Nummer sperren lassen?\n\nHerr Ayala: Das bringt wenig, die wechseln ständig. Besser ist, dass er weiß, was er nicht sagen darf. Rede noch mal in Ruhe mit ihm.\n\nGespräch 2\nMerve: Hast du das Foto von der Feier in die Gruppe gestellt?\n\nJonas Frey: Ja, warum?\n\nMerve: Auf dem Bild sind die Kinder von Frau Ivanova drauf. Sie will das nicht, sie hat es mir mal gesagt.\n\nJonas Frey: Das wusste ich nicht. Ich lösche es sofort.\n\nMerve: Danke. Am besten fragst du nächstes Mal kurz, bevor du etwas hochlädst.\n\nJonas Frey: Mache ich. Ich dachte ehrlich gesagt, in einer geschlossenen Gruppe ist das egal.\n\nGespräch 3\nHerr Nowak: Guten Tag, ich möchte meinen Internetvertrag kündigen. Ich ziehe um.\n\nMitarbeiterin: An welche Adresse denn?\n\nHerr Nowak: Nach Bremen.\n\nMitarbeiterin: Dann prüfe ich zuerst, ob wir dort liefern können. Wenn ja, nehmen Sie den Vertrag einfach mit – kündigen dürfen Sie in dem Fall nämlich nicht.\n\nHerr Nowak: Und wenn Sie dort nicht liefern?\n\nMitarbeiterin: Dann können Sie mit drei Monaten Frist kündigen. Sie brauchen dafür nur die Meldebescheinigung.\n\nGespräch 4\nFrau Kraus: Wie machst du das eigentlich mit den Hausaufgaben und dem Handy?\n\nHerr Palm: Bei uns liegt es während der Hausaufgaben in der Küche. Das war anfangs ein Kampf.\n\nFrau Kraus: Und jetzt?\n\nHerr Palm: Jetzt geht es. Was geholfen hat: Ich lege meins daneben. Solange ich selbst am Handy hänge, kann ich schlecht etwas verlangen.\n\nFrau Kraus: Da ist was dran.\n\nHerr Palm: Und danach dürfen sie eine Stunde. Ganz verbieten funktioniert sowieso nicht, das habe ich aufgegeben."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-gespraech-1",
+              "prompt": "Gespräch 1",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-1",
+                  "statement": "Der Vater hat den Anrufern schon Auskunft gegeben.",
+                  "solution": false,
+                  "explanation": "„Nein, zum Glück legt er immer auf.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Was rät Herr Ayala?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Mit dem Vater über die Gefahr zu sprechen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Nummer sperren zu lassen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Bank zu wechseln."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Besser ist, dass er weiß, was er nicht sagen darf. Rede noch mal in Ruhe mit ihm.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-2",
+              "prompt": "Gespräch 2",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-3",
+                  "statement": "Jonas löscht das Foto.",
+                  "solution": true,
+                  "explanation": "„Das wusste ich nicht. Ich lösche es sofort.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Was hatte Jonas angenommen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass die Kinder nicht erkennbar sind."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass es in einer geschlossenen Gruppe kein Problem ist."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass Frau Ivanova einverstanden ist."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ich dachte ehrlich gesagt, in einer geschlossenen Gruppe ist das egal.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-3",
+              "prompt": "Gespräch 3",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-5",
+                  "statement": "Herr Nowak kann in jedem Fall sofort kündigen.",
+                  "solution": false,
+                  "explanation": "Nur wenn der Anbieter am neuen Ort nicht liefert – und dann mit drei Monaten Frist."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-6",
+                  "prompt": "Was prüft die Mitarbeiterin zuerst?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Wie lange der Vertrag noch läuft."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ob Rechnungen offen sind."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ob es am neuen Ort einen Anschluss gibt."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Dann prüfe ich zuerst, ob wir dort liefern können.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-4",
+              "prompt": "Gespräch 4",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-7",
+                  "statement": "Herr Palm legt sein eigenes Handy auch weg.",
+                  "solution": true,
+                  "explanation": "„Was geholfen hat: Ich lege meins daneben.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-8",
+                  "prompt": "Was hat Herr Palm aufgegeben?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das Handy ganz zu verbieten."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Hausaufgaben zu kontrollieren."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Feste Zeiten zu vereinbaren."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Ganz verbieten funktioniert sowieso nicht, das habe ich aufgegeben.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-4",
+          "title": "Teil 4 – Meinungen zu einem Thema",
+          "instructions": "Sie hören drei Aussagen zum selben Thema. Welcher Satz a–f passt zu welcher Aussage? Es bleiben drei Sätze übrig. Sie hören die Aussagen zweimal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-09/hoeren-teil-4.mp3",
+            "transcript": "Moderatorin: Unser Thema heute: Sollen Handys an Schulen verboten werden? Wir haben nachgefragt.\n\nAussage 18: Marion Petsch\nMarion Petsch: Ich unterrichte seit zwanzig Jahren, und seit wir die Handys einsammeln, ist es in den Pausen wieder laut auf dem Hof – im positiven Sinn. Die Kinder reden miteinander, sie streiten auch mal wieder. Vorher saßen fünfzehn Jugendliche nebeneinander und jeder schaute auf seinen Bildschirm.\n\nAussage 19: Emre Arslan\nEmre Arslan: Ein Verbot löst das Problem nicht, es verschiebt es nur auf den Nachmittag. Meine Tochter ist dreizehn und muss lernen, damit umzugehen – am besten dort, wo Erwachsene daneben stehen. In der Schule könnte man das üben, stattdessen tut man so, als gäbe es das Gerät nicht.\n\nAussage 20: Georg Timm\nGeorg Timm: Grundsätzlich bin ich einverstanden, aber man muss an die denken, die es wirklich brauchen. Mein Sohn ist Diabetiker und misst seinen Blutzucker über eine App. Wenn pauschal alles eingesammelt wird, entstehen genau die Probleme, die man vermeiden wollte."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-4-meinungen",
+              "prompt": "Thema: Handyverbot an Schulen? Welcher Satz a–f passt zu welcher Aussage? Drei Sätze bleiben übrig.",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Diese Person meint, dass Jugendliche den Umgang gerade in der Schule lernen sollten."
+                },
+                {
+                  "id": "b",
+                  "text": "Diese Person weist darauf hin, dass manche Kinder das Gerät aus gesundheitlichen Gründen brauchen."
+                },
+                {
+                  "id": "c",
+                  "text": "Diese Person beobachtet, dass die Schülerinnen und Schüler wieder mehr miteinander reden."
+                },
+                {
+                  "id": "d",
+                  "text": "Diese Person findet, dass Handys im Unterricht zum Lernen genutzt werden sollten."
+                },
+                {
+                  "id": "e",
+                  "text": "Diese Person schlägt vor, die Geräte nur in der Grundschule zu verbieten."
+                },
+                {
+                  "id": "f",
+                  "text": "Diese Person hält die Diskussion für unwichtig."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h4-1",
+                  "prompt": "Aussage 18 – Marion Petsch",
+                  "solution": "c",
+                  "explanation": "„Die Kinder reden miteinander, sie streiten auch mal wieder.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h4-2",
+                  "prompt": "Aussage 19 – Emre Arslan",
+                  "solution": "a",
+                  "explanation": "„In der Schule könnte man das üben, stattdessen tut man so, als gäbe es das Gerät nicht.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h4-3",
+                  "prompt": "Aussage 20 – Georg Timm",
+                  "solution": "b",
+                  "explanation": "„Mein Sohn ist Diabetiker und misst seinen Blutzucker über eine App.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 45,
+      "description": "Sie lesen einen Wegweiser, Anzeigen, zwei kürzere Texte, eine Informationsbroschüre und eine E-Mail. Insgesamt bearbeiten Sie 23 Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Wegweiser",
+          "instructions": "Sie sind im Medienzentrum Ihrer Stadt und suchen verschiedene Informationen. Lesen Sie den Wegweiser und die Aufgaben. In welches Stockwerk gehen Sie? Achtung: Manchmal ist keines der beiden genannten Stockwerke richtig – wählen Sie dann „anderes Stockwerk“.",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-wegweiser",
+              "stimuli": [
+                {
+                  "title": "Wegweiser",
+                  "text": "MEDIENZENTRUM LINDENBERG – WEGWEISER\n\n3. OG\nVolkshochschule – Digitalkurse\nSmartphone für Einsteiger / Online-Banking sicher nutzen / Bildbearbeitung / Bewerbung am Computer\n\n2. OG\nStadtarchiv\nAlte Zeitungen / Familienforschung / Einsicht nur mit Termin\nLernwerkstatt\nArbeitsplätze zum Lernen / Material zur Prüfungsvorbereitung A1 bis C1\n\n1. OG\nDigital-Sprechstunde\nKostenlose Hilfe bei Handy, Tablet und Behördenportalen / ohne Anmeldung, dienstags und donnerstags\nVerbraucherschutz digital\nBetrug im Internet / Abo-Fallen / Beratung nach falschen SMS\n\nEG\nBibliothek und Ausleihe\nBücher / Zeitschriften / Ausweis beantragen / Rückgabe\nComputerraum und Drucker\nInternet kostenlos / Drucken mit Kopierkarte / Scannen"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-1",
+                  "prompt": "Sie haben eine verdächtige SMS bekommen und wissen nicht, ob sie echt ist.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "EG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Beratung nach falschen SMS“ gehört zum Verbraucherschutz digital im 1. OG."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-2",
+                  "prompt": "Sie möchten Unterlagen für Ihre Bewerbung ausdrucken.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "3. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "EG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Drucker stehen im Computerraum im EG."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-3",
+                  "prompt": "Sie möchten einen Kurs besuchen, in dem Sie Online-Banking lernen.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Die Digitalkurse der Volkshochschule sind im 3. OG – also ein anderes Stockwerk."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-4",
+                  "prompt": "Sie bereiten sich auf die B1-Prüfung vor und suchen einen ruhigen Arbeitsplatz.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Die Lernwerkstatt mit Prüfungsmaterial ist im 2. OG."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-5",
+                  "prompt": "Ihre Mutter kommt mit ihrem neuen Tablet nicht zurecht und braucht heute Hilfe.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "3. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "EG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Die Digital-Sprechstunde ohne Anmeldung ist im 1. OG – also ein anderes Stockwerk."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Anzeigen",
+          "instructions": "Lesen Sie die sieben Anzeigen und die fünf Situationen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Zwei Anzeigen bleiben übrig.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "heading": "Digital-Sprechstunde für Ältere",
+                  "text": "Sie kommen mit dem Handy nicht zurecht? Wir helfen bei E-Mails, Fotos, Video-Anrufen und Online-Terminen – in Ruhe und so oft Sie wollen.\nDienstags und donnerstags 10 bis 12 Uhr, ohne Anmeldung, kostenlos. Bringen Sie Ihr eigenes Gerät und, wenn möglich, Ihre Passwörter mit."
+                },
+                {
+                  "title": "Anzeige b",
+                  "heading": "Computerkurs: Bewerbung schreiben",
+                  "text": "In fünf Terminen lernen Sie, einen Lebenslauf am Computer zu erstellen, Dateien als PDF zu speichern und Bewerbungen per E-Mail zu verschicken.\n60 Euro, für Arbeitsuchende kostenlos. Grundkenntnisse am Computer werden vorausgesetzt."
+                },
+                {
+                  "title": "Anzeige c",
+                  "heading": "Reparatur und Verkauf gebrauchter Laptops",
+                  "text": "Geprüfte Geräte ab 150 Euro mit einem Jahr Garantie, auf Wunsch mit installierten Programmen.\nWir reparieren auch Ihr altes Gerät und sagen Ihnen ehrlich, wenn sich das nicht mehr lohnt. Beratung auf Deutsch, Türkisch und Englisch."
+                },
+                {
+                  "title": "Anzeige d",
+                  "heading": "Internet-Café am Bahnhof",
+                  "text": "Zwanzig Arbeitsplätze mit schnellem Internet, Drucker und Scanner. Eine Stunde 1,50 Euro, Tageskarte 6 Euro.\nTäglich 8 bis 22 Uhr geöffnet. Ausdrucke 10 Cent, Scannen kostenlos."
+                },
+                {
+                  "title": "Anzeige e",
+                  "heading": "Video-Werkstatt für Jugendliche",
+                  "text": "Ihr wollt eigene Videos drehen und schneiden? In den Ferien zeigen wir euch, wie das geht – von der Idee bis zum fertigen Film.\nFür alle von 12 bis 18 Jahren, eine Woche, täglich 10 bis 15 Uhr. Teilnahme kostenlos, Kameras sind vorhanden."
+                },
+                {
+                  "title": "Anzeige f",
+                  "heading": "Deutsch lernen mit dem Tandem-Programm",
+                  "text": "Wir vermitteln Sprachpartnerschaften: Sie sprechen eine Stunde Deutsch, eine Stunde Ihre Muttersprache. Treffen persönlich oder online.\nKostenlos. Anmeldung mit Angabe Ihrer Sprachen und Ihres Niveaus, Vermittlung dauert etwa zwei Wochen."
+                },
+                {
+                  "title": "Anzeige g",
+                  "heading": "Hilfe bei Behördenportalen",
+                  "text": "Elterngeld, Wohngeld, Kfz-Anmeldung – wir sitzen mit Ihnen zusammen und füllen die Formulare online aus.\nEinzeltermine von 45 Minuten, kostenlos. Bitte alle Unterlagen und Ihren Ausweis mitbringen. Terminvergabe telefonisch."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Digital-Sprechstunde für Ältere"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Computerkurs: Bewerbung schreiben"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Reparatur und Verkauf gebrauchter Laptops"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Internet-Café am Bahnhof"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Video-Werkstatt für Jugendliche"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Deutsch lernen mit dem Tandem-Programm"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Hilfe bei Behördenportalen"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Sie müssen Elterngeld beantragen, kommen mit dem Portal aber nicht zurecht.",
+                  "solution": "g",
+                  "explanation": "Anzeige g: gemeinsames Ausfüllen der Formulare online, Einzeltermine."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Ihr Laptop ist kaputt und Sie wissen nicht, ob sich eine Reparatur noch lohnt.",
+                  "solution": "c",
+                  "explanation": "Anzeige c: „Wir reparieren auch Ihr altes Gerät und sagen Ihnen ehrlich, wenn sich das nicht mehr lohnt.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Sie möchten regelmäßig Deutsch sprechen und dafür Ihre eigene Sprache weitergeben.",
+                  "solution": "f",
+                  "explanation": "Anzeige f: Tandem – eine Stunde Deutsch, eine Stunde Ihre Muttersprache."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Ihr Sohn ist 14 und langweilt sich in den Ferien; er interessiert sich für Filme.",
+                  "solution": "e",
+                  "explanation": "Anzeige e: Video-Werkstatt für 12- bis 18-Jährige, in den Ferien, kostenlos."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie sind arbeitslos und möchten lernen, Bewerbungen am Computer zu schreiben.",
+                  "solution": "b",
+                  "explanation": "Anzeige b: Bewerbung am Computer, für Arbeitsuchende kostenlos."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Pressetexte und formelle Mitteilungen",
+          "instructions": "Lesen Sie die beiden Texte. Entscheiden Sie zu jedem Text, ob die Aussage richtig oder falsch ist, und wählen Sie danach die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-text-1",
+              "stimuli": [
+                {
+                  "title": "Text 1",
+                  "heading": "Stadt richtet Digital-Lotsen ein",
+                  "text": "Seit September helfen zwölf ehrenamtliche „Digital-Lotsen“ in Lindenberg dabei, Anträge online auszufüllen. Das Angebot richtet sich vor allem an ältere Menschen und an Menschen, die noch nicht lange in Deutschland leben.\n\nDie Nachfrage ist größer als erwartet: In den ersten drei Monaten kamen 480 Personen. Am häufigsten ging es um Wohngeld, Kita-Anmeldungen und die Terminbuchung beim Bürgerbüro.\n\nDie Stadt sucht deshalb weitere Freiwillige. Vorkenntnisse seien weniger wichtig als Geduld, sagt die Koordinatorin: Die meisten Fragen ließen sich in wenigen Minuten klären – wenn jemand sich die Zeit nehme."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l3-1",
+                  "statement": "Es kamen mehr Menschen als erwartet.",
+                  "solution": true,
+                  "explanation": "„Die Nachfrage ist größer als erwartet: In den ersten drei Monaten kamen 480 Personen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was ist für die Freiwilligen am wichtigsten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Geduld."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Technische Vorkenntnisse."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Erfahrung in der Verwaltung."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Vorkenntnisse seien weniger wichtig als Geduld.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-text-2",
+              "stimuli": [
+                {
+                  "title": "Text 2",
+                  "heading": "NetzPlus – Information zu Ihrem Vertrag",
+                  "text": "Sehr geehrte Kundin, sehr geehrter Kunde,\n\nab dem 1. Mai erhöhen wir den monatlichen Preis Ihres Tarifs um 3 Euro. Gleichzeitig steigt die Geschwindigkeit von 100 auf 250 Mbit pro Sekunde.\n\nSie haben das Recht, den Vertrag wegen der Preiserhöhung zu kündigen. Die Kündigung muss uns bis spätestens 30. April erreichen; Sie brauchen dafür keine Frist einzuhalten.\n\nWenn Sie nichts unternehmen, läuft Ihr Vertrag zum neuen Preis weiter. Eine gesonderte Zustimmung ist nicht nötig.\n\nBei Fragen erreichen Sie uns montags bis freitags von 8 bis 18 Uhr.\n\nMit freundlichen Grüßen\nNetzPlus"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l3-3",
+                  "statement": "Wer nichts tut, hat den Vertrag automatisch zum neuen Preis.",
+                  "solution": true,
+                  "explanation": "„Wenn Sie nichts unternehmen, läuft Ihr Vertrag zum neuen Preis weiter.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Was kann man wegen der Preiserhöhung tun?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Den alten Preis verlangen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Den Vertrag bis zum 30. April kündigen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Eine Erstattung beantragen."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Die Kündigung muss uns bis spätestens 30. April erreichen.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-4",
+          "title": "Teil 4 – Informationsbroschüre",
+          "instructions": "Lesen Sie die Informationen zur sicheren Nutzung des Internets. Sind die folgenden Aussagen richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-4-broschuere",
+              "stimuli": [
+                {
+                  "title": "Broschüre",
+                  "heading": "SICHER IM NETZ – DIE WICHTIGSTEN REGELN",
+                  "text": "Passwörter\nEin gutes Passwort ist lang, nicht unbedingt kompliziert. Drei zufällige Wörter hintereinander sind sicherer als „P@ssw0rt“. Benutzen Sie für jedes Konto ein eigenes Passwort – vor allem für E-Mail und Online-Banking.\n\nVerdächtige Nachrichten\nBanken, Ämter und Paketdienste fragen niemals per E-Mail oder SMS nach Passwörtern, PIN oder Kreditkartendaten. Klicken Sie im Zweifel nicht auf den Link, sondern geben Sie die Adresse selbst im Browser ein.\n\nÖffentliches WLAN\nIn Cafés, Bahnhöfen und Hotels können Sie surfen und lesen. Erledigen Sie dort aber möglichst keine Bankgeschäfte und kaufen Sie nichts ein.\n\nUpdates\nInstallieren Sie Updates, sobald sie angeboten werden. Die meisten Angriffe nutzen Lücken, die längst geschlossen wären.\n\nWenn doch etwas passiert\nÄndern Sie sofort das Passwort und informieren Sie Ihre Bank. Bei Betrug erstatten Sie Anzeige – auch online."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-1",
+                  "statement": "Ein langes Passwort aus mehreren Wörtern ist sicherer als ein kurzes kompliziertes.",
+                  "solution": true,
+                  "explanation": "„Drei zufällige Wörter hintereinander sind sicherer als ‚P@ssw0rt‘.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-2",
+                  "statement": "Im öffentlichen WLAN kann man ohne Bedenken einkaufen.",
+                  "solution": false,
+                  "explanation": "„Erledigen Sie dort aber möglichst keine Bankgeschäfte und kaufen Sie nichts ein.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-3",
+                  "statement": "Man soll Updates erst installieren, wenn Probleme auftreten.",
+                  "solution": false,
+                  "explanation": "„Installieren Sie Updates, sobald sie angeboten werden.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-5",
+          "title": "Teil 5 – Wörter im Brief ergänzen",
+          "instructions": "Lesen Sie die E-Mail und wählen Sie für jede Lücke das passende Wort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-5-brief",
+              "inlineGaps": true,
+              "stimuli": [
+                {
+                  "title": "E-Mail",
+                  "heading": "E-Mail an den Internetanbieter",
+                  "text": "Sehr ___(1)___ Damen und Herren,\n\nseit dem 3. Januar habe ich bei Ihnen einen Internetanschluss. Leider bricht die Verbindung mehrmals täglich ab, ___(2)___ ich im Homeoffice arbeite und darauf angewiesen bin.\n\nIch habe den Router bereits zweimal neu ___(3)___ und alle Kabel geprüft. Geändert hat sich nichts.\n\nIch bitte Sie deshalb, einen Techniker zu schicken. ___(4)___ Sie mir mehrere Termine anbieten, kann ich mich nach Ihnen richten – ich bin ab 14 Uhr immer zu Hause.\n\nSollte sich das Problem nicht beheben lassen, ___(5)___ ich den Vertrag leider kündigen. Über eine schnelle Rückmeldung wäre ich Ihnen sehr ___(6)___.\n\nMit freundlichen Grüßen\nOlena Shevchenko"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-1",
+                  "prompt": "Lücke (1) – Anrede",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "geehrter"
+                    },
+                    {
+                      "id": "b",
+                      "text": "geehrten"
+                    },
+                    {
+                      "id": "c",
+                      "text": "geehrte"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Sehr geehrte Damen und Herren“ – die feste Formel."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-2",
+                  "prompt": "Lücke (2) – Konnektor",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "sodass"
+                    },
+                    {
+                      "id": "b",
+                      "text": "obwohl"
+                    },
+                    {
+                      "id": "c",
+                      "text": "was besonders ärgerlich ist, da"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Hier folgt der Grund für die Dringlichkeit; „obwohl“ wäre ein Gegensatz."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-3",
+                  "prompt": "Lücke (3) – Partizip",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "angefangen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "gestartet"
+                    },
+                    {
+                      "id": "c",
+                      "text": "begonnen"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„den Router neu starten“ ist die übliche Verbindung."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-4",
+                  "prompt": "Lücke (4) – Konnektor",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Obwohl"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bevor"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Wenn"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Eine Bedingung: „Wenn Sie mir mehrere Termine anbieten …“."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-5",
+                  "prompt": "Lücke (5) – Modalverb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "müsste"
+                    },
+                    {
+                      "id": "b",
+                      "text": "dürfte"
+                    },
+                    {
+                      "id": "c",
+                      "text": "möchte"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„müsste ich kündigen“ – die höfliche Form für eine unangenehme Folge."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-6",
+                  "prompt": "Lücke (6) – Adjektiv",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "danke"
+                    },
+                    {
+                      "id": "b",
+                      "text": "dankbar"
+                    },
+                    {
+                      "id": "c",
+                      "text": "bedankt"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ich wäre Ihnen dankbar“ ist die feste Wendung."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 30,
+      "description": "Sie schreiben eine E-Mail und gehen dabei auf vier Punkte ein. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie eine Musterlösung zum Vergleichen.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "E-Mail schreiben",
+          "instructions": "Sie haben vor zwei Monaten ein Handy im Internet gekauft. Seit einigen Wochen lädt der Akku nicht mehr richtig. Der Verkäufer antwortet auf Ihre Nachrichten nicht. Schreiben Sie eine E-Mail an den Kundenservice des Online-Shops. Schreiben Sie mindestens 80 Wörter und gehen Sie auf alle vier Punkte ein.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-email",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Schreiben Sie die E-Mail an den Kundenservice.",
+                  "criteria": [
+                    "Grund: Warum schreiben Sie?",
+                    "Angaben zum Kauf",
+                    "Welches Problem das Gerät hat",
+                    "Was Sie jetzt erwarten"
+                  ],
+                  "hints": [
+                    "Schreiben Sie förmlich: Anrede am Anfang, Gruß am Ende.",
+                    "Begründen Sie, was Sie schreiben – auf B1 reicht Aufzählen nicht.",
+                    "Höfliche Bitten stehen im Konjunktiv II: „könnte ich …“, „ich würde gern …“, „wäre es möglich …“."
+                  ],
+                  "minWords": 80,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Damen und Herren,\n\nich wende mich an Sie, weil ich mit einem bei Ihnen gekauften Handy Probleme habe und auf meine bisherigen Nachrichten keine Antwort bekommen habe.\n\nEs geht um die Bestellnummer 55-9033 vom 6. Februar: ein Smartphone zum Preis von 279 Euro. Der Kauf ist also gut zwei Monate her.\n\nSeit etwa drei Wochen lädt der Akku nicht mehr vollständig. Selbst wenn das Gerät die ganze Nacht am Kabel hängt, zeigt es morgens nur 60 Prozent, und nach zwei Stunden ist es leer. Ein anderes Ladekabel habe ich bereits ausprobiert, ohne Erfolg.\n\nDa das Gerät noch keine sechs Monate alt ist, gehe ich davon aus, dass der Fehler von Anfang an vorhanden war. Ich bitte Sie deshalb, das Handy zu reparieren oder mir ein neues zu schicken. Sollte beides nicht möglich sein, möchte ich vom Kauf zurücktreten.\n\nBitte teilen Sie mir mit, wie ich das Gerät einschicken kann. Über eine Antwort innerhalb der nächsten Woche wäre ich Ihnen dankbar.\n\nMit freundlichen Grüßen\nOlena Shevchenko"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sie stellen sich vor, beschreiben ein Bild und planen etwas gemeinsam. Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet; nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie etwa zwei Minuten frei zu den Stichwörtern. Nehmen Sie sich am besten mit dem Handy auf – so hören Sie selbst, wo Sie noch stocken.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Wohnort – Familie – Arbeit oder Ausbildung – Sprachen – Warum lernen Sie Deutsch? – Was möchten Sie in den nächsten Jahren erreichen?",
+                  "hints": [
+                    "Auf B1 reicht eine Liste von Sätzen nicht mehr. Verbinden Sie sie: „… weil …“, „… seit …“, „Zurzeit … , aber später …“.",
+                    "Sprechen Sie auch über Vergangenheit und Zukunft, nicht nur über die Gegenwart.",
+                    "Zum Schluss: Buchstabieren Sie Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Mein Name ist Tuan Nguyen, ich bin 26 Jahre alt und komme aus Vietnam, aus Hanoi.\n\nSeit zwei Jahren lebe ich in Bielefeld. Ich wohne mit zwei Mitbewohnern in einer WG, meine Familie ist noch in Vietnam.\n\nIn Vietnam habe ich Informatik studiert und das Studium auch abgeschlossen. Hier arbeite ich zurzeit in einem Restaurant, weil ich für eine Stelle in meinem Beruf noch besser Deutsch brauche.\n\nIch spreche Vietnamesisch, Englisch ziemlich gut und Deutsch seit zwei Jahren.\n\nDeutsch lerne ich vor allem für die Arbeit. Fachlich könnte ich sofort anfangen, aber in einem Team muss man diskutieren können, und das ist etwas anderes als Fachbegriffe zu lesen.\n\nIn den nächsten Jahren möchte ich B2 schaffen und mich als Softwareentwickler bewerben. Später möchte ich meine Eltern gern einmal herholen, wenigstens für einen Besuch.\n\nMein Familienname ist Nguyen: N – G – U – Y – E – N."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Ein Bild beschreiben",
+          "instructions": "Thema: Medien im Alltag. Sehen Sie sich das Bild an. Beschreiben Sie zuerst, was Sie sehen, und sagen Sie danach, wie das bei Ihnen selbst ist. Sprechen Sie etwa drei Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-bild",
+              "stimuli": [
+                {
+                  "title": "Bild",
+                  "image": {
+                    "src": "/bilder/de/b1/uebungstest-b1-09/sprechen-bild.jpg",
+                    "alt": "Ein Wohnzimmer am Abend: Auf dem Sofa sitzen drei Personen. Ein Jugendlicher schaut auf sein Handy, eine Frau liest auf einem Tablet, ein älterer Mann liest eine gedruckte Zeitung. Der Fernseher im Hintergrund läuft, aber niemand sieht hin."
+                  },
+                  "text": "Beschreiben Sie, was Sie auf dem Bild sehen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Beschreiben Sie das Bild und sagen Sie, wie Sie selbst Nachrichten und Medien nutzen.",
+                  "hints": [
+                    "Gehen Sie der Reihe nach vor: Wo ist das? Was sieht man? Wer ist zu sehen und was macht die Person?",
+                    "Vermutungen gehören dazu: „Ich vermute, dass …“, „Wahrscheinlich …“, „Es sieht so aus, als ob …“.",
+                    "Zum Schluss der eigene Bezug – begründen Sie mit „einerseits … andererseits …“."
+                  ],
+                  "musterloesung": "Auf dem Bild sehe ich ein Wohnzimmer am Abend. Auf dem Sofa sitzen drei Personen, wahrscheinlich eine Familie: ein Jugendlicher, eine Frau und ein älterer Mann.\n\nDas Interessante ist, dass alle drei etwas anderes machen. Der Jugendliche schaut auf sein Handy, die Frau liest auf einem Tablet und der ältere Mann hält eine gedruckte Zeitung in der Hand. Im Hintergrund läuft der Fernseher, aber niemand schaut hin.\n\nEs sieht so aus, als ob sie zwar zusammen im Raum wären, sich aber nicht unterhalten. Ich vermute, dass das ein ganz normaler Abend nach der Arbeit ist.\n\nDas Bild zeigt gut, wie unterschiedlich die Generationen Medien nutzen. Einerseits finde ich das nicht schlimm – jeder liest, was ihn interessiert. Andererseits geht dabei etwas verloren, wenn man den ganzen Abend nebeneinander sitzt und nicht miteinander spricht.\n\nIch selbst lese Nachrichten fast nur auf dem Handy, meistens morgens in der Bahn. Was ich mir angewöhnt habe: Ich lese eine deutsche und eine vietnamesische Seite, weil dieselbe Nachricht oft ganz anders erzählt wird.\n\nFernsehen schaue ich fast nie, aber ich höre viel Podcasts auf Deutsch. Das ist für mich das beste Training, weil die Leute dort normal sprechen und nicht so deutlich wie im Lehrbuch."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Gemeinsam etwas planen",
+          "instructions": "Lesen Sie die Situation. Planen Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner. Machen Sie Vorschläge, reagieren Sie auf die Vorschläge der anderen Person und einigen Sie sich am Ende auf einen Plan.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "In Ihrem Deutschkurs haben mehrere Teilnehmerinnen und Teilnehmer Probleme mit Behördenportalen im Internet. Sie und eine andere Person möchten deshalb einen kleinen Hilfe-Nachmittag im Kursraum organisieren. Planen Sie ihn zusammen.",
+                  "hints": [
+                    "Wann und wo soll der Nachmittag stattfinden?",
+                    "Wer hilft, und was genau wird gezeigt?",
+                    "Was müssen die Teilnehmenden mitbringen?",
+                    "Wie informieren Sie die anderen im Kurs?"
+                  ],
+                  "musterloesung": "A: Fast alle im Kurs haben Probleme mit diesen Online-Anträgen. Sollen wir mal einen Nachmittag machen?\n\nB: Gute Idee. Aber wir zwei können das nicht allein, wir kennen uns ja auch nicht so gut aus.\n\nA: Stimmt. Tuan arbeitet im IT-Bereich, den würde ich fragen. Und die Stadt hat diese Digital-Lotsen – vielleicht kommt jemand vorbei.\n\nB: Frag beide. Wenn wir zu dritt sind, kann jeder eine kleine Gruppe übernehmen.\n\nA: Wann denn? Nach dem Kurs wäre praktisch, dann sind alle schon da.\n\nB: Freitag ist schlecht, da wollen viele nach Hause. Ich wäre für Mittwoch, direkt im Anschluss, so von 13 bis 15 Uhr.\n\nA: Einverstanden. Und was zeigen wir?\n\nB: Nicht zu viel. Ich würde drei Sachen nehmen: Termin beim Bürgeramt buchen, Wohngeld-Antrag und E-Mails mit Anhang verschicken.\n\nA: Das reicht auch. Bei zehn Themen behält niemand etwas.\n\nB: Wichtig ist, dass alle ihr eigenes Handy oder ihren Laptop mitbringen. Sonst schauen sie nur zu und können es zu Hause nicht.\n\nA: Und die Zugangsdaten, sonst geht gar nichts. Das schreibe ich extra dazu.\n\nB: Vorsicht mit den Passwörtern – wir sollten sagen, dass niemand sie uns zeigen muss und selbst tippt.\n\nA: Da hast du recht, das schreibe ich auch dazu. Wie sagen wir es den anderen?\n\nB: Ich frage die Lehrerin, ob wir es am Montag im Unterricht ankündigen dürfen. Und du schreibst es in die Kursgruppe.\n\nA: Mache ich. Also: Mittwoch 13 bis 15 Uhr im Kursraum, drei Themen, eigene Geräte und Zugangsdaten mitbringen, Passwörter tippt jeder selbst, du fragst Tuan und die Lotsen.\n\nB: Genau so."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

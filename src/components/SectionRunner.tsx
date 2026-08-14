@@ -6,6 +6,8 @@ import { isAnswered, scoreSection } from "@/lib/scoring";
 import { useAttempt } from "@/lib/attempt-store";
 import { AudioPlayer } from "./AudioPlayer";
 import { TaskRenderer } from "./TaskRenderer";
+import { ClozeExplanations, ClozeText } from "./ClozeText";
+import { ExamImage } from "./ExamImage";
 import { BackLink, Button, ButtonLink, Card, ReadingPanel } from "./ui";
 
 export function SectionRunner({
@@ -102,21 +104,95 @@ export function SectionRunner({
               )}
 
               {/* Reading material, never tappable — flat and tinted so it
-                  cannot be mistaken for the answer options right beneath it. */}
-              {block.stimuli?.map((stimulus, i) => (
-                <ReadingPanel key={i}>
-                  {stimulus.title && (
-                    <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
-                      {stimulus.title}
+                  cannot be mistaken for the answer options right beneath it.
+                  Several short texts (a page of adverts) go side by side, so
+                  the questions are not a screen and a half further down. */}
+              {!block.inlineGaps && block.stimuli && (
+                <div
+                  className={
+                    block.stimuli.length >= 3
+                      ? "grid gap-3 sm:grid-cols-2"
+                      : "space-y-3"
+                  }
+                >
+                  {block.stimuli.map((stimulus, i) => (
+                    <ReadingPanel key={i} className="h-full">
+                      {stimulus.title && (
+                        <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+                          {stimulus.title}
+                        </p>
+                      )}
+                      {stimulus.heading && (
+                        <p className="mt-1 text-base font-semibold leading-snug text-slate-900">
+                          {stimulus.heading}
+                        </p>
+                      )}
+                      {stimulus.image && (
+                        <div className="mt-3">
+                          <ExamImage
+                            src={stimulus.image.src}
+                            alt={stimulus.image.alt}
+                          />
+                        </div>
+                      )}
+                      <p className="prose-exam mt-2 text-sm text-slate-800">
+                        {stimulus.text}
+                      </p>
+                    </ReadingPanel>
+                  ))}
+                </div>
+              )}
+
+              {/* Gaps filled inside the text itself. */}
+              {block.inlineGaps && block.stimuli?.[0] && (
+                <div>
+                  {block.stimuli[0].heading && (
+                    <p className="mb-2 text-base font-semibold text-slate-900">
+                      {block.stimuli[0].heading}
                     </p>
                   )}
-                  <p className="prose-exam text-sm text-slate-800">
-                    {stimulus.text}
-                  </p>
-                </ReadingPanel>
-              ))}
+                  <ClozeText
+                    text={block.stimuli[0].text}
+                    tasks={block.tasks}
+                    mode={mode}
+                    answers={attempt.answers}
+                    onChange={setAnswer}
+                  />
+                  {mode === "review" && (
+                    <ClozeExplanations tasks={block.tasks} />
+                  )}
+                </div>
+              )}
 
-              <ol className="space-y-3">
+              {/* The printed a–f list. Reference material, never tappable —
+                  the learner chooses a letter in each question below. */}
+              {block.showOptionList && block.optionPool && (
+                <ReadingPanel>
+                  <ul className="space-y-2.5">
+                    {block.optionPool.map((option) => (
+                      <li key={option.id} className="flex items-start gap-3">
+                        <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-white text-xs font-semibold text-slate-700 ring-1 ring-slate-300">
+                          {option.id}
+                        </span>
+                        <span className="text-sm leading-relaxed text-slate-800">
+                          {option.text}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </ReadingPanel>
+              )}
+
+              {/* Inline gaps are already answerable in the text above; listing
+                  them again would ask the same question twice. They still count
+                  towards the running number so the totals stay honest. */}
+              {block.inlineGaps ? (
+                (() => {
+                  taskNumber += block.tasks.length;
+                  return null;
+                })()
+              ) : (
+                <ol className="space-y-3">
                 {block.tasks.map((task) => {
                   taskNumber += 1;
                   return (
@@ -126,14 +202,16 @@ export function SectionRunner({
                       index={taskNumber}
                       mode={mode}
                       optionPool={block.optionPool}
+                      letteredOptions={block.showOptionList}
                       value={attempt.answers[task.id]}
                       onChange={(value) => setAnswer(task.id, value)}
                       selfRating={attempt.selfAssessment[task.id]}
                       onSelfRating={(rating) => setSelfRating(task.id, rating)}
                     />
                   );
-                })}
-              </ol>
+                  })}
+                </ol>
+              )}
             </div>
           ))}
         </Card>

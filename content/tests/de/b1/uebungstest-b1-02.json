@@ -1,0 +1,1140 @@
+{
+  "id": "uebungstest-b1-02",
+  "language": "de",
+  "level": "B1",
+  "title": "Übungstest B1 – Nr. 2",
+  "description": "Ein vollständiger Übungstest auf Niveau B1 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Arbeit und Bewerbung.",
+  "draft": true,
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 25,
+      "description": "Sie hören Ansagen, kurze Informationen aus dem Radio, Gespräche aus dem Alltag und drei Meinungen zu einem Thema. Insgesamt bearbeiten Sie 20 Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Ansagen und Durchsagen",
+          "instructions": "Sie hören vier Ansagen: am Telefon und an öffentlichen Orten. Wählen Sie zu jeder Ansage die richtige Antwort. Sie hören jede Ansage zweimal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-02/hoeren-teil-1.mp3",
+            "transcript": "Ansage 1\nGuten Tag, Frau Osei, hier ist Bergmann von der Firma Lentz. Es geht um Ihr Vorstellungsgespräch am Mittwoch. Leider ist unsere Personalleiterin an dem Tag krank geworden. Wir würden das Gespräch gern auf Freitag verschieben, ebenfalls um 10 Uhr. Sagen Sie uns bitte kurz Bescheid, ob das bei Ihnen geht.\n\nAnsage 2\nLiebe Kolleginnen und Kollegen, wegen einer Betriebsversammlung bleibt die Kantine heute geschlossen. Der Automat im Erdgeschoss ist aber wie immer in Betrieb. Ab morgen kochen wir wieder normal für Sie. Wir bitten um Verständnis.\n\nAnsage 3\nSprechstundenhilfe: Guten Tag, Herr Almeida, hier ist die Zeitarbeitsfirma Kranz. Ihr Einsatz beginnt wie besprochen am Montag um 6 Uhr. Eine Änderung gibt es allerdings: Sie fahren nicht zum Werk in Hagen, sondern zum Standort in Witten. Die Adresse schicke ich Ihnen gleich noch per SMS.\n\nAnsage 4\nLiebe Besucherinnen und Besucher, wir weisen Sie darauf hin, dass eine Beratung nur noch mit vorherigem Termin möglich ist. Ohne Termin können wir Sie leider nicht aufrufen. Termine vereinbaren Sie telefonisch oder online. Für kurze Fragen steht Ihnen der Empfang im Erdgeschoss zur Verfügung."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-ansage-1",
+              "prompt": "Ansage 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-1",
+                  "prompt": "Warum ruft Herr Bergmann an?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das Gespräch soll an einem anderen Tag stattfinden."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Frau Osei hat Unterlagen vergessen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Stelle ist schon besetzt."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Wir würden das Gespräch gern auf Freitag verschieben“ – die Uhrzeit bleibt gleich."
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-2",
+              "prompt": "Ansage 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Was erfahren die Beschäftigten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Betriebsversammlung fällt aus."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Kantine ist heute zu."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der Automat ist defekt."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… bleibt die Kantine heute geschlossen.“ Der Automat funktioniert weiterhin."
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-3",
+              "prompt": "Ansage 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-3",
+                  "prompt": "Was hat sich geändert?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der erste Arbeitstag."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Uhrzeit."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der Arbeitsort."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Sie fahren nicht zum Werk in Hagen, sondern zum Standort in Witten.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-4",
+              "prompt": "Ansage 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Was gilt in diesem Haus?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Eine Beratung gibt es nur mit Termin."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Man muss eine Wartenummer ziehen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Beratung ist nur vormittags möglich."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… dass eine Beratung nur noch mit vorherigem Termin möglich ist.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Kurze Informationen aus dem Radio",
+          "instructions": "Sie hören fünf kurze Meldungen aus dem Radio. Wählen Sie zu jeder Meldung die richtige Antwort. Sie hören die Meldungen einmal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-02/hoeren-teil-2.mp3",
+            "transcript": "Meldung 1\nModeratorin: Zum Arbeitsmarkt: In der Pflege fehlen in unserer Region weiterhin rund 900 Fachkräfte. Die Kliniken suchen inzwischen gezielt im Ausland. Neu ist, dass mehrere Häuser die Anerkennung ausländischer Abschlüsse selbst begleiten und die Kosten dafür übernehmen.\n\nMeldung 2\nModeratorin: Ein Betrieb aus dem Kreis testet seit einem halben Jahr die Vier-Tage-Woche bei gleichem Lohn. Das Ergebnis überrascht die Geschäftsführung: Die Zahl der Krankmeldungen ist deutlich gesunken. Die Produktion blieb dagegen ungefähr gleich.\n\nMeldung 3\nModeratorin: Ein Hinweis für alle, die gerade eine Stelle suchen: Die Arbeitsagentur bietet ab nächster Woche wieder kostenlose Bewerbungsfotos an, jeweils dienstags von 9 bis 12 Uhr. Eine Anmeldung ist nicht nötig, allerdings kann es Wartezeiten geben.\n\nMeldung 4\nModeratorin: Und noch eine Meldung aus der Weiterbildung: Wer länger als ein Jahr ohne Arbeit ist, kann ab Januar einen Sprachkurs auf B2-Niveau kostenlos besuchen. Bisher mussten die Teilnehmenden die Hälfte selbst bezahlen. Anmeldungen laufen über die Volkshochschule.\n\nMeldung 5\nModeratorin: Zum Schluss der Verkehr: Der Warnstreik im Nahverkehr ist beendet. Busse und Bahnen fahren ab dem frühen Nachmittag wieder nach Plan. Rechnen Sie am Vormittag aber noch mit einzelnen Ausfällen."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-meldung-1",
+              "prompt": "Meldung 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-1",
+                  "prompt": "Was ist neu?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Es fehlen weniger Fachkräfte als früher."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Kliniken helfen bei der Anerkennung von Abschlüssen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Löhne in der Pflege steigen."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Neu ist, dass mehrere Häuser die Anerkennung … selbst begleiten und die Kosten dafür übernehmen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-2",
+              "prompt": "Meldung 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-2",
+                  "prompt": "Was hat sich durch die Vier-Tage-Woche verändert?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Produktion ist gestiegen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Löhne wurden gesenkt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Es gibt weniger Krankmeldungen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Die Zahl der Krankmeldungen ist deutlich gesunken.“ Die Produktion blieb ungefähr gleich."
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-3",
+              "prompt": "Meldung 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-3",
+                  "prompt": "Was muss man für die Bewerbungsfotos tun?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Einfach dienstags vormittags kommen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sich vorher anmelden."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Einen Termin am Empfang holen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„jeweils dienstags von 9 bis 12 Uhr. Eine Anmeldung ist nicht nötig.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-4",
+              "prompt": "Meldung 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-4",
+                  "prompt": "Was ändert sich ab Januar?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Kurs findet nur noch online statt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Der Kurs kostet für manche nichts mehr."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Volkshochschule bietet keine Sprachkurse mehr an."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… kann ab Januar einen Sprachkurs auf B2-Niveau kostenlos besuchen. Bisher mussten die Teilnehmenden die Hälfte selbst bezahlen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-5",
+              "prompt": "Meldung 5",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-5",
+                  "prompt": "Wie ist die Lage im Nahverkehr?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Streik dauert noch an."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Es fahren heute gar keine Busse."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ab dem Nachmittag fährt alles wieder normal."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Busse und Bahnen fahren ab dem frühen Nachmittag wieder nach Plan.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Alltägliche Gespräche",
+          "instructions": "Sie hören vier kurze Gespräche. Zu jedem Gespräch gibt es zwei Aufgaben: Entscheiden Sie zuerst, ob die Aussage richtig oder falsch ist, und wählen Sie dann die richtige Antwort. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-02/hoeren-teil-3.mp3",
+            "transcript": "Gespräch 1\nNuray: Du, ich habe die Stelle als Bürokauffrau gesehen. Meinst du, ich soll mich bewerben?\n\nLukas Bender: Auf jeden Fall. Du machst den Job doch seit drei Jahren.\n\nNuray: Ja, aber mein Zeugnis ist auf Türkisch. Reicht das?\n\nLukas Bender: Nein, das musst du übersetzen lassen, und zwar von jemandem, der dafür zugelassen ist. Das dauert ungefähr zwei Wochen.\n\nNuray: Zwei Wochen? Die Frist ist schon am Fünfzehnten.\n\nLukas Bender: Dann schreib es in die Bewerbung: Übersetzung ist beauftragt und wird nachgereicht. Das machen viele so.\n\nGespräch 2\nFrau Vogt: Herr Kaminski, Sie haben inzwischen über sechzig Überstunden.\n\nHerr Kaminski: Ich weiß. Können die ausgezahlt werden?\n\nFrau Vogt: Auszahlen dürfen wir nur bis vierzig Stunden im Jahr. Den Rest müssen Sie abfeiern.\n\nHerr Kaminski: Dann würde ich gern im März eine Woche freinehmen.\n\nFrau Vogt: März ist schwierig, da ist Inventur. Anfang April hätte ich nichts dagegen.\n\nHerr Kaminski: Gut, dann April. Ich trage es gleich ein.\n\nGespräch 3\nHerr Ayala: Und, kommst du mit dem neuen Programm zurecht?\n\nFrau Brinkmann: Ehrlich gesagt nicht besonders. Die Schulung war viel zu kurz.\n\nHerr Ayala: Ging mir genauso. Aber es gibt kurze Videos im Intranet, die haben mir mehr geholfen als der ganze Tag Schulung.\n\nFrau Brinkmann: Davon wusste ich gar nichts. Wo finde ich die?\n\nHerr Ayala: Unter „Interne Weiterbildung“. Und wenn du willst, setzen wir uns morgen früh eine halbe Stunde zusammen, bevor die Anrufe losgehen.\n\nFrau Brinkmann: Das wäre super. Sagen wir um halb acht?\n\nGespräch 4\nFrau Achebe: Guten Tag, ich habe in Nigeria als Krankenschwester gearbeitet und möchte wissen, ob ich hier arbeiten darf.\n\nBerater: Dafür brauchen Sie die Anerkennung Ihres Abschlusses. Haben Sie Ihre Zeugnisse dabei?\n\nFrau Achebe: Ja, im Original und auf Deutsch übersetzt.\n\nBerater: Sehr gut. Dann fehlt meistens nur noch der Sprachnachweis, in der Pflege ist das B2.\n\nFrau Achebe: Ich habe erst B1.\n\nBerater: Das ist kein Grund zu warten. Sie können den Antrag trotzdem schon stellen, das Verfahren dauert ohnehin einige Monate. Den Nachweis reichen Sie später nach."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-gespraech-1",
+              "prompt": "Gespräch 1",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-1",
+                  "statement": "Nuray muss ihr Zeugnis von einer zugelassenen Person übersetzen lassen.",
+                  "solution": true,
+                  "explanation": "„… das musst du übersetzen lassen, und zwar von jemandem, der dafür zugelassen ist.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Was rät Lukas ihr?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie soll in der Bewerbung schreiben, dass die Übersetzung nachkommt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie soll sich später bewerben."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie soll das Zeugnis selbst übersetzen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Dann schreib es in die Bewerbung: Übersetzung ist beauftragt und wird nachgereicht.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-2",
+              "prompt": "Gespräch 2",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-3",
+                  "statement": "Alle Überstunden von Herrn Kaminski werden ausgezahlt.",
+                  "solution": false,
+                  "explanation": "„Auszahlen dürfen wir nur bis vierzig Stunden im Jahr. Den Rest müssen Sie abfeiern.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Wann nimmt Herr Kaminski frei?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Im März."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Anfang April."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Erst im nächsten Jahr."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„März ist schwierig, da ist Inventur. Anfang April hätte ich nichts dagegen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-3",
+              "prompt": "Gespräch 3",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-5",
+                  "statement": "Frau Brinkmann kannte die Videos im Intranet noch nicht.",
+                  "solution": true,
+                  "explanation": "„Davon wusste ich gar nichts. Wo finde ich die?“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-6",
+                  "prompt": "Was verabreden die beiden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Eine neue Schulung zu verlangen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Videos zusammen anzusehen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sich morgen früh gemeinsam hinzusetzen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… setzen wir uns morgen früh eine halbe Stunde zusammen“ – um halb acht."
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-4",
+              "prompt": "Gespräch 4",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-7",
+                  "statement": "Frau Achebe muss erst B2 haben, bevor sie den Antrag stellen kann.",
+                  "solution": false,
+                  "explanation": "„Sie können den Antrag trotzdem schon stellen … Den Nachweis reichen Sie später nach.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-8",
+                  "prompt": "Was rät die Beraterin?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Den Antrag jetzt schon zu stellen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Zuerst den B2-Kurs zu machen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Zeugnisse neu übersetzen zu lassen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Das ist kein Grund zu warten. Sie können den Antrag trotzdem schon stellen.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-4",
+          "title": "Teil 4 – Meinungen zu einem Thema",
+          "instructions": "Sie hören drei Aussagen zum selben Thema. Welcher Satz a–f passt zu welcher Aussage? Es bleiben drei Sätze übrig. Sie hören die Aussagen zweimal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-02/hoeren-teil-4.mp3",
+            "transcript": "Moderatorin: Unser Thema heute: Soll die Vier-Tage-Woche für alle kommen? Wir haben nachgefragt.\n\nAussage 18: Bettina Rauch\nBettina Rauch: Für mich persönlich wäre das großartig, ich habe zwei kleine Kinder. Aber ich arbeite in einer Kita, und da geht es nun einmal nicht: Die Kinder sind fünf Tage da. Solange niemand sagt, wer die fünfte Schicht übernimmt, ist das für unsere Branche leider nur eine schöne Idee.\n\nAussage 19: Tomasz Wilk\nTomasz Wilk: Ich war anfangs skeptisch, das gebe ich zu. Wir haben es in unserer Firma ein halbes Jahr ausprobiert, und ich hatte Angst, dass am Ende alles liegen bleibt. Das Gegenteil ist passiert. Wir arbeiten konzentrierter, und ich bin am Wochenende deutlich erholter.\n\nAussage 20: Serkan Öztürk\nSerkan Öztürk: Ich halte die Diskussion für unehrlich. Bei mir auf dem Bau wird nicht weniger gearbeitet, nur weil man es anders aufteilt. Vier Tage bedeutet dann eben zehn Stunden am Tag, und das hält der Körper mit fünfzig nicht mehr aus."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-4-meinungen",
+              "prompt": "Thema: Soll die Vier-Tage-Woche für alle kommen? Welcher Satz a–f passt zu welcher Aussage? Drei Sätze bleiben übrig.",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Diese Person sagt, dass ihre Branche das nicht umsetzen kann."
+                },
+                {
+                  "id": "b",
+                  "text": "Diese Person findet, dass vor allem Familien davon profitieren würden."
+                },
+                {
+                  "id": "c",
+                  "text": "Diese Person hat ihre Meinung geändert, nachdem sie es ausprobiert hat."
+                },
+                {
+                  "id": "d",
+                  "text": "Diese Person meint, die längeren Arbeitstage seien körperlich zu hart."
+                },
+                {
+                  "id": "e",
+                  "text": "Diese Person schlägt vor, zuerst mehr Personal einzustellen."
+                },
+                {
+                  "id": "f",
+                  "text": "Diese Person glaubt, dass die Kosten für die Firmen zu hoch wären."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h4-1",
+                  "prompt": "Aussage 18 – Bettina Rauch",
+                  "solution": "a",
+                  "explanation": "„Ich arbeite in einer Kita, und da geht es nun einmal nicht.“ Sie ist nicht dagegen, sie hält es in ihrer Branche für nicht machbar."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h4-2",
+                  "prompt": "Aussage 19 – Tomasz Wilk",
+                  "solution": "c",
+                  "explanation": "„Ich war anfangs skeptisch … Das Gegenteil ist passiert.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h4-3",
+                  "prompt": "Aussage 20 – Serkan Öztürk",
+                  "solution": "d",
+                  "explanation": "„Vier Tage bedeutet dann eben zehn Stunden am Tag, und das hält der Körper mit fünfzig nicht mehr aus.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 45,
+      "description": "Sie lesen einen Wegweiser, Anzeigen, zwei kürzere Texte, eine Informationsbroschüre und eine E-Mail. Insgesamt bearbeiten Sie 23 Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Wegweiser",
+          "instructions": "Sie sind im Jobcenter Ihrer Stadt und suchen verschiedene Informationen. Lesen Sie den Wegweiser und die Aufgaben. In welches Stockwerk gehen Sie? Achtung: Manchmal ist keines der beiden genannten Stockwerke richtig – wählen Sie dann „anderes Stockwerk“.",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-wegweiser",
+              "stimuli": [
+                {
+                  "title": "Wegweiser",
+                  "text": "JOBCENTER LINDENBERG – WEGWEISER\n\n3. OG\nRehabilitation und Teilhabe\nBeratung für Menschen mit Behinderung / Arbeitsplatzausstattung / Umschulung nach Krankheit\nWiderspruchsstelle\nWidersprüche gegen Bescheide / Akteneinsicht\n\n2. OG\nLeistungsabteilung\nBürgergeld / Miete und Heizkosten / Veränderungsmitteilungen / Nachweise einreichen\nKasse\nAuszahlungen / Rückzahlungen / Ratenvereinbarungen\n\n1. OG\nArbeitsvermittlung\nStellenangebote / Bewerbungstraining / Vermittlungsgespräche / Förderung von Weiterbildung\nTeam U25\nBeratung für junge Menschen unter 25 / Ausbildungsplatzsuche / Bewerbungsmappen-Check\n\nEG\nEmpfang und Anmeldung\nTerminvergabe / Abgabe von Unterlagen / Hausbriefkasten / Kopierer\nBerufsinformationszentrum\nComputer zur Stellensuche / Bewerbungsfotos / Informationen zu Berufen"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-1",
+                  "prompt": "Sie möchten Ihre neuen Gehaltsabrechnungen abgeben.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "EG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Die Abgabe von Unterlagen erledigt der Empfang im EG."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-2",
+                  "prompt": "Sie sind 22 Jahre alt und suchen einen Ausbildungsplatz.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "3. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Dafür ist das Team U25 im 1. OG zuständig – also ein anderes Stockwerk."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-3",
+                  "prompt": "Sie sind mit einem Bescheid nicht einverstanden und möchten Widerspruch einlegen.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "3. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Die Widerspruchsstelle liegt im 3. OG."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-4",
+                  "prompt": "Ihre Miete ist gestiegen und Sie müssen das mitteilen.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Veränderungsmitteilungen und Mietkosten gehören zur Leistungsabteilung im 2. OG."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-5",
+                  "prompt": "Sie möchten am Computer nach freien Stellen suchen und ein Bewerbungsfoto machen lassen.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "3. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Das Berufsinformationszentrum ist im EG – also ein anderes Stockwerk."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Anzeigen",
+          "instructions": "Lesen Sie die sieben Anzeigen und die fünf Situationen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Zwei Anzeigen bleiben übrig.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "heading": "Bewerbungswerkstatt der Volkshochschule",
+                  "text": "An vier Abenden schreiben wir gemeinsam Ihre Bewerbung: Lebenslauf, Anschreiben, Foto. Sie bringen Ihre Zeugnisse mit, wir kümmern uns um den Rest.\nDienstags 18 bis 20 Uhr, Kursgebühr 25 Euro. Für Menschen mit Bürgergeld kostenlos.\nAnmeldung im Sekretariat, Raum 108."
+                },
+                {
+                  "title": "Anzeige b",
+                  "heading": "Minijob im Blumenladen „Flora“",
+                  "text": "Wir suchen Unterstützung für samstags, jeweils 8 bis 14 Uhr. Sie beraten Kundinnen und Kunden und binden einfache Sträuße – Erfahrung ist nicht nötig, wir zeigen Ihnen alles.\nBezahlung auf Minijob-Basis. Bitte melden Sie sich persönlich im Laden, Bahnhofstraße 7."
+                },
+                {
+                  "title": "Anzeige c",
+                  "heading": "Übersetzungsbüro Lindenberg",
+                  "text": "Beglaubigte Übersetzungen von Zeugnissen, Urkunden und Diplomen für Ämter und Arbeitgeber. Alle gängigen Sprachen, Bearbeitungszeit in der Regel zehn Werktage.\nExpress innerhalb von drei Tagen gegen Aufschlag. Kostenlose Preisauskunft per E-Mail."
+                },
+                {
+                  "title": "Anzeige d",
+                  "heading": "Pflegehelfer/in gesucht – Seniorenheim Sonnenhof",
+                  "text": "Für unser Haus suchen wir Verstärkung in Teilzeit, 25 Stunden pro Woche, im Früh- und Spätdienst.\nEine abgeschlossene Ausbildung ist nicht Bedingung – wichtiger sind Zuverlässigkeit und Deutschkenntnisse ab B1. Die Einarbeitung dauert vier Wochen.\nBewerbungen an bewerbung@sonnenhof-lindenberg.de"
+                },
+                {
+                  "title": "Anzeige e",
+                  "heading": "Kinderbetreuung während der Weiterbildung",
+                  "text": "Sie machen eine Umschulung oder einen Kurs und wissen nicht, wohin mit Ihrem Kind? Wir betreuen Kinder von 1 bis 6 Jahren stundenweise, direkt im Bildungszentrum.\nKostenlos für Teilnehmende, Anmeldung mindestens eine Woche vorher."
+                },
+                {
+                  "title": "Anzeige f",
+                  "heading": "Fahrgemeinschaft ins Gewerbegebiet Ost",
+                  "text": "Wir fahren montags bis freitags um 5.40 Uhr ab Marktplatz zum Gewerbegebiet Ost und um 15 Uhr zurück. Zwei Plätze sind frei.\nSpritkosten werden geteilt, etwa 30 Euro im Monat. Kontakt über den Aushang im Bürgerbüro."
+                },
+                {
+                  "title": "Anzeige g",
+                  "heading": "Rechtsberatung für Arbeitnehmerinnen und Arbeitnehmer",
+                  "text": "Probleme mit Kündigung, Arbeitszeugnis oder ausstehendem Lohn? Jeden ersten Donnerstag im Monat beraten wir kostenlos, 16 bis 19 Uhr.\nBringen Sie Ihren Arbeitsvertrag und alle Schreiben mit. Ohne Anmeldung, Wartezeiten möglich."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Bewerbungswerkstatt der Volkshochschule"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Minijob im Blumenladen „Flora“"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Übersetzungsbüro Lindenberg"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Pflegehelfer/in gesucht – Seniorenheim Sonnenhof"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Kinderbetreuung während der Weiterbildung"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Fahrgemeinschaft ins Gewerbegebiet Ost"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Rechtsberatung für Arbeitnehmerinnen und Arbeitnehmer"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Ihr Chef hat Ihnen seit zwei Monaten keinen Lohn gezahlt und Sie wissen nicht, was Sie tun sollen.",
+                  "solution": "g",
+                  "explanation": "Anzeige g: Beratung unter anderem bei ausstehendem Lohn, kostenlos und ohne Anmeldung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Sie beginnen eine Umschulung und brauchen an den Kurstagen jemanden für Ihre dreijährige Tochter.",
+                  "solution": "e",
+                  "explanation": "Anzeige e: Betreuung von 1 bis 6 Jahren, direkt im Bildungszentrum, für Teilnehmende kostenlos."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Sie brauchen für eine Bewerbung Ihr ausländisches Zeugnis auf Deutsch – und zwar schnell.",
+                  "solution": "c",
+                  "explanation": "Anzeige c: beglaubigte Übersetzungen, Express innerhalb von drei Tagen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie beziehen Bürgergeld und möchten lernen, wie man einen Lebenslauf schreibt.",
+                  "solution": "a",
+                  "explanation": "Anzeige a: Bewerbungswerkstatt, für Menschen mit Bürgergeld kostenlos."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie haben keine Ausbildung, sprechen aber gut Deutsch und suchen eine feste Teilzeitstelle.",
+                  "solution": "d",
+                  "explanation": "Anzeige d: 25 Stunden, Ausbildung keine Bedingung, Deutsch ab B1."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Pressetexte und formelle Mitteilungen",
+          "instructions": "Lesen Sie die beiden Texte. Entscheiden Sie zu jedem Text, ob die Aussage richtig oder falsch ist, und wählen Sie danach die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-text-1",
+              "stimuli": [
+                {
+                  "title": "Text 1",
+                  "heading": "Mehr Betriebe bilden wieder aus",
+                  "text": "Nach mehreren schwachen Jahren melden die Betriebe im Kreis Lindenberg wieder mehr Ausbildungsplätze. 412 Stellen sind derzeit gemeldet, rund 15 Prozent mehr als im Vorjahr.\n\nBesetzt sind allerdings längst nicht alle. Vor allem im Handwerk und in der Gastronomie finden die Betriebe keine Bewerberinnen und Bewerber. Die Handwerkskammer nennt zwei Gründe: Viele Jugendliche zieht es an die Hochschule, und die Arbeitszeiten am Abend und am Wochenende schrecken ab.\n\nEinige Betriebe reagieren inzwischen darauf. Zwei Bäckereien haben die Arbeit am Sonntag abgeschafft, ein Malerbetrieb übernimmt für seine Auszubildenden das Deutschlandticket. Ob das reicht, wird sich im Herbst zeigen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l3-1",
+                  "statement": "Es gibt in diesem Jahr mehr Ausbildungsplätze als im letzten Jahr.",
+                  "solution": true,
+                  "explanation": "„412 Stellen sind derzeit gemeldet, rund 15 Prozent mehr als im Vorjahr.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was machen einige Betriebe, um Auszubildende zu finden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie ändern die Arbeitszeiten oder zahlen das Ticket."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie zahlen ein höheres Gehalt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie suchen nur noch im Ausland."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Zwei Bäckereien haben die Arbeit am Sonntag abgeschafft, ein Malerbetrieb übernimmt … das Deutschlandticket.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-text-2",
+              "stimuli": [
+                {
+                  "title": "Text 2",
+                  "heading": "Personalabteilung – Information für alle Beschäftigten",
+                  "text": "Sehr geehrte Kolleginnen und Kollegen,\n\nab dem 1. November erfassen wir die Arbeitszeit nicht mehr auf Papier, sondern über die App „Zeitkonto“. Ihre Zugangsdaten erhalten Sie in der letzten Oktoberwoche per Hauspost.\n\nBitte tragen Sie Beginn und Ende Ihrer Arbeitszeit noch am selben Tag ein. Nachträgliche Korrekturen sind bis zu sieben Tage möglich, danach nur noch über Ihre Vorgesetzten.\n\nWer kein Diensthandy hat, kann die Terminals am Eingang und in der Werkstatt nutzen. Niemand ist verpflichtet, das eigene Telefon zu verwenden.\n\nMit freundlichen Grüßen\nPersonalabteilung"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l3-3",
+                  "statement": "Die Beschäftigten müssen ihr privates Handy benutzen.",
+                  "solution": false,
+                  "explanation": "„Niemand ist verpflichtet, das eigene Telefon zu verwenden.“ Es gibt Terminals."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Wie lange kann man einen Eintrag selbst korrigieren?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nur am selben Tag."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bis zu sieben Tage."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Bis zum Monatsende."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Nachträgliche Korrekturen sind bis zu sieben Tage möglich, danach nur noch über Ihre Vorgesetzten.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-4",
+          "title": "Teil 4 – Informationsbroschüre",
+          "instructions": "Lesen Sie die Informationen zur Weiterbildungsförderung. Sind die folgenden Aussagen richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-4-broschuere",
+              "stimuli": [
+                {
+                  "title": "Broschüre",
+                  "heading": "WEITERBILDUNG FÖRDERN LASSEN – DIE WICHTIGSTEN FRAGEN",
+                  "text": "Wer wird gefördert?\nGefördert werden Beschäftigte und Arbeitsuchende. Sie müssen nicht arbeitslos sein. Entscheidend ist, dass die Weiterbildung Ihre Beschäftigungschancen verbessert und mindestens vier Wochen dauert.\n\nWas wird bezahlt?\nÜbernommen werden die Kursgebühren, Fahrtkosten und, falls nötig, die Kosten für die Kinderbetreuung. Prüfungsgebühren zahlen wir nur, wenn die Prüfung Teil des Kurses ist.\n\nWie beantrage ich das?\nWichtig: Der Antrag muss vor Beginn des Kurses gestellt werden. Wer zuerst anmeldet und dann fragt, bekommt nichts. Bringen Sie zum Beratungsgespräch das Kursangebot des Anbieters mit.\n\nWie lange dauert die Entscheidung?\nIn der Regel drei bis vier Wochen. Planen Sie diese Zeit ein, bevor der Kurs beginnt."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-1",
+                  "statement": "Man muss arbeitslos sein, um gefördert zu werden.",
+                  "solution": false,
+                  "explanation": "„Gefördert werden Beschäftigte und Arbeitsuchende. Sie müssen nicht arbeitslos sein.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-2",
+                  "statement": "Der Antrag muss gestellt werden, bevor der Kurs anfängt.",
+                  "solution": true,
+                  "explanation": "„Der Antrag muss vor Beginn des Kurses gestellt werden. Wer zuerst anmeldet und dann fragt, bekommt nichts.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-3",
+                  "statement": "Prüfungsgebühren werden nur bezahlt, wenn die Prüfung zum Kurs gehört.",
+                  "solution": true,
+                  "explanation": "„Prüfungsgebühren zahlen wir nur, wenn die Prüfung Teil des Kurses ist.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-5",
+          "title": "Teil 5 – Wörter im Brief ergänzen",
+          "instructions": "Lesen Sie die E-Mail und wählen Sie für jede Lücke das passende Wort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-5-brief",
+              "inlineGaps": true,
+              "stimuli": [
+                {
+                  "title": "E-Mail",
+                  "heading": "E-Mail an die Personalabteilung",
+                  "text": "Sehr ___(1)___ Damen und Herren,\n\nvielen Dank für die Einladung zum Vorstellungsgespräch am 14. Mai. Ich würde diesen Termin sehr gern wahrnehmen, ___(2)___ ich an diesem Tag leider eine Operation habe, die schon lange geplant ist.\n\n___(3)___ diesem Grund möchte ich fragen, ob ein anderer Termin möglich wäre. Ab dem 20. Mai bin ich wieder ___(4)___ verfügbar und könnte jederzeit kommen.\n\nIch hoffe sehr, dass Sie mir noch eine ___(5)___ geben können, und danke Ihnen für Ihr Verständnis. Meine Unterlagen schicke ich Ihnen ___(6)___ noch einmal zu, falls sie nicht mehr vorliegen.\n\nMit freundlichen Grüßen\nMarta Kowalczyk"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-1",
+                  "prompt": "Lücke (1) – Anrede",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "geehrten"
+                    },
+                    {
+                      "id": "b",
+                      "text": "geehrter"
+                    },
+                    {
+                      "id": "c",
+                      "text": "geehrte"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Sehr geehrte Damen und Herren“ – die feste Formel im Plural."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-2",
+                  "prompt": "Lücke (2) – Konnektor",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "obwohl"
+                    },
+                    {
+                      "id": "b",
+                      "text": "deshalb"
+                    },
+                    {
+                      "id": "c",
+                      "text": "weil"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Der Gegensatz: Sie möchte gern kommen, kann aber nicht. Nach „deshalb“ müsste das Verb an zweiter Stelle stehen."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-3",
+                  "prompt": "Lücke (3) – Präposition",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Mit"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Aus"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Bei"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Aus diesem Grund“ ist die feste Wendung."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-4",
+                  "prompt": "Lücke (4) – Adverb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "schon"
+                    },
+                    {
+                      "id": "b",
+                      "text": "erst"
+                    },
+                    {
+                      "id": "c",
+                      "text": "wieder"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Nach der Operation ist sie ab dem 20. Mai wieder verfügbar – „wieder“ passt zum Zeitverlauf."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-5",
+                  "prompt": "Lücke (5) – Nomen",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Chance"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Gelegenheit"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Möglichkeit"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„jemandem eine Chance geben“ ist die übliche Verbindung; „eine Möglichkeit geben“ sagt man so nicht."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-6",
+                  "prompt": "Lücke (6) – Adverb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "vielleicht"
+                    },
+                    {
+                      "id": "b",
+                      "text": "selbstverständlich"
+                    },
+                    {
+                      "id": "c",
+                      "text": "kaum"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "In einer höflichen Bitte sagt man zu, die Unterlagen selbstverständlich noch einmal zu schicken."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 30,
+      "description": "Sie schreiben eine E-Mail und gehen dabei auf vier Punkte ein. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie eine Musterlösung zum Vergleichen.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "E-Mail schreiben",
+          "instructions": "Sie haben sich bei der Firma Lentz beworben und eine Einladung zum Vorstellungsgespräch am Mittwoch, 10 Uhr, bekommen. An diesem Tag müssen Sie aber arbeiten und können nicht kommen. Schreiben Sie eine E-Mail an Frau Bergmann von der Personalabteilung. Schreiben Sie mindestens 80 Wörter und gehen Sie auf alle vier Punkte ein.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-email",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Schreiben Sie die E-Mail an Frau Bergmann.",
+                  "criteria": [
+                    "Grund: Warum schreiben Sie?",
+                    "Warum Sie am Mittwoch nicht kommen können",
+                    "Wann Sie Zeit hätten",
+                    "Ihr Interesse an der Stelle"
+                  ],
+                  "hints": [
+                    "Schreiben Sie förmlich: Anrede am Anfang, Gruß am Ende.",
+                    "Begründen Sie, was Sie schreiben – auf B1 reicht Aufzählen nicht.",
+                    "Höfliche Bitten stehen im Konjunktiv II: „könnte ich …“, „ich würde gern …“, „wäre es möglich …“."
+                  ],
+                  "minWords": 80,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Frau Bergmann,\n\nvielen Dank für Ihre Einladung zum Vorstellungsgespräch am Mittwoch um 10 Uhr. Über die Einladung habe ich mich sehr gefreut.\n\nLeider muss ich Sie um einen anderen Termin bitten. Ich arbeite zurzeit noch in meiner alten Firma, und am Mittwoch habe ich Frühschicht. Mein Arbeitgeber weiß noch nichts von meiner Bewerbung, deshalb möchte ich an diesem Tag nicht fehlen.\n\nAm Donnerstag und am Freitag hätte ich dagegen frei. An beiden Tagen könnte ich jederzeit zwischen 9 und 16 Uhr kommen. Wenn es Ihnen besser passt, wäre auch ein Gespräch am späten Nachmittag möglich.\n\nAn der Stelle bin ich weiterhin sehr interessiert, denn ich arbeite seit vier Jahren im Lager und möchte mich gern verändern.\n\nÜber eine kurze Rückmeldung würde ich mich sehr freuen.\n\nMit freundlichen Grüßen\nMarta Kowalczyk"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sie stellen sich vor, beschreiben ein Bild und planen etwas gemeinsam. Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet; nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie etwa zwei Minuten frei zu den Stichwörtern. Nehmen Sie sich am besten mit dem Handy auf – so hören Sie selbst, wo Sie noch stocken.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Wohnort – Familie – Arbeit oder Ausbildung – Sprachen – Warum lernen Sie Deutsch? – Was möchten Sie in den nächsten Jahren erreichen?",
+                  "hints": [
+                    "Auf B1 reicht eine Liste von Sätzen nicht mehr. Verbinden Sie sie: „… weil …“, „… seit …“, „Zurzeit … , aber später …“.",
+                    "Sprechen Sie auch über Vergangenheit und Zukunft, nicht nur über die Gegenwart.",
+                    "Zum Schluss: Buchstabieren Sie Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Mein Name ist Samir Haddad, ich bin 34 Jahre alt und komme aus Marokko, aus Fès.\n\nSeit fünf Jahren lebe ich in Dortmund. Ich bin verheiratet, meine Frau arbeitet als Friseurin, und wir haben einen Sohn von drei Jahren.\n\nIn Marokko habe ich Elektrotechnik studiert und danach vier Jahre in einer Firma gearbeitet. Hier arbeite ich zurzeit als Lagerarbeiter, weil mein Studium noch nicht anerkannt ist.\n\nIch spreche Arabisch und Französisch, außerdem Englisch und Deutsch.\n\nDeutsch lerne ich, weil ich wieder als Elektriker arbeiten möchte. Für die Anerkennung brauche ich B2, deshalb mache ich jetzt zuerst B1.\n\nIn den nächsten Jahren möchte ich die Anerkennung schaffen und mich bei einem Betrieb hier in der Nähe bewerben. Später würde ich gern eine Meisterprüfung machen, aber das ist noch weit weg.\n\nMein Familienname ist Haddad: H – A – D – D – A – D."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Ein Bild beschreiben",
+          "instructions": "Thema: Arbeit und Beruf. Sehen Sie sich das Bild an. Beschreiben Sie zuerst, was Sie sehen, und sagen Sie danach, wie das bei Ihnen selbst ist. Sprechen Sie etwa drei Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-bild",
+              "stimuli": [
+                {
+                  "title": "Bild",
+                  "image": {
+                    "src": "/bilder/de/b1/uebungstest-b1-02/sprechen-bild.jpg",
+                    "alt": "Eine Werkstatt oder Produktionshalle: Zwei Personen in Arbeitskleidung und mit Schutzbrillen stehen an einer Werkbank und arbeiten gemeinsam an einem Bauteil. Eine ältere Person zeigt der jüngeren etwas, im Hintergrund sind Werkzeuge und Maschinen zu sehen."
+                  },
+                  "text": "Beschreiben Sie, was Sie auf dem Bild sehen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Beschreiben Sie das Bild und sagen Sie, was Ihnen bei der Arbeit wichtig ist.",
+                  "hints": [
+                    "Gehen Sie der Reihe nach vor: Wo ist das? Was sieht man? Wer ist zu sehen und was macht die Person?",
+                    "Vermutungen gehören dazu: „Ich vermute, dass …“, „Wahrscheinlich …“, „Es sieht so aus, als ob …“.",
+                    "Zum Schluss der eigene Bezug – begründen Sie mit „einerseits … andererseits …“."
+                  ],
+                  "musterloesung": "Auf dem Bild sehe ich zwei Personen bei der Arbeit, vermutlich in einer Werkstatt oder in einer kleinen Produktionshalle. Beide tragen Arbeitskleidung und eine Schutzbrille, also ist die Arbeit nicht ganz ungefährlich.\n\nSie stehen an einer Werkbank und arbeiten zusammen an einem Bauteil. Die ältere Person zeigt der jüngeren offenbar etwas – es sieht so aus, als ob das eine Einarbeitung oder eine Ausbildung wäre. Im Hintergrund erkenne ich Werkzeuge und Maschinen.\n\nDie Stimmung wirkt ruhig und konzentriert. Ich vermute, dass die beiden sich gut verstehen, denn die jüngere Person schaut sehr aufmerksam zu und niemand wirkt gestresst.\n\nMir selbst ist bei der Arbeit vor allem wichtig, dass man mir am Anfang etwas richtig erklärt. In meiner ersten Stelle in Deutschland hat mir niemand gezeigt, wie die Maschinen funktionieren, und ich hatte ständig Angst, etwas falsch zu machen.\n\nEinerseits zählt natürlich das Gehalt, andererseits ist mir das Team fast genauso wichtig. Wenn ich mich bei den Kolleginnen und Kollegen wohlfühle, gehe ich morgens gern zur Arbeit – und ich lerne auch viel schneller Deutsch."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Gemeinsam etwas planen",
+          "instructions": "Lesen Sie die Situation. Planen Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner. Machen Sie Vorschläge, reagieren Sie auf die Vorschläge der anderen Person und einigen Sie sich am Ende auf einen Plan.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Eine Kollegin aus Ihrer Abteilung geht nach zwölf Jahren in Rente. Sie und eine andere Kollegin möchten für sie eine kleine Feier im Betrieb organisieren. Planen Sie die Feier zusammen.",
+                  "hints": [
+                    "Wann und wo soll die Feier stattfinden?",
+                    "Was gibt es zu essen und zu trinken?",
+                    "Wollen Sie ein Geschenk kaufen – und wer sammelt das Geld?",
+                    "Wer spricht bei der Feier, und wer räumt hinterher auf?"
+                  ],
+                  "musterloesung": "A: Frau Lehmann hört Ende des Monats auf. Nach zwölf Jahren können wir sie doch nicht einfach so gehen lassen.\n\nB: Auf keinen Fall. Ich würde eine kleine Feier hier im Betrieb machen. Wann denn – an ihrem letzten Tag?\n\nA: Ja, am Freitag. Ich schlage die Mittagspause vor, so ab halb eins. Dann sind alle da und niemand muss extra länger bleiben.\n\nB: Gute Idee. Und wo? Die Kantine ist um die Zeit ziemlich voll.\n\nA: Dann lieber der Besprechungsraum im ersten Stock. Den müsste ich nur vorher reservieren.\n\nB: Mach das. Beim Essen würde ich es einfach halten: Kuchen, Kaffee und ein paar Getränke. Ich backe gern etwas, und wir könnten eine Liste aufhängen, damit noch jemand etwas mitbringt.\n\nA: Einverstanden. Und ein Geschenk? Sie wandert viel, vielleicht ein Gutschein für ein Sportgeschäft.\n\nB: Das passt zu ihr. Ich würde pro Person fünf Euro sammeln, dann kommt genug zusammen. Sammelst du im Büro und ich in der Werkstatt?\n\nA: Machen wir. Eine Karte kaufe ich auch, da können alle unterschreiben.\n\nB: Bleibt die Frage, wer etwas sagt. Ich stelle mich da ungern vorne hin.\n\nA: Dann übernehme ich das, ich kenne sie am längsten. Aber du erzählst die Geschichte mit dem Betriebsausflug, die kann nur du.\n\nB: Einverstanden. Und aufräumen machen wir danach zusammen, das ist in zehn Minuten erledigt.\n\nA: Gut. Also: Freitag halb eins, Besprechungsraum, Kuchen und Kaffee, Gutschein fürs Sportgeschäft, ich rede, wir räumen zusammen auf.\n\nB: Perfekt."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

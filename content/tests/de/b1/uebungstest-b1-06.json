@@ -1,0 +1,1140 @@
+{
+  "id": "uebungstest-b1-06",
+  "language": "de",
+  "level": "B1",
+  "title": "Übungstest B1 – Nr. 6",
+  "description": "Ein vollständiger Übungstest auf Niveau B1 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Einkaufen, Geld und Verträge.",
+  "draft": true,
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 25,
+      "description": "Sie hören Ansagen, kurze Informationen aus dem Radio, Gespräche aus dem Alltag und drei Meinungen zu einem Thema. Insgesamt bearbeiten Sie 20 Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Ansagen und Durchsagen",
+          "instructions": "Sie hören vier Ansagen: am Telefon und an öffentlichen Orten. Wählen Sie zu jeder Ansage die richtige Antwort. Sie hören jede Ansage zweimal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-06/hoeren-teil-1.mp3",
+            "transcript": "Ansage 1\nLiebe Kundinnen und Kunden, wir möchten Sie darauf hinweisen, dass unsere Kassen ab 19 Uhr 30 nicht mehr besetzt sind. Danach können Sie nur noch an den Selbstbedienungskassen bezahlen, und zwar ausschließlich mit Karte. Bitte planen Sie das ein.\n\nAnsage 2\nHerr Böhm: Guten Tag, Frau Kraus, hier ist das Möbelhaus Lindner. Ihr Sofa ist eingetroffen, allerdings in der falschen Farbe – geliefert wurde grau statt blau. Sie können es zum reduzierten Preis behalten oder auf die richtige Lieferung warten, die etwa sechs Wochen dauert. Rufen Sie mich bitte zurück.\n\nAnsage 3\nSehr geehrte Kundinnen und Kunden, wegen einer Systemumstellung sind heute keine Überweisungen am Automaten möglich. Bargeld können Sie wie gewohnt abheben. Nutzen Sie für Überweisungen bitte das Online-Banking oder kommen Sie morgen wieder.\n\nAnsage 4\nSprechstundenhilfe: Guten Tag, hier ist der Kundenservice von StromDirekt. Sie hatten uns geschrieben, dass Ihre Abrechnung zu hoch ist. Wir haben das geprüft: Der Zählerstand wurde tatsächlich falsch abgelesen. Sie bekommen eine neue Rechnung und 142 Euro zurück."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-ansage-1",
+              "prompt": "Ansage 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-1",
+                  "prompt": "Was gilt ab 19 Uhr 30?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Man kann nur noch mit Karte zahlen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das Geschäft schließt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Es sind mehr Kassen geöffnet."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… nur noch an den Selbstbedienungskassen bezahlen, und zwar ausschließlich mit Karte.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-2",
+              "prompt": "Ansage 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Was kann Frau Kraus tun?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das Sofa umtauschen und ein anderes wählen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das Sofa günstiger behalten oder warten."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Den Kauf kostenlos rückgängig machen."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Sie können es zum reduzierten Preis behalten oder auf die richtige Lieferung warten.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-3",
+              "prompt": "Ansage 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-3",
+                  "prompt": "Was funktioniert heute nicht?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Geld abheben."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das Online-Banking."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Überweisungen am Automaten."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… sind heute keine Überweisungen am Automaten möglich.“ Bargeld geht wie gewohnt."
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-4",
+              "prompt": "Ansage 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Was ist das Ergebnis der Prüfung?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Kunde bekommt Geld zurück."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Rechnung war richtig."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der Kunde muss nachzahlen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Sie bekommen eine neue Rechnung und 142 Euro zurück.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Kurze Informationen aus dem Radio",
+          "instructions": "Sie hören fünf kurze Meldungen aus dem Radio. Wählen Sie zu jeder Meldung die richtige Antwort. Sie hören die Meldungen einmal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-06/hoeren-teil-2.mp3",
+            "transcript": "Meldung 1\nModeratorin: Zum Verbraucherschutz: Wer online etwas bestellt, kann die Ware innerhalb von vierzehn Tagen zurückgeben, ohne einen Grund zu nennen. Neu ist, dass viele Händler die Rücksendung inzwischen nicht mehr bezahlen. Achten Sie deshalb vor dem Kauf auf die Angaben zu den Kosten.\n\nMeldung 2\nModeratorin: Ein Hinweis der Verbraucherzentrale: An Haustüren sind wieder vermehrt Personen unterwegs, die angeblich den Stromzähler prüfen wollen und dabei Verträge verkaufen. Lassen Sie niemanden ohne Termin in die Wohnung. Echte Mitarbeitende kündigen sich immer schriftlich an.\n\nMeldung 3\nModeratorin: Und noch etwas zum Sparen: Die Preise für Lebensmittel sind im letzten Jahr um knapp drei Prozent gestiegen. Am stärksten betroffen sind Obst und Gemüse. Deutlich günstiger geworden ist dagegen Kaffee.\n\nMeldung 4\nModeratorin: Aus der Stadt: Der Wochenmarkt nimmt ab sofort auch Kartenzahlung an. Die Stände waren dazu nicht verpflichtet, haben sich aber gemeinsam dafür entschieden. Wer möchte, kann natürlich weiterhin bar bezahlen.\n\nMeldung 5\nModeratorin: Zum Schluss: Ab dem ersten Juli gilt für Handyverträge eine kürzere Kündigungsfrist. Nach dem ersten Jahr können Sie jederzeit mit einem Monat Frist kündigen. Bisher verlängerten sich viele Verträge automatisch um ein ganzes Jahr."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-meldung-1",
+              "prompt": "Meldung 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-1",
+                  "prompt": "Was ist neu?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Frist ist kürzer geworden."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Man muss die Rücksendung oft selbst zahlen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Man muss einen Grund angeben."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Neu ist, dass viele Händler die Rücksendung inzwischen nicht mehr bezahlen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-2",
+              "prompt": "Meldung 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-2",
+                  "prompt": "Woran erkennt man echte Mitarbeitende?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie kommen immer zu zweit."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie zeigen einen Ausweis."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie kündigen sich vorher schriftlich an."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Echte Mitarbeitende kündigen sich immer schriftlich an.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-3",
+              "prompt": "Meldung 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-3",
+                  "prompt": "Was ist billiger geworden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Kaffee."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Obst."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Gemüse."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Deutlich günstiger geworden ist dagegen Kaffee.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-4",
+              "prompt": "Meldung 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-4",
+                  "prompt": "Was ist am Wochenmarkt neu?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Bargeld wird nicht mehr angenommen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Man kann mit Karte zahlen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Es gibt mehr Stände."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Der Wochenmarkt nimmt ab sofort auch Kartenzahlung an.“ Bar geht weiterhin."
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-5",
+              "prompt": "Meldung 5",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-5",
+                  "prompt": "Was ändert sich bei Handyverträgen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie werden billiger."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie laufen mindestens zwei Jahre."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Man kann nach einem Jahr monatlich kündigen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Nach dem ersten Jahr können Sie jederzeit mit einem Monat Frist kündigen.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Alltägliche Gespräche",
+          "instructions": "Sie hören vier kurze Gespräche. Zu jedem Gespräch gibt es zwei Aufgaben: Entscheiden Sie zuerst, ob die Aussage richtig oder falsch ist, und wählen Sie dann die richtige Antwort. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-06/hoeren-teil-3.mp3",
+            "transcript": "Gespräch 1\nFrau Ivanova: Ich habe online eine Jacke bestellt, aber sie ist zu klein. Kann ich die zurückschicken?\n\nHerr Weber: Klar, du hast vierzehn Tage Zeit. Hast du das Paket noch?\n\nFrau Ivanova: Ja, alles da. Nur den Rücksendeschein finde ich nicht.\n\nHerr Weber: Den kannst du meistens im Kundenkonto ausdrucken. Wichtig ist, dass du einen Beleg von der Post behältst.\n\nFrau Ivanova: Warum das?\n\nHerr Weber: Damit du beweisen kannst, dass du es abgeschickt hast. Ohne Beleg stehst du schlecht da, wenn das Paket verloren geht.\n\nGespräch 2\nHerr Sadiq: Guten Tag, ich möchte ein Konto eröffnen.\n\nMitarbeiterin: Gern. Bringen Sie bitte Ihren Ausweis und eine Meldebescheinigung mit.\n\nHerr Sadiq: Die Meldebescheinigung habe ich noch nicht, ich bin gerade erst umgezogen.\n\nMitarbeiterin: Kein Problem, dann reicht vorerst der Mietvertrag. Die Bescheinigung reichen Sie später nach.\n\nHerr Sadiq: Und was kostet das Konto?\n\nMitarbeiterin: Bei uns nichts, solange monatlich Geld eingeht. Ohne regelmäßigen Eingang sind es vier Euro im Monat.\n\nGespräch 3\nMerve: Du, ich habe gestern einen Anruf bekommen. Angeblich habe ich bei einem Gewinnspiel mitgemacht.\n\nHerr Palm: Und, hast du?\n\nMerve: Nein, nie. Der Mann wollte trotzdem meine Kontonummer.\n\nHerr Palm: Auf keinen Fall! Hast du sie ihm gegeben?\n\nMerve: Nein, ich habe aufgelegt. Aber jetzt bin ich unsicher, ob ich etwas machen muss.\n\nHerr Palm: Wenn du nichts gesagt hast, ist alles in Ordnung. Notier dir nur die Nummer und melde sie der Verbraucherzentrale, damit andere gewarnt werden.\n\nGespräch 4\nFrau Adamu: Mein Handyvertrag läuft im Mai aus. Soll ich verlängern oder wechseln?\n\nJonas Frey: Was zahlst du denn?\n\nFrau Adamu: 39 Euro im Monat.\n\nJonas Frey: Das ist viel. Ich zahle 15 für dasselbe. Ruf einfach bei deinem Anbieter an und sag, dass du kündigen willst.\n\nFrau Adamu: Einfach so?\n\nJonas Frey: Ja. In neun von zehn Fällen bekommst du sofort ein besseres Angebot. Und wenn nicht, wechselst du wirklich – deine Nummer kannst du mitnehmen."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-gespraech-1",
+              "prompt": "Gespräch 1",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-1",
+                  "statement": "Frau Ivanova soll den Beleg von der Post aufbewahren.",
+                  "solution": true,
+                  "explanation": "„Wichtig ist, dass du einen Beleg von der Post behältst.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Wo bekommt sie den Rücksendeschein?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Im Kundenkonto zum Ausdrucken."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bei der Post."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der Händler schickt ihn per Brief."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Den kannst du meistens im Kundenkonto ausdrucken.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-2",
+              "prompt": "Gespräch 2",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-3",
+                  "statement": "Herr Sadiq kann das Konto ohne Meldebescheinigung eröffnen.",
+                  "solution": true,
+                  "explanation": "„Kein Problem, dann reicht vorerst der Mietvertrag.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Wann ist das Konto kostenlos?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Immer."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Wenn regelmäßig Geld eingeht."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Im ersten Jahr."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Bei uns nichts, solange monatlich Geld eingeht.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-3",
+              "prompt": "Gespräch 3",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-5",
+                  "statement": "Merve hat ihre Kontonummer weitergegeben.",
+                  "solution": false,
+                  "explanation": "„Nein, ich habe aufgelegt.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-6",
+                  "prompt": "Was soll Merve jetzt tun?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Zur Bank gehen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ihr Konto sperren lassen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Nummer notieren und melden."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Notier dir nur die Nummer und melde sie der Verbraucherzentrale.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-4",
+              "prompt": "Gespräch 4",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-7",
+                  "statement": "Frau Adamu müsste bei einem Wechsel eine neue Nummer nehmen.",
+                  "solution": false,
+                  "explanation": "„… deine Nummer kannst du mitnehmen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-8",
+                  "prompt": "Was rät Jonas ihr?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Beim Anbieter anzurufen und mit Kündigung zu argumentieren."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sofort zu wechseln."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Den Vertrag zu verlängern."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Ruf einfach bei deinem Anbieter an und sag, dass du kündigen willst.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-4",
+          "title": "Teil 4 – Meinungen zu einem Thema",
+          "instructions": "Sie hören drei Aussagen zum selben Thema. Welcher Satz a–f passt zu welcher Aussage? Es bleiben drei Sätze übrig. Sie hören die Aussagen zweimal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-06/hoeren-teil-4.mp3",
+            "transcript": "Moderatorin: Unser Thema heute: Soll man Bargeld abschaffen? Wir haben nachgefragt.\n\nAussage 18: Ute Brandner\nUte Brandner: Ich bin dagegen, und zwar nicht aus Gewohnheit. Ich führe einen kleinen Kiosk. Bei jeder Kartenzahlung geht ein Teil an den Anbieter, bei kleinen Beträgen ist das richtig viel. Wenn jemand einen Kaugummi mit Karte zahlt, verdiene ich daran praktisch nichts.\n\nAussage 19: Ali Rahimi\nAli Rahimi: Für mich ist die Frage vor allem eine Frage der Kontrolle. Mit Bargeld sieht niemand, was ich kaufe. Sobald alles über Karte läuft, weiß irgendeine Firma genau, wann ich wo war und was ich gegessen habe. Das ist mir unangenehm, auch wenn ich nichts zu verbergen habe.\n\nAussage 20: Christine Ludwig\nChristine Ludwig: Ich zahle seit Jahren fast alles mit dem Handy und finde das großartig. Aber abschaffen? Meine Mutter ist 84 und kommt mit dem Automaten schon kaum zurecht. Solange es Menschen gibt, die das nicht können, muss beides möglich bleiben."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-4-meinungen",
+              "prompt": "Thema: Soll Bargeld abgeschafft werden? Welcher Satz a–f passt zu welcher Aussage? Drei Sätze bleiben übrig.",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Diese Person denkt vor allem an Menschen, die damit nicht umgehen können."
+                },
+                {
+                  "id": "b",
+                  "text": "Diese Person sorgt sich darum, dass ihre Einkäufe nachvollziehbar werden."
+                },
+                {
+                  "id": "c",
+                  "text": "Diese Person verliert als Händlerin bei kleinen Beträgen Geld."
+                },
+                {
+                  "id": "d",
+                  "text": "Diese Person findet Kartenzahlung an der Kasse zu langsam."
+                },
+                {
+                  "id": "e",
+                  "text": "Diese Person schlägt vor, Bargeld nur noch für kleine Summen zu erlauben."
+                },
+                {
+                  "id": "f",
+                  "text": "Diese Person hat schon einmal Geld verloren und ist deshalb vorsichtig."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h4-1",
+                  "prompt": "Aussage 18 – Ute Brandner",
+                  "solution": "c",
+                  "explanation": "„Bei jeder Kartenzahlung geht ein Teil an den Anbieter, bei kleinen Beträgen ist das richtig viel.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h4-2",
+                  "prompt": "Aussage 19 – Ali Rahimi",
+                  "solution": "b",
+                  "explanation": "„… weiß irgendeine Firma genau, wann ich wo war und was ich gegessen habe.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h4-3",
+                  "prompt": "Aussage 20 – Christine Ludwig",
+                  "solution": "a",
+                  "explanation": "„Meine Mutter ist 84 und kommt mit dem Automaten schon kaum zurecht.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 45,
+      "description": "Sie lesen einen Wegweiser, Anzeigen, zwei kürzere Texte, eine Informationsbroschüre und eine E-Mail. Insgesamt bearbeiten Sie 23 Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Wegweiser",
+          "instructions": "Sie sind im Verbraucherzentrum Ihrer Stadt und suchen verschiedene Informationen. Lesen Sie den Wegweiser und die Aufgaben. In welches Stockwerk gehen Sie? Achtung: Manchmal ist keines der beiden genannten Stockwerke richtig – wählen Sie dann „anderes Stockwerk“.",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-wegweiser",
+              "stimuli": [
+                {
+                  "title": "Wegweiser",
+                  "text": "VERBRAUCHERZENTRUM LINDENBERG – WEGWEISER\n\n3. OG\nRechtsberatung\nKaufverträge / Reklamationen / Abmahnungen / Verträge an der Haustür\nVersicherungsberatung\nHaftpflicht / Hausrat / Berufsunfähigkeit / Kündigung von Policen\n\n2. OG\nSchuldnerberatung\nÜberblick über offene Forderungen / Ratenpläne / Privatinsolvenz\nKontoberatung\nBasiskonto / Pfändungsschutz / Wechsel der Bank\n\n1. OG\nEnergie- und Telekommunikation\nStrom- und Gasrechnungen prüfen / Anbieterwechsel / Handy- und Internetverträge\nReise und Freizeit\nÄrger mit Reiseveranstaltern / Fluggastrechte / Fitnessstudio-Verträge\n\nEG\nInformation und Anmeldung\nTermine / Broschüren / kurze Auskünfte ohne Termin\nLebensmittel und Ernährung\nKennzeichnung / Reklamation verdorbener Ware / Beratung zu Preisen"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-1",
+                  "prompt": "Ihre Stromrechnung ist doppelt so hoch wie im Vorjahr und Sie verstehen nicht warum.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Strom- und Gasrechnungen prüft die Energieberatung im 1. OG."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-2",
+                  "prompt": "Sie haben an der Haustür einen Vertrag unterschrieben und möchten ihn rückgängig machen.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "3. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Verträge an der Haustür“ gehören zur Rechtsberatung im 3. OG."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-3",
+                  "prompt": "Sie haben viele Rechnungen offen und wissen nicht mehr weiter.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "3. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Die Schuldnerberatung ist im 2. OG – also ein anderes Stockwerk."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-4",
+                  "prompt": "Ihr Flug wurde gestrichen und die Airline meldet sich nicht.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "EG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Fluggastrechte bearbeitet „Reise und Freizeit“ im 1. OG."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-5",
+                  "prompt": "Sie möchten nur schnell eine Broschüre mitnehmen.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "EG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Broschüren und kurze Auskünfte gibt es an der Information im EG."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Anzeigen",
+          "instructions": "Lesen Sie die sieben Anzeigen und die fünf Situationen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Zwei Anzeigen bleiben übrig.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "heading": "Sozialkaufhaus Lindenberg",
+                  "text": "Möbel, Geschirr, Kleidung und Spielzeug zu kleinen Preisen. Jeder darf einkaufen, mit Berechtigungsschein gibt es zusätzlich 30 Prozent Rabatt.\nMontag bis Freitag 10 bis 17 Uhr. Lieferung innerhalb der Stadt für 20 Euro."
+                },
+                {
+                  "title": "Anzeige b",
+                  "heading": "Kostenlose Budgetberatung",
+                  "text": "Sie wissen am Monatsende nicht, wo Ihr Geld geblieben ist? Wir gehen mit Ihnen gemeinsam Ihre Einnahmen und Ausgaben durch und suchen Einsparmöglichkeiten.\nEinzeltermine, etwa 90 Minuten, kostenlos und vertraulich. Terminvergabe telefonisch."
+                },
+                {
+                  "title": "Anzeige c",
+                  "heading": "Tauschring „Gib und nimm“",
+                  "text": "Statt Geld tauschen wir Zeit: Sie streichen eine Wand, jemand anderes repariert Ihr Fahrrad. Jede Stunde zählt gleich viel, egal welche Tätigkeit.\nMitgliedschaft kostenlos, Treffen jeden zweiten Dienstag um 19 Uhr im Bürgerzentrum."
+                },
+                {
+                  "title": "Anzeige d",
+                  "heading": "Handy-Reparatur Özdemir",
+                  "text": "Displays, Akkus, Ladebuchsen – meist innerhalb von 24 Stunden. Kostenvoranschlag vorab, keine versteckten Kosten.\nSechs Monate Garantie auf alle Reparaturen. Wir kaufen auch alte Geräte an, auch defekte."
+                },
+                {
+                  "title": "Anzeige e",
+                  "heading": "Rechtsschutz zum Nachbarschaftspreis",
+                  "text": "Beratung durch eine Rechtsanwältin für 20 Euro pro halbe Stunde, für Menschen mit geringem Einkommen kostenlos.\nSchwerpunkte: Miete, Arbeit, Verträge. Jeden Donnerstag von 15 bis 19 Uhr, Anmeldung erforderlich."
+                },
+                {
+                  "title": "Anzeige f",
+                  "heading": "Foodsharing-Verteiler am Markt",
+                  "text": "Übrig gebliebene Lebensmittel aus Läden und Bäckereien, kostenlos für alle. Kein Nachweis, keine Anmeldung – nehmen Sie so viel, wie Sie wirklich brauchen.\nTäglich ab 18 Uhr, solange etwas da ist. Bitte eigene Taschen mitbringen."
+                },
+                {
+                  "title": "Anzeige g",
+                  "heading": "Second-Hand-Laden „Zweite Runde“",
+                  "text": "Kinderkleidung, Schuhe und Spielzeug in gutem Zustand. Wir nehmen auch Ihre Sachen und verkaufen sie für Sie – Sie bekommen die Hälfte des Erlöses.\nGeöffnet Dienstag bis Samstag, 10 bis 18 Uhr."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Sozialkaufhaus Lindenberg"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Kostenlose Budgetberatung"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Tauschring „Gib und nimm“"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Handy-Reparatur Özdemir"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Rechtsschutz zum Nachbarschaftspreis"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Foodsharing-Verteiler am Markt"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Second-Hand-Laden „Zweite Runde“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Ihr Handy-Display ist gesprungen und Sie brauchen das Gerät morgen wieder.",
+                  "solution": "d",
+                  "explanation": "Anzeige d: Displays meist innerhalb von 24 Stunden."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Sie kommen mit Ihrem Geld nicht aus und möchten mit jemandem Ihre Ausgaben durchgehen.",
+                  "solution": "b",
+                  "explanation": "Anzeige b: gemeinsam Einnahmen und Ausgaben durchgehen, kostenlos."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Sie haben Streit mit Ihrem Vermieter und verdienen sehr wenig.",
+                  "solution": "e",
+                  "explanation": "Anzeige e: Beratung durch eine Rechtsanwältin, Schwerpunkt Miete, bei geringem Einkommen kostenlos."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Ihre Kinder sind aus ihren Sachen herausgewachsen und Sie möchten sie zu Geld machen.",
+                  "solution": "g",
+                  "explanation": "Anzeige g: „Wir nehmen auch Ihre Sachen und verkaufen sie für Sie.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie können handwerklich viel, haben aber kaum Geld für Reparaturen.",
+                  "solution": "c",
+                  "explanation": "Anzeige c: Zeit statt Geld tauschen, Mitgliedschaft kostenlos."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Pressetexte und formelle Mitteilungen",
+          "instructions": "Lesen Sie die beiden Texte. Entscheiden Sie zu jedem Text, ob die Aussage richtig oder falsch ist, und wählen Sie danach die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-text-1",
+              "stimuli": [
+                {
+                  "title": "Text 1",
+                  "heading": "Immer mehr Läden ohne Kasse",
+                  "text": "In Lindenberg haben in diesem Jahr drei Supermärkte Selbstbedienungskassen eingeführt. In zwei Filialen gibt es inzwischen gar keine besetzte Kasse mehr.\n\nDie Reaktionen sind gemischt. Jüngere Kundinnen und Kunden loben, dass es schneller geht. Ältere berichten dagegen, dass sie sich unsicher fühlen und länger brauchen als vorher.\n\nDie Handelskette betont, dass Personal weiterhin im Laden sei und helfe. Der Sozialverband fordert dennoch, dass in jeder Filiale mindestens eine normale Kasse offen bleibt – gerade für Menschen, die kein Smartphone benutzen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l3-1",
+                  "statement": "In zwei Filialen gibt es keine besetzte Kasse mehr.",
+                  "solution": true,
+                  "explanation": "„In zwei Filialen gibt es inzwischen gar keine besetzte Kasse mehr.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was fordert der Sozialverband?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Mindestens eine normale Kasse pro Filiale."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Mehr Selbstbedienungskassen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Kürzere Öffnungszeiten."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… dass in jeder Filiale mindestens eine normale Kasse offen bleibt.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-text-2",
+              "stimuli": [
+                {
+                  "title": "Text 2",
+                  "heading": "StromDirekt – Information zur Jahresabrechnung",
+                  "text": "Sehr geehrte Kundin, sehr geehrter Kunde,\n\nmit dieser Nachricht erhalten Sie Ihre Jahresabrechnung. Der Betrag wird am 1. des übernächsten Monats von Ihrem Konto abgebucht – Sie haben also gut sechs Wochen Zeit.\n\nSollte der Betrag für Sie zu hoch sein, melden Sie sich bitte vorher bei uns. Eine Ratenzahlung ist in der Regel möglich, wenn Sie sich rechtzeitig melden. Nach der Abbuchung wird es deutlich schwieriger.\n\nIhren neuen monatlichen Abschlag haben wir automatisch angepasst. Sie können ihn jederzeit selbst ändern, solange er nicht offensichtlich zu niedrig ist.\n\nMit freundlichen Grüßen\nStromDirekt"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l3-3",
+                  "statement": "Der Kunde kann den monatlichen Abschlag selbst ändern.",
+                  "solution": true,
+                  "explanation": "„Sie können ihn jederzeit selbst ändern, solange er nicht offensichtlich zu niedrig ist.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Was soll man tun, wenn man nicht zahlen kann?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Abbuchung zurückgehen lassen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sich vor der Abbuchung melden."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Den Vertrag kündigen."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Eine Ratenzahlung ist in der Regel möglich, wenn Sie sich rechtzeitig melden.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-4",
+          "title": "Teil 4 – Informationsbroschüre",
+          "instructions": "Lesen Sie die Informationen zum Widerrufsrecht. Sind die folgenden Aussagen richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-4-broschuere",
+              "stimuli": [
+                {
+                  "title": "Broschüre",
+                  "heading": "ONLINE BESTELLT – IHRE RECHTE",
+                  "text": "Wie lange kann ich zurückgeben?\nBei Bestellungen im Internet haben Sie vierzehn Tage Zeit, den Kauf zu widerrufen. Die Frist beginnt an dem Tag, an dem die Ware bei Ihnen ankommt, nicht am Tag der Bestellung. Einen Grund müssen Sie nicht angeben.\n\nWas ist ausgenommen?\nNicht widerrufen können Sie zum Beispiel Waren, die schnell verderben, sowie Dinge, die eigens für Sie angefertigt wurden. Auch geöffnete Hygieneartikel sind ausgenommen.\n\nWer zahlt die Rücksendung?\nDas darf der Händler festlegen. Steht dazu nichts in den Bedingungen, zahlt er. Prüfen Sie das vor dem Kauf.\n\nWann bekomme ich mein Geld?\nSpätestens vierzehn Tage nachdem der Händler die Ware zurückerhalten hat oder Sie ihm den Versand nachgewiesen haben."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-1",
+                  "statement": "Die Frist beginnt, wenn die Ware ankommt.",
+                  "solution": true,
+                  "explanation": "„Die Frist beginnt an dem Tag, an dem die Ware bei Ihnen ankommt, nicht am Tag der Bestellung.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-2",
+                  "statement": "Man muss immer einen Grund für die Rückgabe nennen.",
+                  "solution": false,
+                  "explanation": "„Einen Grund müssen Sie nicht angeben.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-3",
+                  "statement": "Die Kosten der Rücksendung trägt immer der Händler.",
+                  "solution": false,
+                  "explanation": "„Das darf der Händler festlegen.“ Nur wenn nichts dazu steht, zahlt er."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-5",
+          "title": "Teil 5 – Wörter im Brief ergänzen",
+          "instructions": "Lesen Sie die E-Mail und wählen Sie für jede Lücke das passende Wort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-5-brief",
+              "inlineGaps": true,
+              "stimuli": [
+                {
+                  "title": "E-Mail",
+                  "heading": "E-Mail an einen Online-Shop",
+                  "text": "Sehr ___(1)___ Damen und Herren,\n\nam 4. Oktober habe ich bei Ihnen eine Kaffeemaschine bestellt (Bestellnummer 88-1204). Das Gerät ist pünktlich angekommen, ___(2)___ es funktioniert leider nicht.\n\nSchon beim ersten Mal ist Wasser aus dem Gehäuse ___(3)___. Ich habe die Maschine daraufhin nicht weiter benutzt.\n\nIch möchte den Kauf deshalb widerrufen und bitte Sie, mir den Betrag zu ___(4)___. ___(5)___ Sie ein Rücksendeetikett schicken, gebe ich das Paket sofort bei der Post ab.\n\nÜber eine kurze Rückmeldung wäre ich Ihnen ___(6)___.\n\nMit freundlichen Grüßen\nElif Demir"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-1",
+                  "prompt": "Lücke (1) – Anrede",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "geehrten"
+                    },
+                    {
+                      "id": "b",
+                      "text": "geehrter"
+                    },
+                    {
+                      "id": "c",
+                      "text": "geehrte"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Sehr geehrte Damen und Herren“ – die feste Formel."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-2",
+                  "prompt": "Lücke (2) – Konnektor",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "aber"
+                    },
+                    {
+                      "id": "b",
+                      "text": "weil"
+                    },
+                    {
+                      "id": "c",
+                      "text": "damit"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Zwei Hauptsätze im Gegensatz: pünktlich angekommen – funktioniert nicht."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-3",
+                  "prompt": "Lücke (3) – Partizip",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "abgelaufen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "ausgelaufen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "zugelaufen"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Wasser ist ausgelaufen“; „ablaufen“ bezieht sich auf Fristen."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-4",
+                  "prompt": "Lücke (4) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "erhalten"
+                    },
+                    {
+                      "id": "b",
+                      "text": "ersetzen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "erstatten"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„den Betrag erstatten“ heißt: das Geld zurückzahlen."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-5",
+                  "prompt": "Lücke (5) – Konnektor",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Wenn"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Obwohl"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Bevor"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Eine Bedingung: „Wenn Sie ein Etikett schicken, gebe ich das Paket ab.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-6",
+                  "prompt": "Lücke (6) – Adjektiv",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "danke"
+                    },
+                    {
+                      "id": "b",
+                      "text": "dankbar"
+                    },
+                    {
+                      "id": "c",
+                      "text": "bedankt"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ich wäre Ihnen dankbar“ ist die feste Wendung."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 30,
+      "description": "Sie schreiben eine E-Mail und gehen dabei auf vier Punkte ein. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie eine Musterlösung zum Vergleichen.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "E-Mail schreiben",
+          "instructions": "Sie haben vor drei Wochen im Internet eine Waschmaschine bestellt. Der Liefertermin wurde inzwischen zweimal verschoben, und niemand meldet sich bei Ihnen. Schreiben Sie eine E-Mail an den Kundenservice des Shops. Schreiben Sie mindestens 80 Wörter und gehen Sie auf alle vier Punkte ein.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-email",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Schreiben Sie die E-Mail an den Kundenservice.",
+                  "criteria": [
+                    "Grund: Warum schreiben Sie?",
+                    "Angaben zur Bestellung",
+                    "Welche Probleme dadurch entstehen",
+                    "Was Sie jetzt erwarten"
+                  ],
+                  "hints": [
+                    "Schreiben Sie förmlich: Anrede am Anfang, Gruß am Ende.",
+                    "Begründen Sie, was Sie schreiben – auf B1 reicht Aufzählen nicht.",
+                    "Höfliche Bitten stehen im Konjunktiv II: „könnte ich …“, „ich würde gern …“, „wäre es möglich …“."
+                  ],
+                  "minWords": 80,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Damen und Herren,\n\nich wende mich an Sie, weil meine Bestellung bis heute nicht angekommen ist und ich keine Auskunft erhalte.\n\nEs geht um die Bestellnummer 77-4501: eine Waschmaschine, bestellt am 2. Oktober. Als Liefertermin war zunächst der 9. Oktober angegeben, danach der 16. Oktober. Beide Termine sind ohne eine Nachricht verstrichen.\n\nDas Problem ist für mich nicht nur ärgerlich. Ich habe zwei kleine Kinder und muss seit drei Wochen in den Waschsalon gehen, was mich jede Woche etwa 15 Euro und viel Zeit kostet. Außerdem habe ich für den Liefertag extra freigenommen.\n\nIch bitte Sie deshalb, mir bis Ende dieser Woche einen verbindlichen Liefertermin zu nennen. Sollte das nicht möglich sein, möchte ich den Kauf widerrufen und den vollen Betrag zurückerhalten.\n\nÜber eine schnelle Rückmeldung wäre ich Ihnen dankbar.\n\nMit freundlichen Grüßen\nElif Demir"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sie stellen sich vor, beschreiben ein Bild und planen etwas gemeinsam. Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet; nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie etwa zwei Minuten frei zu den Stichwörtern. Nehmen Sie sich am besten mit dem Handy auf – so hören Sie selbst, wo Sie noch stocken.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Wohnort – Familie – Arbeit oder Ausbildung – Sprachen – Warum lernen Sie Deutsch? – Was möchten Sie in den nächsten Jahren erreichen?",
+                  "hints": [
+                    "Auf B1 reicht eine Liste von Sätzen nicht mehr. Verbinden Sie sie: „… weil …“, „… seit …“, „Zurzeit … , aber später …“.",
+                    "Sprechen Sie auch über Vergangenheit und Zukunft, nicht nur über die Gegenwart.",
+                    "Zum Schluss: Buchstabieren Sie Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Mein Name ist Bekim Krasniqi, ich bin 38 Jahre alt und komme aus dem Kosovo, aus Prizren.\n\nSeit sechs Jahren lebe ich in Wuppertal. Ich bin verheiratet und habe drei Kinder, das jüngste kommt nächstes Jahr in die Schule.\n\nIm Kosovo habe ich als Kellner gearbeitet, später hatte ich ein kleines Café. Hier arbeite ich in der Küche eines Hotels, inzwischen als stellvertretender Küchenchef.\n\nIch spreche Albanisch, Serbisch, etwas Italienisch und Deutsch.\n\nDeutsch lerne ich, weil ich Verantwortung übernehmen möchte. Als Chef muss ich Dienstpläne schreiben und mit Lieferanten telefonieren – dafür reicht Küchendeutsch nicht.\n\nIn den nächsten Jahren möchte ich die Prüfung schaffen und vielleicht wieder ein eigenes Lokal aufmachen. Das ist mein eigentliches Ziel, aber erst müssen die Kinder etwas größer sein.\n\nMein Familienname ist Krasniqi: K – R – A – S – N – I – Q – I."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Ein Bild beschreiben",
+          "instructions": "Thema: Einkaufen und Geld im Alltag. Sehen Sie sich das Bild an. Beschreiben Sie zuerst, was Sie sehen, und sagen Sie danach, wie das bei Ihnen selbst ist. Sprechen Sie etwa drei Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-bild",
+              "stimuli": [
+                {
+                  "title": "Bild",
+                  "image": {
+                    "src": "/bilder/de/b1/uebungstest-b1-06/sprechen-bild.jpg",
+                    "alt": "Eine Supermarktkasse: Eine Kundin legt Waren aufs Band, im Hintergrund warten zwei weitere Personen mit Einkaufswagen. Rechts sind Selbstbedienungskassen zu sehen, an denen jemand allein bezahlt. An der Wand hängt ein Schild mit Angeboten."
+                  },
+                  "text": "Beschreiben Sie, was Sie auf dem Bild sehen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Beschreiben Sie das Bild und sagen Sie, wie und wo Sie selbst einkaufen.",
+                  "hints": [
+                    "Gehen Sie der Reihe nach vor: Wo ist das? Was sieht man? Wer ist zu sehen und was macht die Person?",
+                    "Vermutungen gehören dazu: „Ich vermute, dass …“, „Wahrscheinlich …“, „Es sieht so aus, als ob …“.",
+                    "Zum Schluss der eigene Bezug – begründen Sie mit „einerseits … andererseits …“."
+                  ],
+                  "musterloesung": "Auf dem Bild sehe ich den Kassenbereich in einem Supermarkt. Vorne links legt eine Kundin ihre Waren aufs Band; hinter ihr warten zwei Personen mit vollen Einkaufswagen.\n\nRechts im Bild sind mehrere Selbstbedienungskassen. Dort steht jemand allein und scannt selbst. Es sieht so aus, als ob dort weniger los wäre als an der normalen Kasse.\n\nAn der Wand hängt ein großes Schild mit Angeboten. Ich vermute, es ist später Nachmittag, weil ziemlich viele Leute unterwegs sind – das ist die Zeit, in der die meisten nach der Arbeit einkaufen.\n\nWas mir auffällt: Obwohl die Selbstbedienungskassen frei sind, stellen sich die Leute lieber an der normalen Kasse an. Vielleicht sind sie es nicht gewohnt, vielleicht wollen sie auch einfach nicht selbst arbeiten.\n\nIch selbst kaufe zweimal in der Woche ein, meistens abends nach der Arbeit. Einerseits gehe ich gern in den großen Supermarkt, weil es dort alles gibt und die Preise niedriger sind. Andererseits gehe ich für Obst und Fleisch lieber in kleine Läden im Viertel, weil ich die Leute dort kenne.\n\nAn der Kasse zahle ich fast immer mit Karte. Bargeld habe ich nur für den Bäcker dabei, der nimmt nichts anderes."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Gemeinsam etwas planen",
+          "instructions": "Lesen Sie die Situation. Planen Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner. Machen Sie Vorschläge, reagieren Sie auf die Vorschläge der anderen Person und einigen Sie sich am Ende auf einen Plan.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Ihre Nachbarn im Haus möchten Geld sparen und überlegen, gemeinsam größere Mengen Lebensmittel einzukaufen. Sie und eine Nachbarin sollen das organisieren. Planen Sie das gemeinsame Einkaufen zusammen.",
+                  "hints": [
+                    "Was wollen Sie gemeinsam kaufen und wo?",
+                    "Wie oft und wer fährt?",
+                    "Wie wird abgerechnet?",
+                    "Wo lagern Sie die Sachen, und wie erreichen Sie die anderen?"
+                  ],
+                  "musterloesung": "A: Die Idee mit dem gemeinsamen Einkauf finde ich gut. Aber wir sollten klein anfangen.\n\nB: Sehe ich auch so. Ich würde nur Sachen nehmen, die lange halten: Reis, Mehl, Öl, Waschmittel.\n\nA: Einverstanden. Frisches wäre zu kompliziert, das verdirbt, wenn jemand nicht da ist.\n\nB: Und wo? Im Großmarkt braucht man einen Ausweis.\n\nA: Meine Schwester hat einen, sie könnte für uns mitkommen. Sonst gibt es den Laden im Gewerbegebiet, da ist es auch günstig.\n\nB: Dann lieber der Laden, das ist unabhängiger. Wie oft – einmal im Monat?\n\nA: Einmal im Monat reicht. Und fahren würde ich abwechselnd, ich habe ein Auto, Herr Yilmaz auch.\n\nB: Beim Geld müssen wir vorsichtig sein, sonst gibt es Streit. Ich schlage vor: Jeder bezahlt vorher, wir sammeln das Geld ein und rechnen hinterher genau ab.\n\nA: Gute Idee. Ich schreibe eine Liste, wer was möchte, und rechne die Summe aus.\n\nB: Und der Kassenbon wird aufgehängt, dann kann jeder nachsehen. Das ist mir wichtig.\n\nA: Wo lagern wir das Ganze? Bei mir ist die Wohnung zu klein.\n\nB: Im Trockenkeller ist Platz. Ich frage die Hausverwaltung, ob wir dort ein Regal hinstellen dürfen.\n\nA: Perfekt. Und die anderen? Ich hänge einen Zettel auf und schreibe in die Hausgruppe.\n\nB: Sprich Frau Petrova bitte persönlich an, sie hat kein Smartphone.\n\nA: Mache ich. Also: einmal im Monat, nur haltbare Sachen, Laden im Gewerbegebiet, abwechselnd fahren, vorher zahlen, Bon aushängen, Regal im Keller.\n\nB: Genau so."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

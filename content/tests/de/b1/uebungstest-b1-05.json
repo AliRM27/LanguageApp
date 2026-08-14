@@ -1,0 +1,1140 @@
+{
+  "id": "uebungstest-b1-05",
+  "language": "de",
+  "level": "B1",
+  "title": "Übungstest B1 – Nr. 5",
+  "description": "Ein vollständiger Übungstest auf Niveau B1 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Reisen und Verkehr.",
+  "draft": true,
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 25,
+      "description": "Sie hören Ansagen, kurze Informationen aus dem Radio, Gespräche aus dem Alltag und drei Meinungen zu einem Thema. Insgesamt bearbeiten Sie 20 Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Ansagen und Durchsagen",
+          "instructions": "Sie hören vier Ansagen: am Telefon und an öffentlichen Orten. Wählen Sie zu jeder Ansage die richtige Antwort. Sie hören jede Ansage zweimal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-05/hoeren-teil-1.mp3",
+            "transcript": "Ansage 1\nSehr geehrte Fahrgäste, der ICE 704 nach Hamburg fällt heute aus. Wir bitten Sie, den Regionalexpress um 12 Uhr 40 ab Gleis 5 zu nutzen und in Hannover umzusteigen. Ihre Fahrkarte gilt selbstverständlich weiter.\n\nAnsage 2\nHerr Farid: Guten Tag, Frau Lang, hier ist das Reisebüro Sonnenweg. Ihre Buchung nach Lissabon ist bestätigt. Eine Änderung gibt es beim Rückflug: Er geht jetzt um 6 Uhr 15 statt um 11 Uhr. Sagen Sie mir bitte Bescheid, ob Sie den Transfer zum Flughafen früher brauchen.\n\nAnsage 3\nLiebe Fahrgäste, wegen einer Baustelle fährt die Buslinie 12 bis Ende des Monats einen anderen Weg. Die Haltestellen Schillerplatz und Krankenhaus werden nicht bedient. Nutzen Sie bitte die Ersatzhaltestelle an der Post, etwa fünf Minuten zu Fuß.\n\nAnsage 4\nSprechstundenhilfe: Guten Tag, hier ist die Autovermietung Wenzel. Sie haben für Freitag einen Kombi gebucht. Leider ist dieser noch nicht zurück. Wir stellen Ihnen stattdessen kostenlos einen größeren Wagen zur Verfügung, zum gleichen Preis. Melden Sie sich bitte, falls Sie das nicht möchten."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-ansage-1",
+              "prompt": "Ansage 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-1",
+                  "prompt": "Was sollen die Fahrgäste tun?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Mit dem Regionalexpress fahren und umsteigen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Am Schalter eine neue Fahrkarte kaufen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Auf den nächsten ICE warten."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… den Regionalexpress um 12 Uhr 40 ab Gleis 5 zu nutzen und in Hannover umzusteigen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-2",
+              "prompt": "Ansage 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Was hat sich geändert?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Abflugtag."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Uhrzeit des Rückflugs."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Das Hotel."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Er geht jetzt um 6 Uhr 15 statt um 11 Uhr.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-3",
+              "prompt": "Ansage 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-3",
+                  "prompt": "Was ist am Schillerplatz?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dort ist eine neue Haltestelle."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dort fährt der Bus häufiger."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dort hält der Bus zurzeit nicht."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Die Haltestellen Schillerplatz und Krankenhaus werden nicht bedient.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-4",
+              "prompt": "Ansage 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Was bietet die Firma an?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ein größeres Auto zum gleichen Preis."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Eine Rückzahlung."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Einen späteren Termin."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Wir stellen Ihnen stattdessen kostenlos einen größeren Wagen zur Verfügung, zum gleichen Preis.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Kurze Informationen aus dem Radio",
+          "instructions": "Sie hören fünf kurze Meldungen aus dem Radio. Wählen Sie zu jeder Meldung die richtige Antwort. Sie hören die Meldungen einmal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-05/hoeren-teil-2.mp3",
+            "transcript": "Meldung 1\nModeratorin: Zum Verkehr: Auf der A2 in Richtung Dortmund staut es sich nach einem Unfall auf sechs Kilometern. Die linke Spur ist wieder frei. Wer noch nicht losgefahren ist, sollte etwa eine Stunde später starten.\n\nMeldung 2\nModeratorin: Ein Hinweis für Bahnreisende: Ab Dezember gilt ein neuer Fahrplan. Die meisten Verbindungen bleiben gleich, auf der Strecke nach Köln fährt jedoch stündlich statt alle zwei Stunden ein Zug. Die Fahrzeit verkürzt sich um zehn Minuten.\n\nMeldung 3\nModeratorin: Und noch etwas für Radfahrende: Die neue Radstation am Bahnhof ist eröffnet. Dort können Sie Ihr Rad sicher abstellen, für einen Euro am Tag oder 60 Euro im Jahr. Reparaturen bietet die Station nicht an.\n\nMeldung 4\nModeratorin: Aus dem Rathaus: Ab Januar kostet das Parken in der Innenstadt in der ersten Stunde nichts mehr. Danach steigt der Preis allerdings deutlich an. Die Stadt möchte damit erreichen, dass Parkplätze schneller wieder frei werden.\n\nMeldung 5\nModeratorin: Zum Schluss eine Meldung für Urlaubsreisende: Wer in diesem Sommer fliegt, sollte deutlich mehr Zeit einplanen. An den großen Flughäfen dauert die Kontrolle derzeit im Schnitt vierzig Minuten. Empfohlen werden zweieinhalb Stunden vor Abflug."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-meldung-1",
+              "prompt": "Meldung 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-1",
+                  "prompt": "Was wird empfohlen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Eine andere Strecke zu nehmen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Später loszufahren."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Den Zug zu nehmen."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Wer noch nicht losgefahren ist, sollte etwa eine Stunde später starten.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-2",
+              "prompt": "Meldung 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-2",
+                  "prompt": "Was ändert sich auf der Strecke nach Köln?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Fahrkarten werden teurer."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Es fahren weniger Züge."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Züge fahren öfter."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… fährt jedoch stündlich statt alle zwei Stunden ein Zug.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-3",
+              "prompt": "Meldung 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-3",
+                  "prompt": "Was kann man in der Radstation nicht machen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das Rad reparieren lassen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das Rad abstellen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ein Jahresticket kaufen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Reparaturen bietet die Station nicht an.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-4",
+              "prompt": "Meldung 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-4",
+                  "prompt": "Warum ändert die Stadt die Parkgebühren?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Damit mehr Menschen mit dem Auto kommen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Damit Parkplätze schneller frei werden."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Um mehr Geld einzunehmen."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Die Stadt möchte damit erreichen, dass Parkplätze schneller wieder frei werden.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-5",
+              "prompt": "Meldung 5",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-5",
+                  "prompt": "Was wird Fluggästen empfohlen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nur mit Handgepäck zu reisen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Online einzuchecken."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Zweieinhalb Stunden vorher da zu sein."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Empfohlen werden zweieinhalb Stunden vor Abflug.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Alltägliche Gespräche",
+          "instructions": "Sie hören vier kurze Gespräche. Zu jedem Gespräch gibt es zwei Aufgaben: Entscheiden Sie zuerst, ob die Aussage richtig oder falsch ist, und wählen Sie dann die richtige Antwort. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-05/hoeren-teil-3.mp3",
+            "transcript": "Gespräch 1\nFrau Okoro: Du, ich überlege, mir das Deutschlandticket zu holen. Lohnt sich das?\n\nTobias Reich: Kommt drauf an. Was zahlst du jetzt im Monat?\n\nFrau Okoro: Etwa 70 Euro für die Monatskarte.\n\nTobias Reich: Dann auf jeden Fall. Das Ticket kostet weniger und gilt im ganzen Land, auch im Urlaub.\n\nFrau Okoro: Und wenn ich es mal nicht brauche?\n\nTobias Reich: Du kannst monatlich kündigen, aber immer nur bis zum Zehnten. Danach läuft es einen Monat weiter.\n\nGespräch 2\nHerr Novak: Guten Tag, ich möchte den Führerschein machen. Ich habe einen aus Bosnien.\n\nBeraterin: Dann ist die Frage, wie lange Sie schon hier gemeldet sind.\n\nHerr Novak: Seit acht Monaten.\n\nBeraterin: Gut. In den ersten sechs Monaten dürfen Sie mit dem alten Führerschein fahren, danach nicht mehr. Sie müssen ihn umschreiben lassen.\n\nHerr Novak: Muss ich noch einmal alles machen?\n\nBeraterin: Nein, nur die theoretische und die praktische Prüfung. Die Fahrstunden können Sie sich sparen, wenn Sie sicher fahren.\n\nGespräch 3\nLena: Wie war denn eure Zugfahrt nach München?\n\nHerr Palm: Frag lieber nicht. Zwei Stunden Verspätung.\n\nLena: Habt ihr Geld zurückbekommen?\n\nHerr Palm: Ja, 25 Prozent vom Fahrpreis. Ab einer Stunde stehen einem 25 Prozent zu, ab zwei Stunden die Hälfte.\n\nLena: Und das muss man selbst beantragen?\n\nHerr Palm: Genau, mit einem Formular oder in der App. Von allein macht das niemand.\n\nGespräch 4\nFrau Yilmaz: Wir wollen im Sommer nach Italien fahren, mit dem Auto. Was meinst du?\n\nMarco: Mit den Kindern? Das sind zwölf Stunden.\n\nFrau Yilmaz: Ich weiß. Deshalb überlege ich, in Österreich zu übernachten und es auf zwei Tage aufzuteilen.\n\nMarco: Das würde ich auch machen. Denk aber an die Vignette, sonst wird es teuer.\n\nFrau Yilmaz: Stimmt, die hatte ich vergessen.\n\nMarco: Die gibt es inzwischen digital, du brauchst nur das Kennzeichen. Mach das aber ein paar Tage vorher, sie gilt nicht sofort."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-gespraech-1",
+              "prompt": "Gespräch 1",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-1",
+                  "statement": "Das Deutschlandticket kann man monatlich kündigen.",
+                  "solution": true,
+                  "explanation": "„Du kannst monatlich kündigen, aber immer nur bis zum Zehnten.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Warum rät Tobias zu dem Ticket?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil es überall gilt und billiger ist."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil man damit auch Fernzüge nutzen kann."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil es keine Kündigungsfrist gibt."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Das Ticket kostet weniger und gilt im ganzen Land.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-2",
+              "prompt": "Gespräch 2",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-3",
+                  "statement": "Herr Novak darf im Moment noch mit seinem alten Führerschein fahren.",
+                  "solution": false,
+                  "explanation": "Er ist seit acht Monaten gemeldet – erlaubt sind nur die ersten sechs Monate."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Was muss Herr Novak machen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Eine komplette Fahrschule besuchen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Nur die beiden Prüfungen ablegen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Gar nichts, der Führerschein gilt weiter."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Nein, nur die theoretische und die praktische Prüfung.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-3",
+              "prompt": "Gespräch 3",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-5",
+                  "statement": "Man bekommt das Geld automatisch zurück.",
+                  "solution": false,
+                  "explanation": "„Genau, mit einem Formular oder in der App. Von allein macht das niemand.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-6",
+                  "prompt": "Wie viel bekommt man ab einer Stunde Verspätung?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "50 Prozent."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Den ganzen Fahrpreis."
+                    },
+                    {
+                      "id": "c",
+                      "text": "25 Prozent."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ab einer Stunde stehen einem 25 Prozent zu, ab zwei Stunden die Hälfte.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-4",
+              "prompt": "Gespräch 4",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-7",
+                  "statement": "Frau Yilmaz möchte die Fahrt auf zwei Tage aufteilen.",
+                  "solution": true,
+                  "explanation": "„… in Österreich zu übernachten und es auf zwei Tage aufzuteilen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-8",
+                  "prompt": "Was rät Marco zur Vignette?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie einige Tage vorher digital zu kaufen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie an der Grenze zu kaufen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Auf sie zu verzichten."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Mach das aber ein paar Tage vorher, sie gilt nicht sofort.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-4",
+          "title": "Teil 4 – Meinungen zu einem Thema",
+          "instructions": "Sie hören drei Aussagen zum selben Thema. Welcher Satz a–f passt zu welcher Aussage? Es bleiben drei Sätze übrig. Sie hören die Aussagen zweimal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-05/hoeren-teil-4.mp3",
+            "transcript": "Moderatorin: Unser Thema heute: Soll der Nahverkehr für alle kostenlos sein? Wir haben nachgefragt.\n\nAussage 18: Katrin Vogel\nKatrin Vogel: Kostenlos klingt gut, aber ich frage mich, was das bringt. Bei uns auf dem Dorf fährt der Bus dreimal am Tag. Ob der nun nichts kostet oder zwei Euro, ist mir ehrlich gesagt egal – ich komme so oder so nicht zur Arbeit. Erst müsste öfter etwas fahren.\n\nAussage 19: Mehmet Aydın\nMehmet Aydın: Ich bin dafür, und zwar aus einem einfachen Grund: Ich fahre jeden Tag mit meiner Familie, das sind über 200 Euro im Monat. Für uns wäre das eine echte Entlastung. Und ich glaube, viele würden das Auto stehen lassen, wenn es nichts kostet.\n\nAussage 20: Sabine Krause\nSabine Krause: Ich habe lange in Wien gelebt, da kostet das Jahresticket 365 Euro, also einen Euro am Tag. Das war für mich der richtige Weg: günstig genug, dass es niemanden abschreckt, aber nicht umsonst. Was nichts kostet, wird oft auch nicht gepflegt."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-4-meinungen",
+              "prompt": "Thema: Soll Bus und Bahn kostenlos sein? Welcher Satz a–f passt zu welcher Aussage? Drei Sätze bleiben übrig.",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Diese Person findet, dass zuerst mehr Busse fahren müssten."
+                },
+                {
+                  "id": "b",
+                  "text": "Diese Person hält einen sehr niedrigen Preis für besser als gar keinen."
+                },
+                {
+                  "id": "c",
+                  "text": "Diese Person würde als Familie viel Geld sparen."
+                },
+                {
+                  "id": "d",
+                  "text": "Diese Person meint, die Bahn sei zu unpünktlich."
+                },
+                {
+                  "id": "e",
+                  "text": "Diese Person schlägt vor, nur Kinder kostenlos fahren zu lassen."
+                },
+                {
+                  "id": "f",
+                  "text": "Diese Person glaubt, dass die Städte das nicht bezahlen können."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h4-1",
+                  "prompt": "Aussage 18 – Katrin Vogel",
+                  "solution": "a",
+                  "explanation": "„Bei uns auf dem Dorf fährt der Bus dreimal am Tag … Erst müsste öfter etwas fahren.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h4-2",
+                  "prompt": "Aussage 19 – Mehmet Aydın",
+                  "solution": "c",
+                  "explanation": "„Ich fahre jeden Tag mit meiner Familie, das sind über 200 Euro im Monat.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h4-3",
+                  "prompt": "Aussage 20 – Sabine Krause",
+                  "solution": "b",
+                  "explanation": "„… günstig genug, dass es niemanden abschreckt, aber nicht umsonst.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 45,
+      "description": "Sie lesen einen Wegweiser, Anzeigen, zwei kürzere Texte, eine Informationsbroschüre und eine E-Mail. Insgesamt bearbeiten Sie 23 Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Wegweiser",
+          "instructions": "Sie sind im Reisezentrum am Hauptbahnhof und suchen verschiedene Informationen. Lesen Sie den Wegweiser und die Aufgaben. In welches Stockwerk gehen Sie? Achtung: Manchmal ist keines der beiden genannten Stockwerke richtig – wählen Sie dann „anderes Stockwerk“.",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-wegweiser",
+              "stimuli": [
+                {
+                  "title": "Wegweiser",
+                  "text": "HAUPTBAHNHOF LINDENBERG – WEGWEISER\n\n2. OG\nVerwaltung und Fundbüro\nVerlorene Gegenstände / Beschwerden / Erstattungsanträge bei Verspätung\n\n1. OG\nReisezentrum\nFahrkarten für Fern- und Nahverkehr / Sitzplatzreservierung / Beratung zu Sparpreisen\nMobilitätsservice\nHilfe beim Ein- und Aussteigen / Begleitung für Menschen mit Behinderung / Anmeldung bis 20 Uhr am Vortag\n\nEG\nGleise 1 bis 8\nZugang über die Halle / Aufzüge an jedem Gleis\nSchließfächer und Gepäck\nGepäckaufbewahrung / Schließfächer / Fahrradmitnahme anmelden\nBäckerei und Kiosk\nGetränke / Zeitungen / Deutschlandticket am Automaten\n\nUG\nRadstation\nSicheres Abstellen von Fahrrädern / Tages- und Jahreskarten / Luftpumpe\nToiletten und Duschen\nGebühr 1 Euro / Wickelraum"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-1",
+                  "prompt": "Sie haben im Zug Ihren Schal liegen lassen.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Verlorene Gegenstände bearbeitet das Fundbüro im 2. OG."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-2",
+                  "prompt": "Ihre Mutter sitzt im Rollstuhl und braucht Hilfe beim Einsteigen.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "EG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Der Mobilitätsservice im 1. OG hilft beim Ein- und Aussteigen."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-3",
+                  "prompt": "Sie möchten Ihr Fahrrad über Nacht sicher abstellen.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "EG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Die Radstation ist im UG – also ein anderes Stockwerk."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-4",
+                  "prompt": "Sie wollen Ihren Koffer für ein paar Stunden abgeben.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "UG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "EG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Gepäckaufbewahrung und Schließfächer sind im EG."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-5",
+                  "prompt": "Sie möchten eine Fahrkarte nach Berlin kaufen und einen Sitzplatz reservieren.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "EG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Fahrkarten und Reservierungen gibt es im Reisezentrum im 1. OG."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Anzeigen",
+          "instructions": "Lesen Sie die sieben Anzeigen und die fünf Situationen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Zwei Anzeigen bleiben übrig.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "heading": "Mitfahrzentrale Lindenberg",
+                  "text": "Täglich Fahrten in alle größeren Städte, Vermittlung über unsere Internetseite. Sie zahlen nur einen Anteil an den Spritkosten, meist zwischen 10 und 25 Euro.\nAnmeldung mit Ausweis, damit alle wissen, mit wem sie fahren. Auch kurzfristig am selben Tag möglich."
+                },
+                {
+                  "title": "Anzeige b",
+                  "heading": "Fahrschule Meier – Intensivkurs",
+                  "text": "In vier Wochen zum Führerschein: Theorie täglich von 17 bis 20 Uhr, Fahrstunden nach Absprache auch am Wochenende.\nTheorieunterricht auf Deutsch, Russisch und Arabisch. Prüfungsgebühren nicht im Preis enthalten."
+                },
+                {
+                  "title": "Anzeige c",
+                  "heading": "Reisebüro Sonnenweg",
+                  "text": "Wir buchen Flüge, Hotels und Bahnreisen – und wir sind da, wenn etwas schiefgeht. Beratung auf Türkisch und Polnisch.\nBesonders für Familien: Wir suchen Verbindungen mit wenig Umsteigen. Termine auch samstags."
+                },
+                {
+                  "title": "Anzeige d",
+                  "heading": "Wohnmobil zu vermieten",
+                  "text": "Vier Schlafplätze, Küche, Dusche. Ab 90 Euro pro Tag in der Nebensaison, mindestens fünf Tage.\nFührerschein Klasse B genügt. Bettwäsche und Campingstühle sind inklusive, Endreinigung kostet 70 Euro extra."
+                },
+                {
+                  "title": "Anzeige e",
+                  "heading": "Fahrrad-Werkstatt am Bahnhof",
+                  "text": "Reparaturen meist am selben Tag, auch ohne Termin. Wir haben gebrauchte Räder ab 120 Euro, alle geprüft und mit sechs Monaten Garantie.\nGeöffnet Montag bis Freitag 9 bis 18 Uhr, samstags bis 13 Uhr."
+                },
+                {
+                  "title": "Anzeige f",
+                  "heading": "Begleitung für Bahnreisen",
+                  "text": "Ehrenamtliche begleiten ältere Menschen und Menschen mit Behinderung bei Fahrten innerhalb des Bundeslandes.\nKostenlos, Anmeldung mindestens eine Woche vorher. Wir helfen beim Koffer, beim Umsteigen und beim Finden des Sitzplatzes."
+                },
+                {
+                  "title": "Anzeige g",
+                  "heading": "Sprachreisen für Erwachsene",
+                  "text": "Zwei Wochen Deutschkurs am Bodensee, vormittags Unterricht, nachmittags Ausflüge. Unterkunft in Gastfamilien.\nAb 890 Euro inklusive Halbpension. Voraussetzung ist Niveau A2, geeignet für alle ab 18 Jahren."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Mitfahrzentrale Lindenberg"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Fahrschule Meier – Intensivkurs"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Reisebüro Sonnenweg"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Wohnmobil zu vermieten"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Fahrrad-Werkstatt am Bahnhof"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Begleitung für Bahnreisen"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Sprachreisen für Erwachsene"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Ihr Vater ist 80 und möchte allein mit dem Zug zu seiner Schwester fahren, traut sich aber nicht.",
+                  "solution": "f",
+                  "explanation": "Anzeige f: ehrenamtliche Begleitung für ältere Menschen, kostenlos, innerhalb des Bundeslandes."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Sie brauchen schnell und günstig ein zuverlässiges Fahrrad.",
+                  "solution": "e",
+                  "explanation": "Anzeige e: gebrauchte Räder ab 120 Euro, geprüft, mit sechs Monaten Garantie."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Sie müssen morgen nach Hamburg und haben wenig Geld.",
+                  "solution": "a",
+                  "explanation": "Anzeige a: Mitfahrten meist 10 bis 25 Euro, auch kurzfristig am selben Tag."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie möchten den Führerschein machen, verstehen im Unterricht aber noch nicht alles auf Deutsch.",
+                  "solution": "b",
+                  "explanation": "Anzeige b: Theorieunterricht auch auf Russisch und Arabisch."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie wollen mit Ihrer Familie in den Urlaub fahren und möglichst selten umsteigen.",
+                  "solution": "c",
+                  "explanation": "Anzeige c: „Besonders für Familien: Wir suchen Verbindungen mit wenig Umsteigen.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Pressetexte und formelle Mitteilungen",
+          "instructions": "Lesen Sie die beiden Texte. Entscheiden Sie zu jedem Text, ob die Aussage richtig oder falsch ist, und wählen Sie danach die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-text-1",
+              "stimuli": [
+                {
+                  "title": "Text 1",
+                  "heading": "Nachtbus fährt ab Herbst auch unter der Woche",
+                  "text": "Bisher fuhr der Nachtbus nur am Wochenende. Ab Oktober gibt es ihn auch von Montag bis Donnerstag, allerdings nur bis ein Uhr statt bis drei Uhr.\n\nGefordert hatten das vor allem Beschäftigte aus Krankenhäusern und aus der Gastronomie, die nach der Spätschicht bisher auf ein Taxi angewiesen waren. Die Stadt rechnet mit Kosten von 400.000 Euro im Jahr.\n\nOb das Angebot bleibt, entscheidet sich nach einem Jahr. Die Verwaltung hat angekündigt, die Fahrgastzahlen monatlich zu veröffentlichen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l3-1",
+                  "statement": "Der Nachtbus fährt unter der Woche kürzer als am Wochenende.",
+                  "solution": true,
+                  "explanation": "„… allerdings nur bis ein Uhr statt bis drei Uhr.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Wer hatte den Nachtbus gefordert?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Beschäftigte mit Spätschicht."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Schülerinnen und Schüler."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Taxiunternehmen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Gefordert hatten das vor allem Beschäftigte aus Krankenhäusern und aus der Gastronomie.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-text-2",
+              "stimuli": [
+                {
+                  "title": "Text 2",
+                  "heading": "Verkehrsbetriebe Lindenberg – Information für Abo-Kundinnen und -Kunden",
+                  "text": "Sehr geehrte Fahrgäste,\n\nab dem 1. Februar stellen wir alle Abonnements auf das digitale Ticket in der App um. Ihre bisherige Plastikkarte verliert damit ihre Gültigkeit.\n\nWenn Sie kein Smartphone besitzen, können Sie weiterhin eine Chipkarte erhalten. Bitte teilen Sie uns das bis zum 15. Januar mit, sonst wird Ihr Abo automatisch auf die App umgestellt.\n\nDie Preise ändern sich nicht. Bei Kontrollen genügt künftig das Vorzeigen des Tickets auf dem Bildschirm; ein Ausweis ist zusätzlich mitzuführen.\n\nMit freundlichen Grüßen\nVerkehrsbetriebe Lindenberg"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l3-3",
+                  "statement": "Wer kein Smartphone hat, kann eine Chipkarte bekommen.",
+                  "solution": true,
+                  "explanation": "„Wenn Sie kein Smartphone besitzen, können Sie weiterhin eine Chipkarte erhalten.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Was passiert, wenn man sich nicht bis zum 15. Januar meldet?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das Abo endet."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das Abo wird auf die App umgestellt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Man bekommt automatisch eine Chipkarte."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… sonst wird Ihr Abo automatisch auf die App umgestellt.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-4",
+          "title": "Teil 4 – Informationsbroschüre",
+          "instructions": "Lesen Sie die Informationen zum Deutschlandticket. Sind die folgenden Aussagen richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-4-broschuere",
+              "stimuli": [
+                {
+                  "title": "Broschüre",
+                  "heading": "DAS DEUTSCHLANDTICKET – HÄUFIGE FRAGEN",
+                  "text": "Wo gilt es?\nIn allen Bussen, Straßenbahnen, U- und S-Bahnen sowie in Regionalzügen – in ganz Deutschland, nicht nur in Ihrer Stadt. Nicht gültig ist es in Fernzügen wie ICE, IC und EC.\n\nWie bekomme ich es?\nAusschließlich als Abonnement, entweder digital in der App oder als Chipkarte. Eine Papierfahrkarte gibt es nicht.\n\nKann ich jemanden mitnehmen?\nKinder unter sechs Jahren fahren immer kostenlos mit. Für ältere Kinder, weitere Personen, Hunde und Fahrräder brauchen Sie ein zusätzliches Ticket.\n\nWie kündige ich?\nDas Abo läuft monatlich weiter, bis Sie kündigen. Die Kündigung muss bis zum 10. eines Monats bei uns sein, dann endet das Abo am Monatsende."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-1",
+                  "statement": "Mit dem Ticket kann man auch mit dem ICE fahren.",
+                  "solution": false,
+                  "explanation": "„Nicht gültig ist es in Fernzügen wie ICE, IC und EC.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-2",
+                  "statement": "Ein Fahrrad darf man ohne Extra-Ticket mitnehmen.",
+                  "solution": false,
+                  "explanation": "„Für … Hunde und Fahrräder brauchen Sie ein zusätzliches Ticket.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-3",
+                  "statement": "Man muss bis zum 10. eines Monats kündigen.",
+                  "solution": true,
+                  "explanation": "„Die Kündigung muss bis zum 10. eines Monats bei uns sein.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-5",
+          "title": "Teil 5 – Wörter im Brief ergänzen",
+          "instructions": "Lesen Sie die E-Mail und wählen Sie für jede Lücke das passende Wort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-5-brief",
+              "inlineGaps": true,
+              "stimuli": [
+                {
+                  "title": "E-Mail",
+                  "heading": "E-Mail an die Verkehrsbetriebe",
+                  "text": "Sehr ___(1)___ Damen und Herren,\n\nam 12. März bin ich mit der Linie 3 vom Hauptbahnhof zur Universität gefahren. Die Bahn hatte 40 Minuten Verspätung, ___(2)___ ich meine Prüfung verpasst habe.\n\nIch musste dann ein Taxi nehmen und habe dafür 18 Euro ___(3)___. Die Quittung liegt dieser E-Mail bei.\n\nIch möchte Sie fragen, ob Sie mir diese Kosten ___(4)___ können. ___(5)___ ich Ihnen weitere Angaben machen soll, melde ich mich gern noch einmal.\n\nÜber eine kurze Antwort wäre ich Ihnen ___(6)___.\n\nMit freundlichen Grüßen\nSofia Marin"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-1",
+                  "prompt": "Lücke (1) – Anrede",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "geehrten"
+                    },
+                    {
+                      "id": "b",
+                      "text": "geehrter"
+                    },
+                    {
+                      "id": "c",
+                      "text": "geehrte"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Sehr geehrte Damen und Herren“ – die feste Formel."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-2",
+                  "prompt": "Lücke (2) – Konnektor",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "sodass"
+                    },
+                    {
+                      "id": "b",
+                      "text": "obwohl"
+                    },
+                    {
+                      "id": "c",
+                      "text": "damit"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Die Verspätung ist die Ursache, das Verpassen die Folge: „sodass“."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-3",
+                  "prompt": "Lücke (3) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "gezahlt"
+                    },
+                    {
+                      "id": "b",
+                      "text": "bezahlt"
+                    },
+                    {
+                      "id": "c",
+                      "text": "gezählt"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„18 Euro bezahlen“ – „zahlen“ ohne Objekt, „zählen“ heißt etwas ganz anderes."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-4",
+                  "prompt": "Lücke (4) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "erhalten"
+                    },
+                    {
+                      "id": "b",
+                      "text": "erlauben"
+                    },
+                    {
+                      "id": "c",
+                      "text": "erstatten"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Kosten erstatten“ heißt: das Geld zurückgeben."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-5",
+                  "prompt": "Lücke (5) – Konnektor",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Falls"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nachdem"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Es ist eine Bedingung: „Falls ich weitere Angaben machen soll …“."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-6",
+                  "prompt": "Lücke (6) – Adjektiv",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "danke"
+                    },
+                    {
+                      "id": "b",
+                      "text": "dankbar"
+                    },
+                    {
+                      "id": "c",
+                      "text": "bedankt"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ich wäre Ihnen dankbar“ ist die feste Wendung."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 30,
+      "description": "Sie schreiben eine E-Mail und gehen dabei auf vier Punkte ein. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie eine Musterlösung zum Vergleichen.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "E-Mail schreiben",
+          "instructions": "Sie haben eine Bahnfahrt gebucht, die Sie wegen einer Erkrankung Ihres Kindes nicht antreten konnten. Die Fahrkarte war ein günstiger Sparpreis. Schreiben Sie eine E-Mail an den Kundenservice der Bahn. Schreiben Sie mindestens 80 Wörter und gehen Sie auf alle vier Punkte ein.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-email",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Schreiben Sie die E-Mail an den Kundenservice.",
+                  "criteria": [
+                    "Grund: Warum schreiben Sie?",
+                    "Angaben zur Buchung",
+                    "Warum Sie nicht fahren konnten",
+                    "Was Sie sich wünschen"
+                  ],
+                  "hints": [
+                    "Schreiben Sie förmlich: Anrede am Anfang, Gruß am Ende.",
+                    "Begründen Sie, was Sie schreiben – auf B1 reicht Aufzählen nicht.",
+                    "Höfliche Bitten stehen im Konjunktiv II: „könnte ich …“, „ich würde gern …“, „wäre es möglich …“."
+                  ],
+                  "minWords": 80,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Damen und Herren,\n\nich wende mich an Sie, weil ich eine gebuchte Fahrt nicht antreten konnte und um eine Lösung bitten möchte.\n\nEs geht um die Buchungsnummer XZ4-9182: eine Fahrt von Lindenberg nach Berlin am 8. April um 7 Uhr 12, gebucht als Sparpreis für zwei Personen.\n\nAm Abend vorher ist meine Tochter krank geworden und hatte hohes Fieber. Ich konnte sie unmöglich allein lassen und musste die Reise deshalb kurzfristig absagen. Eine Bescheinigung der Kinderärztin kann ich Ihnen selbstverständlich schicken.\n\nMir ist bewusst, dass Sparpreise normalerweise nicht erstattet werden. Trotzdem möchte ich fragen, ob in einem solchen Fall eine Ausnahme möglich wäre. Über einen Gutschein für eine spätere Fahrt würde ich mich ebenfalls freuen.\n\nÜber eine kurze Rückmeldung wäre ich Ihnen dankbar.\n\nMit freundlichen Grüßen\nSofia Marin"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sie stellen sich vor, beschreiben ein Bild und planen etwas gemeinsam. Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet; nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie etwa zwei Minuten frei zu den Stichwörtern. Nehmen Sie sich am besten mit dem Handy auf – so hören Sie selbst, wo Sie noch stocken.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Wohnort – Familie – Arbeit oder Ausbildung – Sprachen – Warum lernen Sie Deutsch? – Was möchten Sie in den nächsten Jahren erreichen?",
+                  "hints": [
+                    "Auf B1 reicht eine Liste von Sätzen nicht mehr. Verbinden Sie sie: „… weil …“, „… seit …“, „Zurzeit … , aber später …“.",
+                    "Sprechen Sie auch über Vergangenheit und Zukunft, nicht nur über die Gegenwart.",
+                    "Zum Schluss: Buchstabieren Sie Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Mein Name ist Nasrin Hosseini, ich bin 27 Jahre alt und komme aus dem Iran, aus Isfahan.\n\nSeit vier Jahren lebe ich in Duisburg. Ich wohne mit meinem Bruder zusammen, unsere Eltern sind noch im Iran.\n\nIm Iran habe ich angefangen, Architektur zu studieren, konnte das Studium aber nicht beenden. Hier arbeite ich in einem Büro und mache nebenbei den Deutschkurs.\n\nIch spreche Persisch, Englisch und Deutsch.\n\nDeutsch lerne ich, weil ich mein Studium hier zu Ende bringen möchte. Für die Universität brauche ich mindestens C1, das ist noch ein weiter Weg.\n\nIn den nächsten Jahren möchte ich zuerst B2 schaffen und mich dann an einer Hochschule bewerben. Außerdem möchte ich endlich den Führerschein machen – ich fahre im Moment überall mit dem Rad hin, auch im Winter.\n\nMein Familienname ist Hosseini: H – O – S – S – E – I – N – I."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Ein Bild beschreiben",
+          "instructions": "Thema: Unterwegs im Alltag. Sehen Sie sich das Bild an. Beschreiben Sie zuerst, was Sie sehen, und sagen Sie danach, wie das bei Ihnen selbst ist. Sprechen Sie etwa drei Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-bild",
+              "stimuli": [
+                {
+                  "title": "Bild",
+                  "image": {
+                    "src": "/bilder/de/b1/uebungstest-b1-05/sprechen-bild.jpg",
+                    "alt": "Ein Bahnsteig am Morgen: Menschen mit Rucksäcken und Taschen warten auf einen einfahrenden Zug. Eine Frau schaut auf die Anzeigetafel, ein Mann hält einen Kaffeebecher und ein Handy. Am Rand steht ein Fahrrad, im Hintergrund ist ein Aufzug zu sehen."
+                  },
+                  "text": "Beschreiben Sie, was Sie auf dem Bild sehen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Beschreiben Sie das Bild und sagen Sie, wie Sie selbst zur Arbeit oder zum Kurs kommen.",
+                  "hints": [
+                    "Gehen Sie der Reihe nach vor: Wo ist das? Was sieht man? Wer ist zu sehen und was macht die Person?",
+                    "Vermutungen gehören dazu: „Ich vermute, dass …“, „Wahrscheinlich …“, „Es sieht so aus, als ob …“.",
+                    "Zum Schluss der eigene Bezug – begründen Sie mit „einerseits … andererseits …“."
+                  ],
+                  "musterloesung": "Auf dem Bild sehe ich einen Bahnsteig, wahrscheinlich am frühen Morgen, weil die meisten Leute Rucksäcke oder Aktentaschen dabeihaben und offenbar zur Arbeit fahren.\n\nEin Zug fährt gerade ein. Mehrere Personen stehen an der Kante und warten. Eine Frau links schaut nach oben auf die Anzeigetafel – vielleicht ist sie unsicher, ob es der richtige Zug ist. Ein Mann hält in der einen Hand einen Kaffeebecher und in der anderen sein Handy.\n\nAm Rand steht ein Fahrrad, im Hintergrund erkenne ich einen Aufzug. Die Stimmung wirkt ruhig, aber alle sind auf ihr Ziel konzentriert; niemand unterhält sich.\n\nEs sieht kühl aus, denn viele tragen Jacken. Ich vermute, dass das Foto im Herbst oder im Frühling entstanden ist.\n\nIch selbst fahre jeden Tag mit dem Fahrrad zum Kurs, etwa zwanzig Minuten. Einerseits spare ich damit Geld und bin unabhängig von Verspätungen, andererseits ist es im Winter bei Regen wirklich unangenehm.\n\nAn schlechten Tagen nehme ich den Bus. Was mich daran stört, ist weniger der Preis als die Unsicherheit: Wenn der Bus ausfällt, komme ich zu spät, und darauf habe ich keinen Einfluss. Mit dem Rad weiß ich immer genau, wann ich ankomme."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Gemeinsam etwas planen",
+          "instructions": "Lesen Sie die Situation. Planen Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner. Machen Sie Vorschläge, reagieren Sie auf die Vorschläge der anderen Person und einigen Sie sich am Ende auf einen Plan.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Ihr Deutschkurs möchte am Ende des Semesters einen gemeinsamen Tagesausflug machen. Sie und eine Kursteilnehmerin organisieren ihn. Planen Sie den Ausflug zusammen.",
+                  "hints": [
+                    "Wohin soll es gehen und wann?",
+                    "Wie fahren Sie hin?",
+                    "Was kostet der Ausflug, und wie wird bezahlt?",
+                    "Was machen Sie vor Ort, und wer plant was?"
+                  ],
+                  "musterloesung": "A: Der Kurs endet in vier Wochen. Wollen wir vorher noch einen Ausflug machen?\n\nB: Unbedingt. Hast du schon eine Idee, wohin?\n\nA: Ich hätte Köln vorgeschlagen. Dom, Altstadt, und man kann gut laufen.\n\nB: Köln ist schön, aber teuer. Mit achtzehn Leuten kostet allein die Fahrt ein Vermögen.\n\nA: Nicht unbedingt. Viele haben doch das Deutschlandticket, dann fahren die umsonst.\n\nB: Stimmt, daran hatte ich nicht gedacht. Für die anderen könnten wir ein Gruppenticket kaufen, das ist deutlich billiger als einzeln.\n\nA: Machen wir. Wann? Ein Samstag wäre gut, dann muss niemand Urlaub nehmen.\n\nB: Der letzte Samstag im Monat passt mir. Wir sollten früh los, so um neun, sonst haben wir nichts vom Tag.\n\nA: Und vor Ort? Eine Führung wäre schön, aber auf Deutsch verstehen manche noch nicht genug.\n\nB: Dann lieber selbst laufen und in kleinen Gruppen. Wir treffen uns zwischendurch am Dom, sagen wir um eins, damit sich niemand verliert.\n\nA: Gute Idee. Essen würde ich jedem selbst überlassen, dann kann jeder nach seinem Geldbeutel entscheiden.\n\nB: Einverstanden. Ich frage nächste Woche im Kurs, wer mitkommt, und sammle das Geld für die Gruppenkarte.\n\nA: Und ich kümmere mich um die Verbindung und schreibe die Uhrzeiten auf einen Zettel für alle.\n\nB: Also: letzter Samstag, neun Uhr ab Hauptbahnhof, Gruppenticket für die ohne Deutschlandticket, Treffen um eins am Dom, Essen zahlt jeder selbst.\n\nA: Perfekt."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -101,18 +101,41 @@ for (const file of walk("src", (n) => n.endsWith(".tsx"))) {
 
 /* -------------------------------- 4. Audio -------------------------------- */
 
+/**
+ * A draft is a test still being written. Its audio and images are allowed to
+ * be missing, because they usually are — the content gets reviewed first and
+ * recorded afterwards. Drafts are also left out of the production build, so
+ * nothing incomplete can reach a learner either way.
+ */
 let audioReferenced = 0;
 let audioMissing = 0;
+let imagesMissing = 0;
+const drafts = [];
+
 for (const file of walk("content/tests", (n) => n.endsWith(".json"))) {
   const test = JSON.parse(read(file));
+  const report = test.draft ? warn : fail;
+  if (test.draft) drafts.push(test.id);
+
   for (const section of test.sections ?? []) {
     for (const part of section.parts ?? []) {
       const src = part.audio?.src;
-      if (!src) continue;
-      audioReferenced++;
-      if (!exists(path.join("public", src))) {
-        audioMissing++;
-        fail("Audio file missing", `${test.id} · ${part.id} -> public${src}`);
+      if (src) {
+        audioReferenced++;
+        if (!exists(path.join("public", src))) {
+          audioMissing++;
+          report("Audio file missing", `${test.id} · ${part.id} -> public${src}`);
+        }
+      }
+      for (const block of part.blocks ?? []) {
+        for (const stimulus of block.stimuli ?? []) {
+          const image = stimulus.image?.src;
+          if (!image) continue;
+          if (!exists(path.join("public", image))) {
+            imagesMissing++;
+            report("Image missing", `${test.id} · ${part.id} -> public${image}`);
+          }
+        }
       }
     }
   }
@@ -177,6 +200,10 @@ const line = (i, { what, detail }) => `  ${i}. ${what}\n     ${detail}`;
 console.log("");
 console.log(`Routes found:      ${routes.size}`);
 console.log(`Audio referenced:  ${audioReferenced} (${audioMissing} missing)`);
+if (imagesMissing) console.log(`Images missing:    ${imagesMissing}`);
+if (drafts.length) {
+  console.log(`Drafts (not published): ${drafts.join(", ")}`);
+}
 console.log("");
 
 if (warnings.length) {

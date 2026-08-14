@@ -1,0 +1,1140 @@
+{
+  "id": "uebungstest-b1-04",
+  "language": "de",
+  "level": "B1",
+  "title": "Übungstest B1 – Nr. 4",
+  "description": "Ein vollständiger Übungstest auf Niveau B1 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Wohnen und Nachbarschaft.",
+  "draft": true,
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 25,
+      "description": "Sie hören Ansagen, kurze Informationen aus dem Radio, Gespräche aus dem Alltag und drei Meinungen zu einem Thema. Insgesamt bearbeiten Sie 20 Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Ansagen und Durchsagen",
+          "instructions": "Sie hören vier Ansagen: am Telefon und an öffentlichen Orten. Wählen Sie zu jeder Ansage die richtige Antwort. Sie hören jede Ansage zweimal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-04/hoeren-teil-1.mp3",
+            "transcript": "Ansage 1\nSehr geehrte Mieterinnen und Mieter, am Donnerstag wird zwischen 8 und 14 Uhr das Wasser abgestellt. Grund ist ein Rohrbruch im Keller. Bitte lassen Sie an diesem Tag keine Waschmaschine laufen. Ab dem Nachmittag ist wieder alles normal.\n\nAnsage 2\nHerr Palm: Guten Tag, Frau Ivanova, hier ist die Hausverwaltung Kern. Ihr Antrag auf einen zweiten Kellerraum ist angekommen. Frei ist zurzeit leider keiner, aber ich habe Sie auf die Warteliste gesetzt. Erfahrungsgemäß dauert es etwa ein halbes Jahr.\n\nAnsage 3\nLiebe Nachbarinnen und Nachbarn, am Samstag stellen wir die Container für den Sperrmüll in den Hof. Bitte stellen Sie nur Möbel und Holz hinein, keine Elektrogeräte und keine Farben. Diese müssen Sie weiterhin selbst zum Recyclinghof bringen.\n\nAnsage 4\nSprechstundenhilfe: Guten Tag, hier ist das Bürgeramt Lindenberg. Sie hatten einen Termin zur Ummeldung am Montag um 9 Uhr. Wir müssen den Termin leider absagen, unser System wird an dem Tag umgestellt. Buchen Sie bitte online einen neuen Termin, die Frist verlängert sich für Sie automatisch."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-ansage-1",
+              "prompt": "Ansage 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-1",
+                  "prompt": "Was sollen die Mieter am Donnerstag beachten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie sollen keine Waschmaschine benutzen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie sollen zu Hause bleiben."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie sollen Wasser abkochen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Bitte lassen Sie an diesem Tag keine Waschmaschine laufen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-2",
+              "prompt": "Ansage 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Was sagt Herr Palm?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Antrag wurde abgelehnt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie steht jetzt auf einer Warteliste."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Frau Ivanova bekommt sofort einen Raum."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Frei ist zurzeit leider keiner, aber ich habe Sie auf die Warteliste gesetzt.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-3",
+              "prompt": "Ansage 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-3",
+                  "prompt": "Was darf nicht in den Container?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Alte Möbel."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Holz."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Elektrogeräte."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… keine Elektrogeräte und keine Farben.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-4",
+              "prompt": "Ansage 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Was soll die Person tun?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Online einen neuen Termin buchen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Am Montag trotzdem kommen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sich schriftlich ummelden."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Buchen Sie bitte online einen neuen Termin.“ Die Frist verlängert sich automatisch."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Kurze Informationen aus dem Radio",
+          "instructions": "Sie hören fünf kurze Meldungen aus dem Radio. Wählen Sie zu jeder Meldung die richtige Antwort. Sie hören die Meldungen einmal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-04/hoeren-teil-2.mp3",
+            "transcript": "Meldung 1\nModeratorin: Zum Wohnungsmarkt: Die Mieten in Lindenberg sind im letzten Jahr um durchschnittlich fünf Prozent gestiegen. Besonders betroffen sind kleine Wohnungen. Für eine Zweizimmerwohnung zahlt man inzwischen im Schnitt 640 Euro kalt.\n\nMeldung 2\nModeratorin: Ein Hinweis der Stadtwerke: Wegen Bauarbeiten wird die Fernwärme in der Südstadt am Dienstag für etwa vier Stunden unterbrochen. Betroffen sind rund 300 Haushalte. Die Stadtwerke bitten darum, die Heizkörper danach nicht sofort voll aufzudrehen.\n\nMeldung 3\nModeratorin: Und noch etwas für alle, die umziehen wollen: Ab sofort können Sie die Ummeldung des Wohnsitzes vollständig online erledigen. Ein Besuch im Bürgeramt ist nur noch nötig, wenn Sie gleichzeitig einen neuen Ausweis beantragen.\n\nMeldung 4\nModeratorin: Aus dem Rathaus: Die Stadt sucht Menschen, die Patenschaften für Bäume in ihrer Straße übernehmen. Gießen im Sommer, mehr ist es nicht. Wasser gibt es kostenlos an den Hydranten, einen Schlüssel dafür bekommt man im Grünflächenamt.\n\nMeldung 5\nModeratorin: Zum Schluss: Der Sperrmüll wird ab Januar nicht mehr an festen Terminen abgeholt. Stattdessen melden Sie ihn online oder telefonisch an und bekommen dann innerhalb von zwei Wochen einen Termin. Für Sie bleibt es kostenlos."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-meldung-1",
+              "prompt": "Meldung 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-1",
+                  "prompt": "Was ist besonders teuer geworden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Große Wohnungen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Kleine Wohnungen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Häuser am Stadtrand."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Besonders betroffen sind kleine Wohnungen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-2",
+              "prompt": "Meldung 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-2",
+                  "prompt": "Worum bitten die Stadtwerke?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Am Dienstag nicht zu heizen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Warmes Wasser zu sparen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Heizung danach langsam aufzudrehen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… die Heizkörper danach nicht sofort voll aufzudrehen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-3",
+              "prompt": "Meldung 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-3",
+                  "prompt": "Wann muss man noch ins Bürgeramt gehen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Wenn man einen neuen Ausweis braucht."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Wenn man aus dem Ausland kommt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Gar nicht mehr."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… nur noch nötig, wenn Sie gleichzeitig einen neuen Ausweis beantragen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-4",
+              "prompt": "Meldung 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-4",
+                  "prompt": "Was sollen die Baumpaten tun?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Bäume pflanzen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bäume im Sommer gießen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Bäume schneiden."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Gießen im Sommer, mehr ist es nicht.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-5",
+              "prompt": "Meldung 5",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-5",
+                  "prompt": "Was ändert sich beim Sperrmüll?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Er wird kostenpflichtig."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Er wird nur noch zweimal im Jahr abgeholt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Man muss ihn selbst anmelden."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Stattdessen melden Sie ihn online oder telefonisch an.“ Kostenlos bleibt es."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Alltägliche Gespräche",
+          "instructions": "Sie hören vier kurze Gespräche. Zu jedem Gespräch gibt es zwei Aufgaben: Entscheiden Sie zuerst, ob die Aussage richtig oder falsch ist, und wählen Sie dann die richtige Antwort. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-04/hoeren-teil-3.mp3",
+            "transcript": "Gespräch 1\nFrau Duarte: Herr Weber, haben Sie die Nebenkostenabrechnung schon gesehen? Ich soll 480 Euro nachzahlen.\n\nHerr Weber: Ich auch, ähnlich viel. Aber haben Sie mal auf die Heizkosten geschaut? Bei mir stimmt der Zählerstand nicht.\n\nFrau Duarte: Ehrlich gesagt habe ich nur auf die Summe geschaut.\n\nHerr Weber: Machen Sie das lieber. Und Sie haben ein Jahr Zeit, um zu widersprechen, das wissen viele nicht.\n\nFrau Duarte: Ein ganzes Jahr? Ich dachte, vier Wochen.\n\nHerr Weber: Nein. Aber je früher, desto besser. Ich fahre morgen zur Mieterberatung, kommen Sie doch mit.\n\nGespräch 2\nMilan: Und, habt ihr die Wohnung bekommen?\n\nFrau Sander: Ja! Nach vierzehn Absagen.\n\nMilan: Herzlichen Glückwunsch. Was war diesmal anders?\n\nFrau Sander: Wir hatten alle Unterlagen sofort dabei – Gehaltsnachweise, Schufa, Mietschuldenfreiheit. Beim Termin waren dreißig Leute, aber nur drei konnten alles zeigen.\n\nMilan: Und die Kaution?\n\nFrau Sander: Drei Kaltmieten, das war hart. Wir dürfen sie aber in drei Raten zahlen, das hat der Vermieter von sich aus angeboten.\n\nGespräch 3\nHerr Öz: Frau Klein, ich wollte etwas ansprechen. Die Musik bei Ihnen am Wochenende ist wirklich laut.\n\nFrau Klein: Oh. Das tut mir leid, das wusste ich nicht. Mein Sohn übt Schlagzeug.\n\nHerr Öz: Ich habe nichts gegen das Üben. Aber sonntags ab acht Uhr morgens ist schwierig, ich arbeite Nachtschicht.\n\nFrau Klein: Das verstehe ich. Wäre nachmittags besser? Sagen wir zwischen drei und sechs?\n\nHerr Öz: Das wäre völlig in Ordnung. Danke, dass Sie das so einfach nehmen.\n\nFrau Klein: Lieber so, als dass Sie sich bei der Hausverwaltung beschweren.\n\nGespräch 4\nFrau Adamu: Guten Tag, ich habe eine Frage zum Wohngeld. Lohnt sich der Antrag bei mir überhaupt?\n\nBerater: Das hängt von drei Dingen ab: Miete, Einkommen und Zahl der Personen im Haushalt. Wie viele sind Sie?\n\nFrau Adamu: Ich und zwei Kinder. Ich verdiene 1.900 Euro netto.\n\nBerater: Dann kann sich das durchaus lohnen. Viele denken, man bekommt es nur ohne Arbeit, aber das stimmt nicht.\n\nFrau Adamu: Und wenn ich zu viel verdiene?\n\nBerater: Dann bekommen Sie eine Ablehnung, mehr passiert nicht. Der Antrag kostet nichts und hat keine Nachteile."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-gespraech-1",
+              "prompt": "Gespräch 1",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-1",
+                  "statement": "Frau Duarte hat die Abrechnung genau geprüft.",
+                  "solution": false,
+                  "explanation": "„Ehrlich gesagt habe ich nur auf die Summe geschaut.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Wie lange kann man der Abrechnung widersprechen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ein Jahr."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Vier Wochen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Bis zum nächsten Abrechnungsjahr."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Und Sie haben ein Jahr Zeit, um zu widersprechen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-2",
+              "prompt": "Gespräch 2",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-3",
+                  "statement": "Frau Sander darf die Kaution in mehreren Raten zahlen.",
+                  "solution": true,
+                  "explanation": "„Wir dürfen sie aber in drei Raten zahlen, das hat der Vermieter von sich aus angeboten.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Warum hat es diesmal geklappt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil sie mehr bezahlt haben."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil sie alle Unterlagen dabeihatten."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil weniger Bewerber da waren."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Wir hatten alle Unterlagen sofort dabei … nur drei konnten alles zeigen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-3",
+              "prompt": "Gespräch 3",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-5",
+                  "statement": "Herr Öz möchte, dass der Sohn gar nicht mehr übt.",
+                  "solution": false,
+                  "explanation": "„Ich habe nichts gegen das Üben.“ Es geht ihm um die Uhrzeit."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-6",
+                  "prompt": "Worauf einigen sich die beiden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Sohn übt nur noch werktags."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Frau Klein kauft einen Teppich."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der Sohn übt nachmittags."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Wäre nachmittags besser? Sagen wir zwischen drei und sechs?“ – „Das wäre völlig in Ordnung.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-4",
+              "prompt": "Gespräch 4",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-7",
+                  "statement": "Auch wer arbeitet, kann Wohngeld bekommen.",
+                  "solution": true,
+                  "explanation": "„Viele denken, man bekommt es nur ohne Arbeit, aber das stimmt nicht.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-8",
+                  "prompt": "Was sagt die Beraterin über den Antrag?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Er kostet nichts und schadet nicht."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Er lohnt sich nur bei sehr hoher Miete."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Er dauert mehrere Monate."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Der Antrag kostet nichts und hat keine Nachteile.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-4",
+          "title": "Teil 4 – Meinungen zu einem Thema",
+          "instructions": "Sie hören drei Aussagen zum selben Thema. Welcher Satz a–f passt zu welcher Aussage? Es bleiben drei Sätze übrig. Sie hören die Aussagen zweimal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-04/hoeren-teil-4.mp3",
+            "transcript": "Moderatorin: Unser Thema heute: Sollen in unserer Stadt mehr Hochhäuser gebaut werden? Wir haben nachgefragt.\n\nAussage 18: Kerstin Vogel\nKerstin Vogel: Ich bin dafür, ganz klar. Wir suchen seit zwei Jahren eine bezahlbare Wohnung für uns und die Kinder. Alle reden davon, dass gebaut werden muss, aber sobald irgendwo ein hohes Haus geplant wird, sind plötzlich alle dagegen. Irgendwo müssen die Leute doch wohnen.\n\nAussage 19: Ibrahim Saidi\nIbrahim Saidi: Ich habe selbst zwölf Jahre in einem Hochhaus gewohnt, und ehrlich gesagt war das nicht das Problem. Das Problem war, dass es dort nichts gab – kein Café, keinen Spielplatz, keinen Arzt. Wenn man das mitplant, kann man von mir aus zwanzig Stockwerke bauen.\n\nAussage 20: Renate Bühler\nRenate Bühler: Mir geht es nicht um die Höhe, sondern darum, wem die Wohnungen am Ende gehören. Bei uns im Viertel hat ein Investor gebaut, und die günstigsten Wohnungen kosten jetzt vierzehn Euro pro Quadratmeter. Damit ist keiner Familie geholfen, die wirklich sucht."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-4-meinungen",
+              "prompt": "Thema: Sollen mehr Hochhäuser gebaut werden? Welcher Satz a–f passt zu welcher Aussage? Drei Sätze bleiben übrig.",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Diese Person sagt, dass es im Viertel auch Geschäfte und Ärzte geben muss."
+                },
+                {
+                  "id": "b",
+                  "text": "Diese Person findet, dass die neuen Wohnungen viel zu teuer sind."
+                },
+                {
+                  "id": "c",
+                  "text": "Diese Person sucht selbst seit Langem eine Wohnung."
+                },
+                {
+                  "id": "d",
+                  "text": "Diese Person meint, Hochhäuser seien zu laut."
+                },
+                {
+                  "id": "e",
+                  "text": "Diese Person schlägt vor, alte Häuser zuerst zu renovieren."
+                },
+                {
+                  "id": "f",
+                  "text": "Diese Person hält Hochhäuser für zu gefährlich."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h4-1",
+                  "prompt": "Aussage 18 – Kerstin Vogel",
+                  "solution": "c",
+                  "explanation": "„Wir suchen seit zwei Jahren eine bezahlbare Wohnung für uns und die Kinder.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h4-2",
+                  "prompt": "Aussage 19 – Ibrahim Saidi",
+                  "solution": "a",
+                  "explanation": "„Das Problem war, dass es dort nichts gab – kein Café, keinen Spielplatz, keinen Arzt.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h4-3",
+                  "prompt": "Aussage 20 – Renate Bühler",
+                  "solution": "b",
+                  "explanation": "„… die günstigsten Wohnungen kosten jetzt vierzehn Euro pro Quadratmeter.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 45,
+      "description": "Sie lesen einen Wegweiser, Anzeigen, zwei kürzere Texte, eine Informationsbroschüre und eine E-Mail. Insgesamt bearbeiten Sie 23 Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Wegweiser",
+          "instructions": "Sie sind im Bürgerzentrum Ihrer Stadt und suchen verschiedene Informationen. Lesen Sie den Wegweiser und die Aufgaben. In welches Stockwerk gehen Sie? Achtung: Manchmal ist keines der beiden genannten Stockwerke richtig – wählen Sie dann „anderes Stockwerk“.",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-wegweiser",
+              "stimuli": [
+                {
+                  "title": "Wegweiser",
+                  "text": "BÜRGERZENTRUM LINDENBERG – WEGWEISER\n\n3. OG\nMieterberatung\nNebenkostenabrechnung prüfen / Mieterhöhung / Kündigung / Mängel in der Wohnung\nSchuldnerberatung\nÜberblick über Schulden / Ratenpläne / Briefe von Inkassofirmen\n\n2. OG\nWohnungsamt\nWohngeld / Wohnberechtigungsschein / Vermittlung von Sozialwohnungen\nEnergieberatung\nHeizkosten senken / Förderung für neue Fenster / Stromspar-Check\n\n1. OG\nFamilienbüro\nKita-Platz / Elterngeld / Ferienbetreuung / Beratung für Alleinerziehende\nNachbarschaftstreff\nRäume mieten / Sprachcafé / Reparatur-Café / Ehrenamt\n\nEG\nBürgerbüro\nAn- und Ummeldung / Personalausweis / Beglaubigungen / Fundbüro\nAbfallberatung\nMülltonnen bestellen / Sperrmüll anmelden / Wertstoffhof"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-1",
+                  "prompt": "Sie haben eine sehr hohe Nebenkostenabrechnung bekommen und wollen sie prüfen lassen.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "3. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Die Mieterberatung im 3. OG prüft Nebenkostenabrechnungen."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-2",
+                  "prompt": "Sie möchten Ihren alten Schrank abholen lassen.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "EG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Sperrmüll meldet man bei der Abfallberatung im EG an."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-3",
+                  "prompt": "Sie suchen einen Kita-Platz für Ihre zweijährige Tochter.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "3. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Das Familienbüro ist im 1. OG – also ein anderes Stockwerk."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-4",
+                  "prompt": "Ihre Heizkosten sind sehr hoch und Sie möchten wissen, was Sie tun können.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Die Energieberatung im 2. OG hilft, Heizkosten zu senken."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-5",
+                  "prompt": "Sie möchten für eine Familienfeier einen Raum mieten.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "EG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Räume vermietet der Nachbarschaftstreff im 1. OG – also ein anderes Stockwerk."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Anzeigen",
+          "instructions": "Lesen Sie die sieben Anzeigen und die fünf Situationen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Zwei Anzeigen bleiben übrig.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "heading": "Reparatur-Café im Nachbarschaftstreff",
+                  "text": "Kaputter Toaster, wackliger Stuhl, defekte Lampe? Jeden zweiten Samstag von 14 bis 17 Uhr reparieren wir gemeinsam mit Ihnen.\nDie Hilfe ist kostenlos, Ersatzteile zahlen Sie selbst. Wir reparieren keine Geräte mit Wasseranschluss.\nBringen Sie Ihr Gerät und, wenn möglich, die Anleitung mit."
+                },
+                {
+                  "title": "Anzeige b",
+                  "heading": "Umzugshelfer gesucht und geboten",
+                  "text": "Studierende helfen beim Tragen, Packen und Aufbauen – auch kurzfristig am Wochenende.\n12 Euro pro Stunde und Person, Transporter kann gegen Aufpreis gestellt werden. Mindestens drei Stunden.\nKontakt über das Schwarze Brett im Bürgerzentrum."
+                },
+                {
+                  "title": "Anzeige c",
+                  "heading": "Möbelbörse der Nachbarschaftshilfe",
+                  "text": "Gut erhaltene Möbel kostenlos abzugeben: Betten, Schränke, Küchentische. Was da ist, wechselt jede Woche.\nAbholung müssen Sie selbst organisieren. Geöffnet donnerstags 15 bis 18 Uhr, Lagerhalle Ostring 3.\nKein Berechtigungsschein nötig."
+                },
+                {
+                  "title": "Anzeige d",
+                  "heading": "Gemeinschaftsgarten sucht Mitgärtnerinnen und Mitgärtner",
+                  "text": "Wir bewirtschaften eine Fläche hinter dem Sportplatz und haben noch drei Beete frei.\nBeitrag 30 Euro im Jahr, dafür Werkzeug, Wasser und Erde inklusive. Erwartet wird, dass Sie etwa zwei Stunden pro Woche Zeit haben.\nTreffen jeden Sonntag ab 10 Uhr."
+                },
+                {
+                  "title": "Anzeige e",
+                  "heading": "Hausaufgabenhilfe im Stadtteil",
+                  "text": "Kinder der Klassen 1 bis 6 machen bei uns gemeinsam Hausaufgaben, betreut von ehrenamtlichen Helferinnen und Helfern.\nMontag bis Donnerstag, 14 bis 16 Uhr, kostenlos. Anmeldung nötig, die Plätze sind auf zwanzig Kinder begrenzt."
+                },
+                {
+                  "title": "Anzeige f",
+                  "heading": "Wohnungsauflösung und Entrümpelung Lehmann",
+                  "text": "Wir räumen Wohnungen und Keller vollständig, besenrein und mit Nachweis für die Hausverwaltung.\nFestpreis nach kostenloser Besichtigung. Brauchbare Möbel geben wir an soziale Einrichtungen weiter.\nTermine auch am Samstag."
+                },
+                {
+                  "title": "Anzeige g",
+                  "heading": "Nachbarschafts-App „Türklingel“",
+                  "text": "Werkzeug leihen, Hilfe beim Einkauf finden, Termine im Viertel sehen – kostenlos für alle, die in Lindenberg wohnen.\nAnmeldung mit Adresse, damit wirklich nur Nachbarn dabei sind. Es gibt sie auch als Aushang für alle ohne Smartphone."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Reparatur-Café im Nachbarschaftstreff"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Umzugshelfer gesucht und geboten"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Möbelbörse der Nachbarschaftshilfe"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Gemeinschaftsgarten sucht Mitgärtnerinnen und Mitgärtner"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Hausaufgabenhilfe im Stadtteil"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Wohnungsauflösung und Entrümpelung Lehmann"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Nachbarschafts-App „Türklingel“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Ihre Waschmaschine ist kaputt und Sie möchten sie nicht gleich wegwerfen.",
+                  "solution": "a",
+                  "explanation": "Das Reparatur-Café hilft kostenlos – Geräte mit Wasseranschluss allerdings ausdrücklich nicht. Bei b und f geht es nicht um Reparaturen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Sie ziehen am Samstag um und brauchen zwei kräftige Menschen zum Tragen.",
+                  "solution": "b",
+                  "explanation": "Anzeige b: Hilfe beim Tragen, auch kurzfristig am Wochenende."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Ihr Sohn ist in der dritten Klasse und braucht nachmittags Hilfe bei den Hausaufgaben.",
+                  "solution": "e",
+                  "explanation": "Anzeige e: Klassen 1 bis 6, Montag bis Donnerstag, kostenlos."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie haben wenig Geld und brauchen dringend ein Bett.",
+                  "solution": "c",
+                  "explanation": "Anzeige c: gut erhaltene Möbel kostenlos, ohne Berechtigungsschein."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Sie möchten Menschen aus Ihrem Viertel kennenlernen und ab und zu Werkzeug leihen.",
+                  "solution": "g",
+                  "explanation": "Anzeige g: Werkzeug leihen und Nachbarn finden, kostenlos für alle im Ort."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Pressetexte und formelle Mitteilungen",
+          "instructions": "Lesen Sie die beiden Texte. Entscheiden Sie zu jedem Text, ob die Aussage richtig oder falsch ist, und wählen Sie danach die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-text-1",
+              "stimuli": [
+                {
+                  "title": "Text 1",
+                  "heading": "Erster Straßenzug wird zur Spielstraße",
+                  "text": "Die Kastanienallee wird ab Mai zur Spielstraße. Autos dürfen dann nur noch in Schrittgeschwindigkeit fahren, Kinder dürfen überall auf der Fahrbahn spielen.\n\nDie Idee kam von den Anwohnerinnen und Anwohnern selbst. Sie hatten im vergangenen Jahr 300 Unterschriften gesammelt. Die Stadt hat lange geprüft, denn in der Straße liegen zwei Arztpraxen, die erreichbar bleiben müssen.\n\nDie Parkplätze bleiben erhalten, allerdings werden sechs davon zu Fahrradbügeln umgebaut. Ob weitere Straßen folgen, entscheidet der Rat im Herbst – ausdrücklich erst nach einer Befragung aller Betroffenen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l3-1",
+                  "statement": "Die Idee für die Spielstraße kam von den Anwohnern.",
+                  "solution": true,
+                  "explanation": "„Die Idee kam von den Anwohnerinnen und Anwohnern selbst.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Was passiert mit den Parkplätzen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sechs werden zu Fahrradbügeln."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Alle fallen weg."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Es kommen neue dazu."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Die Parkplätze bleiben erhalten, allerdings werden sechs davon zu Fahrradbügeln umgebaut.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-text-2",
+              "stimuli": [
+                {
+                  "title": "Text 2",
+                  "heading": "Hausverwaltung Kern & Partner – Treppenhausreinigung",
+                  "text": "Sehr geehrte Mieterinnen und Mieter,\n\nab dem 1. März übernimmt eine Firma die Reinigung der Treppenhäuser. Der bisherige Putzplan entfällt damit; Sie müssen also nicht mehr selbst putzen.\n\nDie Kosten von 12 Euro pro Wohnung und Monat werden über die Nebenkosten abgerechnet. Eine Zustimmung der Mieterschaft ist dafür nicht erforderlich, da es sich um Betriebskosten handelt.\n\nDer Bereich vor Ihrer eigenen Wohnungstür sowie der Keller gehören ausdrücklich nicht dazu. Hier bleibt alles wie bisher.\n\nMit freundlichen Grüßen\nHausverwaltung Kern & Partner"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l3-3",
+                  "statement": "Die Mieter müssen ab März das Treppenhaus nicht mehr selbst putzen.",
+                  "solution": true,
+                  "explanation": "„Der bisherige Putzplan entfällt damit; Sie müssen also nicht mehr selbst putzen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Was reinigt die Firma nicht?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das Treppenhaus."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Den Keller."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Fenster im Flur."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Der Bereich vor Ihrer eigenen Wohnungstür sowie der Keller gehören ausdrücklich nicht dazu.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-4",
+          "title": "Teil 4 – Informationsbroschüre",
+          "instructions": "Lesen Sie die Informationen zum Wohnberechtigungsschein. Sind die folgenden Aussagen richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-4-broschuere",
+              "stimuli": [
+                {
+                  "title": "Broschüre",
+                  "heading": "WOHNBERECHTIGUNGSSCHEIN – DIE WICHTIGSTEN FRAGEN",
+                  "text": "Was ist das?\nMit einem Wohnberechtigungsschein, kurz WBS, können Sie sich auf öffentlich geförderte Wohnungen bewerben. Diese sind deutlich günstiger als Wohnungen auf dem freien Markt.\n\nWer bekommt ihn?\nEntscheidend ist Ihr Jahreseinkommen und die Zahl der Personen im Haushalt. Für eine Person liegt die Grenze bei 21.000 Euro brutto, für jede weitere Person erhöht sie sich. Auch wer arbeitet, kann einen WBS bekommen – das wird oft falsch verstanden.\n\nWas brauche ich für den Antrag?\nDen Personalausweis, Einkommensnachweise der letzten zwölf Monate und den Mietvertrag Ihrer jetzigen Wohnung. Der Antrag selbst ist kostenlos.\n\nWie lange gilt er?\nEin Jahr. Danach müssen Sie ihn neu beantragen. Wichtig: Der Schein ist keine Wohnung – Sie müssen sich weiterhin selbst bewerben."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-1",
+                  "statement": "Auch Menschen mit Arbeit können einen WBS bekommen.",
+                  "solution": true,
+                  "explanation": "„Auch wer arbeitet, kann einen WBS bekommen – das wird oft falsch verstanden.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-2",
+                  "statement": "Mit dem WBS bekommt man automatisch eine Wohnung.",
+                  "solution": false,
+                  "explanation": "„Der Schein ist keine Wohnung – Sie müssen sich weiterhin selbst bewerben.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-3",
+                  "statement": "Der Antrag kostet eine Gebühr.",
+                  "solution": false,
+                  "explanation": "„Der Antrag selbst ist kostenlos.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-5",
+          "title": "Teil 5 – Wörter im Brief ergänzen",
+          "instructions": "Lesen Sie die E-Mail und wählen Sie für jede Lücke das passende Wort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-5-brief",
+              "inlineGaps": true,
+              "stimuli": [
+                {
+                  "title": "E-Mail",
+                  "heading": "E-Mail an die Hausverwaltung",
+                  "text": "Sehr ___(1)___ Frau Kern,\n\nseit etwa drei Wochen tropft in meiner Wohnung der Wasserhahn in der Küche. Ich habe zunächst gewartet, ___(2)___ es nicht besser geworden ist.\n\nInzwischen läuft das Wasser auch nachts, und ich mache mir Sorgen ___(3)___ die Wasserkosten. Könnten Sie bitte einen Handwerker beauftragen?\n\nIch bin von Montag bis Mittwoch ab 15 Uhr zu Hause. An den anderen Tagen könnte meine Nachbarin die Tür ___(4)___, sie hat einen Schlüssel.\n\nFalls Sie weitere Angaben brauchen, melde ich mich ___(5)___ zurück. Über eine kurze Antwort wäre ich Ihnen sehr ___(6)___.\n\nMit freundlichen Grüßen\nDaniel Ivanov"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-1",
+                  "prompt": "Lücke (1) – Anrede",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "geehrter"
+                    },
+                    {
+                      "id": "b",
+                      "text": "geehrten"
+                    },
+                    {
+                      "id": "c",
+                      "text": "geehrte"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Sehr geehrte Frau Kern“ – die weibliche Form."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-2",
+                  "prompt": "Lücke (2) – Konnektor",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "aber"
+                    },
+                    {
+                      "id": "b",
+                      "text": "denn"
+                    },
+                    {
+                      "id": "c",
+                      "text": "weil"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Zwei Hauptsätze im Gegensatz: gewartet – nicht besser geworden. Nach „weil“ stünde das Verb am Ende."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-3",
+                  "prompt": "Lücke (3) – Präposition",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "über"
+                    },
+                    {
+                      "id": "b",
+                      "text": "um"
+                    },
+                    {
+                      "id": "c",
+                      "text": "auf"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„sich Sorgen machen um etwas“ ist die feste Verbindung."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-4",
+                  "prompt": "Lücke (4) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "eröffnen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "aufmachen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "öffnen"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„die Tür öffnen“; „eröffnen“ heißt etwas Neues beginnen, „aufmachen“ ist hier zu umgangssprachlich."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-5",
+                  "prompt": "Lücke (5) – Adverb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "gern"
+                    },
+                    {
+                      "id": "b",
+                      "text": "kaum"
+                    },
+                    {
+                      "id": "c",
+                      "text": "ungern"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "In einer höflichen Bitte sagt man zu, sich gern zurückzumelden."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-6",
+                  "prompt": "Lücke (6) – Adjektiv",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "danke"
+                    },
+                    {
+                      "id": "b",
+                      "text": "dankbar"
+                    },
+                    {
+                      "id": "c",
+                      "text": "bedankt"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ich wäre Ihnen dankbar“ ist die feste Wendung; „danke“ ist kein Adjektiv."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 30,
+      "description": "Sie schreiben eine E-Mail und gehen dabei auf vier Punkte ein. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie eine Musterlösung zum Vergleichen.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "E-Mail schreiben",
+          "instructions": "In Ihrem Haus stellen seit Wochen mehrere Nachbarn Fahrräder und Kartons in den Hausflur. Sie kommen mit dem Kinderwagen kaum noch vorbei. Schreiben Sie eine E-Mail an die Hausverwaltung. Schreiben Sie mindestens 80 Wörter und gehen Sie auf alle vier Punkte ein.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-email",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Schreiben Sie die E-Mail an die Hausverwaltung.",
+                  "criteria": [
+                    "Grund: Warum schreiben Sie?",
+                    "Was genau das Problem ist",
+                    "Warum das gefährlich sein kann",
+                    "Ihr Vorschlag für eine Lösung"
+                  ],
+                  "hints": [
+                    "Schreiben Sie förmlich: Anrede am Anfang, Gruß am Ende.",
+                    "Begründen Sie, was Sie schreiben – auf B1 reicht Aufzählen nicht.",
+                    "Höfliche Bitten stehen im Konjunktiv II: „könnte ich …“, „ich würde gern …“, „wäre es möglich …“."
+                  ],
+                  "minWords": 80,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Frau Kern,\n\nich wohne seit zwei Jahren in der Lindenstraße 14, dritter Stock, und wende mich heute mit einer Bitte an Sie.\n\nSeit einigen Wochen stehen im Treppenhaus mehrere Fahrräder und Kartons. Im ersten Stock ist der Flur inzwischen so eng, dass ich mit dem Kinderwagen nur noch seitlich vorbeikomme. Ältere Nachbarn haben ebenfalls Schwierigkeiten.\n\nBesonders wichtig finde ich, dass ein voller Flur im Notfall gefährlich ist. Wenn es brennt, muss der Weg nach draußen frei sein, und die Feuerwehr muss ins Haus kommen können.\n\nIch möchte niemanden anzeigen, deshalb wäre mein Vorschlag ein freundlicher Aushang im Treppenhaus mit einer Frist von zwei Wochen. Vielleicht wäre es außerdem möglich, im Hof einen einfachen Fahrradständer aufzustellen – dann hätten alle eine Lösung.\n\nÜber eine kurze Rückmeldung würde ich mich freuen.\n\nMit freundlichen Grüßen\nDaniel Ivanov"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sie stellen sich vor, beschreiben ein Bild und planen etwas gemeinsam. Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet; nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie etwa zwei Minuten frei zu den Stichwörtern. Nehmen Sie sich am besten mit dem Handy auf – so hören Sie selbst, wo Sie noch stocken.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Wohnort – Familie – Arbeit oder Ausbildung – Sprachen – Warum lernen Sie Deutsch? – Was möchten Sie in den nächsten Jahren erreichen?",
+                  "hints": [
+                    "Auf B1 reicht eine Liste von Sätzen nicht mehr. Verbinden Sie sie: „… weil …“, „… seit …“, „Zurzeit … , aber später …“.",
+                    "Sprechen Sie auch über Vergangenheit und Zukunft, nicht nur über die Gegenwart.",
+                    "Zum Schluss: Buchstabieren Sie Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Mein Name ist Viktor Melnyk, ich bin 42 Jahre alt und komme aus der Ukraine, aus Lwiw.\n\nSeit drei Jahren wohne ich in Bochum, zusammen mit meiner Frau und meiner Mutter. Meine Tochter studiert in Krakau, wir sehen uns in den Ferien.\n\nIn der Ukraine hatte ich eine kleine Firma für Innenausbau. Hier arbeite ich als Trockenbauer bei einer Firma, das passt ganz gut zu meinem Beruf.\n\nIch spreche Ukrainisch, Russisch, ein wenig Polnisch und seit drei Jahren Deutsch.\n\nDeutsch lerne ich, weil ich mich am Bau verständigen muss, aber vor allem, weil ich mich hier nicht wie ein Gast fühlen möchte.\n\nIn den nächsten Jahren möchte ich die Prüfung schaffen und mich wieder selbstständig machen. Meine Frau und ich sparen außerdem für eine größere Wohnung, weil wir zu dritt auf sechzig Quadratmetern wohnen.\n\nMein Familienname ist Melnyk: M – E – L – N – Y – K."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Ein Bild beschreiben",
+          "instructions": "Thema: Wohnen und Nachbarschaft. Sehen Sie sich das Bild an. Beschreiben Sie zuerst, was Sie sehen, und sagen Sie danach, wie das bei Ihnen selbst ist. Sprechen Sie etwa drei Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-bild",
+              "stimuli": [
+                {
+                  "title": "Bild",
+                  "image": {
+                    "src": "/bilder/de/b1/uebungstest-b1-04/sprechen-bild.jpg",
+                    "alt": "Ein Innenhof eines Mehrfamilienhauses: Auf einer kleinen Rasenfläche steht eine Bank, daneben Fahrräder unter einem Dach. Zwei Erwachsene unterhalten sich, ein Kind fährt mit einem Roller. An mehreren Balkonen hängt Wäsche, im Hintergrund Mülltonnen hinter einem Holzzaun."
+                  },
+                  "text": "Beschreiben Sie, was Sie auf dem Bild sehen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Beschreiben Sie das Bild und sagen Sie, wie das bei Ihnen zu Hause ist.",
+                  "hints": [
+                    "Gehen Sie der Reihe nach vor: Wo ist das? Was sieht man? Wer ist zu sehen und was macht die Person?",
+                    "Vermutungen gehören dazu: „Ich vermute, dass …“, „Wahrscheinlich …“, „Es sieht so aus, als ob …“.",
+                    "Zum Schluss der eigene Bezug – begründen Sie mit „einerseits … andererseits …“."
+                  ],
+                  "musterloesung": "Auf dem Bild sehe ich den Innenhof eines Mehrfamilienhauses. Es ist kein besonders schöner, aber ein sehr normaler Hof, wie es ihn in vielen Städten gibt.\n\nIn der Mitte gibt es eine kleine Rasenfläche mit einer Bank. Daneben stehen Fahrräder unter einem Dach, und ganz hinten sind die Mülltonnen hinter einem Holzzaun versteckt. An mehreren Balkonen hängt Wäsche.\n\nZwei Erwachsene stehen zusammen und unterhalten sich, ein Kind fährt mit einem Roller im Kreis. Es sieht so aus, als ob die beiden sich kennen – wahrscheinlich sind es Nachbarn, die sich zufällig getroffen haben.\n\nDas Wetter ist gut, aber nicht heiß. Ich vermute, es ist Frühling, denn die Wäsche hängt draußen und trotzdem tragen die Erwachsenen leichte Jacken.\n\nBei mir zu Hause ist es leider anders. Wir haben zwar auch einen Hof, aber dort stehen nur die Mülltonnen und drei Autos. Es gibt keine Bank, deshalb bleibt auch niemand stehen.\n\nEinerseits kenne ich meine direkten Nachbarn gut, wir helfen uns gegenseitig. Andererseits weiß ich nach drei Jahren immer noch nicht, wer im Nebenhaus wohnt. Was mir an dem Bild gefällt, ist genau das: Wenn es einen Platz zum Stehenbleiben gibt, spricht man auch miteinander."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Gemeinsam etwas planen",
+          "instructions": "Lesen Sie die Situation. Planen Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner. Machen Sie Vorschläge, reagieren Sie auf die Vorschläge der anderen Person und einigen Sie sich am Ende auf einen Plan.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Im Hof Ihres Hauses steht seit Jahren nichts außer Mülltonnen. Sie und eine Nachbarin möchten den Hof schöner machen und dafür die anderen Bewohnerinnen und Bewohner gewinnen. Planen Sie das Vorhaben zusammen.",
+                  "hints": [
+                    "Was genau soll im Hof entstehen?",
+                    "Wann wollen Sie anfangen und wie lange dauert es?",
+                    "Wer bezahlt das Material, und wie fragen Sie die Hausverwaltung?",
+                    "Wie gewinnen Sie die anderen Nachbarn dafür?"
+                  ],
+                  "musterloesung": "A: Der Hof sieht wirklich trostlos aus. Wollen wir nicht endlich etwas machen?\n\nB: Gern. Aber lass uns klein anfangen, sonst wird nichts daraus. Zwei Bänke und ein paar große Pflanzkübel wären schon ein Unterschied.\n\nA: Ich hätte an ein Hochbeet gedacht, für Kräuter und Tomaten.\n\nB: Das finde ich schön, nur muss das jemand gießen. Wenn im Juli alle im Urlaub sind, steht da braunes Zeug. Bänke machen keine Arbeit.\n\nA: Stimmt. Dann erst die Bänke und die Kübel, und das Hochbeet im nächsten Jahr, wenn sich jemand kümmern will.\n\nB: Einverstanden. Wann? Im Frühling wäre gut, sagen wir ein Samstag im April.\n\nA: Und die Hausverwaltung? Wir können ja nicht einfach etwas hinstellen.\n\nB: Ich schreibe eine E-Mail und frage nach der Erlaubnis. Wichtig ist, dass wir schreiben, dass wir alles selbst machen und dass die Mülltonnen frei zugänglich bleiben.\n\nA: Gute Idee. Beim Geld – ich würde ungern jeden zwingen.\n\nB: Dann fragen wir freiwillig. Zehn Euro pro Wohnung, wer will. Bei zwölf Parteien reicht das für zwei gebrauchte Bänke und Erde. Ich schaue nach günstigen Angeboten.\n\nA: Und wie erreichen wir die anderen? Ein Zettel allein liest sich schnell weg.\n\nB: Ich hänge einen Aushang auf, und du klingelst am Sonntag einmal durch. Persönlich sagt seltener jemand nein.\n\nA: Mache ich. Und für den Samstag selbst: Ich bringe Kaffee und Kuchen mit, dann bleiben die Leute auch da.\n\nB: Sehr gut. Also: Samstag im April, Bänke und Kübel, ich frage die Verwaltung und suche die Angebote, du klingelst und sorgst für Kuchen, Hochbeet später.\n\nA: Abgemacht."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

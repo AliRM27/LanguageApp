@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T20:03:43.849Z",
+  "generatedAt": "2026-08-14T18:05:30.210Z",
   "files": [
     {
       "testId": "uebungstest-a1-01",
@@ -6179,6 +6179,4495 @@
           "pauseAfterMs": 300,
           "slot": "male-1",
           "rate": 0.94
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-01",
+      "partId": "hoeren-teil-1",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-01/hoeren-teil-1.mp3",
+      "rate": 1,
+      "speakers": {
+        "Herr Böhm": "male-1",
+        "Sprechstundenhilfe": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Sehr geehrte Fahrgäste, der Regionalexpress nach Hannover, planmäßige Abfahrt 14 Uhr 12, fährt heute nicht von Gleis 3, sondern von Gleis 8. Grund dafür ist eine Störung an einer Weiche. Der Zug hat außerdem etwa zehn Minuten Verspätung. Wir bitten um Ihr Verständnis.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Sprechstundenhilfe",
+          "text": "Guten Tag, Frau Yilmaz, hier ist die Praxis Doktor Sommer. Leider muss ich Ihnen absagen: Ihr Termin am Donnerstag um halb zehn kann nicht stattfinden, Doktor Sommer ist krank geworden. Wir haben Sie schon auf Montag umgetragen, zur gleichen Uhrzeit. Falls Ihnen das nicht passt, rufen Sie uns bitte kurz zurück.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Kundinnen und Kunden, wir möchten Sie darauf hinweisen, dass unser Haus heute bereits um 18 Uhr schließt. Der Grund ist eine Betriebsversammlung. Ab morgen sind wir wieder wie gewohnt bis 20 Uhr für Sie da. Bitte beenden Sie Ihre Einkäufe rechtzeitig.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Böhm",
+          "text": "Guten Tag, Herr Novak, Autohaus Böhm hier. Ihr Wagen ist fertig, Sie können ihn ab morgen früh abholen. Eine Sache muss ich Ihnen allerdings noch sagen: Wir mussten zusätzlich die Bremsen erneuern, das war leider nicht mehr zu vermeiden. Dadurch wird es ungefähr 180 Euro teurer als besprochen. Melden Sie sich bitte, wenn Sie damit nicht einverstanden sind.",
+          "pauseAfterMs": 300,
+          "slot": "male-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-01",
+      "partId": "hoeren-teil-2",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-01/hoeren-teil-2.mp3",
+      "rate": 1,
+      "speakers": {
+        "Moderatorin": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Und nun zum Verkehr. Auf der A7 zwischen Kassel-Nord und Göttingen steht der Verkehr nach einem Unfall auf zehn Kilometern. Die Bergungsarbeiten dauern noch mindestens zwei Stunden. Fahren Sie nach Möglichkeit schon vorher ab und nutzen Sie die Bundesstraße 27.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Das Stadtfest am kommenden Wochenende findet trotz der Bauarbeiten am Marktplatz statt, allerdings nicht wie gewohnt in der Innenstadt: Die Stände stehen in diesem Jahr im Stadtpark. Die Veranstalter rechnen mit rund",
+          "pauseAfterMs": 350,
+          "slow": false,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "20",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "female-1",
+          "rate": 0.78
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "000",
+          "pauseAfterMs": 450,
+          "slow": true,
+          "slot": "female-1",
+          "rate": 0.78
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Besucherinnen und Besuchern.",
+          "pauseAfterMs": 1800,
+          "slow": false,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Eine neue Umfrage unter Beschäftigten zeigt: Fast zwei Drittel möchten auch in Zukunft mindestens zwei Tage pro Woche zu Hause arbeiten. Überraschend ist der wichtigste Grund. Es geht den Befragten nämlich weniger um den Weg zur Arbeit als darum, dass sie zu Hause in Ruhe arbeiten und sich besser konzentrieren können.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Ein Hinweis für Verbraucherinnen und Verbraucher: Die Firma Feldhof ruft ihren Kräuterquark mit dem Haltbarkeitsdatum 12. Juni zurück. In einzelnen Bechern wurden kleine Kunststoffteile gefunden. Wer das Produkt gekauft hat, kann es in jedem Markt zurückgeben – der Kassenbon wird dafür nicht gebraucht.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Und zum Schluss eine gute Nachricht für Leseratten: Die Stadtbibliothek verlängert ab Oktober ihre Öffnungszeiten. Sie ist dann auch samstags bis 16 Uhr geöffnet. Der Leseausweis für alle unter 18 Jahren bleibt wie bisher kostenlos.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-01",
+      "partId": "hoeren-teil-3",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-01/hoeren-teil-3.mp3",
+      "rate": 1,
+      "speakers": {
+        "Frau Delgado": "female-1",
+        "Frau Kettner": "female-2",
+        "Herr Nowak": "male-1",
+        "Herr Palm": "male-2",
+        "Jonas Frey": "male-3",
+        "Merve": "female-3",
+        "Mitarbeiterin": "female-4",
+        "Tobias Reich": "male-4"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kettner",
+          "text": "Sag mal, Tobias, könntest du im August meine Vertretung übernehmen? Ich bin drei Wochen weg.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Tobias Reich",
+          "text": "Drei Wochen? Puh. Im August ist bei uns eigentlich immer viel los. Aber gut – wenn du mir vorher alles ordentlich übergibst, mache ich es.",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kettner",
+          "text": "Klar, ich schreibe dir eine Liste mit allen laufenden Projekten.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Tobias Reich",
+          "text": "Und die Kundentermine? Die schaffe ich unmöglich alle allein.",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kettner",
+          "text": "Die meisten habe ich schon verschoben. Es bleiben zwei, und zu denen kommt Frau Alkan mit.",
+          "pauseAfterMs": 1800,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Palm",
+          "text": "Frau Delgado, haben Sie das auch gemerkt? Im Treppenhaus riecht es seit gestern feucht.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Delgado",
+          "text": "Ja, und ich glaube, das kommt aus dem Keller.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Palm",
+          "text": "Ich habe schon beim Hausmeister angerufen. Der ist aber im Urlaub, und seine Vertretung kommt frühestens am Montag.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Delgado",
+          "text": "Montag ist viel zu spät. Ich rufe morgen früh direkt bei der Hausverwaltung an, sonst haben wir am Ende noch Schimmel in den Wänden.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Palm",
+          "text": "Tun Sie das. Ich schreibe zusätzlich eine Mail, dann haben wir es schriftlich.",
+          "pauseAfterMs": 1800,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Merve",
+          "text": "Und, wie war die Wohnungsbesichtigung gestern?",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Frey",
+          "text": "Die Wohnung selbst war richtig gut – hell, dritter Stock, sogar mit einem kleinen Balkon. Nur waren ungefähr vierzig Leute da.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Merve",
+          "text": "Vierzig? Dann kannst du sie vergessen.",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Frey",
+          "text": "Das dachte ich zuerst auch. Aber der Vermieter hat gesagt, ihm ist gar nicht so wichtig, wer am meisten verdient. Er sucht jemanden, der ruhig ist und lange bleiben möchte. Ich habe ihm gleich eine Mappe mit allen Unterlagen dagelassen.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Merve",
+          "text": "Clever. Ohne Unterlagen bist du sowieso raus.",
+          "pauseAfterMs": 1800,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Nowak",
+          "text": "Guten Tag, ich möchte meinen Vertrag kündigen. Ich ziehe nächsten Monat nach Bremen.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiterin",
+          "text": "Das tut mir leid. Ihr Vertrag läuft eigentlich noch bis Februar. Bei einem Umzug machen wir aber eine Ausnahme – dafür brauchen wir eine Meldebescheinigung.",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Nowak",
+          "text": "Die bekomme ich ja erst, wenn ich in Bremen angemeldet bin.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiterin",
+          "text": "Das ist kein Problem, die können Sie nachreichen. Wichtig ist nur, dass Ihre schriftliche Kündigung vorher bei uns ist.",
+          "pauseAfterMs": 300,
+          "slot": "female-4",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-01",
+      "partId": "hoeren-teil-4",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-01/hoeren-teil-4.mp3",
+      "rate": 1,
+      "speakers": {
+        "Ergün Demir": "male-1",
+        "Katrin Bauer": "female-1",
+        "Moderatorin": "female-2",
+        "Sabine Kroll": "female-3"
+      },
+      "segments": [
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Unser Thema heute: Soll die Innenstadt autofrei werden? Wir haben nachgefragt.",
+          "pauseAfterMs": 1800,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 18: Katrin Bauer",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Katrin Bauer",
+          "text": "Ich bin grundsätzlich dafür, wirklich. Weniger Autos, bessere Luft – das ist doch für alle gut. Nur denkt bei solchen Plänen selten jemand an die, die etwas bringen müssen. Ich habe einen kleinen Blumenladen, und meine Ware kommt jeden Morgen mit dem Transporter. Wenn der nicht mehr bis vor die Tür darf, muss ich mir wirklich etwas überlegen.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 19: Ergün Demir",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Ergün Demir",
+          "text": "Ich halte davon ehrlich gesagt wenig. Für junge, gesunde Leute mit dem Fahrrad ist das alles ganz einfach. Aber meine Mutter ist 78 und kann keine langen Strecken laufen. Und wer mit zwei kleinen Kindern und dem ganzen Wocheneinkauf unterwegs ist, freut sich auch nicht, wenn er dann zwanzig Minuten vom Parkhaus bis zum Geschäft läuft.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 20: Sabine Kroll",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Sabine Kroll",
+          "text": "Ehrlich gesagt war ich früher strikt dagegen. Ich bin jahrelang jeden Tag mit dem Auto ins Büro gefahren, das war für mich völlig normal. Vor zwei Jahren habe ich es dann abgeschafft, hauptsächlich aus Kostengründen. Und seitdem sehe ich die Stadt mit ganz anderen Augen. Zurück wollte ich heute nicht mehr.",
+          "pauseAfterMs": 300,
+          "slot": "female-3",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-02",
+      "partId": "hoeren-teil-1",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-02/hoeren-teil-1.mp3",
+      "rate": 1,
+      "speakers": {
+        "Sprechstundenhilfe": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, Frau Osei, hier ist Bergmann von der Firma Lentz. Es geht um Ihr Vorstellungsgespräch am Mittwoch. Leider ist unsere Personalleiterin an dem Tag krank geworden. Wir würden das Gespräch gern auf Freitag verschieben, ebenfalls um 10 Uhr. Sagen Sie uns bitte kurz Bescheid, ob das bei Ihnen geht.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Kolleginnen und Kollegen, wegen einer Betriebsversammlung bleibt die Kantine heute geschlossen. Der Automat im Erdgeschoss ist aber wie immer in Betrieb. Ab morgen kochen wir wieder normal für Sie. Wir bitten um Verständnis.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Sprechstundenhilfe",
+          "text": "Guten Tag, Herr Almeida, hier ist die Zeitarbeitsfirma Kranz. Ihr Einsatz beginnt wie besprochen am Montag um 6 Uhr. Eine Änderung gibt es allerdings: Sie fahren nicht zum Werk in Hagen, sondern zum Standort in Witten. Die Adresse schicke ich Ihnen gleich noch per SMS.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Besucherinnen und Besucher, wir weisen Sie darauf hin, dass eine Beratung nur noch mit vorherigem Termin möglich ist. Ohne Termin können wir Sie leider nicht aufrufen. Termine vereinbaren Sie telefonisch oder online. Für kurze Fragen steht Ihnen der Empfang im Erdgeschoss zur Verfügung.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-02",
+      "partId": "hoeren-teil-2",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-02/hoeren-teil-2.mp3",
+      "rate": 1,
+      "speakers": {
+        "Moderatorin": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Zum Arbeitsmarkt: In der Pflege fehlen in unserer Region weiterhin rund 900 Fachkräfte. Die Kliniken suchen inzwischen gezielt im Ausland. Neu ist, dass mehrere Häuser die Anerkennung ausländischer Abschlüsse selbst begleiten und die Kosten dafür übernehmen.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Ein Betrieb aus dem Kreis testet seit einem halben Jahr die Vier-Tage-Woche bei gleichem Lohn. Das Ergebnis überrascht die Geschäftsführung: Die Zahl der Krankmeldungen ist deutlich gesunken. Die Produktion blieb dagegen ungefähr gleich.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Ein Hinweis für alle, die gerade eine Stelle suchen: Die Arbeitsagentur bietet ab nächster Woche wieder kostenlose Bewerbungsfotos an, jeweils dienstags von 9 bis 12 Uhr. Eine Anmeldung ist nicht nötig, allerdings kann es Wartezeiten geben.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Und noch eine Meldung aus der Weiterbildung: Wer länger als ein Jahr ohne Arbeit ist, kann ab Januar einen Sprachkurs auf B2-Niveau kostenlos besuchen. Bisher mussten die Teilnehmenden die Hälfte selbst bezahlen. Anmeldungen laufen über die Volkshochschule.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Zum Schluss der Verkehr: Der Warnstreik im Nahverkehr ist beendet. Busse und Bahnen fahren ab dem frühen Nachmittag wieder nach Plan. Rechnen Sie am Vormittag aber noch mit einzelnen Ausfällen.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-02",
+      "partId": "hoeren-teil-3",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-02/hoeren-teil-3.mp3",
+      "rate": 1,
+      "speakers": {
+        "Berater": "male-1",
+        "Frau Achebe": "female-1",
+        "Frau Brinkmann": "female-2",
+        "Frau Vogt": "female-3",
+        "Herr Ayala": "male-2",
+        "Herr Kaminski": "male-3",
+        "Lukas Bender": "male-4",
+        "Nuray": "female-4"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Nuray",
+          "text": "Du, ich habe die Stelle als Bürokauffrau gesehen. Meinst du, ich soll mich bewerben?",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Lukas Bender",
+          "text": "Auf jeden Fall. Du machst den Job doch seit drei Jahren.",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Nuray",
+          "text": "Ja, aber mein Zeugnis ist auf Türkisch. Reicht das?",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Lukas Bender",
+          "text": "Nein, das musst du übersetzen lassen, und zwar von jemandem, der dafür zugelassen ist. Das dauert ungefähr zwei Wochen.",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Nuray",
+          "text": "Zwei Wochen? Die Frist ist schon am Fünfzehnten.",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Lukas Bender",
+          "text": "Dann schreib es in die Bewerbung: Übersetzung ist beauftragt und wird nachgereicht. Das machen viele so.",
+          "pauseAfterMs": 1800,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Vogt",
+          "text": "Herr Kaminski, Sie haben inzwischen über sechzig Überstunden.",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Kaminski",
+          "text": "Ich weiß. Können die ausgezahlt werden?",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Vogt",
+          "text": "Auszahlen dürfen wir nur bis vierzig Stunden im Jahr. Den Rest müssen Sie abfeiern.",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Kaminski",
+          "text": "Dann würde ich gern im März eine Woche freinehmen.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Vogt",
+          "text": "März ist schwierig, da ist Inventur. Anfang April hätte ich nichts dagegen.",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Kaminski",
+          "text": "Gut, dann April. Ich trage es gleich ein.",
+          "pauseAfterMs": 1800,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Ayala",
+          "text": "Und, kommst du mit dem neuen Programm zurecht?",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Brinkmann",
+          "text": "Ehrlich gesagt nicht besonders. Die Schulung war viel zu kurz.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Ayala",
+          "text": "Ging mir genauso. Aber es gibt kurze Videos im Intranet, die haben mir mehr geholfen als der ganze Tag Schulung.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Brinkmann",
+          "text": "Davon wusste ich gar nichts. Wo finde ich die?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Ayala",
+          "text": "Unter „Interne Weiterbildung“. Und wenn du willst, setzen wir uns morgen früh eine halbe Stunde zusammen, bevor die Anrufe losgehen.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Brinkmann",
+          "text": "Das wäre super. Sagen wir um halb acht?",
+          "pauseAfterMs": 1800,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Achebe",
+          "text": "Guten Tag, ich habe in Nigeria als Krankenschwester gearbeitet und möchte wissen, ob ich hier arbeiten darf.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Berater",
+          "text": "Dafür brauchen Sie die Anerkennung Ihres Abschlusses. Haben Sie Ihre Zeugnisse dabei?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Achebe",
+          "text": "Ja, im Original und auf Deutsch übersetzt.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Berater",
+          "text": "Sehr gut. Dann fehlt meistens nur noch der Sprachnachweis, in der Pflege ist das B2.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Achebe",
+          "text": "Ich habe erst B1.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Berater",
+          "text": "Das ist kein Grund zu warten. Sie können den Antrag trotzdem schon stellen, das Verfahren dauert ohnehin einige Monate. Den Nachweis reichen Sie später nach.",
+          "pauseAfterMs": 300,
+          "slot": "male-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-02",
+      "partId": "hoeren-teil-4",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-02/hoeren-teil-4.mp3",
+      "rate": 1,
+      "speakers": {
+        "Bettina Rauch": "female-1",
+        "Moderatorin": "female-2",
+        "Serkan Öztürk": "male-1",
+        "Tomasz Wilk": "male-2"
+      },
+      "segments": [
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Unser Thema heute: Soll die Vier-Tage-Woche für alle kommen? Wir haben nachgefragt.",
+          "pauseAfterMs": 1800,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 18: Bettina Rauch",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Bettina Rauch",
+          "text": "Für mich persönlich wäre das großartig, ich habe zwei kleine Kinder. Aber ich arbeite in einer Kita, und da geht es nun einmal nicht: Die Kinder sind fünf Tage da. Solange niemand sagt, wer die fünfte Schicht übernimmt, ist das für unsere Branche leider nur eine schöne Idee.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 19: Tomasz Wilk",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Tomasz Wilk",
+          "text": "Ich war anfangs skeptisch, das gebe ich zu. Wir haben es in unserer Firma ein halbes Jahr ausprobiert, und ich hatte Angst, dass am Ende alles liegen bleibt. Das Gegenteil ist passiert. Wir arbeiten konzentrierter, und ich bin am Wochenende deutlich erholter.",
+          "pauseAfterMs": 1800,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 20: Serkan Öztürk",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Serkan Öztürk",
+          "text": "Ich halte die Diskussion für unehrlich. Bei mir auf dem Bau wird nicht weniger gearbeitet, nur weil man es anders aufteilt. Vier Tage bedeutet dann eben zehn Stunden am Tag, und das hält der Körper mit fünfzig nicht mehr aus.",
+          "pauseAfterMs": 300,
+          "slot": "male-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-03",
+      "partId": "hoeren-teil-1",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-03/hoeren-teil-1.mp3",
+      "rate": 1,
+      "speakers": {
+        "Herr Farid": "male-1",
+        "Sprechstundenhilfe": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Sprechstundenhilfe",
+          "text": "Guten Tag, Frau Nowak, hier ist die Praxis Dr. Weiler. Ihre Blutwerte sind da und alles ist in Ordnung – Sie müssen sich also keine Sorgen machen. Den Befund schicken wir Ihnen mit der Post. Zur Besprechung müssen Sie nicht extra kommen.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Patientinnen und Patienten, unsere Apotheke im Erdgeschoss ist wegen Umbau bis zum 20. Oktober geschlossen. Rezepte können Sie in dieser Zeit in der Apotheke gegenüber am Marktplatz einlösen. Der Notdienst ist davon nicht betroffen.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Farid",
+          "text": "Guten Tag, Frau Sommer, hier ist das Sanitätshaus Farid. Ihre Einlagen sind fertig. Wichtig ist, dass Sie zum Abholen Ihre Versichertenkarte mitbringen, sonst können wir nicht mit der Krankenkasse abrechnen. Wir haben bis 18 Uhr geöffnet.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Achtung, eine Durchsage für unsere Gäste: Das Schwimmbecken im Untergeschoss wird ab 20 Uhr gereinigt und ist dann nicht mehr zugänglich. Sauna und Dampfbad bleiben wie gewohnt bis 22 Uhr geöffnet. Bitte verlassen Sie das Becken rechtzeitig.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-03",
+      "partId": "hoeren-teil-2",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-03/hoeren-teil-2.mp3",
+      "rate": 1,
+      "speakers": {
+        "Moderatorin": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Zur Gesundheit: Eine neue Untersuchung zeigt, dass viele Erwachsene deutlich zu wenig trinken. Empfohlen werden eineinhalb bis zwei Liter am Tag. Wer regelmäßig zu wenig trinkt, klagt häufiger über Kopfschmerzen und Konzentrationsprobleme.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Ein Hinweis für Familien: Die Stadt bietet ab November wieder kostenlose Schwimmkurse für Kinder ab fünf Jahren an. Die Plätze sind begrenzt, deshalb entscheidet nicht das Los, sondern die Reihenfolge der Anmeldungen.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Und noch eine Meldung für Verbraucher: Mehrere Sorten Tiefkühlbeeren einer Handelsmarke werden zurückgerufen. Wer die Ware im Gefrierschrank hat, sollte sie nicht mehr roh essen. Durcherhitzen macht die Beeren wieder unbedenklich.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Aus den Kliniken: Die Notaufnahmen der Region sind seit Wochen überlastet. Ein großer Teil der Fälle gehört dorthin allerdings gar nicht. Die Kliniken bitten deshalb, bei leichteren Beschwerden zuerst den ärztlichen Bereitschaftsdienst unter der Nummer",
+          "pauseAfterMs": 350,
+          "slow": false,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "116",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "female-1",
+          "rate": 0.78
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "117",
+          "pauseAfterMs": 450,
+          "slow": true,
+          "slot": "female-1",
+          "rate": 0.78
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "anzurufen.",
+          "pauseAfterMs": 1800,
+          "slow": false,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Zum Schluss: Der Bauernmarkt am Rathausplatz findet ab dieser Woche nicht mehr nur samstags statt, sondern zusätzlich mittwochs von 8 bis 13 Uhr. Die Standgebühren bleiben für die Betriebe unverändert.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-03",
+      "partId": "hoeren-teil-3",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-03/hoeren-teil-3.mp3",
+      "rate": 1,
+      "speakers": {
+        "Ana": "female-1",
+        "Arzt": "male-1",
+        "Frau Ito": "female-2",
+        "Frau Kraus": "female-3",
+        "Herr Berg": "male-2",
+        "Jonas Frey": "male-3",
+        "Mitarbeiterin": "female-4",
+        "Sami": "male-4"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Ito",
+          "text": "Herr Doktor, ich habe seit drei Wochen Schmerzen im Nacken.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Arzt",
+          "text": "Sitzen Sie viel am Computer?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Ito",
+          "text": "Acht Stunden am Tag, ja.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Arzt",
+          "text": "Dann würde ich zuerst keine Tabletten geben, sondern Krankengymnastik verschreiben. Zehn Termine. Wichtiger ist aber, dass Sie zwischendurch aufstehen – jede halbe Stunde kurz.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Ito",
+          "text": "Und wenn es nicht besser wird?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Arzt",
+          "text": "Dann sehen wir uns in sechs Wochen wieder und machen ein Bild. Aber ich bin ziemlich sicher, dass das reicht.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Ana",
+          "text": "Sag mal, kochst du eigentlich jeden Tag?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Frey",
+          "text": "Fast. Ich koche sonntags für die ganze Woche vor und friere alles ein.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Ana",
+          "text": "Das würde ich nie schaffen.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Frey",
+          "text": "Es sind zwei Stunden am Sonntag, aber danach habe ich abends Ruhe. Vorher habe ich fast jeden Tag etwas bestellt – das war teuer und ehrlich gesagt auch nicht gesund.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Ana",
+          "text": "Und es schmeckt nach vier Tagen noch?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Frey",
+          "text": "Suppen und Eintöpfe schon. Salat natürlich nicht, den mache ich frisch.",
+          "pauseAfterMs": 1800,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Berg",
+          "text": "Guten Tag, ich möchte mich zum Sportkurs anmelden. Meine Krankenkasse zahlt einen Teil.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiterin",
+          "text": "Gern. Dafür brauchen wir am Ende eine Teilnahmebestätigung – die bekommen Sie von uns, wenn Sie mindestens achtmal da waren.",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Berg",
+          "text": "Und wenn ich einmal krank bin?",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiterin",
+          "text": "Zweimal fehlen ist kein Problem, der Kurs hat zehn Termine. Ab dem dritten Mal wird es knapp.",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Berg",
+          "text": "Verstanden. Und bezahlen muss ich zuerst selbst?",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiterin",
+          "text": "Ja, den Betrag bekommen Sie später von der Kasse zurück.",
+          "pauseAfterMs": 1800,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kraus",
+          "text": "Du siehst müde aus.",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Sami",
+          "text": "Bin ich auch. Ich schlafe seit Wochen schlecht.",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kraus",
+          "text": "Trinkst du abends noch Kaffee?",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Sami",
+          "text": "Nein, aber ich schaue bis kurz vorm Einschlafen aufs Handy.",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kraus",
+          "text": "Das ist es vermutlich. Bei mir hat geholfen, das Handy aus dem Schlafzimmer zu verbannen. Die ersten Tage war es komisch, danach ging es überraschend schnell.",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Sami",
+          "text": "Ich habe da nur meinen Wecker drauf.",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kraus",
+          "text": "Dann kauf dir für fünf Euro einen richtigen.",
+          "pauseAfterMs": 300,
+          "slot": "female-3",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-03",
+      "partId": "hoeren-teil-4",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-03/hoeren-teil-4.mp3",
+      "rate": 1,
+      "speakers": {
+        "Ergün Kaya": "male-1",
+        "Heike Sander": "female-1",
+        "Moderatorin": "female-2",
+        "Petra Lindner": "female-3"
+      },
+      "segments": [
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Unser Thema heute: Soll es in Schulen ein kostenloses Mittagessen für alle geben? Wir haben nachgefragt.",
+          "pauseAfterMs": 1800,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 18: Heike Sander",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Heike Sander",
+          "text": "Ich bin dafür, und zwar für alle, nicht nur für bestimmte Familien. Meine Tochter ist Lehrerin und erzählt, dass die Kinder sofort merken, wer den Antrag gestellt hat und wer nicht. Wenn alle dasselbe bekommen, fällt niemand auf. Das ist mir wichtiger als die Frage, wer es bezahlen könnte.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 19: Ergün Kaya",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Ergün Kaya",
+          "text": "Bevor über kostenlos geredet wird, sollte man erst einmal über die Qualität reden. Ich habe das Essen in der Schule meines Sohnes probiert. Aufgewärmte Nudeln, kaum Gemüse. Wenn das umsonst wird, essen es trotzdem nur wenige. Erst gutes Essen, dann kostenlos.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 20: Petra Lindner",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Petra Lindner",
+          "text": "Als Steuerzahlerin frage ich mich schon, ob das nötig ist. Familien, die wenig haben, bekommen doch bereits Unterstützung. Warum sollte ich das Essen für Kinder von Zahnärzten mitbezahlen? Das Geld wäre in kleineren Klassen besser angelegt.",
+          "pauseAfterMs": 300,
+          "slot": "female-3",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-04",
+      "partId": "hoeren-teil-1",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-04/hoeren-teil-1.mp3",
+      "rate": 1,
+      "speakers": {
+        "Herr Palm": "male-1",
+        "Sprechstundenhilfe": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Sehr geehrte Mieterinnen und Mieter, am Donnerstag wird zwischen 8 und 14 Uhr das Wasser abgestellt. Grund ist ein Rohrbruch im Keller. Bitte lassen Sie an diesem Tag keine Waschmaschine laufen. Ab dem Nachmittag ist wieder alles normal.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Palm",
+          "text": "Guten Tag, Frau Ivanova, hier ist die Hausverwaltung Kern. Ihr Antrag auf einen zweiten Kellerraum ist angekommen. Frei ist zurzeit leider keiner, aber ich habe Sie auf die Warteliste gesetzt. Erfahrungsgemäß dauert es etwa ein halbes Jahr.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Nachbarinnen und Nachbarn, am Samstag stellen wir die Container für den Sperrmüll in den Hof. Bitte stellen Sie nur Möbel und Holz hinein, keine Elektrogeräte und keine Farben. Diese müssen Sie weiterhin selbst zum Recyclinghof bringen.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Sprechstundenhilfe",
+          "text": "Guten Tag, hier ist das Bürgeramt Lindenberg. Sie hatten einen Termin zur Ummeldung am Montag um 9 Uhr. Wir müssen den Termin leider absagen, unser System wird an dem Tag umgestellt. Buchen Sie bitte online einen neuen Termin, die Frist verlängert sich für Sie automatisch.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-04",
+      "partId": "hoeren-teil-2",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-04/hoeren-teil-2.mp3",
+      "rate": 1,
+      "speakers": {
+        "Moderatorin": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Zum Wohnungsmarkt: Die Mieten in Lindenberg sind im letzten Jahr um durchschnittlich fünf Prozent gestiegen. Besonders betroffen sind kleine Wohnungen. Für eine Zweizimmerwohnung zahlt man inzwischen im Schnitt 640 Euro kalt.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Ein Hinweis der Stadtwerke: Wegen Bauarbeiten wird die Fernwärme in der Südstadt am Dienstag für etwa vier Stunden unterbrochen. Betroffen sind rund 300 Haushalte. Die Stadtwerke bitten darum, die Heizkörper danach nicht sofort voll aufzudrehen.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Und noch etwas für alle, die umziehen wollen: Ab sofort können Sie die Ummeldung des Wohnsitzes vollständig online erledigen. Ein Besuch im Bürgeramt ist nur noch nötig, wenn Sie gleichzeitig einen neuen Ausweis beantragen.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Aus dem Rathaus: Die Stadt sucht Menschen, die Patenschaften für Bäume in ihrer Straße übernehmen. Gießen im Sommer, mehr ist es nicht. Wasser gibt es kostenlos an den Hydranten, einen Schlüssel dafür bekommt man im Grünflächenamt.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Zum Schluss: Der Sperrmüll wird ab Januar nicht mehr an festen Terminen abgeholt. Stattdessen melden Sie ihn online oder telefonisch an und bekommen dann innerhalb von zwei Wochen einen Termin. Für Sie bleibt es kostenlos.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-04",
+      "partId": "hoeren-teil-3",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-04/hoeren-teil-3.mp3",
+      "rate": 1,
+      "speakers": {
+        "Berater": "male-1",
+        "Frau Adamu": "female-1",
+        "Frau Duarte": "female-2",
+        "Frau Klein": "female-3",
+        "Frau Sander": "female-4",
+        "Herr Weber": "male-2",
+        "Herr Öz": "male-3",
+        "Milan": "male-4"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Duarte",
+          "text": "Herr Weber, haben Sie die Nebenkostenabrechnung schon gesehen? Ich soll 480 Euro nachzahlen.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Weber",
+          "text": "Ich auch, ähnlich viel. Aber haben Sie mal auf die Heizkosten geschaut? Bei mir stimmt der Zählerstand nicht.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Duarte",
+          "text": "Ehrlich gesagt habe ich nur auf die Summe geschaut.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Weber",
+          "text": "Machen Sie das lieber. Und Sie haben ein Jahr Zeit, um zu widersprechen, das wissen viele nicht.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Duarte",
+          "text": "Ein ganzes Jahr? Ich dachte, vier Wochen.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Weber",
+          "text": "Nein. Aber je früher, desto besser. Ich fahre morgen zur Mieterberatung, kommen Sie doch mit.",
+          "pauseAfterMs": 1800,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Milan",
+          "text": "Und, habt ihr die Wohnung bekommen?",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Sander",
+          "text": "Ja! Nach vierzehn Absagen.",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Milan",
+          "text": "Herzlichen Glückwunsch. Was war diesmal anders?",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Sander",
+          "text": "Wir hatten alle Unterlagen sofort dabei – Gehaltsnachweise, Schufa, Mietschuldenfreiheit. Beim Termin waren dreißig Leute, aber nur drei konnten alles zeigen.",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Milan",
+          "text": "Und die Kaution?",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Sander",
+          "text": "Drei Kaltmieten, das war hart. Wir dürfen sie aber in drei Raten zahlen, das hat der Vermieter von sich aus angeboten.",
+          "pauseAfterMs": 1800,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Öz",
+          "text": "Frau Klein, ich wollte etwas ansprechen. Die Musik bei Ihnen am Wochenende ist wirklich laut.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Klein",
+          "text": "Oh. Das tut mir leid, das wusste ich nicht. Mein Sohn übt Schlagzeug.",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Öz",
+          "text": "Ich habe nichts gegen das Üben. Aber sonntags ab acht Uhr morgens ist schwierig, ich arbeite Nachtschicht.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Klein",
+          "text": "Das verstehe ich. Wäre nachmittags besser? Sagen wir zwischen drei und sechs?",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Öz",
+          "text": "Das wäre völlig in Ordnung. Danke, dass Sie das so einfach nehmen.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Klein",
+          "text": "Lieber so, als dass Sie sich bei der Hausverwaltung beschweren.",
+          "pauseAfterMs": 1800,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Adamu",
+          "text": "Guten Tag, ich habe eine Frage zum Wohngeld. Lohnt sich der Antrag bei mir überhaupt?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Berater",
+          "text": "Das hängt von drei Dingen ab: Miete, Einkommen und Zahl der Personen im Haushalt. Wie viele sind Sie?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Adamu",
+          "text": "Ich und zwei Kinder. Ich verdiene",
+          "pauseAfterMs": 350,
+          "slow": false,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Adamu",
+          "text": "1",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "female-1",
+          "rate": 0.78
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Adamu",
+          "text": "900",
+          "pauseAfterMs": 450,
+          "slow": true,
+          "slot": "female-1",
+          "rate": 0.78
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Adamu",
+          "text": "Euro netto.",
+          "pauseAfterMs": 550,
+          "slow": false,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Berater",
+          "text": "Dann kann sich das durchaus lohnen. Viele denken, man bekommt es nur ohne Arbeit, aber das stimmt nicht.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Adamu",
+          "text": "Und wenn ich zu viel verdiene?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Berater",
+          "text": "Dann bekommen Sie eine Ablehnung, mehr passiert nicht. Der Antrag kostet nichts und hat keine Nachteile.",
+          "pauseAfterMs": 300,
+          "slot": "male-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-04",
+      "partId": "hoeren-teil-4",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-04/hoeren-teil-4.mp3",
+      "rate": 1,
+      "speakers": {
+        "Ibrahim Saidi": "male-1",
+        "Kerstin Vogel": "female-1",
+        "Moderatorin": "female-2",
+        "Renate Bühler": "female-3"
+      },
+      "segments": [
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Unser Thema heute: Sollen in unserer Stadt mehr Hochhäuser gebaut werden? Wir haben nachgefragt.",
+          "pauseAfterMs": 1800,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 18: Kerstin Vogel",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Kerstin Vogel",
+          "text": "Ich bin dafür, ganz klar. Wir suchen seit zwei Jahren eine bezahlbare Wohnung für uns und die Kinder. Alle reden davon, dass gebaut werden muss, aber sobald irgendwo ein hohes Haus geplant wird, sind plötzlich alle dagegen. Irgendwo müssen die Leute doch wohnen.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 19: Ibrahim Saidi",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Ibrahim Saidi",
+          "text": "Ich habe selbst zwölf Jahre in einem Hochhaus gewohnt, und ehrlich gesagt war das nicht das Problem. Das Problem war, dass es dort nichts gab – kein Café, keinen Spielplatz, keinen Arzt. Wenn man das mitplant, kann man von mir aus zwanzig Stockwerke bauen.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 20: Renate Bühler",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Renate Bühler",
+          "text": "Mir geht es nicht um die Höhe, sondern darum, wem die Wohnungen am Ende gehören. Bei uns im Viertel hat ein Investor gebaut, und die günstigsten Wohnungen kosten jetzt vierzehn Euro pro Quadratmeter. Damit ist keiner Familie geholfen, die wirklich sucht.",
+          "pauseAfterMs": 300,
+          "slot": "female-3",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-05",
+      "partId": "hoeren-teil-1",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-05/hoeren-teil-1.mp3",
+      "rate": 1,
+      "speakers": {
+        "Herr Farid": "male-1",
+        "Sprechstundenhilfe": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Sehr geehrte Fahrgäste, der ICE 704 nach Hamburg fällt heute aus. Wir bitten Sie, den Regionalexpress um 12 Uhr 40 ab Gleis 5 zu nutzen und in Hannover umzusteigen. Ihre Fahrkarte gilt selbstverständlich weiter.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Farid",
+          "text": "Guten Tag, Frau Lang, hier ist das Reisebüro Sonnenweg. Ihre Buchung nach Lissabon ist bestätigt. Eine Änderung gibt es beim Rückflug: Er geht jetzt um 6 Uhr 15 statt um 11 Uhr. Sagen Sie mir bitte Bescheid, ob Sie den Transfer zum Flughafen früher brauchen.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Fahrgäste, wegen einer Baustelle fährt die Buslinie 12 bis Ende des Monats einen anderen Weg. Die Haltestellen Schillerplatz und Krankenhaus werden nicht bedient. Nutzen Sie bitte die Ersatzhaltestelle an der Post, etwa fünf Minuten zu Fuß.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Sprechstundenhilfe",
+          "text": "Guten Tag, hier ist die Autovermietung Wenzel. Sie haben für Freitag einen Kombi gebucht. Leider ist dieser noch nicht zurück. Wir stellen Ihnen stattdessen kostenlos einen größeren Wagen zur Verfügung, zum gleichen Preis. Melden Sie sich bitte, falls Sie das nicht möchten.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-05",
+      "partId": "hoeren-teil-2",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-05/hoeren-teil-2.mp3",
+      "rate": 1,
+      "speakers": {
+        "Moderatorin": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Zum Verkehr: Auf der A2 in Richtung Dortmund staut es sich nach einem Unfall auf sechs Kilometern. Die linke Spur ist wieder frei. Wer noch nicht losgefahren ist, sollte etwa eine Stunde später starten.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Ein Hinweis für Bahnreisende: Ab Dezember gilt ein neuer Fahrplan. Die meisten Verbindungen bleiben gleich, auf der Strecke nach Köln fährt jedoch stündlich statt alle zwei Stunden ein Zug. Die Fahrzeit verkürzt sich um zehn Minuten.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Und noch etwas für Radfahrende: Die neue Radstation am Bahnhof ist eröffnet. Dort können Sie Ihr Rad sicher abstellen, für einen Euro am Tag oder 60 Euro im Jahr. Reparaturen bietet die Station nicht an.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Aus dem Rathaus: Ab Januar kostet das Parken in der Innenstadt in der ersten Stunde nichts mehr. Danach steigt der Preis allerdings deutlich an. Die Stadt möchte damit erreichen, dass Parkplätze schneller wieder frei werden.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Zum Schluss eine Meldung für Urlaubsreisende: Wer in diesem Sommer fliegt, sollte deutlich mehr Zeit einplanen. An den großen Flughäfen dauert die Kontrolle derzeit im Schnitt vierzig Minuten. Empfohlen werden zweieinhalb Stunden vor Abflug.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-05",
+      "partId": "hoeren-teil-3",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-05/hoeren-teil-3.mp3",
+      "rate": 1,
+      "speakers": {
+        "Beraterin": "female-1",
+        "Frau Okoro": "female-2",
+        "Frau Yilmaz": "female-3",
+        "Herr Novak": "male-1",
+        "Herr Palm": "male-2",
+        "Lena": "female-4",
+        "Marco": "male-3",
+        "Tobias Reich": "male-4"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Okoro",
+          "text": "Du, ich überlege, mir das Deutschlandticket zu holen. Lohnt sich das?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Tobias Reich",
+          "text": "Kommt drauf an. Was zahlst du jetzt im Monat?",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Okoro",
+          "text": "Etwa 70 Euro für die Monatskarte.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Tobias Reich",
+          "text": "Dann auf jeden Fall. Das Ticket kostet weniger und gilt im ganzen Land, auch im Urlaub.",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Okoro",
+          "text": "Und wenn ich es mal nicht brauche?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Tobias Reich",
+          "text": "Du kannst monatlich kündigen, aber immer nur bis zum Zehnten. Danach läuft es einen Monat weiter.",
+          "pauseAfterMs": 1800,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Novak",
+          "text": "Guten Tag, ich möchte den Führerschein machen. Ich habe einen aus Bosnien.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Beraterin",
+          "text": "Dann ist die Frage, wie lange Sie schon hier gemeldet sind.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Novak",
+          "text": "Seit acht Monaten.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Beraterin",
+          "text": "Gut. In den ersten sechs Monaten dürfen Sie mit dem alten Führerschein fahren, danach nicht mehr. Sie müssen ihn umschreiben lassen.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Novak",
+          "text": "Muss ich noch einmal alles machen?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Beraterin",
+          "text": "Nein, nur die theoretische und die praktische Prüfung. Die Fahrstunden können Sie sich sparen, wenn Sie sicher fahren.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Lena",
+          "text": "Wie war denn eure Zugfahrt nach München?",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Palm",
+          "text": "Frag lieber nicht. Zwei Stunden Verspätung.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Lena",
+          "text": "Habt ihr Geld zurückbekommen?",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Palm",
+          "text": "Ja, 25 Prozent vom Fahrpreis. Ab einer Stunde stehen einem 25 Prozent zu, ab zwei Stunden die Hälfte.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Lena",
+          "text": "Und das muss man selbst beantragen?",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Palm",
+          "text": "Genau, mit einem Formular oder in der App. Von allein macht das niemand.",
+          "pauseAfterMs": 1800,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Yilmaz",
+          "text": "Wir wollen im Sommer nach Italien fahren, mit dem Auto. Was meinst du?",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Marco",
+          "text": "Mit den Kindern? Das sind zwölf Stunden.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Yilmaz",
+          "text": "Ich weiß. Deshalb überlege ich, in Österreich zu übernachten und es auf zwei Tage aufzuteilen.",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Marco",
+          "text": "Das würde ich auch machen. Denk aber an die Vignette, sonst wird es teuer.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Yilmaz",
+          "text": "Stimmt, die hatte ich vergessen.",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Marco",
+          "text": "Die gibt es inzwischen digital, du brauchst nur das Kennzeichen. Mach das aber ein paar Tage vorher, sie gilt nicht sofort.",
+          "pauseAfterMs": 300,
+          "slot": "male-3",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-05",
+      "partId": "hoeren-teil-4",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-05/hoeren-teil-4.mp3",
+      "rate": 1,
+      "speakers": {
+        "Katrin Vogel": "female-1",
+        "Moderatorin": "female-2",
+        "Sabine Krause": "female-3"
+      },
+      "segments": [
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Unser Thema heute: Soll der Nahverkehr für alle kostenlos sein? Wir haben nachgefragt.",
+          "pauseAfterMs": 1800,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 18: Katrin Vogel",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Katrin Vogel",
+          "text": "Kostenlos klingt gut, aber ich frage mich, was das bringt. Bei uns auf dem Dorf fährt der Bus dreimal am Tag. Ob der nun nichts kostet oder zwei Euro, ist mir ehrlich gesagt egal – ich komme so oder so nicht zur Arbeit. Erst müsste öfter etwas fahren.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 19: Mehmet Aydın",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Mehmet Aydın: Ich bin dafür, und zwar aus einem einfachen Grund: Ich fahre jeden Tag mit meiner Familie, das sind über 200 Euro im Monat. Für uns wäre das eine echte Entlastung. Und ich glaube, viele würden das Auto stehen lassen, wenn es nichts kostet.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 20: Sabine Krause",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Sabine Krause",
+          "text": "Ich habe lange in Wien gelebt, da kostet das Jahresticket 365 Euro, also einen Euro am Tag. Das war für mich der richtige Weg: günstig genug, dass es niemanden abschreckt, aber nicht umsonst. Was nichts kostet, wird oft auch nicht gepflegt.",
+          "pauseAfterMs": 300,
+          "slot": "female-3",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-06",
+      "partId": "hoeren-teil-1",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-06/hoeren-teil-1.mp3",
+      "rate": 1,
+      "speakers": {
+        "Herr Böhm": "male-1",
+        "Sprechstundenhilfe": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Kundinnen und Kunden, wir möchten Sie darauf hinweisen, dass unsere Kassen ab 19 Uhr 30 nicht mehr besetzt sind. Danach können Sie nur noch an den Selbstbedienungskassen bezahlen, und zwar ausschließlich mit Karte. Bitte planen Sie das ein.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Böhm",
+          "text": "Guten Tag, Frau Kraus, hier ist das Möbelhaus Lindner. Ihr Sofa ist eingetroffen, allerdings in der falschen Farbe – geliefert wurde grau statt blau. Sie können es zum reduzierten Preis behalten oder auf die richtige Lieferung warten, die etwa sechs Wochen dauert. Rufen Sie mich bitte zurück.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Sehr geehrte Kundinnen und Kunden, wegen einer Systemumstellung sind heute keine Überweisungen am Automaten möglich. Bargeld können Sie wie gewohnt abheben. Nutzen Sie für Überweisungen bitte das Online-Banking oder kommen Sie morgen wieder.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Sprechstundenhilfe",
+          "text": "Guten Tag, hier ist der Kundenservice von StromDirekt. Sie hatten uns geschrieben, dass Ihre Abrechnung zu hoch ist. Wir haben das geprüft: Der Zählerstand wurde tatsächlich falsch abgelesen. Sie bekommen eine neue Rechnung und 142 Euro zurück.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-06",
+      "partId": "hoeren-teil-2",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-06/hoeren-teil-2.mp3",
+      "rate": 1,
+      "speakers": {
+        "Moderatorin": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Zum Verbraucherschutz: Wer online etwas bestellt, kann die Ware innerhalb von vierzehn Tagen zurückgeben, ohne einen Grund zu nennen. Neu ist, dass viele Händler die Rücksendung inzwischen nicht mehr bezahlen. Achten Sie deshalb vor dem Kauf auf die Angaben zu den Kosten.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Ein Hinweis der Verbraucherzentrale: An Haustüren sind wieder vermehrt Personen unterwegs, die angeblich den Stromzähler prüfen wollen und dabei Verträge verkaufen. Lassen Sie niemanden ohne Termin in die Wohnung. Echte Mitarbeitende kündigen sich immer schriftlich an.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Und noch etwas zum Sparen: Die Preise für Lebensmittel sind im letzten Jahr um knapp drei Prozent gestiegen. Am stärksten betroffen sind Obst und Gemüse. Deutlich günstiger geworden ist dagegen Kaffee.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Aus der Stadt: Der Wochenmarkt nimmt ab sofort auch Kartenzahlung an. Die Stände waren dazu nicht verpflichtet, haben sich aber gemeinsam dafür entschieden. Wer möchte, kann natürlich weiterhin bar bezahlen.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Zum Schluss: Ab dem ersten Juli gilt für Handyverträge eine kürzere Kündigungsfrist. Nach dem ersten Jahr können Sie jederzeit mit einem Monat Frist kündigen. Bisher verlängerten sich viele Verträge automatisch um ein ganzes Jahr.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-06",
+      "partId": "hoeren-teil-3",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-06/hoeren-teil-3.mp3",
+      "rate": 1,
+      "speakers": {
+        "Frau Adamu": "female-1",
+        "Frau Ivanova": "female-2",
+        "Herr Palm": "male-1",
+        "Herr Sadiq": "male-2",
+        "Herr Weber": "male-3",
+        "Jonas Frey": "male-4",
+        "Merve": "female-3",
+        "Mitarbeiterin": "female-4"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Ivanova",
+          "text": "Ich habe online eine Jacke bestellt, aber sie ist zu klein. Kann ich die zurückschicken?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Weber",
+          "text": "Klar, du hast vierzehn Tage Zeit. Hast du das Paket noch?",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Ivanova",
+          "text": "Ja, alles da. Nur den Rücksendeschein finde ich nicht.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Weber",
+          "text": "Den kannst du meistens im Kundenkonto ausdrucken. Wichtig ist, dass du einen Beleg von der Post behältst.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Ivanova",
+          "text": "Warum das?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Weber",
+          "text": "Damit du beweisen kannst, dass du es abgeschickt hast. Ohne Beleg stehst du schlecht da, wenn das Paket verloren geht.",
+          "pauseAfterMs": 1800,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Sadiq",
+          "text": "Guten Tag, ich möchte ein Konto eröffnen.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiterin",
+          "text": "Gern. Bringen Sie bitte Ihren Ausweis und eine Meldebescheinigung mit.",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Sadiq",
+          "text": "Die Meldebescheinigung habe ich noch nicht, ich bin gerade erst umgezogen.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiterin",
+          "text": "Kein Problem, dann reicht vorerst der Mietvertrag. Die Bescheinigung reichen Sie später nach.",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Sadiq",
+          "text": "Und was kostet das Konto?",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiterin",
+          "text": "Bei uns nichts, solange monatlich Geld eingeht. Ohne regelmäßigen Eingang sind es vier Euro im Monat.",
+          "pauseAfterMs": 1800,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Merve",
+          "text": "Du, ich habe gestern einen Anruf bekommen. Angeblich habe ich bei einem Gewinnspiel mitgemacht.",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Palm",
+          "text": "Und, hast du?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Merve",
+          "text": "Nein, nie. Der Mann wollte trotzdem meine Kontonummer.",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Palm",
+          "text": "Auf keinen Fall! Hast du sie ihm gegeben?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Merve",
+          "text": "Nein, ich habe aufgelegt. Aber jetzt bin ich unsicher, ob ich etwas machen muss.",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Palm",
+          "text": "Wenn du nichts gesagt hast, ist alles in Ordnung. Notier dir nur die Nummer und melde sie der Verbraucherzentrale, damit andere gewarnt werden.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Adamu",
+          "text": "Mein Handyvertrag läuft im Mai aus. Soll ich verlängern oder wechseln?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Frey",
+          "text": "Was zahlst du denn?",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Adamu",
+          "text": "39 Euro im Monat.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Frey",
+          "text": "Das ist viel. Ich zahle 15 für dasselbe. Ruf einfach bei deinem Anbieter an und sag, dass du kündigen willst.",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Adamu",
+          "text": "Einfach so?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Frey",
+          "text": "Ja. In neun von zehn Fällen bekommst du sofort ein besseres Angebot. Und wenn nicht, wechselst du wirklich – deine Nummer kannst du mitnehmen.",
+          "pauseAfterMs": 300,
+          "slot": "male-4",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-06",
+      "partId": "hoeren-teil-4",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-06/hoeren-teil-4.mp3",
+      "rate": 1,
+      "speakers": {
+        "Ali Rahimi": "male-1",
+        "Christine Ludwig": "female-1",
+        "Moderatorin": "female-2",
+        "Ute Brandner": "female-3"
+      },
+      "segments": [
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Unser Thema heute: Soll man Bargeld abschaffen? Wir haben nachgefragt.",
+          "pauseAfterMs": 1800,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 18: Ute Brandner",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Ute Brandner",
+          "text": "Ich bin dagegen, und zwar nicht aus Gewohnheit. Ich führe einen kleinen Kiosk. Bei jeder Kartenzahlung geht ein Teil an den Anbieter, bei kleinen Beträgen ist das richtig viel. Wenn jemand einen Kaugummi mit Karte zahlt, verdiene ich daran praktisch nichts.",
+          "pauseAfterMs": 1800,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 19: Ali Rahimi",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Ali Rahimi",
+          "text": "Für mich ist die Frage vor allem eine Frage der Kontrolle. Mit Bargeld sieht niemand, was ich kaufe. Sobald alles über Karte läuft, weiß irgendeine Firma genau, wann ich wo war und was ich gegessen habe. Das ist mir unangenehm, auch wenn ich nichts zu verbergen habe.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 20: Christine Ludwig",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Christine Ludwig",
+          "text": "Ich zahle seit Jahren fast alles mit dem Handy und finde das großartig. Aber abschaffen? Meine Mutter ist 84 und kommt mit dem Automaten schon kaum zurecht. Solange es Menschen gibt, die das nicht können, muss beides möglich bleiben.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-07",
+      "partId": "hoeren-teil-1",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-07/hoeren-teil-1.mp3",
+      "rate": 1,
+      "speakers": {
+        "Herr Böhm": "male-1",
+        "Sprechstundenhilfe": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Bewohnerinnen und Bewohner, ab Montag stehen im Hof neue Tonnen für Biomüll. Bitte werfen Sie dort keine Plastiktüten hinein, auch keine sogenannten kompostierbaren. Für Essensreste nutzen Sie am besten Zeitungspapier.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Böhm",
+          "text": "Guten Tag, Frau Sander, hier ist die Energieberatung. Ihr Termin für den Stromspar-Check steht: Donnerstag um 14 Uhr. Ich brauche von Ihnen die letzten beiden Jahresabrechnungen. Ohne die Zahlen kann ich Ihnen nicht sagen, wo Sie sparen können.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Achtung, eine Durchsage: Wegen des starken Windes bleibt der Stadtpark heute geschlossen. Es besteht die Gefahr, dass Äste herunterfallen. Wir öffnen wieder, sobald die Feuerwehr den Park freigegeben hat, voraussichtlich morgen Mittag.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Sprechstundenhilfe",
+          "text": "Guten Tag, hier ist das Umweltamt. Sie hatten nach der Förderung für ein Balkonkraftwerk gefragt. Die Stadt zahlt 200 Euro dazu, allerdings nur, wenn Sie den Antrag vor dem Kauf stellen. Wer schon gekauft hat, bekommt leider nichts.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-07",
+      "partId": "hoeren-teil-2",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-07/hoeren-teil-2.mp3",
+      "rate": 1,
+      "speakers": {
+        "Moderatorin": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Zum Wetter und zur Umwelt: Der vergangene Sommer war in unserer Region der trockenste seit Beginn der Messungen. Die Stadt bittet deshalb darum, Rasen nicht mehr zu bewässern. Bäume dürfen und sollen dagegen weiterhin gegossen werden.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Ein Hinweis für Mieterinnen und Mieter: Ab Januar müssen Vermieter einen Teil der Heizkosten selbst tragen, wenn das Gebäude besonders schlecht gedämmt ist. Für gut gedämmte Häuser ändert sich nichts.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Und noch etwas aus der Stadt: Der Wertstoffhof hat ab April länger geöffnet, samstags jetzt bis 16 Uhr. Die Abgabe bleibt für Privatpersonen kostenlos, für Betriebe wird sie dagegen teurer.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Aus den Schulen: Zwölf Grundschulen im Kreis machen bei einem Projekt zum Energiesparen mit. Die Hälfte des eingesparten Geldes dürfen die Schulen behalten und selbst ausgeben. Im ersten Jahr kamen",
+          "pauseAfterMs": 350,
+          "slow": false,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "so 18",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "female-1",
+          "rate": 0.78
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "000",
+          "pauseAfterMs": 450,
+          "slow": true,
+          "slot": "female-1",
+          "rate": 0.78
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Euro zusammen.",
+          "pauseAfterMs": 1800,
+          "slow": false,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Zum Schluss: Das Repair-Café im Bürgerzentrum sucht dringend Helferinnen und Helfer, besonders für Nähmaschinen und Elektrogeräte. Vorkenntnisse sind erwünscht, eine Ausbildung ist aber keine Bedingung.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-07",
+      "partId": "hoeren-teil-3",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-07/hoeren-teil-3.mp3",
+      "rate": 1,
+      "speakers": {
+        "Beraterin": "female-1",
+        "Frau Delgado": "female-2",
+        "Frau Kettner": "female-3",
+        "Herr Ayala": "male-1",
+        "Herr Novak": "male-2",
+        "Herr Palm": "male-3",
+        "Jonas Frey": "male-4",
+        "Merve": "female-4"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Delgado",
+          "text": "Wir überlegen, auf eine Wärmepumpe umzusteigen. Habt ihr das nicht gemacht?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Ayala",
+          "text": "Ja, letztes Jahr. Aber ehrlich: Erst haben wir die Fenster tauschen lassen.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Delgado",
+          "text": "Warum zuerst die Fenster?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Ayala",
+          "text": "Weil die Wärmepumpe sonst gegen die Kälte anarbeitet. Unser Berater hat gesagt, ohne Dämmung wird der Strom teurer als das alte Gas.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Delgado",
+          "text": "Das klingt logisch. Und die Förderung?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Ayala",
+          "text": "Die gibt es für beides. Aber du musst den Antrag stellen, bevor der Handwerker anfängt – das haben wir fast verpasst.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Merve",
+          "text": "Sag mal, trennst du eigentlich richtig? Ich blicke bei den Tonnen nicht durch.",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Palm",
+          "text": "Bei den meisten Sachen ist es einfacher, als man denkt. Verpackungen in die gelbe Tonne, Papier ins Blaue.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Merve",
+          "text": "Und die Pizzaschachtel?",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Palm",
+          "text": "Wenn sie stark verschmutzt ist, gehört sie in den Restmüll. Fett macht das Altpapier kaputt.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Merve",
+          "text": "Das habe ich immer falsch gemacht.",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Palm",
+          "text": "Machen viele. Es gibt übrigens eine App der Stadt, da tippst du das Wort ein und bekommst die richtige Tonne.",
+          "pauseAfterMs": 1800,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Novak",
+          "text": "Guten Tag, ich möchte mich über den Stromtarif beraten lassen. Meine Rechnung ist sehr hoch.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Beraterin",
+          "text": "Wie viele Personen leben im Haushalt?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Novak",
+          "text": "Zwei. Und wir zahlen",
+          "pauseAfterMs": 350,
+          "slow": false,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Novak",
+          "text": "1",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "male-2",
+          "rate": 0.78
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Novak",
+          "text": "400",
+          "pauseAfterMs": 450,
+          "slow": true,
+          "slot": "male-2",
+          "rate": 0.78
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Novak",
+          "text": "Euro im Jahr.",
+          "pauseAfterMs": 550,
+          "slow": false,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Beraterin",
+          "text": "Das ist deutlich zu viel. Bevor wir über den Anbieter reden, sollten wir schauen, wo der Strom hingeht. Haben Sie einen alten Kühlschrank?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Novak",
+          "text": "Ja, der ist von meinen Eltern, ungefähr zwanzig Jahre alt.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Beraterin",
+          "text": "Der allein kostet Sie im Jahr wahrscheinlich 150 Euro extra. Ein Anbieterwechsel bringt Ihnen weniger als ein neues Gerät.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Frey",
+          "text": "Kommst du am Samstag zur Müllsammelaktion?",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kettner",
+          "text": "Ich weiß nicht. Bringt das wirklich etwas? Nächste Woche liegt doch wieder alles da.",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Frey",
+          "text": "Klar liegt wieder was da. Aber letztes Jahr haben wir 40 Säcke gesammelt, und die Stadt hat danach zwei zusätzliche Mülleimer aufgestellt.",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kettner",
+          "text": "Das wusste ich nicht.",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Frey",
+          "text": "Deshalb machen wir auch Fotos und schicken sie ans Amt. Sonst passiert nichts.",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kettner",
+          "text": "Gut, überredet. Ich bringe meinen Sohn mit.",
+          "pauseAfterMs": 300,
+          "slot": "female-3",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-07",
+      "partId": "hoeren-teil-4",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-07/hoeren-teil-4.mp3",
+      "rate": 1,
+      "speakers": {
+        "Andrea Falk": "female-1",
+        "Hakan Öztürk": "male-1",
+        "Lisa Wagner": "female-2",
+        "Moderatorin": "female-3"
+      },
+      "segments": [
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Unser Thema heute: Sollen Kurzstreckenflüge innerhalb Deutschlands verboten werden? Wir haben nachgefragt.",
+          "pauseAfterMs": 1800,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 18: Andrea Falk",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Andrea Falk",
+          "text": "Ein Verbot halte ich für den falschen Weg, obwohl ich das Ziel richtig finde. Ich bin von Köln nach Berlin dreimal mit der Bahn gefahren und dreimal zu spät angekommen. Solange das so ist, wird ein Verbot die Leute nur wütend machen. Erst muss der Zug zuverlässig sein.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 19: Hakan Öztürk",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Hakan Öztürk",
+          "text": "Ich fliege beruflich etwa zwanzigmal im Jahr, und ehrlich gesagt bräuchte ich davon die Hälfte nicht. Vieles ginge auch online, wir machen es nur aus Gewohnheit. Ich würde mir wünschen, dass die Firmen selbst strenger sind – dann bräuchte es gar kein Verbot.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 20: Lisa Wagner",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Lisa Wagner",
+          "text": "Mich ärgert diese Diskussion. Ein Flug von Hamburg nach München kostet manchmal 29 Euro, der Zug 120. Solange das billigere Verkehrsmittel das schmutzigere ist, ist doch klar, wie sich Leute mit wenig Geld entscheiden. Das muss man umdrehen.",
+          "pauseAfterMs": 300,
+          "slot": "female-2",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-08",
+      "partId": "hoeren-teil-1",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-08/hoeren-teil-1.mp3",
+      "rate": 1,
+      "speakers": {
+        "Herr Böhm": "male-1",
+        "Sprechstundenhilfe": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Gäste, das Freibad schließt heute wegen des Gewitters bereits um 17 Uhr. Ihre Tageskarte behält bis morgen ihre Gültigkeit, bringen Sie sie einfach mit. Bitte verlassen Sie die Becken jetzt zügig.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Böhm",
+          "text": "Guten Tag, Frau Sander, hier ist der TSV Lindenberg. Ihre Tochter ist für das Probetraining angemeldet, allerdings hat sich der Termin geändert: nicht Dienstag, sondern Donnerstag um 16 Uhr 30. Sportsachen und Hallenschuhe bitte mitbringen.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Sehr geehrte Besucherinnen und Besucher, für die Ausstellung im Obergeschoss brauchen Sie ein Zeitfenster-Ticket. Der Eintritt ins Museum allein reicht nicht. Tickets bekommen Sie an der Kasse, solange noch Plätze frei sind.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Sprechstundenhilfe",
+          "text": "Guten Tag, hier ist die Volkshochschule. Ihr Fotokurs am Samstag findet statt, wir treffen uns aber nicht im Kursraum, sondern direkt am Stadtpark, am Eingang Nordtor. Denken Sie an einen vollen Akku.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-08",
+      "partId": "hoeren-teil-2",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-08/hoeren-teil-2.mp3",
+      "rate": 1,
+      "speakers": {
+        "Moderatorin": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Zum Sport: Der Handballverein Lindenberg spielt am Samstag zum ersten Mal in der neuen Halle. Der Eintritt ist an diesem Tag für alle frei. Die Vereinsleitung bittet allerdings darum, mit Bus oder Rad zu kommen, weil es kaum Parkplätze gibt.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Ein Hinweis für Familien: Die Stadtbibliothek verleiht ab sofort nicht nur Bücher, sondern auch Spiele, Musikinstrumente und Werkzeug. Der Ausweis gilt dafür ohne Aufpreis, die Leihfrist beträgt allerdings nur zwei Wochen.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Und noch etwas aus den Vereinen: Immer weniger Menschen übernehmen ein Ehrenamt im Vorstand. Bei drei Vereinen im Kreis konnte zuletzt kein Kassenwart gefunden werden. Ohne Vorstand darf ein Verein rechtlich nicht weiterarbeiten.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Zum Kulturprogramm: Das Sommerkino im Stadtpark beginnt am 3. Juli. Gezeigt werden zehn Filme, alle mit deutschen Untertiteln – auch die deutschen. Der Eintritt kostet 5 Euro, Kinder unter zwölf zahlen nichts.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Zum Schluss: Der Schachverein sucht keine neuen Mitglieder mehr, sondern Räume. Der bisherige Treffpunkt im Gemeindehaus wird umgebaut. Wer einen Raum für dienstagabends kennt, meldet sich bitte im Bürgerzentrum.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-08",
+      "partId": "hoeren-teil-3",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-08/hoeren-teil-3.mp3",
+      "rate": 1,
+      "speakers": {
+        "Frau Brinkmann": "female-1",
+        "Frau Delgado": "female-2",
+        "Frau Kettner": "female-3",
+        "Herr Ayala": "male-1",
+        "Jonas Frey": "male-2",
+        "Merve": "female-4",
+        "Mitarbeiter": "male-3",
+        "Tobias Reich": "male-4"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kettner",
+          "text": "Ich überlege, in den Sportverein einzutreten. Aber 15 Euro im Monat sind schon viel.",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Tobias Reich",
+          "text": "Für alle Kurse, die du willst. Rechne mal aus, was ein Fitnessstudio kostet.",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kettner",
+          "text": "Stimmt. Und wenn es mir nicht gefällt?",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Tobias Reich",
+          "text": "Zweimal darfst du kostenlos zum Probetraining. Danach kannst du immer noch nein sagen.",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kettner",
+          "text": "Und die Kündigung?",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Tobias Reich",
+          "text": "Da musst du aufpassen: Man kann nur zum Jahresende kündigen, drei Monate vorher. Das übersehen viele.",
+          "pauseAfterMs": 1800,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Ayala",
+          "text": "Wir suchen für unser Sommerfest noch Helfer. Hättest du Lust?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Merve",
+          "text": "Kommt darauf an, was ich machen müsste.",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Ayala",
+          "text": "Am liebsten Kuchenverkauf, zwei Stunden. Aufbauen brauchen wir dich nicht, das machen die Jugendlichen.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Merve",
+          "text": "Zwei Stunden schaffe ich. Aber ich kann erst ab drei.",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Ayala",
+          "text": "Passt perfekt, die zweite Schicht geht von drei bis fünf.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Merve",
+          "text": "Dann trag mich ein. Und meine Schwester bringt Kuchen mit.",
+          "pauseAfterMs": 1800,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Brinkmann",
+          "text": "Guten Tag, ich möchte meinen Sohn zum Schwimmkurs anmelden. Er ist sechs.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiter",
+          "text": "Da haben Sie Glück, im Anfängerkurs sind noch zwei Plätze frei. Kann er sich schon über Wasser halten?",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Brinkmann",
+          "text": "Nein, gar nicht.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiter",
+          "text": "Kein Problem, dafür ist der Kurs da. Wichtig ist nur, dass Sie in den ersten Stunden dabeibleiben – viele Kinder haben am Anfang Angst.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Brinkmann",
+          "text": "Muss ich mit ins Wasser?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiter",
+          "text": "Nein, am Beckenrand reicht völlig.",
+          "pauseAfterMs": 1800,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Frey",
+          "text": "Wie war eigentlich dein Vereinsausflug?",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Delgado",
+          "text": "Anstrengend. Wir waren zu fünfzehnt wandern, und keiner hatte die Strecke vorher angeschaut.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Frey",
+          "text": "Oh je.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Delgado",
+          "text": "Zwölf Kilometer statt sechs, und zwei Ältere sind kaum noch angekommen. Nächstes Mal fahre ich die Strecke vorher ab, das habe ich gelernt.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Frey",
+          "text": "Und sonst?",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Delgado",
+          "text": "Sonst war es schön. Aber ich sage es jetzt jedem: Bei einer Gruppe muss man sich nach den Langsamsten richten, nicht nach den Schnellsten.",
+          "pauseAfterMs": 300,
+          "slot": "female-2",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-08",
+      "partId": "hoeren-teil-4",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-08/hoeren-teil-4.mp3",
+      "rate": 1,
+      "speakers": {
+        "Amira Ben Salah": "female-1",
+        "Dawid Nowak": "male-1",
+        "Moderatorin": "female-2",
+        "Silke Hartmann": "female-3"
+      },
+      "segments": [
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Unser Thema heute: Soll Sport im Verein für Kinder kostenlos sein? Wir haben nachgefragt.",
+          "pauseAfterMs": 1800,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 18: Silke Hartmann",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Silke Hartmann",
+          "text": "Ich trainiere seit zwölf Jahren ehrenamtlich eine Mädchenmannschaft. Der Beitrag ist bei uns nicht das Problem, zwölf Euro im Monat kann fast jeder aufbringen. Was die Familien wirklich abschreckt, sind die Fahrten zu Auswärtsspielen und die Ausrüstung. Darüber redet nur niemand.",
+          "pauseAfterMs": 1800,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 19: Dawid Nowak",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Dawid Nowak",
+          "text": "Wenn etwas nichts kostet, wird es leider auch nicht ernst genommen. Bei uns im Verein haben wir ein Jahr lang beitragsfrei angeboten, und die Hälfte der Angemeldeten ist nach vier Wochen nicht mehr gekommen. Ein kleiner Betrag sorgt dafür, dass man hingeht.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 20: Amira Ben Salah",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Amira Ben Salah",
+          "text": "Für uns war der Beitrag sehr wohl die Hürde. Bei drei Kindern sind das schnell vierzig Euro im Monat, und dann kommt noch das Ticket für den Bus dazu. Wir haben zwei Jahre gewartet, bis wir uns das leisten konnten. Deshalb bin ich klar dafür.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-09",
+      "partId": "hoeren-teil-1",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-09/hoeren-teil-1.mp3",
+      "rate": 1,
+      "speakers": {
+        "Herr Böhm": "male-1",
+        "Sprechstundenhilfe": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Sehr geehrte Kundinnen und Kunden, wegen Wartungsarbeiten ist unser Online-Banking heute Nacht zwischen 23 und 4 Uhr nicht erreichbar. Karten und Automaten funktionieren wie gewohnt. Wir bitten Sie, Überweisungen vorher oder danach zu erledigen.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Böhm",
+          "text": "Guten Tag, Frau Petrova, hier ist der Kundendienst von NetzPlus. Ihr Internetanschluss wird am Mittwoch freigeschaltet. Der Techniker kommt zwischen 8 und 12 Uhr, jemand muss zu Hause sein. Der Router liegt bereits bei Ihnen im Briefkasten.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Liebe Besucherinnen und Besucher, das WLAN in unserer Bibliothek ist für alle frei nutzbar, auch ohne Ausweis. Bitte beachten Sie, dass Sie am Drucker nur mit einer Kopierkarte bezahlen können. Karten gibt es an der Information.",
+          "pauseAfterMs": 1800,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Ansage 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Sprechstundenhilfe",
+          "text": "Guten Tag, hier ist die Volkshochschule Lindenberg. Sie hatten sich für den Kurs „Smartphone für Einsteiger“ angemeldet. Der Kurs ist leider ausgebucht. Wir haben Sie auf die Warteliste gesetzt und melden uns, sobald ein Platz frei wird.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-09",
+      "partId": "hoeren-teil-2",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-09/hoeren-teil-2.mp3",
+      "rate": 1,
+      "speakers": {
+        "Moderatorin": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Zur Digitalisierung: Ab dem nächsten Jahr können Sie Anträge bei der Stadtverwaltung vollständig online stellen. Wer keinen Computer hat oder sich unsicher fühlt, bekommt weiterhin Hilfe im Bürgerbüro. Niemand muss etwas allein am Bildschirm erledigen.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Ein Hinweis der Polizei: Zurzeit sind wieder gefälschte SMS im Umlauf, angeblich von Paketdiensten. Klicken Sie auf keinen Fall auf den Link. Echte Paketdienste fordern Sie niemals per SMS auf, Gebühren zu bezahlen.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Und noch etwas aus den Schulen: Ab Februar sind Handys an den weiterführenden Schulen im Kreis während des Unterrichts verboten. In den Pausen dürfen die Geräte weiterhin benutzt werden – anders, als zunächst geplant war.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Aus der Bibliothek: Das digitale Angebot wird ausgebaut. Mit Ihrem Ausweis können Sie ab sofort auch Zeitungen und Zeitschriften online lesen, und zwar von zu Hause aus. Der Ausweis kostet weiterhin 15 Euro im Jahr.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Meldung 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Zum Schluss: Die Stadt sucht Ehrenamtliche für ihre Digital-Sprechstunde. Gefragt sind Menschen, die Älteren geduldig zeigen, wie man Online-Termine bucht oder Fotos verschickt. Technisches Wissen auf Expertenniveau ist nicht nötig.",
+          "pauseAfterMs": 300,
+          "slot": "female-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-09",
+      "partId": "hoeren-teil-3",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-09/hoeren-teil-3.mp3",
+      "rate": 1,
+      "speakers": {
+        "Frau Kraus": "female-1",
+        "Frau Sander": "female-2",
+        "Herr Ayala": "male-1",
+        "Herr Nowak": "male-2",
+        "Herr Palm": "male-3",
+        "Jonas Frey": "male-4",
+        "Merve": "female-3",
+        "Mitarbeiterin": "female-4"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Sander",
+          "text": "Mein Vater bekommt ständig komische Anrufe. Angeblich von der Bank.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Ayala",
+          "text": "Da muss er aufpassen. Hat er schon mal etwas gesagt?",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Sander",
+          "text": "Nein, zum Glück legt er immer auf.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Ayala",
+          "text": "Sehr gut. Eine Bank fragt nie am Telefon nach der PIN, das ist die wichtigste Regel.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Sander",
+          "text": "Soll ich die Nummer sperren lassen?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Ayala",
+          "text": "Das bringt wenig, die wechseln ständig. Besser ist, dass er weiß, was er nicht sagen darf. Rede noch mal in Ruhe mit ihm.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Merve",
+          "text": "Hast du das Foto von der Feier in die Gruppe gestellt?",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Frey",
+          "text": "Ja, warum?",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Merve",
+          "text": "Auf dem Bild sind die Kinder von Frau Ivanova drauf. Sie will das nicht, sie hat es mir mal gesagt.",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Frey",
+          "text": "Das wusste ich nicht. Ich lösche es sofort.",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Merve",
+          "text": "Danke. Am besten fragst du nächstes Mal kurz, bevor du etwas hochlädst.",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Jonas Frey",
+          "text": "Mache ich. Ich dachte ehrlich gesagt, in einer geschlossenen Gruppe ist das egal.",
+          "pauseAfterMs": 1800,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Nowak",
+          "text": "Guten Tag, ich möchte meinen Internetvertrag kündigen. Ich ziehe um.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiterin",
+          "text": "An welche Adresse denn?",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Nowak",
+          "text": "Nach Bremen.",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiterin",
+          "text": "Dann prüfe ich zuerst, ob wir dort liefern können. Wenn ja, nehmen Sie den Vertrag einfach mit – kündigen dürfen Sie in dem Fall nämlich nicht.",
+          "pauseAfterMs": 550,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Nowak",
+          "text": "Und wenn Sie dort nicht liefern?",
+          "pauseAfterMs": 550,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Mitarbeiterin",
+          "text": "Dann können Sie mit drei Monaten Frist kündigen. Sie brauchen dafür nur die Meldebescheinigung.",
+          "pauseAfterMs": 1800,
+          "slot": "female-4",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kraus",
+          "text": "Wie machst du das eigentlich mit den Hausaufgaben und dem Handy?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Palm",
+          "text": "Bei uns liegt es während der Hausaufgaben in der Küche. Das war anfangs ein Kampf.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kraus",
+          "text": "Und jetzt?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Palm",
+          "text": "Jetzt geht es. Was geholfen hat: Ich lege meins daneben. Solange ich selbst am Handy hänge, kann ich schlecht etwas verlangen.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Kraus",
+          "text": "Da ist was dran.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Palm",
+          "text": "Und danach dürfen sie eine Stunde. Ganz verbieten funktioniert sowieso nicht, das habe ich aufgegeben.",
+          "pauseAfterMs": 300,
+          "slot": "male-3",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b1-09",
+      "partId": "hoeren-teil-4",
+      "level": "B1",
+      "language": "de",
+      "output": "/audio/de/b1/uebungstest-b1-09/hoeren-teil-4.mp3",
+      "rate": 1,
+      "speakers": {
+        "Emre Arslan": "male-1",
+        "Georg Timm": "male-2",
+        "Marion Petsch": "female-1",
+        "Moderatorin": "female-2"
+      },
+      "segments": [
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "Unser Thema heute: Sollen Handys an Schulen verboten werden? Wir haben nachgefragt.",
+          "pauseAfterMs": 1800,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 18: Marion Petsch",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Marion Petsch",
+          "text": "Ich unterrichte seit zwanzig Jahren, und seit wir die Handys einsammeln, ist es in den Pausen wieder laut auf dem Hof – im positiven Sinn. Die Kinder reden miteinander, sie streiten auch mal wieder. Vorher saßen fünfzehn Jugendliche nebeneinander und jeder schaute auf seinen Bildschirm.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 19: Emre Arslan",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Emre Arslan",
+          "text": "Ein Verbot löst das Problem nicht, es verschiebt es nur auf den Nachmittag. Meine Tochter ist dreizehn und muss lernen, damit umzugehen – am besten dort, wo Erwachsene daneben stehen. In der Schule könnte man das üben, stattdessen tut man so, als gäbe es das Gerät nicht.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Aussage 20: Georg Timm",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Georg Timm",
+          "text": "Grundsätzlich bin ich einverstanden, aber man muss an die denken, die es wirklich brauchen. Mein Sohn ist Diabetiker und misst seinen Blutzucker über eine App. Wenn pauschal alles eingesammelt wird, entstehen genau die Probleme, die man vermeiden wollte.",
+          "pauseAfterMs": 300,
+          "slot": "male-2",
+          "rate": 1
         }
       ]
     }

@@ -28,6 +28,12 @@ export interface TaskProps {
   mode: "input" | "review";
   /** Shared answer options, supplied by the enclosing block. */
   optionPool?: { id: string; text: string }[];
+  /**
+   * True when the block prints the options as an a–f list. The dropdown then
+   * leads with the letter, so a sentence truncated on a narrow phone can still
+   * be matched against the printed list.
+   */
+  letteredOptions?: boolean;
   selfRating?: SelfRating;
   onSelfRating?: (rating: SelfRating) => void;
 }
@@ -221,8 +227,11 @@ function Matching({
   onChange,
   mode,
   optionPool,
+  letteredOptions,
 }: TaskProps & { task: MatchingTask }) {
   const options = optionPool ?? [];
+  const label = (option: { id: string; text: string }) =>
+    letteredOptions ? `${option.id} – ${option.text}` : option.text;
   const chosen = typeof value === "string" ? value : "";
   const wrong = mode === "review" && chosen !== task.solution;
 
@@ -239,7 +248,7 @@ function Matching({
         <option value="">Bitte wählen …</option>
         {options.map((option) => (
           <option key={option.id} value={option.id}>
-            {option.text}
+            {label(option)}
           </option>
         ))}
       </select>
@@ -247,7 +256,10 @@ function Matching({
       {mode === "review" && wrong && (
         <p className="mt-2 text-xs text-rose-700">
           Richtig wäre:{" "}
-          {options.find((o) => o.id === task.solution)?.text ?? task.solution}
+          {(() => {
+            const right = options.find((o) => o.id === task.solution);
+            return right ? label(right) : task.solution;
+          })()}
         </p>
       )}
     </div>

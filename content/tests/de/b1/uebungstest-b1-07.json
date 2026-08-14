@@ -1,0 +1,1140 @@
+{
+  "id": "uebungstest-b1-07",
+  "language": "de",
+  "level": "B1",
+  "title": "Übungstest B1 – Nr. 7",
+  "description": "Ein vollständiger Übungstest auf Niveau B1 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Umwelt und Energie.",
+  "draft": true,
+  "sections": [
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 25,
+      "description": "Sie hören Ansagen, kurze Informationen aus dem Radio, Gespräche aus dem Alltag und drei Meinungen zu einem Thema. Insgesamt bearbeiten Sie 20 Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Ansagen und Durchsagen",
+          "instructions": "Sie hören vier Ansagen: am Telefon und an öffentlichen Orten. Wählen Sie zu jeder Ansage die richtige Antwort. Sie hören jede Ansage zweimal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-07/hoeren-teil-1.mp3",
+            "transcript": "Ansage 1\nLiebe Bewohnerinnen und Bewohner, ab Montag stehen im Hof neue Tonnen für Biomüll. Bitte werfen Sie dort keine Plastiktüten hinein, auch keine sogenannten kompostierbaren. Für Essensreste nutzen Sie am besten Zeitungspapier.\n\nAnsage 2\nHerr Böhm: Guten Tag, Frau Sander, hier ist die Energieberatung. Ihr Termin für den Stromspar-Check steht: Donnerstag um 14 Uhr. Ich brauche von Ihnen die letzten beiden Jahresabrechnungen. Ohne die Zahlen kann ich Ihnen nicht sagen, wo Sie sparen können.\n\nAnsage 3\nAchtung, eine Durchsage: Wegen des starken Windes bleibt der Stadtpark heute geschlossen. Es besteht die Gefahr, dass Äste herunterfallen. Wir öffnen wieder, sobald die Feuerwehr den Park freigegeben hat, voraussichtlich morgen Mittag.\n\nAnsage 4\nSprechstundenhilfe: Guten Tag, hier ist das Umweltamt. Sie hatten nach der Förderung für ein Balkonkraftwerk gefragt. Die Stadt zahlt 200 Euro dazu, allerdings nur, wenn Sie den Antrag vor dem Kauf stellen. Wer schon gekauft hat, bekommt leider nichts."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-ansage-1",
+              "prompt": "Ansage 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-1",
+                  "prompt": "Was darf nicht in die Biotonne?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Kompostierbare Tüten."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Essensreste."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Zeitungspapier."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… keine Plastiktüten hinein, auch keine sogenannten kompostierbaren.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-2",
+              "prompt": "Ansage 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Was soll Frau Sander bereitlegen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Den Mietvertrag."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die letzten Jahresabrechnungen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ihre Zählernummer."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ich brauche von Ihnen die letzten beiden Jahresabrechnungen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-3",
+              "prompt": "Ansage 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-3",
+                  "prompt": "Warum ist der Park geschlossen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Wegen Bauarbeiten."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Wegen einer Veranstaltung."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Wegen des Windes."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Wegen des starken Windes bleibt der Stadtpark heute geschlossen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-ansage-4",
+              "prompt": "Ansage 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Wann gibt es die Förderung?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nur bei einem Antrag vor dem Kauf."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Nur für Hauseigentümer."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nur im ersten Halbjahr."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… nur, wenn Sie den Antrag vor dem Kauf stellen.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Kurze Informationen aus dem Radio",
+          "instructions": "Sie hören fünf kurze Meldungen aus dem Radio. Wählen Sie zu jeder Meldung die richtige Antwort. Sie hören die Meldungen einmal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-07/hoeren-teil-2.mp3",
+            "transcript": "Meldung 1\nModeratorin: Zum Wetter und zur Umwelt: Der vergangene Sommer war in unserer Region der trockenste seit Beginn der Messungen. Die Stadt bittet deshalb darum, Rasen nicht mehr zu bewässern. Bäume dürfen und sollen dagegen weiterhin gegossen werden.\n\nMeldung 2\nModeratorin: Ein Hinweis für Mieterinnen und Mieter: Ab Januar müssen Vermieter einen Teil der Heizkosten selbst tragen, wenn das Gebäude besonders schlecht gedämmt ist. Für gut gedämmte Häuser ändert sich nichts.\n\nMeldung 3\nModeratorin: Und noch etwas aus der Stadt: Der Wertstoffhof hat ab April länger geöffnet, samstags jetzt bis 16 Uhr. Die Abgabe bleibt für Privatpersonen kostenlos, für Betriebe wird sie dagegen teurer.\n\nMeldung 4\nModeratorin: Aus den Schulen: Zwölf Grundschulen im Kreis machen bei einem Projekt zum Energiesparen mit. Die Hälfte des eingesparten Geldes dürfen die Schulen behalten und selbst ausgeben. Im ersten Jahr kamen so 18.000 Euro zusammen.\n\nMeldung 5\nModeratorin: Zum Schluss: Das Repair-Café im Bürgerzentrum sucht dringend Helferinnen und Helfer, besonders für Nähmaschinen und Elektrogeräte. Vorkenntnisse sind erwünscht, eine Ausbildung ist aber keine Bedingung."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-meldung-1",
+              "prompt": "Meldung 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-1",
+                  "prompt": "Worum bittet die Stadt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Bäume nicht mehr zu gießen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Den Rasen nicht mehr zu bewässern."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Gar kein Wasser mehr im Garten zu benutzen."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… Rasen nicht mehr zu bewässern. Bäume dürfen und sollen dagegen weiterhin gegossen werden.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-2",
+              "prompt": "Meldung 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-2",
+                  "prompt": "Wen betrifft die neue Regel?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Alle Vermieter."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Nur Mieter in Neubauten."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nur Vermieter schlecht gedämmter Häuser."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… wenn das Gebäude besonders schlecht gedämmt ist. Für gut gedämmte Häuser ändert sich nichts.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-3",
+              "prompt": "Meldung 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-3",
+                  "prompt": "Was ändert sich für Privatpersonen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Wertstoffhof hat samstags länger offen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Abgabe kostet jetzt Geld."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie dürfen weniger abgeben."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… samstags jetzt bis 16 Uhr.“ Für Privatpersonen bleibt es kostenlos."
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-4",
+              "prompt": "Meldung 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-4",
+                  "prompt": "Was passiert mit dem gesparten Geld?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Es geht vollständig an die Stadt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Schulen dürfen die Hälfte behalten."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Es wird an die Eltern zurückgezahlt."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Die Hälfte des eingesparten Geldes dürfen die Schulen behalten.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-2-meldung-5",
+              "prompt": "Meldung 5",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h2-5",
+                  "prompt": "Wen sucht das Repair-Café?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nur ausgebildete Handwerker."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Vor allem Jugendliche."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Menschen mit etwas Erfahrung."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Vorkenntnisse sind erwünscht, eine Ausbildung ist aber keine Bedingung.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Alltägliche Gespräche",
+          "instructions": "Sie hören vier kurze Gespräche. Zu jedem Gespräch gibt es zwei Aufgaben: Entscheiden Sie zuerst, ob die Aussage richtig oder falsch ist, und wählen Sie dann die richtige Antwort. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-07/hoeren-teil-3.mp3",
+            "transcript": "Gespräch 1\nFrau Delgado: Wir überlegen, auf eine Wärmepumpe umzusteigen. Habt ihr das nicht gemacht?\n\nHerr Ayala: Ja, letztes Jahr. Aber ehrlich: Erst haben wir die Fenster tauschen lassen.\n\nFrau Delgado: Warum zuerst die Fenster?\n\nHerr Ayala: Weil die Wärmepumpe sonst gegen die Kälte anarbeitet. Unser Berater hat gesagt, ohne Dämmung wird der Strom teurer als das alte Gas.\n\nFrau Delgado: Das klingt logisch. Und die Förderung?\n\nHerr Ayala: Die gibt es für beides. Aber du musst den Antrag stellen, bevor der Handwerker anfängt – das haben wir fast verpasst.\n\nGespräch 2\nMerve: Sag mal, trennst du eigentlich richtig? Ich blicke bei den Tonnen nicht durch.\n\nHerr Palm: Bei den meisten Sachen ist es einfacher, als man denkt. Verpackungen in die gelbe Tonne, Papier ins Blaue.\n\nMerve: Und die Pizzaschachtel?\n\nHerr Palm: Wenn sie stark verschmutzt ist, gehört sie in den Restmüll. Fett macht das Altpapier kaputt.\n\nMerve: Das habe ich immer falsch gemacht.\n\nHerr Palm: Machen viele. Es gibt übrigens eine App der Stadt, da tippst du das Wort ein und bekommst die richtige Tonne.\n\nGespräch 3\nHerr Novak: Guten Tag, ich möchte mich über den Stromtarif beraten lassen. Meine Rechnung ist sehr hoch.\n\nBeraterin: Wie viele Personen leben im Haushalt?\n\nHerr Novak: Zwei. Und wir zahlen 1.400 Euro im Jahr.\n\nBeraterin: Das ist deutlich zu viel. Bevor wir über den Anbieter reden, sollten wir schauen, wo der Strom hingeht. Haben Sie einen alten Kühlschrank?\n\nHerr Novak: Ja, der ist von meinen Eltern, ungefähr zwanzig Jahre alt.\n\nBeraterin: Der allein kostet Sie im Jahr wahrscheinlich 150 Euro extra. Ein Anbieterwechsel bringt Ihnen weniger als ein neues Gerät.\n\nGespräch 4\nJonas Frey: Kommst du am Samstag zur Müllsammelaktion?\n\nFrau Kettner: Ich weiß nicht. Bringt das wirklich etwas? Nächste Woche liegt doch wieder alles da.\n\nJonas Frey: Klar liegt wieder was da. Aber letztes Jahr haben wir 40 Säcke gesammelt, und die Stadt hat danach zwei zusätzliche Mülleimer aufgestellt.\n\nFrau Kettner: Das wusste ich nicht.\n\nJonas Frey: Deshalb machen wir auch Fotos und schicken sie ans Amt. Sonst passiert nichts.\n\nFrau Kettner: Gut, überredet. Ich bringe meinen Sohn mit."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-gespraech-1",
+              "prompt": "Gespräch 1",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-1",
+                  "statement": "Herr Ayala hat zuerst die Fenster erneuern lassen.",
+                  "solution": true,
+                  "explanation": "„Erst haben wir die Fenster tauschen lassen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Was ist bei der Förderung wichtig?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Man muss vorher einen Antrag stellen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Man muss drei Angebote einholen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie gilt nur für Wärmepumpen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Aber du musst den Antrag stellen, bevor der Handwerker anfängt.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-2",
+              "prompt": "Gespräch 2",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-3",
+                  "statement": "Eine fettige Pizzaschachtel gehört ins Altpapier.",
+                  "solution": false,
+                  "explanation": "„Wenn sie stark verschmutzt ist, gehört sie in den Restmüll.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Was empfiehlt Herr Palm?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Im Zweifel alles in den Restmüll."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Eine App der Stadt zu benutzen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Beim Umweltamt anzurufen."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Es gibt übrigens eine App der Stadt, da tippst du das Wort ein.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-3",
+              "prompt": "Gespräch 3",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-5",
+                  "statement": "Die Beraterin empfiehlt zuerst einen Anbieterwechsel.",
+                  "solution": false,
+                  "explanation": "„Ein Anbieterwechsel bringt Ihnen weniger als ein neues Gerät.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-6",
+                  "prompt": "Was ist wahrscheinlich der Hauptgrund für die hohe Rechnung?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der teure Anbieter."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Größe der Wohnung."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der alte Kühlschrank."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Der allein kostet Sie im Jahr wahrscheinlich 150 Euro extra.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-gespraech-4",
+              "prompt": "Gespräch 4",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h3-7",
+                  "statement": "Frau Kettner kommt am Samstag mit.",
+                  "solution": true,
+                  "explanation": "„Gut, überredet. Ich bringe meinen Sohn mit.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-8",
+                  "prompt": "Warum werden Fotos gemacht?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Damit die Stadt reagiert."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Für die Zeitung."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Für die Internetseite des Vereins."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Deshalb machen wir auch Fotos und schicken sie ans Amt. Sonst passiert nichts.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-4",
+          "title": "Teil 4 – Meinungen zu einem Thema",
+          "instructions": "Sie hören drei Aussagen zum selben Thema. Welcher Satz a–f passt zu welcher Aussage? Es bleiben drei Sätze übrig. Sie hören die Aussagen zweimal.",
+          "audio": {
+            "src": "/audio/de/b1/uebungstest-b1-07/hoeren-teil-4.mp3",
+            "transcript": "Moderatorin: Unser Thema heute: Sollen Kurzstreckenflüge innerhalb Deutschlands verboten werden? Wir haben nachgefragt.\n\nAussage 18: Andrea Falk\nAndrea Falk: Ein Verbot halte ich für den falschen Weg, obwohl ich das Ziel richtig finde. Ich bin von Köln nach Berlin dreimal mit der Bahn gefahren und dreimal zu spät angekommen. Solange das so ist, wird ein Verbot die Leute nur wütend machen. Erst muss der Zug zuverlässig sein.\n\nAussage 19: Hakan Öztürk\nHakan Öztürk: Ich fliege beruflich etwa zwanzigmal im Jahr, und ehrlich gesagt bräuchte ich davon die Hälfte nicht. Vieles ginge auch online, wir machen es nur aus Gewohnheit. Ich würde mir wünschen, dass die Firmen selbst strenger sind – dann bräuchte es gar kein Verbot.\n\nAussage 20: Lisa Wagner\nLisa Wagner: Mich ärgert diese Diskussion. Ein Flug von Hamburg nach München kostet manchmal 29 Euro, der Zug 120. Solange das billigere Verkehrsmittel das schmutzigere ist, ist doch klar, wie sich Leute mit wenig Geld entscheiden. Das muss man umdrehen."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-4-meinungen",
+              "prompt": "Thema: Kurzstreckenflüge verbieten? Welcher Satz a–f passt zu welcher Aussage? Drei Sätze bleiben übrig.",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Diese Person findet, dass zuerst die Bahn pünktlicher werden muss."
+                },
+                {
+                  "id": "b",
+                  "text": "Diese Person meint, dass viele Reisen gar nicht nötig sind."
+                },
+                {
+                  "id": "c",
+                  "text": "Diese Person stört sich daran, dass Fliegen billiger ist als Bahnfahren."
+                },
+                {
+                  "id": "d",
+                  "text": "Diese Person fliegt selbst nie und versteht die Diskussion nicht."
+                },
+                {
+                  "id": "e",
+                  "text": "Diese Person schlägt vor, Flüge stärker zu besteuern."
+                },
+                {
+                  "id": "f",
+                  "text": "Diese Person hält den Klimaschutz für übertrieben."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h4-1",
+                  "prompt": "Aussage 18 – Andrea Falk",
+                  "solution": "a",
+                  "explanation": "„Erst muss der Zug zuverlässig sein.“ Sie ist nicht gegen das Ziel, sondern gegen die Reihenfolge."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h4-2",
+                  "prompt": "Aussage 19 – Hakan Öztürk",
+                  "solution": "b",
+                  "explanation": "„… ehrlich gesagt bräuchte ich davon die Hälfte nicht. Vieles ginge auch online.“"
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h4-3",
+                  "prompt": "Aussage 20 – Lisa Wagner",
+                  "solution": "c",
+                  "explanation": "„Ein Flug … kostet manchmal 29 Euro, der Zug 120.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 45,
+      "description": "Sie lesen einen Wegweiser, Anzeigen, zwei kürzere Texte, eine Informationsbroschüre und eine E-Mail. Insgesamt bearbeiten Sie 23 Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Wegweiser",
+          "instructions": "Sie sind im Umwelt- und Energiezentrum Ihrer Stadt und suchen verschiedene Informationen. Lesen Sie den Wegweiser und die Aufgaben. In welches Stockwerk gehen Sie? Achtung: Manchmal ist keines der beiden genannten Stockwerke richtig – wählen Sie dann „anderes Stockwerk“.",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-wegweiser",
+              "stimuli": [
+                {
+                  "title": "Wegweiser",
+                  "text": "UMWELT- UND ENERGIEZENTRUM LINDENBERG – WEGWEISER\n\n3. OG\nNaturschutz\nSchutzgebiete / Bäume fällen und ersetzen / Nistkästen / Meldung kranker Bäume\n\n2. OG\nEnergieberatung\nHeizung und Dämmung / Förderprogramme / Stromspar-Check für Haushalte\nSolarberatung\nBalkonkraftwerke / Photovoltaik auf dem Dach / Anmeldung beim Netzbetreiber\n\n1. OG\nAbfallberatung\nMülltrennung / Tonnen bestellen / Sperrmüll / Beratung für Betriebe\nUmweltbildung\nFührungen für Schulklassen / Ausstellung / Ausleihe von Messgeräten\n\nEG\nInformation und Anmeldung\nTermine / Broschüren / Anträge abgeben\nWertstoffhof\nAnnahme von Elektrogeräten, Farben und Altöl / Waage"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-1",
+                  "prompt": "Sie möchten wissen, welche Förderung es für eine neue Heizung gibt.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Förderprogramme und Heizung gehören zur Energieberatung im 2. OG."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-2",
+                  "prompt": "Sie möchten alte Farbdosen abgeben.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "2. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Farben nimmt der Wertstoffhof im EG an – also ein anderes Stockwerk."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-3",
+                  "prompt": "Vor Ihrem Haus steht ein Baum, der krank aussieht.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "3. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Die Meldung kranker Bäume gehört zum Naturschutz im 3. OG."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-4",
+                  "prompt": "Sie möchten ein Messgerät ausleihen, um Ihren Stromverbrauch zu prüfen.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "EG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Die Ausleihe von Messgeräten läuft über die Umweltbildung im 1. OG."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l1-5",
+                  "prompt": "Sie planen ein Balkonkraftwerk und haben Fragen zur Anmeldung.",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "1. OG"
+                    },
+                    {
+                      "id": "b",
+                      "text": "3. OG"
+                    },
+                    {
+                      "id": "c",
+                      "text": "anderes Stockwerk"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Die Solarberatung ist im 2. OG – also ein anderes Stockwerk."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Anzeigen",
+          "instructions": "Lesen Sie die sieben Anzeigen und die fünf Situationen. Welche Anzeige passt zu welcher Situation? Zu jeder Situation passt genau eine Anzeige. Zwei Anzeigen bleiben übrig.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-anzeigen",
+              "stimuli": [
+                {
+                  "title": "Anzeige a",
+                  "heading": "Lastenrad kostenlos ausleihen",
+                  "text": "Zwei Lastenräder stehen für alle bereit, die einmal etwas Größeres transportieren müssen – Getränkekisten, ein Regal, den Wocheneinkauf.\nReservierung über die Internetseite, höchstens drei Tage am Stück. Abholung bei der Bäckerei am Markt.\nKostenlos; eine Spende ist möglich, aber nicht nötig."
+                },
+                {
+                  "title": "Anzeige b",
+                  "heading": "Stromspar-Check für Haushalte",
+                  "text": "Ausgebildete Beraterinnen und Berater kommen zu Ihnen nach Hause, schauen sich Geräte und Beleuchtung an und geben konkrete Tipps.\nFür Haushalte mit geringem Einkommen kostenlos, sonst 30 Euro. Sie erhalten außerdem Sparlampen und Steckerleisten geschenkt.\nTermine nach Vereinbarung, Dauer etwa zwei Stunden."
+                },
+                {
+                  "title": "Anzeige c",
+                  "heading": "Saatgut-Tauschbörse",
+                  "text": "Bringen Sie Samen aus Ihrem Garten mit und nehmen Sie andere mit nach Hause. Alte Sorten sind besonders willkommen.\nSonntag, 14 bis 17 Uhr, im Gewächshaus des Stadtgartens. Wer nichts mitbringt, darf trotzdem etwas mitnehmen."
+                },
+                {
+                  "title": "Anzeige d",
+                  "heading": "Solarberatung für Mieterinnen und Mieter",
+                  "text": "Auch ohne eigenes Haus können Sie Strom erzeugen: Wir beraten zu Balkonkraftwerken, zur Erlaubnis des Vermieters und zur Anmeldung.\nKostenlose Einzelberatung mittwochs 16 bis 19 Uhr. Bitte Fotos Ihres Balkons mitbringen."
+                },
+                {
+                  "title": "Anzeige e",
+                  "heading": "Kleidertauschparty",
+                  "text": "Bringen Sie bis zu zehn gut erhaltene Kleidungsstücke mit und nehmen Sie ebenso viele mit. Kein Geld, kein Verkauf.\nJeden letzten Samstag im Monat, 15 bis 18 Uhr, im Jugendzentrum. Was übrig bleibt, geht an die Kleiderkammer."
+                },
+                {
+                  "title": "Anzeige f",
+                  "heading": "Gartenhilfe gesucht",
+                  "text": "Für unseren Gemeinschaftsgarten suchen wir Menschen, die im Frühjahr beim Umgraben und Pflanzen helfen.\nKeine Erfahrung nötig, Werkzeug ist da. Als Dank bekommen Sie einen Anteil an der Ernte.\nTreffen samstags ab 10 Uhr, einfach vorbeikommen."
+                },
+                {
+                  "title": "Anzeige g",
+                  "heading": "Elektrogeräte-Abholung",
+                  "text": "Wir holen alte Waschmaschinen, Kühlschränke und Herde bei Ihnen zu Hause ab und entsorgen sie fachgerecht.\nAbholung kostenlos ab dem Erdgeschoss, aus oberen Etagen 25 Euro. Anmeldung telefonisch, Termine innerhalb von zwei Wochen."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Lastenrad kostenlos ausleihen"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Stromspar-Check für Haushalte"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Saatgut-Tauschbörse"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Solarberatung für Mieterinnen und Mieter"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Kleidertauschparty"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Gartenhilfe gesucht"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Elektrogeräte-Abholung"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l2-1",
+                  "prompt": "Ihr alter Kühlschrank steht im vierten Stock und Sie können ihn nicht selbst tragen.",
+                  "solution": "g",
+                  "explanation": "Anzeige g: Abholung zu Hause, aus oberen Etagen gegen Gebühr."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-2",
+                  "prompt": "Sie wohnen zur Miete und möchten trotzdem eigenen Strom erzeugen.",
+                  "solution": "d",
+                  "explanation": "Anzeige d: Balkonkraftwerke für Mieterinnen und Mieter, inklusive Erlaubnis des Vermieters."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-3",
+                  "prompt": "Sie müssen ein Regal quer durch die Stadt transportieren, haben aber kein Auto.",
+                  "solution": "a",
+                  "explanation": "Anzeige a: Lastenräder kostenlos, für größere Transporte."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-4",
+                  "prompt": "Sie haben wenig Geld und Ihre Stromrechnung ist sehr hoch.",
+                  "solution": "b",
+                  "explanation": "Anzeige b: für Haushalte mit geringem Einkommen kostenlos, mit Geräten als Geschenk."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l2-5",
+                  "prompt": "Ihre Kinder wachsen schnell und Sie möchten nicht ständig neue Kleidung kaufen.",
+                  "solution": "e",
+                  "explanation": "Anzeige e: bis zu zehn Stücke mitbringen und ebenso viele mitnehmen, ohne Geld."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Pressetexte und formelle Mitteilungen",
+          "instructions": "Lesen Sie die beiden Texte. Entscheiden Sie zu jedem Text, ob die Aussage richtig oder falsch ist, und wählen Sie danach die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-text-1",
+              "stimuli": [
+                {
+                  "title": "Text 1",
+                  "heading": "Stadt pflanzt 500 Bäume – und gießt sie mit Hilfe der Nachbarschaft",
+                  "text": "Die Stadt Lindenberg pflanzt in diesem Herbst 500 neue Straßenbäume. Damit reagiert sie auf die trockenen Sommer der vergangenen Jahre, in denen rund 200 Bäume eingegangen sind.\n\nNeu ist, wie die Bäume versorgt werden. Statt eines Fahrzeugs, das im Sommer täglich durch die Straßen fährt, übernehmen Anwohnerinnen und Anwohner Patenschaften. Sie bekommen einen Schlüssel für die Hydranten und gießen den Baum vor ihrer Tür.\n\nRund 300 Menschen haben sich bereits gemeldet. Für Straßen ohne Paten bleibt das Fahrzeug im Einsatz. Die Stadt rechnet damit, dadurch etwa 60.000 Euro im Jahr zu sparen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l3-1",
+                  "statement": "Für Straßen ohne Paten fährt weiterhin ein Fahrzeug.",
+                  "solution": true,
+                  "explanation": "„Für Straßen ohne Paten bleibt das Fahrzeug im Einsatz.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-2",
+                  "prompt": "Warum pflanzt die Stadt neue Bäume?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil viele Bäume vertrocknet sind."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil eine neue Straße gebaut wird."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil Bürger es gefordert haben."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Damit reagiert sie auf die trockenen Sommer …, in denen rund 200 Bäume eingegangen sind.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-3-text-2",
+              "stimuli": [
+                {
+                  "title": "Text 2",
+                  "heading": "Stadtwerke Lindenberg – Umstellung auf digitale Zähler",
+                  "text": "Sehr geehrte Kundinnen und Kunden,\n\nbis Ende des Jahres tauschen wir in allen Haushalten die Stromzähler gegen digitale Geräte aus. Der Austausch ist gesetzlich vorgeschrieben und für Sie kostenlos.\n\nUnsere Mitarbeitenden kündigen sich zwei Wochen vorher schriftlich an und weisen sich mit einem Ausweis aus. Bitte lassen Sie niemanden ohne Ankündigung in Ihre Wohnung.\n\nDer Austausch dauert etwa 20 Minuten. In dieser Zeit ist der Strom kurz abgeschaltet. Falls Sie am genannten Termin nicht zu Hause sein können, vereinbaren Sie bitte telefonisch einen neuen – ein zweiter Besuch ohne Absprache ist kostenpflichtig.\n\nMit freundlichen Grüßen\nStadtwerke Lindenberg"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l3-3",
+                  "statement": "Die Kunden müssen den neuen Zähler bezahlen.",
+                  "solution": false,
+                  "explanation": "„Der Austausch ist gesetzlich vorgeschrieben und für Sie kostenlos.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l3-4",
+                  "prompt": "Wie kündigen sich die Mitarbeitenden an?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Telefonisch am Vortag."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Zwei Wochen vorher schriftlich."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Gar nicht, sie klingeln einfach."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Unsere Mitarbeitenden kündigen sich zwei Wochen vorher schriftlich an.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-4",
+          "title": "Teil 4 – Informationsbroschüre",
+          "instructions": "Lesen Sie die Informationen zur Mülltrennung. Sind die folgenden Aussagen richtig oder falsch?",
+          "blocks": [
+            {
+              "id": "lesen-teil-4-broschuere",
+              "stimuli": [
+                {
+                  "title": "Broschüre",
+                  "heading": "RICHTIG TRENNEN – EIN ÜBERBLICK",
+                  "text": "Gelbe Tonne\nHierhin gehören alle Verpackungen aus Kunststoff, Metall und Verbundstoffen: Joghurtbecher, Konservendosen, Getränkekartons. Die Verpackungen müssen nicht gespült werden, es reicht, wenn sie löffelrein sind.\n\nBlaue Tonne\nPapier, Pappe und Kartons. Nicht hinein gehören verschmutztes Papier, Kassenbons und Backpapier.\n\nBiotonne\nObst- und Gemüsereste, Kaffeesatz, Eierschalen, Gartenabfälle. Plastiktüten sind auch dann verboten, wenn „kompostierbar“ daraufsteht – sie zersetzen sich in unserer Anlage nicht schnell genug.\n\nRestmüll\nAlles, was übrig bleibt: Windeln, Zigaretten, Staubsaugerbeutel, verschmutztes Papier.\n\nWohin mit dem Rest?\nElektrogeräte, Batterien, Farben und Altöl gehören niemals in den Hausmüll, sondern auf den Wertstoffhof. Batterien nehmen außerdem viele Geschäfte zurück."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-1",
+                  "statement": "Verpackungen muss man vor dem Wegwerfen spülen.",
+                  "solution": false,
+                  "explanation": "„Die Verpackungen müssen nicht gespült werden, es reicht, wenn sie löffelrein sind.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-2",
+                  "statement": "Kompostierbare Plastiktüten dürfen nicht in die Biotonne.",
+                  "solution": true,
+                  "explanation": "„Plastiktüten sind auch dann verboten, wenn ‚kompostierbar‘ daraufsteht.“"
+                },
+                {
+                  "type": "richtig-falsch",
+                  "id": "l4-3",
+                  "statement": "Batterien kann man auch in vielen Geschäften abgeben.",
+                  "solution": true,
+                  "explanation": "„Batterien nehmen außerdem viele Geschäfte zurück.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-5",
+          "title": "Teil 5 – Wörter im Brief ergänzen",
+          "instructions": "Lesen Sie die E-Mail und wählen Sie für jede Lücke das passende Wort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-5-brief",
+              "inlineGaps": true,
+              "stimuli": [
+                {
+                  "title": "E-Mail",
+                  "heading": "E-Mail an die Hausverwaltung",
+                  "text": "Sehr ___(1)___ Frau Kern,\n\nich wohne im Haus Ahornweg 9 und möchte auf meinem Balkon ein kleines Solargerät anbringen. ___(2)___ ich damit anfange, möchte ich Sie um Ihre Erlaubnis bitten.\n\nEs handelt sich um zwei Module, die an das Balkongeländer ___(3)___ werden. Gebohrt wird nichts, und beim Auszug lässt sich alles ohne Schaden entfernen.\n\nDie Anmeldung beim Netzbetreiber übernehme ___(4)___ natürlich selbst. Falls Sie technische Unterlagen brauchen, schicke ich sie Ihnen ___(5)___ zu.\n\nÜber eine kurze Rückmeldung würde ich mich ___(6)___ freuen.\n\nMit freundlichen Grüßen\nPawel Nowak"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-1",
+                  "prompt": "Lücke (1) – Anrede",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "geehrten"
+                    },
+                    {
+                      "id": "b",
+                      "text": "geehrter"
+                    },
+                    {
+                      "id": "c",
+                      "text": "geehrte"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Sehr geehrte Frau Kern“ – die weibliche Form."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-2",
+                  "prompt": "Lücke (2) – Konnektor",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Bevor"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Nachdem"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Damit"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Erst fragen, dann anfangen: „Bevor ich damit anfange …“."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-3",
+                  "prompt": "Lücke (3) – Partizip",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "gehängt"
+                    },
+                    {
+                      "id": "b",
+                      "text": "aufgehängt"
+                    },
+                    {
+                      "id": "c",
+                      "text": "gehangen"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„an das Geländer aufgehängt werden“ – das trennbare Verb passt hier."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-4",
+                  "prompt": "Lücke (4) – Pronomen",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "mich"
+                    },
+                    {
+                      "id": "b",
+                      "text": "mir"
+                    },
+                    {
+                      "id": "c",
+                      "text": "ich"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„übernehme ich selbst“ – Subjekt im Nominativ."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-5",
+                  "prompt": "Lücke (5) – Adverb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "gern"
+                    },
+                    {
+                      "id": "b",
+                      "text": "ungern"
+                    },
+                    {
+                      "id": "c",
+                      "text": "kaum"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "In einer höflichen Bitte sagt man zu, die Unterlagen gern zu schicken."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l5-6",
+                  "prompt": "Lücke (6) – Adverb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "kaum"
+                    },
+                    {
+                      "id": "b",
+                      "text": "sehr"
+                    },
+                    {
+                      "id": "c",
+                      "text": "wenig"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„würde ich mich sehr freuen“ ist die übliche Schlussformel."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "schreiben",
+      "title": "Schreiben",
+      "durationMinutes": 30,
+      "description": "Sie schreiben eine E-Mail und gehen dabei auf vier Punkte ein. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie eine Musterlösung zum Vergleichen.",
+      "parts": [
+        {
+          "id": "schreiben-teil-1",
+          "title": "E-Mail schreiben",
+          "instructions": "In Ihrem Wohnhaus stehen die Mülltonnen oft überfüllt im Hof, und viele Nachbarn trennen den Müll nicht. Sie haben davon gehört, dass die Stadt kostenlose Beratungen anbietet. Schreiben Sie eine E-Mail an die Abfallberatung der Stadt. Schreiben Sie mindestens 80 Wörter und gehen Sie auf alle vier Punkte ein.",
+          "blocks": [
+            {
+              "id": "schreiben-teil-1-email",
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "s1-1",
+                  "prompt": "Schreiben Sie die E-Mail an die Abfallberatung.",
+                  "criteria": [
+                    "Grund: Warum schreiben Sie?",
+                    "Wie die Situation in Ihrem Haus ist",
+                    "Was Sie sich von der Beratung wünschen",
+                    "Ein Vorschlag für Termin und Ort"
+                  ],
+                  "hints": [
+                    "Schreiben Sie förmlich: Anrede am Anfang, Gruß am Ende.",
+                    "Begründen Sie, was Sie schreiben – auf B1 reicht Aufzählen nicht.",
+                    "Höfliche Bitten stehen im Konjunktiv II: „könnte ich …“, „ich würde gern …“, „wäre es möglich …“."
+                  ],
+                  "minWords": 80,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Damen und Herren,\n\nich wohne im Ahornweg 9 und wende mich an Sie, weil ich von Ihrem kostenlosen Beratungsangebot gelesen habe.\n\nIn unserem Haus mit zwölf Wohnungen ist die Mülltrennung seit Längerem ein Problem. Die gelbe Tonne ist regelmäßig schon nach zwei Tagen voll, während im Restmüll viele Verpackungen landen. Ich glaube nicht, dass jemand das mit Absicht macht – vielen ist einfach nicht klar, was wohin gehört, und die Beschriftung ist nur auf Deutsch.\n\nMein Wunsch wäre deshalb eine kurze Beratung direkt bei uns im Hof, an den Tonnen. Wenn Sie Material in mehreren Sprachen hätten, wäre das besonders hilfreich.\n\nAls Termin würde ich einen Samstagvormittag vorschlagen, weil dann die meisten zu Hause sind. Ich könnte die Nachbarn über einen Aushang informieren und dafür sorgen, dass wir einen Tisch im Hof aufstellen.\n\nÜber eine kurze Rückmeldung würde ich mich sehr freuen.\n\nMit freundlichen Grüßen\nPawel Nowak"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Sie stellen sich vor, beschreiben ein Bild und planen etwas gemeinsam. Sprechen Sie laut – am besten nehmen Sie sich mit dem Handy auf. Dieser Teil wird nicht automatisch bewertet; nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Sich vorstellen",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie etwa zwei Minuten frei zu den Stichwörtern. Nehmen Sie sich am besten mit dem Handy auf – so hören Sie selbst, wo Sie noch stocken.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-1",
+                  "prompt": "Stellen Sie sich vor: Name – Wohnort – Familie – Arbeit oder Ausbildung – Sprachen – Warum lernen Sie Deutsch? – Was möchten Sie in den nächsten Jahren erreichen?",
+                  "hints": [
+                    "Auf B1 reicht eine Liste von Sätzen nicht mehr. Verbinden Sie sie: „… weil …“, „… seit …“, „Zurzeit … , aber später …“.",
+                    "Sprechen Sie auch über Vergangenheit und Zukunft, nicht nur über die Gegenwart.",
+                    "Zum Schluss: Buchstabieren Sie Ihren Familiennamen."
+                  ],
+                  "musterloesung": "Guten Tag. Ich heiße Fatima Sow, ich bin 33 Jahre alt und komme aus Senegal, aus Dakar.\n\nSeit fünf Jahren wohne ich in Hannover. Ich bin alleinerziehend und habe zwei Kinder, sieben und zehn Jahre alt.\n\nIn Senegal habe ich als Buchhalterin in einer kleinen Firma gearbeitet. Hier arbeite ich halbtags in einer Reinigungsfirma, weil ich nachmittags für die Kinder da sein muss.\n\nIch spreche Wolof, Französisch und Deutsch, Englisch verstehe ich ganz gut.\n\nDeutsch lerne ich, weil ich zurück in mein altes Berufsfeld möchte. Ohne gutes Deutsch kann ich in einem Büro nicht arbeiten, das ist mir klar geworden.\n\nIn den nächsten Jahren möchte ich B2 machen und eine Umschulung als Buchhalterin beginnen. Wenn die Kinder größer sind, möchte ich wieder Vollzeit arbeiten.\n\nMein Familienname ist Sow: S – O – W."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Ein Bild beschreiben",
+          "instructions": "Thema: Umwelt im Alltag. Sehen Sie sich das Bild an. Beschreiben Sie zuerst, was Sie sehen, und sagen Sie danach, wie das bei Ihnen selbst ist. Sprechen Sie etwa drei Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-bild",
+              "stimuli": [
+                {
+                  "title": "Bild",
+                  "image": {
+                    "src": "/bilder/de/b1/uebungstest-b1-07/sprechen-bild.jpg",
+                    "alt": "Ein Hof mit mehreren Mülltonnen in verschiedenen Farben: Ein Mann wirft eine Papiertüte in die blaue Tonne, daneben stehen eine gelbe und eine braune Tonne. Neben den Tonnen stehen ein alter Stuhl und Kartons auf dem Boden. An der Wand hängt ein Schild mit Bildern zur Mülltrennung."
+                  },
+                  "text": "Beschreiben Sie, was Sie auf dem Bild sehen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Beschreiben Sie das Bild und sagen Sie, wie das bei Ihnen zu Hause funktioniert.",
+                  "hints": [
+                    "Gehen Sie der Reihe nach vor: Wo ist das? Was sieht man? Wer ist zu sehen und was macht die Person?",
+                    "Vermutungen gehören dazu: „Ich vermute, dass …“, „Wahrscheinlich …“, „Es sieht so aus, als ob …“.",
+                    "Zum Schluss der eigene Bezug – begründen Sie mit „einerseits … andererseits …“."
+                  ],
+                  "musterloesung": "Auf dem Bild sehe ich einen Hof mit mehreren Mülltonnen in verschiedenen Farben – eine blaue, eine gelbe und eine braune. Es ist wahrscheinlich der Hof eines Mehrfamilienhauses.\n\nIn der Mitte steht ein Mann und wirft gerade eine Papiertüte in die blaue Tonne. Er scheint zu wissen, was er tut. An der Wand hinter ihm hängt ein Schild mit Bildern, auf dem erklärt wird, was in welche Tonne gehört.\n\nWas mir auffällt: Neben den Tonnen stehen ein alter Stuhl und mehrere Kartons einfach auf dem Boden. Das gehört dort natürlich nicht hin – der Stuhl müsste zum Sperrmüll.\n\nIch vermute, dass in diesem Haus nicht alle mitmachen. Vielleicht wissen manche auch nicht, wie es geht, besonders wenn sie noch nicht lange hier leben.\n\nBei uns zu Hause klappt die Trennung inzwischen gut, aber am Anfang war es schwierig. In meinem Heimatland gibt es diese vielen Tonnen nicht, und ich habe eine Weile gebraucht, bis ich das System verstanden hatte.\n\nEinerseits finde ich es sinnvoll, andererseits ist manches schwer zu merken – zum Beispiel, dass Kassenbons nicht ins Altpapier dürfen. Was mir sehr geholfen hat, war ein Schild mit Bildern, ganz ähnlich wie auf dem Foto. Wörter kann man missverstehen, ein Bild versteht jeder."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Gemeinsam etwas planen",
+          "instructions": "Lesen Sie die Situation. Planen Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner. Machen Sie Vorschläge, reagieren Sie auf die Vorschläge der anderen Person und einigen Sie sich am Ende auf einen Plan.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Ihr Wohnhaus soll bei einem Wettbewerb der Stadt mitmachen: Wer im nächsten Jahr am meisten Strom spart, gewinnt 1.000 Euro für den Hof. Sie und eine Nachbarin überlegen, wie Sie die anderen Bewohnerinnen und Bewohner dafür gewinnen. Planen Sie gemeinsam.",
+                  "hints": [
+                    "Wie informieren Sie die anderen im Haus?",
+                    "Welche einfachen Maßnahmen schlagen Sie vor?",
+                    "Wie behalten Sie den Verbrauch im Blick?",
+                    "Was machen Sie mit dem Geld, wenn Sie gewinnen?"
+                  ],
+                  "musterloesung": "A: Hast du von dem Wettbewerb gehört? Tausend Euro für den Hof, wenn wir am meisten Strom sparen.\n\nB: Ja. Nur ehrlich – wie sollen wir zwölf Parteien dazu bringen mitzumachen?\n\nA: Ich würde eine Hausversammlung machen. Zettel allein liest niemand.\n\nB: Eine Versammlung ist mir zu viel, da kommen drei Leute. Besser wäre, wenn wir an einem Samstag durchklingeln und kurz mit jedem reden.\n\nA: Stimmt, persönlich sagt seltener jemand nein. Und was schlagen wir konkret vor?\n\nB: Nichts Kompliziertes. Licht im Treppenhaus auf LED umstellen, das kann die Hausverwaltung machen. Und im Waschkeller bei 30 Grad waschen statt bei 60.\n\nA: Gute Idee. Ich würde außerdem vorschlagen, dass jeder einmal schaut, wie alt sein Kühlschrank ist. Der frisst am meisten.\n\nB: Vorsicht, niemand kauft wegen des Wettbewerbs ein neues Gerät. Sagen wir lieber: Wer sowieso einen neuen braucht, achtet auf den Verbrauch.\n\nA: Einverstanden. Und wie behalten wir das im Blick?\n\nB: Ich lese jeden Monat den Hauptzähler ab und hänge die Zahl im Flur aus. Wenn die Leute sehen, dass es weniger wird, machen sie eher mit.\n\nA: Sehr gut. Und wenn wir gewinnen?\n\nB: Ich wäre für zwei Bänke und ein paar Pflanzen im Hof. Davon haben alle etwas, auch die, die nicht mitgemacht haben.\n\nA: Einverstanden. Also: Samstag durchklingeln, LED und 30 Grad vorschlagen, du liest monatlich ab und hängst es aus, und das Geld geht in den Hof.\n\nB: Genau so machen wir es."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -33,6 +33,15 @@ function readTestFiles(): string[] {
 
 let cache: Test[] | null = null;
 
+/**
+ * Drafts are worked on locally and left out of the live site.
+ *
+ * The check is on NODE_ENV rather than a flag we pass around, so there is no
+ * way to accidentally render an unfinished test in production — `next build`
+ * simply never generates a page for it.
+ */
+const includeDrafts = process.env.NODE_ENV !== "production";
+
 export function getAllTests(): Test[] {
   if (cache) return cache;
   cache = readTestFiles().map((file) => {
@@ -45,7 +54,7 @@ export function getAllTests(): Test[] {
       );
     }
     return parsed.data;
-  });
+  }).filter((test) => includeDrafts || !test.draft);
   return cache;
 }
 
