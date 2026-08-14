@@ -4,7 +4,7 @@
   "level": "B1",
   "title": "Übungstest B1 – Nr. 9",
   "description": "Ein vollständiger Übungstest auf Niveau B1 mit den vier Teilen Hören, Lesen, Schreiben und Sprechen. Themenschwerpunkt: Medien, Internet und Kommunikation.",
-  "draft": true,
+  "draft": false,
   "sections": [
     {
       "kind": "hoeren",
