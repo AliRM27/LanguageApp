@@ -16,6 +16,7 @@
     "audio:build": "node scripts/audio/synthesize.mjs"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "dotenv": "^17.4.2",
     "mongodb": "^6.12.0",
     "next": "^15.1.0",

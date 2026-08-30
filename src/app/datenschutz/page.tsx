@@ -36,8 +36,9 @@ export default function DatenschutzPage() {
         <strong className="font-semibold">Kurz gesagt:</strong> Ohne Konto
         verlassen Ihre Antworten Ihren Browser nicht. Mit Konto speichern wir
         Ihre E-Mail-Adresse und Ihre Ergebnisse, damit Sie auf mehreren Geräten
-        weiterlernen können. Wir verwenden keine Werbung, kein Tracking und
-        keine Analyse-Dienste. Ihr Konto können Sie jederzeit selbst löschen.
+        weiterlernen können. Wir verwenden keine Werbung und keine
+        Cookies zur Nachverfolgung; die Besucherzahlen zählen wir anonym und
+        ohne Cookies. Ihr Konto können Sie jederzeit selbst löschen.
       </p>
 
       <Section title="1. Verantwortlicher">
@@ -153,7 +154,38 @@ export default function DatenschutzPage() {
         </p>
       </Section>
 
-      <Section title="6. Empfänger und Auftragsverarbeiter">
+      <Section title="6. Besucherstatistik">
+        <p>
+          Wir möchten wissen, wie viele Menschen die Übungstests nutzen und
+          welche Teile besonders gefragt sind. Dafür setzen wir{" "}
+          <strong>Vercel Web Analytics</strong> ein – den Dienst unseres
+          Hosters, es kommt also keine weitere Firma hinzu.
+        </p>
+        <p>
+          Erfasst werden pro Aufruf: Zeitpunkt, aufgerufene Seite, woher Sie
+          kamen, ungefähre Region, Betriebssystem, Browser und Gerätetyp.
+          <strong> Es werden keine Cookies gesetzt</strong> und nichts auf Ihrem
+          Gerät gespeichert. Besucherinnen und Besucher werden nur über einen
+          Hashwert aus der Anfrage unterschieden, der nach 24 Stunden verfällt.
+          Eine Wiedererkennung über mehrere Tage oder über andere Websites
+          hinweg ist damit nicht möglich.
+        </p>
+        <p>
+          Adressen mit persönlichen Angaben übermitteln wir gar nicht erst: Die
+          Seite zum Zurücksetzen des Passworts wird vollständig aus der Statistik
+          ausgenommen, und bei allen übrigen Seiten entfernen wir alles, was
+          hinter dem Fragezeichen der Adresse steht, bevor etwas gesendet wird.
+        </p>
+        <p>
+          <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. f DSGVO
+          (berechtigtes Interesse daran zu erfahren, ob und wie das Angebot
+          genutzt wird). Weil nichts auf Ihrem Gerät gespeichert oder ausgelesen
+          wird, ist dafür keine Einwilligung nach § 25 TDDDG erforderlich –
+          deshalb sehen Sie hier weiterhin kein Cookie-Banner.
+        </p>
+      </Section>
+
+      <Section title="7. Empfänger und Auftragsverarbeiter">
         <p>
           Wir geben Ihre Daten nicht an Dritte weiter, um damit Geld zu
           verdienen. Für den technischen Betrieb setzen wir folgende
@@ -162,7 +194,7 @@ export default function DatenschutzPage() {
         <ul className="list-disc space-y-2 pl-5">
           <li>
             <strong>Vercel Inc.</strong> (USA) – Hosting und Auslieferung der
-            Website.
+            Website sowie die cookiefreie Besucherstatistik (siehe Punkt 6).
           </li>
           <li>
             <strong>MongoDB, Inc.</strong> (MongoDB Atlas) – Datenbank für
@@ -188,7 +220,7 @@ export default function DatenschutzPage() {
         </p>
       </Section>
 
-      <Section title="7. Speicherdauer">
+      <Section title="8. Speicherdauer">
         <ul className="list-disc space-y-1 pl-5">
           <li>
             <strong>Konto und Ergebnisse:</strong> bis Sie Ihr Konto löschen.
@@ -208,7 +240,7 @@ export default function DatenschutzPage() {
         </ul>
       </Section>
 
-      <Section title="8. Löschung Ihres Kontos">
+      <Section title="9. Löschung Ihres Kontos">
         <p>
           Unter <strong>„Mein Bereich“</strong> löschen Sie Ihr Konto selbst,
           mit allen Ergebnissen. Sie müssen dafür niemanden anschreiben und auf
@@ -216,7 +248,7 @@ export default function DatenschutzPage() {
         </p>
       </Section>
 
-      <Section title="9. Ihre Rechte">
+      <Section title="10. Ihre Rechte">
         <p>Sie haben jederzeit das Recht auf</p>
         <ul className="list-disc space-y-1 pl-5">
           <li>Auskunft über Ihre gespeicherten Daten (Art. 15 DSGVO),</li>
@@ -246,7 +278,7 @@ export default function DatenschutzPage() {
         </p>
       </Section>
 
-      <Section title="10. Keine automatisierte Entscheidungsfindung">
+      <Section title="11. Keine automatisierte Entscheidungsfindung">
         <p>
           Die automatische Auswertung von Hören und Lesen vergleicht Ihre
           Antworten mit den hinterlegten Lösungen. Damit ist keine rechtliche
@@ -255,7 +287,7 @@ export default function DatenschutzPage() {
         </p>
       </Section>
 
-      <Section title="11. Änderungen dieser Erklärung">
+      <Section title="12. Änderungen dieser Erklärung">
         <p>
           Wenn sich die Website ändert, passen wir diese Erklärung an. Die
           jeweils aktuelle Fassung finden Sie immer auf dieser Seite.

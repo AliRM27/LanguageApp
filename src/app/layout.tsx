@@ -3,6 +3,7 @@ import "./globals.css";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { AuthSync } from "@/components/AuthSync";
+import { Analytics } from "@/components/Analytics";
 import { site, siteUrl } from "@/lib/site";
 
 const DESCRIPTION =
@@ -62,6 +63,7 @@ export default function RootLayout({
           {children}
         </main>
         <SiteFooter />
+        <Analytics />
       </body>
     </html>
   );
