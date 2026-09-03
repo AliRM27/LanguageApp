@@ -7,7 +7,7 @@ import { Analytics } from "@/components/Analytics";
 import { site, siteUrl } from "@/lib/site";
 
 const DESCRIPTION =
-  "Kostenlose Übungstests für die Deutschprüfung A1 und A2: Hören, Lesen, Schreiben und Sprechen – mit Lösungen, Erklärungen und Musterlösungen.";
+  "Kostenlose Übungstests für die Deutschprüfung: Hören, Lesen, Schreiben und Sprechen – mit Lösungen, Erklärungen und Musterlösungen.";
 
 /**
  * `metadataBase` is what makes the social image work. Without it Next emits a
@@ -20,7 +20,7 @@ const DESCRIPTION =
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl()),
   title: {
-    default: "Deutsch Test Online – Prüfungsvorbereitung A1 und A2",
+    default: "Deutsch Test Online – Prüfungsvorbereitung",
     template: "%s · Deutsch Test Online",
   },
   description: DESCRIPTION,
@@ -33,12 +33,12 @@ export const metadata: Metadata = {
     type: "website",
     locale: "de_DE",
     siteName: site.name,
-    title: "Deutsch Test Online – Prüfungsvorbereitung A1 und A2",
+    title: "Deutsch Test Online – Prüfungsvorbereitung",
     description: DESCRIPTION,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Deutsch Test Online – Prüfungsvorbereitung A1 und A2",
+    title: "Deutsch Test Online – Prüfungsvorbereitung",
     description: DESCRIPTION,
   },
   robots: { index: true, follow: true },
