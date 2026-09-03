@@ -1,0 +1,1345 @@
+{
+  "id": "uebungstest-b2-01",
+  "language": "de",
+  "level": "B2",
+  "title": "Übungstest B2 Beruf – Nr. 1",
+  "description": "Ein vollständiger berufsbezogener Übungstest auf Niveau B2 mit den Teilen Lesen, Lesen und Schreiben, Hören, Hören und Schreiben sowie Sprachbausteine und Schreiben.",
+  "sections": [
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 45,
+      "description": "Sie lesen Beiträge aus einem Ratgeber, zwei Unterweisungen, Fragen und Tipps aus einer Beratung sowie ein Besprechungsprotokoll. Insgesamt bearbeiten Sie 18 Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Informationen zum Arbeitsmarkt",
+          "instructions": "Sie arbeiten in der Personalabteilung eines mittelgroßen Betriebs und betreuen das Schwarze Brett „Rat und Recht im Beruf“. Fünf Kolleginnen und Kollegen haben Fragen an Sie geschickt. Welcher der acht Artikel passt zu welcher Person? Jeder Artikel kann nur einmal verwendet werden; drei Artikel passen zu keiner Person.",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-artikel",
+              "stimuli": [
+                {
+                  "title": "Artikel a",
+                  "heading": "Wenn der Vertrag endet",
+                  "text": "Was bei einer Befristung gilt: Wann ein befristeter Vertrag automatisch endet, wann er als unbefristet gilt und warum die Zahl der Verlängerungen entscheidend ist. Mit einer Übersicht zu den Fristen für die Klage vor dem Arbeitsgericht."
+                },
+                {
+                  "title": "Artikel b",
+                  "heading": "Zeugnisdeutsch entschlüsselt",
+                  "text": "„Sie war stets bemüht“ klingt freundlich und ist es nicht. Wir erklären die üblichen Formulierungen im Arbeitszeugnis, welche Note dahintersteckt und wie Sie eine Änderung verlangen, ohne den Ton zu verschärfen."
+                },
+                {
+                  "title": "Artikel c",
+                  "heading": "Abschlüsse aus dem Ausland",
+                  "text": "Welche Berufe eine formale Anerkennung zwingend brauchen und welche nicht, wer im jeweiligen Bundesland zuständig ist und welche Unterlagen Sie übersetzen lassen müssen. Auch: Was tun, wenn Dokumente fehlen?"
+                },
+                {
+                  "title": "Artikel d",
+                  "heading": "Der Arbeitsplatz am Bildschirm",
+                  "text": "Welche Ausstattung Ihnen zusteht, wenn Sie überwiegend am Monitor arbeiten – von der Höhe des Tisches bis zur Bildschirmbrille. Und welche Pausen die Arbeitsstättenverordnung tatsächlich vorschreibt."
+                },
+                {
+                  "title": "Artikel e",
+                  "heading": "Elternzeit richtig anmelden",
+                  "text": "Sieben Wochen vorher, schriftlich, mit Unterschrift: Wir zeigen, welche Fristen und welche Form gelten, wie Sie die Zeiträume verbindlich festlegen und wann Ihre Stelle geschützt ist."
+                },
+                {
+                  "title": "Artikel f",
+                  "heading": "Reisekosten richtig abrechnen",
+                  "text": "Verpflegungspauschale, Kilometergeld, Übernachtung: Was Sie im Inland und im Ausland ansetzen dürfen, welche Belege das Finanzamt verlangt und welche Fehler bei der Abrechnung am häufigsten vorkommen."
+                },
+                {
+                  "title": "Artikel g",
+                  "heading": "Das erste Mitarbeitergespräch",
+                  "text": "Wie Sie sich auf ein Jahresgespräch vorbereiten, eigene Ziele formulieren und auf Kritik reagieren, ohne sich zu rechtfertigen. Mit Formulierungshilfen für heikle Momente."
+                },
+                {
+                  "title": "Artikel h",
+                  "heading": "Krankmeldung: Was gilt heute?",
+                  "text": "Seit der elektronischen Bescheinigung hat sich einiges geändert. Wer wen wann informieren muss, ab welchem Tag ein Nachweis nötig ist und was für Beschäftigte im Ausland gilt."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Wenn der Vertrag endet"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Zeugnisdeutsch entschlüsselt"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Abschlüsse aus dem Ausland"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Der Arbeitsplatz am Bildschirm"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Elternzeit richtig anmelden"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Reisekosten richtig abrechnen"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Das erste Mitarbeitergespräch"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Krankmeldung: Was gilt heute?"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l1-1",
+                  "prompt": "Elena hat in Rumänien Krankenpflege studiert und möchte hier in ihrem Beruf arbeiten. Sie fragt sich, welche Unterlagen sie beglaubigt übersetzen lassen muss und wer überhaupt darüber entscheidet.",
+                  "solution": "c",
+                  "explanation": "Artikel c behandelt genau das: welche Berufe eine Anerkennung brauchen, wer zuständig ist und welche Unterlagen übersetzt werden müssen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-2",
+                  "prompt": "Murat wird im Herbst zum zweiten Mal Vater. Er möchte drei Monate zu Hause bleiben und weiß nicht, bis wann und in welcher Form er das seinem Arbeitgeber mitteilen muss.",
+                  "solution": "e",
+                  "explanation": "Artikel e nennt Frist und Form: sieben Wochen vorher, schriftlich, mit Unterschrift."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-3",
+                  "prompt": "Frau Berger hat nach fünf Jahren gekündigt und ihr Zeugnis bekommen. Manche Sätze darin kommen ihr merkwürdig vor, aber sie kann nicht sagen, warum. Sie überlegt, ob sie eine Änderung verlangen soll.",
+                  "solution": "b",
+                  "explanation": "Artikel b erklärt die üblichen Formulierungen und wie man eine Änderung verlangt."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-4",
+                  "prompt": "Tobias sitzt acht Stunden täglich vor zwei Monitoren und hat seit Monaten Nackenschmerzen. Er möchte wissen, was seine Firma ihm stellen muss und ob ihm zusätzliche Pausen zustehen.",
+                  "solution": "d",
+                  "explanation": "Artikel d behandelt Ausstattung und die tatsächlich vorgeschriebenen Pausen bei Bildschirmarbeit."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-5",
+                  "prompt": "Aminas Vertrag ist auf ein Jahr befristet und läuft im Mai aus. Ihre Kollegin sagt, nach der dritten Verlängerung sei man automatisch fest angestellt. Amina möchte wissen, ob das stimmt.",
+                  "solution": "a",
+                  "explanation": "Artikel a behandelt Befristung, Verlängerungen und wann ein Vertrag als unbefristet gilt."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Einweisungen und Unterweisungen",
+          "instructions": "Sie lesen zwei Texte aus Ihrem Betrieb. Entscheiden Sie zu jedem Text, ob die Aussage richtig oder falsch ist, und wählen Sie danach die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-text-1",
+              "stimuli": [
+                {
+                  "title": "Text 1",
+                  "heading": "Unterweisung: Arbeiten mit dem neuen Elektro-Hubwagen",
+                  "text": "Ab dem 2. Mai ersetzen wir die handbetriebenen Hubwagen im Lager durch elektrische Geräte. Die folgende Unterweisung ist für alle verbindlich, die im Lager oder im Wareneingang tätig sind.\n\nBedienberechtigung\nDen Elektro-Hubwagen darf nur führen, wer an der zweistündigen Einweisung teilgenommen und die Teilnahmeliste unterschrieben hat. Ein Staplerschein ist dafür nicht erforderlich – für den Gabelstapler bleibt er es selbstverständlich. Auszubildende dürfen das Gerät erst ab dem vollendeten 18. Lebensjahr und nur unter Aufsicht führen.\n\nVor jeder Schicht\nPrüfen Sie Ladezustand, Räder und die Funktion der Notaus-Taste. Auffälligkeiten tragen Sie in das Prüfbuch am Ladeplatz ein. Ein Gerät mit erkennbarem Mangel wird nicht benutzt, auch nicht „nur kurz“.\n\nIm Betrieb\nDie zulässige Höchstgeschwindigkeit in der Halle beträgt Schrittgeschwindigkeit. Das Mitfahren weiterer Personen ist untersagt. Lasten über 1.200 Kilogramm dürfen nicht bewegt werden; das Typenschild nennt den genauen Wert für Ihr Gerät.\n\nNach der Schicht\nStellen Sie das Gerät an den Ladeplatz und schließen Sie es an. Der Schlüssel gehört in den Schlüsselkasten im Meisterbüro, nicht in die Spindtasche."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l2-1",
+                  "statement": "Wer den Elektro-Hubwagen fahren will, braucht einen Staplerschein.",
+                  "solution": false,
+                  "explanation": "„Ein Staplerschein ist dafür nicht erforderlich“ – nötig sind die Einweisung und die Unterschrift."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l2-2",
+                  "prompt": "Was ist zu tun, wenn an einem Gerät etwas nicht in Ordnung ist?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Es wird in das Prüfbuch eingetragen und nicht benutzt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Es darf für kurze Strecken weiter benutzt werden."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Es wird sofort an den Hersteller geschickt."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Auffälligkeiten tragen Sie in das Prüfbuch am Ladeplatz ein. Ein Gerät mit erkennbarem Mangel wird nicht benutzt, auch nicht ‚nur kurz‘.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-2-text-2",
+              "stimuli": [
+                {
+                  "title": "Text 2",
+                  "heading": "Einweisung: Neue Zutrittskarten ab 1. Juni",
+                  "text": "Sehr geehrte Kolleginnen und Kollegen,\n\nam 1. Juni stellen wir die Zutrittskontrolle auf neue Karten um. Die alten Karten verlieren an diesem Tag um 6 Uhr ihre Gültigkeit.\n\nAusgabe\nIhre neue Karte erhalten Sie ab dem 20. Mai persönlich im Empfang, gegen Vorlage eines Ausweises. Eine Ausgabe an Kolleginnen oder Kollegen ist nicht möglich, auch nicht mit schriftlicher Vollmacht.\n\nNutzung\nJede Karte ist einer Person zugeordnet und darf nicht weitergegeben werden. Wer eine Tür öffnet, ist dafür verantwortlich, dass niemand ohne eigene Karte mitgeht. Das gilt ausdrücklich auch für bekannte Gesichter aus anderen Abteilungen.\n\nVerlust\nMelden Sie einen Verlust sofort der Pforte, auch außerhalb der Arbeitszeit unter der bekannten Rufnummer. Die Karte wird dann innerhalb weniger Minuten gesperrt. Die erste Ersatzkarte ist kostenfrei, für jede weitere berechnen wir 15 Euro.\n\nBesucherinnen und Besucher\nBesuch wird weiterhin am Empfang angemeldet und abgeholt. Neu ist, dass Besucherkarten am selben Tag zurückgegeben werden müssen; nicht zurückgegebene Karten werden automatisch gesperrt."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l2-3",
+                  "statement": "Eine verlorene Karte kann man auch am Wochenende sperren lassen.",
+                  "solution": true,
+                  "explanation": "„Melden Sie einen Verlust sofort der Pforte, auch außerhalb der Arbeitszeit unter der bekannten Rufnummer.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l2-4",
+                  "prompt": "Was gilt beim Betreten des Gebäudes?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Bekannte Kolleginnen und Kollegen dürfen ohne eigene Karte mitgehen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Wer die Tür öffnet, ist dafür verantwortlich, dass niemand ohne Karte mitgeht."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Türen dürfen nur vom Empfang geöffnet werden."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Wer eine Tür öffnet, ist dafür verantwortlich, dass niemand ohne eigene Karte mitgeht. Das gilt ausdrücklich auch für bekannte Gesichter.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Rahmenbedingungen der Arbeit",
+          "instructions": "In der Sprechstunde des Betriebsrats sind vier Fragen eingegangen. Welcher der sechs Tipps a–f passt zu welcher Frage? Zu einer Frage passt keiner der Tipps – wählen Sie dann „x“.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-tipps",
+              "prompt": "Welcher Tipp passt zu welcher Frage?",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Verlangen Sie eine schriftliche Aufstellung Ihres Arbeitszeitkontos. Der Betrieb ist zur Erfassung verpflichtet, und ohne die Zahlen lässt sich über den Abbau gar nicht sinnvoll reden."
+                },
+                {
+                  "id": "b",
+                  "text": "Urlaub, den Sie aus betrieblichen Gründen nicht nehmen konnten, verfällt nicht automatisch am 31. Dezember. Lassen Sie sich die Übertragung schriftlich bestätigen."
+                },
+                {
+                  "id": "c",
+                  "text": "Für die Fahrt zwischen Wohnung und Betrieb gilt die gesetzliche Unfallversicherung. Melden Sie den Unfall trotzdem am selben Tag, sonst wird es später schwierig."
+                },
+                {
+                  "id": "d",
+                  "text": "Ein Anspruch auf Arbeit von zu Hause besteht nicht. Sie können ihn aber vereinbaren – am besten befristet zur Probe, das nimmt beiden Seiten den Druck."
+                },
+                {
+                  "id": "e",
+                  "text": "Die Kündigungsfrist richtet sich nach der Dauer der Beschäftigung und steht im Vertrag. Für Sie als Arbeitnehmerin gilt sie unabhängig davon, wer kündigt."
+                },
+                {
+                  "id": "f",
+                  "text": "Pausen zählen nicht als Arbeitszeit und werden nicht bezahlt. Ab sechs Stunden sind mindestens 30 Minuten vorgeschrieben, die man auch aufteilen darf."
+                },
+                {
+                  "id": "x",
+                  "text": "Hierzu passt keiner der Tipps."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l3-1",
+                  "prompt": "„Ich habe im letzten Jahr elf Urlaubstage nicht genommen, weil wir zu wenig Leute waren. Jetzt sagt mir die Personalabteilung, die seien verfallen. Stimmt das?“",
+                  "solution": "b",
+                  "explanation": "Tipp b: Urlaub, der aus betrieblichen Gründen nicht genommen werden konnte, verfällt nicht automatisch zum Jahresende."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-2",
+                  "prompt": "„Ich mache seit Monaten Überstunden, habe aber keine Ahnung, wie viele es inzwischen sind. Mein Vorgesetzter sagt immer nur, es sei nicht so viel.“",
+                  "solution": "a",
+                  "explanation": "Tipp a: schriftliche Aufstellung des Arbeitszeitkontos verlangen; ohne Zahlen keine Diskussion."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-3",
+                  "prompt": "„Mein Sohn ist krank und ich müsste zwei Tage zu Hause bleiben. Bekomme ich in dieser Zeit weiter mein Gehalt oder muss ich Urlaub nehmen?“",
+                  "solution": "x",
+                  "explanation": "Keiner der sechs Tipps behandelt die Freistellung bei Erkrankung eines Kindes. Tipp d geht um freiwillige Arbeit von zu Hause, nicht um Kinderkrankentage."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-4",
+                  "prompt": "„Ich würde gern zwei Tage pro Woche von zu Hause arbeiten. Meine Abteilungsleitung sagt, das gehe nicht, weil es sonst alle wollen.“",
+                  "solution": "d",
+                  "explanation": "Tipp d: einen Anspruch gibt es nicht, eine Vereinbarung ist aber möglich – befristet zur Probe."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-4",
+          "title": "Teil 4 – Aufgaben und Aufgabenverteilung",
+          "instructions": "Lesen Sie das Protokoll der letzten Teambesprechung und die Aufgaben. Welche Antwort passt am besten?",
+          "blocks": [
+            {
+              "id": "lesen-teil-4-protokoll",
+              "stimuli": [
+                {
+                  "title": "Protokoll",
+                  "heading": "Teambesprechung Kundenservice",
+                  "text": "Datum: Dienstag, 8. April\nUhrzeit: 9:00 – 10:15 Uhr\nOrt: Besprechungsraum 2.14\nAnwesende: S. Aydın (Leitung), P. Lorenz, M. Okafor, T. Reinhardt, J. Vidović\nEntschuldigt: K. Bauer (Urlaub)\nProtokoll: J. Vidović\n\nTagesordnung\nTOP 1 Rückstand bei der Bearbeitung von Reklamationen\nTOP 2 Neue Telefonzeiten ab Mai\nTOP 3 Einarbeitung der neuen Kollegin\nTOP 4 Beschwerde eines Großkunden\nTOP 5 Verschiedenes\n\nTOP 1 – Rückstand bei Reklamationen\nDer Rückstand liegt bei 340 offenen Vorgängen, im Februar waren es 180. Als Ursache wurde nicht die Menge der Eingänge genannt, sondern die doppelte Erfassung im alten und im neuen System. Frau Lorenz übernimmt bis zum 22. April eine Auswertung, welche Vorgänge doppelt angelegt wurden. Erst danach wird über zusätzliches Personal entschieden.\n\nTOP 2 – Neue Telefonzeiten ab Mai\nDie Hotline ist ab dem 1. Mai montags bis donnerstags von 8 bis 17 Uhr und freitags nur bis 13 Uhr erreichbar. Die bisherige Samstagsschicht entfällt ersatzlos. Herr Okafor informiert die Kundschaft über den Newsletter, Frau Aydın passt die Ansage am Telefon an.\n\nTOP 3 – Einarbeitung der neuen Kollegin\nFrau Sadiq beginnt am 5. Mai. Die Einarbeitung übernimmt nicht die Leitung, sondern Herr Reinhardt; er stellt bis Ende April einen Plan für die ersten vier Wochen auf. Vereinbart wurde ein wöchentliches Gespräch von 30 Minuten, freitags.\n\nTOP 4 – Beschwerde eines Großkunden\nDie Firma Hellmann hat sich über wechselnde Ansprechpartner beschwert. Beschlossen wurde, dass Großkunden künftig einer festen Person zugeordnet werden. Frau Vidović erstellt die Zuordnung; sie wird in der nächsten Besprechung vorgestellt und nicht vorher versendet.\n\nTOP 5 – Verschiedenes\nDer Wasserspender im Flur ist defekt; die Meldung an die Haustechnik ist bereits erfolgt. Kein weiterer Beschluss.\n\nNächster Termin: Dienstag, 6. Mai, 9:00 Uhr, Raum 2.14"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-1",
+                  "prompt": "Worauf wird der Rückstand bei den Reklamationen zurückgeführt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Auf mehr Reklamationen als sonst."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Auf zu wenig Personal."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Auf Vorgänge, die in zwei Systemen erfasst wurden."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Als Ursache wurde nicht die Menge der Eingänge genannt, sondern die doppelte Erfassung im alten und im neuen System.“ Über Personal wird erst nach der Auswertung entschieden."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-2",
+                  "prompt": "Was ändert sich ab Mai an der Erreichbarkeit?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Freitags endet die Hotline früher, samstags entfällt sie."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Hotline ist samstags nur noch vormittags erreichbar."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Hotline öffnet werktags eine Stunde später."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… freitags nur bis 13 Uhr erreichbar. Die bisherige Samstagsschicht entfällt ersatzlos.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-3",
+                  "prompt": "Wer ist für die Einarbeitung von Frau Sadiq zuständig?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Frau Aydın als Leitung."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Herr Reinhardt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Alle im Team abwechselnd."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Die Einarbeitung übernimmt nicht die Leitung, sondern Herr Reinhardt.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-4",
+                  "prompt": "Was wurde wegen der Beschwerde der Firma Hellmann beschlossen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Firma Hellmann erhält eine Gutschrift."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Zuordnung wird sofort an alle Kunden geschickt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Großkunden bekommen eine feste Ansprechperson."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Beschlossen wurde, dass Großkunden künftig einer festen Person zugeordnet werden.“ Die Zuordnung wird ausdrücklich erst in der nächsten Besprechung vorgestellt."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-5",
+                  "prompt": "Was gilt für den defekten Wasserspender?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Haustechnik ist bereits informiert."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Er wird in der nächsten Sitzung erneut besprochen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Er wird durch einen neuen ersetzt."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… die Meldung an die Haustechnik ist bereits erfolgt. Kein weiterer Beschluss.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen-schreiben",
+      "title": "Lesen und Schreiben",
+      "durationMinutes": 20,
+      "description": "Ihre Teamleitung leitet Ihnen die Beschwerde einer Kundin weiter und sagt Ihnen, was in Ihrer Antwort stehen soll. Sie beantworten zwei Fragen zu den Texten und schreiben dann die Antwort an die Kundin.",
+      "parts": [
+        {
+          "id": "lesen-schreiben-teil-1",
+          "title": "E-Mail an eine Kundin",
+          "instructions": "Lesen Sie beide E-Mails. Beantworten Sie zuerst die zwei Fragen und schreiben Sie danach die Antwort an die Kundin. Gehen Sie dabei auf alle Punkte Ihrer Teamleitung ein.",
+          "blocks": [
+            {
+              "id": "lesen-schreiben-block",
+              "stimuli": [
+                {
+                  "title": "E-Mail 1",
+                  "heading": "Von: S. Aydın (Teamleitung) – Weitergeleitet: Beschwerde Frau Kessler",
+                  "text": "Hallo,\n\nkönnen Sie das bitte heute noch übernehmen? Frau Kessler ist seit acht Jahren Kundin, das sollten wir nicht liegen lassen.\n\nBitte gehen Sie auf Folgendes ein:\n\n1. Entschuldigen Sie sich für die verspätete Lieferung und nennen Sie den Grund: Ein Zulieferer hat uns kurzfristig storniert.\n2. Nennen Sie einen verbindlichen neuen Liefertermin – der 24. April ist realistisch und intern abgestimmt.\n3. Bieten Sie als Ausgleich an, die Versandkosten zu erlassen. Einen Preisnachlass auf die Ware bitte nicht anbieten, das kann ich nicht freigeben.\n4. Fragen Sie, ob wir die Ware wie bisher an die Filiale liefern sollen oder direkt ins Lager – das hat sie beim letzten Mal angesprochen.\n\nDanke!\nS. Aydın"
+                },
+                {
+                  "title": "E-Mail 2",
+                  "heading": "Von: A. Kessler – Bestellung 4471 – wo bleibt die Lieferung?",
+                  "text": "Sehr geehrte Damen und Herren,\n\nam 2. April habe ich bei Ihnen 40 Kartons Etiketten bestellt (Bestellnummer 4471). Als Liefertermin war der 10. April zugesagt.\n\nHeute ist der 16. April. Die Ware ist nicht da, und auf meine Nachfrage vom 12. April habe ich keine Antwort erhalten. Das ärgert mich, ehrlich gesagt, mehr als die Verspätung selbst.\n\nWir bestellen seit Jahren bei Ihnen und ich habe Sie immer weiterempfohlen. Inzwischen musste ich Etiketten kurzfristig woanders kaufen, zu einem deutlich höheren Preis.\n\nIch erwarte bis Ende der Woche eine verbindliche Auskunft, wann geliefert wird.\n\nMit freundlichen Grüßen\nAnnika Kessler\nKessler Verpackungen GmbH"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "ls-1",
+                  "prompt": "Was ärgert Frau Kessler nach eigener Aussage am meisten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass die Ware zu teuer war."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass niemand auf ihre Nachfrage geantwortet hat."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass sie kein Angebot bekommen hat."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… auf meine Nachfrage vom 12. April habe ich keine Antwort erhalten. Das ärgert mich, ehrlich gesagt, mehr als die Verspätung selbst.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "ls-2",
+                  "prompt": "Was dürfen Sie Frau Kessler laut Ihrer Teamleitung anbieten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Einen Preisnachlass auf die Ware."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Eine Gutschrift für die nächste Bestellung."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Den Erlass der Versandkosten."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Bieten Sie als Ausgleich an, die Versandkosten zu erlassen. Einen Preisnachlass auf die Ware bitte nicht anbieten.“"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "ls-3",
+                  "prompt": "Schreiben Sie die Antwort an Frau Kessler.",
+                  "criteria": [
+                    "Entschuldigung und Grund für die Verzögerung",
+                    "Verbindlicher neuer Liefertermin",
+                    "Angebot: Erlass der Versandkosten",
+                    "Rückfrage: Lieferung an die Filiale oder ins Lager?"
+                  ],
+                  "hints": [
+                    "Schreiben Sie an eine langjährige Kundin: förmlich, aber nicht unpersönlich.",
+                    "Nennen Sie den Grund, ohne den Zulieferer schlechtzumachen – und ohne sich herauszureden.",
+                    "Auf die unbeantwortete Nachfrage sollten Sie eingehen, auch wenn sie nicht in der Liste steht. Genau darüber hat sie sich beschwert."
+                  ],
+                  "minWords": 100,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Frau Kessler,\n\nvielen Dank für Ihre Nachricht – und zunächst: Es tut mir aufrichtig leid, dass Sie auf Ihre Nachfrage vom 12. April keine Antwort erhalten haben. Das hätte nicht passieren dürfen, und ich verstehe Ihren Ärger darüber gut.\n\nZur Sache: Ihre Bestellung 4471 konnte nicht wie zugesagt am 10. April ausgeliefert werden, weil einer unserer Zulieferer kurzfristig storniert hat. Das ändert nichts daran, dass wir Ihnen einen Termin genannt haben, den wir nicht halten konnten.\n\nInzwischen steht ein neuer Termin fest, den ich Ihnen verbindlich zusagen kann: Die 40 Kartons werden am 24. April geliefert.\n\nAls Ausgleich erlassen wir Ihnen selbstverständlich die Versandkosten für diese Bestellung.\n\nEine Frage noch: Sie hatten beim letzten Mal angesprochen, dass eine Lieferung direkt ins Lager für Sie günstiger wäre. Sollen wir die Ware wie bisher an die Filiale schicken oder diesmal ins Lager? Sagen Sie mir kurz Bescheid, dann trage ich es so ein.\n\nMit freundlichen Grüßen\nJ. Vidović\nKundenservice"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 20,
+      "description": "Sie hören Gespräche aus dem Arbeitsalltag, eine Präsentation und telefonische Mitteilungen. Insgesamt bearbeiten Sie 19 Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Gespräche am Arbeitsplatz",
+          "instructions": "Sie hören drei kurze Gespräche. Zu jedem Gespräch gibt es zwei Aufgaben: Entscheiden Sie zuerst, ob die Aussage richtig oder falsch ist, und wählen Sie dann die richtige Antwort. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-01/hoeren-teil-1.mp3",
+            "transcript": "Gespräch 1\nFrau Vogt: Herr Kaminski, kurze Frage zur Inventur am Samstag. Sie hatten sich eintragen lassen?\n\nHerr Kaminski: Ja, aber ich habe ein Problem: Meine Tochter hat an dem Tag Aufführung in der Schule.\n\nFrau Vogt: Dann tragen Sie sich bitte aus. Wir brauchen niemanden, der mit halbem Kopf dabei ist.\n\nHerr Kaminski: Ich könnte den Vormittag machen und mittags gehen.\n\nFrau Vogt: Das hilft uns tatsächlich mehr als gar nichts. Machen wir so – bis 13 Uhr, dann übernimmt Herr Okafor.\n\nGespräch 2\nHerr Weber: Sie wollten mit mir über die Schulung sprechen?\n\nFrau Delgado: Genau. Der Termin im März ist ausgebucht, aber im Mai gibt es noch Plätze.\n\nHerr Weber: Mai ist schlecht, da bin ich zwei Wochen im Urlaub.\n\nFrau Delgado: Die Schulung geht über drei Tage, vom 12. bis 14. Wann sind Sie weg?\n\nHerr Weber: Ab dem 18. Dann passt es doch.\n\nFrau Delgado: Sehr gut. Ich melde Sie an, die Bestätigung kommt per Mail.\n\nGespräch 3\nFrau Aydın: Herr Reinhardt, die Auswertung sollte gestern fertig sein.\n\nHerr Reinhardt: Ich weiß, es tut mir leid. Mir fehlen die Zahlen aus dem Wareneingang.\n\nFrau Aydın: Haben Sie dort nachgefragt?\n\nHerr Reinhardt: Zweimal per Mail, ohne Antwort. Ich wollte nicht ständig hinterherlaufen.\n\nFrau Aydın: Doch, genau das müssen Sie. Rufen Sie an, und wenn dann nichts kommt, sagen Sie mir Bescheid – dann übernehme ich das."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-gespraech-1",
+              "prompt": "Gespräch 1",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-1",
+                  "statement": "Herr Kaminski arbeitet am Samstag den ganzen Tag.",
+                  "solution": false,
+                  "explanation": "Er macht nur den Vormittag: „bis 13 Uhr, dann übernimmt Herr Okafor“."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Wie reagiert Frau Vogt auf sein Problem?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie nimmt seinen Vorschlag an."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie besteht auf der ursprünglichen Zusage."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie sucht selbst einen Ersatz."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Das hilft uns tatsächlich mehr als gar nichts. Machen wir so.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-gespraech-2",
+              "prompt": "Gespräch 2",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-3",
+                  "statement": "Herr Weber kann an der Schulung im Mai teilnehmen.",
+                  "solution": true,
+                  "explanation": "Die Schulung ist vom 12. bis 14., sein Urlaub beginnt am 18. – „Dann passt es doch.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Warum war der Märztermin keine Option?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Herr Weber war im Urlaub."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Er war bereits ausgebucht."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Schulung wurde abgesagt."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Der Termin im März ist ausgebucht, aber im Mai gibt es noch Plätze.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-gespraech-3",
+              "prompt": "Gespräch 3",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-5",
+                  "statement": "Herr Reinhardt hat schon zweimal nachgefragt.",
+                  "solution": true,
+                  "explanation": "„Zweimal per Mail, ohne Antwort.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-6",
+                  "prompt": "Was erwartet Frau Aydın von ihm?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass er die Auswertung ohne die Zahlen abgibt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass er sich an die Geschäftsleitung wendet."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass er telefonisch nachhakt und sie informiert."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Rufen Sie an, und wenn dann nichts kommt, sagen Sie mir Bescheid.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Was passt zu welchem Gespräch?",
+          "instructions": "Sie hören vier kurze Gespräche. Welcher Satz a–f passt zu welchem Gespräch? Zwei Sätze bleiben übrig. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-01/hoeren-teil-2.mp3",
+            "transcript": "Gespräch 1\nFrau Lorenz: Der Drucker im zweiten Stock streikt schon wieder. Ich habe den Auftrag jetzt an die Haustechnik gegeben.\n\nHerr Okafor: Und bis dahin? Ich brauche die Unterlagen für morgen früh.\n\nFrau Lorenz: Nehmen Sie den im Empfang, der läuft. Der Code steht am Gerät.\n\nGespräch 2\nHerr Palm: Sie haben die Bestellung storniert? Der Kunde hatte doch zugesagt.\n\nFrau Bauer: Mündlich, ja. Schriftlich kam nie etwas, und die Frist war Freitag.\n\nHerr Palm: Dann hätten Sie mich fragen müssen, bevor Sie das machen.\n\nGespräch 3\nFrau Sander: Ich verstehe die neue Software immer noch nicht richtig.\n\nHerr Ayala: Ging mir genauso. Setzen wir uns morgen früh eine halbe Stunde zusammen, bevor die Anrufe losgehen.\n\nFrau Sander: Das wäre großartig.\n\nGespräch 4\nHerr Novak: Können wir den Termin mit der Firma Hellmann auf nächste Woche schieben?\n\nFrau Vidović: Auf keinen Fall. Die haben sich beschwert, da verschieben wir nichts.\n\nHerr Novak: Verstanden. Dann bereite ich es heute Abend vor."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "prompt": "Welcher Satz passt zu welchem Gespräch?",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Jemand bietet an, einer Kollegin persönlich zu helfen."
+                },
+                {
+                  "id": "b",
+                  "text": "Jemand kündigt an, ein Gerät selbst zu reparieren."
+                },
+                {
+                  "id": "c",
+                  "text": "Jemand nennt eine Lösung für die Zwischenzeit."
+                },
+                {
+                  "id": "d",
+                  "text": "Jemand lehnt eine Verschiebung ab."
+                },
+                {
+                  "id": "e",
+                  "text": "Jemand kritisiert eine Entscheidung ohne Rücksprache."
+                },
+                {
+                  "id": "f",
+                  "text": "Jemand bittet um eine Verlängerung der Frist."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h2-1",
+                  "prompt": "Gespräch 1",
+                  "solution": "c",
+                  "explanation": "Frau Lorenz nennt eine sofortige Ausweichmöglichkeit: den Drucker im Empfang."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-2",
+                  "prompt": "Gespräch 2",
+                  "solution": "e",
+                  "explanation": "Herr Palm kritisiert, dass sie ohne Rücksprache entschieden hat."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-3",
+                  "prompt": "Gespräch 3",
+                  "solution": "a",
+                  "explanation": "Herr Ayala bietet an, gemeinsam Zeit dafür zu nehmen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-4",
+                  "prompt": "Gespräch 4",
+                  "solution": "d",
+                  "explanation": "Frau Vidović lehnt die Verschiebung klar ab und begründet es mit der Beschwerde."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Eine Präsentation",
+          "instructions": "Sie hören eine Präsentation im Betrieb. Über jeder Aufgabe steht ein Stichwort, damit Sie wissen, an welcher Stelle Sie sich befinden. Wählen Sie die richtige Antwort. Sie hören die Präsentation einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-01/hoeren-teil-3.mp3",
+            "transcript": "Moderatorin: So, dann übergebe ich das Wort. Herr Brandt ist bei uns im Haus für Arbeitssicherheit zuständig und stellt Ihnen die neue Anlage vor.\n\nHerr Brandt: Vielen Dank. Ich bin, wie gesagt, kein externer Berater, sondern seit elf Jahren hier im Betrieb – das sage ich deshalb, weil ich die Wege im Haus kenne und weiß, wo es hakt.\n\nHerr Brandt: Zur Sache. Ab dem 1. Juli haben wir eine neue Alarmanlage. Der wichtigste Unterschied zur alten: Sie unterscheidet zwischen Einbruch und Feuer, und sie meldet beides getrennt an die Leitstelle. Bisher ging jeder Alarm als ein einziges Signal raus, und die Feuerwehr wusste beim Losfahren nicht, was sie erwartet.\n\nHerr Brandt: Was heißt das für Sie im Alltag? Wenig. Sie brauchen keinen neuen Code, und niemand muss etwas mit sich herumtragen. Nur eines ändert sich: Wer als Letzter geht, scharf schaltet und dann noch einmal zurück ins Gebäude muss, hat sechzig Sekunden Zeit. Danach löst die Anlage aus. Bei der alten Anlage waren es drei Minuten.\n\nHerr Brandt: Der häufigste Fehlalarm entsteht übrigens nicht durch Einbrecher, sondern durch offene Fenster in den Sanitärräumen. Wenn nachts Wind aufkommt, bewegt sich der Vorhang, und der Melder reagiert. Schließen Sie die Fenster – das erspart uns allen den nächtlichen Anruf.\n\nHerr Brandt: Zum Schluss die Kosten, weil die Frage sicher kommt: Die Anlage zahlt der Betrieb, nicht die Versicherung. Die Versicherung senkt dafür ab dem kommenden Jahr den Beitrag, sodass sich das Ganze nach etwa vier Jahren rechnet."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-a",
+              "prompt": "WER SPRICHT",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-1",
+                  "prompt": "Wer hält die Präsentation?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ein Mitarbeiter des Betriebs."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ein externer Experte für Sicherheit."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ein Vertreter der Versicherung."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Ich bin, wie gesagt, kein externer Berater, sondern seit elf Jahren hier im Betrieb.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-b",
+              "prompt": "NEUE ALARMANLAGE",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Was ist der wichtigste Unterschied zur alten Anlage?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie ist leiser."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie meldet Einbruch und Feuer getrennt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie ist mit dem Handy verbunden."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Sie unterscheidet zwischen Einbruch und Feuer, und sie meldet beides getrennt an die Leitstelle.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-c",
+              "prompt": "WAS SICH FÜR DIE BESCHÄFTIGTEN ÄNDERT",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-3",
+                  "prompt": "Was müssen die Beschäftigten künftig beachten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie brauchen einen neuen Code."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie müssen einen Chip mit sich führen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie haben nach dem Scharfschalten nur noch eine Minute Zeit."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… hat sechzig Sekunden Zeit. Danach löst die Anlage aus. Bei der alten Anlage waren es drei Minuten.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-d",
+              "prompt": "KOSTEN",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Wer bezahlt die neue Anlage?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Betrieb."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Versicherung."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Betrieb und Versicherung je zur Hälfte."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Die Anlage zahlt der Betrieb, nicht die Versicherung.“ Die Versicherung senkt lediglich den Beitrag."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-4",
+          "title": "Teil 4 – Telefonische Mitteilungen",
+          "instructions": "Sie hören fünf Nachrichten auf dem Anrufbeantworter. Wählen Sie zu jeder Nachricht die richtige Antwort. Sie hören jede Nachricht einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-01/hoeren-teil-4.mp3",
+            "transcript": "Mitteilung 1\nFrau Lehmann: Guten Tag, hier ist Frau Lehmann von der Spedition Nordwind. Es geht um die Abholung morgen früh. Unser Fahrer schafft die sechs Uhr leider nicht, er kommt gegen halb neun. Die Ware muss aber trotzdem ab sechs bereitstehen, weil wir gegebenenfalls früher da sind. Danke.\n\nMitteilung 2\nHerr Kaminski: Hallo, Kaminski hier aus der Werkstatt. Die Maschine drei läuft wieder, aber ich habe nur ein gebrauchtes Ersatzteil eingebaut. Das hält ein paar Wochen. Bestellt bitte das neue Teil, sonst stehen wir mitten im Sommer.\n\nMitteilung 3\nFrau Bauer: Guten Tag, Praxis Doktor Sommer, mein Name ist Frau Bauer. Ihre arbeitsmedizinische Untersuchung steht an. Wichtig: Bringen Sie bitte Ihren Impfpass mit. Ohne den können wir die Untersuchung nicht abschließen und Sie müssten ein zweites Mal kommen.\n\nMitteilung 4\nHerr Okafor: Hier ist Okafor. Ich stehe am Schulungszentrum, aber der Raum ist abgeschlossen und niemand da. Auf der Einladung steht Gebäude C, an der Tür steht aber, die Schulung sei in Gebäude A. Ich gehe jetzt rüber. Falls noch jemand kommt, sagt es bitte weiter.\n\nMitteilung 5\nHerr Reinhardt: Guten Tag, Reinhardt von der IT. Ihre Zugangsdaten für das neue Portal sind unterwegs, aber nicht per Mail, sondern per Post an Ihre Privatadresse. Das ist so vorgeschrieben. Wenn nach zehn Tagen nichts da ist, melden Sie sich bitte – dann ist etwas schiefgelaufen."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-4-mitteilung-1",
+              "prompt": "Mitteilung 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-1",
+                  "prompt": "Was ist die zentrale Information?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Abholung fällt aus."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Der Fahrer kommt später, die Ware muss trotzdem früh bereitstehen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Ware wird an einen anderen Ort geliefert."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… er kommt gegen halb neun. Die Ware muss aber trotzdem ab sechs bereitstehen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-2",
+              "prompt": "Mitteilung 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-2",
+                  "prompt": "Was soll der Empfänger tun?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Maschine abschalten."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Einen Techniker rufen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ein Ersatzteil bestellen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Bestellt bitte das neue Teil, sonst stehen wir mitten im Sommer.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-3",
+              "prompt": "Mitteilung 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-3",
+                  "prompt": "Was ist besonders zu beachten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Man muss den Impfpass mitbringen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Man muss nüchtern kommen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Man braucht eine Überweisung."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Bringen Sie bitte Ihren Impfpass mit. Ohne den können wir die Untersuchung nicht abschließen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-4",
+              "prompt": "Mitteilung 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-4",
+                  "prompt": "Warum ruft Herr Okafor an?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Schulung wurde abgesagt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Der Raum wurde kurzfristig geändert."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Er hat den Termin verwechselt."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Auf der Einladung steht Gebäude C, an der Tür steht aber, die Schulung sei in Gebäude A.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-5",
+              "prompt": "Mitteilung 5",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-5",
+                  "prompt": "Wie bekommt der Empfänger seine Zugangsdaten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Per E-Mail."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Persönlich in der IT-Abteilung."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Per Post nach Hause."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… nicht per Mail, sondern per Post an Ihre Privatadresse.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "hoeren-schreiben",
+      "title": "Hören und Schreiben",
+      "durationMinutes": 5,
+      "description": "Sie hören eine telefonische Mitteilung und halten das Wichtigste in einer Notiz fest.",
+      "parts": [
+        {
+          "id": "hoeren-schreiben-teil-1",
+          "title": "Notiz zu einem Anruf",
+          "instructions": "Sie sind allein im Büro und nehmen einen Anruf entgegen. Wählen Sie zuerst den Grund des Anrufs. Füllen Sie danach die Notiz für Ihre Kollegin aus. Sie hören die Mitteilung zweimal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-01/hoeren-schreiben.mp3",
+            "transcript": "Guten Tag, hier spricht Petra Lindner von der Firma Baumann Bauelemente. Ich rufe an wegen unserer Bestellung vom vergangenen Freitag, Nummer 8 8 0 4. Wir hatten zwanzig Fensterbänke bestellt, geliefert wurden aber nur zwölf, und zwei davon sind beschädigt. Das ist für uns ein echtes Problem, weil die Montage am Donnerstag beginnt. Bitte rufen Sie mich heute noch zurück, meine Durchwahl ist 0 2 1 1 – 4 4 7 2 9 0. Ich bin bis siebzehn Uhr im Haus. Vielen Dank."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-schreiben-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "hs-1",
+                  "prompt": "Grund für den Anruf",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Angebot"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bestellung / Buchung"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Beschwerde"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Es wurden zu wenige Teile geliefert und zwei sind beschädigt – die Anruferin beschwert sich über eine fehlerhafte Lieferung."
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-2",
+                  "prompt": "Name",
+                  "inputMode": "single-line",
+                  "musterloesung": "Petra Lindner, Firma Baumann Bauelemente"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-3",
+                  "prompt": "Telefonnummer",
+                  "inputMode": "single-line",
+                  "musterloesung": "0211 – 447290"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-4",
+                  "prompt": "Weitere Informationen",
+                  "inputMode": "single-line",
+                  "musterloesung": "Bestellung 8804 vom Freitag: 20 Fensterbänke bestellt, nur 12 geliefert, davon 2 beschädigt. Montage beginnt am Donnerstag."
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-5",
+                  "prompt": "Zu erledigen",
+                  "inputMode": "single-line",
+                  "musterloesung": "Heute noch zurückrufen, Frau Lindner ist bis 17 Uhr erreichbar."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprachbausteine",
+      "title": "Sprachbausteine und Schreiben",
+      "durationMinutes": 35,
+      "description": "Sie ergänzen zwei Texte aus dem Berufsalltag und schreiben zum Schluss Ihre Meinung zu einem Thema. Insgesamt bearbeiten Sie 13 Aufgaben.",
+      "parts": [
+        {
+          "id": "sprachbausteine-teil-1",
+          "title": "Teil 1 – Wörter aus dem Kasten",
+          "instructions": "Lesen Sie den folgenden Text. Welche Wörter a–j passen am besten in die Lücken? Sie können jedes Wort nur einmal verwenden. Nicht alle Wörter passen in den Text.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-1-block",
+              "inlineGaps": true,
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Nachdem"
+                },
+                {
+                  "id": "b",
+                  "text": "möglichst"
+                },
+                {
+                  "id": "c",
+                  "text": "Falls"
+                },
+                {
+                  "id": "d",
+                  "text": "sowohl"
+                },
+                {
+                  "id": "e",
+                  "text": "als auch"
+                },
+                {
+                  "id": "f",
+                  "text": "noch"
+                },
+                {
+                  "id": "g",
+                  "text": "obwohl"
+                },
+                {
+                  "id": "h",
+                  "text": "worauf"
+                },
+                {
+                  "id": "i",
+                  "text": "trotzdem"
+                },
+                {
+                  "id": "j",
+                  "text": "währenddessen"
+                }
+              ],
+              "stimuli": [
+                {
+                  "title": "Text",
+                  "heading": "Mitarbeiterinformation: neue Zeiterfassung",
+                  "text": "Sehr geehrte Kolleginnen und Kollegen,\n\n___(1)___ die Umstellung auf das neue Zeiterfassungssystem abgeschlossen ist, möchten wir Ihnen einige Hinweise für den Alltag geben.\n\nBitte tragen Sie Beginn und Ende Ihrer Arbeitszeit ___(2)___ noch am selben Tag ein. ___(3)___ Sie das einmal vergessen, können Sie die Korrektur sieben Tage lang selbst vornehmen; danach geht es nur noch über die Vorgesetzten.\n\nDas System erfasst ___(4)___ die Arbeitszeit ___(5)___ die Pausen. Wer ___(6)___ Fragen hat, wendet sich bitte an die Personalabteilung.\n\nMit freundlichen Grüßen\nDie Geschäftsleitung"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-1",
+                  "prompt": "Lücke (1)",
+                  "solution": "a",
+                  "explanation": "Ein Nebensatz mit „Nachdem“ nennt, was vorher abgeschlossen wurde. „Obwohl“ wäre ein Gegensatz, „währenddessen“ eine Gleichzeitigkeit."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-2",
+                  "prompt": "Lücke (2)",
+                  "solution": "b",
+                  "explanation": "„möglichst noch am selben Tag“ – eine höfliche Abschwächung der Aufforderung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-3",
+                  "prompt": "Lücke (3)",
+                  "solution": "c",
+                  "explanation": "Eine Bedingung: „Falls Sie das einmal vergessen …“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-4",
+                  "prompt": "Lücke (4)",
+                  "solution": "d",
+                  "explanation": "Doppelkonnektor: „sowohl … als auch …“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-5",
+                  "prompt": "Lücke (5)",
+                  "solution": "e",
+                  "explanation": "Der zweite Teil des Doppelkonnektors."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-6",
+                  "prompt": "Lücke (6)",
+                  "solution": "f",
+                  "explanation": "„Wer noch Fragen hat“ – die übliche Schlussformel."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprachbausteine-teil-2",
+          "title": "Teil 2 – Wörter im Text ergänzen",
+          "instructions": "Lesen Sie die E-Mail und wählen Sie für jede Lücke das passende Wort.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-2-block",
+              "inlineGaps": true,
+              "stimuli": [
+                {
+                  "title": "E-Mail",
+                  "heading": "Antwort an eine Interessentin",
+                  "text": "Sehr geehrte Frau Roth,\n\nvielen Dank für ___(1)___ vom 3. März.\n\nGern schicke ich Ihnen die gewünschten Unterlagen zu. ___(2)___ finden Sie unser aktuelles Preisverzeichnis sowie zwei Referenzen aus Ihrer Branche.\n\nSie hatten nach der Lieferzeit gefragt: Bei Standardartikeln ___(3)___ sie zwei bis drei Werktage, bei Sonderanfertigungen rechnen wir mit etwa vier Wochen.\n\nFalls Sie ___(4)___ wünschen, rufe ich Sie gern an. Ich bin von Montag bis Donnerstag ___(5)___ erreichbar.\n\nIch ___(6)___ mich auf Ihre Rückmeldung.\n\nMit freundlichen Grüßen\nM. Okafor"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-1",
+                  "prompt": "Lücke (1) – Nomen",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ihre Anfrage"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ihr Angebot"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ihre Antwort"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Frau Roth hat gefragt, nicht geantwortet oder angeboten – der Brief reagiert auf eine Anfrage."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-2",
+                  "prompt": "Lücke (2) – Präposition + Nomen",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Im Auftrag"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Im Anhang"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Im Anschluss"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Die Unterlagen liegen der Mail bei: „Im Anhang finden Sie …“."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-3",
+                  "prompt": "Lücke (3) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "betrifft"
+                    },
+                    {
+                      "id": "b",
+                      "text": "beteiligt"
+                    },
+                    {
+                      "id": "c",
+                      "text": "beträgt"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Die Lieferzeit beträgt zwei bis drei Werktage“ – die feste Verbindung für Zeit- und Mengenangaben."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-4",
+                  "prompt": "Lücke (4) – Nomen",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "weitere Auskünfte"
+                    },
+                    {
+                      "id": "b",
+                      "text": "weitere Ausgaben"
+                    },
+                    {
+                      "id": "c",
+                      "text": "weitere Ausreden"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Gemeint sind zusätzliche Informationen: „weitere Auskünfte“."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-5",
+                  "prompt": "Lücke (5) – Adverb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "durchschnittlich"
+                    },
+                    {
+                      "id": "b",
+                      "text": "durchgehend"
+                    },
+                    {
+                      "id": "c",
+                      "text": "durchsichtig"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„von Montag bis Donnerstag durchgehend erreichbar“ – ohne Unterbrechung."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-6",
+                  "prompt": "Lücke (6) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "erfreue"
+                    },
+                    {
+                      "id": "b",
+                      "text": "befreie"
+                    },
+                    {
+                      "id": "c",
+                      "text": "freue"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ich freue mich auf Ihre Rückmeldung“ – die feste Schlussformel."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprachbausteine-teil-3",
+          "title": "Teil 3 – Ihre Meinung",
+          "instructions": "Lesen Sie die Information und schreiben Sie Ihre Meinung zu dem Thema. Schreiben Sie mindestens 100 Wörter.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-3-block",
+              "stimuli": [
+                {
+                  "title": "Information",
+                  "heading": "Anspruch auf Arbeit von zu Hause?",
+                  "text": "In vielen Betrieben wird darüber diskutiert, ob Beschäftigte einen gesetzlichen Anspruch auf Arbeit von zu Hause bekommen sollen. Bisher ist das reine Verhandlungssache zwischen Betrieb und Beschäftigten.\n\nAus einer aktuellen Befragung unter 4.000 Beschäftigten:\n\n· 61 % möchten mindestens zwei Tage pro Woche von zu Hause arbeiten.\n· 38 % geben an, sich zu Hause besser konzentrieren zu können.\n· 44 % vermissen den Austausch mit den Kolleginnen und Kollegen.\n· In Betrieben mit Publikumsverkehr halten 72 % der Führungskräfte einen Anspruch für nicht umsetzbar."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "sb3-1",
+                  "prompt": "Schreiben Sie Ihre Meinung zu dem Thema.",
+                  "criteria": [
+                    "Ihre Meinung: Sollte es einen Anspruch geben?",
+                    "Eine Begründung mit einem Beispiel aus Ihrer Erfahrung",
+                    "Ein Argument der Gegenseite und Ihre Antwort darauf",
+                    "Ein Vorschlag, wie man es in der Praxis regeln könnte"
+                  ],
+                  "hints": [
+                    "Auf B2 reicht es nicht zu sagen, was Sie denken – Sie müssen es begründen und ein Gegenargument aufgreifen.",
+                    "Nützlich: „Einerseits … andererseits …“, „Dagegen wird oft eingewandt, dass …“, „Aus meiner Sicht …“.",
+                    "Sie dürfen die Zahlen aus dem Kasten benutzen, müssen es aber nicht."
+                  ],
+                  "minWords": 100,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Aus meiner Sicht sollte es einen Anspruch geben, allerdings keinen unbegrenzten.\n\nIch arbeite selbst im Kundenservice und habe während der Umstellung auf das neue System zwei Tage pro Woche von zu Hause gearbeitet. Für Aufgaben, die Konzentration verlangen – Auswertungen, längere Schreiben –, war das deutlich produktiver als im Großraumbüro. Das deckt sich mit den 38 Prozent aus der Befragung.\n\nDagegen wird oft eingewandt, dass der Zusammenhalt im Team leidet, und dieses Argument halte ich nicht für falsch. Immerhin 44 Prozent vermissen den Austausch. Bei uns hat sich gezeigt, dass neue Kolleginnen und Kollegen im Homeoffice deutlich länger brauchen, bis sie sich zurechtfinden, weil sie eben nicht kurz jemanden fragen können.\n\nGenau deshalb bin ich gegen eine Regelung, die für alle gleich gilt. In Betrieben mit Publikumsverkehr ist sie ohnehin nicht umsetzbar, wie 72 Prozent der Führungskräfte sagen.\n\nMein Vorschlag wäre ein Anspruch auf zwei Tage pro Woche, verbunden mit zwei Bedingungen: In den ersten sechs Monaten arbeitet man vor Ort, und ein fester Tag in der Woche ist für alle Präsenztag. So bleibt der Austausch erhalten, ohne dass man die Vorteile aufgibt."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "status": "in-arbeit"
+}

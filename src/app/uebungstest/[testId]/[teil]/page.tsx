@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getAllTests, getSection, nextSectionKind } from "@/lib/content";
+import { isInProgress, getAllTests, getSection, nextSectionKind } from "@/lib/content";
 import { SECTION_LABEL, type SectionKind } from "@/lib/schema";
 import { SectionRunner } from "@/components/SectionRunner";
 import { canonical } from "@/lib/site";
 
 export function generateStaticParams() {
-  return getAllTests().flatMap((test) =>
+  return getAllTests().filter((t) => !isInProgress(t)).flatMap((test) =>
     test.sections.map((section) => ({ testId: test.id, teil: section.kind })),
   );
 }
@@ -33,7 +33,7 @@ export default async function SectionPage({
 }) {
   const { testId, teil } = await params;
   const found = getSection(testId, teil);
-  if (!found) notFound();
+  if (!found || isInProgress(found.test)) notFound();
 
   const next = nextSectionKind(found.test, found.section.kind as SectionKind);
 

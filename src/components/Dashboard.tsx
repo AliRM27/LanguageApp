@@ -35,8 +35,21 @@ interface Row {
   updatedAt: string | null;
 }
 
-/** The two skills that are marked automatically; the other two are self-rated. */
-const SCORED_SKILLS: SectionKind[] = ["hoeren", "lesen"];
+/**
+ * Prüfungsteile, in denen es automatisch bewertete Aufgaben gibt.
+ *
+ * Auf B2 Beruf sind das mehr als zwei, weil dort auch die kombinierten Teile
+ * Multiple-Choice enthalten. Angezeigt wird trotzdem nur, was der Lernende
+ * tatsächlich abgegeben hat – ein Balken für einen Teil, den es in diesem
+ * Test gar nicht gibt, wäre nur Rauschen.
+ */
+const SCORED_SKILLS: SectionKind[] = [
+  "hoeren",
+  "lesen",
+  "lesen-schreiben",
+  "hoeren-schreiben",
+  "sprachbausteine",
+];
 
 /**
  * How many tasks have an actual answer.
@@ -243,7 +256,9 @@ export function Dashboard({ tests }: { tests: TestSummary[] }) {
                 </div>
 
                 <div className="space-y-4">
-                  {bySkill.map((skill) => (
+                  {bySkill
+                    .filter((skill) => skill.total > 0)
+                    .map((skill) => (
                     <SkillBar
                       key={skill.kind}
                       label={SECTION_LABEL[skill.kind]}

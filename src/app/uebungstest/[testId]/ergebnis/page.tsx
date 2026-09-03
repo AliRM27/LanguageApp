@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getAllTests, getTest } from "@/lib/content";
+import { isInProgress, getAllTests, getTest } from "@/lib/content";
 import { ResultsView } from "@/components/ResultsView";
 
 export function generateStaticParams() {
-  return getAllTests().map((test) => ({ testId: test.id }));
+  return getAllTests().filter((t) => !isInProgress(t)).map((test) => ({ testId: test.id }));
 }
 
 export async function generateMetadata({
@@ -24,7 +24,7 @@ export default async function ResultsPage({
 }) {
   const { testId } = await params;
   const test = getTest(testId);
-  if (!test) notFound();
+  if (!test || isInProgress(test)) notFound();
 
   return <ResultsView test={test} />;
 }

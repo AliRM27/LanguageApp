@@ -1089,7 +1089,7 @@
                   "title": "Bild",
                   "image": {
                     "src": "/bilder/de/b1/uebungstest-b1-08/sprechen-bild.jpg",
-                    "alt": "Eine Sporthalle: Eine Gruppe Kinder in Sportkleidung steht im Kreis um eine Trainerin, die etwas erklärt und dabei auf einen Ball zeigt. Im Hintergrund stehen Tore und Matten an der Wand, auf einer Bank liegen Trinkflaschen und Jacken."
+                    "alt": "Eine helle Sporthalle mit Holzboden: Eine Reihe von Kindern sitzt mit gegrätschten Beinen auf dem Boden und hält jeweils einen Volleyball mit beiden Händen über den Kopf. Rechts im Vordergrund macht eine Trainerin in dunkler Sportkleidung die Übung mit dem Rücken zur Kamera vor. An der Wand hängen gelbe Schutzpolster, auf dem Boden liegen bunte Reifen."
                   },
                   "text": "Beschreiben Sie, was Sie auf dem Bild sehen."
                 }
@@ -1098,13 +1098,13 @@
                 {
                   "type": "sprechen",
                   "id": "sp2-1",
-                  "prompt": "Beschreiben Sie das Bild und sagen Sie, was Sie selbst in Ihrer Freizeit machen.",
+                  "prompt": "Beschreiben Sie das Bild und sagen Sie, welche Erfahrungen Sie mit Sport in einer Gruppe haben.",
                   "hints": [
                     "Gehen Sie der Reihe nach vor: Wo ist das? Was sieht man? Wer ist zu sehen und was macht die Person?",
                     "Vermutungen gehören dazu: „Ich vermute, dass …“, „Wahrscheinlich …“, „Es sieht so aus, als ob …“.",
                     "Zum Schluss der eigene Bezug – begründen Sie mit „einerseits … andererseits …“."
                   ],
-                  "musterloesung": "Auf dem Bild sehe ich eine Sporthalle, in der gerade ein Training stattfindet. Es sind etwa zehn Kinder zu sehen, ich schätze, sie sind acht bis zehn Jahre alt.\n\nSie stehen im Kreis um eine Trainerin herum. Die Frau erklärt offenbar etwas und zeigt dabei auf einen Ball. Die Kinder hören zu, einige schauen sehr konzentriert, ein Junge am Rand ist mit etwas anderem beschäftigt.\n\nIm Hintergrund stehen Tore und Matten an der Wand, auf einer Bank liegen Trinkflaschen und Jacken. Es sieht nach einem ganz normalen Vereinstraining aus, nicht nach einem Wettkampf.\n\nWas mir gefällt: Die Trainerin erklärt zuerst und lässt die Kinder nicht einfach nur laufen. Ich vermute, dass es um eine neue Übung geht.\n\nIch selbst spiele einmal in der Woche Fußball, in einer Freizeitmannschaft ohne Wettkampf. Einerseits geht es mir um die Bewegung, andererseits ehrlich gesagt genauso um die Leute – wir gehen danach immer noch etwas trinken.\n\nAußerdem trainiere ich seit einem Jahr eine Jugendgruppe. Das ist anstrengender als selbst zu spielen, aber es gibt mir viel. Was mir am Anfang schwergefallen ist, war die Sprache: Anfeuern kann man mit Händen, eine Taktik erklären nicht."
+                  "musterloesung": "Das Bild zeigt eine Sporthalle. Der Boden ist aus hellem Holz mit farbigen Linien, an den Wänden hängen gelbe Polster zum Schutz.\n\nAuf dem Boden sitzt eine Reihe von Kindern, ich schätze zwischen acht und zwölf Jahren. Alle sitzen gleich: mit weit gegrätschten Beinen, den Oberkörper zur Seite gedreht, und jedes Kind hält einen Volleyball mit beiden Händen über den Kopf.\n\nRechts vorne sitzt eine Frau in dunkler Sportkleidung, ebenfalls mit einem Ball über dem Kopf. Sie hat den Rücken zur Kamera und schaut zu den Kindern. Sie ist offenbar die Trainerin und macht die Übung vor.\n\nEs sieht nach einer Dehnübung zum Aufwärmen aus, nicht nach einem Spiel. Ich vermute, dass das Training gerade erst angefangen hat.\n\nWas mir gefällt: Die Trainerin erklärt nicht nur, sondern macht selbst mit. Die Kinder sehen sofort, wie es aussehen soll.\n\nIch selbst habe als Jugendlicher in einer Mannschaft Fußball gespielt und später hier in Deutschland wieder angefangen. Einerseits geht es beim Sport in der Gruppe natürlich um Bewegung. Andererseits war für mich fast wichtiger, dass ich Leute kennengelernt habe.\n\nIm Verein spricht man ganz anders als im Kurs: schneller, mit vielen Abkürzungen und Sprüchen. Am Anfang habe ich fast nichts verstanden. Aber ich glaube, ich habe dort mehr Deutsch gelernt als in manchem Unterricht, weil ich einfach mitreden musste."
                 }
               ]
             }

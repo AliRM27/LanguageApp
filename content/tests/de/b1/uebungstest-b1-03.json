@@ -1089,7 +1089,7 @@
                   "title": "Bild",
                   "image": {
                     "src": "/bilder/de/b1/uebungstest-b1-03/sprechen-bild.jpg",
-                    "alt": "Ein Park am Nachmittag: Auf einem Weg joggen zwei Personen, im Hintergrund sitzen Menschen auf Bänken und auf einer Wiese. Rechts fährt jemand mit einem Fahrrad vorbei, links spielen Kinder mit einem Ball. Die Bäume tragen grüne Blätter."
+                    "alt": "Ein Stadtpark im Herbst: Auf einer großen Wiese führt eine Frau einen hellbraunen Hund an der Leine. Rechts steht ein Kind mit blauem Fahrradhelm und rotem Pullover mit dem Fahrrad auf einem geschwungenen Weg. Im Hintergrund sitzen zwei Personen auf einer Bank, jemand geht spazieren; die Bäume sind teilweise gelb gefärbt, dahinter ein helles Wohngebäude."
                   },
                   "text": "Beschreiben Sie, was Sie auf dem Bild sehen."
                 }
@@ -1098,13 +1098,13 @@
                 {
                   "type": "sprechen",
                   "id": "sp2-1",
-                  "prompt": "Beschreiben Sie das Bild und sagen Sie, wie Sie selbst sich fit halten.",
+                  "prompt": "Beschreiben Sie das Bild und sagen Sie, wie Sie sich selbst fit halten.",
                   "hints": [
                     "Gehen Sie der Reihe nach vor: Wo ist das? Was sieht man? Wer ist zu sehen und was macht die Person?",
                     "Vermutungen gehören dazu: „Ich vermute, dass …“, „Wahrscheinlich …“, „Es sieht so aus, als ob …“.",
                     "Zum Schluss der eigene Bezug – begründen Sie mit „einerseits … andererseits …“."
                   ],
-                  "musterloesung": "Auf dem Bild sehe ich einen Park, wahrscheinlich am späten Nachmittag oder am Wochenende, weil ziemlich viele Menschen unterwegs sind.\n\nIm Vordergrund joggen zwei Personen auf einem Weg. Rechts fährt jemand mit dem Fahrrad vorbei, und links spielen Kinder mit einem Ball. Im Hintergrund sitzen Leute auf Bänken und auf der Wiese; einige unterhalten sich, andere lesen.\n\nDie Bäume sind grün, also ist es Frühling oder Sommer. Es sieht warm aus, aber nicht heiß – die Joggerinnen tragen kurze Sachen, die Leute auf den Bänken aber leichte Jacken. Ich vermute, es ist ein ganz normaler Tag und kein besonderes Ereignis.\n\nWas mir an dem Bild gefällt: Alle machen etwas anderes, und trotzdem stört sich niemand. Genau dafür sind Parks in der Stadt wichtig, besonders für Leute, die keinen Garten haben.\n\nIch selbst gehe zweimal in der Woche schwimmen. Einerseits tut mir das Wasser gut, weil ich im Praktikum viel stehe, andererseits schaffe ich es ehrlich gesagt nicht öfter. Joggen habe ich auch versucht, aber allein fehlt mir die Motivation. Was bei mir am besten funktioniert, ist der Weg zur Arbeit: Ich fahre seit einem Jahr mit dem Rad, und das sind jeden Tag zwanzig Minuten Bewegung, über die ich gar nicht nachdenken muss."
+                  "musterloesung": "Das Bild zeigt einen Park mitten in der Stadt. Man sieht es daran, dass hinter den Bäumen ein hohes, helles Wohnhaus steht.\n\nIm Vordergrund führt ein breiter Weg durch das Bild und teilt sich rechts. Dort steht ein Kind mit einem blauen Helm und einem roten Pullover neben seinem Fahrrad. Es sieht so aus, als ob es kurz anhält, vielleicht schaut es auf sein Handy.\n\nLinks auf der Wiese geht eine Frau mit einem hellbraunen Hund an der Leine. Weiter hinten sitzen zwei Personen auf einer Bank, und jemand geht den Weg entlang.\n\nEs ist offensichtlich Herbst: Ein Teil der Blätter ist schon gelb und orange, aber viele Bäume sind noch grün. Ich vermute, das Foto ist am späten Nachmittag entstanden, weil das Licht sehr weich ist.\n\nAuffällig finde ich, wie ruhig es wirkt. Es sind nur wenige Menschen unterwegs, jeder macht etwas anderes, und niemand stört den anderen. Genau dafür sind solche Parks wichtig, besonders für Leute, die keinen Garten haben.\n\nIch selbst halte mich vor allem im Alltag fit. Ich fahre seit einem Jahr mit dem Rad zur Arbeit, das sind jeden Tag zwanzig Minuten, über die ich gar nicht mehr nachdenke.\n\nEinerseits würde ich gern zusätzlich Sport machen, andererseits fehlt mir dafür ehrlich gesagt die Zeit. Was bei mir funktioniert, ist genau so etwas wie auf dem Bild: einfach rausgehen. Am Wochenende laufe ich mit meiner Tochter im Park, und das ist für uns beide gut."
                 }
               ]
             }

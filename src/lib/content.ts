@@ -54,8 +54,18 @@ export function getAllTests(): Test[] {
       );
     }
     return parsed.data;
-  }).filter((test) => includeDrafts || !test.draft);
+  }).filter((test) => includeDrafts || !isHidden(test));
   return cache;
+}
+
+/** Entwürfe verschwinden im Produktivbetrieb; „in Arbeit“ bleibt sichtbar. */
+export function isHidden(test: Test): boolean {
+  return test.draft === true || test.status === "entwurf";
+}
+
+/** Sichtbar, aber noch nicht bearbeitbar. */
+export function isInProgress(test: Test): boolean {
+  return test.status === "in-arbeit";
 }
 
 export function getTest(testId: string): Test | undefined {

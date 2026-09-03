@@ -1089,7 +1089,7 @@
                   "title": "Bild",
                   "image": {
                     "src": "/bilder/de/b1/uebungstest-b1-02/sprechen-bild.jpg",
-                    "alt": "Eine Werkstatt oder Produktionshalle: Zwei Personen in Arbeitskleidung und mit Schutzbrillen stehen an einer Werkbank und arbeiten gemeinsam an einem Bauteil. Eine ältere Person zeigt der jüngeren etwas, im Hintergrund sind Werkzeuge und Maschinen zu sehen."
+                    "alt": "Eine Werkstatt: Ein älterer Mann mit Brille und grauem Kapuzenpullover steht an einer Werkbank und bearbeitet ein Werkstück; er blickt zur Seite und spricht. Neben ihm steht ein junger Mann im dunklen T-Shirt und schaut auf die Arbeit. Im Hintergrund Regale mit Werkzeug, Maschinen und Neonlicht."
                   },
                   "text": "Beschreiben Sie, was Sie auf dem Bild sehen."
                 }
@@ -1098,13 +1098,13 @@
                 {
                   "type": "sprechen",
                   "id": "sp2-1",
-                  "prompt": "Beschreiben Sie das Bild und sagen Sie, was Ihnen bei der Arbeit wichtig ist.",
+                  "prompt": "Beschreiben Sie das Bild und sagen Sie, wie Sie selbst eine neue Arbeit gelernt haben.",
                   "hints": [
                     "Gehen Sie der Reihe nach vor: Wo ist das? Was sieht man? Wer ist zu sehen und was macht die Person?",
                     "Vermutungen gehören dazu: „Ich vermute, dass …“, „Wahrscheinlich …“, „Es sieht so aus, als ob …“.",
                     "Zum Schluss der eigene Bezug – begründen Sie mit „einerseits … andererseits …“."
                   ],
-                  "musterloesung": "Auf dem Bild sehe ich zwei Personen bei der Arbeit, vermutlich in einer Werkstatt oder in einer kleinen Produktionshalle. Beide tragen Arbeitskleidung und eine Schutzbrille, also ist die Arbeit nicht ganz ungefährlich.\n\nSie stehen an einer Werkbank und arbeiten zusammen an einem Bauteil. Die ältere Person zeigt der jüngeren offenbar etwas – es sieht so aus, als ob das eine Einarbeitung oder eine Ausbildung wäre. Im Hintergrund erkenne ich Werkzeuge und Maschinen.\n\nDie Stimmung wirkt ruhig und konzentriert. Ich vermute, dass die beiden sich gut verstehen, denn die jüngere Person schaut sehr aufmerksam zu und niemand wirkt gestresst.\n\nMir selbst ist bei der Arbeit vor allem wichtig, dass man mir am Anfang etwas richtig erklärt. In meiner ersten Stelle in Deutschland hat mir niemand gezeigt, wie die Maschinen funktionieren, und ich hatte ständig Angst, etwas falsch zu machen.\n\nEinerseits zählt natürlich das Gehalt, andererseits ist mir das Team fast genauso wichtig. Wenn ich mich bei den Kolleginnen und Kollegen wohlfühle, gehe ich morgens gern zur Arbeit – und ich lerne auch viel schneller Deutsch."
+                  "musterloesung": "Auf dem Bild sehe ich eine Werkstatt. Es ist keine große, saubere Fabrikhalle, sondern eher ein älterer Betrieb: Im Hintergrund stehen volle Regale, Werkzeug liegt herum und an der Decke hängen Neonröhren.\n\nIm Vordergrund sind zwei Männer. Der ältere trägt eine Brille und einen grauen Kapuzenpullover. Er steht an einer Werkbank und arbeitet mit beiden Händen an einem Werkstück. Dabei schaut er zur Seite und sagt offenbar gerade etwas.\n\nLinks neben ihm steht ein junger Mann in einem dunklen T-Shirt. Er arbeitet nicht selbst mit, sondern beobachtet genau, was der ältere macht. Ich vermute deshalb, dass er Auszubildender ist und gerade eingearbeitet wird.\n\nWas mir auffällt: Der Ältere erklärt und arbeitet gleichzeitig weiter. Genau so habe ich es selbst erlebt. In meiner ersten Stelle hier hat mir ein Kollege alles gezeigt, während er selbst weitergearbeitet hat – man muss also gut aufpassen und sich trauen nachzufragen.\n\nEinerseits lernt man auf diese Weise sehr schnell und sehr praktisch. Andererseits ist es schwierig, wenn man die Sprache noch nicht gut kann: In der Werkstatt ist es laut, es geht schnell, und viele Wörter kannte ich am Anfang nicht.\n\nWas mir damals geholfen hat, war, mir abends die wichtigsten Begriffe aufzuschreiben. Nach zwei Wochen konnte ich das meiste verstehen."
                 }
               ]
             }

@@ -1089,7 +1089,7 @@
                   "title": "Bild",
                   "image": {
                     "src": "/bilder/de/b1/uebungstest-b1-09/sprechen-bild.jpg",
-                    "alt": "Ein Wohnzimmer am Abend: Auf dem Sofa sitzen drei Personen. Ein Jugendlicher schaut auf sein Handy, eine Frau liest auf einem Tablet, ein älterer Mann liest eine gedruckte Zeitung. Der Fernseher im Hintergrund läuft, aber niemand sieht hin."
+                    "alt": "Ein helles Wohnzimmer: Auf einem grauen Sofa sitzen eine Frau mit einer Fernbedienung in der Hand und ein Mann; beide schauen lächelnd zur Seite, offenbar auf einen Fernseher. Vorne links sitzt ein Mädchen am niedrigen Holztisch auf dem Boden und schreibt in ein Heft, daneben liegen Federmäppchen und Bücher. An der Wand hängen viele Bilderrahmen, im Raum stehen Zimmerpflanzen."
                   },
                   "text": "Beschreiben Sie, was Sie auf dem Bild sehen."
                 }
@@ -1098,13 +1098,13 @@
                 {
                   "type": "sprechen",
                   "id": "sp2-1",
-                  "prompt": "Beschreiben Sie das Bild und sagen Sie, wie Sie selbst Nachrichten und Medien nutzen.",
+                  "prompt": "Beschreiben Sie das Bild und sagen Sie, welche Regeln es bei Ihnen zu Hause für Medien gibt.",
                   "hints": [
                     "Gehen Sie der Reihe nach vor: Wo ist das? Was sieht man? Wer ist zu sehen und was macht die Person?",
                     "Vermutungen gehören dazu: „Ich vermute, dass …“, „Wahrscheinlich …“, „Es sieht so aus, als ob …“.",
                     "Zum Schluss der eigene Bezug – begründen Sie mit „einerseits … andererseits …“."
                   ],
-                  "musterloesung": "Auf dem Bild sehe ich ein Wohnzimmer am Abend. Auf dem Sofa sitzen drei Personen, wahrscheinlich eine Familie: ein Jugendlicher, eine Frau und ein älterer Mann.\n\nDas Interessante ist, dass alle drei etwas anderes machen. Der Jugendliche schaut auf sein Handy, die Frau liest auf einem Tablet und der ältere Mann hält eine gedruckte Zeitung in der Hand. Im Hintergrund läuft der Fernseher, aber niemand schaut hin.\n\nEs sieht so aus, als ob sie zwar zusammen im Raum wären, sich aber nicht unterhalten. Ich vermute, dass das ein ganz normaler Abend nach der Arbeit ist.\n\nDas Bild zeigt gut, wie unterschiedlich die Generationen Medien nutzen. Einerseits finde ich das nicht schlimm – jeder liest, was ihn interessiert. Andererseits geht dabei etwas verloren, wenn man den ganzen Abend nebeneinander sitzt und nicht miteinander spricht.\n\nIch selbst lese Nachrichten fast nur auf dem Handy, meistens morgens in der Bahn. Was ich mir angewöhnt habe: Ich lese eine deutsche und eine vietnamesische Seite, weil dieselbe Nachricht oft ganz anders erzählt wird.\n\nFernsehen schaue ich fast nie, aber ich höre viel Podcasts auf Deutsch. Das ist für mich das beste Training, weil die Leute dort normal sprechen und nicht so deutlich wie im Lehrbuch."
+                  "musterloesung": "Auf dem Bild sehe ich ein Wohnzimmer am Abend oder am späten Nachmittag. Der Raum ist hell und gemütlich eingerichtet: An der Wand hängen viele kleine Bilderrahmen, es stehen mehrere Zimmerpflanzen herum und auf dem Boden liegt ein großer Teppich.\n\nRechts sitzen eine Frau und ein Mann auf einem grauen Sofa. Die Frau hält eine Fernbedienung in der Hand, beide schauen lächelnd in dieselbe Richtung. Sie sehen also offenbar fern, auch wenn man den Fernseher selbst nicht sieht.\n\nDas Interessante ist das Mädchen vorne links. Es sitzt auf dem Boden am niedrigen Wohnzimmertisch und schreibt in ein Heft. Neben ihm liegen ein Federmäppchen und mehrere Bücher – es macht ganz offensichtlich Hausaufgaben.\n\nIch vermute, dass es die Eltern und ihre Tochter sind. Was mir auffällt: Alle drei sind im selben Raum, aber sie machen etwas völlig Verschiedenes.\n\nEhrlich gesagt würde ich es nicht so machen. Es ist schwer, sich auf Mathematik zu konzentrieren, wenn zwei Meter weiter der Fernseher läuft. Andererseits verstehe ich es auch: Vielleicht möchte das Kind gerade nicht allein im Zimmer sitzen.\n\nBei uns zu Hause gilt die Regel, dass während der Hausaufgaben kein Bildschirm läuft, auch nicht meiner. Das war am Anfang ein Kampf, aber es hat sich geändert, seit ich mein eigenes Handy weglege. Solange ich selbst ständig darauf schaue, kann ich schlecht etwas verlangen.\n\nDanach darf mein Sohn eine Stunde. Ganz verbieten funktioniert sowieso nicht, das habe ich aufgegeben."
                 }
               ]
             }

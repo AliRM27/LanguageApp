@@ -7,8 +7,9 @@ import {
   LEVEL_DESCRIPTION,
   levelSlug,
   parseLevelSlug,
+  isInProgress,
 } from "@/lib/content";
-import { BackLink, Badge, Card } from "@/components/ui";
+import { BackLink, Badge, Card, InProgressBadge } from "@/components/ui";
 import { SECTION_LABEL, allTasks } from "@/lib/schema";
 import { canonical } from "@/lib/site";
 
@@ -67,29 +68,63 @@ export default async function LevelPage({
             0,
           );
 
+          const inArbeit = isInProgress(test);
+
+          const inhalt = (
+            <Card
+              className={
+                inArbeit
+                  ? "bg-slate-50"
+                  : "transition hover:border-brand-300 hover:shadow"
+              }
+            >
+              <div className="flex items-start justify-between gap-4">
+                <div>
+                  <h2
+                    className={
+                      inArbeit
+                        ? "font-semibold text-slate-500"
+                        : "font-semibold text-slate-900"
+                    }
+                  >
+                    {test.title}
+                  </h2>
+                  <p className="mt-1 text-sm text-slate-600">
+                    {test.description}
+                  </p>
+                  <p className="mt-3 text-xs text-slate-500">
+                    {test.sections
+                      .map((section) => SECTION_LABEL[section.kind])
+                      .join(" · ")}{" "}
+                    — {taskCount} Aufgaben
+                  </p>
+                  {inArbeit && (
+                    <p className="mt-3 text-sm text-amber-900">
+                      Dieser Übungstest ist noch nicht fertig. Die Aufgaben
+                      stehen schon, es fehlen aber noch die Tonaufnahmen.
+                    </p>
+                  )}
+                </div>
+                <div className="flex shrink-0 flex-col items-end gap-2">
+                  <Badge tone="info">{test.level}</Badge>
+                  {inArbeit && <InProgressBadge />}
+                </div>
+              </div>
+            </Card>
+          );
+
+          // Kein Link, wenn der Test noch nicht benutzbar ist: Ein Klick, der
+          // auf einer halbfertigen Seite endet, ist ärgerlicher als eine Karte,
+          // die von vornherein sagt, dass sie noch nicht dran ist.
           return (
             <li key={test.id}>
-              <Link href={`/uebungstest/${test.id}`} className="block">
-                <Card className="transition hover:border-brand-300 hover:shadow">
-                  <div className="flex items-start justify-between gap-4">
-                    <div>
-                      <h2 className="font-semibold text-slate-900">
-                        {test.title}
-                      </h2>
-                      <p className="mt-1 text-sm text-slate-600">
-                        {test.description}
-                      </p>
-                      <p className="mt-3 text-xs text-slate-500">
-                        {test.sections
-                          .map((section) => SECTION_LABEL[section.kind])
-                          .join(" · ")}{" "}
-                        — {taskCount} Aufgaben
-                      </p>
-                    </div>
-                    <Badge tone="info">{test.level}</Badge>
-                  </div>
-                </Card>
-              </Link>
+              {inArbeit ? (
+                inhalt
+              ) : (
+                <Link href={`/uebungstest/${test.id}`} className="block">
+                  {inhalt}
+                </Link>
+              )}
             </li>
           );
         })}

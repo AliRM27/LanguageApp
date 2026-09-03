@@ -102,10 +102,14 @@ for (const file of walk("src", (n) => n.endsWith(".tsx"))) {
 /* -------------------------------- 4. Audio -------------------------------- */
 
 /**
- * A draft is a test still being written. Its audio and images are allowed to
- * be missing, because they usually are — the content gets reviewed first and
- * recorded afterwards. Drafts are also left out of the production build, so
- * nothing incomplete can reach a learner either way.
+ * Zwei Arten von unfertigem Test, beide dürfen fehlende Dateien haben:
+ *
+ *   draft / "entwurf"  gar nicht veröffentlicht
+ *   "in-arbeit"        auf der Website sichtbar, aber gekennzeichnet und nicht
+ *                      anklickbar
+ *
+ * Bei einem veröffentlichten Test ist eine fehlende Datei dagegen ein Fehler,
+ * der den Release stoppt.
  */
 let audioReferenced = 0;
 let audioMissing = 0;
@@ -114,8 +118,9 @@ const drafts = [];
 
 for (const file of walk("content/tests", (n) => n.endsWith(".json"))) {
   const test = JSON.parse(read(file));
-  const report = test.draft ? warn : fail;
-  if (test.draft) drafts.push(test.id);
+  const unfertig = test.draft === true || test.status === "entwurf" || test.status === "in-arbeit";
+  const report = unfertig ? warn : fail;
+  if (unfertig) drafts.push(`${test.id} (${test.status ?? "entwurf"})`);
 
   for (const section of test.sections ?? []) {
     for (const part of section.parts ?? []) {
@@ -202,7 +207,7 @@ console.log(`Routes found:      ${routes.size}`);
 console.log(`Audio referenced:  ${audioReferenced} (${audioMissing} missing)`);
 if (imagesMissing) console.log(`Images missing:    ${imagesMissing}`);
 if (drafts.length) {
-  console.log(`Drafts (not published): ${drafts.join(", ")}`);
+  console.log(`Unfertig: ${drafts.join(", ")}`);
 }
 console.log("");
 

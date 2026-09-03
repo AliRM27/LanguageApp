@@ -1089,7 +1089,7 @@
                   "title": "Bild",
                   "image": {
                     "src": "/bilder/de/b1/uebungstest-b1-04/sprechen-bild.jpg",
-                    "alt": "Ein Innenhof eines Mehrfamilienhauses: Auf einer kleinen Rasenfläche steht eine Bank, daneben Fahrräder unter einem Dach. Zwei Erwachsene unterhalten sich, ein Kind fährt mit einem Roller. An mehreren Balkonen hängt Wäsche, im Hintergrund Mülltonnen hinter einem Holzzaun."
+                    "alt": "Eine gepflasterte Straße in einem Stadtviertel mit Backsteinhäusern. Links sitzen vor einem Lokal mehrere Personen auf Stühlen und unterhalten sich, davor stehen Holztische und Bänke. In der Mitte fährt ein Mann auf einem dreirädrigen Liegerad mit kleinen Fahnen. Im Hintergrund kommt ein Radfahrer entlang, rechts geht eine Frau am Gehweg neben einer Hecke."
                   },
                   "text": "Beschreiben Sie, was Sie auf dem Bild sehen."
                 }
@@ -1098,13 +1098,13 @@
                 {
                   "type": "sprechen",
                   "id": "sp2-1",
-                  "prompt": "Beschreiben Sie das Bild und sagen Sie, wie das bei Ihnen zu Hause ist.",
+                  "prompt": "Beschreiben Sie das Bild und sagen Sie, wie es in Ihrer Straße aussieht.",
                   "hints": [
                     "Gehen Sie der Reihe nach vor: Wo ist das? Was sieht man? Wer ist zu sehen und was macht die Person?",
                     "Vermutungen gehören dazu: „Ich vermute, dass …“, „Wahrscheinlich …“, „Es sieht so aus, als ob …“.",
                     "Zum Schluss der eigene Bezug – begründen Sie mit „einerseits … andererseits …“."
                   ],
-                  "musterloesung": "Auf dem Bild sehe ich den Innenhof eines Mehrfamilienhauses. Es ist kein besonders schöner, aber ein sehr normaler Hof, wie es ihn in vielen Städten gibt.\n\nIn der Mitte gibt es eine kleine Rasenfläche mit einer Bank. Daneben stehen Fahrräder unter einem Dach, und ganz hinten sind die Mülltonnen hinter einem Holzzaun versteckt. An mehreren Balkonen hängt Wäsche.\n\nZwei Erwachsene stehen zusammen und unterhalten sich, ein Kind fährt mit einem Roller im Kreis. Es sieht so aus, als ob die beiden sich kennen – wahrscheinlich sind es Nachbarn, die sich zufällig getroffen haben.\n\nDas Wetter ist gut, aber nicht heiß. Ich vermute, es ist Frühling, denn die Wäsche hängt draußen und trotzdem tragen die Erwachsenen leichte Jacken.\n\nBei mir zu Hause ist es leider anders. Wir haben zwar auch einen Hof, aber dort stehen nur die Mülltonnen und drei Autos. Es gibt keine Bank, deshalb bleibt auch niemand stehen.\n\nEinerseits kenne ich meine direkten Nachbarn gut, wir helfen uns gegenseitig. Andererseits weiß ich nach drei Jahren immer noch nicht, wer im Nebenhaus wohnt. Was mir an dem Bild gefällt, ist genau das: Wenn es einen Platz zum Stehenbleiben gibt, spricht man auch miteinander."
+                  "musterloesung": "Auf dem Bild sehe ich eine ruhige Straße in einem Wohnviertel. Der Boden ist mit Kopfsteinpflaster gepflastert, links und rechts stehen ältere Häuser aus rotem Backstein.\n\nVorne links sitzen mehrere Personen vor einem Lokal auf Stühlen und unterhalten sich. Davor stehen einfache Holztische mit Bänken. Es sieht nicht nach einem teuren Restaurant aus, eher nach einer kleinen Kneipe im Viertel.\n\nIn der Mitte fährt ein Mann auf einem ungewöhnlichen Fahrrad: Es ist ein Dreirad zum Liegen, und an einer Stange sind kleine Fahnen befestigt. Im Hintergrund kommt ein weiterer Radfahrer die Straße herunter, rechts geht eine Frau in schwarzer Kleidung am Gehweg entlang.\n\nAutos sieht man kaum, nur eines steht am Rand. Ich vermute, dass hier nur Anwohner fahren dürfen. Das Wetter ist bedeckt, aber warm genug, um draußen zu sitzen.\n\nWas mir an dem Bild gefällt, ist genau das: Die Leute sind draußen und der Platz gehört nicht den Autos.\n\nBei mir in der Straße ist es leider anders. Wir wohnen an einer Durchgangsstraße, dort parken auf beiden Seiten Autos, und vor der Tür kann man sich nicht unterhalten, weil es zu laut ist.\n\nEinerseits verstehe ich, dass die Leute ihr Auto irgendwo abstellen müssen. Andererseits merkt man auf so einem Bild sofort, was fehlt: ein paar Bänke und Tische, und schon bleiben die Nachbarn stehen und reden miteinander."
                 }
               ]
             }

@@ -24,12 +24,20 @@ export function ClozeText({
   mode,
   answers,
   onChange,
+  optionPool,
 }: {
   text: string;
   tasks: Task[];
   mode: "input" | "review";
   answers: Record<string, AnswerValue>;
   onChange: (taskId: string, value: AnswerValue) => void;
+  /**
+   * Ein gemeinsamer Wortkasten für alle Lücken, wie in den Sprachbausteinen
+   * auf B2: zehn Wörter a–j, sechs Lücken, jedes Wort höchstens einmal. Die
+   * Aufgaben sind dann `zuordnung` und holen ihre Auswahl von hier statt jede
+   * für sich eigene Optionen mitzubringen.
+   */
+  optionPool?: { id: string; text: string }[];
 }) {
   // Split into alternating literal text and gap numbers.
   const pieces: Array<{ text: string } | { gap: number }> = [];
@@ -51,6 +59,7 @@ export function ClozeText({
             key={i}
             number={piece.gap}
             task={tasks[piece.gap - 1]}
+            optionPool={optionPool}
             mode={mode}
             value={answers[tasks[piece.gap - 1]?.id ?? ""]}
             onChange={(value) => {
@@ -67,22 +76,43 @@ export function ClozeText({
 function Gap({
   number,
   task,
+  optionPool,
   mode,
   value,
   onChange,
 }: {
   number: number;
   task?: Task;
+  optionPool?: { id: string; text: string }[];
   mode: "input" | "review";
   value: AnswerValue;
   onChange: (value: AnswerValue) => void;
 }) {
   // A marker with no matching task is an authoring mistake; say so rather than
-  // rendering an empty control the learner cannot use.
-  if (!task || task.type !== "multiple-choice") {
+  // rendering an empty control the learner cannot use. Der Guard steht vor der
+  // Optionsliste, damit TypeScript danach weiß, dass `task.solution` existiert.
+  if (
+    !task ||
+    (task.type !== "multiple-choice" && task.type !== "zuordnung")
+  ) {
     return (
       <span className="rounded bg-rose-100 px-1 text-rose-800">
         ({number}: keine Aufgabe)
+      </span>
+    );
+  }
+
+  // Zwei Bauarten: eigene Optionen pro Lücke (drei ähnliche Wörter) oder ein
+  // gemeinsamer Wortkasten für den ganzen Text.
+  const options =
+    task.type === "multiple-choice"
+      ? task.options
+      : (optionPool ?? []).map((o) => ({ ...o, text: `${o.id}) ${o.text}` }));
+
+  if (options.length === 0) {
+    return (
+      <span className="rounded bg-rose-100 px-1 text-rose-800">
+        ({number}: keine Auswahl)
       </span>
     );
   }
@@ -110,7 +140,7 @@ function Gap({
         className={`min-h-9 rounded-lg border-2 px-2 py-1 text-base font-medium disabled:opacity-100 sm:text-sm ${tone}`}
       >
         <option value="">…</option>
-        {task.options.map((option) => (
+        {options.map((option) => (
           <option key={option.id} value={option.id}>
             {option.text}
           </option>
@@ -118,7 +148,7 @@ function Gap({
       </select>
       {correct === false && (
         <span className="text-xs font-semibold text-emerald-700">
-          → {task.options.find((o) => o.id === task.solution)?.text}
+          → {options.find((o) => o.id === task.solution)?.text}
         </span>
       )}
     </span>

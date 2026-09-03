@@ -19,11 +19,23 @@ export type Level = z.infer<typeof levelSchema>;
 export const examLanguageSchema = z.enum(["de", "en"]);
 export type ExamLanguage = z.infer<typeof examLanguageSchema>;
 
+/**
+ * Ein Prüfungsteil.
+ *
+ * Bis B1 ist das schlicht eine der vier Fertigkeiten. Die berufsbezogenen
+ * B2-Prüfungen kombinieren dagegen zwei davon in einem Teil mit eigener Zeit:
+ * Man liest eine Kundenmail und antwortet darauf, man hört eine Nachricht und
+ * schreibt eine Notiz. Das ist keine Verwaltungsfrage – die Kombination *ist*
+ * die Aufgabe, und sie hat eine eigene Uhr.
+ */
 export const sectionKindSchema = z.enum([
   "hoeren",
   "lesen",
   "schreiben",
   "sprechen",
+  "lesen-schreiben",
+  "hoeren-schreiben",
+  "sprachbausteine",
 ]);
 export type SectionKind = z.infer<typeof sectionKindSchema>;
 
@@ -284,6 +296,20 @@ export const testSchema = z.object({
    * improvements to the others.
    */
   draft: z.boolean().optional(),
+  /**
+   * Fertigstellungsgrad, wenn ein Test nicht einfach fertig ist.
+   *
+   *   (nicht gesetzt)  fertig – normal nutzbar
+   *   "in-arbeit"      auf der Website sichtbar, aber gekennzeichnet und nicht
+   *                    startbar. Für Inhalte, die es schon gibt, denen aber noch
+   *                    etwas fehlt – etwa die Tonaufnahmen.
+   *   "entwurf"        gar nicht veröffentlicht (siehe `draft`, gleichbedeutend)
+   *
+   * Der Unterschied zu `draft` ist der Punkt: Ein Entwurf existiert für die
+   * Lernenden nicht. „In Arbeit“ existiert und sagt, dass er kommt – das ist
+   * eine Ankündigung, keine Sperre.
+   */
+  status: z.enum(["in-arbeit", "entwurf"]).optional(),
 });
 export type Test = z.infer<typeof testSchema>;
 
@@ -303,7 +329,7 @@ export const LEVEL_DESCRIPTION: Record<Level, string> = {
   A1: "Erste Schritte: sich vorstellen, einkaufen, nach dem Weg fragen und einfache Formulare ausfüllen.",
   A2: "Alltag bewältigen: über Arbeit, Wohnen und Gesundheit sprechen, Notizen machen und kurze E-Mails schreiben.",
   B1: "Selbstständig im Alltag und im Beruf: Meinungen begründen und zusammenhängend erzählen.",
-  B2: "Sicher in Beruf und Studium: komplexere Texte verstehen und differenziert argumentieren.",
+  B2: "Deutsch für den Beruf: Unterweisungen und Protokolle verstehen, mit Kundschaft schreiben und die eigene Meinung begründen.",
   C1: "Fließend und präzise: anspruchsvolle Texte verstehen und sich spontan ausdrücken.",
 };
 
@@ -319,6 +345,9 @@ export const SECTION_LABEL: Record<SectionKind, string> = {
   lesen: "Lesen",
   schreiben: "Schreiben",
   sprechen: "Sprechen",
+  "lesen-schreiben": "Lesen und Schreiben",
+  "hoeren-schreiben": "Hören und Schreiben",
+  sprachbausteine: "Sprachbausteine und Schreiben",
 };
 
 export function allTasks(section: Section): Task[] {

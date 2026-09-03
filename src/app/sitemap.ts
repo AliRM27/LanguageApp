@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllTests, getLevels, levelSlug } from "@/lib/content";
+import { getAllTests, getLevels, isInProgress, levelSlug } from "@/lib/content";
 import { siteUrl } from "@/lib/site";
 
 /**
@@ -14,7 +14,9 @@ import { siteUrl } from "@/lib/site";
  */
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteUrl();
-  const tests = getAllTests();
+  // Halbfertige Tests gehören nicht in den Index: Google würde eine Seite
+  // aufnehmen, die man gar nicht benutzen kann.
+  const tests = getAllTests().filter((test) => !isInProgress(test));
 
   return [
     {

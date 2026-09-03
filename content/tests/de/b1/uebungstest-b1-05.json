@@ -1089,7 +1089,7 @@
                   "title": "Bild",
                   "image": {
                     "src": "/bilder/de/b1/uebungstest-b1-05/sprechen-bild.jpg",
-                    "alt": "Ein Bahnsteig am Morgen: Menschen mit Rucksäcken und Taschen warten auf einen einfahrenden Zug. Eine Frau schaut auf die Anzeigetafel, ein Mann hält einen Kaffeebecher und ein Handy. Am Rand steht ein Fahrrad, im Hintergrund ist ein Aufzug zu sehen."
+                    "alt": "Ein Bahnsteig in einem Bahnhof: An einem roten Regionalzug warten und steigen viele Reisende mit Rollkoffern und Rucksäcken. Einige sitzen auf Bänken und schauen auf ihr Handy. Über dem Zug hängt ein blaues Schild mit der Aufschrift „Frankfurt am Main Flughafen Regionalbahnhof“."
                   },
                   "text": "Beschreiben Sie, was Sie auf dem Bild sehen."
                 }
@@ -1098,13 +1098,13 @@
                 {
                   "type": "sprechen",
                   "id": "sp2-1",
-                  "prompt": "Beschreiben Sie das Bild und sagen Sie, wie Sie selbst zur Arbeit oder zum Kurs kommen.",
+                  "prompt": "Beschreiben Sie das Bild und sagen Sie, wie Sie selbst längere Strecken zurücklegen.",
                   "hints": [
                     "Gehen Sie der Reihe nach vor: Wo ist das? Was sieht man? Wer ist zu sehen und was macht die Person?",
                     "Vermutungen gehören dazu: „Ich vermute, dass …“, „Wahrscheinlich …“, „Es sieht so aus, als ob …“.",
                     "Zum Schluss der eigene Bezug – begründen Sie mit „einerseits … andererseits …“."
                   ],
-                  "musterloesung": "Auf dem Bild sehe ich einen Bahnsteig, wahrscheinlich am frühen Morgen, weil die meisten Leute Rucksäcke oder Aktentaschen dabeihaben und offenbar zur Arbeit fahren.\n\nEin Zug fährt gerade ein. Mehrere Personen stehen an der Kante und warten. Eine Frau links schaut nach oben auf die Anzeigetafel – vielleicht ist sie unsicher, ob es der richtige Zug ist. Ein Mann hält in der einen Hand einen Kaffeebecher und in der anderen sein Handy.\n\nAm Rand steht ein Fahrrad, im Hintergrund erkenne ich einen Aufzug. Die Stimmung wirkt ruhig, aber alle sind auf ihr Ziel konzentriert; niemand unterhält sich.\n\nEs sieht kühl aus, denn viele tragen Jacken. Ich vermute, dass das Foto im Herbst oder im Frühling entstanden ist.\n\nIch selbst fahre jeden Tag mit dem Fahrrad zum Kurs, etwa zwanzig Minuten. Einerseits spare ich damit Geld und bin unabhängig von Verspätungen, andererseits ist es im Winter bei Regen wirklich unangenehm.\n\nAn schlechten Tagen nehme ich den Bus. Was mich daran stört, ist weniger der Preis als die Unsicherheit: Wenn der Bus ausfällt, komme ich zu spät, und darauf habe ich keinen Einfluss. Mit dem Rad weiß ich immer genau, wann ich ankomme."
+                  "musterloesung": "Auf dem Bild sehe ich einen Bahnsteig. Nach dem Schild über dem Zug handelt es sich um den Regionalbahnhof am Frankfurter Flughafen.\n\nIn der Mitte steht ein roter Regionalzug mit offenen Türen. Davor warten sehr viele Menschen. Fast alle haben Gepäck dabei: Rollkoffer in verschiedenen Farben, große Rucksäcke, Taschen. Einige unterhalten sich, andere schauen auf ihr Handy.\n\nLinks sitzen ein paar Personen auf Bänken, einer von ihnen wartet offenbar schon länger. Der Bahnsteig selbst wirkt modern und sauber, mit Säulen aus schwarz-weißen Kacheln.\n\nWeil praktisch alle Koffer dabeihaben, vermute ich, dass die meisten gerade vom Flughafen kommen oder dorthin wollen. Es sieht ziemlich voll aus, vielleicht ist es Wochenende oder Ferienzeit.\n\nIch selbst fahre für längere Strecken fast immer mit dem Zug. Einerseits ist es bequemer als Autofahren – ich kann lesen oder schlafen und komme ausgeruht an. Andererseits ist es oft teuer, wenn man nicht früh genug bucht.\n\nWas mich am meisten stört, sind nicht die Verspätungen selbst, sondern dass man am Bahnsteig oft nicht erfährt, wie lange es dauert. Mit dem Deutschlandticket fahre ich inzwischen viel öfter, weil ich vorher nicht mehr rechnen muss.\n\nZum Flughafen würde ich immer mit der Bahn fahren. Parken kostet dort so viel, dass sich das Auto überhaupt nicht lohnt."
                 }
               ]
             }

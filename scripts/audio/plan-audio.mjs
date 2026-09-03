@@ -120,7 +120,7 @@ const MALE_NAMES = new Set([
 
 /** Lines that introduce an item rather than being spoken by a character. */
 const HEADER_RE =
-  /^(Gespräch|Nachricht|Meldung|Ansage|Aussage|Situation|Durchsage|Text|Teil|Aufgabe)\s*\d+/i;
+  /^(Gespräch|Nachricht|Meldung|Mitteilung|Ansage|Aussage|Situation|Durchsage|Text|Teil|Aufgabe)\s*\d+/i;
 
 /** "Frau Bauer: ..." — a colon-led speaker label, not a sentence with a colon. */
 const SPEAKER_RE = /^([A-ZÄÖÜ][\wÄÖÜäöüß.\- ]{0,28}?):\s+(.*)$/;

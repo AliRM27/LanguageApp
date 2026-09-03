@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T18:05:30.210Z",
+  "generatedAt": "2026-08-30T19:23:09.150Z",
   "files": [
     {
       "testId": "uebungstest-a1-01",
@@ -10667,6 +10667,645 @@
           "text": "Grundsätzlich bin ich einverstanden, aber man muss an die denken, die es wirklich brauchen. Mein Sohn ist Diabetiker und misst seinen Blutzucker über eine App. Wenn pauschal alles eingesammelt wird, entstehen genau die Probleme, die man vermeiden wollte.",
           "pauseAfterMs": 300,
           "slot": "male-2",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b2-01",
+      "partId": "hoeren-teil-1",
+      "level": "B2",
+      "language": "de",
+      "output": "/audio/de/b2/uebungstest-b2-01/hoeren-teil-1.mp3",
+      "rate": 1,
+      "speakers": {
+        "Frau Delgado": "female-1",
+        "Frau Vogt": "female-2",
+        "Herr Kaminski": "male-1",
+        "Herr Reinhardt": "male-2",
+        "Herr Weber": "male-3"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Vogt",
+          "text": "Herr Kaminski, kurze Frage zur Inventur am Samstag. Sie hatten sich eintragen lassen?",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Kaminski",
+          "text": "Ja, aber ich habe ein Problem: Meine Tochter hat an dem Tag Aufführung in der Schule.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Vogt",
+          "text": "Dann tragen Sie sich bitte aus. Wir brauchen niemanden, der mit halbem Kopf dabei ist.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Kaminski",
+          "text": "Ich könnte den Vormittag machen und mittags gehen.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Vogt",
+          "text": "Das hilft uns tatsächlich mehr als gar nichts. Machen wir so – bis 13 Uhr, dann übernimmt Herr Okafor.",
+          "pauseAfterMs": 1800,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Weber",
+          "text": "Sie wollten mit mir über die Schulung sprechen?",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Delgado",
+          "text": "Genau. Der Termin im März ist ausgebucht, aber im Mai gibt es noch Plätze.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Weber",
+          "text": "Mai ist schlecht, da bin ich zwei Wochen im Urlaub.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Delgado",
+          "text": "Die Schulung geht über drei Tage, vom 12. bis 14. Wann sind Sie weg?",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Weber",
+          "text": "Ab dem 18. Dann passt es doch.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Delgado",
+          "text": "Sehr gut. Ich melde Sie an, die Bestätigung kommt per Mail.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Frau Aydın: Herr Reinhardt, die Auswertung sollte gestern fertig sein.",
+          "pauseAfterMs": 550,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Reinhardt",
+          "text": "Ich weiß, es tut mir leid. Mir fehlen die Zahlen aus dem Wareneingang.",
+          "pauseAfterMs": 1400,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Frau Aydın: Haben Sie dort nachgefragt?",
+          "pauseAfterMs": 550,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Reinhardt",
+          "text": "Zweimal per Mail, ohne Antwort. Ich wollte nicht ständig hinterherlaufen.",
+          "pauseAfterMs": 1400,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Frau Aydın: Doch, genau das müssen Sie. Rufen Sie an, und wenn dann nichts kommt, sagen Sie mir Bescheid – dann übernehme ich das.",
+          "pauseAfterMs": 300,
+          "slot": "narrator",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b2-01",
+      "partId": "hoeren-teil-2",
+      "level": "B2",
+      "language": "de",
+      "output": "/audio/de/b2/uebungstest-b2-01/hoeren-teil-2.mp3",
+      "rate": 1,
+      "speakers": {
+        "Frau Bauer": "female-1",
+        "Frau Lorenz": "female-2",
+        "Frau Sander": "female-3",
+        "Herr Ayala": "male-1",
+        "Herr Novak": "male-2",
+        "Herr Okafor": "male-3",
+        "Herr Palm": "male-4"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Lorenz",
+          "text": "Der Drucker im zweiten Stock streikt schon wieder. Ich habe den Auftrag jetzt an die Haustechnik gegeben.",
+          "pauseAfterMs": 550,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Okafor",
+          "text": "Und bis dahin? Ich brauche die Unterlagen für morgen früh.",
+          "pauseAfterMs": 550,
+          "slot": "male-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Lorenz",
+          "text": "Nehmen Sie den im Empfang, der läuft. Der Code steht am Gerät.",
+          "pauseAfterMs": 1800,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Palm",
+          "text": "Sie haben die Bestellung storniert? Der Kunde hatte doch zugesagt.",
+          "pauseAfterMs": 550,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Bauer",
+          "text": "Mündlich, ja. Schriftlich kam nie etwas, und die Frist war Freitag.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Palm",
+          "text": "Dann hätten Sie mich fragen müssen, bevor Sie das machen.",
+          "pauseAfterMs": 1800,
+          "slot": "male-4",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Sander",
+          "text": "Ich verstehe die neue Software immer noch nicht richtig.",
+          "pauseAfterMs": 550,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Ayala",
+          "text": "Ging mir genauso. Setzen wir uns morgen früh eine halbe Stunde zusammen, bevor die Anrufe losgehen.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Sander",
+          "text": "Das wäre großartig.",
+          "pauseAfterMs": 1800,
+          "slot": "female-3",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Gespräch 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Novak",
+          "text": "Können wir den Termin mit der Firma Hellmann auf nächste Woche schieben?",
+          "pauseAfterMs": 1400,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Frau Vidović: Auf keinen Fall. Die haben sich beschwert, da verschieben wir nichts.",
+          "pauseAfterMs": 550,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Novak",
+          "text": "Verstanden. Dann bereite ich es heute Abend vor.",
+          "pauseAfterMs": 300,
+          "slot": "male-2",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b2-01",
+      "partId": "hoeren-teil-3",
+      "level": "B2",
+      "language": "de",
+      "output": "/audio/de/b2/uebungstest-b2-01/hoeren-teil-3.mp3",
+      "rate": 1,
+      "speakers": {
+        "Herr Brandt": "male-1",
+        "Moderatorin": "female-1"
+      },
+      "segments": [
+        {
+          "kind": "speech",
+          "speaker": "Moderatorin",
+          "text": "So, dann übergebe ich das Wort. Herr Brandt ist bei uns im Haus für Arbeitssicherheit zuständig und stellt Ihnen die neue Anlage vor.",
+          "pauseAfterMs": 550,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Brandt",
+          "text": "Vielen Dank. Ich bin, wie gesagt, kein externer Berater, sondern seit elf Jahren hier im Betrieb – das sage ich deshalb, weil ich die Wege im Haus kenne und weiß, wo es hakt.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Brandt",
+          "text": "Zur Sache. Ab dem 1. Juli haben wir eine neue Alarmanlage. Der wichtigste Unterschied zur alten: Sie unterscheidet zwischen Einbruch und Feuer, und sie meldet beides getrennt an die Leitstelle. Bisher ging jeder Alarm als ein einziges Signal raus, und die Feuerwehr wusste beim Losfahren nicht, was sie erwartet.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Brandt",
+          "text": "Was heißt das für Sie im Alltag? Wenig. Sie brauchen keinen neuen Code, und niemand muss etwas mit sich herumtragen. Nur eines ändert sich: Wer als Letzter geht, scharf schaltet und dann noch einmal zurück ins Gebäude muss, hat sechzig Sekunden Zeit. Danach löst die Anlage aus. Bei der alten Anlage waren es drei Minuten.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Brandt",
+          "text": "Der häufigste Fehlalarm entsteht übrigens nicht durch Einbrecher, sondern durch offene Fenster in den Sanitärräumen. Wenn nachts Wind aufkommt, bewegt sich der Vorhang, und der Melder reagiert. Schließen Sie die Fenster – das erspart uns allen den nächtlichen Anruf.",
+          "pauseAfterMs": 550,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Brandt",
+          "text": "Zum Schluss die Kosten, weil die Frage sicher kommt: Die Anlage zahlt der Betrieb, nicht die Versicherung. Die Versicherung senkt dafür ab dem kommenden Jahr den Beitrag, sodass sich das Ganze nach etwa vier Jahren rechnet.",
+          "pauseAfterMs": 300,
+          "slot": "male-1",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b2-01",
+      "partId": "hoeren-teil-4",
+      "level": "B2",
+      "language": "de",
+      "output": "/audio/de/b2/uebungstest-b2-01/hoeren-teil-4.mp3",
+      "rate": 1,
+      "speakers": {
+        "Frau Bauer": "female-1",
+        "Frau Lehmann": "female-2",
+        "Herr Kaminski": "male-1",
+        "Herr Okafor": "male-2",
+        "Herr Reinhardt": "male-3"
+      },
+      "segments": [
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Mitteilung 1",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Lehmann",
+          "text": "Guten Tag, hier ist Frau Lehmann von der Spedition Nordwind. Es geht um die Abholung morgen früh. Unser Fahrer schafft die sechs Uhr leider nicht, er kommt gegen halb neun. Die Ware muss aber trotzdem ab sechs bereitstehen, weil wir gegebenenfalls früher da sind. Danke.",
+          "pauseAfterMs": 1800,
+          "slot": "female-2",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Mitteilung 2",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Kaminski",
+          "text": "Hallo, Kaminski hier aus der Werkstatt. Die Maschine drei läuft wieder, aber ich habe nur ein gebrauchtes Ersatzteil eingebaut. Das hält ein paar Wochen. Bestellt bitte das neue Teil, sonst stehen wir mitten im Sommer.",
+          "pauseAfterMs": 1800,
+          "slot": "male-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Mitteilung 3",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Frau Bauer",
+          "text": "Guten Tag, Praxis Doktor Sommer, mein Name ist Frau Bauer. Ihre arbeitsmedizinische Untersuchung steht an. Wichtig: Bringen Sie bitte Ihren Impfpass mit. Ohne den können wir die Untersuchung nicht abschließen und Sie müssten ein zweites Mal kommen.",
+          "pauseAfterMs": 1800,
+          "slot": "female-1",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Mitteilung 4",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Okafor",
+          "text": "Hier ist Okafor. Ich stehe am Schulungszentrum, aber der Raum ist abgeschlossen und niemand da. Auf der Einladung steht Gebäude C, an der Tür steht aber, die Schulung sei in Gebäude A. Ich gehe jetzt rüber. Falls noch jemand kommt, sagt es bitte weiter.",
+          "pauseAfterMs": 1800,
+          "slot": "male-2",
+          "rate": 1
+        },
+        {
+          "kind": "header",
+          "speaker": null,
+          "text": "Mitteilung 5",
+          "pauseAfterMs": 900,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "speech",
+          "speaker": "Herr Reinhardt",
+          "text": "Guten Tag, Reinhardt von der IT. Ihre Zugangsdaten für das neue Portal sind unterwegs, aber nicht per Mail, sondern per Post an Ihre Privatadresse. Das ist so vorgeschrieben. Wenn nach zehn Tagen nichts da ist, melden Sie sich bitte – dann ist etwas schiefgelaufen.",
+          "pauseAfterMs": 300,
+          "slot": "male-3",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "testId": "uebungstest-b2-01",
+      "partId": "hoeren-schreiben-teil-1",
+      "level": "B2",
+      "language": "de",
+      "output": "/audio/de/b2/uebungstest-b2-01/hoeren-schreiben.mp3",
+      "rate": 1,
+      "speakers": {},
+      "segments": [
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Guten Tag, hier spricht Petra Lindner von der Firma Baumann Bauelemente. Ich rufe an wegen unserer Bestellung vom vergangenen Freitag, Nummer",
+          "pauseAfterMs": 350,
+          "slow": false,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "8",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.78
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "8",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.78
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "0",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.78
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "4",
+          "pauseAfterMs": 450,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.78
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Wir hatten zwanzig Fensterbänke bestellt, geliefert wurden aber nur zwölf, und zwei davon sind beschädigt. Das ist für uns ein echtes Problem, weil die Montage am Donnerstag beginnt. Bitte rufen Sie mich heute noch zurück, meine Durchwahl",
+          "pauseAfterMs": 350,
+          "slow": false,
+          "slot": "narrator",
+          "rate": 1
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "ist 0",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.78
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "2",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.78
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "1",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.78
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "1",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.78
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "4",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.78
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "4",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.78
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "7",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.78
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "2",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.78
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "9",
+          "pauseAfterMs": 320,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.78
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "0",
+          "pauseAfterMs": 450,
+          "slow": true,
+          "slot": "narrator",
+          "rate": 0.78
+        },
+        {
+          "kind": "announcement",
+          "speaker": null,
+          "text": "Ich bin bis siebzehn Uhr im Haus. Vielen Dank.",
+          "pauseAfterMs": 300,
+          "slow": false,
+          "slot": "narrator",
           "rate": 1
         }
       ]

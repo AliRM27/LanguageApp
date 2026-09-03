@@ -1089,7 +1089,7 @@
                   "title": "Bild",
                   "image": {
                     "src": "/bilder/de/b1/uebungstest-b1-06/sprechen-bild.jpg",
-                    "alt": "Eine Supermarktkasse: Eine Kundin legt Waren aufs Band, im Hintergrund warten zwei weitere Personen mit Einkaufswagen. Rechts sind Selbstbedienungskassen zu sehen, an denen jemand allein bezahlt. An der Wand hängt ein Schild mit Angeboten."
+                    "alt": "Ein Imbiss- und Bäckereistand in einer Bahnhofshalle. Drei Personen stehen von hinten vor dem Tresen und schauen in die Auslage mit Brötchen und Gebäck; einer von ihnen hat einen kleinen schwarzen Hund an der Leine dabei. Über dem Tresen hängen beleuchtete Tafeln mit Angeboten und Preisen. Rechts gehen Reisende mit Rollkoffern vorbei."
                   },
                   "text": "Beschreiben Sie, was Sie auf dem Bild sehen."
                 }
@@ -1098,13 +1098,13 @@
                 {
                   "type": "sprechen",
                   "id": "sp2-1",
-                  "prompt": "Beschreiben Sie das Bild und sagen Sie, wie und wo Sie selbst einkaufen.",
+                  "prompt": "Beschreiben Sie das Bild und sagen Sie, wie Sie selbst unterwegs essen und einkaufen.",
                   "hints": [
                     "Gehen Sie der Reihe nach vor: Wo ist das? Was sieht man? Wer ist zu sehen und was macht die Person?",
                     "Vermutungen gehören dazu: „Ich vermute, dass …“, „Wahrscheinlich …“, „Es sieht so aus, als ob …“.",
                     "Zum Schluss der eigene Bezug – begründen Sie mit „einerseits … andererseits …“."
                   ],
-                  "musterloesung": "Auf dem Bild sehe ich den Kassenbereich in einem Supermarkt. Vorne links legt eine Kundin ihre Waren aufs Band; hinter ihr warten zwei Personen mit vollen Einkaufswagen.\n\nRechts im Bild sind mehrere Selbstbedienungskassen. Dort steht jemand allein und scannt selbst. Es sieht so aus, als ob dort weniger los wäre als an der normalen Kasse.\n\nAn der Wand hängt ein großes Schild mit Angeboten. Ich vermute, es ist später Nachmittag, weil ziemlich viele Leute unterwegs sind – das ist die Zeit, in der die meisten nach der Arbeit einkaufen.\n\nWas mir auffällt: Obwohl die Selbstbedienungskassen frei sind, stellen sich die Leute lieber an der normalen Kasse an. Vielleicht sind sie es nicht gewohnt, vielleicht wollen sie auch einfach nicht selbst arbeiten.\n\nIch selbst kaufe zweimal in der Woche ein, meistens abends nach der Arbeit. Einerseits gehe ich gern in den großen Supermarkt, weil es dort alles gibt und die Preise niedriger sind. Andererseits gehe ich für Obst und Fleisch lieber in kleine Läden im Viertel, weil ich die Leute dort kenne.\n\nAn der Kasse zahle ich fast immer mit Karte. Bargeld habe ich nur für den Bäcker dabei, der nimmt nichts anderes."
+                  "musterloesung": "Das Bild zeigt einen Imbiss in einer Bahnhofshalle. Man erkennt es daran, dass rechts im Hintergrund Leute mit Rollkoffern vorbeigehen.\n\nVor dem Tresen stehen drei Personen mit dem Rücken zur Kamera und schauen in die Auslage. Dort liegen belegte Brötchen, Brezeln und anderes Gebäck. Einer der Männer hat einen kleinen schwarzen Hund an der Leine dabei.\n\nÜber dem Tresen hängen mehrere beleuchtete Tafeln mit Fotos und Preisen. Man kann sogar einzelne Angebote lesen, zum Beispiel eine Kaffeespezialität mit einem belegten Brötchen für vier Euro sechzig.\n\nIch vermute, dass die drei gerade auf einen Zug warten und sich schnell etwas holen möchten. Niemand sitzt, alle stehen – typisch für einen Bahnhof.\n\nWas mir auffällt: Die Preise sind deutlich höher als in einer normalen Bäckerei. Am Bahnhof zahlt man immer mehr, weil die Leute in Eile sind und keine Wahl haben.\n\nIch selbst kaufe unterwegs nur selten etwas. Einerseits ist es praktisch, wenn man Hunger hat und wenig Zeit. Andererseits geht dabei viel Geld weg, ohne dass man es merkt: Zwei Kaffee und ein Brötchen kosten schnell zehn Euro.\n\nDeshalb nehme ich mir meistens etwas von zu Hause mit. Nur wenn ich früh los muss, hole ich mir am Bahnhof einen Kaffee – das ist dann eher eine Gewohnheit als Hunger."
                 }
               ]
             }

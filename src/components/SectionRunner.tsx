@@ -154,6 +154,7 @@ export function SectionRunner({
                   <ClozeText
                     text={block.stimuli[0].text}
                     tasks={block.tasks}
+                    optionPool={block.optionPool}
                     mode={mode}
                     answers={attempt.answers}
                     onChange={setAnswer}

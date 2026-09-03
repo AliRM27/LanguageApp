@@ -121,6 +121,38 @@ export function ReadingPanel({
   );
 }
 
+/**
+ * Kennzeichnung für einen Test, der schon zu sehen ist, aber noch nicht
+ * benutzt werden kann.
+ *
+ * Bewusst kein Schloss: Ein Schloss heißt im Web „dafür musst du bezahlen“,
+ * und genau diese Bedeutung brauchen wir später für die Paywall. Würden wir es
+ * jetzt für „noch nicht fertig“ verwenden, lernen die Lernenden das Zeichen
+ * falsch – und beim Abo-Start müssten wir es ihnen wieder abgewöhnen. Eine Uhr
+ * sagt, was gemeint ist: es kommt, nur noch nicht heute.
+ */
+export function InProgressBadge() {
+  return (
+    <span className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-amber-100 px-3 py-1 text-xs font-medium text-amber-900">
+      <svg
+        width="13"
+        height="13"
+        viewBox="0 0 16 16"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.75"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        aria-hidden="true"
+      >
+        <circle cx="8" cy="8" r="6.25" />
+        <path d="M8 4.75V8l2.25 1.5" />
+      </svg>
+      In Arbeit
+    </span>
+  );
+}
+
 export function Badge({
   children,
   tone = "neutral",

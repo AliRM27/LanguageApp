@@ -1089,7 +1089,7 @@
                   "title": "Bild",
                   "image": {
                     "src": "/bilder/de/b1/uebungstest-b1-07/sprechen-bild.jpg",
-                    "alt": "Ein Hof mit mehreren Mülltonnen in verschiedenen Farben: Ein Mann wirft eine Papiertüte in die blaue Tonne, daneben stehen eine gelbe und eine braune Tonne. Neben den Tonnen stehen ein alter Stuhl und Kartons auf dem Boden. An der Wand hängt ein Schild mit Bildern zur Mülltrennung."
+                    "alt": "Eine sonnige Marktstraße: Mehrere Personen in gelb-grünen Warnwesten und grünen Kappen schieben große Mülltonnen über die Straße, darunter eine blaue Tonne mit der Aufschrift „Papel y Cartón“ und einem Recycling-Zeichen. Links stehen Marktstände mit bunten Sonnenschirmen, an denen Sonnenbrillen und andere Waren verkauft werden."
                   },
                   "text": "Beschreiben Sie, was Sie auf dem Bild sehen."
                 }
@@ -1098,13 +1098,13 @@
                 {
                   "type": "sprechen",
                   "id": "sp2-1",
-                  "prompt": "Beschreiben Sie das Bild und sagen Sie, wie das bei Ihnen zu Hause funktioniert.",
+                  "prompt": "Beschreiben Sie das Bild und vergleichen Sie es mit der Mülltrennung in Deutschland.",
                   "hints": [
                     "Gehen Sie der Reihe nach vor: Wo ist das? Was sieht man? Wer ist zu sehen und was macht die Person?",
                     "Vermutungen gehören dazu: „Ich vermute, dass …“, „Wahrscheinlich …“, „Es sieht so aus, als ob …“.",
                     "Zum Schluss der eigene Bezug – begründen Sie mit „einerseits … andererseits …“."
                   ],
-                  "musterloesung": "Auf dem Bild sehe ich einen Hof mit mehreren Mülltonnen in verschiedenen Farben – eine blaue, eine gelbe und eine braune. Es ist wahrscheinlich der Hof eines Mehrfamilienhauses.\n\nIn der Mitte steht ein Mann und wirft gerade eine Papiertüte in die blaue Tonne. Er scheint zu wissen, was er tut. An der Wand hinter ihm hängt ein Schild mit Bildern, auf dem erklärt wird, was in welche Tonne gehört.\n\nWas mir auffällt: Neben den Tonnen stehen ein alter Stuhl und mehrere Kartons einfach auf dem Boden. Das gehört dort natürlich nicht hin – der Stuhl müsste zum Sperrmüll.\n\nIch vermute, dass in diesem Haus nicht alle mitmachen. Vielleicht wissen manche auch nicht, wie es geht, besonders wenn sie noch nicht lange hier leben.\n\nBei uns zu Hause klappt die Trennung inzwischen gut, aber am Anfang war es schwierig. In meinem Heimatland gibt es diese vielen Tonnen nicht, und ich habe eine Weile gebraucht, bis ich das System verstanden hatte.\n\nEinerseits finde ich es sinnvoll, andererseits ist manches schwer zu merken – zum Beispiel, dass Kassenbons nicht ins Altpapier dürfen. Was mir sehr geholfen hat, war ein Schild mit Bildern, ganz ähnlich wie auf dem Foto. Wörter kann man missverstehen, ein Bild versteht jeder."
+                  "musterloesung": "Auf dem Bild sehe ich eine Straße mit vielen Marktständen. Über den Ständen stehen große, bunte Sonnenschirme, links werden Sonnenbrillen und andere kleine Waren verkauft.\n\nIm Vordergrund schieben mehrere Personen große Mülltonnen über die Straße. Sie tragen alle die gleiche Kleidung: gelb-grüne Warnwesten und grüne Kappen. Es ist also offenbar ihre Arbeit, hier den Müll einzusammeln.\n\nZwei der Tonnen sind grau, eine ist blau. Auf der blauen steht auf Spanisch „Papel y Cartón“, also Papier und Karton, und daneben ist ein Recycling-Zeichen zu sehen. Das Foto ist deshalb sicher nicht in Deutschland entstanden, sondern in einem spanischsprachigen Land.\n\nEs ist sehr sonnig, die Schatten sind kurz – ich vermute, es ist Mittag.\n\nInteressant finde ich, dass die Mülltrennung hier offenbar von Mitarbeitern gemacht wird, die von Stand zu Stand gehen. In Deutschland ist das anders: Dort stellt jeder Haushalt seine Tonnen selbst vor die Tür, und wir müssen zu Hause trennen.\n\nAls ich hierhergekommen bin, war genau das für mich neu. In meiner Heimat gab es nur eine Tonne für alles. Am Anfang habe ich oft etwas falsch gemacht, zum Beispiel wusste ich nicht, dass fettiges Papier nicht ins Altpapier gehört.\n\nEinerseits finde ich das deutsche System sinnvoll, weil wirklich viel wiederverwertet wird. Andererseits ist es am Anfang schwer zu verstehen, besonders wenn die Beschriftung nur auf Deutsch ist. Ein Schild mit Bildern hilft mehr als jeder lange Text."
                 }
               ]
             }
