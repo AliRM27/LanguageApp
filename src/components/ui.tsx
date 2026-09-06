@@ -83,6 +83,22 @@ export function BackLink({
   );
 }
 
+/**
+ * A control in the site header.
+ *
+ * The header used to be two bare text links that only changed colour on hover
+ * — which on a phone means they never changed at all and read as headings
+ * rather than things to press. This gives them the same filled-with-a-border
+ * surface as a `secondary` Button, so the header agrees with every other
+ * control in the app, plus the 44px minimum height that a thumb needs.
+ *
+ * Exported as a string rather than a component because it has to dress a
+ * `Link`, a `button` and whatever the header grows next, and wrapping each of
+ * those would cost more than it explains.
+ */
+export const navControl =
+  "inline-flex min-h-11 items-center gap-1.5 whitespace-nowrap rounded-lg border border-slate-300 bg-slate-100 px-3 py-2 text-sm font-medium text-slate-700 transition hover:bg-slate-200 hover:text-slate-900 active:bg-slate-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500";
+
 export function Card({
   children,
   className = "",

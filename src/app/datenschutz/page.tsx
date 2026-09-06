@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 /** Kept in sync by hand — shown as „Stand" at the top of the page. */
-const LAST_UPDATED = "August 2026";
+const LAST_UPDATED = "September 2026";
 
 /**
  * The privacy notice.
@@ -185,7 +185,59 @@ export default function DatenschutzPage() {
         </p>
       </Section>
 
-      <Section title="7. Empfänger und Auftragsverarbeiter">
+      <Section title="7. Benachrichtigung zu geplanten Funktionen">
+        <p>
+          An einigen Stellen fragen wir, ob Sie sich für eine Funktion
+          interessieren, die es <strong>noch nicht gibt</strong> – zum Beispiel
+          Sprechen üben mit Rückmeldung. So finden wir heraus, was wir als
+          Nächstes bauen sollen, bevor wir Monate in etwas stecken, das niemand
+          braucht.
+        </p>
+        <p>
+          Wenn Sie auf den Knopf drücken, speichern wir nur, dass jemand
+          gedrückt hat, und an welcher Stelle der Website. Dabei wird{" "}
+          <strong>keine Kennung gespeichert</strong> – kein Konto, keine
+          Sitzung, keine IP-Adresse. Diese Zeile lässt sich niemandem zuordnen,
+          auch uns nicht.
+        </p>
+        <p>
+          Nur wenn Sie danach Ihre <strong>E-Mail-Adresse</strong> absenden,
+          speichern wir diese. Wir verwenden sie ausschließlich für{" "}
+          <strong>genau eine Benachrichtigung</strong>: wenn die Funktion fertig
+          ist. Keine Werbung, keine weiteren E-Mails, keine Weitergabe an
+          Dritte. Die Angabe ist freiwillig; der Knopf funktioniert auch ohne
+          sie.
+        </p>
+        <p>
+          Wenn Sie angemeldet sind, tragen wir die Adresse aus Ihrem Konto
+          schon einmal in das Feld ein, damit Sie sie nicht tippen müssen. Sie
+          können sie ändern, und <strong>gespeichert wird sie erst, wenn Sie
+          auf den Absenden-Knopf drücken.</strong> Ihre Konto-Adresse landet
+          also nicht automatisch auf dieser Liste – die Adresse für Ihr Konto
+          brauchen wir zum Betrieb des Kontos, für die Benachrichtigung
+          brauchen wir Ihre Einwilligung.
+        </p>
+        <p>
+          <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. a DSGVO
+          (Einwilligung). Sie können Ihre Einwilligung jederzeit für die Zukunft
+          widerrufen – eine formlose E-Mail an{" "}
+          <a
+            href={`mailto:${o.email}`}
+            className="text-brand-600 underline underline-offset-2"
+          >
+            {o.email}
+          </a>{" "}
+          genügt, eine Begründung brauchen wir nicht.
+        </p>
+        <p>
+          <strong>Löschung:</strong> Wir löschen Ihre Adresse, sobald die
+          Benachrichtigung verschickt ist – oder früher, wenn Sie es wünschen.
+          Entscheiden wir uns gegen die Funktion, löschen wir die Adressen
+          ebenfalls, ohne Ihnen zu schreiben.
+        </p>
+      </Section>
+
+      <Section title="8. Empfänger und Auftragsverarbeiter">
         <p>
           Wir geben Ihre Daten nicht an Dritte weiter, um damit Geld zu
           verdienen. Für den technischen Betrieb setzen wir folgende
@@ -220,7 +272,7 @@ export default function DatenschutzPage() {
         </p>
       </Section>
 
-      <Section title="8. Speicherdauer">
+      <Section title="9. Speicherdauer">
         <ul className="list-disc space-y-1 pl-5">
           <li>
             <strong>Konto und Ergebnisse:</strong> bis Sie Ihr Konto löschen.
@@ -237,10 +289,15 @@ export default function DatenschutzPage() {
             <strong>Zähler für Anmeldeversuche:</strong> 15 Minuten, danach
             automatisch.
           </li>
+          <li>
+            <strong>E-Mail-Adresse für eine Benachrichtigung</strong> (Punkt 7):
+            bis die Benachrichtigung verschickt ist, längstens jedoch bis Sie
+            widersprechen.
+          </li>
         </ul>
       </Section>
 
-      <Section title="9. Löschung Ihres Kontos">
+      <Section title="10. Löschung Ihres Kontos">
         <p>
           Unter <strong>„Mein Bereich“</strong> löschen Sie Ihr Konto selbst,
           mit allen Ergebnissen. Sie müssen dafür niemanden anschreiben und auf
@@ -248,7 +305,7 @@ export default function DatenschutzPage() {
         </p>
       </Section>
 
-      <Section title="10. Ihre Rechte">
+      <Section title="11. Ihre Rechte">
         <p>Sie haben jederzeit das Recht auf</p>
         <ul className="list-disc space-y-1 pl-5">
           <li>Auskunft über Ihre gespeicherten Daten (Art. 15 DSGVO),</li>
@@ -278,7 +335,7 @@ export default function DatenschutzPage() {
         </p>
       </Section>
 
-      <Section title="11. Keine automatisierte Entscheidungsfindung">
+      <Section title="12. Keine automatisierte Entscheidungsfindung">
         <p>
           Die automatische Auswertung von Hören und Lesen vergleicht Ihre
           Antworten mit den hinterlegten Lösungen. Damit ist keine rechtliche
@@ -287,7 +344,7 @@ export default function DatenschutzPage() {
         </p>
       </Section>
 
-      <Section title="12. Änderungen dieser Erklärung">
+      <Section title="13. Änderungen dieser Erklärung">
         <p>
           Wenn sich die Website ändert, passen wir diese Erklärung an. Die
           jeweils aktuelle Fassung finden Sie immer auf dieser Seite.

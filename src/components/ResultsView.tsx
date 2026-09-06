@@ -4,6 +4,7 @@ import { SECTION_LABEL, type Test } from "@/lib/schema";
 import { PASS_THRESHOLD_PERCENT, scoreTest } from "@/lib/scoring";
 import { useAttempt } from "@/lib/attempt-store";
 import { BackLink, Badge, Button, ButtonLink, Card } from "./ui";
+import { InterestCta } from "./InterestCta";
 
 export function ResultsView({ test }: { test: Test }) {
   const { attempt, loaded, reset } = useAttempt(test.id);
@@ -51,6 +52,14 @@ export function ResultsView({ test }: { test: Test }) {
           selbst mit der Musterlösung oder besprechen sie im Kurs.
         </p>
       </Card>
+
+      {/*
+        Directly under the sentence that admits the gap. This is the moment the
+        learner finds out that nobody assessed the half of the exam they are
+        least sure about — so it is the one place where the question "would you
+        want feedback on your speaking?" is a real question and not an advert.
+      */}
+      <InterestCta feature="sprechen" placement="ergebnis" className="text-left" />
 
       {openSections.length > 0 && (
         <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">

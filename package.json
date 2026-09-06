@@ -9,6 +9,7 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "validate:content": "tsx scripts/validate-content.ts",
+    "report:interest": "tsx scripts/interest-report.ts",
     "check:release": "node scripts/check-release.mjs",
     "preflight": "npm run typecheck && npm run validate:content && npm run check:release && npm run build",
     "audio:plan": "node scripts/audio/plan-audio.mjs",

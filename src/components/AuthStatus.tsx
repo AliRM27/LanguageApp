@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { getMe, type Me } from "@/lib/api";
+import { navControl } from "./ui";
 
 export function AuthStatus() {
   const [me, setMe] = useState<Me | null>(null);
@@ -16,10 +17,7 @@ export function AuthStatus() {
   if (!me?.enabled) return null;
 
   return (
-    <Link
-      href={me.user ? "/mein-bereich" : "/anmelden"}
-      className="text-brand-600 hover:underline"
-    >
+    <Link href={me.user ? "/mein-bereich" : "/anmelden"} className={navControl}>
       {me.user ? "Mein Bereich" : "Anmelden"}
     </Link>
   );

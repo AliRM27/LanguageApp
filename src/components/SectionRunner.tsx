@@ -9,6 +9,7 @@ import { TaskRenderer } from "./TaskRenderer";
 import { ClozeExplanations, ClozeText } from "./ClozeText";
 import { ExamImage } from "./ExamImage";
 import { BackLink, Button, ButtonLink, Card, ReadingPanel } from "./ui";
+import { InterestCta } from "./InterestCta";
 
 export function SectionRunner({
   test,
@@ -71,6 +72,16 @@ export function SectionRunner({
       </header>
 
       {submitted && <SectionSummary section={section} score={score} />}
+
+      {/*
+        Only in Sprechen, only after submitting — next to the Musterlösung, at
+        the point where the learner has just been told to judge their own
+        speaking against a model answer. Asking before they have tried would
+        measure curiosity; asking here measures the need.
+      */}
+      {submitted && section.kind === "sprechen" && (
+        <InterestCta feature="sprechen" placement="sprechen-musterloesung" />
+      )}
 
       {section.parts.map((part) => (
         <Card key={part.id} className="space-y-4">

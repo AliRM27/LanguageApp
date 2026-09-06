@@ -2,6 +2,7 @@
 
 import type { StartResult } from "@/app/api/auth/start/route";
 import type { AttemptPayload } from "@/app/api/attempts/route";
+import type { InterestFeature, InterestPlacement } from "@/lib/interest";
 
 /**
  * The browser's view of our own backend.
@@ -10,7 +11,7 @@ import type { AttemptPayload } from "@/app/api/attempts/route";
  * are no tokens to store in the page and nothing to leak through XSS.
  */
 
-export type { StartResult, AttemptPayload };
+export type { StartResult, AttemptPayload, InterestFeature, InterestPlacement };
 
 export interface Me {
   enabled: boolean;
@@ -118,4 +119,17 @@ export const importAttempts = (list: AttemptPayload[]) =>
   call<{ imported: number }>("/api/attempts", {
     method: "POST",
     body: JSON.stringify({ attempts: list }),
+  });
+
+/* -------------------------------- interest -------------------------------- */
+
+/** Without `email` this is the plain click; with it, the sign-up. */
+export const registerInterest = (payload: {
+  feature: InterestFeature;
+  placement: InterestPlacement;
+  email?: string;
+}) =>
+  call<{ ok: true }>("/api/interest", {
+    method: "POST",
+    body: JSON.stringify(payload),
   });

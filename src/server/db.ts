@@ -1,5 +1,5 @@
 import "server-only";
-import { MongoClient, type Collection, type Db } from "mongodb";
+import { MongoClient, type Collection, type Db, type ObjectId } from "mongodb";
 
 /**
  * MongoDB connection for a serverless runtime.
@@ -98,6 +98,29 @@ export interface RateDoc {
   expiresAt: Date;
 }
 
+/**
+ * One expression of interest in a feature that does not exist yet.
+ *
+ * Two kinds of row live here, and the difference is the whole point:
+ *
+ *   without `email`  someone pressed the button — a cheap signal, and
+ *                    deliberately anonymous: no user id, no session, no IP.
+ *                    Nothing in the row points at a person, so it is not
+ *                    personal data and still answers "how many wanted this".
+ *   with `email`     someone asked to be told — an expensive signal, because
+ *                    it costs the learner something to give.
+ *
+ * `_id` is left to MongoDB: a click has no natural key, and inventing one
+ * would mean deriving it from something about the person.
+ */
+export interface InterestDoc {
+  _id?: ObjectId;
+  feature: string;
+  placement: string;
+  email?: string;
+  createdAt: Date;
+}
+
 export async function users(): Promise<Collection<UserDoc>> {
   return (await db()).collection<UserDoc>("users");
 }
@@ -112,6 +135,9 @@ export async function attempts(): Promise<Collection<AttemptDoc>> {
 }
 export async function rates(): Promise<Collection<RateDoc>> {
   return (await db()).collection<RateDoc>("rates");
+}
+export async function interest(): Promise<Collection<InterestDoc>> {
+  return (await db()).collection<InterestDoc>("interest");
 }
 
 /* --------------------------------- indexes -------------------------------- */
@@ -129,12 +155,13 @@ let indexesReady: Promise<void> | undefined;
 export function ensureIndexes(): Promise<void> {
   if (!indexesReady) {
     indexesReady = (async () => {
-      const [u, s, t, a, r] = await Promise.all([
+      const [u, s, t, a, r, i] = await Promise.all([
         users(),
         sessions(),
         tokens(),
         attempts(),
         rates(),
+        interest(),
       ]);
       await Promise.all([
         u.createIndex({ email: 1 }, { unique: true }),
@@ -144,6 +171,18 @@ export function ensureIndexes(): Promise<void> {
         t.createIndex({ userId: 1, purpose: 1 }),
         a.createIndex({ userId: 1 }),
         r.createIndex({ expiresAt: 1 }, { expireAfterSeconds: 0 }),
+        // Partial, not sparse. A sparse compound index skips a document only
+        // when *every* indexed field is missing — and a click row does have
+        // `feature`, so it would be indexed with a null e-mail. The second
+        // click on the same feature would then collide with the first and the
+        // insert would fail, which is precisely the number we are here to
+        // count. Restricting the index to rows that actually carry an address
+        // keeps "one sign-up per address" without touching the clicks.
+        i.createIndex(
+          { feature: 1, email: 1 },
+          { unique: true, partialFilterExpression: { email: { $type: "string" } } },
+        ),
+        i.createIndex({ createdAt: 1 }),
       ]);
     })().catch((error) => {
       // Let the next request try again rather than caching a failure forever.
