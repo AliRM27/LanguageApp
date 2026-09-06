@@ -121,6 +121,7 @@ for (const file of walk("content/tests", (n) => n.endsWith(".json"))) {
   const unfertig = test.draft === true || test.status === "entwurf" || test.status === "in-arbeit";
   const report = unfertig ? warn : fail;
   if (unfertig) drafts.push(`${test.id} (${test.status ?? "entwurf"})`);
+  let fehlendeDateien = 0;
 
   for (const section of test.sections ?? []) {
     for (const part of section.parts ?? []) {
@@ -129,6 +130,7 @@ for (const file of walk("content/tests", (n) => n.endsWith(".json"))) {
         audioReferenced++;
         if (!exists(path.join("public", src))) {
           audioMissing++;
+          fehlendeDateien++;
           report("Audio file missing", `${test.id} · ${part.id} -> public${src}`);
         }
       }
@@ -138,11 +140,25 @@ for (const file of walk("content/tests", (n) => n.endsWith(".json"))) {
           if (!image) continue;
           if (!exists(path.join("public", image))) {
             imagesMissing++;
+            fehlendeDateien++;
             report("Image missing", `${test.id} · ${part.id} -> public${image}`);
           }
         }
       }
     }
+  }
+
+  /*
+   * Die Markierung wird von Hand gesetzt und von Hand entfernt. Genau deshalb
+   * bleibt sie stehen, nachdem die fehlenden Dateien nachgeliefert wurden – der
+   * Test bleibt dann unsichtbar oder gesperrt, ohne dass jemand versteht warum.
+   */
+  if (unfertig && fehlendeDateien === 0) {
+    warn(
+      `${test.id} ist als „${test.status ?? "entwurf"}“ markiert, aber vollständig`,
+      "Alle Audiodateien und Bilder sind vorhanden. Entfernen Sie `status` aus\n" +
+        "    der JSON, damit der Test normal nutzbar wird.",
+    );
   }
 }
 

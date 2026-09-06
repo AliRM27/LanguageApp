@@ -1,0 +1,1473 @@
+{
+  "id": "uebungstest-b2-08",
+  "language": "de",
+  "level": "B2",
+  "title": "Übungstest B2 Beruf – Nr. 8",
+  "description": "Ein vollständiger berufsbezogener Übungstest auf Niveau B2 mit den Teilen Lesen, Lesen und Schreiben, Hören, Hören und Schreiben, Sprachbausteine und Schreiben sowie Sprechen. Themenschwerpunkt: Büro und Verwaltung.",
+  "sections": [
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 45,
+      "description": "Sie lesen Beiträge aus einem Ratgeber, zwei Unterweisungen, Fragen und Tipps aus einer Beratung sowie ein Besprechungsprotokoll. Insgesamt bearbeiten Sie 18 Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Informationen zum Arbeitsmarkt",
+          "instructions": "Sie arbeiten in der Verwaltung eines Bildungsträgers, der Sprach- und Weiterbildungskurse anbietet. Sie pflegen die interne Wissensdatenbank; fünf Kolleginnen und Kollegen haben eine Frage gestellt. Welcher der acht Artikel passt zu welcher Person? Jeder Artikel kann nur einmal verwendet werden; drei Artikel passen zu keiner Person.",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-artikel",
+              "stimuli": [
+                {
+                  "title": "Artikel a",
+                  "heading": "Sich selbstständig machen",
+                  "text": "Welche Schritte in welcher Reihenfolge nötig sind, was ein Gewerbe von einer freiberuflichen Tätigkeit unterscheidet, welche Versicherungen wichtig sind und woran die meisten Gründungen tatsächlich scheitern."
+                },
+                {
+                  "title": "Artikel b",
+                  "heading": "Der Datenschutz im Büroalltag",
+                  "text": "Welche Unterlagen wie lange aufbewahrt werden, wann Papier in den Aktenvernichter muss, was beim Versand von Teilnehmerlisten gilt und warum eine Blindkopie manchmal Pflicht ist."
+                },
+                {
+                  "title": "Artikel c",
+                  "heading": "Homeoffice richtig vereinbaren",
+                  "text": "Was in einer Vereinbarung stehen muss, wie Arbeitszeit erfasst wird, wer die Ausstattung zahlt und welche Regeln zur Erreichbarkeit sinnvoll sind."
+                },
+                {
+                  "title": "Artikel d",
+                  "heading": "Fördermittel für Weiterbildung",
+                  "text": "Welche Zuschüsse es für Beschäftigte und Betriebe gibt, wer sie beantragt, welche Fristen gelten und warum ein Antrag vor Kursbeginn gestellt werden muss."
+                },
+                {
+                  "title": "Artikel e",
+                  "heading": "Konflikte im Team ansprechen",
+                  "text": "Wie man ein schwieriges Gespräch vorbereitet, welche Formulierungen die Lage entschärfen und wann eine dritte Person hinzugezogen werden sollte."
+                },
+                {
+                  "title": "Artikel f",
+                  "heading": "Befristung und Kettenvertrag",
+                  "text": "Wann eine Befristung ohne Sachgrund zulässig ist, wie oft verlängert werden darf und was passiert, wenn die Regeln nicht eingehalten werden."
+                },
+                {
+                  "title": "Artikel g",
+                  "heading": "Rechnungen und Mahnungen",
+                  "text": "Welche Angaben eine Rechnung enthalten muss, ab wann Verzug eintritt, wie eine Mahnung formuliert wird und welche Kosten geltend gemacht werden können."
+                },
+                {
+                  "title": "Artikel h",
+                  "heading": "Barrierefreie Unterlagen erstellen",
+                  "text": "Wie Dokumente aussehen müssen, damit Screenreader sie lesen können, welche Schriftgrößen sinnvoll sind und warum Farbe allein nie eine Information tragen darf."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Sich selbstständig machen"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Der Datenschutz im Büroalltag"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Homeoffice richtig vereinbaren"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Fördermittel für Weiterbildung"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Konflikte im Team ansprechen"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Befristung und Kettenvertrag"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Rechnungen und Mahnungen"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Barrierefreie Unterlagen erstellen"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l1-1",
+                  "prompt": "Frau Achim möchte nach der Elternzeit nur noch zwanzig Stunden arbeiten, davon zwei Tage von zu Hause. Sie fragt, was schriftlich geregelt sein sollte.",
+                  "solution": "c",
+                  "explanation": "Artikel c behandelt Homeoffice-Vereinbarungen, Zeiterfassung, Ausstattung und Erreichbarkeit."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-2",
+                  "prompt": "Ein Teilnehmer möchte einen Kurs besuchen, kann ihn aber nicht bezahlen. Er fragt, ob es Unterstützung gibt und wann er sie beantragen muss.",
+                  "solution": "d",
+                  "explanation": "Artikel d behandelt Zuschüsse, Fristen und die Pflicht, vor Kursbeginn zu beantragen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-3",
+                  "prompt": "Herr Ibrahimi hat seinen dritten befristeten Vertrag bekommen, wieder für ein Jahr. Er fragt, ob das so weitergehen darf.",
+                  "solution": "f",
+                  "explanation": "Artikel f behandelt Befristung ohne Sachgrund, die Zahl der Verlängerungen und die Folgen von Verstößen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-4",
+                  "prompt": "Beim Versand der Kursbestätigungen waren alle Adressen für alle sichtbar. Der Kollege fragt, wie schlimm das ist und was künftig zu tun ist.",
+                  "solution": "b",
+                  "explanation": "Artikel b behandelt den Versand von Teilnehmerlisten und die Pflicht zur Blindkopie."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-5",
+                  "prompt": "Frau Sørensen denkt darüber nach, sich mit einer eigenen Beratung selbstständig zu machen, weiß aber nicht, womit sie anfangen soll.",
+                  "solution": "a",
+                  "explanation": "Artikel a beschreibt die Schritte einer Gründung in ihrer Reihenfolge."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Einweisungen und Unterweisungen",
+          "instructions": "Sie lesen zwei Texte aus Ihrem Betrieb. Entscheiden Sie zu jedem Text, ob die Aussage richtig oder falsch ist, und wählen Sie danach die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-text-1",
+              "stimuli": [
+                {
+                  "title": "Text 1",
+                  "heading": "Arbeitsanweisung: Umgang mit Teilnehmerdaten",
+                  "text": "Diese Anweisung gilt für alle Beschäftigten, auch für Honorarkräfte.\n\nVersand\nBeim Versand an mehrere Teilnehmende werden die Adressen ausnahmslos in das Feld BCC gesetzt. Eine offene Verteilerliste ist auch dann nicht zulässig, wenn sich die Teilnehmenden aus dem Kurs kennen.\n\nAufbewahrung\nAnmeldeunterlagen werden drei Jahre aufbewahrt, danach vernichtet. Vernichtet heißt: Aktenvernichter Stufe P-4, nicht Papierkorb und nicht Altpapier.\n\nHomeoffice\nUnterlagen mit Namen und Geburtsdaten dürfen mit nach Hause genommen werden, aber nur digital und nur auf dem Dienstgerät. Ausdrucke bleiben im Haus.\n\nWenn etwas passiert ist\nMelden Sie eine Panne sofort der Leitung, auch am Wochenende. Eine Datenschutzverletzung muss innerhalb von 72 Stunden gemeldet werden, und diese Frist beginnt nicht, wenn es Ihnen einfällt, sondern wenn es passiert ist."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l2-1",
+                  "statement": "Anmeldeunterlagen werden nach drei Jahren im Aktenvernichter vernichtet.",
+                  "solution": true,
+                  "explanation": "„Anmeldeunterlagen werden drei Jahre aufbewahrt, danach vernichtet. Vernichtet heißt: Aktenvernichter Stufe P-4 …“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l2-2",
+                  "prompt": "Wann beginnt die Frist von 72 Stunden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Wenn der Vorfall passiert ist."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Wenn der Vorfall bemerkt wird."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Wenn die Leitung informiert wurde."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… diese Frist beginnt nicht, wenn es Ihnen einfällt, sondern wenn es passiert ist.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-2-text-2",
+              "stimuli": [
+                {
+                  "title": "Text 2",
+                  "heading": "Information: Neue Regelung zum mobilen Arbeiten",
+                  "text": "Liebe Kolleginnen und Kollegen,\n\nab dem 1. Mai gilt eine neue Regelung für das mobile Arbeiten. Sie ersetzt die Übergangsregelung aus der Pandemiezeit.\n\nUmfang\nMobiles Arbeiten ist an bis zu drei Tagen pro Woche möglich. Ein Anspruch besteht nicht; die Zustimmung erteilt die jeweilige Bereichsleitung und kann mit einer Frist von vier Wochen widerrufen werden.\n\nAnwesenheit\nDienstags ist Anwesenheitstag für alle. An diesem Tag finden Besprechungen, Übergaben und Einarbeitungen statt. Ausnahmen sind möglich, aber nur nach Absprache.\n\nAusstattung\nLaptop und Headset stellt der Betrieb. Für Schreibtisch und Stuhl gibt es einen einmaligen Zuschuss von 250 Euro gegen Beleg. Internetkosten werden nicht erstattet.\n\nErreichbarkeit\nSie sind während Ihrer Arbeitszeit erreichbar, aber nicht darüber hinaus. Eine Erwartung, abends oder am Wochenende zu antworten, besteht ausdrücklich nicht."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l2-3",
+                  "statement": "Auf mobiles Arbeiten besteht ein Anspruch.",
+                  "solution": false,
+                  "explanation": "„Ein Anspruch besteht nicht; die Zustimmung erteilt die jeweilige Bereichsleitung …“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l2-4",
+                  "prompt": "Was gilt für die Ausstattung?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Alles wird vollständig erstattet."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Laptop und Headset stellt der Betrieb, für Möbel gibt es 250 Euro."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Beschäftigten tragen die Kosten selbst."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Laptop und Headset stellt der Betrieb. Für Schreibtisch und Stuhl gibt es einen einmaligen Zuschuss von 250 Euro …“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Rahmenbedingungen der Arbeit",
+          "instructions": "In der Sprechstunde des Betriebsrats sind vier Fragen eingegangen. Welcher der sechs Tipps a–f passt zu welcher Frage? Zu einer Frage passt keiner der Tipps – wählen Sie dann „x“.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-tipps",
+              "prompt": "Welcher Tipp passt zu welcher Frage?",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Stellen Sie den Förderantrag, bevor der Kurs beginnt. Wird er auch nur einen Tag danach eingereicht, ist die Förderung verloren – unabhängig davon, wie berechtigt sie wäre."
+                },
+                {
+                  "id": "b",
+                  "text": "Setzen Sie Adressen grundsätzlich ins BCC, auch bei kleinen Gruppen. Der Fehler passiert immer bei der Mail, bei der man dachte, es sei diesmal egal."
+                },
+                {
+                  "id": "c",
+                  "text": "Sprechen Sie einen Konflikt an, indem Sie eine Beobachtung schildern, keine Eigenschaft. „Die letzten drei Protokolle kamen nach der Sitzung“ führt weiter als „Sie sind unzuverlässig“."
+                },
+                {
+                  "id": "d",
+                  "text": "Halten Sie im Homeoffice feste Zeiten ein und tragen Sie sie ein. Wer nach Gefühl arbeitet, arbeitet nach vier Wochen mehr als vorher und merkt es nicht."
+                },
+                {
+                  "id": "e",
+                  "text": "Prüfen Sie bei einer dritten Befristung das Datum des ersten Vertrags. Nach zwei Jahren ohne Sachgrund ist Schluss, und ein Verstoß führt zu einem unbefristeten Arbeitsverhältnis."
+                },
+                {
+                  "id": "f",
+                  "text": "Verwenden Sie in Dokumenten echte Überschriften statt vergrößerter Fettschrift. Nur so findet sich ein Screenreader zurecht, und nur so funktioniert später das Inhaltsverzeichnis."
+                },
+                {
+                  "id": "x",
+                  "text": "Hierzu passt keiner der Tipps."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l3-1",
+                  "prompt": "„Der Kurs läuft seit zwei Wochen. Kann ich den Zuschuss noch beantragen?“",
+                  "solution": "a",
+                  "explanation": "Tipp a: Der Antrag muss vor Kursbeginn gestellt werden."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-2",
+                  "prompt": "„Ich möchte meine Kollegin darauf ansprechen, dass ich ständig ihre Arbeit nachkontrolliere. Wie fange ich an, ohne dass sie dichtmacht?“",
+                  "solution": "c",
+                  "explanation": "Tipp c: mit einer Beobachtung beginnen, nicht mit einer Eigenschaft."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-3",
+                  "prompt": "„Ich bekomme jetzt den dritten Jahresvertrag. Ist das eigentlich noch erlaubt?“",
+                  "solution": "e",
+                  "explanation": "Tipp e: nach zwei Jahren ohne Sachgrund ist Schluss."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-4",
+                  "prompt": "„Unser Kursraum im zweiten Stock ist ohne Aufzug nicht erreichbar. Was können wir Teilnehmenden mit Gehbehinderung anbieten?“",
+                  "solution": "x",
+                  "explanation": "Kein Tipp behandelt bauliche Barrierefreiheit. Tipp f betrifft barrierefreie Dokumente, nicht Räume."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-4",
+          "title": "Teil 4 – Aufgaben und Aufgabenverteilung",
+          "instructions": "Lesen Sie das Protokoll der letzten Teambesprechung und die Aufgaben. Welche Antwort passt am besten?",
+          "blocks": [
+            {
+              "id": "lesen-teil-4-protokoll",
+              "stimuli": [
+                {
+                  "title": "Protokoll",
+                  "heading": "Protokoll der Teamsitzung Verwaltung",
+                  "text": "Datum: Dienstag, 6. Mai\nUhrzeit: 9:30 – 10:45 Uhr\nOrt: Raum 104\nAnwesende: L. Sørensen (Leitung), F. Achim, D. Ibrahimi, C. Wegner\nEntschuldigt: keine\nProtokoll: C. Wegner\n\nTagesordnung\nTOP 1 Anmeldezahlen Frühjahr\nTOP 2 Mobiles Arbeiten\nTOP 3 Datenschutzvorfall\nTOP 4 Neues Kursangebot\nTOP 5 Verschiedenes\n\nTOP 1 – Anmeldezahlen Frühjahr\nDie Anmeldungen liegen bei 412, im Vorjahr waren es 380. Der Zuwachs entfällt vollständig auf die berufsbezogenen Sprachkurse; die allgemeinen Kurse sind leicht rückläufig. Frau Sørensen weist darauf hin, dass die Zahl trügt: Von den 412 haben 61 noch keine Förderzusage, und erfahrungsgemäß tritt ein Teil davon nicht an.\n\nTOP 2 – Mobiles Arbeiten\nDie neue Regelung gilt ab 1. Mai. Herr Ibrahimi bittet darum, den Anwesenheitstag von Dienstag auf Mittwoch zu verlegen, weil dienstags die meisten Kurse stattfinden und die Räume knapp sind. Die Leitung sagt eine Prüfung zu, entscheidet aber noch nicht.\n\nTOP 3 – Datenschutzvorfall\nAm 22. April wurden 34 Kursbestätigungen mit offener Adressliste versandt. Der Vorfall wurde am selben Tag gemeldet und fristgerecht dokumentiert. Eine Meldung an die Aufsichtsbehörde war nach Prüfung nicht erforderlich, weil ausschließlich Namen und E-Mail-Adressen betroffen waren. Beschlossen: Der Serienbrief wird künftig nur noch über die Kursverwaltung versandt, nicht mehr aus dem E-Mail-Programm.\n\nTOP 4 – Neues Kursangebot\nFrau Achim schlägt einen Abendkurs „Deutsch für Pflegeberufe“ vor. Die Nachfrage sei da, es fehle aber eine Lehrkraft mit Fachkenntnissen. Beschlossen: Die Stelle wird ausgeschrieben; der Kurs startet frühestens im Herbst.\n\nTOP 5 – Verschiedenes\nDer Kopierer im Erdgeschoss wird ersetzt. Bis zur Lieferung wird der Kopierer im ersten Stock mitbenutzt.\n\nNächster Termin: Dienstag, 3. Juni, 9:30 Uhr"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-1",
+                  "prompt": "Warum ist die Zahl von 412 Anmeldungen laut Frau Sørensen trügerisch?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil viele doppelt gezählt wurden."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil die Kurse noch nicht feststehen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil 61 noch keine Förderzusage haben."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Von den 412 haben 61 noch keine Förderzusage, und erfahrungsgemäß tritt ein Teil davon nicht an.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-2",
+                  "prompt": "Wie wurde über den Anwesenheitstag entschieden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Es wurde noch nicht entschieden."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Er wird auf Mittwoch verlegt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Er bleibt auf Dienstag."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Die Leitung sagt eine Prüfung zu, entscheidet aber noch nicht.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-3",
+                  "prompt": "Warum war beim Datenschutzvorfall keine Meldung an die Behörde nötig?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil er am selben Tag bemerkt wurde."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil nur Namen und E-Mail-Adressen betroffen waren."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil sich niemand beschwert hat."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… weil ausschließlich Namen und E-Mail-Adressen betroffen waren.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-4",
+                  "prompt": "Was fehlt für den neuen Abendkurs?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Nachfrage."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ein geeigneter Raum."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Eine Lehrkraft mit Fachkenntnissen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Die Nachfrage sei da, es fehle aber eine Lehrkraft mit Fachkenntnissen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-5",
+                  "prompt": "Was gilt bis zur Lieferung des neuen Kopierers?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das Gerät im ersten Stock wird mitbenutzt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Kopien werden extern erstellt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Es wird nur digital gearbeitet."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Bis zur Lieferung wird der Kopierer im ersten Stock mitbenutzt.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen-schreiben",
+      "title": "Lesen und Schreiben",
+      "durationMinutes": 20,
+      "description": "Ihre Teamleitung leitet Ihnen die Nachricht einer Kundin oder eines Kunden weiter und sagt Ihnen, was in Ihrer Antwort stehen soll. Sie beantworten zwei Fragen zu den Texten und schreiben dann die Antwort.",
+      "parts": [
+        {
+          "id": "lesen-schreiben-teil-1",
+          "title": "E-Mail an eine Interessentin",
+          "instructions": "Lesen Sie beide E-Mails. Beantworten Sie zuerst die zwei Fragen und schreiben Sie danach die Antwort. Gehen Sie dabei auf alle Punkte Ihrer Teamleitung ein.",
+          "blocks": [
+            {
+              "id": "lesen-schreiben-block",
+              "stimuli": [
+                {
+                  "title": "E-Mail 1",
+                  "heading": "Von: L. Sørensen (Leitung) – Bitte antworten Sie Frau Pohl",
+                  "text": "Hallo,\n\nbitte antworten Sie noch heute. Frau Pohl hat schon zweimal geschrieben, das ist mir unangenehm.\n\nBitte gehen Sie auf Folgendes ein:\n\n1. Entschuldigen Sie, dass die erste Anfrage unbeantwortet blieb – sie ist in einem gesperrten Postfach gelandet, das wir übersehen haben.\n2. Teilen Sie mit, dass der Kurs B2 Beruf am 2. September beginnt, dienstags und donnerstags 18 bis 21 Uhr, zwölf Wochen.\n3. Weisen Sie auf die Förderung hin – aber deutlich: Der Antrag muss vor Kursbeginn gestellt sein, sonst ist sie verloren.\n4. Bieten Sie einen Beratungstermin an, in dieser oder nächster Woche, gern auch telefonisch.\n\nL. Sørensen"
+                },
+                {
+                  "title": "E-Mail 2",
+                  "heading": "Von: M. Pohl – Zweite Anfrage: Kurs B2 Beruf",
+                  "text": "Sehr geehrte Damen und Herren,\n\nich hatte Ihnen bereits am 14. April geschrieben und leider keine Antwort erhalten. Deshalb versuche ich es noch einmal.\n\nIch arbeite seit zwei Jahren als Pflegehelferin und möchte die Ausbildung zur Pflegefachkraft beginnen. Dafür brauche ich ein B2-Zertifikat. Mein Arbeitgeber unterstützt mich, kann aber die Kosten nicht übernehmen.\n\nIch würde gern wissen, wann der nächste Kurs beginnt, wie er zeitlich liegt und ob es eine finanzielle Unterstützung gibt. Abends wäre für mich am besten, ich arbeite im Schichtdienst.\n\nMit freundlichen Grüßen\nMarta Pohl"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "ls-1",
+                  "prompt": "Wofür braucht Frau Pohl das Zertifikat?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Für ihre Aufenthaltserlaubnis."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Für die Ausbildung zur Pflegefachkraft."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Für eine Bewerbung im Ausland."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… möchte die Ausbildung zur Pflegefachkraft beginnen. Dafür brauche ich ein B2-Zertifikat.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "ls-2",
+                  "prompt": "Worauf sollen Sie laut Leitung besonders deutlich hinweisen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Auf die Kursgebühr."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Auf die Anwesenheitspflicht."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Darauf, dass der Förderantrag vor Kursbeginn gestellt sein muss."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Der Antrag muss vor Kursbeginn gestellt sein, sonst ist sie verloren.“"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "ls-3",
+                  "prompt": "Schreiben Sie die Antwort an Frau Pohl.",
+                  "criteria": [
+                    "Entschuldigung für die ausgebliebene Antwort",
+                    "Termine des Kurses B2 Beruf",
+                    "Hinweis zur Förderung – Antrag vor Kursbeginn",
+                    "Angebot eines Beratungstermins"
+                  ],
+                  "hints": [
+                    "Die Entschuldigung gehört an den Anfang, nicht ans Ende.",
+                    "Frau Pohl arbeitet im Schichtdienst – gehen Sie darauf ein, wenn Sie den Termin anbieten.",
+                    "Die Förderfrist ist die wichtigste Information der Mail. Stellen Sie sie so dar, dass sie nicht überlesen werden kann."
+                  ],
+                  "minWords": 100,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Frau Pohl,\n\nzunächst möchte ich mich entschuldigen: Ihre Anfrage vom 14. April ist in einem Postfach gelandet, das nicht mehr regelmäßig gelesen wird. Das ist unser Fehler, und es tut mir leid, dass Sie ein zweites Mal schreiben mussten.\n\nZu Ihren Fragen. Der Kurs „Deutsch B2 für den Beruf“ beginnt am 2. September. Er findet dienstags und donnerstags von 18 bis 21 Uhr statt und dauert zwölf Wochen; die Prüfung liegt im Dezember. Die Abendzeiten dürften sich mit einem Schichtdienst besser vereinbaren lassen als unsere Vormittagskurse – wenn Sie regelmäßig Spätdienst haben, sprechen wir das aber besser vorher durch.\n\nEin Punkt ist besonders wichtig, und ich möchte ihn deshalb hervorheben: Eine Förderung ist möglich, aber der Antrag muss vollständig vorliegen, bevor der Kurs beginnt. Wird er auch nur einen Tag nach dem 2. September eingereicht, ist die Förderung für diesen Kurs verloren – selbst dann, wenn alle Voraussetzungen erfüllt sind. Wir haben das leider schon erlebt, deshalb sage ich es so deutlich.\n\nIch schlage vor, dass wir dafür einen Beratungstermin machen. Dann gehen wir die Unterlagen gemeinsam durch, und ich stelle den Antrag mit Ihnen zusammen fertig. Diese oder nächste Woche ist bei mir vieles möglich, gern auch telefonisch, falls Ihnen der Weg zu uns zeitlich nicht passt. Nennen Sie mir einfach zwei, drei Zeiten, die Ihnen passen.\n\nMit freundlichen Grüßen\nC. Wegner\nKursverwaltung"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 20,
+      "description": "Sie hören Gespräche aus dem Arbeitsalltag, eine Präsentation und telefonische Mitteilungen. Insgesamt bearbeiten Sie 19 Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Gespräche am Arbeitsplatz",
+          "instructions": "Sie hören drei kurze Gespräche. Zu jedem Gespräch gibt es zwei Aufgaben: Entscheiden Sie zuerst, ob die Aussage richtig oder falsch ist, und wählen Sie dann die richtige Antwort. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-08/hoeren-teil-1.mp3",
+            "transcript": "Gespräch 1\nFrau Sørensen: Frau Achim, wegen des Pflegekurses. Die Stelle ist ausgeschrieben, aber es meldet sich niemand.\n\nFrau Achim: Seit wann steht sie drin?\n\nFrau Sørensen: Drei Wochen. Zwei Bewerbungen, beide ohne Fachkenntnisse in der Pflege.\n\nFrau Achim: Dann würde ich es umdrehen: nicht eine Lehrkraft mit Pflegewissen suchen, sondern eine Pflegekraft, die unterrichten lernt.\n\nFrau Sørensen: Interessant. Das würde allerdings eine Zusatzqualifikation bedeuten, und die dauert.\n\nGespräch 2\nHerr Ibrahimi: Frau Wegner, ich habe eine Frage zu meinem Vertrag.\n\nFrau Wegner: Gern.\n\nHerr Ibrahimi: Das ist jetzt der dritte, jeweils ein Jahr. Der erste fing im September vor drei Jahren an.\n\nFrau Wegner: Dann ist die Grenze von zwei Jahren überschritten. Das kann bedeuten, dass Ihr Verhältnis inzwischen unbefristet ist.\n\nHerr Ibrahimi: Das dachte ich mir. Ich möchte keinen Streit, ich möchte nur Klarheit.\n\nGespräch 3\nFrau Wegner: Frau Sørensen, wegen des Serienbriefs. Die Kursverwaltung kann das, aber nicht mit Anhang.\n\nFrau Sørensen: Und wir verschicken die Bestätigung als PDF.\n\nFrau Wegner: Genau. Entweder wir schreiben den Text direkt in die Mail, oder wir brauchen ein Update.\n\nFrau Sørensen: Was kostet das Update?\n\nFrau Wegner: Vierhundert Euro einmalig. Ich würde es nehmen – der Text in der Mail sieht unprofessionell aus, und wir versenden das dreimal im Jahr an vierhundert Leute."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-gespraech-1",
+              "prompt": "Gespräch 1",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-1",
+                  "statement": "Es haben sich bisher keine Bewerber gemeldet.",
+                  "solution": false,
+                  "explanation": "„Zwei Bewerbungen, beide ohne Fachkenntnisse in der Pflege.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Was schlägt Frau Achim vor?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Eine Pflegekraft zu suchen und zur Lehrkraft weiterzubilden."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Den Kurs abzusagen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Vergütung zu erhöhen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… sondern eine Pflegekraft, die unterrichten lernt.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-gespraech-2",
+              "prompt": "Gespräch 2",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-3",
+                  "statement": "Herr Ibrahimi möchte gegen den Betrieb vorgehen.",
+                  "solution": false,
+                  "explanation": "„Ich möchte keinen Streit, ich möchte nur Klarheit.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Warum ist die Befristung problematisch?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil die Verträge zu kurz sind."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil die Grenze von zwei Jahren überschritten ist."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil kein Sachgrund genannt wurde."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Dann ist die Grenze von zwei Jahren überschritten.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-gespraech-3",
+              "prompt": "Gespräch 3",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-5",
+                  "statement": "Die Kursverwaltung kann Serienbriefe nicht mit Anhang versenden.",
+                  "solution": true,
+                  "explanation": "„Die Kursverwaltung kann das, aber nicht mit Anhang.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-6",
+                  "prompt": "Womit begründet Frau Wegner ihre Empfehlung?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Mit einer gesetzlichen Vorgabe."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Mit dem Wunsch der Teilnehmenden."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Mit den geringen Kosten und der Häufigkeit des Versands."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Vierhundert Euro einmalig … wir versenden das dreimal im Jahr an vierhundert Leute.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Was passt zu welchem Gespräch?",
+          "instructions": "Sie hören vier kurze Gespräche. Welcher Satz a–f passt zu welchem Gespräch? Zwei Sätze bleiben übrig. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-08/hoeren-teil-2.mp3",
+            "transcript": "Gespräch 1\nFrau Wegner: Die Adressliste war offen, das war ich. Ich hatte den falschen Verteiler erwischt.\n\nFrau Sørensen: Das ist ärgerlich.\n\nFrau Wegner: Ja. Ich habe schon eine Vorlage gebaut, bei der das BCC-Feld vorbelegt ist – dann kann es nicht mehr passieren.\n\nGespräch 2\nHerr Ibrahimi: Ich mache seit zwei Jahren die Statistik nebenbei. Ehrlich gesagt schaffe ich es nicht mehr.\n\nFrau Sørensen: Was schlagen Sie vor?\n\nHerr Ibrahimi: Könnte das jemand anders übernehmen? Ich würde die Person zwei Wochen einarbeiten.\n\nGespräch 3\nFrau Achim: Wir könnten den Anwesenheitstag auf Freitag legen, da sind kaum Kurse.\n\nFrau Wegner: Freitag geht nicht. Drei Kolleginnen arbeiten freitags gar nicht, das ist ihr fester freier Tag.\n\nFrau Achim: Stimmt, daran hatte ich nicht gedacht.\n\nGespräch 4\nFrau Achim: Sie haben mir zu meinem Kursvorschlag geschrieben, ausführlich sogar.\n\nFrau Sørensen: Ich fand ihn gut durchdacht.\n\nFrau Achim: Ich wollte mich bedanken. Es kommt selten vor, dass man auf so etwas überhaupt eine Antwort bekommt."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "prompt": "Welcher Satz passt zu welchem Gespräch?",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Jemand gibt einen Fehler zu und schlägt eine Lösung vor."
+                },
+                {
+                  "id": "b",
+                  "text": "Jemand bittet darum, eine Aufgabe abgeben zu dürfen."
+                },
+                {
+                  "id": "c",
+                  "text": "Jemand widerspricht einem Vorschlag mit einem sachlichen Grund."
+                },
+                {
+                  "id": "d",
+                  "text": "Jemand kündigt an, sich beruflich zu verändern."
+                },
+                {
+                  "id": "e",
+                  "text": "Jemand bedankt sich für eine Rückmeldung."
+                },
+                {
+                  "id": "f",
+                  "text": "Jemand beschwert sich über die Raumtemperatur."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h2-1",
+                  "prompt": "Gespräch 1",
+                  "solution": "a",
+                  "explanation": "Frau Wegner gibt den Fehler zu und schlägt gleich eine Lösung vor."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-2",
+                  "prompt": "Gespräch 2",
+                  "solution": "b",
+                  "explanation": "Herr Ibrahimi bittet darum, die Aufgabe abzugeben."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-3",
+                  "prompt": "Gespräch 3",
+                  "solution": "c",
+                  "explanation": "Frau Wegner widerspricht mit einem sachlichen Grund."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-4",
+                  "prompt": "Gespräch 4",
+                  "solution": "e",
+                  "explanation": "Frau Achim bedankt sich für die Rückmeldung."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Eine Präsentation",
+          "instructions": "Sie hören eine Präsentation im Betrieb. Über jeder Aufgabe steht ein Stichwort, damit Sie wissen, an welcher Stelle Sie sich befinden. Wählen Sie die richtige Antwort. Sie hören die Präsentation einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-08/hoeren-teil-3.mp3",
+            "transcript": "Moderator: Wir begrüßen Frau Lindqvist. Sie berät seit fünfzehn Jahren Menschen, die sich selbstständig machen wollen, und stellt heute Zahlen dazu vor.\n\nFrau Lindqvist: Vielen Dank. Ich fange mit einem Missverständnis an. Wenn Gründungen scheitern, heißt es fast immer: zu wenig Kapital. Unsere Auswertung von sechshundert Gründungen zeigt etwas anderes.\n\nFrau Lindqvist: Der häufigste Grund war eine falsche Einschätzung der Zeit bis zum ersten Einkommen. Im Schnitt rechneten die Gründerinnen und Gründer mit drei Monaten. Tatsächlich vergingen elf.\n\nFrau Lindqvist: Kapital spielt natürlich eine Rolle, aber es ist die Folge, nicht die Ursache. Wer mit drei Monaten rechnet, legt Geld für drei Monate zurück – und steht im vierten vor der Frage, ob er aufgibt oder Schulden macht.\n\nFrau Lindqvist: Interessant ist der Vergleich mit den erfolgreichen Gründungen. Sie hatten nicht mehr Startkapital. Sie hatten in siebzig Prozent der Fälle etwas anderes: einen ersten Kunden, bevor sie angefangen haben. Oft den früheren Arbeitgeber.\n\nFrau Lindqvist: Mein Rat lautet deshalb nicht „spart mehr an“, sondern: Sichern Sie sich einen Auftrag, bevor Sie kündigen. Und rechnen Sie mit zwölf Monaten, nicht mit dreien. Wer das tut, gründet später – aber er gründet einmal und nicht zweimal."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-a",
+              "prompt": "MISSVERSTÄNDNIS",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-1",
+                  "prompt": "Was gilt landläufig als Hauptgrund für das Scheitern?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Zu wenig Kapital."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Fehlende Erfahrung."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Zu viel Konkurrenz."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… heißt es fast immer: zu wenig Kapital.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-b",
+              "prompt": "TATSÄCHLICHER GRUND",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Was war laut Auswertung der häufigste Grund?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Zu hohe Kosten am Anfang."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Eine falsche Einschätzung der Zeit bis zum ersten Einkommen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Fehlende Beratung."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Der häufigste Grund war eine falsche Einschätzung der Zeit bis zum ersten Einkommen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-c",
+              "prompt": "ERFOLGREICHE",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-3",
+                  "prompt": "Was unterscheidet erfolgreiche Gründungen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Mehr Startkapital."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Eine kürzere Vorbereitungszeit."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ein erster Kunde vor dem Start."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Sie hatten in siebzig Prozent der Fälle … einen ersten Kunden, bevor sie angefangen haben.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-d",
+              "prompt": "RAT",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Was rät Frau Lindqvist?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sich vor der Kündigung einen Auftrag zu sichern."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Mehr anzusparen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nebenberuflich zu gründen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Sichern Sie sich einen Auftrag, bevor Sie kündigen.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-4",
+          "title": "Teil 4 – Telefonische Mitteilungen",
+          "instructions": "Sie hören fünf Nachrichten auf dem Anrufbeantworter. Wählen Sie zu jeder Nachricht die richtige Antwort. Sie hören jede Nachricht einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-08/hoeren-teil-4.mp3",
+            "transcript": "Mitteilung 1\nFrau Lindqvist: Guten Tag, Lindqvist hier. Sie hatten gefragt, ob ich einen Workshop für Ihre Teilnehmenden anbiete. Grundsätzlich gern – allerdings mache ich keine Vorträge über Gründung allgemein. Ich arbeite nur mit Gruppen, die schon eine konkrete Idee mitbringen. Sonst reden wir zwei Stunden über nichts.\n\nMitteilung 2\nFrau Pohl: Guten Tag, hier ist Marta Pohl. Vielen Dank für Ihre ausführliche Antwort. Den Beratungstermin würde ich gern wahrnehmen, aber telefonisch – ich habe nächste Woche jeden Tag Spätdienst. Vormittags zwischen neun und elf wäre ideal. Und danke besonders für den Hinweis mit der Frist, das hätte ich sonst übersehen.\n\nMitteilung 3\nHerr Ibrahimi: Ibrahimi hier. Die Personalabteilung hat sich gemeldet: Mein Arbeitsverhältnis gilt seit dem letzten Vertrag als unbefristet, das wurde bestätigt. Ich bekomme das nächste Woche schriftlich. Ich wollte mich bedanken, dass Sie mich darauf hingewiesen haben, statt es auszusitzen.\n\nMitteilung 4\nFrau Achim: Achim hier. Gute Nachricht: Ich habe über eine Bekannte eine Pflegefachkraft gefunden, die seit zwei Jahren nebenbei unterrichtet und die Zusatzqualifikation schon hat. Sie hätte ab September Zeit. Ich habe ihr noch nichts zugesagt – bitte meldet euch schnell, sie hat auch ein anderes Angebot.\n\nMitteilung 5\nFrau Sørensen: Sørensen hier, kurze Ansage zum Anwesenheitstag. Ich habe die Raumbelegung geprüft: Mittwoch geht tatsächlich besser, dienstags sind vier von fünf Räumen belegt. Ab Juni ist der Anwesenheitstag deshalb der Mittwoch. Bitte tragt das in eure Kalender ein, ich schicke morgen noch eine Mail an alle."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-4-mitteilung-1",
+              "prompt": "Mitteilung 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-1",
+                  "prompt": "Welche Bedingung nennt Frau Lindqvist?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Workshop muss ganztägig sein."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Gruppe muss eine konkrete Idee mitbringen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Es dürfen höchstens zehn Personen teilnehmen."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ich arbeite nur mit Gruppen, die schon eine konkrete Idee mitbringen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-2",
+              "prompt": "Mitteilung 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-2",
+                  "prompt": "Wie möchte Frau Pohl die Beratung machen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Persönlich im Haus."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Schriftlich per E-Mail."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Telefonisch am Vormittag."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… aber telefonisch … Vormittags zwischen neun und elf wäre ideal.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-3",
+              "prompt": "Mitteilung 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-3",
+                  "prompt": "Was ist das Ergebnis?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das Arbeitsverhältnis ist unbefristet."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Der Vertrag wird noch einmal befristet verlängert."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der Fall wird vor Gericht geklärt."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Mein Arbeitsverhältnis gilt seit dem letzten Vertrag als unbefristet, das wurde bestätigt.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-4",
+              "prompt": "Mitteilung 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-4",
+                  "prompt": "Warum drängt Frau Achim?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil der Kurs schon läuft."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil die Bewerberin ein anderes Angebot hat."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil die Ausschreibung ausläuft."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… bitte meldet euch schnell, sie hat auch ein anderes Angebot.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-5",
+              "prompt": "Mitteilung 5",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-5",
+                  "prompt": "Was wurde zum Anwesenheitstag entschieden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Er bleibt am Dienstag."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Er entfällt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Er wird ab Juni auf Mittwoch verlegt."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ab Juni ist der Anwesenheitstag deshalb der Mittwoch.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "hoeren-schreiben",
+      "title": "Hören und Schreiben",
+      "durationMinutes": 5,
+      "description": "Sie hören eine telefonische Mitteilung und halten das Wichtigste in einer Notiz fest.",
+      "parts": [
+        {
+          "id": "hoeren-schreiben-teil-1",
+          "title": "Notiz zu einem Anruf",
+          "instructions": "Sie sind allein im Büro und nehmen einen Anruf entgegen. Wählen Sie zuerst den Grund des Anrufs. Füllen Sie danach die Notiz für Ihre Kollegin aus. Sie hören die Mitteilung zweimal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-08/hoeren-schreiben.mp3",
+            "transcript": "Herr Vogler: Guten Tag, mein Name ist Andreas Vogler von der Spedition Vogler und Sohn. Ich rufe an, weil wir für neun Mitarbeiter einen Deutschkurs auf B1-Niveau bräuchten, am liebsten bei uns im Betrieb. Denkbar wären zwei Termine pro Woche, jeweils nach Schichtende ab sechzehn Uhr. Bitte schicken Sie mir ein Angebot mit Preis und möglichem Startdatum. Meine Nummer: 0 2 0 3 – 5 5 8 7 1 2. Ich bin den ganzen Tag erreichbar, außer zwischen zwölf und eins. Danke."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-schreiben-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "hs-1",
+                  "prompt": "Grund für den Anruf",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Angebot"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bestellung / Buchung"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Beschwerde"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Herr Vogler möchte einen Kurs für seine Mitarbeiter buchen und bittet um ein Angebot – eine Bestellung bzw. Buchung."
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-2",
+                  "prompt": "Name",
+                  "inputMode": "single-line",
+                  "musterloesung": "Andreas Vogler, Spedition Vogler und Sohn"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-3",
+                  "prompt": "Telefonnummer",
+                  "inputMode": "single-line",
+                  "musterloesung": "0203 – 558712"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-4",
+                  "prompt": "Weitere Informationen",
+                  "inputMode": "single-line",
+                  "musterloesung": "Deutschkurs B1 für 9 Mitarbeiter, im Betrieb, zwei Termine pro Woche ab 16 Uhr nach Schichtende."
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-5",
+                  "prompt": "Zu erledigen",
+                  "inputMode": "single-line",
+                  "musterloesung": "Angebot mit Preis und möglichem Startdatum schicken. Erreichbar den ganzen Tag außer 12–13 Uhr."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprachbausteine",
+      "title": "Sprachbausteine und Schreiben",
+      "durationMinutes": 35,
+      "description": "Sie ergänzen zwei Texte aus dem Berufsalltag und schreiben zum Schluss Ihre Meinung zu einem Thema. Insgesamt bearbeiten Sie 13 Aufgaben.",
+      "parts": [
+        {
+          "id": "sprachbausteine-teil-1",
+          "title": "Teil 1 – Wörter aus dem Kasten",
+          "instructions": "Lesen Sie den folgenden Text. Welche Wörter a–j passen am besten in die Lücken? Sie können jedes Wort nur einmal verwenden. Nicht alle Wörter passen in den Text.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-1-block",
+              "inlineGaps": true,
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Ab"
+                },
+                {
+                  "id": "b",
+                  "text": "Falls"
+                },
+                {
+                  "id": "c",
+                  "text": "Wenn"
+                },
+                {
+                  "id": "d",
+                  "text": "und daher"
+                },
+                {
+                  "id": "e",
+                  "text": "obwohl"
+                },
+                {
+                  "id": "f",
+                  "text": "Mithilfe"
+                },
+                {
+                  "id": "g",
+                  "text": "Meinung"
+                },
+                {
+                  "id": "h",
+                  "text": "seit"
+                },
+                {
+                  "id": "i",
+                  "text": "damit"
+                },
+                {
+                  "id": "j",
+                  "text": "sodass"
+                }
+              ],
+              "stimuli": [
+                {
+                  "title": "Text",
+                  "heading": "Aushang: Umzug der Kursverwaltung",
+                  "text": "Liebe Kolleginnen und Kollegen,\n\n___(1)___ dem 1. Juni befindet sich die Kursverwaltung nicht mehr in Raum 104, sondern im Erdgeschoss.\n\nDer Umzug findet am Freitag statt. ___(2)___ es an diesem Tag zu Wartezeiten kommt, bitten wir um Verständnis.\n\n___(3)___ Sie Unterlagen aus dem Archiv benötigen, holen Sie diese bitte vorher ab. Am Freitag ist der Schrank verpackt ___(4)___ nicht zugänglich.\n\nDie Telefonnummern bleiben unverändert, ___(5)___ sich die Räume ändern.\n\nWir danken für Ihre ___(6)___.\n\nDie Leitung"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-1",
+                  "prompt": "Lücke (1)",
+                  "solution": "a",
+                  "explanation": "„Ab dem 1. Juni“ – Beginn in der Zukunft."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-2",
+                  "prompt": "Lücke (2)",
+                  "solution": "b",
+                  "explanation": "„Falls es zu Wartezeiten kommt“ – möglicher Fall."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-3",
+                  "prompt": "Lücke (3)",
+                  "solution": "c",
+                  "explanation": "Bedingung: „Wenn Sie Unterlagen benötigen …“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-4",
+                  "prompt": "Lücke (4)",
+                  "solution": "d",
+                  "explanation": "Folge: „verpackt und daher nicht zugänglich“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-5",
+                  "prompt": "Lücke (5)",
+                  "solution": "e",
+                  "explanation": "Konzessiv: „obwohl sich die Räume ändern“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-6",
+                  "prompt": "Lücke (6)",
+                  "solution": "f",
+                  "explanation": "„Wir danken für Ihre Mithilfe.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprachbausteine-teil-2",
+          "title": "Teil 2 – Wörter im Text ergänzen",
+          "instructions": "Lesen Sie die E-Mail und wählen Sie für jede Lücke das passende Wort.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-2-block",
+              "inlineGaps": true,
+              "stimuli": [
+                {
+                  "title": "E-Mail",
+                  "heading": "Angebot an einen Betrieb",
+                  "text": "Sehr geehrter Herr Vogler,\n\nvielen Dank für Ihr ___(1)___ an einem Deutschkurs für Ihre Mitarbeiter.\n\nGern ___(2)___ wir Ihnen folgendes Angebot: ein Kurs auf B1-Niveau für neun Personen, zwei Termine pro Woche zu je 90 Minuten, ___(3)___ in Ihrem Betrieb.\n\nDer Preis ___(4)___ 4.860 Euro für 60 Unterrichtseinheiten, also 54 Euro pro Einheit für die gesamte Gruppe.\n\nEin Start wäre ab dem 15. September ___(5)___.\n\nSollten Sie Fragen haben, rufen Sie mich gern an. Ich freue mich auf Ihre ___(6)___.\n\nMit freundlichen Grüßen\nC. Wegner"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-1",
+                  "prompt": "Lücke (1) – Nomen",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Interesse"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Interessen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Interessant"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Vielen Dank für Ihr Interesse an …“ – feste Wendung."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-2",
+                  "prompt": "Lücke (2) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "unterrichten"
+                    },
+                    {
+                      "id": "b",
+                      "text": "unterbreiten"
+                    },
+                    {
+                      "id": "c",
+                      "text": "unterstützen"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„ein Angebot unterbreiten“ – die geschäftsübliche Formulierung."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-3",
+                  "prompt": "Lücke (3) – Adverb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "vorbei"
+                    },
+                    {
+                      "id": "b",
+                      "text": "vorab"
+                    },
+                    {
+                      "id": "c",
+                      "text": "vor Ort"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„vor Ort in Ihrem Betrieb“ – am angegebenen Ort."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-4",
+                  "prompt": "Lücke (4) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "beträgt"
+                    },
+                    {
+                      "id": "b",
+                      "text": "betrifft"
+                    },
+                    {
+                      "id": "c",
+                      "text": "begreift"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Der Preis beträgt 4.860 Euro.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-5",
+                  "prompt": "Lücke (5) – Adjektiv",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "mögliche"
+                    },
+                    {
+                      "id": "b",
+                      "text": "möglich"
+                    },
+                    {
+                      "id": "c",
+                      "text": "vermutlich"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ein Start wäre ab dem 15. September möglich.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-6",
+                  "prompt": "Lücke (6) – Nomen",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Rückgabe"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Rücksicht"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Rückmeldung"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ich freue mich auf Ihre Rückmeldung.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprachbausteine-teil-3",
+          "title": "Teil 3 – Ihre Meinung",
+          "instructions": "Lesen Sie die Information und schreiben Sie Ihre Meinung zu dem Thema. Schreiben Sie mindestens 100 Wörter.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-3-block",
+              "stimuli": [
+                {
+                  "title": "Information",
+                  "heading": "Sollten Betriebe Weiterbildung während der Arbeitszeit ermöglichen?",
+                  "text": "Weiterbildung gilt als Schlüssel gegen den Fachkräftemangel. Wer sie bezahlt und wann sie stattfindet, ist jedoch umstritten.\n\nAus einer Befragung von 1.800 Beschäftigten:\n\n· 74 % würden sich weiterbilden, wenn es während der Arbeitszeit möglich wäre.\n· 46 % haben eine Weiterbildung abgebrochen oder gar nicht begonnen, weil sie neben der Arbeit nicht zu schaffen war.\n· 31 % der Betriebe stellen für Weiterbildung frei.\n· 68 % der Beschäftigten mit Kindern nennen die Abendtermine als Hauptproblem."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "sb3-1",
+                  "prompt": "Schreiben Sie Ihre Meinung zu dem Thema.",
+                  "criteria": [
+                    "Ihre Meinung: Weiterbildung in der Arbeitszeit – ja oder nein?",
+                    "Eine Begründung mit einem Beispiel",
+                    "Ein Argument der Gegenseite und Ihre Antwort darauf",
+                    "Ein Vorschlag für die Praxis"
+                  ],
+                  "hints": [
+                    "Auf B2 reicht es nicht zu sagen, was Sie denken – Sie müssen es begründen und ein Gegenargument aufgreifen.",
+                    "Nützlich: „Einerseits … andererseits …“, „Dagegen wird oft eingewandt, dass …“, „Aus meiner Sicht …“.",
+                    "Sie dürfen die Zahlen aus dem Kasten benutzen, müssen es aber nicht."
+                  ],
+                  "minWords": 100,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Ich bin dafür, dass Weiterbildung zumindest teilweise in der Arbeitszeit stattfindet – und zwar aus einem eigennützigen Grund für die Betriebe, nicht aus Freundlichkeit.\n\nDie Zahl, die mich überzeugt, sind die 46 Prozent, die eine Weiterbildung abgebrochen oder gar nicht erst begonnen haben. Das ist beinahe die Hälfte. Diese Menschen sind vorhanden, sie sind motiviert, und sie scheitern an der Organisation, nicht an der Sache. Bei uns hat eine Kollegin den zweiten Anlauf zur Erzieherin abgebrochen, weil zwei Abende in der Woche mit zwei Kindern schlicht nicht gingen – das deckt sich mit den 68 Prozent.\n\nDagegen wird eingewandt, dass ein Betrieb nicht dafür bezahlen kann, dass jemand sich qualifiziert und dann kündigt. Das ist ein reales Risiko, und kleine Betriebe spüren es stärker als große.\n\nAber die Rechnung geht auch anders herum auf. Wer nicht freistellt, verliert die Leute ebenfalls – nur langsamer und ohne es zu merken. Und es gibt ein einfaches Mittel gegen das Risiko: eine Rückzahlungsvereinbarung. Wer innerhalb von zwei Jahren geht, zahlt anteilig zurück. Das ist üblich und rechtlich zulässig.\n\nMein Vorschlag wäre deshalb eine geteilte Lösung: Der Betrieb stellt die Hälfte der Zeit frei, die andere Hälfte bringen die Beschäftigten aus ihrer Freizeit ein. Beide Seiten investieren, und keine Seite kann sagen, sie trage alles allein. Bei den 31 Prozent der Betriebe, die heute schon freistellen, wäre das ein kleiner Schritt – bei den übrigen ein großer."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Die mündliche Prüfung wird zu zweit abgelegt: Sie sprechen über ein berufliches Thema, führen ein Gespräch mit Ihrer Partnerin oder Ihrem Partner und lösen gemeinsam ein Problem aus dem Betrieb. Dieser Teil wird nicht automatisch bewertet; nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Über ein Thema sprechen",
+          "instructions": "Thema 8: Stellen Sie eine Geschäftsidee vor. Zuerst sprechen Sie etwa vier Minuten zusammenhängend über das Thema (Aufgabe A). Danach beantworten Sie eine Frage dazu (Aufgabe B). In der Prüfung übernimmt anschließend die zweite Person denselben Ablauf mit einem eigenen Thema.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "stimuli": [
+                {
+                  "title": "Thema",
+                  "heading": "Thema 8 – Eine Geschäftsidee",
+                  "text": "Stellen Sie eine Geschäftsidee vor.\n\nSie können sich an diesen Punkten orientieren:\n\n· Worum geht es und welches Problem löst die Idee?\n· Wer sind die Kunden?\n· Was wird gebraucht, um zu starten?\n· Welche Risiken sehen Sie?"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-a",
+                  "prompt": "Aufgabe A – Sprechen Sie etwa vier Minuten über eine Geschäftsidee.",
+                  "hints": [
+                    "Vier Minuten sind lang. Legen Sie sich vorher eine Reihenfolge zurecht und arbeiten Sie die Punkte nacheinander ab.",
+                    "Auf B2 wird Struktur erwartet: „Zunächst …“, „Ein zweiter Punkt ist …“, „Zusammenfassend …“.",
+                    "Belegen Sie Aussagen mit einem eigenen Beispiel – das trägt länger als allgemeine Sätze."
+                  ],
+                  "musterloesung": "Ich möchte eine Geschäftsidee vorstellen und dabei auf vier Punkte eingehen: worum es geht, wer die Kunden wären, was man zum Start braucht und welche Risiken ich sehe.\n\nDie Idee ist ein mobiler Sprachunterricht für Betriebe. Konkret: Eine Lehrkraft fährt in den Betrieb und unterrichtet dort direkt nach Schichtende, in einem Pausenraum oder Besprechungsraum. Das Problem, das damit gelöst wird, kenne ich aus meiner Arbeit: Viele Beschäftigte melden sich zu Abendkursen an und brechen nach vier Wochen ab. Nicht, weil es zu schwer ist, sondern weil sie nach Schichtende noch vierzig Minuten quer durch die Stadt fahren müssen.\n\nDie Kunden wären nicht die Lernenden, sondern die Betriebe. Das halte ich für den entscheidenden Punkt. Ein Pflegeheim, eine Spedition oder ein Reinigungsunternehmen mit zwanzig Beschäftigten, die zwischen A2 und B1 stehen, hat ein handfestes Interesse: Übergaben funktionieren besser, es gibt weniger Missverständnisse, und die Leute bleiben länger.\n\nZum Start bräuchte man erstaunlich wenig. Ein Auto, Material, eine Zulassung als Träger, wenn man mit Fördermitteln arbeiten will – und vor allem Lehrkräfte, die bereit sind, um sechzehn Uhr in einem Pausenraum zu unterrichten statt in einem Klassenzimmer. Ich schätze, mit fünfzehntausend Euro könnte man anfangen.\n\nNun zu den Risiken, und ich möchte sie nicht kleinreden. Das größte ist die Abhängigkeit: Wer drei Betriebe als Kunden hat und einer springt ab, verliert ein Drittel des Umsatzes auf einmal. Das zweite Risiko ist die Zeit bis zum ersten Geld. Ein Betrieb entscheidet über so etwas nicht in zwei Wochen, sondern in einem halben Jahr.\n\nDeshalb würde ich es so machen: erst einen Betrieb gewinnen, dann kündigen – nicht umgekehrt. Und ich würde mit zwölf Monaten rechnen, bis es sich trägt, nicht mit dreien."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp1-b",
+                  "prompt": "Aufgabe B – Antworten Sie auf die Frage: „Was ist wichtiger, um erfolgreich zu gründen: eine gute Idee oder Ausdauer?“",
+                  "hints": [
+                    "Beziehen Sie klar Position und begründen Sie sie – eine Antwort ohne Meinung wirkt auf B2 ausweichend.",
+                    "Greifen Sie ein Gegenargument auf: „Dagegen könnte man einwenden, dass …“",
+                    "Zwei Minuten reichen; wichtiger als Länge ist ein klarer Aufbau."
+                  ],
+                  "musterloesung": "Ich würde sagen: Ausdauer – und zwar mit deutlichem Abstand.\n\nGute Ideen haben viele. Ich höre in unseren Kursen jedes Jahr fünf oder sechs, die tragfähig wären. Was fast immer fehlt, ist die Bereitschaft, ein Jahr lang etwas zu machen, das noch nichts einbringt.\n\nDie Untersuchung, die ich kenne, zeigt genau das: Der häufigste Grund für das Scheitern ist nicht die schlechte Idee, sondern eine falsche Erwartung an die Zeit. Wer mit drei Monaten rechnet und elf braucht, gibt im vierten auf – mit derselben Idee, mit der ein anderer nach zwei Jahren erfolgreich ist.\n\nMan könnte einwenden, dass Ausdauer ohne tragfähige Idee nur bedeutet, länger Geld zu verlieren. Und das stimmt: Sturheit ist nicht dasselbe wie Ausdauer.\n\nDer Unterschied liegt für mich darin, ob man die Idee unterwegs verändert. Wer nach acht Monaten dieselbe Idee unverändert weiterverfolgt, obwohl niemand kauft, ist stur. Wer merkt, dass die Kunden andere sind als gedacht, und umsteuert, hat Ausdauer. Und diese Fähigkeit lässt sich lernen, eine gute Idee dagegen nicht bestellen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Auf eine Aussage reagieren",
+          "instructions": "In diesem Teil führen Sie ein Gespräch. Ihre Gesprächspartnerin oder Ihr Gesprächspartner beginnt mit einer Aussage, Sie reagieren darauf, und daraus entsteht ein Dialog: Stellen Sie Rückfragen, machen Sie Vorschläge, reagieren Sie auf Einwände. Für beide Aussagen zusammen haben Sie etwa drei Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-a",
+              "stimuli": [
+                {
+                  "title": "Aussage 1",
+                  "text": "„Ich überlege, mich mit einem kleinen Büroservice selbstständig zu machen. Alle sagen mir, ich soll es lassen. Was denkst du?“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Führen Sie das Gespräch weiter. Sie sind Partner B.",
+                  "hints": [
+                    "Reagieren heißt nicht nur zustimmen: Gehen Sie auf das Gesagte ein und bringen Sie dann etwas Eigenes.",
+                    "Rechnen Sie mit einem Einwand und antworten Sie darauf.",
+                    "Nützlich: „Ich würde es nicht lassen, aber …“, „Hast du schon einen Kunden?“"
+                  ],
+                  "musterloesung": "Partner A: Ich überlege, mich mit einem kleinen Büroservice selbstständig zu machen. Alle sagen mir, ich soll es lassen. Was denkst du?\n\nPartner B: Ich würde es nicht lassen, aber ich würde es anders anfangen, als die meisten es tun. Hast du schon einen Kunden?\n\nPartner A: Noch nicht. Ich wollte erst kündigen und mich dann richtig darum kümmern.\n\nPartner B: Genau das würde ich umdrehen. Sieben von zehn erfolgreichen Gründungen hatten einen Kunden, bevor sie angefangen haben. Oft den alten Arbeitgeber.\n\nPartner A: Meinen jetzigen Chef fragen? Das kann ich doch nicht.\n\nPartner B: Doch, und zwar offen. Er verliert dich ohnehin. Die Frage ist nur, ob er dich danach als Dienstleisterin behält oder gar nicht mehr sieht.\n\nPartner A: Und wenn er nein sagt?\n\nPartner B: Dann weißt du es vorher und nicht nachher. Das ist die billigste Information, die du bekommen kannst.\n\nPartner A: Und wovon lebe ich in der Anfangszeit?\n\nPartner B: Das ist der zweite Punkt: Rechne mit zwölf Monaten bis zum ersten ordentlichen Einkommen, nicht mit drei. Wenn du für zwölf Monate planen kannst, würde ich sofort anfangen. Wenn nicht, fang nebenberuflich an."
+                }
+              ]
+            },
+            {
+              "id": "sprechen-teil-2-b",
+              "stimuli": [
+                {
+                  "title": "Aussage 2",
+                  "text": "„Ich habe eine Weiterbildung angefangen, aber neben der Arbeit schaffe ich es nicht. Ich denke ans Aufhören.“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Führen Sie das Gespräch weiter. Sie sind Partner B.",
+                  "hints": [
+                    "Hier ist ein persönliches Gespräch gefragt – ermutigen Sie, aber bleiben Sie ehrlich.",
+                    "Fragen Sie zurück und geben Sie einen konkreten Hinweis."
+                  ],
+                  "musterloesung": "Partner A: Ich habe eine Weiterbildung angefangen, aber neben der Arbeit schaffe ich es nicht. Ich denke ans Aufhören.\n\nPartner B: Bevor du aufhörst – hast du schon gefragt, ob du den Kurs strecken kannst? Viele Anbieter lassen zu, dass man Module ins nächste Jahr schiebt.\n\nPartner A: Daran habe ich gar nicht gedacht. Ich dachte, entweder ganz oder gar nicht.\n\nPartner B: Das denken die meisten, und deshalb hören sie auf. Ruf morgen an und frag konkret nach einer Verlängerung. Das kostet nichts.\n\nPartner A: Und wenn das nicht geht?\n\nPartner B: Dann würde ich mit deinem Betrieb reden. Fast die Hälfte aller Abbrüche passiert, weil es neben der Arbeit nicht geht – das ist kein persönliches Versagen, das ist die Regel.\n\nPartner A: Mein Chef stellt niemanden frei.\n\nPartner B: Vielleicht nicht ganz. Aber vier Stunden in der Woche? Frag nach einem halben Tag und biete an, dafür ein Jahr zu bleiben. Solche Vereinbarungen gibt es ständig.\n\nPartner A: Das würde ich mich trauen.\n\nPartner B: Und wenn wirklich beides nicht klappt, hör lieber jetzt auf und mach es in zwei Jahren richtig, als dass du es halb machst und die Prüfung nicht bestehst."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Gemeinsam eine Lösung finden",
+          "instructions": "Lesen Sie die Situation. Finden Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner eine Lösung. Machen Sie Vorschläge, gehen Sie auf die Vorschläge der anderen Person ein und einigen Sie sich am Ende. Sie haben dafür etwa vier Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "stimuli": [
+                {
+                  "title": "Situation",
+                  "heading": "Ein neues Kursangebot planen",
+                  "text": "Ihr Bildungsträger möchte ein neues Angebot entwickeln, weil die Nachfrage nach den bisherigen Abendkursen zurückgeht. Die Leitung bittet Sie und eine Kollegin um einen Vorschlag.\n\nStichpunkte:\n\n· Welches Angebot fehlt, und für wen?\n· Wann und wo soll es stattfinden?\n· Was ist nötig – Personal, Räume, Genehmigungen?\n· Wie überzeugen Sie die Leitung?"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Finden Sie gemeinsam eine Lösung und einigen Sie sich auf einen Vorschlag.",
+                  "hints": [
+                    "Einigen heißt nicht, allem zuzustimmen. Ein gutes Gespräch enthält auch einen Gegenvorschlag.",
+                    "Nützlich: „Ich würde vorschlagen, dass …“, „Das sehe ich anders, weil …“, „Können wir uns darauf einigen, dass …?“",
+                    "Fassen Sie am Ende zusammen, wer was macht."
+                  ],
+                  "musterloesung": "Partner A: Ich würde einen Online-Abendkurs vorschlagen. Das spart Räume und die Leute müssen nicht fahren.\n\nPartner B: Online würde ich gerade nicht machen. Wir haben es zweimal versucht, und beide Male sind nach vier Wochen die Hälfte weggeblieben.\n\nPartner A: Aber die Fahrzeit ist doch das Hauptproblem.\n\nPartner B: Die Fahrzeit ja, das Format nein. Deshalb würde ich es umdrehen: Wir fahren zu den Leuten. Unterricht direkt im Betrieb, nach Schichtende.\n\nPartner A: Das ist aufwendig. Eine Lehrkraft für neun Leute in einem Pausenraum?\n\nPartner B: Der Betrieb zahlt, nicht die Einzelnen. Herr Vogler hat genau danach gefragt – neun Mitarbeiter, im Haus, ab sechzehn Uhr.\n\nPartner A: Ein Anruf ist noch kein Markt.\n\nPartner B: Stimmt. Deshalb würde ich es als Pilot vorschlagen: ein Betrieb, ein Kurs, zwölf Wochen. Wenn es läuft, sprechen wir gezielt zehn weitere an.\n\nPartner A: Wer unterrichtet? Unsere Lehrkräfte wollen abends nicht auch noch durch die Gegend fahren.\n\nPartner B: Deshalb würde ich die Fahrzeit vergüten. Wenn wir das nicht tun, finden wir niemanden, und dann ist die ganze Idee tot.\n\nPartner A: Das macht den Kurs teurer.\n\nPartner B: Etwa fünf Euro pro Unterrichtseinheit. Der Betrieb zahlt das, weil er sich vierzig Minuten Fahrzeit pro Mitarbeiter spart.\n\nPartner A: Und die Räume? Ein Pausenraum ist kein Klassenzimmer.\n\nPartner B: Das müssen wir im Vertrag festhalten: eigener Raum, Tafel oder Bildschirm, keine Durchgangssituation. Sonst unterrichten wir zwischen Kaffeemaschine und Spind.\n\nPartner A: Gut. Wie überzeugen wir die Leitung?\n\nPartner B: Mit dem Piloten und einer Zahl: Wir rechnen vor, was uns die Abbrüche in den Abendkursen im letzten Jahr gekostet haben. Ich glaube, das ist mehr, als der Pilot kostet.\n\nPartner A: Dann rechne ich das bis Mittwoch, du sprichst noch einmal mit Herrn Vogler, und Freitag stellen wir es gemeinsam vor."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

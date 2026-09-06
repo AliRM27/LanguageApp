@@ -1,0 +1,1473 @@
+{
+  "id": "uebungstest-b2-04",
+  "language": "de",
+  "level": "B2",
+  "title": "Übungstest B2 Beruf – Nr. 4",
+  "description": "Ein vollständiger berufsbezogener Übungstest auf Niveau B2 mit den Teilen Lesen, Lesen und Schreiben, Hören, Hören und Schreiben, Sprachbausteine und Schreiben sowie Sprechen. Themenschwerpunkt: Hotel und Gastronomie.",
+  "sections": [
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 45,
+      "description": "Sie lesen Beiträge aus einem Ratgeber, zwei Unterweisungen, Fragen und Tipps aus einer Beratung sowie ein Besprechungsprotokoll. Insgesamt bearbeiten Sie 18 Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Informationen zum Arbeitsmarkt",
+          "instructions": "Sie arbeiten an der Rezeption eines Stadthotels und betreuen nebenbei das interne Wiki. Fünf Kolleginnen und Kollegen haben Fragen gestellt. Welcher der acht Artikel passt zu welcher Person? Jeder Artikel kann nur einmal verwendet werden; drei Artikel passen zu keiner Person.",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-artikel",
+              "stimuli": [
+                {
+                  "title": "Artikel a",
+                  "heading": "Trinkgeld richtig abrechnen",
+                  "text": "Wann Trinkgeld steuerfrei ist, was bei Zahlung mit Karte gilt und warum eine gemeinsame Kasse (Tronc) anders behandelt wird als Geld, das direkt in die Hand geht."
+                },
+                {
+                  "title": "Artikel b",
+                  "heading": "Überbuchung: Was Gäste dürfen",
+                  "text": "Welche Ansprüche ein Gast hat, wenn kein Zimmer frei ist, wer die Unterbringung im anderen Haus bezahlt und wie man das Gespräch führt, ohne die Situation zu verschärfen."
+                },
+                {
+                  "title": "Artikel c",
+                  "heading": "Allergene auf der Karte",
+                  "text": "Welche vierzehn Stoffe gekennzeichnet werden müssen, in welcher Form die Angabe erfolgen darf und was bei mündlicher Auskunft schriftlich hinterlegt sein muss."
+                },
+                {
+                  "title": "Artikel d",
+                  "heading": "Arbeitszeit im Schichtbetrieb",
+                  "text": "Wie Ruhezeiten zwischen zwei Diensten berechnet werden, was ein geteilter Dienst bedeutet und wann Sonn- und Feiertagszuschläge anfallen."
+                },
+                {
+                  "title": "Artikel e",
+                  "heading": "Bewertungen im Internet",
+                  "text": "Wie man auf negative Bewertungen antwortet, welche Formulierungen schaden, wann eine Löschung verlangt werden kann und warum Schweigen fast immer die schlechteste Wahl ist."
+                },
+                {
+                  "title": "Artikel f",
+                  "heading": "Der Gast ist krank",
+                  "text": "Wie man reagiert, wenn ein Gast im Zimmer medizinische Hilfe braucht, welche Daten weitergegeben werden dürfen und was bei Verdacht auf eine ansteckende Krankheit gilt."
+                },
+                {
+                  "title": "Artikel g",
+                  "heading": "Saisonarbeit und Vertrag",
+                  "text": "Was in einem befristeten Saisonvertrag stehen muss, wie Urlaub abgegolten wird und welche Fristen für eine Kündigung während der Saison gelten."
+                },
+                {
+                  "title": "Artikel h",
+                  "heading": "Nachhaltigkeit im Housekeeping",
+                  "text": "Wie sich der Wasserverbrauch senken lässt, was Gäste tatsächlich annehmen und welche Zertifikate für Hotels üblich sind. Mit Zahlen aus drei Häusern."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Trinkgeld richtig abrechnen"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Überbuchung: Was Gäste dürfen"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Allergene auf der Karte"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Arbeitszeit im Schichtbetrieb"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Bewertungen im Internet"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Der Gast ist krank"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Saisonarbeit und Vertrag"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Nachhaltigkeit im Housekeeping"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l1-1",
+                  "prompt": "Ein Gast beschwert sich auf einem Bewertungsportal über Lärm. Der Text ist unfreundlich, aber im Kern richtig. Die Direktion fragt, ob man antworten soll.",
+                  "solution": "e",
+                  "explanation": "Artikel e behandelt Antworten auf negative Bewertungen und warum Schweigen schadet."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-2",
+                  "prompt": "Frau Milic arbeitet von April bis Oktober bei uns. Sie fragt, was mit ihren nicht genommenen Urlaubstagen am Saisonende passiert.",
+                  "solution": "g",
+                  "explanation": "Artikel g behandelt Saisonverträge und die Abgeltung von Urlaub."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-3",
+                  "prompt": "Ein Gast fragt am Buffet, ob im Brotaufstrich Sellerie enthalten ist. Der Kollege ist unsicher, ob eine mündliche Antwort reicht.",
+                  "solution": "c",
+                  "explanation": "Artikel c erklärt die Kennzeichnungspflicht und was bei mündlicher Auskunft hinterlegt sein muss."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-4",
+                  "prompt": "Am Samstag sind zwei Zimmer doppelt vergeben. Herr Achterberg soll den Spätdienst machen und weiß nicht, was er den Gästen anbieten darf.",
+                  "solution": "b",
+                  "explanation": "Artikel b behandelt Überbuchung, Ansprüche des Gastes und die Gesprächsführung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-5",
+                  "prompt": "Frau Okonkwo hat um 23 Uhr Feierabend und soll am nächsten Morgen um 6 Uhr wieder anfangen. Sie fragt, ob das erlaubt ist.",
+                  "solution": "d",
+                  "explanation": "Artikel d behandelt Ruhezeiten zwischen zwei Diensten im Schichtbetrieb."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Einweisungen und Unterweisungen",
+          "instructions": "Sie lesen zwei Texte aus Ihrem Betrieb. Entscheiden Sie zu jedem Text, ob die Aussage richtig oder falsch ist, und wählen Sie danach die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-text-1",
+              "stimuli": [
+                {
+                  "title": "Text 1",
+                  "heading": "Hausordnung für Mitarbeitende: Umgang mit Fundsachen",
+                  "text": "Diese Regelung gilt für alle Abteilungen, auch für Aushilfen und Praktikanten.\n\nAnnahme\nJeder Fund wird noch am selben Tag an der Rezeption abgegeben, unabhängig vom Wert. Auch ein Ladekabel gehört dazu. Der Fundort wird notiert, nicht nur die Zimmernummer, sondern auch die Stelle im Raum.\n\nAufbewahrung\nWertsachen ab 50 Euro kommen in den Safe, alles andere in den Fundschrank. Die Aufbewahrungsfrist beträgt sechs Monate. Danach entscheidet die Direktion.\n\nRückgabe\nGäste erhalten Fundsachen nur nach Vorlage eines Ausweises und gegen Unterschrift. Ein Versand ist möglich, aber ausschließlich versichert und auf Kosten des Gastes.\n\nWas nicht erlaubt ist\nFundsachen dürfen nicht mitgenommen werden, auch nicht nach Ablauf der Frist und auch nicht mit Erlaubnis einer Kollegin. Über eine Verwendung nach sechs Monaten entscheidet allein die Direktion."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l2-1",
+                  "statement": "Auch ein gefundenes Ladekabel muss an der Rezeption abgegeben werden.",
+                  "solution": true,
+                  "explanation": "„Jeder Fund wird noch am selben Tag an der Rezeption abgegeben, unabhängig vom Wert. Auch ein Ladekabel gehört dazu.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l2-2",
+                  "prompt": "Wie wird eine Fundsache verschickt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Versichert, auf Kosten des Gastes."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Unversichert, auf Kosten des Hotels."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Gar nicht, nur persönliche Abholung."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Ein Versand ist möglich, aber ausschließlich versichert und auf Kosten des Gastes.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-2-text-2",
+              "stimuli": [
+                {
+                  "title": "Text 2",
+                  "heading": "Information: Neues Schichtmodell im Service",
+                  "text": "Liebes Serviceteam,\n\nab dem 1. März ändern wir das Schichtmodell. Grund sind die vielen geteilten Dienste, über die sich fast alle beschwert haben.\n\nWas wegfällt\nDer geteilte Dienst von 11 bis 14 und 17 bis 22 Uhr entfällt vollständig. Niemand wird künftig zweimal am Tag anreisen müssen.\n\nWas neu ist\nEs gibt drei durchgehende Schichten: Frühdienst 6 bis 14:30 Uhr, Mitteldienst 11 bis 19:30 Uhr, Spätdienst 14 bis 22:30 Uhr. Zwischen zwei Diensten liegen mindestens elf Stunden.\n\nWas das kostet\nDer Mitteldienst ist unbeliebt, deshalb gibt es dafür einen Zuschlag von 15 Euro pro Schicht. Der Zuschlag ist freiwillig vom Haus und keine dauerhafte Zusage.\n\nWas Sie tun müssen\nBitte tragen Sie bis zum 20. Februar ein, welche Schicht Sie bevorzugen. Wir versuchen, Wünsche zu berücksichtigen, können es aber nicht garantieren."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l2-3",
+                  "statement": "Der Zuschlag für den Mitteldienst ist dauerhaft zugesagt.",
+                  "solution": false,
+                  "explanation": "„Der Zuschlag ist freiwillig vom Haus und keine dauerhafte Zusage.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l2-4",
+                  "prompt": "Was ändert sich am 1. März?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Frühdienst beginnt später."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Der geteilte Dienst entfällt vollständig."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Es wird nur noch in zwei Schichten gearbeitet."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Der geteilte Dienst von 11 bis 14 und 17 bis 22 Uhr entfällt vollständig.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Rahmenbedingungen der Arbeit",
+          "instructions": "In der Sprechstunde des Betriebsrats sind vier Fragen eingegangen. Welcher der sechs Tipps a–f passt zu welcher Frage? Zu einer Frage passt keiner der Tipps – wählen Sie dann „x“.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-tipps",
+              "prompt": "Welcher Tipp passt zu welcher Frage?",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Antworten Sie auf jede Bewertung, auch auf die ungerechte. Sie schreiben nicht für den Verfasser, sondern für die nächsten hundert Leser."
+                },
+                {
+                  "id": "b",
+                  "text": "Bieten Sie bei einer Überbuchung sofort ein gleichwertiges Haus an und übernehmen Sie die Fahrt dorthin. Wer erst verhandelt, verliert den Gast doppelt."
+                },
+                {
+                  "id": "c",
+                  "text": "Legen Sie die Allergenliste in die Servicemappe an der Station. Eine mündliche Auskunft ist zulässig, aber nur, wenn die Angaben schriftlich vorliegen und jeder sie sofort findet."
+                },
+                {
+                  "id": "d",
+                  "text": "Rechnen Sie die elf Stunden Ruhezeit vom tatsächlichen Ende der Schicht, nicht vom Plan. Wer bis Mitternacht abrechnet, darf nicht um sechs wieder anfangen."
+                },
+                {
+                  "id": "e",
+                  "text": "Lassen Sie sich Trinkgeld über die Karte im Tronc auszahlen, nicht über die Lohnabrechnung. Sonst wandert es durch die Steuer, obwohl es Trinkgeld bleibt."
+                },
+                {
+                  "id": "f",
+                  "text": "Fragen Sie einen kranken Gast nie nach der Diagnose. Sie brauchen nur zu wissen, ob ein Arzt gerufen werden soll und ob jemand benachrichtigt werden muss."
+                },
+                {
+                  "id": "x",
+                  "text": "Hierzu passt keiner der Tipps."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l3-1",
+                  "prompt": "„Ein Gast hat uns zwei Sterne gegeben und übertreibt maßlos. Sollen wir das einfach stehen lassen?“",
+                  "solution": "a",
+                  "explanation": "Tipp a: auf jede Bewertung antworten, auch auf die ungerechte."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-2",
+                  "prompt": "„Ich habe gestern erst um kurz nach Mitternacht Kasse gemacht und stehe morgen um sechs im Plan. Ist das in Ordnung?“",
+                  "solution": "d",
+                  "explanation": "Tipp d: elf Stunden ab tatsächlichem Schichtende."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-3",
+                  "prompt": "„Ein Gast im Zimmer 212 wirkt sehr krank. Darf ich ihn fragen, was er hat, damit ich es dem Notarzt sagen kann?“",
+                  "solution": "f",
+                  "explanation": "Tipp f: nicht nach der Diagnose fragen, nur nach Arzt und Benachrichtigung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-4",
+                  "prompt": "„Wir wollen im Frühstücksraum die Portionen verkleinern, um Reste zu vermeiden. Gibt es dazu Erfahrungswerte?“",
+                  "solution": "x",
+                  "explanation": "Kein Tipp behandelt Lebensmittelabfälle oder Portionsgrößen. Tipp c betrifft Allergene, nicht die Menge."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-4",
+          "title": "Teil 4 – Aufgaben und Aufgabenverteilung",
+          "instructions": "Lesen Sie das Protokoll der letzten Teambesprechung und die Aufgaben. Welche Antwort passt am besten?",
+          "blocks": [
+            {
+              "id": "lesen-teil-4-protokoll",
+              "stimuli": [
+                {
+                  "title": "Protokoll",
+                  "heading": "Protokoll der Abteilungsleitersitzung",
+                  "text": "Datum: Dienstag, 4. Februar\nUhrzeit: 10:00 – 11:15 Uhr\nOrt: Konferenzraum „Rhein“\nAnwesende: T. Achterberg (Direktion), C. Okonkwo (Rezeption), D. Milic (Housekeeping), L. Fischer (Küche)\nEntschuldigt: B. Sonnenberg (Service)\nProtokoll: C. Okonkwo\n\nTagesordnung\nTOP 1 Auslastung Januar\nTOP 2 Neues Schichtmodell im Service\nTOP 3 Handtuchkarten\nTOP 4 Bewertungen\nTOP 5 Verschiedenes\n\nTOP 1 – Auslastung Januar\nDie Auslastung lag bei 61 Prozent, im Vorjahr bei 68. Der Rückgang betrifft ausschließlich das Geschäftsreisesegment; die Wochenenden waren sogar besser belegt als im Vorjahr. Als Ursache wird eine ausgefallene Messe vermutet. Frau Okonkwo prüft die Buchungsdaten und berichtet in der nächsten Sitzung.\n\nTOP 2 – Neues Schichtmodell im Service\nDas Modell startet wie geplant am 1. März. Herr Sonnenberg hatte schriftlich um eine Verschiebung gebeten, weil zwei Kolleginnen im Februar in Elternzeit gehen. Die Direktion hat abgelehnt: Eine Verschiebung würde die geteilten Dienste um weitere drei Monate verlängern.\n\nTOP 3 – Handtuchkarten\nSeit November liegen in allen Zimmern Karten, mit denen Gäste angeben können, dass sie ihre Handtücher weiterbenutzen möchten. Der Wäschebedarf ist seither um neun Prozent gesunken. Frau Milic weist darauf hin, dass die Karten wirkungslos bleiben, wenn das Zimmermädchen die Handtücher trotzdem tauscht – das sei anfangs häufig passiert. Es wird eine kurze Auffrischung für alle im Housekeeping geben.\n\nTOP 4 – Bewertungen\nDie Durchschnittsnote ist von 8,1 auf 8,4 gestiegen. Auffällig: Von 34 Bewertungen im Januar erwähnen 19 das Frühstück positiv. Herr Fischer schlägt vor, das in der Außendarstellung stärker zu nutzen.\n\nTOP 5 – Verschiedenes\nDer Aufzug im Hinterhaus wird vom 17. bis 19. Februar gewartet. In dieser Zeit werden keine Gäste in den vierten Stock gelegt.\n\nNächster Termin: Dienstag, 4. März, 10:00 Uhr"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-1",
+                  "prompt": "Wodurch ist die Auslastung im Januar zurückgegangen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Durch weniger Wochenendgäste."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Durch die Aufzugswartung."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Durch weniger Geschäftsreisende."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Der Rückgang betrifft ausschließlich das Geschäftsreisesegment; die Wochenenden waren sogar besser belegt.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-2",
+                  "prompt": "Wie wurde über die Bitte von Herrn Sonnenberg entschieden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie wurde abgelehnt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das Modell startet zwei Monate später."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Entscheidung wurde vertagt."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Die Direktion hat abgelehnt: Eine Verschiebung würde die geteilten Dienste um weitere drei Monate verlängern.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-3",
+                  "prompt": "Worauf weist Frau Milic bei den Handtuchkarten hin?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass die Gäste sie nicht verstehen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass die Karten wirkungslos sind, wenn trotzdem getauscht wird."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass zu wenige Karten vorhanden sind."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… dass die Karten wirkungslos bleiben, wenn das Zimmermädchen die Handtücher trotzdem tauscht.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-4",
+                  "prompt": "Was fällt bei den Bewertungen im Januar auf?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Note ist gesunken."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Es gab weniger Bewertungen als sonst."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Mehr als die Hälfte lobt das Frühstück."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Von 34 Bewertungen im Januar erwähnen 19 das Frühstück positiv.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-5",
+                  "prompt": "Was gilt während der Aufzugswartung?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der vierte Stock wird nicht belegt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das Hinterhaus wird geschlossen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Gäste bekommen einen Preisnachlass."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„In dieser Zeit werden keine Gäste in den vierten Stock gelegt.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen-schreiben",
+      "title": "Lesen und Schreiben",
+      "durationMinutes": 20,
+      "description": "Ihre Teamleitung leitet Ihnen die Nachricht einer Kundin oder eines Kunden weiter und sagt Ihnen, was in Ihrer Antwort stehen soll. Sie beantworten zwei Fragen zu den Texten und schreiben dann die Antwort.",
+      "parts": [
+        {
+          "id": "lesen-schreiben-teil-1",
+          "title": "E-Mail an einen Gast",
+          "instructions": "Lesen Sie beide E-Mails. Beantworten Sie zuerst die zwei Fragen und schreiben Sie danach die Antwort. Gehen Sie dabei auf alle Punkte Ihrer Teamleitung ein.",
+          "blocks": [
+            {
+              "id": "lesen-schreiben-block",
+              "stimuli": [
+                {
+                  "title": "E-Mail 1",
+                  "heading": "Von: T. Achterberg (Direktion) – Bitte antworten Sie Frau Vogel",
+                  "text": "Hallo,\n\nbitte antworten Sie heute noch. Frau Vogel hat bei uns dreimal im Jahr gebucht, das möchte ich nicht verlieren.\n\nBitte gehen Sie auf Folgendes ein:\n\n1. Entschuldigen Sie sich für die Nacht. Der Grund: Im Nachbarzimmer war eine Heizungspumpe defekt, das haben wir erst am Morgen bemerkt.\n2. Erstatten Sie eine Übernachtung – das sind 129 Euro, die Rückbuchung erfolgt in dieser Woche.\n3. Bieten Sie für den nächsten Aufenthalt ein Zimmer zur Hofseite an, dort ist es deutlich ruhiger.\n4. Fragen Sie, ob sie im Mai wieder zur Messe kommt; dann würde ich das Zimmer schon jetzt reservieren.\n\nT. Achterberg"
+                },
+                {
+                  "title": "E-Mail 2",
+                  "heading": "Von: A. Vogel – Aufenthalt 12.–14. Januar, Zimmer 304",
+                  "text": "Sehr geehrte Damen und Herren,\n\nich habe in der Nacht vom 12. auf den 13. Januar kaum geschlafen. Aus der Wand kam ein regelmäßiges Klopfen, ungefähr alle zwanzig Sekunden. Ich habe um halb zwei an der Rezeption angerufen; der Kollege war freundlich, konnte aber nichts tun und hat auch kein anderes Zimmer angeboten.\n\nAm nächsten Tag hatte ich Termine und war entsprechend unkonzentriert. Ich buche seit vier Jahren regelmäßig bei Ihnen und war bisher immer zufrieden, deshalb schreibe ich überhaupt.\n\nIch erwarte keine große Geste, aber eine Reaktion wäre mir wichtig.\n\nMit freundlichen Grüßen\nAnne Vogel"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "ls-1",
+                  "prompt": "Warum schreibt Frau Vogel überhaupt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil sie eine Entschädigung fordert."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil sie seit vier Jahren zufriedene Stammkundin ist."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil der Mitarbeiter unfreundlich war."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ich buche seit vier Jahren regelmäßig bei Ihnen und war bisher immer zufrieden, deshalb schreibe ich überhaupt.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "ls-2",
+                  "prompt": "Was sollen Sie laut Direktion anbieten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Eine kostenlose Nacht beim nächsten Besuch."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Einen Gutschein für das Restaurant."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Erstattung einer Übernachtung."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Erstatten Sie eine Übernachtung – das sind 129 Euro.“"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "ls-3",
+                  "prompt": "Schreiben Sie die Antwort an Frau Vogel.",
+                  "criteria": [
+                    "Entschuldigung und Erklärung des Geräuschs",
+                    "Erstattung einer Übernachtung (129 Euro)",
+                    "Angebot: Zimmer zur Hofseite beim nächsten Aufenthalt",
+                    "Rückfrage: Kommt sie im Mai zur Messe?"
+                  ],
+                  "hints": [
+                    "Gehen Sie auch darauf ein, dass ihr in der Nacht kein anderes Zimmer angeboten wurde – das war der eigentliche Fehler.",
+                    "Erklären ohne sich herauszureden.",
+                    "Bleiben Sie förmlich, aber schreiben Sie wie ein Mensch, nicht wie ein Formular."
+                  ],
+                  "minWords": 100,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Frau Vogel,\n\nvielen Dank, dass Sie sich gemeldet haben – und es tut mir aufrichtig leid, dass Sie bei uns eine Nacht kaum geschlafen haben.\n\nDie Ursache haben wir inzwischen gefunden: Im Nachbarzimmer war eine Heizungspumpe defekt, die in kurzen Abständen ansprang. Bemerkt haben wir das leider erst am nächsten Morgen. Was mich dabei am meisten ärgert, ist etwas anderes: Mein Kollege hätte Ihnen um halb zwei ein anderes Zimmer anbieten müssen. Es waren welche frei. Das war unser Fehler, und ich habe das mit dem Nachtdienst besprochen.\n\nWir erstatten Ihnen daher eine Übernachtung in Höhe von 129 Euro. Die Rückbuchung auf die von Ihnen verwendete Karte veranlasse ich noch in dieser Woche; Sie müssen nichts weiter tun.\n\nFür Ihren nächsten Aufenthalt möchte ich Ihnen gern ein Zimmer zur Hofseite geben. Dort ist es spürbar ruhiger, weil weder die Straße noch die Technikräume daran liegen.\n\nDarf ich fragen, ob Sie im Mai wieder zur Messe kommen? Wenn ja, reserviere ich Ihnen jetzt schon eines dieser Zimmer – in der Messewoche wird es bei uns erfahrungsgemäß eng.\n\nMit freundlichen Grüßen\nC. Okonkwo\nRezeption"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 20,
+      "description": "Sie hören Gespräche aus dem Arbeitsalltag, eine Präsentation und telefonische Mitteilungen. Insgesamt bearbeiten Sie 19 Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Gespräche am Arbeitsplatz",
+          "instructions": "Sie hören drei kurze Gespräche. Zu jedem Gespräch gibt es zwei Aufgaben: Entscheiden Sie zuerst, ob die Aussage richtig oder falsch ist, und wählen Sie dann die richtige Antwort. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-04/hoeren-teil-1.mp3",
+            "transcript": "Gespräch 1\nFrau Okonkwo: Herr Achterberg, wegen der Januarzahlen. Ich habe die Buchungsdaten durch.\n\nHerr Achterberg: Und? War es die Messe?\n\nFrau Okonkwo: Nur zur Hälfte. Der Rest sind zwei Firmen, die vorher jede Woche gebucht haben und jetzt gar nicht mehr.\n\nHerr Achterberg: Wissen Sie, warum?\n\nFrau Okonkwo: Bei einer ja – die hat einen Rahmenvertrag mit einer Kette abgeschlossen. Bei der anderen rufe ich morgen an.\n\nGespräch 2\nFrau Milic: Ich wollte etwas zur Auffrischung im Housekeeping sagen. Eine Stunde reicht nicht.\n\nHerr Achterberg: Warum nicht?\n\nFrau Milic: Weil das Problem nicht Unwissen ist. Die Kolleginnen wissen, was die Karte bedeutet. Sie tauschen trotzdem, weil sie Ärger fürchten, wenn ein Handtuch alt aussieht.\n\nHerr Achterberg: Das ist ein anderes Problem.\n\nFrau Milic: Eben. Ich brauche von Ihnen einen Satz, dass niemand Ärger bekommt, wenn er die Karte befolgt.\n\nGespräch 3\nHerr Fischer: Frau Okonkwo, das Frühstück wird ja gut bewertet. Ich hätte einen Vorschlag.\n\nFrau Okonkwo: Gern.\n\nHerr Fischer: Wir könnten es für Gäste von außerhalb öffnen, samstags und sonntags. Der Raum steht ohnehin.\n\nFrau Okonkwo: Und das Personal? Wir sind am Wochenende ohnehin knapp.\n\nHerr Fischer: Das ist der Punkt, an dem ich noch keine Antwort habe. Deshalb bringe ich es erst mal als Idee."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-gespraech-1",
+              "prompt": "Gespräch 1",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-1",
+                  "statement": "Frau Okonkwo will bei der zweiten Firma noch nachfragen.",
+                  "solution": true,
+                  "explanation": "„Bei der anderen rufe ich morgen an.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Was hat Frau Okonkwo herausgefunden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Eine Firma hat einen Vertrag mit einer Kette."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Preise sind zu hoch."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Messe findet nicht mehr statt."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… die hat einen Rahmenvertrag mit einer Kette abgeschlossen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-gespraech-2",
+              "prompt": "Gespräch 2",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-3",
+                  "statement": "Frau Milic hält das Problem für einen Mangel an Wissen.",
+                  "solution": false,
+                  "explanation": "„Weil das Problem nicht Unwissen ist. Die Kolleginnen wissen, was die Karte bedeutet.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Was fordert Frau Milic von der Direktion?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Mehr Personal im Housekeeping."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Eine klare Zusage, dass niemand Ärger bekommt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Neue Handtücher."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ich brauche von Ihnen einen Satz, dass niemand Ärger bekommt, wenn er die Karte befolgt.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-gespraech-3",
+              "prompt": "Gespräch 3",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-5",
+                  "statement": "Herr Fischer hat die Personalfrage bereits geklärt.",
+                  "solution": false,
+                  "explanation": "„Das ist der Punkt, an dem ich noch keine Antwort habe.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-6",
+                  "prompt": "Was schlägt Herr Fischer vor?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das Frühstück zu verlängern."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Mehr Personal einzustellen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Das Frühstück am Wochenende für Externe zu öffnen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Wir könnten es für Gäste von außerhalb öffnen, samstags und sonntags.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Was passt zu welchem Gespräch?",
+          "instructions": "Sie hören vier kurze Gespräche. Welcher Satz a–f passt zu welchem Gespräch? Zwei Sätze bleiben übrig. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-04/hoeren-teil-2.mp3",
+            "transcript": "Gespräch 1\nFrau Milic: Du hast letzte Woche zweimal meine Schicht übernommen. Das war viel.\n\nHerr Fischer: War kein Problem.\n\nFrau Milic: Doch, das war es. Danke dir wirklich, ich revanchiere mich im März.\n\nGespräch 2\nHerr Achterberg: Warum genau starten wir nicht erst im Mai?\n\nFrau Okonkwo: Weil dann die geteilten Dienste bis in den Sommer laufen.\n\nHerr Achterberg: Das habe ich gehört. Ich möchte trotzdem verstehen, warum drei Monate den Unterschied machen.\n\nGespräch 3\nFrau Okonkwo: Sollen wir die Handtuchkarten auf Englisch und Deutsch drucken?\n\nFrau Milic: Machen wir doch einfach mal zwanzig Zimmer damit und vergleichen es einen Monat lang mit den anderen.\n\nFrau Okonkwo: Gut, dann sehen wir wenigstens, ob es etwas bringt.\n\nGespräch 4\nHerr Fischer: Wenn wir das Frühstück für Externe öffnen, brauchen wir eine zweite Kasse.\n\nFrau Okonkwo: Das lässt sich machen.\n\nHerr Fischer: Ohne die wird es an der Tür Warteschlangen geben, und dann beschweren sich die Hausgäste."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "prompt": "Welcher Satz passt zu welchem Gespräch?",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Jemand bittet um eine Erklärung für eine Entscheidung."
+                },
+                {
+                  "id": "b",
+                  "text": "Jemand gibt zu, etwas vergessen zu haben."
+                },
+                {
+                  "id": "c",
+                  "text": "Jemand warnt vor einer möglichen Folge."
+                },
+                {
+                  "id": "d",
+                  "text": "Jemand bedankt sich für eine Vertretung."
+                },
+                {
+                  "id": "e",
+                  "text": "Jemand schlägt vor, etwas auszuprobieren."
+                },
+                {
+                  "id": "f",
+                  "text": "Jemand beschwert sich über einen Gast."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h2-1",
+                  "prompt": "Gespräch 1",
+                  "solution": "d",
+                  "explanation": "Frau Milic bedankt sich für die Vertretung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-2",
+                  "prompt": "Gespräch 2",
+                  "solution": "a",
+                  "explanation": "Herr Achterberg bittet um eine Begründung für die Entscheidung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-3",
+                  "prompt": "Gespräch 3",
+                  "solution": "e",
+                  "explanation": "Frau Milic schlägt einen Versuch vor."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-4",
+                  "prompt": "Gespräch 4",
+                  "solution": "c",
+                  "explanation": "Herr Fischer warnt vor der Folge – Schlangen und Beschwerden."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Eine Präsentation",
+          "instructions": "Sie hören eine Präsentation im Betrieb. Über jeder Aufgabe steht ein Stichwort, damit Sie wissen, an welcher Stelle Sie sich befinden. Wählen Sie die richtige Antwort. Sie hören die Präsentation einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-04/hoeren-teil-3.mp3",
+            "transcript": "Moderatorin: Wir freuen uns auf Frau Petersen vom Branchenverband. Sie stellt heute Zahlen zur Personalgewinnung im Gastgewerbe vor.\n\nFrau Petersen: Danke. Ich fange mit einer Klarstellung an: Ich bin nicht hier, um Ihnen zu erzählen, dass junge Leute nicht mehr arbeiten wollen. Diese Erklärung ist bequem, und unsere Zahlen stützen sie nicht.\n\nFrau Petersen: Wir haben vierhundert Betriebe befragt und dabei zwei Gruppen verglichen: Häuser, die Auszubildende finden, und Häuser, die keine finden. Interessanterweise unterscheiden sie sich kaum bei der Ausbildungsvergütung.\n\nFrau Petersen: Sie unterscheiden sich an einer anderen Stelle, und die überrascht regelmäßig: bei der Verlässlichkeit des Dienstplans. Betriebe, deren Plan mindestens drei Wochen steht, besetzen ihre Ausbildungsplätze zu achtzig Prozent. Bei den anderen sind es fünfundvierzig.\n\nFrau Petersen: Der zweite Unterschied betrifft die Bewerbung selbst. Häuser, die innerhalb von drei Tagen antworten, bekommen doppelt so viele Zusagen wie Häuser, die zwei Wochen brauchen – bei gleicher Vergütung und gleicher Lage.\n\nFrau Petersen: Mein Fazit lautet deshalb nicht „zahlt mehr“. Es lautet: Antwortet schneller und plant verlässlicher. Beides kostet kein Geld, sondern Aufmerksamkeit – und genau deshalb fällt es vielen schwerer als eine Gehaltserhöhung."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-a",
+              "prompt": "AUSGANGSPUNKT",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-1",
+                  "prompt": "Was stellt Frau Petersen zu Beginn klar?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass sie diese Erklärung nicht teilt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass junge Leute weniger arbeiten wollen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass die Branche gut dasteht."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Diese Erklärung ist bequem, und unsere Zahlen stützen sie nicht.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-b",
+              "prompt": "VERGLEICH",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Worin unterscheiden sich erfolgreiche und erfolglose Betriebe kaum?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "In der Verlässlichkeit des Dienstplans."
+                    },
+                    {
+                      "id": "b",
+                      "text": "In der Ausbildungsvergütung."
+                    },
+                    {
+                      "id": "c",
+                      "text": "In der Antwortgeschwindigkeit."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… unterscheiden sie sich kaum bei der Ausbildungsvergütung.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-c",
+              "prompt": "BEWERBUNG",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-3",
+                  "prompt": "Was bewirkt eine Antwort innerhalb von drei Tagen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Bessere Bewertungen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weniger Abbrüche in der Probezeit."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Doppelt so viele Zusagen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… bekommen doppelt so viele Zusagen wie Häuser, die zwei Wochen brauchen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-d",
+              "prompt": "FAZIT",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Was empfiehlt Frau Petersen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Schneller antworten und verlässlicher planen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Höhere Vergütungen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Mehr Werbung auf Ausbildungsmessen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Antwortet schneller und plant verlässlicher.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-4",
+          "title": "Teil 4 – Telefonische Mitteilungen",
+          "instructions": "Sie hören fünf Nachrichten auf dem Anrufbeantworter. Wählen Sie zu jeder Nachricht die richtige Antwort. Sie hören jede Nachricht einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-04/hoeren-teil-4.mp3",
+            "transcript": "Mitteilung 1\nFrau Petersen: Guten Tag, Petersen vom Branchenverband. Sie hatten nach der Studie gefragt. Die vollständige Fassung erscheint erst im April, aber ich kann Ihnen die Tabellen zum Dienstplan vorab schicken. Eine Bitte: Bitte nicht weiterleiten, solange die Studie nicht draußen ist.\n\nMitteilung 2\nHerr Sonnenberg: Sonnenberg hier, Service. Ich war gestern nicht in der Sitzung und habe das Protokoll gelesen. Die Entscheidung zum Schichtmodell akzeptiere ich, aber ich brauche für März zwei zusätzliche Aushilfen, sonst geht es rechnerisch nicht auf. Ich habe zwei Bewerbungen liegen und würde die einladen.\n\nMitteilung 3\nFrau Milic: Hallo, Milic hier. Kurze Rückmeldung zur Aufzugswartung: Die Firma kann nicht am 17., sondern erst ab dem 24. Februar. Das ist besser für uns, weil in der Woche weniger gebucht ist. Ich sage der Rezeption Bescheid, dass der vierte Stock erst ab dem 24. gesperrt wird.\n\nMitteilung 4\nHerr Fischer: Fischer aus der Küche. Wegen der Frühstücksidee: Ich habe mit zwei Kollegen gesprochen, beide würden samstags einen Frühdienst mehr machen, wenn sie dafür sonntags frei haben. Damit wäre die Personalfrage gelöst. Ich bräuchte jetzt eine Entscheidung von der Direktion.\n\nMitteilung 5\nFrau Okonkwo: Okonkwo, Rezeption. Ich melde einen Vorfall: Ein Gast hat heute Morgen an der Rezeption eine Kollegin angeschrien, weil sein Zimmer nicht vor 15 Uhr fertig war. Die Kollegin hat sich korrekt verhalten. Ich möchte, dass die Direktion den Gast anspricht, bevor er abreist."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-4-mitteilung-1",
+              "prompt": "Mitteilung 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-1",
+                  "prompt": "Was bietet Frau Petersen an?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die vollständige Studie sofort."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Tabellen vorab, aber vertraulich."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Einen weiteren Vortrag im April."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… kann Ihnen die Tabellen zum Dienstplan vorab schicken … Bitte nicht weiterleiten.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-2",
+              "prompt": "Mitteilung 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-2",
+                  "prompt": "Was möchte Herr Sonnenberg?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Entscheidung noch einmal besprechen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das Protokoll korrigieren lassen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Zwei Aushilfen für März einstellen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… ich brauche für März zwei zusätzliche Aushilfen … würde die einladen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-3",
+              "prompt": "Mitteilung 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-3",
+                  "prompt": "Was ändert sich bei der Aufzugswartung?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie wird um eine Woche verschoben."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie fällt aus."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie dauert länger als geplant."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Die Firma kann nicht am 17., sondern erst ab dem 24. Februar.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-4",
+              "prompt": "Mitteilung 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-4",
+                  "prompt": "Wie soll die Personalfrage gelöst werden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Durch neue Aushilfen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Durch einen Tausch: Samstag arbeiten, Sonntag frei."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Durch längere Schichten."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… würden samstags einen Frühdienst mehr machen, wenn sie dafür sonntags frei haben.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-5",
+              "prompt": "Mitteilung 5",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-5",
+                  "prompt": "Worum bittet Frau Okonkwo?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass die Kollegin frei bekommt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass die Check-in-Zeit geändert wird."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass die Direktion den Gast anspricht."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ich möchte, dass die Direktion den Gast anspricht, bevor er abreist.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "hoeren-schreiben",
+      "title": "Hören und Schreiben",
+      "durationMinutes": 5,
+      "description": "Sie hören eine telefonische Mitteilung und halten das Wichtigste in einer Notiz fest.",
+      "parts": [
+        {
+          "id": "hoeren-schreiben-teil-1",
+          "title": "Notiz zu einem Anruf",
+          "instructions": "Sie sind allein im Büro und nehmen einen Anruf entgegen. Wählen Sie zuerst den Grund des Anrufs. Füllen Sie danach die Notiz für Ihre Kollegin aus. Sie hören die Mitteilung zweimal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-04/hoeren-schreiben.mp3",
+            "transcript": "Herr Delgado: Guten Tag, hier spricht Miguel Delgado von der Firma Nordwind Reisen. Ich möchte für eine Gruppe buchen: achtzehn Doppelzimmer vom 3. bis 6. Juni, also drei Nächte. Wichtig ist, dass die Zimmer alle im selben Haus liegen, die Gruppe ist älter und soll nicht laufen müssen. Bitte schicken Sie mir ein Angebot mit Halbpension. Meine Nummer für Rückfragen ist 0 8 9 – 4 4 2 1 6 7. Ich bin ab dreizehn Uhr am Platz. Danke schön."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-schreiben-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "hs-1",
+                  "prompt": "Grund für den Anruf",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Angebot"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bestellung / Buchung"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Beschwerde"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Herr Delgado möchte Zimmer für eine Gruppe reservieren – eine Buchung, kein Angebot an das Hotel und keine Beschwerde."
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-2",
+                  "prompt": "Name",
+                  "inputMode": "single-line",
+                  "musterloesung": "Miguel Delgado, Nordwind Reisen"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-3",
+                  "prompt": "Telefonnummer",
+                  "inputMode": "single-line",
+                  "musterloesung": "089 – 442167"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-4",
+                  "prompt": "Weitere Informationen",
+                  "inputMode": "single-line",
+                  "musterloesung": "18 Doppelzimmer, 3.–6. Juni (3 Nächte), alle im selben Haus, Gruppe ist älter. Angebot mit Halbpension gewünscht."
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-5",
+                  "prompt": "Zu erledigen",
+                  "inputMode": "single-line",
+                  "musterloesung": "Angebot mit Halbpension schicken, bei Rückfragen ab 13 Uhr anrufen."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprachbausteine",
+      "title": "Sprachbausteine und Schreiben",
+      "durationMinutes": 35,
+      "description": "Sie ergänzen zwei Texte aus dem Berufsalltag und schreiben zum Schluss Ihre Meinung zu einem Thema. Insgesamt bearbeiten Sie 13 Aufgaben.",
+      "parts": [
+        {
+          "id": "sprachbausteine-teil-1",
+          "title": "Teil 1 – Wörter aus dem Kasten",
+          "instructions": "Lesen Sie den folgenden Text. Welche Wörter a–j passen am besten in die Lücken? Sie können jedes Wort nur einmal verwenden. Nicht alle Wörter passen in den Text.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-1-block",
+              "inlineGaps": true,
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Ab"
+                },
+                {
+                  "id": "b",
+                  "text": "Damit"
+                },
+                {
+                  "id": "c",
+                  "text": "Falls"
+                },
+                {
+                  "id": "d",
+                  "text": "als"
+                },
+                {
+                  "id": "e",
+                  "text": "nicht"
+                },
+                {
+                  "id": "f",
+                  "text": "jederzeit"
+                },
+                {
+                  "id": "g",
+                  "text": "Seit"
+                },
+                {
+                  "id": "h",
+                  "text": "wie"
+                },
+                {
+                  "id": "i",
+                  "text": "obwohl"
+                },
+                {
+                  "id": "j",
+                  "text": "selten"
+                }
+              ],
+              "stimuli": [
+                {
+                  "title": "Text",
+                  "heading": "Aushang für Mitarbeitende: Umbau der Lobby",
+                  "text": "Liebe Kolleginnen und Kollegen,\n\n___(1)___ dem 10. April wird die Lobby umgebaut. Die Arbeiten dauern voraussichtlich sechs Wochen.\n\nDer Empfang zieht in dieser Zeit in den Frühstücksraum. ___(2)___ die Gäste den Weg finden, stellen wir am Eingang Schilder auf.\n\n___(3)___ es laut wird, informieren Sie die Gäste bitte aktiv beim Check-in. Es ist besser, sie erfahren es von uns ___(4)___ von der Baustelle.\n\nDie Handwerker arbeiten von 8 bis 17 Uhr, ___(5)___ am Wochenende.\n\nBei Fragen wenden Sie sich ___(6)___ an die Direktion.\n\nDie Direktion"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-1",
+                  "prompt": "Lücke (1)",
+                  "solution": "a",
+                  "explanation": "„Ab dem 10. April“ – Beginn in der Zukunft."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-2",
+                  "prompt": "Lücke (2)",
+                  "solution": "b",
+                  "explanation": "Finalsatz: „Damit die Gäste den Weg finden …“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-3",
+                  "prompt": "Lücke (3)",
+                  "solution": "c",
+                  "explanation": "Bedingung: „Falls es laut wird …“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-4",
+                  "prompt": "Lücke (4)",
+                  "solution": "d",
+                  "explanation": "Vergleich nach „besser“: „besser … von uns als von der Baustelle“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-5",
+                  "prompt": "Lücke (5)",
+                  "solution": "e",
+                  "explanation": "„von 8 bis 17 Uhr, nicht am Wochenende“ – Einschränkung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-6",
+                  "prompt": "Lücke (6)",
+                  "solution": "f",
+                  "explanation": "„wenden Sie sich jederzeit an die Direktion“ – die übliche Schlussformel."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprachbausteine-teil-2",
+          "title": "Teil 2 – Wörter im Text ergänzen",
+          "instructions": "Lesen Sie die E-Mail und wählen Sie für jede Lücke das passende Wort.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-2-block",
+              "inlineGaps": true,
+              "stimuli": [
+                {
+                  "title": "E-Mail",
+                  "heading": "Antwort auf eine Gruppenanfrage",
+                  "text": "Sehr geehrter Herr Delgado,\n\nvielen Dank für Ihre Anfrage. Gern ___(1)___ wir Ihnen folgendes Angebot:\n\nAchtzehn Doppelzimmer vom 3. bis 6. Juni, alle im Haupthaus, wie ___(2)___.\n\nDer Preis ___(3)___ 118 Euro pro Zimmer und Nacht inklusive Halbpension. Ab fünfzehn Zimmern gewähren wir zusätzlich einen ___(4)___ von fünf Prozent.\n\nDie Zimmer sind bis zum 15. April ___(5)___ reserviert. Danach geben wir sie wieder frei.\n\nFür Rückfragen ___(6)___ ich Ihnen gern zur Verfügung.\n\nMit freundlichen Grüßen\nC. Okonkwo"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-1",
+                  "prompt": "Lücke (1) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "unterbreiten"
+                    },
+                    {
+                      "id": "b",
+                      "text": "untersuchen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "unterhalten"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„ein Angebot unterbreiten“ – die feste geschäftliche Wendung."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-2",
+                  "prompt": "Lücke (2) – Partizip",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "gewünschte"
+                    },
+                    {
+                      "id": "b",
+                      "text": "gewünscht"
+                    },
+                    {
+                      "id": "c",
+                      "text": "wünschend"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„wie gewünscht“ – feste Wendung ohne Endung."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-3",
+                  "prompt": "Lücke (3) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "betrifft"
+                    },
+                    {
+                      "id": "b",
+                      "text": "bezahlt"
+                    },
+                    {
+                      "id": "c",
+                      "text": "beträgt"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Der Preis beträgt 118 Euro“ – Standardformulierung für Beträge."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-4",
+                  "prompt": "Lücke (4) – Nomen",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nachlass"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Nachweis"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nachteil"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Fünf Prozent weniger sind ein Nachlass (Rabatt)."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-5",
+                  "prompt": "Lücke (5) – Adverb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "unverzüglich"
+                    },
+                    {
+                      "id": "b",
+                      "text": "unverbindlich"
+                    },
+                    {
+                      "id": "c",
+                      "text": "unvermeidlich"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Eine Reservierung ohne Verpflichtung ist unverbindlich."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-6",
+                  "prompt": "Lücke (6) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "stelle"
+                    },
+                    {
+                      "id": "b",
+                      "text": "stehle"
+                    },
+                    {
+                      "id": "c",
+                      "text": "stehe"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ich stehe Ihnen gern zur Verfügung.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprachbausteine-teil-3",
+          "title": "Teil 3 – Ihre Meinung",
+          "instructions": "Lesen Sie die Information und schreiben Sie Ihre Meinung zu dem Thema. Schreiben Sie mindestens 100 Wörter.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-3-block",
+              "stimuli": [
+                {
+                  "title": "Information",
+                  "heading": "Sollen Trinkgelder abgeschafft und stattdessen höhere Löhne gezahlt werden?",
+                  "text": "In einigen Ländern ist Trinkgeld selbstverständlich, in anderen unüblich. In Deutschland wird seit Jahren diskutiert, ob Servicekräfte fair bezahlt werden.\n\nAus einer Befragung von 900 Beschäftigten im Gastgewerbe:\n\n· 64 % sagen, Trinkgeld mache einen spürbaren Teil ihres Einkommens aus.\n· 47 % halten die Verteilung im Team für ungerecht.\n· 52 % würden einen höheren Grundlohn ohne Trinkgeld bevorzugen.\n· 29 % berichten, dass Gäste Trinkgeld mit Erwartungen an ihr Verhalten verbinden."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "sb3-1",
+                  "prompt": "Schreiben Sie Ihre Meinung zu dem Thema.",
+                  "criteria": [
+                    "Ihre Meinung: Trinkgeld beibehalten oder abschaffen?",
+                    "Eine Begründung mit einem Beispiel",
+                    "Ein Argument der Gegenseite und Ihre Antwort darauf",
+                    "Ein Vorschlag für die Praxis"
+                  ],
+                  "hints": [
+                    "Auf B2 reicht es nicht zu sagen, was Sie denken – Sie müssen es begründen und ein Gegenargument aufgreifen.",
+                    "Nützlich: „Einerseits … andererseits …“, „Dagegen wird oft eingewandt, dass …“, „Aus meiner Sicht …“.",
+                    "Sie dürfen die Zahlen aus dem Kasten benutzen, müssen es aber nicht."
+                  ],
+                  "minWords": 100,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Ich bin dafür, Trinkgeld beizubehalten – aber ich verstehe die Gegenseite besser, als mir lieb ist.\n\nMein Hauptargument ist praktisch: Trinkgeld ist Geld, das heute im Portemonnaie liegt. Ich habe in einem Restaurant gearbeitet, in dem an einem guten Samstag achtzig Euro zusammenkamen. Kein Betrieb hätte mir stattdessen freiwillig achthundert Euro mehr im Monat gezahlt, und die 64 Prozent aus der Befragung zeigen, dass es vielen ähnlich geht.\n\nDagegen wird eingewandt, dass Trinkgeld abhängig macht: Man ist freundlich, weil man muss, nicht weil man will. Die 29 Prozent, die von Erwartungen der Gäste berichten, sprechen für diesen Einwand, und ich weiß aus eigener Erfahrung, was gemeint ist. Ich habe mir von Gästen Dinge sagen lassen, die ich mir ohne den Blick auf den Zwanziger nicht hätte sagen lassen.\n\nTrotzdem halte ich die Abschaffung für die schlechtere Lösung, weil sie ein Problem angeht, das nicht das Trinkgeld verursacht. Nicht das Trinkgeld macht die Löhne niedrig – die Löhne sind niedrig, und das Trinkgeld gleicht es notdürftig aus. Wer es streicht, ohne die Löhne wirklich anzuheben, verschlechtert die Lage.\n\nMein Vorschlag wäre deshalb zweistufig: erstens ein Grundlohn, von dem man ohne Trinkgeld leben kann, und zweitens eine gemeinsame Kasse, die auch die Küche einschließt. Denn ungerecht ist selten das Trinkgeld selbst, sondern seine Verteilung – so sehen es immerhin 47 Prozent."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Die mündliche Prüfung wird zu zweit abgelegt: Sie sprechen über ein berufliches Thema, führen ein Gespräch mit Ihrer Partnerin oder Ihrem Partner und lösen gemeinsam ein Problem aus dem Betrieb. Dieser Teil wird nicht automatisch bewertet; nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Über ein Thema sprechen",
+          "instructions": "Thema 4: Sprechen Sie über eine Person, die für Sie beruflich ein Vorbild ist. Zuerst sprechen Sie etwa vier Minuten zusammenhängend über das Thema (Aufgabe A). Danach beantworten Sie eine Frage dazu (Aufgabe B). In der Prüfung übernimmt anschließend die zweite Person denselben Ablauf mit einem eigenen Thema.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "stimuli": [
+                {
+                  "title": "Thema",
+                  "heading": "Thema 4 – Ein berufliches Vorbild",
+                  "text": "Sprechen Sie über eine Person, die für Sie beruflich ein Vorbild ist.\n\nSie können sich an diesen Punkten orientieren:\n\n· Wer ist diese Person und woher kennen Sie sie?\n· Welche Eigenschaften schätzen Sie besonders?\n· Ein Beispiel, das Sie beeindruckt hat\n· Was haben Sie von dieser Person übernommen?"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-a",
+                  "prompt": "Aufgabe A – Sprechen Sie etwa vier Minuten über eine Person, die für Sie beruflich ein Vorbild ist.",
+                  "hints": [
+                    "Vier Minuten sind lang. Legen Sie sich vorher eine Reihenfolge zurecht und arbeiten Sie die Punkte nacheinander ab.",
+                    "Auf B2 wird Struktur erwartet: „Zunächst …“, „Ein zweiter Punkt ist …“, „Zusammenfassend …“.",
+                    "Belegen Sie Aussagen mit einem eigenen Beispiel – das trägt länger als allgemeine Sätze."
+                  ],
+                  "musterloesung": "Ich möchte über eine Person sprechen, die für mich beruflich ein Vorbild ist, und gehe dabei auf vier Punkte ein: wer sie ist, was ich an ihr schätze, ein Beispiel, und was ich von ihr übernommen habe.\n\nDie Person ist meine frühere Chefin, Frau Achterberg. Sie hat das Hotel geleitet, in dem ich meine Ausbildung gemacht habe. Wir haben etwa vier Jahre zusammengearbeitet, danach hat sie das Haus gewechselt, aber wir haben bis heute Kontakt.\n\nWas ich an ihr schätze, ist vor allem eines: Sie hat nie vor Gästen über Mitarbeitende gesprochen und nie vor Mitarbeitenden über Gäste. Das klingt selbstverständlich, ist es aber überhaupt nicht. In unserer Branche wird viel gelästert, und sie hat einfach nicht mitgemacht. Nach einem halben Jahr macht man es dann selbst auch nicht mehr.\n\nEin Beispiel, das mir geblieben ist: Ich habe als Auszubildende eine Rechnung falsch gestellt, dreihundert Euro zu wenig, und der Gast war längst abgereist. Ich habe drei Tage gebraucht, bis ich es gemeldet habe. Sie hat nicht gefragt, warum ich es falsch gemacht habe, sondern warum ich drei Tage gewartet habe. Das war die richtige Frage, und sie hat mich mehr beschäftigt als jede Ermahnung.\n\nÜbernommen habe ich vor allem ihre Art, Kritik zu äußern: immer unter vier Augen, immer am selben Tag, und immer mit einer konkreten Sache statt einer Eigenschaft. Also nicht „Sie sind unordentlich“, sondern „Die Kasse war gestern nicht abgeschlossen“.\n\nUnd noch etwas: Sie hat jeden Abend zehn Minuten mit dem Nachtdienst gesprochen, bevor sie ging. Nicht dienstlich, einfach so. Ich mache das heute genauso, weil ich weiß, wie viel es ausmacht, wenn man nachts allein im Haus ist."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp1-b",
+                  "prompt": "Aufgabe B – Antworten Sie auf die Frage: „Kann eine Führungskraft gleichzeitig freundlich und durchsetzungsfähig sein?“",
+                  "hints": [
+                    "Beziehen Sie klar Position und begründen Sie sie – eine Antwort ohne Meinung wirkt auf B2 ausweichend.",
+                    "Greifen Sie ein Gegenargument auf: „Dagegen könnte man einwenden, dass …“",
+                    "Zwei Minuten reichen; wichtiger als Länge ist ein klarer Aufbau."
+                  ],
+                  "musterloesung": "Ja, und ich würde sogar sagen: Nur so funktioniert es auf Dauer. Aber es ist schwieriger, als es klingt.\n\nDer Fehler, den ich oft sehe, ist die Verwechslung von freundlich mit nachgiebig. Wer jede Bitte erfüllt, um beliebt zu sein, verliert die Autorität, und zwar zuerst bei denen, die sich an Regeln halten. Ich habe einen Vorgesetzten erlebt, der niemandem einen Urlaubsantrag abschlagen konnte. Am Ende hatten wir im August drei Leute im Dienst, und das Team war wütend – nicht auf die Kollegen, sondern auf ihn.\n\nUmgekehrt bringt Härte allein auch nichts. Wer nur anweist, bekommt Dienst nach Vorschrift, und in unserem Beruf merkt der Gast das sofort.\n\nNun könnte man einwenden, dass in stressigen Situationen keine Zeit für Freundlichkeit ist. Wenn abends dreißig Gäste warten, kann man nicht diskutieren.\n\nDas stimmt für den Moment, aber nicht für den Betrieb. Eine klare Ansage in der Stoßzeit ist völlig in Ordnung, solange man hinterher erklärt, warum. Genau das ist für mich der Unterschied: freundlich heißt nicht, weich zu entscheiden, sondern die Entscheidung zu begründen und die Person dabei nicht kleinzumachen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Auf eine Aussage reagieren",
+          "instructions": "In diesem Teil führen Sie ein Gespräch. Ihre Gesprächspartnerin oder Ihr Gesprächspartner beginnt mit einer Aussage, Sie reagieren darauf, und daraus entsteht ein Dialog: Stellen Sie Rückfragen, machen Sie Vorschläge, reagieren Sie auf Einwände. Für beide Aussagen zusammen haben Sie etwa drei Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-a",
+              "stimuli": [
+                {
+                  "title": "Aussage 1",
+                  "text": "„Unsere neue Kollegin macht ständig kleine Fehler an der Kasse. Ich habe es schon zweimal ausgebadet. Soll ich das der Chefin sagen?“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Führen Sie das Gespräch weiter. Sie sind Partner B.",
+                  "hints": [
+                    "Reagieren heißt nicht nur zustimmen: Gehen Sie auf das Gesagte ein und bringen Sie dann etwas Eigenes.",
+                    "Rechnen Sie mit einem Einwand und antworten Sie darauf.",
+                    "Nützlich: „Ich würde erst mal …“, „Bevor du das machst, könntest du …“"
+                  ],
+                  "musterloesung": "Partner A: Unsere neue Kollegin macht ständig kleine Fehler an der Kasse. Ich habe es schon zweimal ausgebadet. Soll ich das der Chefin sagen?\n\nPartner B: Ich würde erst mal mit ihr selbst reden. Wenn sie es von der Chefin erfährt, ist das Verhältnis zwischen euch beschädigt, und ihr arbeitet jeden Tag zusammen.\n\nPartner A: Ich habe es angedeutet. Sie hat nur gesagt, sie passt auf.\n\nPartner B: Angedeutet reicht nicht. Sag ihr konkret, was passiert ist – welcher Beleg, welcher Betrag, was du danach machen musstest.\n\nPartner A: Und wenn sie beleidigt ist?\n\nPartner B: Das Risiko besteht. Aber es ist kleiner als das Risiko, dass sie es von oben hört. Und ehrlich gesagt: Wenn sie neu ist, weiß sie vielleicht gar nicht, dass ihre Fehler bei dir landen.\n\nPartner A: Daran habe ich nicht gedacht.\n\nPartner B: Ich würde ihr außerdem anbieten, eine Woche lang gemeinsam abzurechnen. Dann siehst du, wo es hakt – vielleicht ist es immer derselbe Handgriff.\n\nPartner A: Und wenn sich nichts ändert?\n\nPartner B: Dann gehst du zur Chefin, und zwar mit gutem Gewissen. Dann hast du nämlich alles versucht, und das kannst du auch so sagen."
+                }
+              ]
+            },
+            {
+              "id": "sprechen-teil-2-b",
+              "stimuli": [
+                {
+                  "title": "Aussage 2",
+                  "text": "„Mir wurde die stellvertretende Schichtleitung angeboten. Aber dann bin ich Vorgesetzte von Leuten, mit denen ich seit Jahren befreundet bin.“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Führen Sie das Gespräch weiter. Sie sind Partner B.",
+                  "hints": [
+                    "Hier ist ein persönliches Gespräch gefragt – ermutigen Sie, aber bleiben Sie ehrlich.",
+                    "Fragen Sie zurück und geben Sie einen konkreten Hinweis."
+                  ],
+                  "musterloesung": "Partner A: Mir wurde die stellvertretende Schichtleitung angeboten. Aber dann bin ich Vorgesetzte von Leuten, mit denen ich seit Jahren befreundet bin.\n\nPartner B: Nimm es an. Die Sorge ist berechtigt, aber sie ist kein Grund abzulehnen – sondern ein Grund, es von Anfang an anzusprechen.\n\nPartner A: Wie soll ich das denn ansprechen?\n\nPartner B: Direkt, am ersten Tag. Ungefähr so: „Ich werde manchmal Dinge entscheiden, die euch nicht passen. Sagt es mir, aber sagt es mir und nicht den anderen.“ Das nimmt schon viel Druck raus.\n\nPartner A: Und wenn ich jemandem einen Urlaubswunsch abschlagen muss, mit dem ich abends noch ein Bier trinke?\n\nPartner B: Dann tust du es und erklärst warum. Schwierig wird es nur, wenn du deinen Freunden heimlich Vorteile gibst – das merken die anderen sofort, und dann bist du erledigt.\n\nPartner A: Das ist genau meine Angst.\n\nPartner B: Deshalb würde ich die Regeln aufschreiben, bevor der erste Fall kommt. Wenn die Urlaubsregel schwarz auf weiß steht, entscheidest nicht du, sondern die Regel.\n\nPartner A: Das klingt machbar.\n\nPartner B: Und rede mit Frau Okonkwo, die hat genau das hinter sich. Sie sagt dir in zehn Minuten mehr, als du in einem Jahr selbst herausfindest."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Gemeinsam eine Lösung finden",
+          "instructions": "Lesen Sie die Situation. Finden Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner eine Lösung. Machen Sie Vorschläge, gehen Sie auf die Vorschläge der anderen Person ein und einigen Sie sich am Ende. Sie haben dafür etwa vier Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "stimuli": [
+                {
+                  "title": "Situation",
+                  "heading": "Beschwerden über den Frühstücksservice",
+                  "text": "In den letzten Wochen häufen sich Beschwerden über das Frühstück: lange Wartezeiten am Buffet, leere Kannen, unfreundlicher Service in der Stoßzeit zwischen 8 und 9 Uhr.\n\nDie Direktion bittet Sie und eine Kollegin, gemeinsam Vorschläge zu erarbeiten.\n\nStichpunkte:\n\n· Was sind die Ursachen der Wartezeiten?\n· Welche Änderungen am Ablauf wären möglich?\n· Was kostet das, und was bringt es?\n· Was schlagen Sie der Direktion vor?"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Finden Sie gemeinsam eine Lösung und einigen Sie sich auf einen Vorschlag.",
+                  "hints": [
+                    "Einigen heißt nicht, allem zuzustimmen. Ein gutes Gespräch enthält auch einen Gegenvorschlag.",
+                    "Nützlich: „Ich würde vorschlagen, dass …“, „Das sehe ich anders, weil …“, „Können wir uns darauf einigen, dass …?“",
+                    "Fassen Sie am Ende zusammen, wer was macht."
+                  ],
+                  "musterloesung": "Partner A: Ich würde zuerst über die Ursache reden. Alle sagen „zu wenig Personal“, aber ich glaube, das ist nur die halbe Wahrheit.\n\nPartner B: Was meinst du?\n\nPartner A: Zwischen 8 und 9 kommen siebzig Prozent der Gäste. Von 6:30 bis 8 ist es leer, ab 9:30 auch. Selbst mit zwei Leuten mehr hättest du zwischen 8 und 9 Chaos.\n\nPartner B: Das sehe ich anders. Zwei Leute mehr würden schon helfen – vor allem beim Nachfüllen, das bleibt ja als Erstes liegen.\n\nPartner A: Helfen ja, lösen nein. Und zwei Vollzeitstellen bekommen wir sowieso nicht genehmigt.\n\nPartner B: Gut, dann anders herum: Wie verteilen wir die Gäste?\n\nPartner A: Ich würde beim Check-in nach der gewünschten Frühstückszeit fragen und die frühen Zeiten attraktiv machen – zum Beispiel mit frisch gebackenen Brötchen nur bis acht.\n\nPartner B: Das würde ich nicht machen. Wenn Gäste merken, dass sie um neun schlechteres Brot bekommen, steht das am selben Abend in der Bewertung.\n\nPartner A: Stimmt, das war schlecht gedacht.\n\nPartner B: Ich würde stattdessen am Ablauf ansetzen. Kaffee ist der Engpass, nicht das Essen. Wenn wir eine zweite Maschine an die andere Seite stellen, teilt sich die Schlange von selbst.\n\nPartner A: Eine Maschine kostet aber ein paar tausend Euro.\n\nPartner B: Etwa dreitausend. Das ist weniger als eine Aushilfe für drei Monate, und sie hält zehn Jahre.\n\nPartner A: So gerechnet überzeugt es mich. Und die Kannen?\n\nPartner B: Feste Zuständigkeit. Eine Person macht zwischen 8 und 9 nichts anderes als nachfüllen und abräumen – kein Service am Tisch, keine Kasse. Das ist eine halbe Stunde Umverteilung, keine neue Stelle.\n\nPartner A: Dann schlagen wir vor: zweite Kaffeemaschine, feste Nachfüllzuständigkeit von 8 bis 9, und die Frühstückszeit beim Check-in erfragen – aber ohne Nachteile für Spätaufsteher.\n\nPartner B: Genau. Ich rechne die Kosten bis Donnerstag, du formulierst den Vorschlag, und wir gehen zusammen zur Direktion."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

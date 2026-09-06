@@ -1,0 +1,1473 @@
+{
+  "id": "uebungstest-b2-06",
+  "language": "de",
+  "level": "B2",
+  "title": "Übungstest B2 Beruf – Nr. 6",
+  "description": "Ein vollständiger berufsbezogener Übungstest auf Niveau B2 mit den Teilen Lesen, Lesen und Schreiben, Hören, Hören und Schreiben, Sprachbausteine und Schreiben sowie Sprechen. Themenschwerpunkt: Einzelhandel und Kundenkontakt.",
+  "sections": [
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 45,
+      "description": "Sie lesen Beiträge aus einem Ratgeber, zwei Unterweisungen, Fragen und Tipps aus einer Beratung sowie ein Besprechungsprotokoll. Insgesamt bearbeiten Sie 18 Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Informationen zum Arbeitsmarkt",
+          "instructions": "Sie arbeiten in der Personalabteilung einer Supermarktkette. Für den internen Newsletter sammeln Sie Fachartikel; fünf Filialleitungen haben eine Frage geschickt. Welcher der acht Artikel passt zu welcher Person? Jeder Artikel kann nur einmal verwendet werden; drei Artikel passen zu keiner Person.",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-artikel",
+              "stimuli": [
+                {
+                  "title": "Artikel a",
+                  "heading": "Das Vorstellungsgespräch vorbereiten",
+                  "text": "Welche Fragen zulässig sind und welche nicht, wie man Bewerber vergleichbar bewertet und warum ein strukturierter Leitfaden bessere Entscheidungen bringt als ein freies Gespräch."
+                },
+                {
+                  "title": "Artikel b",
+                  "heading": "Umtausch und Gewährleistung",
+                  "text": "Wo der Unterschied liegt, wann ein Kunde tatsächlich einen Anspruch hat, was Kulanz bedeutet und wie man Nein sagt, ohne den Kunden zu verlieren."
+                },
+                {
+                  "title": "Artikel c",
+                  "heading": "Diebstahl im Laden",
+                  "text": "Wie man reagiert, ohne sich selbst in Gefahr zu bringen, wann man festhalten darf und was ein Ladenverbot rechtlich bedeutet. Mit Hinweisen für Auszubildende."
+                },
+                {
+                  "title": "Artikel d",
+                  "heading": "Inventurdifferenzen verstehen",
+                  "text": "Woraus sich Schwund zusammensetzt, warum Verderb und Fehlbuchungen meist größer sind als Diebstahl und wie man die Ursachen trennt."
+                },
+                {
+                  "title": "Artikel e",
+                  "heading": "Arbeit an Sonn- und Feiertagen",
+                  "text": "In welchen Fällen der Einzelhandel öffnen darf, welche Zuschläge gelten und welche Ausgleichstage vorgeschrieben sind."
+                },
+                {
+                  "title": "Artikel f",
+                  "heading": "Frischetheke und Hygiene",
+                  "text": "Welche Temperaturen dokumentiert werden müssen, wie oft, wer die Verantwortung trägt und was bei einer Kontrolle geprüft wird."
+                },
+                {
+                  "title": "Artikel g",
+                  "heading": "Beschwerden am Telefon",
+                  "text": "Wie ein Gespräch beginnt, das schon wütend anfängt, welche Sätze die Lage verschärfen und wann man an die Leitung übergibt."
+                },
+                {
+                  "title": "Artikel h",
+                  "heading": "Teilzeit und Aufstockung",
+                  "text": "Welche Rechte Teilzeitkräfte bei der Erhöhung der Stundenzahl haben, wie die Bevorzugung bei offenen Stellen geregelt ist und was ein Antrag enthalten muss."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Das Vorstellungsgespräch vorbereiten"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Umtausch und Gewährleistung"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Diebstahl im Laden"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Inventurdifferenzen verstehen"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Arbeit an Sonn- und Feiertagen"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Frischetheke und Hygiene"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Beschwerden am Telefon"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Teilzeit und Aufstockung"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l1-1",
+                  "prompt": "Frau Kaya arbeitet seit drei Jahren mit 20 Stunden. Jetzt wird eine Vollzeitstelle frei, und sie fragt, ob sie bevorzugt berücksichtigt wird.",
+                  "solution": "h",
+                  "explanation": "Artikel h behandelt Aufstockung und die Bevorzugung von Teilzeitkräften bei offenen Stellen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-2",
+                  "prompt": "Eine Kundin möchte eine geöffnete Packung Kaffee zurückgeben, weil er ihr nicht schmeckt. Der Kollege weiß nicht, ob er das muss.",
+                  "solution": "b",
+                  "explanation": "Artikel b unterscheidet Umtausch, Gewährleistung und Kulanz."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-3",
+                  "prompt": "Herr Osterhage führt nächste Woche vier Bewerbungsgespräche und möchte vermeiden, dass er sich nachher nur an den sympathischsten erinnert.",
+                  "solution": "a",
+                  "explanation": "Artikel a behandelt den strukturierten Leitfaden und die Vergleichbarkeit."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-4",
+                  "prompt": "In der Filiale Nord ist die Differenz bei Obst und Gemüse dreimal so hoch wie im Rest. Die Leitung vermutet Diebstahl.",
+                  "solution": "d",
+                  "explanation": "Artikel d erklärt, dass Verderb und Fehlbuchungen meist größer sind als Diebstahl, und wie man die Ursachen trennt."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-5",
+                  "prompt": "Eine Auszubildende hat gesehen, wie jemand eine Flasche in die Jacke gesteckt hat. Sie fragt, was sie tun darf.",
+                  "solution": "c",
+                  "explanation": "Artikel c behandelt das Verhalten bei Diebstahl, mit ausdrücklichem Hinweis für Auszubildende."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Einweisungen und Unterweisungen",
+          "instructions": "Sie lesen zwei Texte aus Ihrem Betrieb. Entscheiden Sie zu jedem Text, ob die Aussage richtig oder falsch ist, und wählen Sie danach die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-text-1",
+              "stimuli": [
+                {
+                  "title": "Text 1",
+                  "heading": "Arbeitsanweisung: Temperaturkontrolle an der Frischetheke",
+                  "text": "Diese Anweisung gilt für alle Beschäftigten an der Bedientheke sowie für Aushilfen.\n\nMessung\nDie Temperatur wird dreimal täglich gemessen: bei Öffnung, um 13 Uhr und bei Schließung. Gemessen wird nicht die Anzeige des Geräts, sondern mit dem Handmessgerät zwischen den Produkten. Die Anzeige des Kühlmöbels ist ein Anhaltspunkt, kein Nachweis.\n\nGrenzwerte\nFleisch und Wurst höchstens 4 Grad, Fisch höchstens 2 Grad. Wird ein Wert überschritten, informieren Sie sofort die Marktleitung – auch bei geringer Überschreitung.\n\nDokumentation\nJede Messung wird mit Uhrzeit, Wert und Handzeichen eingetragen. Eine nachträgliche Eintragung am Abend für den ganzen Tag ist nicht zulässig und wird bei einer Kontrolle sofort erkannt.\n\nBei Störung\nWare aus dem betroffenen Möbel wird umgelagert, nicht abgedeckt. Über den weiteren Verbleib entscheidet ausschließlich die Marktleitung."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l2-1",
+                  "statement": "Am Abend darf man die Werte für den ganzen Tag nachtragen.",
+                  "solution": false,
+                  "explanation": "„Eine nachträgliche Eintragung am Abend für den ganzen Tag ist nicht zulässig …“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l2-2",
+                  "prompt": "Womit wird gemessen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Mit dem Handmessgerät zwischen den Produkten."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Mit der Anzeige des Kühlmöbels."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Mit dem Thermometer an der Wand."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Gemessen wird nicht die Anzeige des Geräts, sondern mit dem Handmessgerät zwischen den Produkten.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-2-text-2",
+              "stimuli": [
+                {
+                  "title": "Text 2",
+                  "heading": "Information: Neue Regelung für Personalrabatt",
+                  "text": "Liebe Kolleginnen und Kollegen,\n\nzum 1. Oktober ändern wir den Personalrabatt. Die bisherige Regelung war unübersichtlich und wurde in den Filialen unterschiedlich gehandhabt.\n\nWas neu ist\nDer Rabatt beträgt einheitlich zehn Prozent auf das gesamte Sortiment, auch auf Aktionsware. Bisher waren Aktionen ausgenommen, was regelmäßig zu Diskussionen an der Kasse geführt hat.\n\nWie es abläuft\nSie zeigen die Mitarbeiterkarte vor dem Scannen der Ware. Nachträglich kann der Rabatt nicht gewährt werden, weil der Kassenbon dann bereits abgeschlossen ist.\n\nWichtig\nDer Rabatt gilt für den eigenen Bedarf und für Personen im gemeinsamen Haushalt. Einkäufe für Freunde oder Nachbarn sind nicht abgedeckt. Ein Verstoß ist kein Kavaliersdelikt, sondern ein Kündigungsgrund.\n\nTabak, Pfand und Gutscheine sind vom Rabatt ausgenommen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l2-3",
+                  "statement": "Der Rabatt gilt jetzt auch für Aktionsware.",
+                  "solution": true,
+                  "explanation": "„Der Rabatt beträgt einheitlich zehn Prozent auf das gesamte Sortiment, auch auf Aktionsware.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l2-4",
+                  "prompt": "Was gilt, wenn man die Karte vergessen hat vorzuzeigen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Rabatt wird nachträglich gutgeschrieben."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Der Rabatt entfällt für diesen Einkauf."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Ware wird storniert und neu gebucht."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Nachträglich kann der Rabatt nicht gewährt werden, weil der Kassenbon dann bereits abgeschlossen ist.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Rahmenbedingungen der Arbeit",
+          "instructions": "In der Sprechstunde des Betriebsrats sind vier Fragen eingegangen. Welcher der sechs Tipps a–f passt zu welcher Frage? Zu einer Frage passt keiner der Tipps – wählen Sie dann „x“.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-tipps",
+              "prompt": "Welcher Tipp passt zu welcher Frage?",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Stellen Sie allen Bewerbern dieselben Fragen in derselben Reihenfolge. Nur so vergleichen Sie Antworten und nicht Sympathien."
+                },
+                {
+                  "id": "b",
+                  "text": "Sagen Sie bei Kulanz ausdrücklich, dass es Kulanz ist. Sonst wird aus der einmaligen Ausnahme beim nächsten Mal ein eingeforderter Anspruch."
+                },
+                {
+                  "id": "c",
+                  "text": "Halten Sie niemanden fest, der die Kasse passiert hat. Sprechen Sie die Person an, notieren Sie das Aussehen und rufen Sie die Marktleitung – Ihre Sicherheit steht vor der Ware."
+                },
+                {
+                  "id": "d",
+                  "text": "Trennen Sie bei der Inventur zuerst den Verderb heraus. Erst was danach übrig bleibt, ist überhaupt ein Fall für die Frage nach Diebstahl."
+                },
+                {
+                  "id": "e",
+                  "text": "Lassen Sie einen wütenden Anrufer zuerst ausreden, ohne zu unterbrechen. Wer nach dem dritten Satz „Ich verstehe Sie ja“ sagt, verschärft die Lage."
+                },
+                {
+                  "id": "f",
+                  "text": "Stellen Sie einen Antrag auf Aufstockung schriftlich und nennen Sie die gewünschte Stundenzahl konkret. Mündliche Wünsche gelten formal nicht als Antrag."
+                },
+                {
+                  "id": "x",
+                  "text": "Hierzu passt keiner der Tipps."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l3-1",
+                  "prompt": "„Eine Kundin schreit mich am Telefon an, bevor ich überhaupt weiß, worum es geht. Was mache ich?“",
+                  "solution": "e",
+                  "explanation": "Tipp e: zuerst ausreden lassen, nicht unterbrechen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-2",
+                  "prompt": "„Ich habe gesehen, wie ein Mann etwas eingesteckt hat, und er ist an der Kasse vorbei. Soll ich ihn aufhalten?“",
+                  "solution": "c",
+                  "explanation": "Tipp c: nicht festhalten, ansprechen, beschreiben, Leitung rufen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-3",
+                  "prompt": "„Ich habe der Kundin die Rückgabe erlaubt, obwohl kein Mangel vorlag. Nächste Woche steht sie wieder da. Was habe ich falsch gemacht?“",
+                  "solution": "b",
+                  "explanation": "Tipp b: Kulanz ausdrücklich als Kulanz benennen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-4",
+                  "prompt": "„Unsere Kasse 3 zeigt seit Wochen falsche Bestände bei Pfandflaschen an. An wen wende ich mich?“",
+                  "solution": "x",
+                  "explanation": "Kein Tipp behandelt technische Fehler an der Kasse. Tipp d betrifft die Auswertung der Inventur, nicht die Fehlersuche im Kassensystem."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-4",
+          "title": "Teil 4 – Aufgaben und Aufgabenverteilung",
+          "instructions": "Lesen Sie das Protokoll der letzten Teambesprechung und die Aufgaben. Welche Antwort passt am besten?",
+          "blocks": [
+            {
+              "id": "lesen-teil-4-protokoll",
+              "stimuli": [
+                {
+                  "title": "Protokoll",
+                  "heading": "Protokoll der Filialleitersitzung Region West",
+                  "text": "Datum: Montag, 7. Oktober\nUhrzeit: 9:00 – 10:30 Uhr\nOrt: Regionalbüro, Raum 2\nAnwesende: J. Osterhage (Regionalleitung), S. Kaya (Filiale Nord), M. Draganov (Filiale Mitte), P. Lehmann (Filiale Süd)\nEntschuldigt: keine\nProtokoll: P. Lehmann\n\nTagesordnung\nTOP 1 Inventurergebnisse\nTOP 2 Personalrabatt\nTOP 3 Besetzung der Vollzeitstelle Nord\nTOP 4 Beschwerdequote\nTOP 5 Verschiedenes\n\nTOP 1 – Inventurergebnisse\nDie Differenz liegt regionsweit bei 1,1 Prozent. Auffällig ist Filiale Nord mit 2,4 Prozent, allerdings ausschließlich im Bereich Obst und Gemüse. Die Auswertung zeigt, dass es sich nicht um Diebstahl handelt: Die Ware wird zu spät aus dem Verkauf genommen und dann nicht ausgebucht, sondern weggeworfen. Frau Kaya führt ab sofort eine tägliche Abschreibung um 18 Uhr ein.\n\nTOP 2 – Personalrabatt\nDie neue Regelung gilt ab dem 1. Oktober. Herr Draganov weist darauf hin, dass mehrere Mitarbeitende gefragt haben, ob der Rabatt auch für die Eltern gilt, wenn diese im selben Haus, aber in einer eigenen Wohnung leben. Die Regionalleitung stellt klar: Entscheidend ist der gemeinsame Haushalt, nicht das Gebäude.\n\nTOP 3 – Besetzung der Vollzeitstelle Nord\nEs liegen sechs externe Bewerbungen vor. Zusätzlich hat eine Teilzeitkraft aus der Filiale einen schriftlichen Antrag auf Aufstockung gestellt. Beschlossen: Die interne Bewerberin wird zuerst eingeladen. Bei gleicher Eignung erhält sie die Stelle.\n\nTOP 4 – Beschwerdequote\nDie Beschwerden sind im September um ein Drittel gestiegen, praktisch alle betreffen Wartezeiten an der Kasse zwischen 16 und 18 Uhr. Als Ursache wurde ermittelt, dass in dieser Zeit regelmäßig nur zwei von vier Kassen besetzt sind. Herr Lehmann erarbeitet bis zum 20. Oktober einen neuen Besetzungsplan.\n\nTOP 5 – Verschiedenes\nDie Weihnachtsware kommt in diesem Jahr eine Woche früher. Lagerplatz ist in allen drei Filialen vorhanden.\n\nNächster Termin: Montag, 4. November, 9:00 Uhr"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-1",
+                  "prompt": "Was ist die Ursache der hohen Differenz in Filiale Nord?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Diebstahl durch Kunden."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Falsche Preisauszeichnung."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ware wird zu spät aussortiert und nicht ausgebucht."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Die Ware wird zu spät aus dem Verkauf genommen und dann nicht ausgebucht, sondern weggeworfen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-2",
+                  "prompt": "Was ist beim Personalrabatt entscheidend?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der gemeinsame Haushalt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das gemeinsame Gebäude."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der Verwandtschaftsgrad."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Entscheidend ist der gemeinsame Haushalt, nicht das Gebäude.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-3",
+                  "prompt": "Wie wird bei der Vollzeitstelle vorgegangen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die externen Bewerber werden zuerst eingeladen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die interne Bewerberin wird zuerst eingeladen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Stelle wird neu ausgeschrieben."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Die interne Bewerberin wird zuerst eingeladen. Bei gleicher Eignung erhält sie die Stelle.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-4",
+                  "prompt": "Worauf beziehen sich fast alle Beschwerden im September?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Auf das Sortiment."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Auf unfreundliches Personal."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Auf Wartezeiten an der Kasse."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… praktisch alle betreffen Wartezeiten an der Kasse zwischen 16 und 18 Uhr.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-5",
+                  "prompt": "Was wurde zur Weihnachtsware festgehalten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie kommt eine Woche früher."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie wird zentral gelagert."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Menge wird reduziert."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Die Weihnachtsware kommt in diesem Jahr eine Woche früher.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen-schreiben",
+      "title": "Lesen und Schreiben",
+      "durationMinutes": 20,
+      "description": "Ihre Teamleitung leitet Ihnen die Nachricht einer Kundin oder eines Kunden weiter und sagt Ihnen, was in Ihrer Antwort stehen soll. Sie beantworten zwei Fragen zu den Texten und schreiben dann die Antwort.",
+      "parts": [
+        {
+          "id": "lesen-schreiben-teil-1",
+          "title": "E-Mail an eine Bewerberin",
+          "instructions": "Lesen Sie beide E-Mails. Beantworten Sie zuerst die zwei Fragen und schreiben Sie danach die Antwort. Gehen Sie dabei auf alle Punkte Ihrer Teamleitung ein.",
+          "blocks": [
+            {
+              "id": "lesen-schreiben-block",
+              "stimuli": [
+                {
+                  "title": "E-Mail 1",
+                  "heading": "Von: J. Osterhage (Regionalleitung) – Absage an Frau Brenner",
+                  "text": "Hallo,\n\nbitte schreiben Sie Frau Brenner heute noch. Sie war die zweitbeste Bewerberin, und ich möchte sie nicht verlieren – im Januar wird in Süd eine Stelle frei.\n\nBitte gehen Sie auf Folgendes ein:\n\n1. Danken Sie für die Bewerbung und das Gespräch am 2. Oktober.\n2. Teilen Sie die Absage mit und nennen Sie den Grund ehrlich: Wir haben intern besetzt, eine Teilzeitkraft hatte Anspruch auf bevorzugte Berücksichtigung.\n3. Fragen Sie, ob wir ihre Unterlagen behalten dürfen – im Januar wird in Filiale Süd eine Stelle frei.\n4. Bieten Sie an, ihr telefonisch eine Rückmeldung zum Gespräch zu geben, wenn sie das möchte.\n\nJ. Osterhage"
+                },
+                {
+                  "title": "E-Mail 2",
+                  "heading": "Von: T. Brenner – Nachfrage zu meiner Bewerbung",
+                  "text": "Sehr geehrte Damen und Herren,\n\nam 2. Oktober war ich bei Ihnen zum Vorstellungsgespräch für die Stelle als stellvertretende Filialleitung. Man sagte mir, ich bekomme innerhalb einer Woche Bescheid.\n\nInzwischen sind zwölf Tage vergangen. Ich habe eine zweite Zusage vorliegen, auf die ich bis Freitag antworten muss, und möchte Ihnen ungern absagen, ohne Ihre Entscheidung zu kennen.\n\nKönnten Sie mir kurz mitteilen, wie der Stand ist? Auch eine Absage wäre mir lieber als weitere Ungewissheit.\n\nMit freundlichen Grüßen\nTanja Brenner"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "ls-1",
+                  "prompt": "Warum fragt Frau Brenner nach?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil sie ihre Unterlagen zurück möchte."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil sie eine zweite Zusage bis Freitag beantworten muss."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil sie den Gesprächstermin verschieben will."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ich habe eine zweite Zusage vorliegen, auf die ich bis Freitag antworten muss.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "ls-2",
+                  "prompt": "Welchen Grund für die Absage sollen Sie nennen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ihre Qualifikation reichte nicht aus."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Stelle wurde gestrichen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Stelle wurde intern besetzt."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Wir haben intern besetzt, eine Teilzeitkraft hatte Anspruch auf bevorzugte Berücksichtigung.“"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "ls-3",
+                  "prompt": "Schreiben Sie die Antwort an Frau Brenner.",
+                  "criteria": [
+                    "Dank für Bewerbung und Gespräch am 2. Oktober",
+                    "Absage mit ehrlicher Begründung",
+                    "Frage: Dürfen wir die Unterlagen für Januar behalten?",
+                    "Angebot einer telefonischen Rückmeldung"
+                  ],
+                  "hints": [
+                    "Gehen Sie auch auf die überschrittene Frist ein – zwölf statt sieben Tage waren Ihr Fehler.",
+                    "Eine Absage darf freundlich sein, aber sie muss klar sein. Vermeiden Sie Formulierungen, die Hoffnung offenlassen, wo keine ist.",
+                    "Das Angebot, die Unterlagen zu behalten, braucht ihre Zustimmung – formulieren Sie es als Frage."
+                  ],
+                  "minWords": 100,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Frau Brenner,\n\nvielen Dank für Ihre Nachricht – und vor allem: Entschuldigen Sie bitte, dass Sie so lange warten mussten. Wir hatten Ihnen eine Woche zugesagt, und zwölf Tage sind schlicht zu lang. Das lag an unserem Verfahren, nicht an Ihrer Bewerbung.\n\nLeider muss ich Ihnen absagen. Ich möchte Ihnen den Grund offen nennen, weil Sie ihn verdient haben: Wir haben die Stelle intern besetzt. Eine Kollegin arbeitet seit drei Jahren in Teilzeit bei uns und hatte einen Antrag auf Aufstockung gestellt; bei vergleichbarer Eignung ist sie bevorzugt zu berücksichtigen. Die Entscheidung fiel also nicht gegen Sie, sondern für eine bestehende Verpflichtung.\n\nSie waren in unserem Auswahlverfahren an zweiter Stelle, und das meine ich nicht als Trost. Im Januar wird in unserer Filiale Süd voraussichtlich eine vergleichbare Stelle frei. Dürfen wir Ihre Unterlagen bis dahin aufbewahren und uns dann bei Ihnen melden? Ohne Ihre ausdrückliche Zustimmung löschen wir sie selbstverständlich.\n\nWenn Sie möchten, gebe ich Ihnen gern telefonisch eine Rückmeldung zum Gespräch – was uns überzeugt hat und wo ich an Ihrer Stelle noch ansetzen würde. Rufen Sie einfach an oder schreiben Sie mir, wann es Ihnen passt.\n\nFür Ihre Entscheidung bis Freitag wünsche ich Ihnen eine glückliche Hand.\n\nMit freundlichen Grüßen\nP. Lehmann\nPersonal Region West"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 20,
+      "description": "Sie hören Gespräche aus dem Arbeitsalltag, eine Präsentation und telefonische Mitteilungen. Insgesamt bearbeiten Sie 19 Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Gespräche am Arbeitsplatz",
+          "instructions": "Sie hören drei kurze Gespräche. Zu jedem Gespräch gibt es zwei Aufgaben: Entscheiden Sie zuerst, ob die Aussage richtig oder falsch ist, und wählen Sie dann die richtige Antwort. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-06/hoeren-teil-1.mp3",
+            "transcript": "Gespräch 1\nFrau Kaya: Herr Osterhage, wegen der Abschreibung um 18 Uhr. Ich habe das eingeführt, aber es funktioniert nicht.\n\nHerr Osterhage: Woran liegt es?\n\nFrau Kaya: Um 18 Uhr ist die Stoßzeit noch nicht vorbei. Die Kollegin steht an der Kasse und kommt nicht dazu.\n\nHerr Osterhage: Dann verlegen Sie es. Neunzehn Uhr?\n\nFrau Kaya: Zwanzig Uhr wäre besser, kurz vor Schluss. Dann ist auch wirklich klar, was übrig ist.\n\nGespräch 2\nHerr Draganov: Frau Lehmann, eine Frage zum Rabatt. Meine Kollegin kauft für ihre Mutter mit ein, die im selben Haus wohnt.\n\nFrau Lehmann: Eigene Wohnung?\n\nHerr Draganov: Ja, eigene Wohnung, eigener Haushalt.\n\nFrau Lehmann: Dann geht das nicht. Es kommt auf den gemeinsamen Haushalt an, nicht auf das Haus.\n\nHerr Draganov: Das habe ich befürchtet. Ich sage es ihr lieber jetzt als nach einer Abmahnung.\n\nGespräch 3\nFrau Lehmann: Herr Osterhage, ich habe den Besetzungsplan für die Kassen. Aber es gibt ein Problem.\n\nHerr Osterhage: Erzählen Sie.\n\nFrau Lehmann: Um vier Kassen zwischen 16 und 18 Uhr zu besetzen, brauche ich zwei Aushilfen mehr. Anders geht es nicht.\n\nHerr Osterhage: Wie teuer wird das?\n\nFrau Lehmann: Etwa 900 Euro im Monat. Dem stehen die Beschwerden gegenüber – und die Kunden, die wir gar nicht mehr sehen."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-gespraech-1",
+              "prompt": "Gespräch 1",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-1",
+                  "statement": "Frau Kaya schlägt vor, die Abschreibung auf 20 Uhr zu legen.",
+                  "solution": true,
+                  "explanation": "„Zwanzig Uhr wäre besser, kurz vor Schluss.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Warum funktioniert die Abschreibung um 18 Uhr nicht?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil noch Stoßzeit ist und niemand Zeit hat."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil das System um diese Zeit gesperrt ist."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil die Ware noch verkauft wird."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Um 18 Uhr ist die Stoßzeit noch nicht vorbei. Die Kollegin steht an der Kasse …“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-gespraech-2",
+              "prompt": "Gespräch 2",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-3",
+                  "statement": "Der Rabatt gilt für die Mutter, weil sie im selben Haus wohnt.",
+                  "solution": false,
+                  "explanation": "„Es kommt auf den gemeinsamen Haushalt an, nicht auf das Haus.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Warum spricht Herr Draganov das an?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Um eine Ausnahme zu erreichen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Um seine Kollegin vor Folgen zu bewahren."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Um die Regelung ändern zu lassen."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ich sage es ihr lieber jetzt als nach einer Abmahnung.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-gespraech-3",
+              "prompt": "Gespräch 3",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-5",
+                  "statement": "Frau Lehmann kann den Plan ohne zusätzliches Personal umsetzen.",
+                  "solution": false,
+                  "explanation": "„… brauche ich zwei Aushilfen mehr. Anders geht es nicht.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-6",
+                  "prompt": "Womit begründet Frau Lehmann die Kosten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Mit gesetzlichen Vorgaben."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Mit dem Wunsch des Teams."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Mit den Beschwerden und verlorenen Kunden."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Dem stehen die Beschwerden gegenüber – und die Kunden, die wir gar nicht mehr sehen.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Was passt zu welchem Gespräch?",
+          "instructions": "Sie hören vier kurze Gespräche. Welcher Satz a–f passt zu welchem Gespräch? Zwei Sätze bleiben übrig. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-06/hoeren-teil-2.mp3",
+            "transcript": "Gespräch 1\nHerr Draganov: Bei euch klaut doch bestimmt jemand aus dem Team, bei zwei Komma vier Prozent.\n\nFrau Kaya: Nein. Von den 2,4 Prozent entfallen 2,1 auf Obst und Gemüse, und davon ist alles dokumentierter Verderb.\n\nHerr Draganov: Dann nehme ich das zurück.\n\nGespräch 2\nFrau Lehmann: Wir müssten die neuen Aushilfen an der Kasse einweisen. Nur wer macht das?\n\nHerr Draganov: Das kann ich übernehmen. Ich habe das schon zweimal gemacht, und mir macht es Spaß.\n\nFrau Lehmann: Sehr gern. Dann setze ich dich für Montag und Dienstag ein.\n\nGespräch 3\nHerr Osterhage: Können Sie mir bis heute Abend sagen, ob Sie die Filiale Süd übernehmen?\n\nFrau Kaya: Bis heute Abend nicht. Das betrifft meine Familie, ich möchte in Ruhe darüber sprechen.\n\nHerr Osterhage: In Ordnung, dann bis Freitag.\n\nGespräch 4\nFrau Kaya: Sie hatten gesagt, wir bekommen im Oktober die zweite Waage für die Theke.\n\nHerr Osterhage: Richtig, das hatte ich zugesagt.\n\nFrau Kaya: Wir haben November. Ich möchte nur wissen, ob es noch kommt oder ob ich anders planen soll."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "prompt": "Welcher Satz passt zu welchem Gespräch?",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Jemand widerspricht einer Vermutung mit Zahlen."
+                },
+                {
+                  "id": "b",
+                  "text": "Jemand bietet an, eine Schulung zu übernehmen."
+                },
+                {
+                  "id": "c",
+                  "text": "Jemand bittet um mehr Bedenkzeit."
+                },
+                {
+                  "id": "d",
+                  "text": "Jemand kritisiert das Verhalten einer Kundin."
+                },
+                {
+                  "id": "e",
+                  "text": "Jemand erinnert an eine Zusage."
+                },
+                {
+                  "id": "f",
+                  "text": "Jemand entschuldigt sich für eine Verspätung."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h2-1",
+                  "prompt": "Gespräch 1",
+                  "solution": "a",
+                  "explanation": "Frau Kaya widerspricht der Vermutung mit konkreten Zahlen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-2",
+                  "prompt": "Gespräch 2",
+                  "solution": "b",
+                  "explanation": "Herr Draganov bietet an, die Einweisung zu übernehmen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-3",
+                  "prompt": "Gespräch 3",
+                  "solution": "c",
+                  "explanation": "Frau Kaya bittet um mehr Bedenkzeit."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-4",
+                  "prompt": "Gespräch 4",
+                  "solution": "e",
+                  "explanation": "Frau Kaya erinnert an eine gegebene Zusage."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Eine Präsentation",
+          "instructions": "Sie hören eine Präsentation im Betrieb. Über jeder Aufgabe steht ein Stichwort, damit Sie wissen, an welcher Stelle Sie sich befinden. Wählen Sie die richtige Antwort. Sie hören die Präsentation einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-06/hoeren-teil-3.mp3",
+            "transcript": "Moderatorin: Ich freue mich, Herrn Professor Winter begrüßen zu dürfen. Er forscht zu Auswahlverfahren und stellt heute Ergebnisse zum Vorstellungsgespräch vor.\n\nHerr Winter: Vielen Dank. Ich fange mit einer unbequemen Feststellung an: Das freie, sympathische Gespräch, auf das viele Führungskräfte stolz sind, ist als Auswahlinstrument fast wertlos. Es sagt kaum etwas über die spätere Leistung voraus.\n\nHerr Winter: Woran liegt das? Vor allem daran, dass in einem freien Gespräch jeder Bewerber andere Fragen bekommt. Wer sympathisch wirkt, wird freundlicher gefragt und antwortet dadurch besser. Am Ende vergleicht man keine Menschen, sondern Gesprächsverläufe.\n\nHerr Winter: Wir haben zweihundert Einstellungen über drei Jahre verfolgt. Strukturierte Gespräche – gleiche Fragen, gleiche Reihenfolge, vorher festgelegte Bewertung – sagten die spätere Leistung etwa doppelt so gut voraus wie freie.\n\nHerr Winter: Ein Ergebnis hat uns selbst überrascht: Die Dauer spielt keine Rolle. Ein strukturiertes Gespräch von zwanzig Minuten schlägt ein freies von anderthalb Stunden. Länger heißt nicht besser, es heißt nur länger.\n\nHerr Winter: Meine Empfehlung ist deshalb schlicht: Schreiben Sie fünf bis sieben Fragen auf, stellen Sie diese jedem, und notieren Sie die Antworten während des Gesprächs, nicht danach. Nach dem vierten Gespräch erinnern Sie sich sonst nur noch an den Ersten und den Letzten."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-a",
+              "prompt": "THESE",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-1",
+                  "prompt": "Was sagt Herr Winter über das freie Gespräch?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Es ist als Auswahlinstrument fast wertlos."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Es ist besser als sein Ruf."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Es eignet sich nur für Führungspositionen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… ist als Auswahlinstrument fast wertlos.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-b",
+              "prompt": "URSACHE",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Warum ist das freie Gespräch problematisch?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil es zu lange dauert."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil jeder Bewerber andere Fragen bekommt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil Bewerber sich vorbereiten können."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… dass in einem freien Gespräch jeder Bewerber andere Fragen bekommt.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-c",
+              "prompt": "ÜBERRASCHUNG",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-3",
+                  "prompt": "Welches Ergebnis hat die Forscher überrascht?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass Frauen besser bewertet werden."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass Berufserfahrung nichts vorhersagt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass die Dauer keine Rolle spielt."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ein Ergebnis hat uns selbst überrascht: Die Dauer spielt keine Rolle.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-d",
+              "prompt": "EMPFEHLUNG",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Wann sollen die Antworten notiert werden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Während des Gesprächs."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Direkt nach dem Gespräch."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Am Ende des Auswahltages."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… notieren Sie die Antworten während des Gesprächs, nicht danach.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-4",
+          "title": "Teil 4 – Telefonische Mitteilungen",
+          "instructions": "Sie hören fünf Nachrichten auf dem Anrufbeantworter. Wählen Sie zu jeder Nachricht die richtige Antwort. Sie hören jede Nachricht einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-06/hoeren-teil-4.mp3",
+            "transcript": "Mitteilung 1\nHerr Winter: Guten Tag, Winter hier. Sie hatten nach dem Fragebogen gefragt. Den schicke ich gern, aber eine Einschränkung: Er ist für kaufmännische Stellen entwickelt. Für die Frischetheke müssten Sie zwei bis drei fachliche Fragen ergänzen, sonst messen Sie nur, wer sich gut verkauft.\n\nMitteilung 2\nFrau Brenner: Guten Tag, hier ist Tanja Brenner. Vielen Dank für Ihre offene Absage, das war die freundlichste, die ich je bekommen habe. Sie dürfen meine Unterlagen gern behalten. Auf die Rückmeldung zum Gespräch würde ich zurückkommen, aber erst im November – jetzt fange ich erst mal woanders an.\n\nMitteilung 3\nFrau Kaya: Kaya hier, Filiale Nord. Kurze Meldung: Die Abschreibung um 20 Uhr läuft seit zwei Wochen, und die Differenz bei Obst und Gemüse ist schon von 2,1 auf 1,3 Prozent gesunken. Ich würde das gern in der nächsten Sitzung vorstellen, vielleicht ist es auch für die anderen Filialen etwas.\n\nMitteilung 4\nHerr Draganov: Draganov, Filiale Mitte. Ich muss einen Vorfall melden: Heute Nachmittag hat ein Kunde eine Auszubildende festgehalten, weil er meinte, sie hätte ihn falsch beschuldigt. Sie ist unverletzt, aber sehr aufgewühlt. Ich habe die Polizei gerufen und den Vorfall aufgeschrieben. Bitte meldet euch morgen früh bei mir.\n\nMitteilung 5\nFrau Lehmann: Lehmann hier. Der Besetzungsplan ist genehmigt, aber nur für drei Monate zur Probe. Ab dem 1. November sind zwischen 16 und 18 Uhr alle vier Kassen besetzt. Im Februar schauen wir uns die Beschwerdezahlen an und entscheiden dann, ob es bleibt."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-4-mitteilung-1",
+              "prompt": "Mitteilung 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-1",
+                  "prompt": "Was gibt Herr Winter zu bedenken?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Fragebogen ist nicht mehr aktuell."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Der Fragebogen muss fachlich ergänzt werden."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der Fragebogen darf nicht weitergegeben werden."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Für die Frischetheke müssten Sie zwei bis drei fachliche Fragen ergänzen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-2",
+              "prompt": "Mitteilung 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-2",
+                  "prompt": "Was teilt Frau Brenner mit?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie möchte die Unterlagen zurück."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie bewirbt sich erneut."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Unterlagen dürfen behalten werden."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Sie dürfen meine Unterlagen gern behalten.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-3",
+              "prompt": "Mitteilung 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-3",
+                  "prompt": "Was möchte Frau Kaya?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ihre Erfahrung den anderen Filialen vorstellen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Regelung wieder abschaffen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Zusätzliches Personal für die Abschreibung."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Ich würde das gern in der nächsten Sitzung vorstellen, vielleicht ist es auch für die anderen Filialen etwas.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-4",
+              "prompt": "Mitteilung 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-4",
+                  "prompt": "Was ist passiert?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Eine Auszubildende hat etwas entwendet."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Eine Auszubildende wurde von einem Kunden festgehalten."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ein Kunde wurde verletzt."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… hat ein Kunde eine Auszubildende festgehalten …“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-5",
+              "prompt": "Mitteilung 5",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-5",
+                  "prompt": "Wie wurde der Besetzungsplan genehmigt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dauerhaft."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Nur für den Dezember."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Für drei Monate zur Probe."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… aber nur für drei Monate zur Probe.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "hoeren-schreiben",
+      "title": "Hören und Schreiben",
+      "durationMinutes": 5,
+      "description": "Sie hören eine telefonische Mitteilung und halten das Wichtigste in einer Notiz fest.",
+      "parts": [
+        {
+          "id": "hoeren-schreiben-teil-1",
+          "title": "Notiz zu einem Anruf",
+          "instructions": "Sie sind allein im Büro und nehmen einen Anruf entgegen. Wählen Sie zuerst den Grund des Anrufs. Füllen Sie danach die Notiz für Ihre Kollegin aus. Sie hören die Mitteilung zweimal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-06/hoeren-schreiben.mp3",
+            "transcript": "Herr Baumgartner: Guten Tag, mein Name ist Klaus Baumgartner. Ich habe am Samstag bei Ihnen eine Kaffeemaschine gekauft, für 89 Euro. Zu Hause habe ich festgestellt, dass das Netzkabel eingerissen ist, direkt am Gerät. Ich bin am Montag noch einmal da gewesen, aber die Kollegin sagte, ohne Kassenbon geht nichts – den habe ich leider weggeworfen. Ich habe aber den Kontoauszug. Ich finde das nicht in Ordnung und bitte um Rückruf. Meine Nummer: 0 1 7 1 – 8 8 4 5 2 3. Vielen Dank."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-schreiben-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "hs-1",
+                  "prompt": "Grund für den Anruf",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Angebot"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bestellung / Buchung"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Beschwerde"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Herr Baumgartner beanstandet ein beschädigtes Gerät und die Ablehnung im Markt – eine Beschwerde, keine Bestellung und kein Angebot."
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-2",
+                  "prompt": "Name",
+                  "inputMode": "single-line",
+                  "musterloesung": "Klaus Baumgartner"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-3",
+                  "prompt": "Telefonnummer",
+                  "inputMode": "single-line",
+                  "musterloesung": "0171 – 884523"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-4",
+                  "prompt": "Weitere Informationen",
+                  "inputMode": "single-line",
+                  "musterloesung": "Kaffeemaschine für 89 € am Samstag gekauft, Netzkabel am Gerät eingerissen. Kassenbon weggeworfen, Kontoauszug vorhanden. Am Montag im Markt abgewiesen."
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-5",
+                  "prompt": "Zu erledigen",
+                  "inputMode": "single-line",
+                  "musterloesung": "Zurückrufen. Klären, ob der Kontoauszug als Kaufnachweis genügt."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprachbausteine",
+      "title": "Sprachbausteine und Schreiben",
+      "durationMinutes": 35,
+      "description": "Sie ergänzen zwei Texte aus dem Berufsalltag und schreiben zum Schluss Ihre Meinung zu einem Thema. Insgesamt bearbeiten Sie 13 Aufgaben.",
+      "parts": [
+        {
+          "id": "sprachbausteine-teil-1",
+          "title": "Teil 1 – Wörter aus dem Kasten",
+          "instructions": "Lesen Sie den folgenden Text. Welche Wörter a–j passen am besten in die Lücken? Sie können jedes Wort nur einmal verwenden. Nicht alle Wörter passen in den Text.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-1-block",
+              "inlineGaps": true,
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "In der Woche"
+                },
+                {
+                  "id": "b",
+                  "text": "Damit"
+                },
+                {
+                  "id": "c",
+                  "text": "dass"
+                },
+                {
+                  "id": "d",
+                  "text": "als"
+                },
+                {
+                  "id": "e",
+                  "text": "sodass"
+                },
+                {
+                  "id": "f",
+                  "text": "Geduld"
+                },
+                {
+                  "id": "g",
+                  "text": "Meinung"
+                },
+                {
+                  "id": "h",
+                  "text": "weil"
+                },
+                {
+                  "id": "i",
+                  "text": "obwohl"
+                },
+                {
+                  "id": "j",
+                  "text": "wenn"
+                }
+              ],
+              "stimuli": [
+                {
+                  "title": "Text",
+                  "heading": "Aushang: Umbau der Kassenzone",
+                  "text": "Liebe Kolleginnen und Kollegen,\n\n___(1)___ vom 4. bis 8. November wird die Kassenzone umgebaut.\n\nIn dieser Woche stehen nur zwei Kassen zur Verfügung. ___(2)___ die Wartezeiten nicht zu lang werden, öffnen wir zusätzlich die Info-Theke als dritte Kasse.\n\nBitte weisen Sie die Kunden freundlich darauf hin, ___(3)___ es länger dauern kann. Ein Hinweis vorher ärgert weniger ___(4)___ eine Entschuldigung hinterher.\n\nDie Arbeiten finden nachts statt, ___(5)___ der Verkauf tagsüber normal weiterlaufen kann.\n\nWir danken Ihnen für Ihre ___(6)___.\n\nDie Marktleitung"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-1",
+                  "prompt": "Lücke (1)",
+                  "solution": "a",
+                  "explanation": "Zeitangabe zu Beginn: „In der Woche vom 4. bis 8. November …“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-2",
+                  "prompt": "Lücke (2)",
+                  "solution": "b",
+                  "explanation": "Finalsatz: „Damit die Wartezeiten nicht zu lang werden …“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-3",
+                  "prompt": "Lücke (3)",
+                  "solution": "c",
+                  "explanation": "„… darauf hin, dass es länger dauern kann“ – Nebensatz nach „hinweisen auf“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-4",
+                  "prompt": "Lücke (4)",
+                  "solution": "d",
+                  "explanation": "Vergleich nach „weniger“: „ärgert weniger als eine Entschuldigung hinterher“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-5",
+                  "prompt": "Lücke (5)",
+                  "solution": "e",
+                  "explanation": "Konsekutivsatz: „nachts, sodass der Verkauf tagsüber weiterlaufen kann“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-6",
+                  "prompt": "Lücke (6)",
+                  "solution": "f",
+                  "explanation": "„Wir danken Ihnen für Ihre Geduld.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprachbausteine-teil-2",
+          "title": "Teil 2 – Wörter im Text ergänzen",
+          "instructions": "Lesen Sie die E-Mail und wählen Sie für jede Lücke das passende Wort.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-2-block",
+              "inlineGaps": true,
+              "stimuli": [
+                {
+                  "title": "E-Mail",
+                  "heading": "Antwort auf eine Reklamation",
+                  "text": "Sehr geehrter Herr Baumgartner,\n\nvielen Dank für Ihren Anruf. Es tut uns leid, dass das Gerät ___(1)___ war und dass Ihnen in unserem Markt nicht geholfen wurde.\n\nEin Kassenbon ist für die Gewährleistung nicht zwingend ___(2)___. Ihr Kontoauszug genügt uns als Kaufnachweis.\n\nBitte bringen Sie das Gerät in unsere Filiale. Wir tauschen es ___(3)___ um oder erstatten Ihnen den Kaufpreis – ganz wie Sie es ___(4)___.\n\nUnsere Kollegin an der Information ist ___(5)___ informiert und erwartet Sie.\n\nNochmals ___(6)___ für die Umstände.\n\nMit freundlichen Grüßen\nP. Lehmann"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-1",
+                  "prompt": "Lücke (1) – Adjektiv",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "beschädigt"
+                    },
+                    {
+                      "id": "b",
+                      "text": "gebraucht"
+                    },
+                    {
+                      "id": "c",
+                      "text": "gebrauchsfähig"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Das Kabel war eingerissen – das Gerät war beschädigt."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-2",
+                  "prompt": "Lücke (2) – Adjektiv",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "erfolgreich"
+                    },
+                    {
+                      "id": "b",
+                      "text": "erforderlich"
+                    },
+                    {
+                      "id": "c",
+                      "text": "erfreulich"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„nicht zwingend erforderlich“ – nicht unbedingt nötig."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-3",
+                  "prompt": "Lücke (3) – Adverb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "umständlich"
+                    },
+                    {
+                      "id": "b",
+                      "text": "umgekehrt"
+                    },
+                    {
+                      "id": "c",
+                      "text": "umgehend"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„umgehend“ – sofort, ohne Verzögerung."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-4",
+                  "prompt": "Lücke (4) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "wünschen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "winken"
+                    },
+                    {
+                      "id": "c",
+                      "text": "wissen"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„ganz wie Sie es wünschen“ – feste Wendung."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-5",
+                  "prompt": "Lücke (5) – Partizip",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "bereit"
+                    },
+                    {
+                      "id": "b",
+                      "text": "bereits"
+                    },
+                    {
+                      "id": "c",
+                      "text": "bereitet"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„ist bereits informiert“ – schon vorab."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-6",
+                  "prompt": "Lücke (6) – Nomen",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Erkundigung"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Einladung"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Entschuldigung"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Nochmals Entschuldigung für die Umstände.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprachbausteine-teil-3",
+          "title": "Teil 3 – Ihre Meinung",
+          "instructions": "Lesen Sie die Information und schreiben Sie Ihre Meinung zu dem Thema. Schreiben Sie mindestens 100 Wörter.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-3-block",
+              "stimuli": [
+                {
+                  "title": "Information",
+                  "heading": "Sollten Geschäfte auch sonntags öffnen dürfen?",
+                  "text": "In Deutschland ist der Sonntag als Ruhetag geschützt. Verkaufsoffene Sonntage sind nur in Ausnahmefällen und begrenzt erlaubt. Die Diskussion darüber wird regelmäßig neu geführt.\n\nAus einer Befragung von 1.200 Beschäftigten im Einzelhandel:\n\n· 68 % lehnen eine allgemeine Sonntagsöffnung ab.\n· 57 % sagen, sie würden bei Sonntagsarbeit weniger Zeit mit ihrer Familie verbringen.\n· 24 % würden sonntags arbeiten, wenn der Zuschlag hoch genug wäre.\n· 41 % arbeiten bereits jetzt regelmäßig samstags bis 20 Uhr."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "sb3-1",
+                  "prompt": "Schreiben Sie Ihre Meinung zu dem Thema.",
+                  "criteria": [
+                    "Ihre Meinung: Sonntagsöffnung ja oder nein?",
+                    "Eine Begründung mit einem Beispiel",
+                    "Ein Argument der Gegenseite und Ihre Antwort darauf",
+                    "Ein Vorschlag für einen Kompromiss"
+                  ],
+                  "hints": [
+                    "Auf B2 reicht es nicht zu sagen, was Sie denken – Sie müssen es begründen und ein Gegenargument aufgreifen.",
+                    "Nützlich: „Einerseits … andererseits …“, „Dagegen wird oft eingewandt, dass …“, „Aus meiner Sicht …“.",
+                    "Sie dürfen die Zahlen aus dem Kasten benutzen, müssen es aber nicht."
+                  ],
+                  "minWords": 100,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Ich bin gegen eine allgemeine Sonntagsöffnung, und zwar aus einem Grund, der mit Religion nichts zu tun hat: Es braucht einen Tag, an dem die meisten Menschen gleichzeitig frei haben.\n\nDas klingt abstrakt, ist aber sehr praktisch. Ich habe jahrelang im Einzelhandel gearbeitet, mit freien Tagen mitten in der Woche. Frei zu haben, wenn alle anderen arbeiten, ist nicht dasselbe wie frei zu haben. Man kann seine Kinder nicht sehen, den Sportverein nicht besuchen, Freunde nicht treffen. Genau das meinen wohl die 57 Prozent, die weniger Familienzeit erwarten.\n\nDagegen wird eingewandt, dass der Online-Handel rund um die Uhr geöffnet hat und der stationäre Handel benachteiligt wird. Das Argument ist ernst zu nehmen; Innenstädte verlieren tatsächlich.\n\nAber ich glaube nicht, dass ein siebter Verkaufstag das ändert. Wer online bestellt, tut das nicht, weil der Laden sonntags zu ist, sondern weil es bequemer und oft billiger ist. Die Sonntagsöffnung würde denselben Umsatz auf sieben statt sechs Tage verteilen – bei höheren Personalkosten. Am Ende zahlen die Beschäftigten dafür, dass sich für den Handel wenig ändert.\n\nEin Kompromiss wäre für mich: einige verkaufsoffene Sonntage im Jahr, an die Bedingung geknüpft, dass die Teilnahme wirklich freiwillig ist. Nicht „freiwillig“ im Sinne von „wer sich nicht meldet, fällt auf“, sondern mit einem klaren Widerspruchsrecht ohne Begründung. Die 24 Prozent, die bei gutem Zuschlag arbeiten würden, reichen für ein paar Sonntage im Jahr völlig aus."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Die mündliche Prüfung wird zu zweit abgelegt: Sie sprechen über ein berufliches Thema, führen ein Gespräch mit Ihrer Partnerin oder Ihrem Partner und lösen gemeinsam ein Problem aus dem Betrieb. Dieser Teil wird nicht automatisch bewertet; nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Über ein Thema sprechen",
+          "instructions": "Thema 6: Sprechen Sie über das Bewerbungsgespräch. Zuerst sprechen Sie etwa vier Minuten zusammenhängend über das Thema (Aufgabe A). Danach beantworten Sie eine Frage dazu (Aufgabe B). In der Prüfung übernimmt anschließend die zweite Person denselben Ablauf mit einem eigenen Thema.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "stimuli": [
+                {
+                  "title": "Thema",
+                  "heading": "Thema 6 – Bewerbungsgespräch",
+                  "text": "Sprechen Sie über das Bewerbungsgespräch.\n\nSie können sich an diesen Punkten orientieren:\n\n· Wie bereitet man sich vor?\n· Welche Fragen werden häufig gestellt?\n· Was sollte man vermeiden?\n· Eigene Erfahrungen mit Bewerbungsgesprächen"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-a",
+                  "prompt": "Aufgabe A – Sprechen Sie etwa vier Minuten über das Bewerbungsgespräch.",
+                  "hints": [
+                    "Vier Minuten sind lang. Legen Sie sich vorher eine Reihenfolge zurecht und arbeiten Sie die Punkte nacheinander ab.",
+                    "Auf B2 wird Struktur erwartet: „Zunächst …“, „Ein zweiter Punkt ist …“, „Zusammenfassend …“.",
+                    "Belegen Sie Aussagen mit einem eigenen Beispiel – das trägt länger als allgemeine Sätze."
+                  ],
+                  "musterloesung": "Ich möchte über das Bewerbungsgespräch sprechen und gehe dabei auf vier Punkte ein: die Vorbereitung, die typischen Fragen, häufige Fehler und eigene Erfahrungen.\n\nZur Vorbereitung: Ich halte drei Dinge für wichtig. Erstens sich über den Betrieb informieren – nicht auswendig lernen, aber so viel, dass man weiß, was dort verkauft, hergestellt oder angeboten wird. Zweitens die eigene Bewerbung noch einmal lesen, denn Fragen kommen fast immer daraus. Und drittens den Weg vorher anschauen. Wer zu spät kommt, hat schon verloren, bevor er den Mund aufmacht.\n\nZu den typischen Fragen: „Erzählen Sie etwas über sich“ kommt fast immer. Darauf sollte man zwei Minuten vorbereitet haben, nicht mehr. Dann die Frage nach Stärken und Schwächen – bei den Schwächen würde ich etwas Echtes nennen und sagen, wie man damit umgeht. Wer „Ich bin zu perfektionistisch“ sagt, hat sich nicht vorbereitet, sondern eine Floskel gelernt. Häufig ist auch die Frage, warum man wechseln möchte.\n\nWas man vermeiden sollte: schlecht über den alten Arbeitgeber reden. Selbst wenn alles stimmt, was man sagt, hört der neue Chef nur, wie man in zwei Jahren über ihn reden wird. Ebenfalls vermeiden würde ich es, etwas zu erfinden. Wenn ich ein Kassensystem nicht kenne, sage ich das – und ergänze, wie schnell ich mich beim letzten Mal eingearbeitet habe.\n\nZu meinen eigenen Erfahrungen: Mein schlechtestes Gespräch war eines, in dem ich nichts gefragt habe. Am Ende hieß es „Haben Sie noch Fragen?“, und ich sagte Nein, weil ich dachte, das sei höflich. Ich habe die Stelle nicht bekommen, und später erfuhr ich den Grund – man hielt mich für uninteressiert.\n\nSeitdem habe ich immer zwei Fragen dabei: eine zur Einarbeitung und eine zum Team. Und wenn beide schon beantwortet wurden, sage ich genau das. Auch das ist eine gute Antwort."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp1-b",
+                  "prompt": "Aufgabe B – Antworten Sie auf die Frage: „Darf ein Arbeitgeber im Bewerbungsgespräch alles fragen?“",
+                  "hints": [
+                    "Beziehen Sie klar Position und begründen Sie sie – eine Antwort ohne Meinung wirkt auf B2 ausweichend.",
+                    "Greifen Sie ein Gegenargument auf: „Dagegen könnte man einwenden, dass …“",
+                    "Zwei Minuten reichen; wichtiger als Länge ist ein klarer Aufbau."
+                  ],
+                  "musterloesung": "Nein, und ich finde es wichtig, dass Bewerber das wissen. Fragen nach einer Schwangerschaft, nach der Religion, nach der Parteizugehörigkeit oder nach einer Behinderung, die für die Arbeit keine Rolle spielt, sind unzulässig.\n\nDas Praktische daran ist: Auf eine unzulässige Frage darf man die Unwahrheit sagen, ohne dass es später Folgen hat. Das ist einer der wenigen Fälle, in denen Notlügen rechtlich abgesichert sind.\n\nZulässig ist dagegen alles, was mit der Tätigkeit zusammenhängt. Bei einer Stelle mit Nachtschicht darf gefragt werden, ob man nachts arbeiten kann. Bei einer Kassiertätigkeit darf nach Vorstrafen wegen Vermögensdelikten gefragt werden – nach anderen Vorstrafen nicht.\n\nMan könnte einwenden, dass ein Betrieb ein berechtigtes Interesse hat, seinen künftigen Mitarbeiter möglichst gut zu kennen. Wer jemanden einstellt, geht ein Risiko ein.\n\nDas stimmt, aber das Interesse endet an der Tätigkeit. Ob ich Kinder plane, sagt nichts darüber, ob ich gut kassiere. Und ehrlich gesagt: Ein Betrieb, der solche Fragen stellt, verrät damit mehr über sich als der Bewerber mit seiner Antwort."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Auf eine Aussage reagieren",
+          "instructions": "In diesem Teil führen Sie ein Gespräch. Ihre Gesprächspartnerin oder Ihr Gesprächspartner beginnt mit einer Aussage, Sie reagieren darauf, und daraus entsteht ein Dialog: Stellen Sie Rückfragen, machen Sie Vorschläge, reagieren Sie auf Einwände. Für beide Aussagen zusammen haben Sie etwa drei Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-a",
+              "stimuli": [
+                {
+                  "title": "Aussage 1",
+                  "text": "„Ich habe morgen ein Vorstellungsgespräch, aber ich muss dafür einen Tag Urlaub nehmen und beim Chef lügen. Das ist mir unangenehm.“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Führen Sie das Gespräch weiter. Sie sind Partner B.",
+                  "hints": [
+                    "Reagieren heißt nicht nur zustimmen: Gehen Sie auf das Gesagte ein und bringen Sie dann etwas Eigenes.",
+                    "Rechnen Sie mit einem Einwand und antworten Sie darauf.",
+                    "Nützlich: „Ich verstehe das, aber …“, „An deiner Stelle würde ich …“"
+                  ],
+                  "musterloesung": "Partner A: Ich habe morgen ein Vorstellungsgespräch, aber ich muss dafür einen Tag Urlaub nehmen und beim Chef lügen. Das ist mir unangenehm.\n\nPartner B: Ich verstehe das, aber du lügst gar nicht. Du musst nicht sagen, wofür du Urlaub nimmst – Urlaub ist deine Zeit, und du schuldest niemandem eine Begründung.\n\nPartner A: Er fragt aber immer, was man vorhat.\n\nPartner B: Dann sag „privater Termin“. Das ist wahr und vollständig. Alles andere geht ihn nichts an.\n\nPartner A: Und wenn er ahnt, worum es geht?\n\nPartner B: Ahnen darf er. Solange du nichts unterschrieben hast, würde ich gar nichts sagen. Ich habe erlebt, wie jemand offen war und danach von allen interessanten Projekten abgeschnitten wurde – obwohl er am Ende gar nicht gewechselt ist.\n\nPartner A: Das schreckt mich ab.\n\nPartner B: Es muss nicht so kommen, aber du kannst es nicht zurücknehmen. An deiner Stelle würde ich erst reden, wenn der neue Vertrag unterschrieben ist.\n\nPartner A: Gut. Und wenn ich die Stelle nicht bekomme?\n\nPartner B: Dann hast du einen Tag Urlaub verbraucht und ein Gespräch geübt. Das ist kein schlechter Preis."
+                }
+              ]
+            },
+            {
+              "id": "sprechen-teil-2-b",
+              "stimuli": [
+                {
+                  "title": "Aussage 2",
+                  "text": "„Ich soll nächste Woche zum ersten Mal selbst Bewerbungsgespräche führen. Ich weiß gar nicht, was ich fragen darf und was nicht.“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Führen Sie das Gespräch weiter. Sie sind Partner B.",
+                  "hints": [
+                    "Hier ist ein persönliches Gespräch gefragt – ermutigen Sie, aber bleiben Sie ehrlich.",
+                    "Fragen Sie zurück und geben Sie einen konkreten Hinweis."
+                  ],
+                  "musterloesung": "Partner A: Ich soll nächste Woche zum ersten Mal selbst Bewerbungsgespräche führen. Ich weiß gar nicht, was ich fragen darf und was nicht.\n\nPartner B: Die einfachste Regel: Alles, was mit der Arbeit zu tun hat, darfst du fragen. Alles Private nicht – keine Familienplanung, keine Religion, keine Krankheiten, die nichts mit der Tätigkeit zu tun haben.\n\nPartner A: Und wenn jemand von sich aus davon erzählt?\n\nPartner B: Dann hörst du zu, aber du fragst nicht nach und schreibst es nicht auf. In deine Notizen gehört nur, was du auch bei allen anderen erhoben hast.\n\nPartner A: Das ist der zweite Punkt, der mir Sorge macht. Wie soll ich vier Leute vergleichen?\n\nPartner B: Indem du vorher fünf Fragen aufschreibst und jedem dieselben stellst. Das klingt steif, ist aber die einzige Methode, die funktioniert.\n\nPartner A: Wird das nicht unpersönlich?\n\nPartner B: Nein, weil du ja nachfragen darfst. Nur die Grundfragen sind gleich. Und notiere die Antworten während des Gesprächs – nach dem vierten erinnerst du dich sonst nur noch an den Ersten und den Letzten.\n\nPartner A: Das leuchtet mir ein.\n\nPartner B: Und noch etwas: Lass am Ende Zeit für Fragen der Bewerber. Woran sie interessiert sind, sagt dir oft mehr als alles, was sie auf deine Fragen antworten."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Gemeinsam eine Lösung finden",
+          "instructions": "Lesen Sie die Situation. Finden Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner eine Lösung. Machen Sie Vorschläge, gehen Sie auf die Vorschläge der anderen Person ein und einigen Sie sich am Ende. Sie haben dafür etwa vier Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "stimuli": [
+                {
+                  "title": "Situation",
+                  "heading": "Ein Tag der offenen Tür in der Filiale",
+                  "text": "Ihre Filiale sucht seit Monaten Personal für die Frischetheke und die Kasse. Die Marktleitung möchte einen Aktionstag veranstalten, an dem Interessierte den Betrieb kennenlernen können.\n\nSie planen den Tag gemeinsam mit einer Kollegin.\n\nStichpunkte:\n\n· Wen wollen Sie erreichen und wie machen Sie es bekannt?\n· Was soll an diesem Tag passieren?\n· Wie gehen Sie mit Interessierten um, die kein Deutsch als Muttersprache sprechen?\n· Wer macht mit und wann findet es statt?"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Finden Sie gemeinsam eine Lösung und einigen Sie sich auf einen Vorschlag.",
+                  "hints": [
+                    "Einigen heißt nicht, allem zuzustimmen. Ein gutes Gespräch enthält auch einen Gegenvorschlag.",
+                    "Nützlich: „Ich würde vorschlagen, dass …“, „Das sehe ich anders, weil …“, „Können wir uns darauf einigen, dass …?“",
+                    "Fassen Sie am Ende zusammen, wer was macht."
+                  ],
+                  "musterloesung": "Partner A: Ich würde den Tag an einem Samstagvormittag machen. Da ist ohnehin viel los, und wir erreichen Leute, die schon im Laden sind.\n\nPartner B: Genau das würde ich nicht machen. Samstagvormittag sind wir am Anschlag – wer soll denn dann mit den Interessierten reden?\n\nPartner A: Stimmt auch wieder.\n\nPartner B: Ich würde einen Donnerstagnachmittag nehmen, so ab 15 Uhr. Da ist Ruhe, und wer wirklich Interesse hat, kommt auch am Donnerstag.\n\nPartner A: Aber dann erreichen wir keine Laufkundschaft. Wie machen wir es bekannt?\n\nPartner B: Aushang an der Tür zwei Wochen vorher, ein Zettel in jede Einkaufstüte, und die Arbeitsagentur informieren. Die schickt gezielt Leute.\n\nPartner A: Zettel in die Tüte – das machen wir bei Werbung nie, sonst beschweren sich Kunden.\n\nPartner B: Das ist aber keine Werbung, das ist ein Stellenangebot. Ich glaube, das nimmt niemand übel. Und wenn doch, hören wir nach dem ersten Tag wieder auf.\n\nPartner A: Gut, probieren wir es. Was machen wir an dem Tag?\n\nPartner B: Kein Vortrag. Ich würde eine Führung anbieten – Kühlhaus, Theke, Kasse – und dann an jeder Station jemanden hinstellen, der dort arbeitet und Fragen beantwortet.\n\nPartner A: Und die Sprache? Viele Interessierte sprechen nicht perfekt Deutsch.\n\nPartner B: Das ist mir wichtig, deshalb würde ich es auf den Aushang schreiben: „Sie müssen nicht perfekt Deutsch sprechen.“ Ohne diesen Satz kommen genau die Leute nicht, die wir brauchen.\n\nPartner A: An der Frischetheke braucht man aber schon Sprache.\n\nPartner B: Ja, an der Theke. An der Kasse und im Lager weniger. Und Sprache lernt man dazu – das haben Herr Draganov und ich beide vorgemacht.\n\nPartner A: Einverstanden. Ich frage die Kolleginnen für die Stationen, du machst den Aushang und sprichst mit der Arbeitsagentur?\n\nPartner B: Ja. Und lass uns danach aufschreiben, wie viele gekommen sind – sonst diskutieren wir nächstes Jahr wieder von vorn."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

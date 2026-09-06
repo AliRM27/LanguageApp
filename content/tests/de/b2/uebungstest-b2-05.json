@@ -1,0 +1,1473 @@
+{
+  "id": "uebungstest-b2-05",
+  "language": "de",
+  "level": "B2",
+  "title": "Übungstest B2 Beruf – Nr. 5",
+  "description": "Ein vollständiger berufsbezogener Übungstest auf Niveau B2 mit den Teilen Lesen, Lesen und Schreiben, Hören, Hören und Schreiben, Sprachbausteine und Schreiben sowie Sprechen. Themenschwerpunkt: Handwerk und Baubetrieb.",
+  "sections": [
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 45,
+      "description": "Sie lesen Beiträge aus einem Ratgeber, zwei Unterweisungen, Fragen und Tipps aus einer Beratung sowie ein Besprechungsprotokoll. Insgesamt bearbeiten Sie 18 Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Informationen zum Arbeitsmarkt",
+          "instructions": "Sie arbeiten in der Verwaltung eines Handwerksbetriebs mit vierzig Beschäftigten. Auf dem Intranet steht eine Artikelsammlung; fünf Personen haben eine Frage dazu. Welcher der acht Artikel passt zu welcher Person? Jeder Artikel kann nur einmal verwendet werden; drei Artikel passen zu keiner Person.",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-artikel",
+              "stimuli": [
+                {
+                  "title": "Artikel a",
+                  "heading": "Der Meisterbrief und die Alternativen",
+                  "text": "Wer sich selbstständig machen darf, welche Gewerke meisterpflichtig sind, was eine Ausnahmebewilligung ist und wie lange die Vorbereitung realistisch dauert."
+                },
+                {
+                  "title": "Artikel b",
+                  "heading": "Wenn der Kunde nicht zahlt",
+                  "text": "Welche Fristen nach der Rechnung gelten, wie eine Mahnung aufgebaut sein muss, wann Verzugszinsen anfallen und ab wann sich ein gerichtliches Mahnverfahren lohnt."
+                },
+                {
+                  "title": "Artikel c",
+                  "heading": "Gerüst und Absturzsicherung",
+                  "text": "Ab welcher Höhe welche Sicherung vorgeschrieben ist, wer das Gerüst freigeben darf und was bei einer Kontrolle geprüft wird. Mit Checkliste für die tägliche Sichtprüfung."
+                },
+                {
+                  "title": "Artikel d",
+                  "heading": "Kalkulieren statt schätzen",
+                  "text": "Wie ein Stundenverrechnungssatz zustande kommt, welche Kosten viele Betriebe vergessen und warum zu billige Angebote den Betrieb schneller ruinieren als zu teure."
+                },
+                {
+                  "title": "Artikel e",
+                  "heading": "Aufmaß und Nachtrag",
+                  "text": "Wie Mehrarbeit dokumentiert wird, warum ein mündliches Einverständnis auf der Baustelle nicht ausreicht und welche Formulierung im Nachtrag stehen muss."
+                },
+                {
+                  "title": "Artikel f",
+                  "heading": "Ausbildung im Handwerk",
+                  "text": "Was ein Betrieb erfüllen muss, um ausbilden zu dürfen, wie die Ausbildungsvergütung geregelt ist und welche Aufgaben ein Ausbilder tatsächlich hat."
+                },
+                {
+                  "title": "Artikel g",
+                  "heading": "Sommerhitze auf der Baustelle",
+                  "text": "Ab welchen Temperaturen welche Maßnahmen gelten, welche Pflichten der Betrieb hat und warum Trinkwasser keine freiwillige Leistung ist."
+                },
+                {
+                  "title": "Artikel h",
+                  "heading": "Die Bewerbung ohne Zeugnisse",
+                  "text": "Wie man sich bewirbt, wenn Nachweise aus dem Ausland fehlen, was eine Qualifikationsanalyse ist und wie eine Arbeitsprobe rechtlich einzuordnen ist."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Der Meisterbrief und die Alternativen"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Wenn der Kunde nicht zahlt"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Gerüst und Absturzsicherung"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Kalkulieren statt schätzen"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Aufmaß und Nachtrag"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Ausbildung im Handwerk"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Sommerhitze auf der Baustelle"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Die Bewerbung ohne Zeugnisse"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l1-1",
+                  "prompt": "Herr Yilmaz hat in der Türkei zwölf Jahre als Elektriker gearbeitet, seine Unterlagen sind aber bei einem Umzug verloren gegangen. Er möchte sich hier bewerben.",
+                  "solution": "h",
+                  "explanation": "Artikel h behandelt Bewerbungen ohne Nachweise, die Qualifikationsanalyse und die Arbeitsprobe."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-2",
+                  "prompt": "Ein Kunde hat die Schlussrechnung vor neun Wochen bekommen und reagiert auf nichts. Der Chef fragt, was jetzt möglich ist.",
+                  "solution": "b",
+                  "explanation": "Artikel b behandelt Fristen, Mahnung, Verzugszinsen und das gerichtliche Mahnverfahren."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-3",
+                  "prompt": "Auf der Baustelle in Rath hat der Bauherr mündlich zugesagt, dass zwei Steckdosen mehr gesetzt werden. Jetzt will er dafür nicht zahlen.",
+                  "solution": "e",
+                  "explanation": "Artikel e behandelt Nachträge und warum eine mündliche Zusage nicht ausreicht."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-4",
+                  "prompt": "Frau Petrova hat die Gesellenprüfung bestanden und überlegt, ob sie den Meister macht oder sich anders selbstständig machen kann.",
+                  "solution": "a",
+                  "explanation": "Artikel a behandelt Meisterpflicht, Ausnahmebewilligung und die Dauer der Vorbereitung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-5",
+                  "prompt": "Nächste Woche sind 36 Grad angekündigt. Die Kollegen auf dem Dach fragen, was der Betrieb tun muss.",
+                  "solution": "g",
+                  "explanation": "Artikel g behandelt Hitze auf der Baustelle, Maßnahmen und die Pflicht, Trinkwasser bereitzustellen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Einweisungen und Unterweisungen",
+          "instructions": "Sie lesen zwei Texte aus Ihrem Betrieb. Entscheiden Sie zu jedem Text, ob die Aussage richtig oder falsch ist, und wählen Sie danach die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-text-1",
+              "stimuli": [
+                {
+                  "title": "Text 1",
+                  "heading": "Betriebsanweisung: Arbeiten mit der Handkreissäge",
+                  "text": "Diese Anweisung gilt für alle Beschäftigten und Auszubildenden, die die Handkreissäge benutzen.\n\nVor dem Arbeiten\nPrüfen Sie Kabel, Stecker und die Schutzhaube. Eine Säge mit beschädigtem Kabel wird nicht benutzt, sondern gekennzeichnet und in die Werkstatt gebracht. Reparaturen führt ausschließlich der Elektrofachbetrieb durch.\n\nWährend der Arbeit\nDie bewegliche Schutzhaube darf niemals festgebunden oder mit Klebeband fixiert werden. Werkstücke werden gespannt, nicht mit der Hand gehalten. Schutzbrille und Gehörschutz sind zu tragen.\n\nAuszubildende\nAuszubildende im ersten Lehrjahr arbeiten mit der Handkreissäge nur unter direkter Aufsicht. Direkte Aufsicht bedeutet: in Sichtweite, nicht in Rufweite.\n\nNach der Arbeit\nStecker ziehen, Säge reinigen, Sägeblatt auf Beschädigung prüfen. Ein stumpfes Blatt ist nicht nur unpraktisch, sondern gefährlich, weil es verkantet."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l2-1",
+                  "statement": "Die bewegliche Schutzhaube darf nicht mit Klebeband fixiert werden.",
+                  "solution": true,
+                  "explanation": "„Die bewegliche Schutzhaube darf niemals festgebunden oder mit Klebeband fixiert werden.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l2-2",
+                  "prompt": "Was passiert mit einer Säge, deren Kabel beschädigt ist?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie wird gekennzeichnet und in die Werkstatt gebracht."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie wird provisorisch abgeklebt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie wird nur für kurze Schnitte benutzt."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… sondern gekennzeichnet und in die Werkstatt gebracht.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-2-text-2",
+              "stimuli": [
+                {
+                  "title": "Text 2",
+                  "heading": "Information: Neue Regelung für Fahrzeiten",
+                  "text": "Liebe Kolleginnen und Kollegen,\n\nab dem 1. Juli ändern wir die Regelung für Fahrten zwischen Betrieb und Baustelle. Anlass ist eine Nachfrage aus dem Team, die berechtigt war.\n\nWas jetzt gilt\nDie Fahrt vom Betrieb zur Baustelle ist Arbeitszeit und wird bezahlt. Das gilt auch für die Rückfahrt. Bisher wurde nur die Hinfahrt gerechnet – das war falsch, und wir haben es korrigiert.\n\nWas nicht dazugehört\nDer Weg von zu Hause zum Betrieb bleibt Privatsache. Wer direkt von zu Hause zur Baustelle fährt, bekommt die Zeit angerechnet, die die Fahrt vom Betrieb aus gedauert hätte – nicht mehr und nicht weniger.\n\nFahrzeuge\nWer das Firmenfahrzeug mit nach Hause nimmt, trägt sich in die Liste ein. Private Fahrten mit dem Firmenwagen sind nicht gestattet, auch nicht kurz zum Einkaufen.\n\nRückwirkend\nDie nicht bezahlten Rückfahrten der letzten sechs Monate werden nachgezahlt, mit der Abrechnung im August."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l2-3",
+                  "statement": "Der Weg von zu Hause zum Betrieb wird als Arbeitszeit bezahlt.",
+                  "solution": false,
+                  "explanation": "„Der Weg von zu Hause zum Betrieb bleibt Privatsache.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l2-4",
+                  "prompt": "Was geschieht mit den bisher nicht bezahlten Rückfahrten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie verfallen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie werden für sechs Monate nachgezahlt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie werden als Freizeit ausgeglichen."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Die nicht bezahlten Rückfahrten der letzten sechs Monate werden nachgezahlt.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Rahmenbedingungen der Arbeit",
+          "instructions": "In der Sprechstunde des Betriebsrats sind vier Fragen eingegangen. Welcher der sechs Tipps a–f passt zu welcher Frage? Zu einer Frage passt keiner der Tipps – wählen Sie dann „x“.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-tipps",
+              "prompt": "Welcher Tipp passt zu welcher Frage?",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Lassen Sie jeden Nachtrag vor der Ausführung unterschreiben, und sei es auf einem Zettel mit Datum. Auf der Baustelle erinnert sich später niemand an ein Gespräch."
+                },
+                {
+                  "id": "b",
+                  "text": "Rechnen Sie Ihre unproduktiven Stunden mit ein: Fahrt, Angebot, Rechnung, Reklamation. Wer nur die Zeit auf der Baustelle kalkuliert, arbeitet ab dem dritten Auftrag mit Verlust."
+                },
+                {
+                  "id": "c",
+                  "text": "Schicken Sie nach der zweiten Mahnung nicht die dritte, sondern beantragen Sie den Mahnbescheid. Er kostet wenig und wirkt bei zahlungsunwilligen Kunden sofort."
+                },
+                {
+                  "id": "d",
+                  "text": "Bitten Sie bei fehlenden Zeugnissen um eine Arbeitsprobe. Viele Betriebe stellen danach ein, weil sie in zwei Stunden mehr sehen als in zehn Bewerbungsmappen."
+                },
+                {
+                  "id": "e",
+                  "text": "Stellen Sie ab 30 Grad kalte Getränke bereit und verlegen Sie die schweren Arbeiten in den Vormittag. Beides ist keine Freundlichkeit, sondern Pflicht des Betriebs."
+                },
+                {
+                  "id": "f",
+                  "text": "Prüfen Sie das Gerüst jeden Morgen selbst, auch wenn es eine Fremdfirma gestellt hat. Für den Zustand haftet der, der darauf arbeitet – nicht der, der es aufgebaut hat."
+                },
+                {
+                  "id": "x",
+                  "text": "Hierzu passt keiner der Tipps."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l3-1",
+                  "prompt": "„Ich habe unsere Preise mit denen der Konkurrenz verglichen und bin teurer. Mache ich etwas falsch?“",
+                  "solution": "b",
+                  "explanation": "Tipp b: unproduktive Stunden einrechnen; zu billige Kalkulation ist der eigentliche Fehler."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-2",
+                  "prompt": "„Der Bauherr sagt, er hätte den Mehraufwand nie beauftragt. Wir haben nur mündlich darüber gesprochen.“",
+                  "solution": "a",
+                  "explanation": "Tipp a: Nachtrag vor der Ausführung unterschreiben lassen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-3",
+                  "prompt": "„Ich habe keine Zeugnisse aus meiner Heimat. Wie soll ich einen Betrieb überzeugen?“",
+                  "solution": "d",
+                  "explanation": "Tipp d: um eine Arbeitsprobe bitten."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-4",
+                  "prompt": "„Unser Auszubildender will nach dem ersten Jahr den Betrieb wechseln. Geht das mitten in der Ausbildung?“",
+                  "solution": "x",
+                  "explanation": "Kein Tipp behandelt den Wechsel des Ausbildungsbetriebs. Tipp d geht um Bewerbungen ohne Zeugnisse, nicht um laufende Ausbildungsverhältnisse."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-4",
+          "title": "Teil 4 – Aufgaben und Aufgabenverteilung",
+          "instructions": "Lesen Sie das Protokoll der letzten Teambesprechung und die Aufgaben. Welche Antwort passt am besten?",
+          "blocks": [
+            {
+              "id": "lesen-teil-4-protokoll",
+              "stimuli": [
+                {
+                  "title": "Protokoll",
+                  "heading": "Protokoll der Baubesprechung",
+                  "text": "Datum: Donnerstag, 12. Juni\nUhrzeit: 7:00 – 7:45 Uhr\nOrt: Bürocontainer Baustelle Lindenstraße\nAnwesende: G. Petrova (Bauleitung), E. Yilmaz (Elektro), S. Radtke (Trockenbau), N. Abadi (Kalkulation)\nEntschuldigt: keine\nProtokoll: N. Abadi\n\nTagesordnung\nTOP 1 Stand der Arbeiten\nTOP 2 Nachtrag Steckdosen\nTOP 3 Gerüst\nTOP 4 Hitzeschutz\nTOP 5 Verschiedenes\n\nTOP 1 – Stand der Arbeiten\nDer Trockenbau liegt vier Tage hinter dem Plan. Ursache ist nicht die eigene Leistung, sondern die verspätete Lieferung der Platten. Frau Radtke betont, dass ihr Team die Zeit nicht aufholen kann, ohne samstags zu arbeiten. Die Bauleitung entscheidet: Es wird nicht samstags gearbeitet, stattdessen wird der Fertigstellungstermin gegenüber dem Bauherrn verschoben.\n\nTOP 2 – Nachtrag Steckdosen\nDer Bauherr bestreitet, die zusätzlichen Steckdosen beauftragt zu haben. Herr Yilmaz hat am fraglichen Tag eine Notiz mit Uhrzeit gemacht, aber keine Unterschrift eingeholt. Beschlossen: Der Betrag wird nicht in Rechnung gestellt, weil der Aufwand einer Auseinandersetzung höher wäre als die 340 Euro. Ab sofort gilt für alle Baustellen das Formular „Nachtrag“, ohne Unterschrift wird nichts ausgeführt.\n\nTOP 3 – Gerüst\nBei der Sichtprüfung am Montag fehlte ein Seitenschutz im zweiten Feld. Die Gerüstfirma hat noch am selben Tag nachgebessert. Frau Petrova weist darauf hin, dass die tägliche Sichtprüfung dokumentiert werden muss, auch wenn nichts zu beanstanden ist.\n\nTOP 4 – Hitzeschutz\nFür die kommende Woche sind über 30 Grad angekündigt. Der Arbeitsbeginn wird auf 6 Uhr vorgezogen, Wasser und Elektrolytgetränke stellt der Betrieb. Die Dacharbeiten werden nach 13 Uhr eingestellt.\n\nTOP 5 – Verschiedenes\nDer Bauwagen wird abgeschlossen, seit dort zweimal Werkzeug gefehlt hat. Die Schlüssel haben Frau Petrova und Herr Yilmaz.\n\nNächster Termin: Donnerstag, 19. Juni, 7:00 Uhr"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-1",
+                  "prompt": "Wie wird auf den Verzug im Trockenbau reagiert?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Das Team arbeitet samstags."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Eine Fremdfirma unterstützt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der Fertigstellungstermin wird verschoben."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Es wird nicht samstags gearbeitet, stattdessen wird der Fertigstellungstermin … verschoben.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-2",
+                  "prompt": "Warum wird der Nachtrag nicht berechnet?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil eine Auseinandersetzung mehr kosten würde als der Betrag."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil die Arbeit nicht ausgeführt wurde."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil der Bauherr recht hat."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… weil der Aufwand einer Auseinandersetzung höher wäre als die 340 Euro.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-3",
+                  "prompt": "Was betont Frau Petrova zum Gerüst?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass die Gerüstfirma gewechselt wird."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass die Sichtprüfung immer dokumentiert werden muss."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass nur sie das Gerüst freigeben darf."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… dass die tägliche Sichtprüfung dokumentiert werden muss, auch wenn nichts zu beanstanden ist.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-4",
+                  "prompt": "Was gilt bei Hitze für die Dacharbeiten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie beginnen erst nachmittags."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie werden ganz ausgesetzt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie werden nach 13 Uhr eingestellt."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Die Dacharbeiten werden nach 13 Uhr eingestellt.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-5",
+                  "prompt": "Warum wird der Bauwagen jetzt abgeschlossen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil zweimal Werkzeug gefehlt hat."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Wegen der Versicherung."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil der Bauherr es verlangt hat."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… seit dort zweimal Werkzeug gefehlt hat.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen-schreiben",
+      "title": "Lesen und Schreiben",
+      "durationMinutes": 20,
+      "description": "Ihre Teamleitung leitet Ihnen die Nachricht einer Kundin oder eines Kunden weiter und sagt Ihnen, was in Ihrer Antwort stehen soll. Sie beantworten zwei Fragen zu den Texten und schreiben dann die Antwort.",
+      "parts": [
+        {
+          "id": "lesen-schreiben-teil-1",
+          "title": "E-Mail an einen Bauherrn",
+          "instructions": "Lesen Sie beide E-Mails. Beantworten Sie zuerst die zwei Fragen und schreiben Sie danach die Antwort. Gehen Sie dabei auf alle Punkte Ihrer Teamleitung ein.",
+          "blocks": [
+            {
+              "id": "lesen-schreiben-block",
+              "stimuli": [
+                {
+                  "title": "E-Mail 1",
+                  "heading": "Von: G. Petrova (Bauleitung) – Bitte antworten Sie Herrn Wieland",
+                  "text": "Hallo,\n\nbitte antworten Sie noch heute. Herr Wieland ist Privatkunde und hat uns über eine Empfehlung gefunden.\n\nBitte gehen Sie auf Folgendes ein:\n\n1. Entschuldigen Sie die Verzögerung und nennen Sie den Grund: Die Gipsplatten kamen elf Tage später als bestätigt, der Lieferant hatte einen Produktionsausfall.\n2. Nennen Sie den neuen Fertigstellungstermin: Freitag, 4. Juli.\n3. Erklären Sie, dass wir bewusst nicht samstags arbeiten – dafür gäbe es einen Zuschlag, den er zahlen müsste, und die Qualität leidet.\n4. Bitten Sie ihn, bis Montag zu bestätigen, welche Farbe die Türzargen bekommen sollen; sonst verzögert sich der Termin erneut.\n\nG. Petrova"
+                },
+                {
+                  "title": "E-Mail 2",
+                  "heading": "Von: H. Wieland – Bauvorhaben Lindenstraße 8",
+                  "text": "Sehr geehrte Damen und Herren,\n\nheute war ich auf der Baustelle. Vom Trockenbau ist deutlich weniger fertig, als wir im Mai besprochen hatten. Auf meine Frage bekam ich die Auskunft, es fehle Material.\n\nIch habe die Wohnung zum 15. Juli gekündigt und muss ausziehen. Wenn Ihr Termin nicht hält, stehe ich mit zwei Kindern ohne Wohnung da – das ist keine Kleinigkeit für mich.\n\nBitte teilen Sie mir verbindlich mit, wann Sie fertig sind. Und ehrlich gesagt verstehe ich nicht, warum am Samstag niemand arbeitet, wenn Sie in Verzug sind.\n\nMit freundlichen Grüßen\nHelmut Wieland"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "ls-1",
+                  "prompt": "Warum ist der Termin für Herrn Wieland so wichtig?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil er die Handwerker selbst bezahlt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil er die Wohnung zum 15. Juli gekündigt hat."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil er im Urlaub sein wird."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ich habe die Wohnung zum 15. Juli gekündigt und muss ausziehen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "ls-2",
+                  "prompt": "Was sollen Sie laut Bauleitung erklären?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Warum der Preis steigt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Warum ein anderer Lieferant nötig ist."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Warum nicht samstags gearbeitet wird."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Erklären Sie, dass wir bewusst nicht samstags arbeiten …“"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "ls-3",
+                  "prompt": "Schreiben Sie die Antwort an Herrn Wieland.",
+                  "criteria": [
+                    "Entschuldigung und Grund für die Verzögerung",
+                    "Verbindlicher neuer Termin: Freitag, 4. Juli",
+                    "Erklärung, warum nicht samstags gearbeitet wird",
+                    "Bitte: Farbe der Türzargen bis Montag bestätigen"
+                  ],
+                  "hints": [
+                    "Nehmen Sie seine Sorge ernst – es geht nicht um Bequemlichkeit, sondern um eine gekündigte Wohnung.",
+                    "Erklären Sie die Samstagsfrage sachlich, nicht abwehrend.",
+                    "Machen Sie deutlich, dass die Bitte am Ende den Termin schützt, nicht bloß Ihre Planung."
+                  ],
+                  "minWords": 100,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrter Herr Wieland,\n\nvielen Dank für Ihre offene Nachricht. Dass Sie sich Sorgen machen, kann ich nach dem, was Sie schreiben, sehr gut nachvollziehen – mit einer gekündigten Wohnung und zwei Kindern ist ein verschobener Termin keine Kleinigkeit.\n\nZunächst zur Ursache: Die Gipsplatten für Ihr Bauvorhaben sind elf Tage später eingetroffen als vom Lieferanten bestätigt. Bei ihm ist eine Produktionsanlage ausgefallen. Das entschuldigt die Verzögerung nicht Ihnen gegenüber – Sie haben den Vertrag mit uns, nicht mit unserem Lieferanten – aber Sie sollen wissen, dass es nicht an unserer Planung lag.\n\nDen neuen Fertigstellungstermin nenne ich Ihnen verbindlich: Freitag, der 4. Juli. Damit bleiben bis zu Ihrem Umzug elf Tage Puffer.\n\nZu Ihrer Frage wegen des Samstags: Wir könnten samstags arbeiten, aber ich rate davon ab. Erstens fallen dann Wochenendzuschläge an, die Ihnen in Rechnung gestellt würden. Zweitens – und das wiegt für mich schwerer – arbeitet dasselbe Team dann elf Tage ohne freien Tag. Bei Trockenbau sieht man das später an den Fugen. Der 4. Juli ist auch ohne Samstagsarbeit sicher zu halten.\n\nEine Bitte hätte ich: Könnten Sie mir bis Montag mitteilen, welche Farbe die Türzargen bekommen sollen? Der Maler ist ab Dienstag eingeplant, und ohne Ihre Entscheidung müsste ich ihn umbuchen – dann wäre der Termin doch wieder in Gefahr.\n\nMit freundlichen Grüßen\nN. Abadi\nBüro Lindenstraße"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 20,
+      "description": "Sie hören Gespräche aus dem Arbeitsalltag, eine Präsentation und telefonische Mitteilungen. Insgesamt bearbeiten Sie 19 Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Gespräche am Arbeitsplatz",
+          "instructions": "Sie hören drei kurze Gespräche. Zu jedem Gespräch gibt es zwei Aufgaben: Entscheiden Sie zuerst, ob die Aussage richtig oder falsch ist, und wählen Sie dann die richtige Antwort. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-05/hoeren-teil-1.mp3",
+            "transcript": "Gespräch 1\nFrau Petrova: Herr Yilmaz, wegen der Nachträge. Ab jetzt das Formular, ohne Unterschrift nichts.\n\nHerr Yilmaz: Das ist mir klar. Aber was mache ich, wenn der Bauherr nicht da ist und die Arbeit sonst stehen bleibt?\n\nFrau Petrova: Dann rufen Sie mich an. Ich entscheide, ob wir das Risiko eingehen.\n\nHerr Yilmaz: Und wenn Sie nicht drangehen?\n\nFrau Petrova: Dann wird nicht ausgeführt. So einfach ist das, auch wenn es unbequem ist.\n\nGespräch 2\nFrau Radtke: Ich wollte noch etwas zur Hitze sagen. Sechs Uhr Beginn ist gut, aber wir haben ein Problem.\n\nFrau Abadi: Welches?\n\nFrau Radtke: Zwei aus meinem Team fahren mit dem Bus. Der erste kommt um zehn nach sechs an.\n\nFrau Abadi: Dann fangen die beiden eben zwanzig nach sechs an. Das ist doch kein Drama.\n\nFrau Radtke: Von mir aus. Ich wollte nur nicht, dass es später heißt, sie kommen zu spät.\n\nGespräch 3\nFrau Abadi: Herr Yilmaz, Sie hatten nach der Anerkennung gefragt. Ich habe angerufen.\n\nHerr Yilmaz: Und?\n\nFrau Abadi: Ohne Unterlagen geht das normale Verfahren nicht. Aber es gibt die Qualifikationsanalyse – da zeigen Sie praktisch, was Sie können.\n\nHerr Yilmaz: Kostet das etwas?\n\nFrau Abadi: Für Sie nicht, das übernimmt die Arbeitsagentur. Sie müssen nur einen Termin machen, und der dauert etwa drei Monate Wartezeit."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-gespraech-1",
+              "prompt": "Gespräch 1",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-1",
+                  "statement": "Herr Yilmaz darf im Zweifel selbst entscheiden.",
+                  "solution": false,
+                  "explanation": "„Dann rufen Sie mich an. Ich entscheide …“ – und ohne Erreichbarkeit wird nicht ausgeführt."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Was soll Herr Yilmaz tun, wenn der Bauherr fehlt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Frau Petrova anrufen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Arbeit trotzdem ausführen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Arbeit am nächsten Tag nachholen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Dann rufen Sie mich an.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-gespraech-2",
+              "prompt": "Gespräch 2",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-3",
+                  "statement": "Herr Yilmaz muss etwa drei Monate auf einen Termin warten.",
+                  "solution": true,
+                  "explanation": "„Sie müssen nur einen Termin machen, und der dauert etwa drei Monate Wartezeit.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Worum geht es Frau Radtke?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass der Betrieb einen Fahrdienst stellt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass niemand den beiden Verspätung vorwirft."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass die Hitzeregelung entfällt."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ich wollte nur nicht, dass es später heißt, sie kommen zu spät.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-gespraech-3",
+              "prompt": "Gespräch 3",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-5",
+                  "statement": "Herr Yilmaz muss die Qualifikationsanalyse selbst bezahlen.",
+                  "solution": false,
+                  "explanation": "„Für Sie nicht, das übernimmt die Arbeitsagentur.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-6",
+                  "prompt": "Was ist die Qualifikationsanalyse?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Eine schriftliche Prüfung."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Eine Übersetzung der Zeugnisse."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ein praktischer Nachweis der Fähigkeiten."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… da zeigen Sie praktisch, was Sie können.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Was passt zu welchem Gespräch?",
+          "instructions": "Sie hören vier kurze Gespräche. Welcher Satz a–f passt zu welchem Gespräch? Zwei Sätze bleiben übrig. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-05/hoeren-teil-2.mp3",
+            "transcript": "Gespräch 1\nFrau Petrova: Der Seitenschutz hat gefehlt, und niemand hat es gemeldet.\n\nHerr Yilmaz: Ich war Montag als Erster oben. Das geht auf mich, ich habe nicht richtig hingesehen.\n\nFrau Petrova: Danke, dass Sie das so sagen. Dann klären wir, wie wir es künftig verhindern.\n\nGespräch 2\nFrau Abadi: Frau Radtke, wie weit sind Sie mit der Decke im ersten Stock?\n\nFrau Radtke: Zwei Drittel. Morgen Mittag bin ich durch, wenn die Platten reichen.\n\nFrau Abadi: Gut, dann plane ich den Maler für Donnerstag.\n\nGespräch 3\nFrau Petrova: Der Lehrgang wäre am 12. und 13. August.\n\nFrau Radtke: Da geht es leider nicht. Meine Tochter wird eingeschult, das ist der einzige Termin, den ich wirklich nicht verschieben kann.\n\nFrau Petrova: Verstehe. Dann schauen wir nach einem Termin im September.\n\nGespräch 4\nHerr Yilmaz: Wer ist eigentlich auf die Idee mit den zwei Bauwagenschlüsseln gekommen?\n\nFrau Abadi: Frau Radtke.\n\nHerr Yilmaz: Das ist wirklich clever. Seitdem weiß man immer, wer zuletzt drin war, und das Gerede hat aufgehört."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "prompt": "Welcher Satz passt zu welchem Gespräch?",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Jemand übernimmt die Verantwortung für einen Fehler des Teams."
+                },
+                {
+                  "id": "b",
+                  "text": "Jemand fragt nach dem Stand einer Aufgabe."
+                },
+                {
+                  "id": "c",
+                  "text": "Jemand lehnt einen Termin aus privaten Gründen ab."
+                },
+                {
+                  "id": "d",
+                  "text": "Jemand lobt eine Lösung, die jemand anderes gefunden hat."
+                },
+                {
+                  "id": "e",
+                  "text": "Jemand bittet um eine Fortbildung."
+                },
+                {
+                  "id": "f",
+                  "text": "Jemand kündigt eine Preiserhöhung an."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h2-1",
+                  "prompt": "Gespräch 1",
+                  "solution": "a",
+                  "explanation": "Herr Yilmaz übernimmt die Verantwortung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-2",
+                  "prompt": "Gespräch 2",
+                  "solution": "b",
+                  "explanation": "Frau Abadi fragt nach dem Stand der Arbeit."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-3",
+                  "prompt": "Gespräch 3",
+                  "solution": "c",
+                  "explanation": "Frau Radtke lehnt den Termin aus privaten Gründen ab."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-4",
+                  "prompt": "Gespräch 4",
+                  "solution": "d",
+                  "explanation": "Herr Yilmaz lobt die Lösung einer Kollegin."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Eine Präsentation",
+          "instructions": "Sie hören eine Präsentation im Betrieb. Über jeder Aufgabe steht ein Stichwort, damit Sie wissen, an welcher Stelle Sie sich befinden. Wählen Sie die richtige Antwort. Sie hören die Präsentation einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-05/hoeren-teil-3.mp3",
+            "transcript": "Moderator: Wir haben heute Herrn Steinbach von der Handwerkskammer zu Gast. Er berät Betriebe bei der Personalsuche.\n\nHerr Steinbach: Guten Tag. Ich möchte mit einer Zahl anfangen, die viele überrascht: Von den offenen Stellen im Handwerk werden mehr als die Hälfte nie ausgeschrieben. Sie werden über Bekannte besetzt. Das ist bequem, aber es hat einen Preis.\n\nHerr Steinbach: Der Preis ist, dass ein bestimmter Teil der Bewerber gar nicht erreicht wird. Vor allem Menschen, die neu in Deutschland sind, haben schlicht kein Netzwerk. Sie könnten die Arbeit, aber sie erfahren nichts von der Stelle.\n\nHerr Steinbach: Wir haben achtzig Betriebe begleitet, die ihre Stellen anders besetzt haben. Das Ergebnis ist eindeutig, aber nicht dort, wo man es vermutet: Die Qualität der Bewerbungen war nicht besser. Die Zahl war höher – im Schnitt sieben statt zwei.\n\nHerr Steinbach: Der wichtigste einzelne Faktor war übrigens nicht die Anzeige, sondern etwas anderes: ob im Text eine konkrete Person mit Namen und Telefonnummer stand. Anzeigen mit Ansprechpartner bekamen dreimal so viele Rückmeldungen.\n\nHerr Steinbach: Was rate ich Ihnen? Schreiben Sie die Stelle aus, auch wenn Sie glauben, jemanden zu kennen. Und schreiben Sie hinein, wen man anrufen kann. Das kostet Sie zehn Minuten und bringt mehr als jede Prämie für Mitarbeiterempfehlungen."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-a",
+              "prompt": "AUSGANGSZAHL",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-1",
+                  "prompt": "Was sagt Herr Steinbach über offene Stellen im Handwerk?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Mehr als die Hälfte wird nie ausgeschrieben."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die meisten bleiben über ein Jahr unbesetzt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie werden fast nur online veröffentlicht."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Von den offenen Stellen im Handwerk werden mehr als die Hälfte nie ausgeschrieben.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-b",
+              "prompt": "FOLGE",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Wen erreicht die Besetzung über Bekannte nicht?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ältere Bewerber."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Menschen ohne Netzwerk, etwa Neuzugewanderte."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Bewerber aus anderen Bundesländern."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Vor allem Menschen, die neu in Deutschland sind, haben schlicht kein Netzwerk.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-c",
+              "prompt": "ERGEBNIS",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-3",
+                  "prompt": "Was änderte sich bei den achtzig begleiteten Betrieben?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Qualität der Bewerbungen stieg."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Einstellungen dauerten länger."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Zahl der Bewerbungen stieg."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Die Qualität der Bewerbungen war nicht besser. Die Zahl war höher.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-d",
+              "prompt": "ENTSCHEIDEND",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Welcher Faktor war am wichtigsten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ein Ansprechpartner mit Namen und Telefonnummer."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Höhe des angegebenen Lohns."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ein Foto des Betriebs."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Anzeigen mit Ansprechpartner bekamen dreimal so viele Rückmeldungen.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-4",
+          "title": "Teil 4 – Telefonische Mitteilungen",
+          "instructions": "Sie hören fünf Nachrichten auf dem Anrufbeantworter. Wählen Sie zu jeder Nachricht die richtige Antwort. Sie hören jede Nachricht einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-05/hoeren-teil-4.mp3",
+            "transcript": "Mitteilung 1\nHerr Steinbach: Guten Tag, Steinbach von der Handwerkskammer. Sie hatten nach der Musteranzeige gefragt. Ich schicke sie Ihnen, aber ein Hinweis vorweg: Übernehmen Sie den Text nicht eins zu eins. Wenn zwanzig Betriebe dieselbe Anzeige schalten, wirkt keine davon. Nehmen Sie die Struktur und schreiben Sie Ihre eigenen Sätze.\n\nMitteilung 2\nFrau Radtke: Radtke hier. Zwei Sachen: Die Platten sind gekommen, alle 120 Stück, wir sind ab morgen wieder im Plan. Und ich brauche jemanden für Freitag – mein Auszubildender hat einen Berufsschultermin, den ich übersehen hatte. Meldet euch bitte, wer kann.\n\nMitteilung 3\nHerr Yilmaz: Hallo, Yilmaz. Ich habe jetzt den Termin für die Qualifikationsanalyse – am 8. September, ganztägig. Ich möchte den auf keinen Fall verschieben, ich habe drei Monate darauf gewartet. Könnt ihr mir den Tag freihalten? Ich nehme auch Urlaub, wenn es nicht anders geht.\n\nMitteilung 4\nFrau Abadi: Abadi aus dem Büro. Wichtig für alle: Herr Wieland hat die Farbe der Türzargen bestätigt, RAL 9010, also weiß. Der Maler ist für Dienstag gebucht. Wer vorher noch Löcher in den Zargenbereich bohren muss, macht das bitte am Montag – danach ist zu.\n\nMitteilung 5\nFrau Petrova: Petrova hier, kurze Ansage: Ab nächster Woche gilt die neue Fahrzeitregelung. Wer direkt von zu Hause zur Baustelle fährt, trägt trotzdem die Zeit ein, die er vom Betrieb aus gebraucht hätte. Bitte nicht die tatsächliche Fahrzeit von zu Hause – das führt zu Rückfragen bei der Abrechnung."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-4-mitteilung-1",
+              "prompt": "Mitteilung 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-1",
+                  "prompt": "Wovor warnt Herr Steinbach?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Vor zu langen Anzeigen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Davor, den Mustertext wörtlich zu übernehmen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Vor Anzeigen ohne Lohnangabe."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Übernehmen Sie den Text nicht eins zu eins.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-2",
+              "prompt": "Mitteilung 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-2",
+                  "prompt": "Was braucht Frau Radtke?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Mehr Material."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Einen neuen Termin mit der Berufsschule."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Unterstützung am Freitag."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Und ich brauche jemanden für Freitag …“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-3",
+              "prompt": "Mitteilung 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-3",
+                  "prompt": "Worum bittet Herr Yilmaz?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Um einen freien Tag am 8. September."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Um eine Verschiebung des Termins."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Um finanzielle Unterstützung."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Könnt ihr mir den Tag freihalten?“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-4",
+              "prompt": "Mitteilung 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-4",
+                  "prompt": "Was gilt jetzt für die Arbeiten an den Zargen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie werden auf nächste Woche verschoben."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie müssen bis Montag erledigt sein."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie übernimmt der Maler."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Wer vorher noch Löcher … bohren muss, macht das bitte am Montag – danach ist zu.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-5",
+              "prompt": "Mitteilung 5",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-5",
+                  "prompt": "Was soll eingetragen werden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die tatsächliche Fahrzeit von zu Hause."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Gar keine Fahrzeit."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Zeit, die die Fahrt vom Betrieb aus gedauert hätte."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… trägt trotzdem die Zeit ein, die er vom Betrieb aus gebraucht hätte.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "hoeren-schreiben",
+      "title": "Hören und Schreiben",
+      "durationMinutes": 5,
+      "description": "Sie hören eine telefonische Mitteilung und halten das Wichtigste in einer Notiz fest.",
+      "parts": [
+        {
+          "id": "hoeren-schreiben-teil-1",
+          "title": "Notiz zu einem Anruf",
+          "instructions": "Sie sind allein im Büro und nehmen einen Anruf entgegen. Wählen Sie zuerst den Grund des Anrufs. Füllen Sie danach die Notiz für Ihre Kollegin aus. Sie hören die Mitteilung zweimal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-05/hoeren-schreiben.mp3",
+            "transcript": "Frau Lindner: Guten Tag, mein Name ist Beate Lindner, ich rufe an im Auftrag der Hausverwaltung Sonnenhof. Es geht um die Arbeiten in der Ahornstraße 14, die Sie im April durchgeführt haben. Im Treppenhaus lösen sich seit zwei Wochen die Fugen, an mehreren Stellen. Die Gewährleistung läuft ja noch. Ich bitte Sie, sich das kurzfristig anzusehen und uns eine Rückmeldung zu geben. Meine Nummer ist 0 2 1 1 – 6 3 8 2 4 9. Am besten erreichen Sie mich zwischen neun und zwölf. Vielen Dank."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-schreiben-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "hs-1",
+                  "prompt": "Grund für den Anruf",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Angebot"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bestellung / Buchung"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Beschwerde"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Frau Lindner meldet einen Mangel an bereits ausgeführter Arbeit und verweist auf die Gewährleistung."
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-2",
+                  "prompt": "Name",
+                  "inputMode": "single-line",
+                  "musterloesung": "Beate Lindner, Hausverwaltung Sonnenhof"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-3",
+                  "prompt": "Telefonnummer",
+                  "inputMode": "single-line",
+                  "musterloesung": "0211 – 638249"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-4",
+                  "prompt": "Weitere Informationen",
+                  "inputMode": "single-line",
+                  "musterloesung": "Ahornstraße 14, Arbeiten im April. Seit zwei Wochen lösen sich im Treppenhaus an mehreren Stellen die Fugen. Gewährleistung läuft noch."
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-5",
+                  "prompt": "Zu erledigen",
+                  "inputMode": "single-line",
+                  "musterloesung": "Kurzfristig ansehen und zurückmelden. Frau Lindner ist zwischen 9 und 12 Uhr erreichbar."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprachbausteine",
+      "title": "Sprachbausteine und Schreiben",
+      "durationMinutes": 35,
+      "description": "Sie ergänzen zwei Texte aus dem Berufsalltag und schreiben zum Schluss Ihre Meinung zu einem Thema. Insgesamt bearbeiten Sie 13 Aufgaben.",
+      "parts": [
+        {
+          "id": "sprachbausteine-teil-1",
+          "title": "Teil 1 – Wörter aus dem Kasten",
+          "instructions": "Lesen Sie den folgenden Text. Welche Wörter a–j passen am besten in die Lücken? Sie können jedes Wort nur einmal verwenden. Nicht alle Wörter passen in den Text.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-1-block",
+              "inlineGaps": true,
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Weil"
+                },
+                {
+                  "id": "b",
+                  "text": "wenn"
+                },
+                {
+                  "id": "c",
+                  "text": "Falls"
+                },
+                {
+                  "id": "d",
+                  "text": "wohl aber"
+                },
+                {
+                  "id": "e",
+                  "text": "sowie"
+                },
+                {
+                  "id": "f",
+                  "text": "Mitarbeit"
+                },
+                {
+                  "id": "g",
+                  "text": "Meinung"
+                },
+                {
+                  "id": "h",
+                  "text": "obwohl"
+                },
+                {
+                  "id": "i",
+                  "text": "damit"
+                },
+                {
+                  "id": "j",
+                  "text": "trotzdem"
+                }
+              ],
+              "stimuli": [
+                {
+                  "title": "Text",
+                  "heading": "Aushang: Werkzeugausgabe neu geregelt",
+                  "text": "Liebe Kolleginnen und Kollegen,\n\n___(1)___ mehrfach Werkzeug verschwunden ist, ändern wir die Ausgabe.\n\nAb dem 1. August wird jedes Gerät über eine Liste ausgegeben. Sie tragen Ihren Namen ein, ___(2)___ Sie es mitnehmen, und streichen ihn bei der Rückgabe.\n\n___(3)___ ein Gerät beschädigt ist, melden Sie das sofort. Niemand bekommt Ärger für einen Schaden, ___(4)___ für einen verschwiegenen.\n\nDie Ausgabe ist morgens von 6:30 bis 7:00 Uhr geöffnet, ___(5)___ nachmittags von 15:30 bis 16:00 Uhr.\n\nWir bitten um Ihre ___(6)___.\n\nDie Betriebsleitung"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-1",
+                  "prompt": "Lücke (1)",
+                  "solution": "a",
+                  "explanation": "Kausalsatz am Anfang: „Weil mehrfach Werkzeug verschwunden ist …“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-2",
+                  "prompt": "Lücke (2)",
+                  "solution": "b",
+                  "explanation": "Temporal: „wenn Sie es mitnehmen“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-3",
+                  "prompt": "Lücke (3)",
+                  "solution": "c",
+                  "explanation": "Bedingung: „Falls ein Gerät beschädigt ist …“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-4",
+                  "prompt": "Lücke (4)",
+                  "solution": "d",
+                  "explanation": "Gegensatz: kein Ärger für einen Schaden, „wohl aber“ für einen verschwiegenen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-5",
+                  "prompt": "Lücke (5)",
+                  "solution": "e",
+                  "explanation": "Aufzählung zweier Zeiten: „von 6:30 bis 7:00 Uhr sowie nachmittags …“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-6",
+                  "prompt": "Lücke (6)",
+                  "solution": "f",
+                  "explanation": "„Wir bitten um Ihre Mitarbeit“ – die passende Schlussformel."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprachbausteine-teil-2",
+          "title": "Teil 2 – Wörter im Text ergänzen",
+          "instructions": "Lesen Sie die E-Mail und wählen Sie für jede Lücke das passende Wort.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-2-block",
+              "inlineGaps": true,
+              "stimuli": [
+                {
+                  "title": "E-Mail",
+                  "heading": "Antwort auf eine Mängelanzeige",
+                  "text": "Sehr geehrte Frau Lindner,\n\nvielen Dank für Ihren ___(1)___. Es tut uns leid, dass die Fugen im Treppenhaus Mängel aufweisen.\n\nWir werden die Stellen selbstverständlich ___(2)___ der Gewährleistung nachbessern; Kosten entstehen Ihnen dadurch nicht.\n\nUnser Kollege wird sich die Arbeiten am Mittwoch vor Ort ___(3)___. Er meldet sich vorher telefonisch bei Ihnen.\n\nSollte sich zeigen, dass die Ursache in der Feuchtigkeit des Mauerwerks liegt, ___(4)___ wir Ihnen einen gesonderten Vorschlag.\n\nWir bedauern die ___(5)___ und danken Ihnen, dass Sie uns so schnell informiert haben.\n\nMit freundlichen ___(6)___\nN. Abadi"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-1",
+                  "prompt": "Lücke (1) – Nomen",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Hinweis"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Anweisung"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Auftrag"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Sie hat auf einen Mangel hingewiesen – „Vielen Dank für Ihren Hinweis.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-2",
+                  "prompt": "Lücke (2) – Präposition",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "im Auftrag"
+                    },
+                    {
+                      "id": "b",
+                      "text": "im Rahmen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "im Vergleich"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„im Rahmen der Gewährleistung“ – die feste Wendung."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-3",
+                  "prompt": "Lücke (3) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "aussehen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "absehen"
+                    },
+                    {
+                      "id": "c",
+                      "text": "ansehen"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„sich etwas ansehen“ – prüfen, begutachten."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-4",
+                  "prompt": "Lücke (4) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "unterbreiten"
+                    },
+                    {
+                      "id": "b",
+                      "text": "unterschreiben"
+                    },
+                    {
+                      "id": "c",
+                      "text": "unterhalten"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„unterbreiten wir Ihnen einen Vorschlag“ – feste Verbindung."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-5",
+                  "prompt": "Lücke (5) – Nomen",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ungeduld"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Unannehmlichkeiten"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Unterlagen"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Wir bedauern die Unannehmlichkeiten“ – Standardformulierung."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-6",
+                  "prompt": "Lücke (6) – Nomen",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Grüße"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Gruß"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Grüßen"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Mit freundlichen Grüßen“ – Dativ Plural nach „mit“."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprachbausteine-teil-3",
+          "title": "Teil 3 – Ihre Meinung",
+          "instructions": "Lesen Sie die Information und schreiben Sie Ihre Meinung zu dem Thema. Schreiben Sie mindestens 100 Wörter.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-3-block",
+              "stimuli": [
+                {
+                  "title": "Information",
+                  "heading": "Sollten mehr junge Menschen einen handwerklichen Beruf wählen?",
+                  "text": "Im deutschen Handwerk bleiben jedes Jahr tausende Ausbildungsplätze unbesetzt, während die Zahl der Studienanfänger hoch bleibt.\n\nAus einer Befragung von 1.500 Schülerinnen und Schülern der Abschlussklassen:\n\n· 72 % halten handwerkliche Berufe für körperlich zu anstrengend.\n· 44 % glauben, im Handwerk verdiene man dauerhaft weniger als mit Studium.\n· 58 % sagen, ihre Eltern hätten ihnen zu einem Studium geraten.\n· 31 % kennen niemanden persönlich, der einen handwerklichen Beruf ausübt."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "sb3-1",
+                  "prompt": "Schreiben Sie Ihre Meinung zu dem Thema.",
+                  "criteria": [
+                    "Ihre Meinung: Woran liegt das Desinteresse?",
+                    "Eine Begründung mit einem Beispiel",
+                    "Ein Argument der Gegenseite und Ihre Antwort darauf",
+                    "Ein Vorschlag, was sich ändern müsste"
+                  ],
+                  "hints": [
+                    "Auf B2 reicht es nicht zu sagen, was Sie denken – Sie müssen es begründen und ein Gegenargument aufgreifen.",
+                    "Nützlich: „Einerseits … andererseits …“, „Dagegen wird oft eingewandt, dass …“, „Aus meiner Sicht …“.",
+                    "Sie dürfen die Zahlen aus dem Kasten benutzen, müssen es aber nicht."
+                  ],
+                  "minWords": 100,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Ich halte das Handwerk für unterschätzt, aber ich glaube nicht, dass junge Leute einfach falsch informiert sind. Sie reagieren auf etwas, das sie tatsächlich sehen.\n\nAm meisten sagt mir die Zahl, dass 31 Prozent niemanden persönlich kennen, der handwerklich arbeitet. Wer keinen Elektriker in der Familie hat, weiß nicht, wie der Alltag aussieht – und entscheidet sich nicht für etwas, das er sich nicht vorstellen kann. In meinem eigenen Fall war es ein Onkel mit einer Tischlerei; ohne ihn wäre ich vermutlich nie auf die Idee gekommen.\n\nDagegen wird eingewandt, das eigentliche Problem sei das Geld: 44 Prozent glauben, mit Studium verdiene man mehr. Und ganz falsch ist das nicht – über ein ganzes Berufsleben gerechnet liegen Akademiker im Schnitt vorn.\n\nAber der Vergleich hinkt an einer wichtigen Stelle. Wer eine Ausbildung macht, verdient ab siebzehn und hat mit dreiundzwanzig keine Schulden. Wer studiert, beginnt mit fünfundzwanzig bei null. Und ein Meister mit eigenem Betrieb liegt oft über dem, was ein Angestellter mit Master verdient. Diese Rechnung stellt in der Schule nur leider niemand auf.\n\nMein Vorschlag ist deshalb nicht mehr Werbung, sondern mehr Kontakt: verpflichtende Praktika in Handwerksbetrieben, mindestens zwei Wochen, für alle Schulformen – nicht nur an Haupt- und Realschulen. Denn die 72 Prozent, die den Beruf für zu anstrengend halten, haben meistens nie eine moderne Werkstatt von innen gesehen."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Die mündliche Prüfung wird zu zweit abgelegt: Sie sprechen über ein berufliches Thema, führen ein Gespräch mit Ihrer Partnerin oder Ihrem Partner und lösen gemeinsam ein Problem aus dem Betrieb. Dieser Teil wird nicht automatisch bewertet; nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Über ein Thema sprechen",
+          "instructions": "Thema 5: Sprechen Sie über die Arbeitssuche. Zuerst sprechen Sie etwa vier Minuten zusammenhängend über das Thema (Aufgabe A). Danach beantworten Sie eine Frage dazu (Aufgabe B). In der Prüfung übernimmt anschließend die zweite Person denselben Ablauf mit einem eigenen Thema.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "stimuli": [
+                {
+                  "title": "Thema",
+                  "heading": "Thema 5 – Arbeitssuche",
+                  "text": "Sprechen Sie über die Arbeitssuche.\n\nSie können sich an diesen Punkten orientieren:\n\n· Wie sucht man heute eine Stelle?\n· Welche Unterlagen braucht man?\n· Was ist schwierig, besonders am Anfang?\n· Ihre eigenen Erfahrungen"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-a",
+                  "prompt": "Aufgabe A – Sprechen Sie etwa vier Minuten über die Arbeitssuche.",
+                  "hints": [
+                    "Vier Minuten sind lang. Legen Sie sich vorher eine Reihenfolge zurecht und arbeiten Sie die Punkte nacheinander ab.",
+                    "Auf B2 wird Struktur erwartet: „Zunächst …“, „Ein zweiter Punkt ist …“, „Zusammenfassend …“.",
+                    "Belegen Sie Aussagen mit einem eigenen Beispiel – das trägt länger als allgemeine Sätze."
+                  ],
+                  "musterloesung": "Ich möchte über die Arbeitssuche sprechen und dabei vier Punkte ansprechen: wie man heute sucht, welche Unterlagen nötig sind, was schwierig ist, und meine eigenen Erfahrungen.\n\nZunächst zur Suche selbst. Die meisten fangen bei den großen Portalen an, und das ist auch richtig. Aber ich habe gelernt, dass ein großer Teil der Stellen dort gar nicht auftaucht, besonders im Handwerk und in kleineren Betrieben. Diese Stellen findet man über Bekannte, über die Handwerkskammer oder indem man einfach anruft und fragt, ob jemand gesucht wird. Das kostet Überwindung, funktioniert aber erstaunlich oft.\n\nZu den Unterlagen: Man braucht einen Lebenslauf, ein Anschreiben und Zeugnisse. In Deutschland wird der Lebenslauf tabellarisch erwartet, rückwärts geordnet, mit lückenloser Zeitangabe. Lücken sind kein Ausschlussgrund, aber sie sollten erklärbar sein. Bei ausländischen Abschlüssen sollte man die Anerkennung erwähnen – auch wenn sie noch läuft, denn dann sieht der Betrieb, dass man sich darum kümmert.\n\nSchwierig ist am Anfang vor allem eines: die Absagen. Ich habe einundzwanzig Bewerbungen geschrieben und dreizehn Absagen bekommen, auf fünf hat sich nie jemand gemeldet. Man fängt an, sich selbst infrage zu stellen, obwohl das oft nichts mit einem zu tun hat. Und schwierig ist die Sprache: Ich konnte fachlich alles, aber im Vorstellungsgespräch habe ich Wörter gesucht und dadurch unsicher gewirkt.\n\nWas mir geholfen hat, war die Arbeitsprobe. Bei meinem jetzigen Betrieb durfte ich einen Tag mitarbeiten. Nach diesem Tag war die Frage nach den Zeugnissen keine mehr, weil sie gesehen hatten, was ich kann. Ich empfehle das jedem, der Nachweise aus dem Ausland hat.\n\nZusammenfassend würde ich sagen: Nicht nur online suchen, die Unterlagen an das hiesige Format anpassen, und Absagen nicht persönlich nehmen – es sind meistens einfach zu viele Bewerber auf eine Stelle."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp1-b",
+                  "prompt": "Aufgabe B – Antworten Sie auf die Frage: „Was ist bei einem Vorstellungsgespräch besonders wichtig?“",
+                  "hints": [
+                    "Beziehen Sie klar Position und begründen Sie sie – eine Antwort ohne Meinung wirkt auf B2 ausweichend.",
+                    "Greifen Sie ein Gegenargument auf: „Dagegen könnte man einwenden, dass …“",
+                    "Zwei Minuten reichen; wichtiger als Länge ist ein klarer Aufbau."
+                  ],
+                  "musterloesung": "Am wichtigsten finde ich, sich vorher über den Betrieb zu informieren. Nicht auswendig lernen, aber so viel, dass man eine echte Frage stellen kann. Wer fragt „Was macht Ihre Firma eigentlich?“, hat das Gespräch in dem Moment verloren.\n\nDer zweite Punkt ist Ehrlichkeit bei Lücken oder fehlenden Kenntnissen. Wenn ich ein Programm nicht kenne, sage ich das und füge hinzu, wie schnell ich mich sonst eingearbeitet habe. Erfindet man etwas, kommt es spätestens in der zweiten Woche heraus, und dann ist das Vertrauen weg.\n\nDrittens: Man darf selbst Fragen stellen. Nach dem Team, nach den Arbeitszeiten, nach der Einarbeitung. Ein Gespräch, in dem nur eine Seite fragt, ist ein Verhör.\n\nNun könnte man sagen, dass Bewerber in einer schwachen Position sind und froh sein sollten, überhaupt eingeladen zu werden. Bei vielen Stellen stimmt das auch.\n\nAber gerade im Handwerk und in der Pflege ist es inzwischen umgekehrt – die Betriebe suchen händeringend. Und selbst wenn nicht: Wer sich klein macht, wird auch klein behandelt, und zwar über das Gespräch hinaus. Ich würde eher sagen: höflich, aber aufrecht."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Auf eine Aussage reagieren",
+          "instructions": "In diesem Teil führen Sie ein Gespräch. Ihre Gesprächspartnerin oder Ihr Gesprächspartner beginnt mit einer Aussage, Sie reagieren darauf, und daraus entsteht ein Dialog: Stellen Sie Rückfragen, machen Sie Vorschläge, reagieren Sie auf Einwände. Für beide Aussagen zusammen haben Sie etwa drei Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-a",
+              "stimuli": [
+                {
+                  "title": "Aussage 1",
+                  "text": "„Ich habe jetzt zwölf Bewerbungen geschrieben und nur Absagen bekommen. Langsam glaube ich, es liegt an meinem Namen.“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Führen Sie das Gespräch weiter. Sie sind Partner B.",
+                  "hints": [
+                    "Reagieren heißt nicht nur zustimmen: Gehen Sie auf das Gesagte ein und bringen Sie dann etwas Eigenes.",
+                    "Rechnen Sie mit einem Einwand und antworten Sie darauf.",
+                    "Nützlich: „Das kann sein, aber …“, „Hast du schon einmal …?“"
+                  ],
+                  "musterloesung": "Partner A: Ich habe jetzt zwölf Bewerbungen geschrieben und nur Absagen bekommen. Langsam glaube ich, es liegt an meinem Namen.\n\nPartner B: Das kann sein, ich will das gar nicht wegreden – Untersuchungen zeigen, dass es diesen Effekt gibt. Aber bevor du dich darauf festlegst, würde ich etwas anderes prüfen.\n\nPartner A: Was denn?\n\nPartner B: Wie deine Unterlagen aussehen. Zwölf Absagen ohne ein einziges Gespräch – das kann auch am Anschreiben liegen. Schickst du überall dasselbe?\n\nPartner A: Ehrlich gesagt ja, ich tausche nur den Firmennamen.\n\nPartner B: Das merkt man sofort. Ich würde in jedes Anschreiben zwei Sätze über genau diesen Betrieb schreiben – was er macht, warum du dorthin willst.\n\nPartner A: Bei zwölf Bewerbungen ist das viel Arbeit.\n\nPartner B: Dann schreib lieber sechs. Sechs gute bringen mehr als zwölf gleiche, das habe ich selbst erlebt.\n\nPartner A: Und wenn es dann immer noch nur Absagen sind?\n\nPartner B: Dann ruf an und frag nach dem Grund. Die meisten sagen nichts Konkretes, aber einer von fünf sagt dir etwas, das dir wirklich weiterhilft. Und du bleibst im Gedächtnis."
+                }
+              ]
+            },
+            {
+              "id": "sprechen-teil-2-b",
+              "stimuli": [
+                {
+                  "title": "Aussage 2",
+                  "text": "„Mir wurde eine Stelle angeboten, aber der Vertrag ist auf ein Jahr befristet. Soll ich das machen oder weitersuchen?“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Führen Sie das Gespräch weiter. Sie sind Partner B.",
+                  "hints": [
+                    "Hier ist ein persönliches Gespräch gefragt – ermutigen Sie, aber bleiben Sie ehrlich.",
+                    "Fragen Sie zurück und geben Sie einen konkreten Hinweis."
+                  ],
+                  "musterloesung": "Partner A: Mir wurde eine Stelle angeboten, aber der Vertrag ist auf ein Jahr befristet. Soll ich das machen oder weitersuchen?\n\nPartner B: Ich würde annehmen. Eine befristete Stelle ist fast immer besser als keine – auch für die nächste Bewerbung.\n\nPartner A: Aber in einem Jahr stehe ich wieder da, wo ich jetzt bin.\n\nPartner B: Nicht ganz. Dann hast du ein Jahr deutsche Berufserfahrung und ein Zeugnis. Genau das fehlt dir doch gerade.\n\nPartner A: Da ist was dran.\n\nPartner B: Frag aber nach, warum befristet wird. Es gibt einen Unterschied zwischen „wir wachsen und wissen noch nicht wie sehr“ und „wir wollen dich erst mal anschauen“. Das Zweite ist auch in Ordnung, aber dann würde ich nach einem halben Jahr das Gespräch suchen.\n\nPartner A: Kann ich denn über die Befristung verhandeln?\n\nPartner B: Versuchen kannst du es, es kostet nichts. Sag, dass du gern länger bleiben würdest, und frag, unter welchen Bedingungen entfristet wird. Selbst wenn sie Nein sagen, weißt du danach mehr.\n\nPartner A: Und suchen soll ich trotzdem weiter?\n\nPartner B: Nicht aktiv, aber lass dein Profil online. Wenn nach acht Monaten nichts zur Entfristung gesagt wird, fängst du wieder an – dann aber aus einer Stelle heraus, und das ist eine ganz andere Ausgangslage."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Gemeinsam eine Lösung finden",
+          "instructions": "Lesen Sie die Situation. Finden Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner eine Lösung. Machen Sie Vorschläge, gehen Sie auf die Vorschläge der anderen Person ein und einigen Sie sich am Ende. Sie haben dafür etwa vier Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "stimuli": [
+                {
+                  "title": "Situation",
+                  "heading": "Ein Auszubildender wird gesucht",
+                  "text": "Ihr Betrieb hat seit zwei Jahren keinen Auszubildenden mehr gefunden. Die Betriebsleitung bittet Sie und eine Kollegin, Vorschläge zu machen, wie der Betrieb Bewerber erreicht.\n\nStichpunkte:\n\n· Wo und wie soll die Stelle veröffentlicht werden?\n· Was soll in der Anzeige stehen?\n· Wie geht der Betrieb mit Bewerbungen um?\n· Wer kümmert sich, und bis wann?"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Finden Sie gemeinsam eine Lösung und einigen Sie sich auf einen Vorschlag.",
+                  "hints": [
+                    "Einigen heißt nicht, allem zuzustimmen. Ein gutes Gespräch enthält auch einen Gegenvorschlag.",
+                    "Nützlich: „Ich würde vorschlagen, dass …“, „Das sehe ich anders, weil …“, „Können wir uns darauf einigen, dass …?“",
+                    "Fassen Sie am Ende zusammen, wer was macht."
+                  ],
+                  "musterloesung": "Partner A: Fangen wir bei der Anzeige an. Ich würde sie auf den üblichen Portalen schalten und in der Zeitung.\n\nPartner B: In der Zeitung würde ich das Geld sparen. Wer sucht mit sechzehn eine Ausbildung in der gedruckten Zeitung?\n\nPartner A: Die Eltern lesen sie aber, und die reden mit.\n\nPartner B: Das stimmt, daran hatte ich nicht gedacht. Dann eine kleine Anzeige, aber der Schwerpunkt liegt woanders – ich würde direkt zu den Schulen gehen.\n\nPartner A: Zu den Schulen?\n\nPartner B: Ja. Zwei Vormittage, wir bringen Werkzeug mit und lassen die Schüler etwas machen. Herr Steinbach sagt, das wirkt stärker als jede Anzeige, weil viele niemanden kennen, der handwerklich arbeitet.\n\nPartner A: Das kostet uns zwei Arbeitstage.\n\nPartner B: Weniger als eine unbesetzte Ausbildungsstelle, die uns in drei Jahren einen Gesellen fehlen lässt.\n\nPartner A: Gut. Und was schreiben wir in die Anzeige?\n\nPartner B: Auf jeden Fall einen Ansprechpartner mit Namen und Handynummer. Das ist der Punkt mit der größten Wirkung – dreimal so viele Rückmeldungen.\n\nPartner A: Meine Nummer gebe ich nicht heraus.\n\nPartner B: Dann eine Betriebsnummer, aber mit Namen und einem Satz wie „Rufen Sie einfach an, auch mit Zwischenfragen“. Wichtig ist, dass da ein Mensch steht und nicht „bewerbung@“.\n\nPartner A: Einverstanden. Und wenn Bewerbungen kommen?\n\nPartner B: Antworten binnen drei Tagen, immer. Auch bei einer Absage. Wer zwei Wochen wartet, hat die Guten längst verloren.\n\nPartner A: Dann teile ich es so auf: Ich mache die Anzeige und die Portale bis Freitag, du sprichst mit den beiden Schulen.\n\nPartner B: Passt. Und lass uns festlegen, dass jede Bewerbung bei dir und mir gleichzeitig eingeht – dann bleibt keine liegen, wenn einer im Urlaub ist."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

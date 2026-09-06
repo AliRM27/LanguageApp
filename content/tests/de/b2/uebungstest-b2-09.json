@@ -1,0 +1,1473 @@
+{
+  "id": "uebungstest-b2-09",
+  "language": "de",
+  "level": "B2",
+  "title": "Übungstest B2 Beruf – Nr. 9",
+  "description": "Ein vollständiger berufsbezogener Übungstest auf Niveau B2 mit den Teilen Lesen, Lesen und Schreiben, Hören, Hören und Schreiben, Sprachbausteine und Schreiben sowie Sprechen. Themenschwerpunkt: Verkehr und Nahverkehr.",
+  "sections": [
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 45,
+      "description": "Sie lesen Beiträge aus einem Ratgeber, zwei Unterweisungen, Fragen und Tipps aus einer Beratung sowie ein Besprechungsprotokoll. Insgesamt bearbeiten Sie 18 Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Informationen zum Arbeitsmarkt",
+          "instructions": "Sie arbeiten bei einem städtischen Verkehrsbetrieb und betreuen das Infoblatt für Fahrpersonal. Fünf Kolleginnen und Kollegen haben eine Frage gestellt. Welcher der acht Artikel passt zu welcher Person? Jeder Artikel kann nur einmal verwendet werden; drei Artikel passen zu keiner Person.",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-artikel",
+              "stimuli": [
+                {
+                  "title": "Artikel a",
+                  "heading": "Der Führerschein und die Verlängerung",
+                  "text": "Welche Untersuchungen für die Fahrerlaubnis der Klasse D nötig sind, in welchen Abständen sie wiederholt werden, was die Weiterbildung nach Berufskraftfahrerrecht umfasst und wer sie bezahlt."
+                },
+                {
+                  "title": "Artikel b",
+                  "heading": "Nach einem Unfall im Dienst",
+                  "text": "Was Sie an der Unfallstelle tun müssen, welche Meldungen in welcher Reihenfolge erfolgen, warum eine Durchgangsarztvorstellung wichtig ist und welche Fristen für die Unfallanzeige gelten."
+                },
+                {
+                  "title": "Artikel c",
+                  "heading": "Übergriffe im Fahrdienst",
+                  "text": "Wie man deeskalierend reagiert, wann man die Fahrt abbricht, was eine Anzeige bewirkt und welche Unterstützung der Betrieb schuldet. Mit Hinweisen zur Nachbereitung."
+                },
+                {
+                  "title": "Artikel d",
+                  "heading": "Pausen und Lenkzeiten",
+                  "text": "Wie die Pausen im Linienverkehr geregelt sind, was als Wendezeit zählt, warum eine Wendezeit keine Pause ist und wann eine Schicht geteilt werden darf."
+                },
+                {
+                  "title": "Artikel e",
+                  "heading": "Fahrgäste ohne Fahrschein",
+                  "text": "Wie das erhöhte Beförderungsentgelt erhoben wird, welche Angaben aufgenommen werden dürfen, was gilt, wenn jemand keinen Ausweis dabeihat, und wann die Polizei hinzugezogen wird."
+                },
+                {
+                  "title": "Artikel f",
+                  "heading": "Schichtarbeit und Gesundheit",
+                  "text": "Wie sich Wechselschicht auf Schlaf und Kreislauf auswirkt, welche Vorsorgeuntersuchungen angeboten werden müssen und ab welchem Alter man aus der Nachtschicht wechseln kann."
+                },
+                {
+                  "title": "Artikel g",
+                  "heading": "Der Betriebshof im Winter",
+                  "text": "Welche Regeln beim Rangieren bei Glätte gelten, wie Fahrzeuge enteist werden, wer die Freigabe erteilt und was bei Sichtbehinderung zu tun ist."
+                },
+                {
+                  "title": "Artikel h",
+                  "heading": "Beschwerden von Fahrgästen",
+                  "text": "Wie eine Beschwerde bearbeitet wird, was eine Stellungnahme enthalten muss, welche Fristen gelten und warum eine sachliche Darstellung wichtiger ist als eine Rechtfertigung."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Der Führerschein und die Verlängerung"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Nach einem Unfall im Dienst"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Übergriffe im Fahrdienst"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Pausen und Lenkzeiten"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Fahrgäste ohne Fahrschein"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Schichtarbeit und Gesundheit"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Der Betriebshof im Winter"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Beschwerden von Fahrgästen"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l1-1",
+                  "prompt": "Herr Mensah ist auf der Linie 704 von einem Fahrgast beschimpft und bedroht worden. Er fragt, was der Betrieb für ihn tun muss.",
+                  "solution": "c",
+                  "explanation": "Artikel c behandelt Übergriffe, Deeskalation, Anzeige und die Unterstützung durch den Betrieb."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-2",
+                  "prompt": "Frau Okafor steht zwischen zwei Fahrten zwanzig Minuten an der Endhaltestelle und fragt, ob das ihre Pause ist.",
+                  "solution": "d",
+                  "explanation": "Artikel d erklärt ausdrücklich, dass eine Wendezeit keine Pause ist."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-3",
+                  "prompt": "Gegen Herrn Radu ist eine Beschwerde eingegangen; er soll unfreundlich gewesen sein. Er soll eine Stellungnahme schreiben und weiß nicht, wie.",
+                  "solution": "h",
+                  "explanation": "Artikel h behandelt Stellungnahmen, Fristen und warum Sachlichkeit besser wirkt als Rechtfertigung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-4",
+                  "prompt": "Frau Bartsch ist 58 und verträgt die Nachtschichten seit einem Jahr immer schlechter. Sie fragt nach ihren Möglichkeiten.",
+                  "solution": "f",
+                  "explanation": "Artikel f behandelt Vorsorge und den Wechsel aus der Nachtschicht ab einem bestimmten Alter."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-5",
+                  "prompt": "Beim Rangieren auf dem Betriebshof ist gestern ein Spiegel abgerissen worden. Der Kollege fragt, was er jetzt melden muss.",
+                  "solution": "b",
+                  "explanation": "Artikel b behandelt die Meldungen nach einem Unfall im Dienst und die Fristen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Einweisungen und Unterweisungen",
+          "instructions": "Sie lesen zwei Texte aus Ihrem Betrieb. Entscheiden Sie zu jedem Text, ob die Aussage richtig oder falsch ist, und wählen Sie danach die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-text-1",
+              "stimuli": [
+                {
+                  "title": "Text 1",
+                  "heading": "Dienstanweisung: Verhalten bei einem Unfall im Linienverkehr",
+                  "text": "Diese Anweisung gilt für das gesamte Fahrpersonal.\n\nSofort\nFahrzeug sichern, Warnblinker, Fahrgäste ansprechen und nach Verletzten fragen. Verlassen Sie den Fahrerplatz erst, wenn das Fahrzeug gegen Wegrollen gesichert ist.\n\nMeldung\nZuerst die Leitstelle, dann – falls erforderlich – Rettungsdienst und Polizei. Diese Reihenfolge ist wichtig, weil die Leitstelle den Linienbetrieb umleitet und weitere Fahrzeuge aus dem Bereich hält.\n\nAngaben gegenüber Dritten\nGeben Sie Beteiligten Ihren Namen und die Fahrzeugnummer. Äußern Sie sich nicht zur Schuldfrage, auch nicht beiläufig und auch nicht, wenn Sie sicher sind. Das ist keine Unhöflichkeit, sondern Vorgabe der Versicherung.\n\nÄrztliche Vorstellung\nSuchen Sie auch bei leichten Beschwerden einen Durchgangsarzt auf, und zwar am selben Tag. Wer erst nach Tagen geht, hat regelmäßig Schwierigkeiten, den Zusammenhang mit dem Dienst nachzuweisen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l2-1",
+                  "statement": "Auch bei leichten Beschwerden soll man noch am selben Tag zum Durchgangsarzt.",
+                  "solution": true,
+                  "explanation": "„Suchen Sie auch bei leichten Beschwerden einen Durchgangsarzt auf, und zwar am selben Tag.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l2-2",
+                  "prompt": "Was gilt zur Schuldfrage?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Man soll sich nicht dazu äußern."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Man soll den Hergang schildern."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Man soll nur gegenüber der Polizei etwas sagen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Äußern Sie sich nicht zur Schuldfrage, auch nicht beiläufig …“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-2-text-2",
+              "stimuli": [
+                {
+                  "title": "Text 2",
+                  "heading": "Information: Neue Dienstplanregelung ab Dezember",
+                  "text": "Liebe Kolleginnen und Kollegen,\n\nab dem Fahrplanwechsel im Dezember ändern wir die Dienstplanung. Anlass ist eine Befragung, an der sich zwei Drittel von Ihnen beteiligt haben.\n\nWas neu ist\nDer Dienstplan steht künftig sechs Wochen im Voraus fest statt vier. Wunschfrei kann für zwei Tage im Monat beantragt werden und wird verbindlich zugesagt oder abgelehnt – ein „vielleicht“ gibt es nicht mehr.\n\nGeteilte Dienste\nDie Zahl der geteilten Dienste wird um ein Drittel reduziert. Vollständig abschaffen können wir sie nicht, weil der Berufsverkehr morgens und nachmittags nun einmal stattfindet und die Fahrzeuge dazwischen stehen.\n\nTauschbörse\nSie können Dienste künftig direkt untereinander tauschen, ohne Genehmigung, solange beide die erforderliche Qualifikation haben und die Ruhezeit eingehalten wird. Der Tausch wird im System eingetragen und ist damit verbindlich.\n\nWas bleibt\nAn der Zahl der Wochenenddienste ändert sich nichts. Wir wissen, dass das der häufigste Wunsch war, aber die Fahrten müssen gefahren werden."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l2-3",
+                  "statement": "Die geteilten Dienste werden vollständig abgeschafft.",
+                  "solution": false,
+                  "explanation": "„Vollständig abschaffen können wir sie nicht …“ – sie werden um ein Drittel reduziert."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l2-4",
+                  "prompt": "Was gilt für den Diensttausch?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Er muss genehmigt werden."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Er ist ohne Genehmigung möglich, wenn Qualifikation und Ruhezeit stimmen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Er ist nur innerhalb einer Woche möglich."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… ohne Genehmigung, solange beide die erforderliche Qualifikation haben und die Ruhezeit eingehalten wird.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Rahmenbedingungen der Arbeit",
+          "instructions": "In der Sprechstunde des Betriebsrats sind vier Fragen eingegangen. Welcher der sechs Tipps a–f passt zu welcher Frage? Zu einer Frage passt keiner der Tipps – wählen Sie dann „x“.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-tipps",
+              "prompt": "Welcher Tipp passt zu welcher Frage?",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Melden Sie jeden Kontaktschaden, auch den abgerissenen Spiegel auf dem Hof. Ein Schaden, der erst bei der Werkstattdurchsicht auffällt, wird zu Ihrem Problem, nicht zu dem des Betriebs."
+                },
+                {
+                  "id": "b",
+                  "text": "Steigen Sie bei einer Bedrohung nicht aus und diskutieren Sie nicht. Fahrt abbrechen, Türen schließen, Leitstelle – in dieser Reihenfolge und ohne Ausnahme."
+                },
+                {
+                  "id": "c",
+                  "text": "Halten Sie in einer Stellungnahme nur fest, was Sie selbst wahrgenommen haben, mit Uhrzeit und Ort. Vermutungen über die Absichten des Fahrgastes helfen Ihnen nicht."
+                },
+                {
+                  "id": "d",
+                  "text": "Tragen Sie Wendezeiten korrekt ein und nicht als Pause. Wer aus Bequemlichkeit falsch bucht, verliert am Monatsende Zeit, die ihm zusteht."
+                },
+                {
+                  "id": "e",
+                  "text": "Beantragen Sie die arbeitsmedizinische Vorsorge, auch wenn Sie sich gesund fühlen. Sie ist freiwillig, kostet Sie nichts und ist die Grundlage für einen späteren Wechsel aus der Nachtschicht."
+                },
+                {
+                  "id": "f",
+                  "text": "Nehmen Sie bei fehlendem Ausweis nur die Angaben auf, die der Fahrgast macht, und rufen Sie die Polizei erst, wenn die Person die Angaben verweigert."
+                },
+                {
+                  "id": "x",
+                  "text": "Hierzu passt keiner der Tipps."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l3-1",
+                  "prompt": "„Ein Fahrgast ist gestern sehr laut geworden und hat mich bedroht. Ich wollte ihn beruhigen und bin ausgestiegen. War das richtig?“",
+                  "solution": "b",
+                  "explanation": "Tipp b: nicht aussteigen, nicht diskutieren – Fahrt abbrechen, Türen schließen, Leitstelle."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-2",
+                  "prompt": "„Ich soll zu einer Beschwerde Stellung nehmen. Soll ich schreiben, dass der Fahrgast mich provozieren wollte?“",
+                  "solution": "c",
+                  "explanation": "Tipp c: nur eigene Wahrnehmungen, keine Vermutungen über Absichten."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-3",
+                  "prompt": "„Ich buche die zwanzig Minuten an der Endhaltestelle immer als Pause, das ist einfacher. Ist das ein Problem?“",
+                  "solution": "d",
+                  "explanation": "Tipp d: Wendezeit ist keine Pause; falsches Buchen kostet einen selbst Zeit."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-4",
+                  "prompt": "„Mein Fahrzeug hat seit Wochen eine defekte Heizung. Wem melde ich das, wenn die Werkstatt nichts unternimmt?“",
+                  "solution": "x",
+                  "explanation": "Kein Tipp behandelt den Eskalationsweg bei technischen Mängeln. Tipp a betrifft Unfallschäden, nicht liegen gebliebene Reparaturen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-4",
+          "title": "Teil 4 – Aufgaben und Aufgabenverteilung",
+          "instructions": "Lesen Sie das Protokoll der letzten Teambesprechung und die Aufgaben. Welche Antwort passt am besten?",
+          "blocks": [
+            {
+              "id": "lesen-teil-4-protokoll",
+              "stimuli": [
+                {
+                  "title": "Protokoll",
+                  "heading": "Protokoll der Betriebsversammlung Fahrdienst",
+                  "text": "Datum: Mittwoch, 13. November\nUhrzeit: 10:00 – 11:30 Uhr\nOrt: Kantine Betriebshof Nord\nAnwesende: V. Bartsch (Fahrdienstleitung), K. Mensah, A. Okafor, T. Radu, weitere 34 Beschäftigte\nEntschuldigt: keine\nProtokoll: A. Okafor\n\nTagesordnung\nTOP 1 Neue Dienstplanregelung\nTOP 2 Übergriffe im Fahrdienst\nTOP 3 Winterdienst auf dem Betriebshof\nTOP 4 Beschwerdebearbeitung\nTOP 5 Verschiedenes\n\nTOP 1 – Neue Dienstplanregelung\nDie Regelung gilt ab dem Fahrplanwechsel. Frau Bartsch stellt klar, dass die sechs Wochen Vorlauf nicht bedeuten, dass der Plan unveränderlich ist: Bei Krankheit wird weiterhin umgeplant. Neu ist, dass eine Änderung innerhalb der letzten vier Tage nur mit Zustimmung der betroffenen Person erfolgt.\n\nTOP 2 – Übergriffe im Fahrdienst\nIm laufenden Jahr wurden 47 Vorfälle gemeldet, im Vorjahr 31. Der Anstieg ist nach Einschätzung der Leitung überwiegend auf das veränderte Meldeverhalten zurückzuführen – seit der Vereinfachung des Formulars wird deutlich mehr gemeldet. Beschlossen: Nach jedem Vorfall wird von der Leitstelle innerhalb von 24 Stunden angerufen; die Betroffenen entscheiden selbst, ob sie ein Gespräch möchten.\n\nTOP 3 – Winterdienst auf dem Betriebshof\nDie Enteisung beginnt künftig um 3:30 Uhr statt um 4:15 Uhr. Grund sind die verspäteten Ausfahrten der vergangenen beiden Winter. Herr Radu weist darauf hin, dass die Beleuchtung im hinteren Bereich zu schwach ist. Die Technik prüft eine Nachrüstung.\n\nTOP 4 – Beschwerdebearbeitung\nStellungnahmen sind künftig innerhalb von zehn Arbeitstagen abzugeben, bisher waren es fünf. Frau Bartsch begründet dies damit, dass die kurze Frist regelmäßig zu Stellungnahmen geführt hat, die im Ärger geschrieben wurden.\n\nTOP 5 – Verschiedenes\nDie Kaffeemaschine im Aufenthaltsraum Nord wird ersetzt. Die Kosten übernimmt der Betrieb.\n\nNächster Termin: Mittwoch, 11. Dezember, 10:00 Uhr"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-1",
+                  "prompt": "Was ist an der neuen Dienstplanregelung neu?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Plan kann nicht mehr geändert werden."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bei Krankheit wird nicht mehr umgeplant."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Änderungen in den letzten vier Tagen brauchen die Zustimmung der Betroffenen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Neu ist, dass eine Änderung innerhalb der letzten vier Tage nur mit Zustimmung der betroffenen Person erfolgt.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-2",
+                  "prompt": "Worauf führt die Leitung den Anstieg der gemeldeten Vorfälle zurück?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Auf das veränderte Meldeverhalten."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Auf mehr Gewalt im Nahverkehr."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Auf neue Linien in schwierigen Vierteln."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Der Anstieg ist … überwiegend auf das veränderte Meldeverhalten zurückzuführen …“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-3",
+                  "prompt": "Was wurde nach einem Vorfall beschlossen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ein verpflichtendes Gespräch mit der Leitung."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ein Anruf der Leitstelle innerhalb von 24 Stunden."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Eine Woche Dienstbefreiung."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Nach jedem Vorfall wird von der Leitstelle innerhalb von 24 Stunden angerufen …“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-4",
+                  "prompt": "Warum wird die Frist für Stellungnahmen verlängert?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil die Post zu langsam ist."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil mehr Beschwerden eingehen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil kurze Fristen zu Stellungnahmen im Ärger geführt haben."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… dass die kurze Frist regelmäßig zu Stellungnahmen geführt hat, die im Ärger geschrieben wurden.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-5",
+                  "prompt": "Was gilt für die neue Kaffeemaschine?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Betrieb übernimmt die Kosten."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das Team sammelt dafür."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie wird gemietet."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Die Kosten übernimmt der Betrieb.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen-schreiben",
+      "title": "Lesen und Schreiben",
+      "durationMinutes": 20,
+      "description": "Ihre Teamleitung leitet Ihnen die Nachricht einer Kundin oder eines Kunden weiter und sagt Ihnen, was in Ihrer Antwort stehen soll. Sie beantworten zwei Fragen zu den Texten und schreiben dann die Antwort.",
+      "parts": [
+        {
+          "id": "lesen-schreiben-teil-1",
+          "title": "E-Mail an eine Fahrgästin",
+          "instructions": "Lesen Sie beide E-Mails. Beantworten Sie zuerst die zwei Fragen und schreiben Sie danach die Antwort. Gehen Sie dabei auf alle Punkte Ihrer Teamleitung ein.",
+          "blocks": [
+            {
+              "id": "lesen-schreiben-block",
+              "stimuli": [
+                {
+                  "title": "E-Mail 1",
+                  "heading": "Von: V. Bartsch (Fahrdienstleitung) – Bitte antworten Sie Frau Steinert",
+                  "text": "Hallo,\n\nbitte antworten Sie bis morgen. Die Beschwerde ist berechtigt, das haben wir geprüft.\n\nBitte gehen Sie auf Folgendes ein:\n\n1. Entschuldigen Sie sich. Der Bus ist tatsächlich ohne Halt durchgefahren; die Haltestelle war wegen einer Baustelle verlegt, das Fahrpersonal hatte die Information nicht.\n2. Erklären Sie, was wir ändern: Verlegte Haltestellen werden ab sofort zusätzlich im Fahrzeugdisplay angezeigt, nicht nur im Dienstplan.\n3. Erstatten Sie die Taxikosten von 18,40 Euro – sie soll uns dafür die Quittung schicken.\n4. Fragen Sie, ob sie die Linie regelmäßig nutzt; dann würden wir sie über die Baustelle bis Februar auf dem Laufenden halten.\n\nV. Bartsch"
+                },
+                {
+                  "title": "E-Mail 2",
+                  "heading": "Von: R. Steinert – Linie 704 am 8. November",
+                  "text": "Sehr geehrte Damen und Herren,\n\nam Freitag, dem 8. November, habe ich um 6:42 Uhr an der Haltestelle Marienplatz auf die Linie 704 gewartet. Der Bus ist an mir vorbeigefahren, ohne zu halten, obwohl ich am Straßenrand stand und gewinkt habe.\n\nIch arbeite in der Frühschicht in einem Krankenhaus und musste ein Taxi nehmen, um pünktlich zu sein. Das hat 18,40 Euro gekostet.\n\nIch fahre seit elf Jahren mit Ihren Bussen und beschwere mich zum ersten Mal. Aber so etwas darf nicht passieren, wenn Menschen sich auf den Fahrplan verlassen.\n\nMit freundlichen Grüßen\nRegine Steinert"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "ls-1",
+                  "prompt": "Warum musste Frau Steinert ein Taxi nehmen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil der Bus ausgefallen war."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil sie pünktlich zur Frühschicht musste."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil sie zu spät an der Haltestelle war."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ich arbeite in der Frühschicht … und musste ein Taxi nehmen, um pünktlich zu sein.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "ls-2",
+                  "prompt": "Was ist laut Fahrdienstleitung die Ursache?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Bus war überfüllt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Fahrerin hat sie übersehen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Das Fahrpersonal wusste nichts von der verlegten Haltestelle."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… die Haltestelle war wegen einer Baustelle verlegt, das Fahrpersonal hatte die Information nicht.“"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "ls-3",
+                  "prompt": "Schreiben Sie die Antwort an Frau Steinert.",
+                  "criteria": [
+                    "Entschuldigung und Erklärung der Ursache",
+                    "Was künftig geändert wird",
+                    "Erstattung der Taxikosten (Quittung erbeten)",
+                    "Rückfrage: Nutzt sie die Linie regelmäßig?"
+                  ],
+                  "hints": [
+                    "Sie schreiben an eine langjährige Fahrgästin, die sich zum ersten Mal beschwert – das gehört erwähnt.",
+                    "Erklären Sie die Ursache, ohne die Fahrerin bloßzustellen; der Fehler lag in der Information.",
+                    "Die Bitte um die Quittung darf nicht wie eine Hürde klingen."
+                  ],
+                  "minWords": 100,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Frau Steinert,\n\nvielen Dank für Ihre Nachricht – und es tut mir aufrichtig leid, dass Sie an diesem Morgen stehen gelassen wurden. Dass Sie sich nach elf Jahren zum ersten Mal beschweren, sagt mir, dass es ein triftiger Anlass war.\n\nWir haben den Vorgang geprüft. Die Haltestelle Marienplatz ist wegen einer Baustelle seit dem 4. November um etwa achtzig Meter verlegt worden. Diese Information stand im Dienstplan, war der Fahrerin an diesem Morgen aber nicht bekannt – sie hat die Haltestelle deshalb an der alten Position gesucht und ist an Ihnen vorbeigefahren. Der Fehler liegt also nicht bei ihr, sondern in der Art, wie wir solche Änderungen weitergeben.\n\nGenau das haben wir geändert: Verlegte Haltestellen werden ab sofort zusätzlich im Display im Fahrerraum angezeigt, also dort, wo das Fahrpersonal während der Fahrt hinschaut, und nicht nur im Dienstplan, den man vor Schichtbeginn liest.\n\nIhre Taxikosten von 18,40 Euro erstatten wir Ihnen selbstverständlich. Schicken Sie mir dafür bitte die Quittung – ein Foto per E-Mail an diese Adresse genügt völlig, Sie müssen nichts ausdrucken oder mit der Post schicken.\n\nEine Frage hätte ich noch: Fahren Sie die 704 regelmäßig? Die Baustelle dauert voraussichtlich bis Februar, und es kann zu weiteren Änderungen kommen. Wenn Sie möchten, informiere ich Sie darüber per E-Mail, sobald sich etwas ändert.\n\nMit freundlichen Grüßen\nA. Okafor\nFahrdienst"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 20,
+      "description": "Sie hören Gespräche aus dem Arbeitsalltag, eine Präsentation und telefonische Mitteilungen. Insgesamt bearbeiten Sie 19 Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Gespräche am Arbeitsplatz",
+          "instructions": "Sie hören drei kurze Gespräche. Zu jedem Gespräch gibt es zwei Aufgaben: Entscheiden Sie zuerst, ob die Aussage richtig oder falsch ist, und wählen Sie dann die richtige Antwort. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-09/hoeren-teil-1.mp3",
+            "transcript": "Gespräch 1\nFrau Bartsch: Herr Mensah, ich wollte fragen, wie es Ihnen nach dem Vorfall geht.\n\nHerr Mensah: Besser. Ehrlich gesagt war der Anruf am nächsten Tag wichtiger als alles andere.\n\nFrau Bartsch: Möchten Sie ein Gespräch mit der Beratungsstelle?\n\nHerr Mensah: Im Moment nicht. Aber ich hätte gern, dass die Nummer im Aufenthaltsraum hängt.\n\nFrau Bartsch: Das lässt sich machen, das mache ich diese Woche.\n\nGespräch 2\nHerr Radu: Frau Okafor, wegen der Tauschbörse. Ich habe einen Dienst getauscht, aber das System hat es abgelehnt.\n\nFrau Okafor: Mit welcher Begründung?\n\nHerr Radu: Ruhezeit. Ich hätte um 22:40 Feierabend und um 5:10 wieder angefangen.\n\nFrau Okafor: Dann ist die Ablehnung richtig. Das sind keine elf Stunden.\n\nHerr Radu: Ich hatte nur die Stunden im Kopf und nicht die Minuten. Gut, dass das System aufpasst.\n\nGespräch 3\nFrau Okafor: Frau Bartsch, die Enteisung ab halb vier – wer macht das eigentlich?\n\nFrau Bartsch: Der Hofdienst, wie bisher. Nur eben früher.\n\nFrau Okafor: Dann brauchen die eine Person mehr. Zu zweit schaffen die neunzig Fahrzeuge nicht in einer Stunde.\n\nFrau Bartsch: Das habe ich beantragt, aber noch keine Zusage.\n\nFrau Okafor: Ohne die dritte Person bringt der frühere Beginn nichts. Dann stehen wir wieder um sechs am Tor."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-gespraech-1",
+              "prompt": "Gespräch 1",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-1",
+                  "statement": "Herr Mensah fand den Anruf am Tag nach dem Vorfall hilfreich.",
+                  "solution": true,
+                  "explanation": "„Ehrlich gesagt war der Anruf am nächsten Tag wichtiger als alles andere.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Worum bittet Herr Mensah?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass die Nummer der Beratungsstelle ausgehängt wird."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Um einen anderen Linieneinsatz."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Um einen freien Tag."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Aber ich hätte gern, dass die Nummer im Aufenthaltsraum hängt.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-gespraech-2",
+              "prompt": "Gespräch 2",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-3",
+                  "statement": "Das System hat den Tausch zu Unrecht abgelehnt.",
+                  "solution": false,
+                  "explanation": "„Dann ist die Ablehnung richtig. Das sind keine elf Stunden.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Warum wurde der Tausch abgelehnt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Wegen fehlender Qualifikation."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil die Ruhezeit zu kurz gewesen wäre."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil der Tausch zu spät eingetragen wurde."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ruhezeit. Ich hätte um 22:40 Feierabend und um 5:10 wieder angefangen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-gespraech-3",
+              "prompt": "Gespräch 3",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-5",
+                  "statement": "Frau Bartsch hat die zusätzliche Person bereits beantragt.",
+                  "solution": true,
+                  "explanation": "„Das habe ich beantragt, aber noch keine Zusage.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-6",
+                  "prompt": "Was befürchtet Frau Okafor?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass die Enteisung zu früh beginnt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass die Fahrzeuge beschädigt werden."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass es ohne dritte Person wieder Verspätungen gibt."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ohne die dritte Person bringt der frühere Beginn nichts. Dann stehen wir wieder um sechs am Tor.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Was passt zu welchem Gespräch?",
+          "instructions": "Sie hören vier kurze Gespräche. Welcher Satz a–f passt zu welchem Gespräch? Zwei Sätze bleiben übrig. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-09/hoeren-teil-2.mp3",
+            "transcript": "Gespräch 1\nHerr Radu: Wagen 212 zieht beim Bremsen nach rechts. Nicht stark, aber deutlich.\n\nFrau Okafor: Hast du es eingetragen?\n\nHerr Radu: Ja, und ich habe die Werkstatt zusätzlich angerufen. Bei Nässe möchte ich damit nicht fahren.\n\nGespräch 2\nFrau Bartsch: Sie bekommen den Samstag frei, das habe ich mit der Planung geklärt.\n\nHerr Mensah: Vielen Dank. Könnten Sie mir das kurz per Mail schicken?\n\nFrau Bartsch: Natürlich, das mache ich heute noch.\n\nGespräch 3\nFrau Okafor: Ich hatte gestern eine ältere Dame, die ihr Portemonnaie verloren hatte.\n\nHerr Radu: Und?\n\nFrau Okafor: Ein Fahrgast hat es gefunden und ihr nachgebracht, drei Haltestellen weiter. Das hat mir den ganzen Tag gerettet.\n\nGespräch 4\nFrau Bartsch: In der Beschwerde steht, Sie hätten die Tür vor der Fahrgästin geschlossen.\n\nHerr Radu: So war es nicht. Die Tür war zu, und sie kam erst danach an die Haltestelle gelaufen.\n\nFrau Bartsch: Gut, dann halten wir das so in der Stellungnahme fest."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "prompt": "Welcher Satz passt zu welchem Gespräch?",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Jemand meldet einen technischen Mangel am Fahrzeug."
+                },
+                {
+                  "id": "b",
+                  "text": "Jemand bietet an, einen Dienst zu tauschen."
+                },
+                {
+                  "id": "c",
+                  "text": "Jemand bittet um eine Bestätigung in Schriftform."
+                },
+                {
+                  "id": "d",
+                  "text": "Jemand berichtet von einem erfreulichen Erlebnis mit einem Fahrgast."
+                },
+                {
+                  "id": "e",
+                  "text": "Jemand widerspricht einer Darstellung."
+                },
+                {
+                  "id": "f",
+                  "text": "Jemand fragt nach dem Weg zu einer Haltestelle."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h2-1",
+                  "prompt": "Gespräch 1",
+                  "solution": "a",
+                  "explanation": "Herr Radu meldet einen technischen Mangel."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-2",
+                  "prompt": "Gespräch 2",
+                  "solution": "c",
+                  "explanation": "Herr Mensah bittet um eine schriftliche Bestätigung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-3",
+                  "prompt": "Gespräch 3",
+                  "solution": "d",
+                  "explanation": "Frau Okafor berichtet von einem erfreulichen Erlebnis."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-4",
+                  "prompt": "Gespräch 4",
+                  "solution": "e",
+                  "explanation": "Herr Radu widerspricht der Darstellung in der Beschwerde."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Eine Präsentation",
+          "instructions": "Sie hören eine Präsentation im Betrieb. Über jeder Aufgabe steht ein Stichwort, damit Sie wissen, an welcher Stelle Sie sich befinden. Wählen Sie die richtige Antwort. Sie hören die Präsentation einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-09/hoeren-teil-3.mp3",
+            "transcript": "Moderatorin: Wir begrüßen Herrn Dr. Talbot. Er forscht zur Belastung im Fahrdienst und stellt heute eine Untersuchung aus dem öffentlichen Nahverkehr vor.\n\nHerr Talbot: Vielen Dank. Ich beginne mit dem, was uns überrascht hat. Wir hatten erwartet, dass die Hauptbelastung im Fahrdienst der Verkehr ist – Staus, Drängler, enge Straßen. Das ist nicht der Fall.\n\nHerr Talbot: Wir haben zwölfhundert Fahrerinnen und Fahrer befragt. Als stärkste Belastung wurde etwas anderes genannt: die Unmöglichkeit, auf die Toilette zu gehen. Vierundsiebzig Prozent nannten das an erster oder zweiter Stelle.\n\nHerr Talbot: Das klingt banal, ist es aber nicht. Wer in einer Achtstundenschicht keine planbare Gelegenheit hat, trinkt weniger. Und wer weniger trinkt, ist unkonzentrierter. Wir sehen einen messbaren Zusammenhang mit der Zahl der Beinaheunfälle.\n\nHerr Talbot: An zweiter Stelle stand übrigens nicht der Verkehr, sondern das Verhalten der Fahrgäste. Der Verkehr selbst kam erst auf Platz vier – hinter dem Schichtwechsel.\n\nHerr Talbot: Was empfehlen wir? Keine teuren Programme. Wir empfehlen, die Wendezeiten so zu legen, dass sie tatsächlich nutzbar sind, und an jeder Endhaltestelle eine zugängliche Toilette sicherzustellen. Das ist unspektakulär, aber es wirkt schneller als jede Schulung zur Stressbewältigung."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-a",
+              "prompt": "ERWARTUNG",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-1",
+                  "prompt": "Was hatten die Forscher als Hauptbelastung erwartet?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Den Verkehr."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Fahrgäste."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Schichtarbeit."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Wir hatten erwartet, dass die Hauptbelastung im Fahrdienst der Verkehr ist … Das ist nicht der Fall.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-b",
+              "prompt": "ERGEBNIS",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Was wurde als stärkste Belastung genannt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Zeitdruck im Fahrplan."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die fehlende Möglichkeit, auf die Toilette zu gehen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Länge der Schichten."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Als stärkste Belastung wurde etwas anderes genannt: die Unmöglichkeit, auf die Toilette zu gehen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-c",
+              "prompt": "ZUSAMMENHANG",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-3",
+                  "prompt": "Welche Folge beschreibt Herr Talbot?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Betroffenen werden häufiger krank."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Betroffenen kündigen früher."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Betroffenen trinken weniger und sind unkonzentrierter."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… trinkt weniger. Und wer weniger trinkt, ist unkonzentrierter.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-d",
+              "prompt": "EMPFEHLUNG",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Was empfiehlt er?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nutzbare Wendezeiten und Toiletten an den Endhaltestellen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Schulungen zur Stressbewältigung."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Kürzere Schichten."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… die Wendezeiten so zu legen, dass sie tatsächlich nutzbar sind, und an jeder Endhaltestelle eine zugängliche Toilette sicherzustellen.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-4",
+          "title": "Teil 4 – Telefonische Mitteilungen",
+          "instructions": "Sie hören fünf Nachrichten auf dem Anrufbeantworter. Wählen Sie zu jeder Nachricht die richtige Antwort. Sie hören jede Nachricht einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-09/hoeren-teil-4.mp3",
+            "transcript": "Mitteilung 1\nHerr Talbot: Guten Tag, Talbot hier. Sie hatten gefragt, ob wir die Befragung auch bei Ihnen machen können. Ja, gern – allerdings nur, wenn die Ergebnisse anschließend im Betrieb veröffentlicht werden. Wir machen keine Untersuchungen, deren Ergebnis in einer Schublade landet. Das müsste die Geschäftsführung vorher zusagen.\n\nMitteilung 2\nFrau Steinert: Guten Tag, hier ist Regine Steinert. Die Quittung habe ich Ihnen gestern geschickt. Und ja, ich fahre die 704 jeden Werktag um 6:42 Uhr. Über Informationen zur Baustelle wäre ich dankbar. Danke auch für die ausführliche Erklärung – dass Sie die Fahrerin nicht einfach schuldig gesprochen haben, fand ich anständig.\n\nMitteilung 3\nHerr Mensah: Mensah hier. Ich habe die Nummer der Beratungsstelle für den Aushang. Aber mir ist noch etwas eingefallen: Im Aufenthaltsraum Süd hängt noch die alte Nummer aus, die seit zwei Jahren nicht mehr gilt. Da ruft jemand im Ernstfall an und erreicht niemanden. Bitte kümmert euch darum.\n\nMitteilung 4\nFrau Okafor: Okafor hier. Zur Enteisung: Die dritte Person ist genehmigt, ab dem 1. Dezember. Damit ist die Sache für mich erledigt. Ich würde trotzdem vorschlagen, dass wir nach dem ersten Frost einmal messen, wie lange es wirklich dauert – dann diskutieren wir nächstes Jahr nicht wieder ins Blaue.\n\nMitteilung 5\nFrau Bartsch: Bartsch hier, eine Information für alle: Die Toiletten an den Endhaltestellen Waldfriedhof und Hafen bekommen ab Januar ein Schloss mit unserem Dienstschlüssel. Bisher waren sie tagsüber offen und abends zu – genau dann, wenn die Spätschicht dort steht. Das war lange bekannt, und es tut mir leid, dass es so lange gedauert hat."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-4-mitteilung-1",
+              "prompt": "Mitteilung 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-1",
+                  "prompt": "Welche Bedingung stellt Herr Talbot?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Es müssen mindestens 500 Personen teilnehmen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Ergebnisse müssen veröffentlicht werden."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Befragung muss anonym sein."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… nur, wenn die Ergebnisse anschließend im Betrieb veröffentlicht werden.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-2",
+              "prompt": "Mitteilung 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-2",
+                  "prompt": "Was teilt Frau Steinert mit?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie hat die Quittung verloren."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie möchte keine weiteren Nachrichten."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie fährt die Linie täglich und möchte informiert werden."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… ich fahre die 704 jeden Werktag um 6:42 Uhr. Über Informationen zur Baustelle wäre ich dankbar.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-3",
+              "prompt": "Mitteilung 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-3",
+                  "prompt": "Worauf weist Herr Mensah hin?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass im Aufenthaltsraum Süd eine veraltete Nummer aushängt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass die Beratungsstelle nicht erreichbar ist."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass der Aushang fehlt."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Im Aufenthaltsraum Süd hängt noch die alte Nummer aus, die seit zwei Jahren nicht mehr gilt.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-4",
+              "prompt": "Mitteilung 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-4",
+                  "prompt": "Was schlägt Frau Okafor zusätzlich vor?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Eine vierte Person zu beantragen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Zeit nach dem ersten Frost zu messen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Enteisung noch früher zu beginnen."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… dass wir nach dem ersten Frost einmal messen, wie lange es wirklich dauert.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-5",
+              "prompt": "Mitteilung 5",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-5",
+                  "prompt": "Was ändert sich an den Toiletten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie werden abgeschlossen und sind nicht mehr nutzbar."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie werden neu gebaut."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie sind mit dem Dienstschlüssel auch abends zugänglich."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… bekommen ab Januar ein Schloss mit unserem Dienstschlüssel“, weil sie abends geschlossen waren."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "hoeren-schreiben",
+      "title": "Hören und Schreiben",
+      "durationMinutes": 5,
+      "description": "Sie hören eine telefonische Mitteilung und halten das Wichtigste in einer Notiz fest.",
+      "parts": [
+        {
+          "id": "hoeren-schreiben-teil-1",
+          "title": "Notiz zu einem Anruf",
+          "instructions": "Sie sind allein im Büro und nehmen einen Anruf entgegen. Wählen Sie zuerst den Grund des Anrufs. Füllen Sie danach die Notiz für Ihre Kollegin aus. Sie hören die Mitteilung zweimal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-09/hoeren-schreiben.mp3",
+            "transcript": "Herr Petrescu: Guten Tag, mein Name ist Dorin Petrescu, ich rufe für die Grundschule am Stadtpark an. Wir planen für den 22. Mai einen Ausflug und bräuchten einen Bus für 54 Kinder und 6 Begleitpersonen. Abfahrt wäre um acht Uhr an der Schule, zurück gegen sechzehn Uhr. Können Sie so etwas anbieten und was würde das kosten? Bitte rufen Sie mich zurück unter 0 2 1 1 – 4 0 9 6 3 3. Ich bin nachmittags ab vierzehn Uhr im Sekretariat. Vielen Dank."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-schreiben-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "hs-1",
+                  "prompt": "Grund für den Anruf",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Angebot"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bestellung / Buchung"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Beschwerde"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Herr Petrescu möchte einen Bus für einen bestimmten Termin reservieren – eine Buchung bzw. Anfrage nach einem Angebot, keine Beschwerde."
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-2",
+                  "prompt": "Name",
+                  "inputMode": "single-line",
+                  "musterloesung": "Dorin Petrescu, Grundschule am Stadtpark"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-3",
+                  "prompt": "Telefonnummer",
+                  "inputMode": "single-line",
+                  "musterloesung": "0211 – 409633"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-4",
+                  "prompt": "Weitere Informationen",
+                  "inputMode": "single-line",
+                  "musterloesung": "Bus für 54 Kinder und 6 Begleitpersonen am 22. Mai. Abfahrt 8 Uhr an der Schule, Rückkehr gegen 16 Uhr. Preis gewünscht."
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-5",
+                  "prompt": "Zu erledigen",
+                  "inputMode": "single-line",
+                  "musterloesung": "Zurückrufen, nachmittags ab 14 Uhr im Sekretariat. Verfügbarkeit und Preis klären."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprachbausteine",
+      "title": "Sprachbausteine und Schreiben",
+      "durationMinutes": 35,
+      "description": "Sie ergänzen zwei Texte aus dem Berufsalltag und schreiben zum Schluss Ihre Meinung zu einem Thema. Insgesamt bearbeiten Sie 13 Aufgaben.",
+      "parts": [
+        {
+          "id": "sprachbausteine-teil-1",
+          "title": "Teil 1 – Wörter aus dem Kasten",
+          "instructions": "Lesen Sie den folgenden Text. Welche Wörter a–j passen am besten in die Lücken? Sie können jedes Wort nur einmal verwenden. Nicht alle Wörter passen in den Text.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-1-block",
+              "inlineGaps": true,
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Seit"
+                },
+                {
+                  "id": "b",
+                  "text": "direkt"
+                },
+                {
+                  "id": "c",
+                  "text": "damit"
+                },
+                {
+                  "id": "d",
+                  "text": "Falls"
+                },
+                {
+                  "id": "e",
+                  "text": "und"
+                },
+                {
+                  "id": "f",
+                  "text": "Aufmerksamkeit"
+                },
+                {
+                  "id": "g",
+                  "text": "Meinung"
+                },
+                {
+                  "id": "h",
+                  "text": "obwohl"
+                },
+                {
+                  "id": "i",
+                  "text": "sodass"
+                },
+                {
+                  "id": "j",
+                  "text": "bereits"
+                }
+              ],
+              "stimuli": [
+                {
+                  "title": "Text",
+                  "heading": "Aushang: Baustelle auf der Linie 704",
+                  "text": "Liebe Kolleginnen und Kollegen,\n\n___(1)___ dem 4. November ist die Haltestelle Marienplatz verlegt.\n\nDie Ersatzhaltestelle befindet sich achtzig Meter stadtauswärts, ___(2)___ vor der Apotheke. Bitte fahren Sie diese Position genau an, ___(3)___ wartende Fahrgäste Sie sehen können.\n\n___(4)___ Sie die Linie zum ersten Mal fahren, schauen Sie sich die Position vorher auf dem Plan an.\n\nDie Änderung gilt voraussichtlich bis Februar, ___(5)___ es kann zu weiteren Verlegungen kommen.\n\nWir danken für Ihre ___(6)___.\n\nDie Fahrdienstleitung"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-1",
+                  "prompt": "Lücke (1)",
+                  "solution": "a",
+                  "explanation": "„Seit dem 4. November“ – Beginn in der Vergangenheit, bis heute gültig."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-2",
+                  "prompt": "Lücke (2)",
+                  "solution": "b",
+                  "explanation": "„direkt vor der Apotheke“ – genaue Ortsangabe."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-3",
+                  "prompt": "Lücke (3)",
+                  "solution": "c",
+                  "explanation": "Finalsatz: „damit wartende Fahrgäste Sie sehen können“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-4",
+                  "prompt": "Lücke (4)",
+                  "solution": "d",
+                  "explanation": "Bedingung: „Falls Sie die Linie zum ersten Mal fahren …“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-5",
+                  "prompt": "Lücke (5)",
+                  "solution": "e",
+                  "explanation": "Anschluss: „bis Februar, und es kann zu weiteren Verlegungen kommen“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-6",
+                  "prompt": "Lücke (6)",
+                  "solution": "f",
+                  "explanation": "„Wir danken für Ihre Aufmerksamkeit.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprachbausteine-teil-2",
+          "title": "Teil 2 – Wörter im Text ergänzen",
+          "instructions": "Lesen Sie die E-Mail und wählen Sie für jede Lücke das passende Wort.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-2-block",
+              "inlineGaps": true,
+              "stimuli": [
+                {
+                  "title": "E-Mail",
+                  "heading": "Antwort auf eine Anfrage",
+                  "text": "Sehr geehrter Herr Petrescu,\n\nvielen Dank für Ihre Anfrage ___(1)___ 6. März.\n\nFür den 22. Mai können wir Ihnen einen Reisebus mit 60 Sitzplätzen ___(2)___ stellen.\n\nDer Preis ___(3)___ 780 Euro für den gesamten Tag, einschließlich Fahrer, Kraftstoff und Parkgebühren. Wartezeiten am Ziel sind darin ___(4)___.\n\nBitte teilen Sie uns bis zum 30. April mit, ob Sie das Angebot annehmen möchten. Danach können wir die ___(5)___ nicht mehr garantieren.\n\nFür Rückfragen ___(6)___ ich Ihnen gern zur Verfügung.\n\nMit freundlichen Grüßen\nA. Okafor"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-1",
+                  "prompt": "Lücke (1) – Präposition",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "vom"
+                    },
+                    {
+                      "id": "b",
+                      "text": "am"
+                    },
+                    {
+                      "id": "c",
+                      "text": "zum"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Ihre Anfrage vom 6. März“ – die feste Form bei Datumsangaben zu Schreiben."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-2",
+                  "prompt": "Lücke (2) – Präposition",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "zur Auswahl"
+                    },
+                    {
+                      "id": "b",
+                      "text": "zur Verfügung"
+                    },
+                    {
+                      "id": "c",
+                      "text": "zur Kenntnis"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„zur Verfügung stellen“ – bereitstellen."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-3",
+                  "prompt": "Lücke (3) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "betrifft"
+                    },
+                    {
+                      "id": "b",
+                      "text": "bewegt"
+                    },
+                    {
+                      "id": "c",
+                      "text": "beträgt"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Der Preis beträgt 780 Euro.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-4",
+                  "prompt": "Lücke (4) – Partizip",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "enthalten"
+                    },
+                    {
+                      "id": "b",
+                      "text": "erhalten"
+                    },
+                    {
+                      "id": "c",
+                      "text": "behalten"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„sind darin enthalten“ – im Preis eingeschlossen."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-5",
+                  "prompt": "Lücke (5) – Nomen",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Verantwortung"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Verfügbarkeit"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Vergütung"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Nach der Frist ist der Bus womöglich vergeben – die Verfügbarkeit."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-6",
+                  "prompt": "Lücke (6) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "stelle"
+                    },
+                    {
+                      "id": "b",
+                      "text": "stehle"
+                    },
+                    {
+                      "id": "c",
+                      "text": "stehe"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ich stehe Ihnen gern zur Verfügung.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprachbausteine-teil-3",
+          "title": "Teil 3 – Ihre Meinung",
+          "instructions": "Lesen Sie die Information und schreiben Sie Ihre Meinung zu dem Thema. Schreiben Sie mindestens 100 Wörter.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-3-block",
+              "stimuli": [
+                {
+                  "title": "Information",
+                  "heading": "Sollte der öffentliche Nahverkehr kostenlos sein?",
+                  "text": "In einigen Städten Europas fahren Busse und Bahnen kostenlos. In Deutschland wird darüber seit Jahren diskutiert, auch mit Blick auf den Klimaschutz.\n\nAus einer Befragung von 2.400 Personen:\n\n· 61 % würden häufiger fahren, wenn es kostenlos wäre.\n· 48 % nennen aber Zuverlässigkeit und Takt als wichtiger als den Preis.\n· 37 % besitzen kein Auto und sind auf den Nahverkehr angewiesen.\n· In Städten mit kostenlosem Nahverkehr stieg die Fahrgastzahl im Schnitt um 25 %, der Autoverkehr sank um 4 %."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "sb3-1",
+                  "prompt": "Schreiben Sie Ihre Meinung zu dem Thema.",
+                  "criteria": [
+                    "Ihre Meinung: kostenloser Nahverkehr – ja oder nein?",
+                    "Eine Begründung mit einem Beispiel",
+                    "Ein Argument der Gegenseite und Ihre Antwort darauf",
+                    "Ein Vorschlag für die Praxis"
+                  ],
+                  "hints": [
+                    "Auf B2 reicht es nicht zu sagen, was Sie denken – Sie müssen es begründen und ein Gegenargument aufgreifen.",
+                    "Nützlich: „Einerseits … andererseits …“, „Dagegen wird oft eingewandt, dass …“, „Aus meiner Sicht …“.",
+                    "Sie dürfen die Zahlen aus dem Kasten benutzen, müssen es aber nicht."
+                  ],
+                  "minWords": 100,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Ich bin für einen deutlich günstigeren, aber nicht für einen kostenlosen Nahverkehr – und der Grund steht in den Zahlen selbst.\n\nDie aufschlussreichste Zahl ist für mich nicht, dass 61 Prozent häufiger fahren würden, sondern dass 48 Prozent Zuverlässigkeit und Takt für wichtiger halten als den Preis. Das deckt sich mit dem, was ich täglich erlebe. Bei uns fährt eine Linie alle zwanzig Minuten, und wenn ein Bus ausfällt, sind es vierzig. Wer damit zur Arbeit muss, steigt nicht deshalb aufs Auto um, weil der Bus zu teuer wäre.\n\nBesonders deutlich wird es an dem Vergleich aus den Städten mit kostenlosem Nahverkehr: Die Fahrgastzahl stieg um fünfundzwanzig Prozent, der Autoverkehr sank aber nur um vier. Die zusätzlichen Fahrgäste kommen also überwiegend nicht aus dem Auto, sondern vom Fahrrad und vom Gehweg.\n\nDagegen wird eingewandt, dass Mobilität ein Grundrecht sei und niemand vom Nahverkehr ausgeschlossen werden dürfe, nur weil er arm ist. Dieses Argument halte ich für stark, gerade wegen der 37 Prozent ohne Auto.\n\nAber es spricht für Sozialtarife, nicht für Nulltarife. Wer wenig verdient, soll wenig oder nichts zahlen – wer viel verdient, kann einen fairen Preis tragen. Das eingesparte Geld fehlt sonst genau dort, wo es die 48 Prozent haben wollen: bei Takt, Pünktlichkeit und Personal.\n\nMein Vorschlag wäre deshalb ein günstiges Monatsticket für alle, ein kostenloses für Menschen mit geringem Einkommen, und jeder zusätzliche Euro geht in den Takt. Ein kostenloser Bus, der nicht kommt, nützt niemandem."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Die mündliche Prüfung wird zu zweit abgelegt: Sie sprechen über ein berufliches Thema, führen ein Gespräch mit Ihrer Partnerin oder Ihrem Partner und lösen gemeinsam ein Problem aus dem Betrieb. Dieser Teil wird nicht automatisch bewertet; nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Über ein Thema sprechen",
+          "instructions": "Thema 1: Beschreiben Sie einen Arbeitgeber, für den Sie gearbeitet haben oder arbeiten möchten. Zuerst sprechen Sie etwa vier Minuten zusammenhängend über das Thema (Aufgabe A). Danach beantworten Sie eine Frage dazu (Aufgabe B). In der Prüfung übernimmt anschließend die zweite Person denselben Ablauf mit einem eigenen Thema.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "stimuli": [
+                {
+                  "title": "Thema",
+                  "heading": "Thema 1 – Ein Arbeitgeber",
+                  "text": "Beschreiben Sie einen Arbeitgeber, für den Sie gearbeitet haben oder arbeiten möchten.\n\nSie können sich an diesen Punkten orientieren:\n\n· Branche sowie Produkte und Dienstleistungen\n· Abteilungen und ihre Aufgaben\n· Besonderheiten des Betriebs\n· Warum gerade dieser Arbeitgeber?"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-a",
+                  "prompt": "Aufgabe A – Sprechen Sie etwa vier Minuten über einen Arbeitgeber, für den Sie gearbeitet haben oder arbeiten möchten.",
+                  "hints": [
+                    "Vier Minuten sind lang. Legen Sie sich vorher eine Reihenfolge zurecht und arbeiten Sie die Punkte nacheinander ab.",
+                    "Auf B2 wird Struktur erwartet: „Zunächst …“, „Ein zweiter Punkt ist …“, „Zusammenfassend …“.",
+                    "Belegen Sie Aussagen mit einem eigenen Beispiel – das trägt länger als allgemeine Sätze."
+                  ],
+                  "musterloesung": "Ich möchte über einen Arbeitgeber sprechen, bei dem ich gern arbeiten würde: den städtischen Verkehrsbetrieb. Ich gehe dabei auf vier Punkte ein: die Branche, die Abteilungen, die Besonderheiten und meine Gründe.\n\nZur Branche: Der Betrieb gehört der Stadt und betreibt Busse und Straßenbahnen. Die Dienstleistung klingt einfach – Menschen von A nach B bringen –, aber dahinter steht mehr, als man von außen sieht: Fahrplanung, Werkstätten, Leitstelle, Infrastruktur. Bei uns in der Stadt sind das etwa zwölfhundert Beschäftigte.\n\nZu den Abteilungen: Am sichtbarsten ist der Fahrdienst. Weniger sichtbar, aber genauso wichtig ist die Werkstatt, in der die Fahrzeuge gewartet werden – ohne sie steht morgens nichts auf dem Hof. Dann die Leitstelle, die den Betrieb steuert, Umleitungen anordnet und bei Störungen entscheidet. Und schließlich die Verwaltung mit Fahrplanung, Personal und Kundenservice.\n\nWas ich als Besonderheit sehe: Der Betrieb ist rund um die Uhr im Dienst, sieben Tage die Woche. Das prägt alles. Man arbeitet in Schichten, an Feiertagen, und es gibt keine Woche, in der alle gleichzeitig da sind. Das ist anstrengend, schafft aber auch eine besondere Verbindung – man verlässt sich sehr direkt aufeinander.\n\nEine zweite Besonderheit: Man arbeitet für die Stadt, in der man lebt. Wenn eine Linie ausfällt, merken es die eigenen Nachbarn. Das erzeugt Druck, aber auch Sinn.\n\nWarum gerade dieser Arbeitgeber? Erstens die Sicherheit: Ein städtischer Betrieb wird nicht verkauft und wandert nicht ab. Zweitens die Tarifbindung – ich weiß, was ich in fünf Jahren verdiene. Und drittens, ehrlich gesagt: Ich fahre gern, und ich mag den Kontakt zu Menschen, auch wenn er nicht immer angenehm ist."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp1-b",
+                  "prompt": "Aufgabe B – Antworten Sie auf die Frage: „Was macht einen guten Arbeitgeber für Sie aus?“",
+                  "hints": [
+                    "Beziehen Sie klar Position und begründen Sie sie – eine Antwort ohne Meinung wirkt auf B2 ausweichend.",
+                    "Greifen Sie ein Gegenargument auf: „Dagegen könnte man einwenden, dass …“",
+                    "Zwei Minuten reichen; wichtiger als Länge ist ein klarer Aufbau."
+                  ],
+                  "musterloesung": "Für mich stehen drei Dinge im Vordergrund, und die Reihenfolge hat sich mit den Jahren verändert.\n\nAn erster Stelle steht heute die Planbarkeit. Als ich jünger war, hätte ich das Gehalt genannt. Inzwischen weiß ich, dass ein Dienstplan, der sechs Wochen steht, im Alltag mehr wert ist als hundert Euro mehr. Man kann einen Arzttermin machen, einen Kurs buchen, ein Wochenende zusagen.\n\nAn zweiter Stelle steht, wie ein Betrieb mit Fehlern umgeht. Ob die erste Frage lautet „Wer war das?“ oder „Wie verhindern wir das?“, entscheidet darüber, ob Probleme gemeldet werden oder verschwiegen. Im Fahrdienst kann das sicherheitsrelevant sein.\n\nDrittens die Bezahlung, und zwar vor allem ihre Nachvollziehbarkeit. Ein Tarifvertrag ist mir lieber als eine Verhandlung, weil ich dann nicht das Gefühl habe, jedes Jahr um etwas bitten zu müssen, das der Kollege einfach bekommt.\n\nMan könnte einwenden, dass ich damit vor allem Sicherheit beschreibe und wenig über Entwicklung sage. Das stimmt, und in manchen Branchen wäre das zu wenig.\n\nAber Sicherheit und Entwicklung schließen sich nicht aus. Ein Betrieb, der verlässlich plant, kann auch Weiterbildung ermöglichen – und ich habe es meistens umgekehrt erlebt: Wo alles kurzfristig ist, kommt niemand zur Fortbildung, weil ständig jemand einspringen muss."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Auf eine Aussage reagieren",
+          "instructions": "In diesem Teil führen Sie ein Gespräch. Ihre Gesprächspartnerin oder Ihr Gesprächspartner beginnt mit einer Aussage, Sie reagieren darauf, und daraus entsteht ein Dialog: Stellen Sie Rückfragen, machen Sie Vorschläge, reagieren Sie auf Einwände. Für beide Aussagen zusammen haben Sie etwa drei Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-a",
+              "stimuli": [
+                {
+                  "title": "Aussage 1",
+                  "text": "„Bei uns wird nach jedem Vorfall gefragt, wer schuld war. Ich melde inzwischen lieber nichts mehr. Kannst du das verstehen?“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Führen Sie das Gespräch weiter. Sie sind Partner B.",
+                  "hints": [
+                    "Reagieren heißt nicht nur zustimmen: Gehen Sie auf das Gesagte ein und bringen Sie dann etwas Eigenes.",
+                    "Rechnen Sie mit einem Einwand und antworten Sie darauf.",
+                    "Nützlich: „Verstehen kann ich das, trotzdem …“, „Was wäre, wenn …?“"
+                  ],
+                  "musterloesung": "Partner A: Bei uns wird nach jedem Vorfall gefragt, wer schuld war. Ich melde inzwischen lieber nichts mehr. Kannst du das verstehen?\n\nPartner B: Verstehen kann ich das, trotzdem würde ich es dir abraten. Nicht wegen des Betriebs, sondern wegen dir selbst.\n\nPartner A: Wieso wegen mir?\n\nPartner B: Weil ein Schaden, den du nicht meldest, später in der Werkstatt auffällt. Und dann steht die Frage im Raum, warum du geschwiegen hast. Damit machst du aus einem kleinen Schaden ein Vertrauensproblem.\n\nPartner A: Das stimmt wahrscheinlich.\n\nPartner B: Und es gibt noch etwas: Wenn niemand meldet, sieht die Statistik gut aus, und dann ändert sich nichts. Die Vorfälle sind bei uns letztes Jahr angeblich gestiegen – dabei wurde nur das Formular kürzer.\n\nPartner A: Trotzdem bleibt das Gefühl, dass man sich selbst anzeigt.\n\nPartner B: Das Gefühl kenne ich. Was wäre, wenn wir das in der nächsten Versammlung ansprechen? Nicht als Beschwerde, sondern mit einem Vorschlag: dass bei jeder Meldung zuerst nach der Ursache gefragt wird und erst danach nach der Person.\n\nPartner A: Das würde ich mittragen.\n\nPartner B: Dann bereite ich es vor, und du sagst, was du gerade gesagt hast. Von einem allein klingt es nach Ausrede, von zweien nach einem Problem."
+                }
+              ]
+            },
+            {
+              "id": "sprechen-teil-2-b",
+              "stimuli": [
+                {
+                  "title": "Aussage 2",
+                  "text": "„Ich bin jetzt 58 und komme mit den Nachtschichten immer schlechter zurecht. Aber ich will nicht als der gelten, der schlappmacht.“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Führen Sie das Gespräch weiter. Sie sind Partner B.",
+                  "hints": [
+                    "Hier ist ein persönliches Gespräch gefragt – ermutigen Sie, aber bleiben Sie ehrlich.",
+                    "Fragen Sie zurück und geben Sie einen konkreten Hinweis."
+                  ],
+                  "musterloesung": "Partner A: Ich bin jetzt 58 und komme mit den Nachtschichten immer schlechter zurecht. Aber ich will nicht als der gelten, der schlappmacht.\n\nPartner B: Das hat mit Schlappmachen nichts zu tun. Der Körper verarbeitet Nachtarbeit mit sechzig anders als mit dreißig, das ist keine Meinung, das ist untersucht.\n\nPartner A: Sagen sich die anderen aber trotzdem.\n\nPartner B: Manche vielleicht. Aber von denen fährt in zehn Jahren keiner mehr, und du willst gesund in die Rente kommen.\n\nPartner A: Und was soll ich machen? Ich kann ja schlecht sagen, ich will nicht mehr.\n\nPartner B: Doch, aber über den richtigen Weg. Geh zur arbeitsmedizinischen Vorsorge. Die ist freiwillig und kostet dich nichts, und sie ist die Grundlage, wenn du später aus der Nachtschicht wechseln willst.\n\nPartner A: Erfährt der Betrieb, was da besprochen wird?\n\nPartner B: Nein, nur ob du geeignet bist – nicht die Befunde. Das ist genau der Punkt, den die meisten nicht wissen und deshalb nicht hingehen.\n\nPartner A: Dann melde ich mich an.\n\nPartner B: Mach das. Und sprich parallel mit Frau Bartsch. Ich glaube nicht, dass sie ein Problem damit hat – sie hat lieber jemanden im Tagdienst als jemanden, der in zwei Jahren dauerhaft ausfällt."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Gemeinsam eine Lösung finden",
+          "instructions": "Lesen Sie die Situation. Finden Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner eine Lösung. Machen Sie Vorschläge, gehen Sie auf die Vorschläge der anderen Person ein und einigen Sie sich am Ende. Sie haben dafür etwa vier Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "stimuli": [
+                {
+                  "title": "Situation",
+                  "heading": "Pausen an den Endhaltestellen",
+                  "text": "In Ihrem Betrieb wird seit Langem darüber geklagt, dass die Wendezeiten an den Endhaltestellen zu kurz sind und es dort kaum Toiletten gibt. Die Fahrdienstleitung bittet Sie und eine Kollegin, einen Vorschlag zu erarbeiten.\n\nStichpunkte:\n\n· Wo genau liegt das Problem?\n· Welche Lösungen sind denkbar – kurzfristig und langfristig?\n· Was kostet das, und wer müsste zustimmen?\n· Was schlagen Sie der Leitung vor?"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Finden Sie gemeinsam eine Lösung und einigen Sie sich auf einen Vorschlag.",
+                  "hints": [
+                    "Einigen heißt nicht, allem zuzustimmen. Ein gutes Gespräch enthält auch einen Gegenvorschlag.",
+                    "Nützlich: „Ich würde vorschlagen, dass …“, „Das sehe ich anders, weil …“, „Können wir uns darauf einigen, dass …?“",
+                    "Fassen Sie am Ende zusammen, wer was macht."
+                  ],
+                  "musterloesung": "Partner A: Ich würde beim Fahrplan anfangen. Die Wendezeiten sind mit fünf Minuten kalkuliert, und bei Verspätung bleibt gar nichts übrig.\n\nPartner B: Das ist ein Teil des Problems, aber nicht der ganze. Selbst mit fünfzehn Minuten hilft es nichts, wenn an der Endhaltestelle keine Toilette ist.\n\nPartner A: An der Endhaltestelle Hafen gibt es doch eine.\n\nPartner B: Ja, und die ist ab achtzehn Uhr abgeschlossen. Also genau dann, wenn die Spätschicht dort steht. Das ist typisch: Es gibt sie, aber nicht dann, wenn man sie braucht.\n\nPartner A: Gut, das ist ein Punkt. Was schlagen wir vor?\n\nPartner B: Kurzfristig das Einfachste: ein Schloss, das sich mit unserem Dienstschlüssel öffnen lässt. Das kostet ein paar hundert Euro pro Standort.\n\nPartner A: Und wenn die Toilette der Stadt gehört?\n\nPartner B: Dann braucht es eine Vereinbarung. Aber das ist Verwaltungsarbeit, kein Geld. Ich würde das trennen: Was kostet Geld, und was kostet nur Entscheidungen?\n\nPartner A: Langfristig müssten wir aber an den Fahrplan ran.\n\nPartner B: Ja, und das wird der schwierige Teil. Fünf Minuten mehr Wendezeit auf jeder Linie bedeutet mehr Fahrzeuge und mehr Personal.\n\nPartner A: Dann wird die Leitung ablehnen.\n\nPartner B: Nicht unbedingt, wenn wir es richtig begründen. Es gibt die Untersuchung von Herrn Talbot: Wer nicht zur Toilette kann, trinkt weniger, und das hängt messbar mit Beinaheunfällen zusammen. Das ist kein Komfortthema, das ist Sicherheit.\n\nPartner A: Damit hast du recht. So würde ich es auch aufziehen.\n\nPartner B: Ich würde außerdem vorschlagen, mit zwei Linien anzufangen statt mit allen. Bei der 704 und der 12 sind die Beschwerden am häufigsten.\n\nPartner A: Dann steht der Vorschlag: sofort Schlösser an drei Endhaltestellen, Vereinbarung mit der Stadt für zwei weitere, und ein Versuch mit längeren Wendezeiten auf zwei Linien für ein halbes Jahr.\n\nPartner B: Genau, und wir bitten darum, danach die Krankheitstage und die Beinaheunfälle zu vergleichen. Ich schreibe es bis Montag auf, du sprichst vorher mit dem Betriebsrat, damit wir nicht allein dastehen."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

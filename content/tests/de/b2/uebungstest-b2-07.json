@@ -1,0 +1,1473 @@
+{
+  "id": "uebungstest-b2-07",
+  "language": "de",
+  "level": "B2",
+  "title": "Übungstest B2 Beruf – Nr. 7",
+  "description": "Ein vollständiger berufsbezogener Übungstest auf Niveau B2 mit den Teilen Lesen, Lesen und Schreiben, Hören, Hören und Schreiben, Sprachbausteine und Schreiben sowie Sprechen. Themenschwerpunkt: Produktion und Technik.",
+  "sections": [
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 45,
+      "description": "Sie lesen Beiträge aus einem Ratgeber, zwei Unterweisungen, Fragen und Tipps aus einer Beratung sowie ein Besprechungsprotokoll. Insgesamt bearbeiten Sie 18 Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Informationen zum Arbeitsmarkt",
+          "instructions": "Sie arbeiten in der Fertigung eines Maschinenbaubetriebs und betreuen das schwarze Brett „Technik und Recht“. Fünf Kolleginnen und Kollegen haben eine Frage gestellt. Welcher der acht Artikel passt zu welcher Person? Jeder Artikel kann nur einmal verwendet werden; drei Artikel passen zu keiner Person.",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-artikel",
+              "stimuli": [
+                {
+                  "title": "Artikel a",
+                  "heading": "Wenn die Maschine stillsteht",
+                  "text": "Wie ein Störungsprotokoll aufgebaut sein muss, warum die Ursachensuche vor der Reparatur kommt und wie sich wiederkehrende Störungen erkennen lassen. Mit Beispielen aus drei Betrieben."
+                },
+                {
+                  "title": "Artikel b",
+                  "heading": "Schichtzulagen richtig lesen",
+                  "text": "Wie sich Nacht-, Sonn- und Feiertagszuschläge berechnen, welche Anteile steuerfrei sind und warum die Abrechnung oft anders aussieht, als man erwartet."
+                },
+                {
+                  "title": "Artikel c",
+                  "heading": "Verbesserungsvorschläge einreichen",
+                  "text": "Wie das betriebliche Vorschlagswesen funktioniert, wer über die Prämie entscheidet, wie sie berechnet wird und was gilt, wenn mehrere denselben Vorschlag machen."
+                },
+                {
+                  "title": "Artikel d",
+                  "heading": "Lärmschutz an der Maschine",
+                  "text": "Ab welchem Pegel Gehörschutz bereitgestellt und ab welchem er getragen werden muss, wie oft gemessen wird und warum Ohrstöpsel nicht immer die beste Wahl sind."
+                },
+                {
+                  "title": "Artikel e",
+                  "heading": "Kurzarbeit verstehen",
+                  "text": "Wann ein Betrieb Kurzarbeit anmelden darf, wie das Kurzarbeitergeld berechnet wird, was mit Urlaub und Überstunden passiert und ob man nebenher arbeiten darf."
+                },
+                {
+                  "title": "Artikel f",
+                  "heading": "Vom Facharbeiter zum Techniker",
+                  "text": "Welche Wege es nach der Ausbildung gibt, wie lange sie dauern, was sie kosten und welche Förderung möglich ist. Mit einem Vergleich von Vollzeit und berufsbegleitend."
+                },
+                {
+                  "title": "Artikel g",
+                  "heading": "Neue Maschine, neue Unterweisung",
+                  "text": "Was vor der ersten Inbetriebnahme geschehen muss, wer unterweisen darf, was dokumentiert wird und warum die Betriebsanleitung des Herstellers allein nicht ausreicht."
+                },
+                {
+                  "title": "Artikel h",
+                  "heading": "Der Werkvertrag im Betrieb",
+                  "text": "Woran man erkennt, ob Fremdpersonal zulässig eingesetzt wird, wo die Grenze zur Arbeitnehmerüberlassung liegt und welche Folgen ein Verstoß hat."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Wenn die Maschine stillsteht"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Schichtzulagen richtig lesen"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Verbesserungsvorschläge einreichen"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Lärmschutz an der Maschine"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Kurzarbeit verstehen"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Vom Facharbeiter zum Techniker"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Neue Maschine, neue Unterweisung"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Der Werkvertrag im Betrieb"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l1-1",
+                  "prompt": "Herr Nowotny hat einen Vorschlag gemacht, wie sich das Rüsten um zwölf Minuten verkürzen lässt. Jetzt fragt er, ob und wie viel er dafür bekommt.",
+                  "solution": "c",
+                  "explanation": "Artikel c behandelt das Vorschlagswesen, die Entscheidung über die Prämie und deren Berechnung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-2",
+                  "prompt": "Die Auftragslage ist eingebrochen. Die Geschäftsführung spricht von Kurzarbeit, und im Team fragt man sich, was das für Gehalt und Urlaub bedeutet.",
+                  "solution": "e",
+                  "explanation": "Artikel e behandelt Kurzarbeitergeld, Urlaub, Überstunden und Nebentätigkeit."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-3",
+                  "prompt": "An der neuen Fräse in Halle 1 wurde bisher nur die Anleitung des Herstellers ausgeteilt. Der Meister fragt, ob das reicht.",
+                  "solution": "g",
+                  "explanation": "Artikel g erklärt, dass die Herstelleranleitung allein nicht genügt und was vor der Inbetriebnahme zu tun ist."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-4",
+                  "prompt": "Frau Dobrev hat ihre Ausbildung abgeschlossen und überlegt, ob sie den Techniker in Vollzeit oder neben der Arbeit macht.",
+                  "solution": "f",
+                  "explanation": "Artikel f vergleicht Vollzeit und berufsbegleitend, mit Dauer, Kosten und Förderung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-5",
+                  "prompt": "Seit die zweite Presse läuft, verstehen sich die Kollegen an Platz 4 kaum noch. Sie fragen, ab wann der Betrieb etwas tun muss.",
+                  "solution": "d",
+                  "explanation": "Artikel d nennt die Pegel, ab denen Gehörschutz gestellt bzw. getragen werden muss."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Einweisungen und Unterweisungen",
+          "instructions": "Sie lesen zwei Texte aus Ihrem Betrieb. Entscheiden Sie zu jedem Text, ob die Aussage richtig oder falsch ist, und wählen Sie danach die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-text-1",
+              "stimuli": [
+                {
+                  "title": "Text 1",
+                  "heading": "Betriebsanweisung: Störung an der CNC-Fräse",
+                  "text": "Diese Anweisung gilt für alle Beschäftigten an den Maschinen 4 bis 9.\n\nBei einer Störung\nMaschine über den Not-Halt stillsetzen, nicht über den Hauptschalter. Der Hauptschalter löscht den Fehlerspeicher, und damit geht die Information verloren, die die Instandhaltung braucht.\n\nWas Sie selbst dürfen\nWerkzeugbruch beheben, Späne entfernen, Kühlmittel nachfüllen. Alles Weitere – insbesondere das Öffnen von Schaltschränken – ist ausschließlich der Instandhaltung vorbehalten, unabhängig von Ihrer Qualifikation.\n\nMeldung\nJede Störung wird im System erfasst, auch wenn sie nach zwei Minuten behoben ist. Die kurzen Störungen sind es, an denen man wiederkehrende Ursachen erkennt.\n\nWiederanlauf\nNach einer Störung wird das erste Teil vollständig vermessen, bevor die Serie weiterläuft. Ein Sichtprüfen genügt nicht."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l2-1",
+                  "statement": "Nach einer Störung muss das erste Teil vollständig vermessen werden.",
+                  "solution": true,
+                  "explanation": "„Nach einer Störung wird das erste Teil vollständig vermessen, bevor die Serie weiterläuft. Ein Sichtprüfen genügt nicht.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l2-2",
+                  "prompt": "Warum soll der Hauptschalter nicht benutzt werden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil er den Fehlerspeicher löscht."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil er zu weit entfernt ist."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil er die Maschine beschädigt."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Der Hauptschalter löscht den Fehlerspeicher …“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-2-text-2",
+              "stimuli": [
+                {
+                  "title": "Text 2",
+                  "heading": "Information: Kurzarbeit ab Februar",
+                  "text": "Liebe Kolleginnen und Kollegen,\n\nnach dem Wegfall zweier Großaufträge müssen wir ab Februar Kurzarbeit anmelden. Wir informieren Sie so früh wie möglich, damit Sie planen können.\n\nUmfang\nBetroffen sind die Hallen 1 und 2 mit einer Reduzierung um 40 Prozent, also im Schnitt zwei Tage pro Woche. Die Montage ist nicht betroffen.\n\nWas Sie bekommen\nFür die ausgefallenen Stunden zahlt die Agentur für Arbeit 60 Prozent des Nettoentgelts, mit Kind 67 Prozent. Unser Betrieb stockt auf 80 Prozent auf – das ist freiwillig und auf sechs Monate begrenzt.\n\nWichtig zu wissen\nResturlaub aus dem Vorjahr muss vorher eingebracht werden, das ist gesetzlich so vorgesehen. Ihr Urlaubsanspruch für das laufende Jahr bleibt dagegen unberührt.\n\nNebentätigkeit\nEine Nebentätigkeit ist möglich, muss aber angezeigt werden, weil das Einkommen angerechnet werden kann."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l2-3",
+                  "statement": "Die Aufstockung auf 80 Prozent ist gesetzlich vorgeschrieben.",
+                  "solution": false,
+                  "explanation": "„Unser Betrieb stockt auf 80 Prozent auf – das ist freiwillig …“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l2-4",
+                  "prompt": "Was gilt für den Resturlaub aus dem Vorjahr?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Er verfällt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Er muss vor der Kurzarbeit genommen werden."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Er wird ausgezahlt."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Resturlaub aus dem Vorjahr muss vorher eingebracht werden …“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Rahmenbedingungen der Arbeit",
+          "instructions": "In der Sprechstunde des Betriebsrats sind vier Fragen eingegangen. Welcher der sechs Tipps a–f passt zu welcher Frage? Zu einer Frage passt keiner der Tipps – wählen Sie dann „x“.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-tipps",
+              "prompt": "Welcher Tipp passt zu welcher Frage?",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Notieren Sie bei jeder Störung die Uhrzeit und das laufende Programm. Erst wenn man drei Fälle nebeneinanderlegt, sieht man, ob es die Maschine ist oder das Werkzeug."
+                },
+                {
+                  "id": "b",
+                  "text": "Reichen Sie einen Verbesserungsvorschlag schriftlich ein, auch wenn Sie ihn dem Meister schon erzählt haben. Prämiert wird, was in der Akte liegt, nicht was im Flur besprochen wurde."
+                },
+                {
+                  "id": "c",
+                  "text": "Verlangen Sie Kapselgehörschützer statt Stöpsel, wenn Sie zwischendurch mit Kollegen sprechen müssen. Stöpsel, die ständig herausgenommen werden, schützen praktisch nicht."
+                },
+                {
+                  "id": "d",
+                  "text": "Melden Sie eine Nebentätigkeit während der Kurzarbeit an, bevor Sie anfangen. Eine nachträgliche Meldung kann zur Rückforderung führen, selbst wenn alles andere korrekt war."
+                },
+                {
+                  "id": "e",
+                  "text": "Lassen Sie sich die Unterweisung an einer neuen Maschine quittieren. Ohne Unterschrift gilt sie im Streitfall als nicht erfolgt – zu Ihrem Nachteil, nicht zu dem des Betriebs."
+                },
+                {
+                  "id": "f",
+                  "text": "Prüfen Sie vor dem Techniker in Vollzeit, ob Ihr Betrieb eine Rückkehrzusage gibt. Ohne sie stehen Sie nach zwei Jahren ohne Stelle und ohne Anspruch da."
+                },
+                {
+                  "id": "x",
+                  "text": "Hierzu passt keiner der Tipps."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l3-1",
+                  "prompt": "„Ich habe dem Meister meine Idee erzählt, und jetzt hat ein anderer sie eingereicht. Was kann ich tun?“",
+                  "solution": "b",
+                  "explanation": "Tipp b: prämiert wird der schriftliche Vorschlag, nicht das Flurgespräch."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-2",
+                  "prompt": "„Ich soll ab Montag an der neuen Presse arbeiten. Eingewiesen hat mich ein Kollege, unterschrieben habe ich nichts.“",
+                  "solution": "e",
+                  "explanation": "Tipp e: Unterweisung quittieren lassen, sonst gilt sie als nicht erfolgt."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-3",
+                  "prompt": "„Ich möchte während der Kurzarbeit samstags in einem Lager aushelfen. Muss ich das jemandem sagen?“",
+                  "solution": "d",
+                  "explanation": "Tipp d: Nebentätigkeit vorher melden, sonst droht Rückforderung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-4",
+                  "prompt": "„Unsere Werkzeuge werden immer schneller stumpf, seit wir das neue Kühlmittel benutzen. An wen wende ich mich?“",
+                  "solution": "x",
+                  "explanation": "Kein Tipp behandelt Kühlmittel oder Werkzeugstandzeiten. Tipp a betrifft die Auswertung von Störungen, nicht die Frage nach dem richtigen Ansprechpartner."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-4",
+          "title": "Teil 4 – Aufgaben und Aufgabenverteilung",
+          "instructions": "Lesen Sie das Protokoll der letzten Teambesprechung und die Aufgaben. Welche Antwort passt am besten?",
+          "blocks": [
+            {
+              "id": "lesen-teil-4-protokoll",
+              "stimuli": [
+                {
+                  "title": "Protokoll",
+                  "heading": "Protokoll der Fertigungsbesprechung",
+                  "text": "Datum: Freitag, 24. Januar\nUhrzeit: 13:00 – 14:15 Uhr\nOrt: Besprechungsraum Halle 1\nAnwesende: R. Dobrev (Fertigungsleitung), K. Nowotny (Halle 1), A. Sarr (Halle 2), M. Bauer (Instandhaltung)\nEntschuldigt: keine\nProtokoll: A. Sarr\n\nTagesordnung\nTOP 1 Störungsauswertung Dezember\nTOP 2 Kurzarbeit\nTOP 3 Verbesserungsvorschlag Rüstzeit\nTOP 4 Neue Fräse Halle 1\nTOP 5 Verschiedenes\n\nTOP 1 – Störungsauswertung Dezember\nMaschine 7 hatte im Dezember 34 Störungen, alle anderen zusammen 19. Die Auswertung ergibt, dass 28 davon im selben Programm auftraten, nämlich beim Bauteil 4471. Herr Bauer hält einen Maschinenfehler daher für unwahrscheinlich und vermutet einen Fehler im Programm. Die Programmierung wird bis zum 7. Februar geprüft.\n\nTOP 2 – Kurzarbeit\nDie Kurzarbeit beginnt am 3. Februar und ist zunächst auf sechs Monate angelegt. Frau Dobrev betont, dass die Aufstockung auf 80 Prozent eine freiwillige Leistung ist und nicht verlängert wird, falls die Kurzarbeit länger dauert. Herr Sarr bittet darum, die Einteilung der Ausfalltage mindestens zwei Wochen im Voraus bekannt zu geben. Zugesagt.\n\nTOP 3 – Verbesserungsvorschlag Rüstzeit\nHerr Nowotny hat vorgeschlagen, die Spannmittel vorzurüsten, während die Maschine läuft. Die Ersparnis beträgt gemessene elf Minuten je Rüstvorgang. Der Vorschlag geht an die Bewertungskommission; über die Prämie wird im März entschieden.\n\nTOP 4 – Neue Fräse Halle 1\nDie Maschine wird am 17. Februar geliefert. Vor der ersten Inbetriebnahme findet eine Unterweisung durch den Hersteller statt, an der alle teilnehmen, die an der Maschine arbeiten sollen. Ohne Teilnahme und Unterschrift darf niemand an die Maschine – auch nicht kurz zum Zusehen bei laufender Maschine.\n\nTOP 5 – Verschiedenes\nDie Pausenzeiten in Halle 2 werden versetzt, damit die Kantine nicht überlastet ist. Halle 2 geht künftig um 11:45 Uhr, Halle 1 um 12:15 Uhr.\n\nNächster Termin: Freitag, 21. Februar, 13:00 Uhr"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-1",
+                  "prompt": "Was vermutet Herr Bauer als Ursache der Störungen an Maschine 7?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Einen Maschinenfehler."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Falsche Bedienung."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Einen Fehler im Programm."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… hält einen Maschinenfehler daher für unwahrscheinlich und vermutet einen Fehler im Programm.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-2",
+                  "prompt": "Was betont Frau Dobrev zur Aufstockung?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie ist freiwillig und wird nicht verlängert."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie gilt für die gesamte Dauer der Kurzarbeit."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie wird vom Betriebsrat ausgezahlt."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… dass die Aufstockung auf 80 Prozent eine freiwillige Leistung ist und nicht verlängert wird.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-3",
+                  "prompt": "Wie viel Zeit spart der Vorschlag von Herrn Nowotny?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Elf Minuten pro Schicht."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Elf Minuten je Rüstvorgang."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Eine Stunde pro Woche."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Die Ersparnis beträgt gemessene elf Minuten je Rüstvorgang.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-4",
+                  "prompt": "Was gilt für die neue Fräse?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Erfahrene Bediener brauchen keine Unterweisung."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Unterweisung erfolgt nach der Inbetriebnahme."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ohne Unterweisung und Unterschrift darf niemand an die Maschine."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ohne Teilnahme und Unterschrift darf niemand an die Maschine …“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-5",
+                  "prompt": "Warum werden die Pausenzeiten geändert?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Damit die Kantine nicht überlastet ist."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Wegen der Kurzarbeit."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Auf Wunsch des Betriebsrats."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… damit die Kantine nicht überlastet ist.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen-schreiben",
+      "title": "Lesen und Schreiben",
+      "durationMinutes": 20,
+      "description": "Ihre Teamleitung leitet Ihnen die Nachricht einer Kundin oder eines Kunden weiter und sagt Ihnen, was in Ihrer Antwort stehen soll. Sie beantworten zwei Fragen zu den Texten und schreiben dann die Antwort.",
+      "parts": [
+        {
+          "id": "lesen-schreiben-teil-1",
+          "title": "E-Mail an einen Kunden",
+          "instructions": "Lesen Sie beide E-Mails. Beantworten Sie zuerst die zwei Fragen und schreiben Sie danach die Antwort. Gehen Sie dabei auf alle Punkte Ihrer Teamleitung ein.",
+          "blocks": [
+            {
+              "id": "lesen-schreiben-block",
+              "stimuli": [
+                {
+                  "title": "E-Mail 1",
+                  "heading": "Von: R. Dobrev (Fertigungsleitung) – Bitte antworten Sie Frau Hoffmann",
+                  "text": "Hallo,\n\nbitte antworten Sie noch heute. Die Firma Hoffmann ist unser drittgrößter Kunde.\n\nBitte gehen Sie auf Folgendes ein:\n\n1. Bestätigen Sie den Fehler und nennen Sie die Ursache: Bei den Teilen aus der Charge vom 8. Januar war das Programm fehlerhaft, die Bohrung liegt 0,4 Millimeter zu tief.\n2. Sagen Sie eine Ersatzlieferung zu: 200 Stück, Versand am Mittwoch, Sonderfahrt auf unsere Kosten.\n3. Erklären Sie, was wir ändern: Nach jeder Störung wird das erste Teil vollständig vermessen, nicht nur sichtgeprüft.\n4. Fragen Sie, ob die fehlerhaften Teile zurückgeschickt oder von uns abgeholt werden sollen.\n\nR. Dobrev"
+                },
+                {
+                  "title": "E-Mail 2",
+                  "heading": "Von: I. Hoffmann – Lieferung 7712, Bauteil 4471",
+                  "text": "Sehr geehrte Damen und Herren,\n\nvon den 200 Teilen aus Ihrer Lieferung 7712 haben wir 180 geprüft. Bei 43 Stück liegt die Bohrung außerhalb der Toleranz. Wir können diese Teile nicht verbauen.\n\nDas ist ärgerlich, weil unsere Montage am Donnerstag anläuft und wir die Teile bis Mittwoch brauchen. Bisher hatten wir mit Ihnen nie Probleme, deshalb bin ich vor allem überrascht.\n\nBitte teilen Sie mir mit, wie Sie das lösen wollen und was Sie tun, damit sich das nicht wiederholt.\n\nMit freundlichen Grüßen\nIrene Hoffmann\nEinkauf"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "ls-1",
+                  "prompt": "Bis wann braucht Frau Hoffmann die Teile?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Bis Donnerstag."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bis Mittwoch."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Bis Freitag."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… unsere Montage am Donnerstag anläuft und wir die Teile bis Mittwoch brauchen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "ls-2",
+                  "prompt": "Was sollen Sie laut Fertigungsleitung zur Ursache sagen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ein Werkzeug war verschlissen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das Material war fehlerhaft."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Das Programm war fehlerhaft."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… war das Programm fehlerhaft, die Bohrung liegt 0,4 Millimeter zu tief.“"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "ls-3",
+                  "prompt": "Schreiben Sie die Antwort an Frau Hoffmann.",
+                  "criteria": [
+                    "Bestätigung des Fehlers und Nennung der Ursache",
+                    "Ersatzlieferung: 200 Stück, Versand Mittwoch, Sonderfahrt",
+                    "Was künftig geändert wird",
+                    "Rückfrage: Rücksendung oder Abholung der fehlerhaften Teile?"
+                  ],
+                  "hints": [
+                    "Sie schreiben an eine Fachfrau im Einkauf – nennen Sie die technische Ursache konkret.",
+                    "Gehen Sie auf ihre Frage nach der Wiederholung ausdrücklich ein, das ist ihr wichtigster Punkt.",
+                    "Eine Entschuldigung ohne Maßnahme wirkt hier leer."
+                  ],
+                  "minWords": 100,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Frau Hoffmann,\n\nvielen Dank für Ihre Nachricht und für die schnelle Prüfung. Der Fehler liegt bei uns, und ich kann Ihnen genau sagen, woher er kommt.\n\nDie Teile stammen aus der Charge vom 8. Januar. An der betreffenden Maschine hatten wir an diesem Tag mehrere Störungen; beim Wiederanlauf wurde ein fehlerhafter Programmstand geladen. Dadurch liegt die Bohrung 0,4 Millimeter zu tief – innerhalb einer Sichtprüfung fällt das nicht auf, in Ihrer Messung selbstverständlich schon.\n\nZur Lösung: Wir fertigen Ihnen die vollen 200 Stück neu. Der Versand erfolgt am Mittwoch per Sonderfahrt auf unsere Kosten, sodass Sie die Teile vor dem Anlauf Ihrer Montage am Donnerstag im Haus haben.\n\nZu Ihrer wichtigsten Frage – was wir ändern: Wir haben unsere Arbeitsanweisung angepasst. Nach jeder Störung wird das erste gefertigte Teil künftig vollständig vermessen, bevor die Serie weiterläuft; eine Sichtprüfung genügt nicht mehr. Zusätzlich prüfen wir bis zum 7. Februar den Programmstand für das Bauteil 4471 vollständig durch.\n\nEine Frage hätte ich noch: Sollen wir die fehlerhaften Teile bei Ihnen abholen lassen, oder schicken Sie sie zurück? Bei einer Abholung könnte unser Fahrer sie am Mittwoch gleich mitnehmen; die Kosten übernehmen in beiden Fällen wir.\n\nMit freundlichen Grüßen\nA. Sarr\nFertigung Halle 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 20,
+      "description": "Sie hören Gespräche aus dem Arbeitsalltag, eine Präsentation und telefonische Mitteilungen. Insgesamt bearbeiten Sie 19 Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Gespräche am Arbeitsplatz",
+          "instructions": "Sie hören drei kurze Gespräche. Zu jedem Gespräch gibt es zwei Aufgaben: Entscheiden Sie zuerst, ob die Aussage richtig oder falsch ist, und wählen Sie dann die richtige Antwort. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-07/hoeren-teil-1.mp3",
+            "transcript": "Gespräch 1\nFrau Dobrev: Herr Bauer, wie weit sind Sie mit dem Programm für 4471?\n\nHerr Bauer: Ich habe den Fehler gefunden. Aber er war nicht im Programm.\n\nFrau Dobrev: Sondern?\n\nHerr Bauer: In der Werkzeugtabelle. Da stand für den Bohrer eine falsche Länge, und die zieht sich durch jedes Programm, das ihn benutzt.\n\nFrau Dobrev: Also können auch andere Bauteile betroffen sein. Prüfen Sie das bitte heute noch.\n\nGespräch 2\nHerr Nowotny: Frau Dobrev, wegen der Prämie. Ich habe gehört, die Kommission entscheidet erst im März.\n\nFrau Dobrev: So ist der Ablauf, ja.\n\nHerr Nowotny: Und die Ersparnis läuft ab nächster Woche. Das heißt, der Betrieb spart schon, bevor überhaupt entschieden ist.\n\nFrau Dobrev: Das ist richtig, und es ist auch nicht schön. Die Prämie wird aber rückwirkend ab Einführung berechnet, das steht in der Vereinbarung.\n\nHerr Nowotny: Gut, dann ist es in Ordnung. Das wusste ich nicht.\n\nGespräch 3\nHerr Sarr: Frau Dobrev, die Ausfalltage für Februar – haben Sie die schon?\n\nFrau Dobrev: Ja, seit gestern. Ich wollte sie Montag aushängen.\n\nHerr Sarr: Könnten Sie sie heute schicken? Zwei Kollegen müssen die Kinderbetreuung umstellen.\n\nFrau Dobrev: Dann mache ich das heute Nachmittag. Aber es kann sein, dass sich noch etwas verschiebt.\n\nHerr Sarr: Das ist besser als gar nichts. Ich sage den Leuten, dass es vorläufig ist."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-gespraech-1",
+              "prompt": "Gespräch 1",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-1",
+                  "statement": "Der Fehler lag im Programm für das Bauteil 4471.",
+                  "solution": false,
+                  "explanation": "„Ich habe den Fehler gefunden. Aber er war nicht im Programm.“ – Er lag in der Werkzeugtabelle."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Warum ist der Fehler besonders heikel?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil er jedes Programm mit diesem Bohrer betrifft."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil er nur bei einem Bauteil auftritt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil er die Maschine beschädigt."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… die zieht sich durch jedes Programm, das ihn benutzt.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-gespraech-2",
+              "prompt": "Gespräch 2",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-3",
+                  "statement": "Die Prämie wird erst ab der Entscheidung im März berechnet.",
+                  "solution": false,
+                  "explanation": "„Die Prämie wird aber rückwirkend ab Einführung berechnet …“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Was hatte Herr Nowotny kritisiert?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass die Prämie zu niedrig ist."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass der Betrieb schon vor der Entscheidung spart."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass sein Vorschlag abgelehnt wurde."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… der Betrieb spart schon, bevor überhaupt entschieden ist.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-gespraech-3",
+              "prompt": "Gespräch 3",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-5",
+                  "statement": "Frau Dobrev schickt die Einteilung noch heute.",
+                  "solution": true,
+                  "explanation": "„Dann mache ich das heute Nachmittag.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-6",
+                  "prompt": "Warum drängt Herr Sarr?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil er selbst Urlaub plant."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil die Kurzarbeit früher beginnt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil Kollegen die Kinderbetreuung umstellen müssen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Zwei Kollegen müssen die Kinderbetreuung umstellen.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Was passt zu welchem Gespräch?",
+          "instructions": "Sie hören vier kurze Gespräche. Welcher Satz a–f passt zu welchem Gespräch? Zwei Sätze bleiben übrig. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-07/hoeren-teil-2.mp3",
+            "transcript": "Gespräch 1\nHerr Bauer: An Maschine 6 fehlt seit heute Morgen die Abdeckung am Späneförderer.\n\nFrau Dobrev: Ist die abgebaut worden?\n\nHerr Bauer: Vermutlich für die Reinigung. Ich habe die Maschine gesperrt, da greift sonst jemand hinein.\n\nGespräch 2\nHerr Nowotny: Ist wegen der neuen Fräse schon klar, wer sie bedient?\n\nHerr Sarr: Ich glaube, das wird nächste Woche entschieden.\n\nHerr Nowotny: Dann frage ich noch mal nach. Ich würde mich melden, wenn es geht.\n\nGespräch 3\nFrau Dobrev: Die neue Kollegin fängt am Montag an. Nur weiß ich noch nicht, wer sie einarbeitet.\n\nHerr Sarr: Das mache ich. Ich habe an ihrer Maschine acht Jahre gestanden, das geht am schnellsten.\n\nFrau Dobrev: Sehr gut, danke.\n\nGespräch 4\nHerr Nowotny: Die Pausenzeiten wurden geändert, und erfahren habe ich es heute Morgen am Aushang.\n\nFrau Dobrev: Das stand im Protokoll.\n\nHerr Nowotny: Das Protokoll kam gestern Abend um sechs. Da war meine Schicht zu Ende. So etwas muss vorher durchgesagt werden."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "prompt": "Welcher Satz passt zu welchem Gespräch?",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Jemand meldet einen Sicherheitsmangel."
+                },
+                {
+                  "id": "b",
+                  "text": "Jemand fragt, ob eine Entscheidung schon gefallen ist."
+                },
+                {
+                  "id": "c",
+                  "text": "Jemand schlägt vor, eine Aufgabe zu tauschen."
+                },
+                {
+                  "id": "d",
+                  "text": "Jemand kritisiert eine Information, die zu spät kam."
+                },
+                {
+                  "id": "e",
+                  "text": "Jemand bietet an, jemanden einzuarbeiten."
+                },
+                {
+                  "id": "f",
+                  "text": "Jemand bittet um eine Gehaltserhöhung."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h2-1",
+                  "prompt": "Gespräch 1",
+                  "solution": "a",
+                  "explanation": "Herr Bauer meldet einen Sicherheitsmangel und sperrt die Maschine."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-2",
+                  "prompt": "Gespräch 2",
+                  "solution": "b",
+                  "explanation": "Herr Nowotny fragt nach dem Stand der Entscheidung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-3",
+                  "prompt": "Gespräch 3",
+                  "solution": "e",
+                  "explanation": "Herr Sarr bietet an, die neue Kollegin einzuarbeiten."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-4",
+                  "prompt": "Gespräch 4",
+                  "solution": "d",
+                  "explanation": "Herr Nowotny kritisiert die zu späte Information."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Eine Präsentation",
+          "instructions": "Sie hören eine Präsentation im Betrieb. Über jeder Aufgabe steht ein Stichwort, damit Sie wissen, an welcher Stelle Sie sich befinden. Wählen Sie die richtige Antwort. Sie hören die Präsentation einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-07/hoeren-teil-3.mp3",
+            "transcript": "Moderatorin: Wir begrüßen Herrn Ferreira. Er berät mittelständische Betriebe bei der Einführung von Automatisierung und stellt heute Erfahrungen aus zwölf Jahren vor.\n\nHerr Ferreira: Danke schön. Ich beginne mit dem, was ich am häufigsten höre: „Die Roboter nehmen uns die Arbeit weg.“ Ich möchte diese Sorge nicht kleinreden, aber unsere Zahlen zeigen etwas anderes – und zwar etwas Unangenehmeres.\n\nHerr Ferreira: In den achtzig Betrieben, die wir begleitet haben, ist die Zahl der Beschäftigten im Schnitt gleich geblieben. Was sich verändert hat, sind die Tätigkeiten. Wer vorher Teile eingelegt hat, überwacht heute drei Anlagen. Das ist nicht weniger Arbeit, aber es ist eine andere.\n\nHerr Ferreira: Und hier liegt das eigentliche Problem: Nicht alle können oder wollen diesen Wechsel machen. In den Betrieben, die Weiterbildung angeboten haben, blieben neunzig Prozent. Wo es keine gab, waren es sechzig.\n\nHerr Ferreira: Der zweite Punkt betrifft die Einführung selbst. Projekte scheitern selten an der Technik. Sie scheitern daran, dass die Leute an der Maschine nicht gefragt wurden. Wir haben Anlagen gesehen, die technisch einwandfrei liefen und trotzdem stillstanden, weil niemand sie benutzen wollte.\n\nHerr Ferreira: Deshalb rate ich immer dazu, mit denen anzufangen, die an der Maschine stehen – nicht mit dem Anbieter. Wer den Prozess kennt, weiß in zehn Minuten, wo die Automatisierung scheitern wird."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-a",
+              "prompt": "BESCHÄFTIGUNG",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-1",
+                  "prompt": "Wie hat sich die Zahl der Beschäftigten entwickelt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie ist im Schnitt gleich geblieben."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie ist deutlich gesunken."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie ist gestiegen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… ist die Zahl der Beschäftigten im Schnitt gleich geblieben.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-b",
+              "prompt": "WEITERBILDUNG",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Welchen Unterschied macht Weiterbildung?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Produktivität steigt um 90 Prozent."
+                    },
+                    {
+                      "id": "b",
+                      "text": "90 statt 60 Prozent bleiben im Betrieb."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Einführung dauert kürzer."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„In den Betrieben, die Weiterbildung angeboten haben, blieben neunzig Prozent. Wo es keine gab, waren es sechzig.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-c",
+              "prompt": "SCHEITERN",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-3",
+                  "prompt": "Woran scheitern Automatisierungsprojekte meist?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "An der Technik."
+                    },
+                    {
+                      "id": "b",
+                      "text": "An den Kosten."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Daran, dass die Beschäftigten nicht gefragt wurden."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Sie scheitern daran, dass die Leute an der Maschine nicht gefragt wurden.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-d",
+              "prompt": "RATSCHLAG",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Womit soll ein Betrieb beginnen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Mit den Beschäftigten an der Maschine."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Mit einem Angebot des Anbieters."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Mit einer Wirtschaftlichkeitsrechnung."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… mit denen anzufangen, die an der Maschine stehen – nicht mit dem Anbieter.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-4",
+          "title": "Teil 4 – Telefonische Mitteilungen",
+          "instructions": "Sie hören fünf Nachrichten auf dem Anrufbeantworter. Wählen Sie zu jeder Nachricht die richtige Antwort. Sie hören jede Nachricht einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-07/hoeren-teil-4.mp3",
+            "transcript": "Mitteilung 1\nHerr Ferreira: Guten Tag, Ferreira hier. Sie hatten nach einer Beratung gefragt. Ich komme gern, aber ich möchte vorher etwas klarstellen: Einen Termin nur mit der Geschäftsführung mache ich nicht. Zwei Leute aus der Fertigung müssen dabei sein, sonst hat das Ganze keinen Sinn.\n\nMitteilung 2\nFrau Hoffmann: Guten Tag, Hoffmann von der Firma Hoffmann. Die Ersatzteile sind heute früh angekommen, wir haben zwanzig Stück gemessen – alle in Ordnung. Vielen Dank für die schnelle Reaktion. Die fehlerhaften Teile lassen wir gern abholen, aber bitte nicht vor Freitag, wir brauchen sie noch für unsere eigene Dokumentation.\n\nMitteilung 3\nHerr Bauer: Bauer hier, Instandhaltung. Ich habe die Werkzeugtabelle komplett durchgeprüft. Zwei weitere Einträge waren falsch, beide betreffen Bauteile, die wir seit November nicht gefertigt haben. Es ist also nichts Fehlerhaftes ausgeliefert worden. Ich habe alles korrigiert und dokumentiert.\n\nMitteilung 4\nFrau Dobrev: Dobrev hier, wichtige Information: Die Kurzarbeit für Halle 2 fällt weg. Wir haben gestern einen Auftrag bekommen, der die Lücke schließt. Für Halle 1 bleibt es leider dabei. Ich weiß, dass das für die Stimmung nicht einfach ist, und werde das am Montag in beiden Hallen persönlich erklären.\n\nMitteilung 5\nHerr Sarr: Sarr hier. Zur neuen Fräse: Der Hersteller kann am 17. keine Unterweisung machen, erst am 24. Februar. Die Maschine steht dann eine Woche ungenutzt. Ich schlage vor, wir nutzen die Woche für den Aufbau und die Absaugung, dann verlieren wir keine Zeit. Bitte um kurze Rückmeldung."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-4-mitteilung-1",
+              "prompt": "Mitteilung 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-1",
+                  "prompt": "Welche Bedingung stellt Herr Ferreira?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Termin muss vormittags stattfinden."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Fertigung muss beim Termin dabei sein."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Es muss vorher ein Angebot vorliegen."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Zwei Leute aus der Fertigung müssen dabei sein …“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-2",
+              "prompt": "Mitteilung 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-2",
+                  "prompt": "Was teilt Frau Hoffmann zu den fehlerhaften Teilen mit?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie hat sie bereits zurückgeschickt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie werden entsorgt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie können ab Freitag abgeholt werden."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… lassen wir gern abholen, aber bitte nicht vor Freitag.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-3",
+              "prompt": "Mitteilung 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-3",
+                  "prompt": "Was ist das Ergebnis der Prüfung?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Zwei weitere Fehler, aber ohne Auswirkung auf Lieferungen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Es wurden fehlerhafte Teile ausgeliefert."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Tabelle war fehlerfrei."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… beide betreffen Bauteile, die wir seit November nicht gefertigt haben. Es ist also nichts Fehlerhaftes ausgeliefert worden.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-4",
+              "prompt": "Mitteilung 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-4",
+                  "prompt": "Was ändert sich bei der Kurzarbeit?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie entfällt komplett."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie entfällt für Halle 2."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie wird auf beide Hallen ausgeweitet."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Die Kurzarbeit für Halle 2 fällt weg … Für Halle 1 bleibt es leider dabei.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-5",
+              "prompt": "Mitteilung 5",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-5",
+                  "prompt": "Was schlägt Herr Sarr vor?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Lieferung zu verschieben."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Unterweisung selbst zu übernehmen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Woche für Aufbau und Absaugung zu nutzen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ich schlage vor, wir nutzen die Woche für den Aufbau und die Absaugung …“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "hoeren-schreiben",
+      "title": "Hören und Schreiben",
+      "durationMinutes": 5,
+      "description": "Sie hören eine telefonische Mitteilung und halten das Wichtigste in einer Notiz fest.",
+      "parts": [
+        {
+          "id": "hoeren-schreiben-teil-1",
+          "title": "Notiz zu einem Anruf",
+          "instructions": "Sie sind allein im Büro und nehmen einen Anruf entgegen. Wählen Sie zuerst den Grund des Anrufs. Füllen Sie danach die Notiz für Ihre Kollegin aus. Sie hören die Mitteilung zweimal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-07/hoeren-schreiben.mp3",
+            "transcript": "Frau Ashraf: Guten Tag, hier spricht Nadia Ashraf von der Firma Krämer Antriebstechnik. Wir bräuchten kurzfristig 120 Zahnräder nach unserer Zeichnung ZR-88, Liefertermin wäre der 14. März. Wir haben die Teile bisher woanders bezogen, aber unser Lieferant kann nicht mehr. Können Sie das übernehmen? Ich schicke Ihnen die Zeichnung gleich per Mail. Bitte melden Sie sich unter 0 7 1 1 – 2 9 6 4 0 8. Am besten zwischen acht und zehn Uhr morgens. Vielen Dank."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-schreiben-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "hs-1",
+                  "prompt": "Grund für den Anruf",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Angebot"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bestellung / Buchung"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Beschwerde"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Frau Ashraf möchte Teile fertigen lassen und nennt Menge und Liefertermin – das ist eine Bestellung bzw. Auftragsanfrage."
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-2",
+                  "prompt": "Name",
+                  "inputMode": "single-line",
+                  "musterloesung": "Nadia Ashraf, Krämer Antriebstechnik"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-3",
+                  "prompt": "Telefonnummer",
+                  "inputMode": "single-line",
+                  "musterloesung": "0711 – 296408"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-4",
+                  "prompt": "Weitere Informationen",
+                  "inputMode": "single-line",
+                  "musterloesung": "120 Zahnräder nach Zeichnung ZR-88, Liefertermin 14. März. Bisheriger Lieferant kann nicht mehr liefern. Zeichnung kommt per E-Mail."
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-5",
+                  "prompt": "Zu erledigen",
+                  "inputMode": "single-line",
+                  "musterloesung": "Prüfen, ob Termin und Menge machbar sind, und zurückrufen – morgens zwischen 8 und 10 Uhr."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprachbausteine",
+      "title": "Sprachbausteine und Schreiben",
+      "durationMinutes": 35,
+      "description": "Sie ergänzen zwei Texte aus dem Berufsalltag und schreiben zum Schluss Ihre Meinung zu einem Thema. Insgesamt bearbeiten Sie 13 Aufgaben.",
+      "parts": [
+        {
+          "id": "sprachbausteine-teil-1",
+          "title": "Teil 1 – Wörter aus dem Kasten",
+          "instructions": "Lesen Sie den folgenden Text. Welche Wörter a–j passen am besten in die Lücken? Sie können jedes Wort nur einmal verwenden. Nicht alle Wörter passen in den Text.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-1-block",
+              "inlineGaps": true,
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Aufgrund"
+                },
+                {
+                  "id": "b",
+                  "text": "Während"
+                },
+                {
+                  "id": "c",
+                  "text": "Falls"
+                },
+                {
+                  "id": "d",
+                  "text": "damit"
+                },
+                {
+                  "id": "e",
+                  "text": "obwohl"
+                },
+                {
+                  "id": "f",
+                  "text": "Verbesserung"
+                },
+                {
+                  "id": "g",
+                  "text": "Veränderung"
+                },
+                {
+                  "id": "h",
+                  "text": "weil"
+                },
+                {
+                  "id": "i",
+                  "text": "sodass"
+                },
+                {
+                  "id": "j",
+                  "text": "seit"
+                }
+              ],
+              "stimuli": [
+                {
+                  "title": "Text",
+                  "heading": "Aushang: Neue Absauganlage in Halle 1",
+                  "text": "Liebe Kolleginnen und Kollegen,\n\n___(1)___ vielen Rückmeldungen zur Luftqualität haben wir eine neue Absauganlage bestellt.\n\nDie Montage findet vom 3. bis 5. März statt. ___(2)___ dieser Zeit stehen die Maschinen 4 bis 6 still.\n\n___(3)___ Sie in dieser Woche eingeplant sind, melden Sie sich bitte bei Ihrem Meister. Wir suchen gemeinsam eine Lösung, ___(4)___ niemand Minusstunden aufbaut.\n\nDie Anlage ist deutlich leiser als die alte, ___(5)___ sie mehr Luft bewegt.\n\nWir freuen uns über diese ___(6)___ und danken allen, die darauf hingewiesen haben.\n\nDie Betriebsleitung"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-1",
+                  "prompt": "Lücke (1)",
+                  "solution": "a",
+                  "explanation": "„Aufgrund vieler Rückmeldungen“ – Präposition mit Genitiv für den Grund."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-2",
+                  "prompt": "Lücke (2)",
+                  "solution": "b",
+                  "explanation": "„Während dieser Zeit“ – Präposition für den Zeitraum."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-3",
+                  "prompt": "Lücke (3)",
+                  "solution": "c",
+                  "explanation": "Bedingung: „Falls Sie … eingeplant sind“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-4",
+                  "prompt": "Lücke (4)",
+                  "solution": "d",
+                  "explanation": "Finalsatz: „damit niemand Minusstunden aufbaut“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-5",
+                  "prompt": "Lücke (5)",
+                  "solution": "e",
+                  "explanation": "Konzessiv: leiser, „obwohl sie mehr Luft bewegt“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-6",
+                  "prompt": "Lücke (6)",
+                  "solution": "f",
+                  "explanation": "„Wir freuen uns über diese Verbesserung“ – die Anlage ist ausdrücklich besser."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprachbausteine-teil-2",
+          "title": "Teil 2 – Wörter im Text ergänzen",
+          "instructions": "Lesen Sie die E-Mail und wählen Sie für jede Lücke das passende Wort.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-2-block",
+              "inlineGaps": true,
+              "stimuli": [
+                {
+                  "title": "E-Mail",
+                  "heading": "Antwort auf eine Anfrage",
+                  "text": "Sehr geehrte Frau Ashraf,\n\nvielen Dank für Ihre Anfrage vom 12. Februar und für die ___(1)___ Zeichnung.\n\nWir können die 120 Zahnräder ___(2)___ Ihrer Zeichnung ZR-88 fertigen. Der Liefertermin 14. März ist ___(3)___.\n\nDer Stückpreis ___(4)___ 34,50 Euro netto bei einer Abnahme von 120 Stück. Werkzeugkosten fallen nicht an, da wir ein passendes Werkzeug ___(5)___ haben.\n\nBitte bestätigen Sie den Auftrag bis zum 20. Februar, damit wir die Fertigung einplanen können.\n\nÜber eine weitere ___(6)___ würden wir uns freuen.\n\nMit freundlichen Grüßen\nA. Sarr"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-1",
+                  "prompt": "Lücke (1) – Partizip",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "übersandte"
+                    },
+                    {
+                      "id": "b",
+                      "text": "übersendete"
+                    },
+                    {
+                      "id": "c",
+                      "text": "übersendende"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„die übersandte Zeichnung“ – Partizip II von „übersenden“ als Attribut."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-2",
+                  "prompt": "Lücke (2) – Präposition",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "gemeinsam"
+                    },
+                    {
+                      "id": "b",
+                      "text": "gemäß"
+                    },
+                    {
+                      "id": "c",
+                      "text": "genau"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„gemäß Ihrer Zeichnung“ – entsprechend der Vorgabe."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-3",
+                  "prompt": "Lücke (3) – Adjektiv",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "darstellbar"
+                    },
+                    {
+                      "id": "b",
+                      "text": "denkbar"
+                    },
+                    {
+                      "id": "c",
+                      "text": "machbar"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Der Liefertermin ist machbar“ – umsetzbar, realisierbar."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-4",
+                  "prompt": "Lücke (4) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "beträgt"
+                    },
+                    {
+                      "id": "b",
+                      "text": "betrifft"
+                    },
+                    {
+                      "id": "c",
+                      "text": "bezahlt"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Der Stückpreis beträgt 34,50 Euro“ – Standardformulierung."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-5",
+                  "prompt": "Lücke (5) – Adverb + Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "bereit vorrätig"
+                    },
+                    {
+                      "id": "b",
+                      "text": "bereits vorrätig"
+                    },
+                    {
+                      "id": "c",
+                      "text": "beriets vorrätig"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„bereits vorrätig haben“ – schon im Bestand."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-6",
+                  "prompt": "Lücke (6) – Nomen",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Zusammenkunft"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Zusammenfassung"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Zusammenarbeit"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Über eine weitere Zusammenarbeit würden wir uns freuen.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprachbausteine-teil-3",
+          "title": "Teil 3 – Ihre Meinung",
+          "instructions": "Lesen Sie die Information und schreiben Sie Ihre Meinung zu dem Thema. Schreiben Sie mindestens 100 Wörter.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-3-block",
+              "stimuli": [
+                {
+                  "title": "Information",
+                  "heading": "Nimmt die Automatisierung den Menschen die Arbeit weg?",
+                  "text": "In der deutschen Industrie werden immer mehr Arbeitsschritte automatisiert. Über die Folgen für die Beschäftigten wird seit Jahrzehnten diskutiert.\n\nAus einer Untersuchung in 80 mittelständischen Betrieben:\n\n· Die Zahl der Beschäftigten blieb im Schnitt unverändert.\n· In Betrieben mit Weiterbildungsangebot blieben 90 % der Beschäftigten, ohne Angebot 60 %.\n· 64 % der Befragten sagen, ihre Tätigkeit habe sich stark verändert.\n· 39 % fühlen sich für die neuen Aufgaben nicht ausreichend qualifiziert."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "sb3-1",
+                  "prompt": "Schreiben Sie Ihre Meinung zu dem Thema.",
+                  "criteria": [
+                    "Ihre Meinung: Ist Automatisierung eine Gefahr oder eine Chance?",
+                    "Eine Begründung mit einem Beispiel",
+                    "Ein Argument der Gegenseite und Ihre Antwort darauf",
+                    "Ein Vorschlag, wie man die Beschäftigten mitnimmt"
+                  ],
+                  "hints": [
+                    "Auf B2 reicht es nicht zu sagen, was Sie denken – Sie müssen es begründen und ein Gegenargument aufgreifen.",
+                    "Nützlich: „Einerseits … andererseits …“, „Dagegen wird oft eingewandt, dass …“, „Aus meiner Sicht …“.",
+                    "Sie dürfen die Zahlen aus dem Kasten benutzen, müssen es aber nicht."
+                  ],
+                  "minWords": 100,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Ich halte Automatisierung weder für eine Gefahr noch für eine Chance an sich. Sie wird zu dem einen oder dem anderen, je nachdem, was ein Betrieb daraus macht.\n\nDie Zahlen aus der Untersuchung sind für mich eindeutig: Die Beschäftigtenzahl blieb gleich, aber 64 Prozent sagen, ihre Tätigkeit habe sich stark verändert. Die Arbeit verschwindet also nicht, sie wird eine andere. In meinem eigenen Betrieb haben wir vor drei Jahren eine Roboterzelle bekommen. Ein Kollege, der zwanzig Jahre Teile eingelegt hatte, überwacht heute drei Anlagen und liest Fehlermeldungen. Er kann das – aber es hat ein halbes Jahr gedauert, und ohne die Schulung hätte er gekündigt.\n\nDagegen wird eingewandt, dass es diesmal anders sei: Frühere Automatisierungswellen hätten neue Tätigkeiten geschaffen, während künstliche Intelligenz auch die anspruchsvollen Aufgaben übernehme. Diesen Einwand kann ich nicht widerlegen, und ich halte ihn für ernsthaft.\n\nAber selbst wenn er zutrifft, ändert er nichts an dem, was ein einzelner Betrieb heute tun kann. Der Unterschied zwischen 90 und 60 Prozent, die bleiben, hängt nicht an der Technik, sondern an der Weiterbildung. Und die 39 Prozent, die sich nicht ausreichend qualifiziert fühlen, sind eine Warnung: Diese Menschen gehen, bevor die Anlage überhaupt richtig läuft.\n\nMein Vorschlag wäre deshalb, die Weiterbildung nicht nach der Einführung anzubieten, sondern davor – und die Leute an der Maschine schon bei der Auswahl der Anlage zu beteiligen. Wer den Prozess kennt, sieht Probleme, die auf keinem Datenblatt stehen."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Die mündliche Prüfung wird zu zweit abgelegt: Sie sprechen über ein berufliches Thema, führen ein Gespräch mit Ihrer Partnerin oder Ihrem Partner und lösen gemeinsam ein Problem aus dem Betrieb. Dieser Teil wird nicht automatisch bewertet; nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Über ein Thema sprechen",
+          "instructions": "Thema 7: Stellen Sie ein Produkt oder eine Dienstleistung vor. Zuerst sprechen Sie etwa vier Minuten zusammenhängend über das Thema (Aufgabe A). Danach beantworten Sie eine Frage dazu (Aufgabe B). In der Prüfung übernimmt anschließend die zweite Person denselben Ablauf mit einem eigenen Thema.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "stimuli": [
+                {
+                  "title": "Thema",
+                  "heading": "Thema 7 – Ein Produkt oder eine Dienstleistung",
+                  "text": "Stellen Sie ein Produkt oder eine Dienstleistung vor.\n\nSie können sich an diesen Punkten orientieren:\n\n· Was ist es und wofür wird es gebraucht?\n· Für wen ist es gedacht?\n· Welche Vorteile hat es, welche Nachteile?\n· Warum würden Sie es empfehlen – oder nicht?"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-a",
+                  "prompt": "Aufgabe A – Sprechen Sie etwa vier Minuten über ein Produkt oder eine Dienstleistung.",
+                  "hints": [
+                    "Vier Minuten sind lang. Legen Sie sich vorher eine Reihenfolge zurecht und arbeiten Sie die Punkte nacheinander ab.",
+                    "Auf B2 wird Struktur erwartet: „Zunächst …“, „Ein zweiter Punkt ist …“, „Zusammenfassend …“.",
+                    "Belegen Sie Aussagen mit einem eigenen Beispiel – das trägt länger als allgemeine Sätze."
+                  ],
+                  "musterloesung": "Ich möchte ein Produkt vorstellen, das in meinem Betrieb seit zwei Jahren im Einsatz ist: ein digitales Störungserfassungssystem für Maschinen. Ich gehe auf vier Punkte ein: was es ist, für wen es gedacht ist, Vor- und Nachteile, und ob ich es empfehlen würde.\n\nZunächst: Was ist es? Früher haben wir Störungen auf einem Zettel notiert, der am Ende der Woche im Büro landete. Heute meldet man die Störung an einem Bildschirm direkt an der Maschine – Uhrzeit, Programm, Art der Störung, drei Klicks. Die Daten laufen automatisch in eine Auswertung.\n\nGedacht ist das System für Fertigungsbetriebe ab etwa zwanzig Maschinen. Bei fünf Maschinen weiß der Meister ohnehin, was los ist. Bei fünfzig weiß es niemand mehr, und genau da beginnt der Nutzen.\n\nZu den Vorteilen: Der größte ist, dass man Muster erkennt. Wir hatten eine Maschine mit vierunddreißig Störungen in einem Monat. Auf Zetteln wäre das nie aufgefallen, weil jede einzelne nur zwei Minuten gedauert hat. In der Auswertung sah man sofort, dass achtundzwanzig davon im selben Programm auftraten – und damit war die Ursache in einer Stunde gefunden.\n\nEs gibt aber auch Nachteile, und ich möchte sie nicht verschweigen. Erstens: Wenn die Erfassung als Kontrolle empfunden wird, meldet niemand mehr etwas, und dann sind die Daten wertlos. Das haben wir am Anfang erlebt. Zweitens kostet das System Geld, etwa fünfzehntausend Euro für unsere Größe, und es rechnet sich nur, wenn jemand die Auswertungen auch wirklich anschaut.\n\nEmpfehlen würde ich es, aber mit einer Bedingung: Die Auswertung darf nie nach Personen aufgeschlüsselt werden, nur nach Maschine und Programm. Sobald jemand sehen kann, wer wie viele Störungen gemeldet hat, ist das Vertrauen weg – und damit der ganze Nutzen."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp1-b",
+                  "prompt": "Aufgabe B – Antworten Sie auf die Frage: „Worauf sollte ein Betrieb bei der Einführung einer neuen Technik achten?“",
+                  "hints": [
+                    "Beziehen Sie klar Position und begründen Sie sie – eine Antwort ohne Meinung wirkt auf B2 ausweichend.",
+                    "Greifen Sie ein Gegenargument auf: „Dagegen könnte man einwenden, dass …“",
+                    "Zwei Minuten reichen; wichtiger als Länge ist ein klarer Aufbau."
+                  ],
+                  "musterloesung": "Der wichtigste Punkt ist für mich: Die Leute, die damit arbeiten sollen, müssen vorher gefragt werden – nicht hinterher informiert.\n\nIch habe erlebt, wie eine Anlage gekauft wurde, die technisch einwandfrei war und trotzdem monatelang stillstand. Der Grund war banal: Die Beschickung lag auf der falschen Seite, sodass man bei jedem Wechsel um die Anlage herumlaufen musste. Wer dort steht, hätte das in zehn Minuten gesagt. Gefragt wurde niemand.\n\nDer zweite Punkt ist Weiterbildung, und zwar vor der Einführung. Wer erst schult, wenn die Anlage schon läuft, verliert genau die Leute, die er am dringendsten braucht.\n\nNun wird oft eingewandt, dass so ein Vorgehen Zeit kostet und Angebote nur begrenzt gültig sind. Das stimmt, und ein Rabatt, der am Monatsende verfällt, ist ein echtes Argument.\n\nAber ich habe noch nie erlebt, dass ein schnell gekauftes System am Ende billiger war. Die Kosten entstehen nicht beim Kauf, sondern danach – bei den Umbauten, den Stillständen und den Kündigungen. Zwei Wochen mehr Vorbereitung sind dagegen sehr günstig."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Auf eine Aussage reagieren",
+          "instructions": "In diesem Teil führen Sie ein Gespräch. Ihre Gesprächspartnerin oder Ihr Gesprächspartner beginnt mit einer Aussage, Sie reagieren darauf, und daraus entsteht ein Dialog: Stellen Sie Rückfragen, machen Sie Vorschläge, reagieren Sie auf Einwände. Für beide Aussagen zusammen haben Sie etwa drei Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-a",
+              "stimuli": [
+                {
+                  "title": "Aussage 1",
+                  "text": "„Wir sollen jede Störung erfassen, auch die ganz kurzen. Ich habe das Gefühl, das dient nur der Kontrolle. Siehst du das anders?“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Führen Sie das Gespräch weiter. Sie sind Partner B.",
+                  "hints": [
+                    "Reagieren heißt nicht nur zustimmen: Gehen Sie auf das Gesagte ein und bringen Sie dann etwas Eigenes.",
+                    "Rechnen Sie mit einem Einwand und antworten Sie darauf.",
+                    "Nützlich: „Die Sorge verstehe ich, aber …“, „Was hältst du davon, wenn …?“"
+                  ],
+                  "musterloesung": "Partner A: Wir sollen jede Störung erfassen, auch die ganz kurzen. Ich habe das Gefühl, das dient nur der Kontrolle. Siehst du das anders?\n\nPartner B: Die Sorge verstehe ich, ich hatte sie am Anfang auch. Inzwischen sehe ich es anders, aber nicht, weil ich der Leitung mehr vertraue.\n\nPartner A: Sondern?\n\nPartner B: Weil es mir selbst genutzt hat. Bei Maschine 7 hieß es monatelang, ich würde zu langsam rüsten. In der Auswertung stand dann schwarz auf weiß, dass die Maschine achtundzwanzigmal im selben Programm gestanden hat. Danach hat niemand mehr über mich geredet.\n\nPartner A: Das kann aber auch umgekehrt laufen.\n\nPartner B: Kann es. Deshalb würde ich darauf bestehen, dass die Auswertung nur nach Maschine geht, nie nach Person.\n\nPartner A: Und wer garantiert das?\n\nPartner B: Niemand – solange es nirgends steht. Was hältst du davon, wenn wir das in der nächsten Besprechung ansprechen und uns schriftlich geben lassen?\n\nPartner A: Damit wäre mir schon wohler.\n\nPartner B: Ich bringe es auf die Tagesordnung, und du sagst, was du gerade mir gesagt hast. Zu zweit wird das eine Frage und nicht eine Beschwerde."
+                }
+              ]
+            },
+            {
+              "id": "sprechen-teil-2-b",
+              "stimuli": [
+                {
+                  "title": "Aussage 2",
+                  "text": "„Ich soll den Techniker machen, berufsbegleitend, drei Jahre neben der Schicht. Ich bin mir nicht sicher, ob ich das durchhalte.“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Führen Sie das Gespräch weiter. Sie sind Partner B.",
+                  "hints": [
+                    "Hier ist ein persönliches Gespräch gefragt – ermutigen Sie, aber bleiben Sie ehrlich.",
+                    "Fragen Sie zurück und geben Sie einen konkreten Hinweis."
+                  ],
+                  "musterloesung": "Partner A: Ich soll den Techniker machen, berufsbegleitend, drei Jahre neben der Schicht. Ich bin mir nicht sicher, ob ich das durchhalte.\n\nPartner B: Drei Jahre neben Schichtarbeit sind hart, das will ich nicht schönreden. Aber die Frage ist nicht, ob es hart wird, sondern ob du danach besser dastehst.\n\nPartner A: Das schon. Nur habe ich zwei kleine Kinder.\n\nPartner B: Dann würde ich zuerst klären, ob du für die Dauer aus der Wechselschicht rauskommst. Das ist der Punkt, an dem die meisten scheitern – nicht am Lernstoff, sondern an der Nachtschicht vor der Klausur.\n\nPartner A: Kann ich das denn verlangen?\n\nPartner B: Verlangen nicht, aber fragen. Der Betrieb hat ein Interesse daran, dass du fertig wirst. Und frag gleich mit, ob es eine Rückkehrzusage gibt und wer die Kosten trägt.\n\nPartner A: Und wenn sie nein sagen?\n\nPartner B: Dann würde ich es trotzdem machen, aber in Vollzeit über zwei Jahre statt drei nebenher – mit Aufstiegs-BAföG. Das ist finanziell knapper, aber es ist ein Jahr kürzer und du bist abends zu Hause.\n\nPartner A: Daran hatte ich noch gar nicht gedacht.\n\nPartner B: Rechne beide Wege einmal durch, mit Zahlen. Und rede mit Frau Dobrev, die hat den Techniker berufsbegleitend gemacht und sagt dir ehrlich, wie es war."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Gemeinsam eine Lösung finden",
+          "instructions": "Lesen Sie die Situation. Finden Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner eine Lösung. Machen Sie Vorschläge, gehen Sie auf die Vorschläge der anderen Person ein und einigen Sie sich am Ende. Sie haben dafür etwa vier Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "stimuli": [
+                {
+                  "title": "Situation",
+                  "heading": "Eine neue Maschine wird angeschafft",
+                  "text": "Ihr Betrieb will eine neue Fräsmaschine kaufen. Die Fertigungsleitung möchte, dass zwei Personen aus der Produktion die Auswahl begleiten – Sie und eine Kollegin.\n\nStichpunkte:\n\n· Welche Anforderungen hat die Maschine zu erfüllen?\n· Wen sollte man im Betrieb fragen?\n· Wie werden die Kolleginnen und Kollegen eingearbeitet?\n· Was schlagen Sie der Leitung vor, und bis wann?"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Finden Sie gemeinsam eine Lösung und einigen Sie sich auf einen Vorschlag.",
+                  "hints": [
+                    "Einigen heißt nicht, allem zuzustimmen. Ein gutes Gespräch enthält auch einen Gegenvorschlag.",
+                    "Nützlich: „Ich würde vorschlagen, dass …“, „Das sehe ich anders, weil …“, „Können wir uns darauf einigen, dass …?“",
+                    "Fassen Sie am Ende zusammen, wer was macht."
+                  ],
+                  "musterloesung": "Partner A: Ich würde als Erstes eine Anforderungsliste machen. Sonst zeigt uns der Anbieter, was er verkaufen will, und nicht, was wir brauchen.\n\nPartner B: Einverstanden. Ganz oben steht für mich die Rüstzeit. Bei unseren Losgrößen rüsten wir öfter, als wir fräsen.\n\nPartner A: Ich hätte die Genauigkeit zuerst genannt.\n\nPartner B: Die Genauigkeit erfüllt heute jede Maschine in der Preisklasse. Der Unterschied liegt beim Rüsten, da sind es zwischen den Anbietern zwanzig Minuten.\n\nPartner A: Gut, dann Rüstzeit zuerst. Was noch?\n\nPartner B: Die Absaugung und der Lärm. Bei der alten hatten wir vierundachtzig Dezibel, und das war der Grund für die halbe Unzufriedenheit in Halle 1.\n\nPartner A: Wen fragen wir noch?\n\nPartner B: Auf jeden Fall die Instandhaltung. Herr Bauer sagt uns in fünf Minuten, welcher Hersteller Ersatzteile in zwei Tagen liefert und welcher in drei Wochen. Das steht in keinem Prospekt.\n\nPartner A: Und die Programmierung.\n\nPartner B: Richtig, die hätte ich fast vergessen. Wenn die Steuerung eine andere ist als bei den übrigen Maschinen, kostet uns das jahrelang Zeit.\n\nPartner A: Zur Einarbeitung: Ich würde die Schulung des Herstellers nehmen, zwei Tage, und dann läuft es.\n\nPartner B: Zwei Tage reichen nicht. Ich würde zusätzlich vereinbaren, dass ein Techniker in der ersten Produktionswoche im Haus ist. Die Fragen kommen nicht in der Schulung, sondern am dritten Tag im Ernstfall.\n\nPartner A: Das kostet extra.\n\nPartner B: Etwa zweitausend Euro. Ein Tag Stillstand kostet uns mehr.\n\nPartner A: Überzeugt. Dann schlagen wir vor: Anforderungsliste mit Rüstzeit, Lärm und einheitlicher Steuerung, Angebote von drei Anbietern, Beteiligung von Instandhaltung und Programmierung, und ein Techniker vor Ort in der ersten Woche.\n\nPartner B: Genau. Ich schreibe die Liste bis Mittwoch, du sprichst mit Herrn Bauer, und Freitag gehen wir gemeinsam zu Frau Dobrev."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

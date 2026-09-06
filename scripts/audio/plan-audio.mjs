@@ -96,8 +96,9 @@ const MALE_WORDS =
  * much as German ones — otherwise every new test stops the planner with a
  * "cannot tell the gender" warning and needs a manual override.
  *
- * Note the matcher strips everything outside a-z and äöüß, so a name has to be
- * listed in the form that survives that: "Ayşe" arrives here as "ayse".
+ * Die Schreibweise hier ist gleichgültig: `fold()` unten normalisiert die
+ * Listeneinträge und den Namen aus dem Transkript auf dieselbe Form, "Ayşe"
+ * und "ayse" landen also beide bei "ayse".
  */
 const FEMALE_NAMES = new Set([
   "amara","amina","amira","ana","andrea","anke","anna","aylin","ayse",
@@ -122,8 +123,16 @@ const MALE_NAMES = new Set([
 const HEADER_RE =
   /^(Gespräch|Nachricht|Meldung|Mitteilung|Ansage|Aussage|Situation|Durchsage|Text|Teil|Aufgabe)\s*\d+/i;
 
-/** "Frau Bauer: ..." — a colon-led speaker label, not a sentence with a colon. */
-const SPEAKER_RE = /^([A-ZÄÖÜ][\wÄÖÜäöüß.\- ]{0,28}?):\s+(.*)$/;
+/**
+ * "Frau Bauer: ..." — a colon-led speaker label, not a sentence with a colon.
+ *
+ * Unicode-Kategorien statt einer Zeichenliste. Vorher stand hier `\w` plus von
+ * Hand nachgetragene Umlaute; damit fielen genau die Namen durch, um die es in
+ * dieser App geht – Aydın, Vidović, Yılmaz. Eine nicht erkannte Sprecherzeile
+ * ist kein kleiner Schönheitsfehler: Sie wird zur Erzählerzeile, und der
+ * Erzähler liest dann den Namen mit vor.
+ */
+const SPEAKER_RE = /^(\p{Lu}[\p{L}\p{M}\p{Nd}_.\- ]{0,28}?):\s+(.*)$/u;
 
 /**
  * Announcements also start with a capital and a colon — "Achtung: …",
@@ -147,6 +156,29 @@ function isSpeakerLabel(label) {
     .every((t) => /^[A-ZÄÖÜ]/.test(t) || /^(Dr\.|von|van)$/.test(t));
 }
 
+/**
+ * Namen auf eine vergleichbare Form bringen.
+ *
+ * Läuft über die Einträge der Listen *und* über den Namen aus dem Transkript,
+ * damit beide Seiten dieselbe Form haben. Buchstaben, die keine Akzentvariante
+ * sind (ı, ł, đ, ø), lassen sich nicht über NFD zerlegen und werden vorher
+ * einzeln ersetzt.
+ */
+const fold = (word) =>
+  word
+    .toLowerCase()
+    .replace(/ı/g, "i")
+    .replace(/ł/g, "l")
+    .replace(/đ/g, "d")
+    .replace(/ø/g, "o")
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .replace(/ß/g, "ss")
+    .replace(/[^a-z]/g, "");
+
+const FEMALE_SET = new Set([...FEMALE_NAMES].map(fold));
+const MALE_SET = new Set([...MALE_NAMES].map(fold));
+
 function guessGender(label) {
   // "Kursleiterin", "Teamleiterin", "Hausmeisterin": the -erin ending is a
   // reliable feminine marker and does not collide with names like "Martin".
@@ -157,9 +189,9 @@ function guessGender(label) {
   if (/^Mann$/.test(label)) return "m";
 
   for (const word of label.split(/\s+/)) {
-    const w = word.toLowerCase().replace(/[^a-zäöüß]/g, "");
-    if (FEMALE_NAMES.has(w)) return "f";
-    if (MALE_NAMES.has(w)) return "m";
+    const w = fold(word);
+    if (FEMALE_SET.has(w)) return "f";
+    if (MALE_SET.has(w)) return "m";
   }
   return null;
 }

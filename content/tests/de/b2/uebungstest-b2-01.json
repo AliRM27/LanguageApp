@@ -3,7 +3,7 @@
   "language": "de",
   "level": "B2",
   "title": "Übungstest B2 Beruf – Nr. 1",
-  "description": "Ein vollständiger berufsbezogener Übungstest auf Niveau B2 mit den Teilen Lesen, Lesen und Schreiben, Hören, Hören und Schreiben sowie Sprachbausteine und Schreiben.",
+  "description": "Ein vollständiger berufsbezogener Übungstest auf Niveau B2 mit den Teilen Lesen, Lesen und Schreiben, Hören, Hören und Schreiben, Sprachbausteine und Schreiben sowie Sprechen.",
   "sections": [
     {
       "kind": "lesen",
@@ -1339,7 +1339,135 @@
           ]
         }
       ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Die mündliche Prüfung wird zu zweit abgelegt: Sie sprechen über ein berufliches Thema, reagieren auf Aussagen einer Kollegin oder eines Kollegen und lösen gemeinsam ein Problem aus dem Betrieb. Dieser Teil wird nicht automatisch bewertet – nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel für eine gute Antwort.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Über ein Thema sprechen",
+          "instructions": "Thema 1: Beschreiben Sie einen Arbeitgeber, für den Sie gearbeitet haben oder arbeiten möchten. Zuerst sprechen Sie etwa vier Minuten zusammenhängend über das Thema (Aufgabe A). Danach beantworten Sie eine Frage dazu (Aufgabe B). In der Prüfung übernimmt anschließend die zweite Person denselben Ablauf mit einem eigenen Thema.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "stimuli": [
+                {
+                  "title": "Thema",
+                  "heading": "Thema 1 – Ein Arbeitgeber",
+                  "text": "Beschreiben Sie einen Arbeitgeber, für den Sie gearbeitet haben oder arbeiten möchten.\n\nSie können sich an diesen Punkten orientieren:\n\n· Branche sowie Produkte und Dienstleistungen\n· Abteilungen und ihre Aufgaben\n· Besonderheiten des Betriebs\n· Warum gerade dieser Arbeitgeber?"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-a",
+                  "prompt": "Aufgabe A – Sprechen Sie etwa vier Minuten über einen Arbeitgeber, für den Sie gearbeitet haben oder arbeiten möchten.",
+                  "hints": [
+                    "Vier Minuten sind lang. Legen Sie sich vorher eine Reihenfolge zurecht und arbeiten Sie die Punkte nacheinander ab.",
+                    "Auf B2 wird Struktur erwartet: „Zunächst …“, „Ein zweiter Punkt ist …“, „Zusammenfassend …“.",
+                    "Belegen Sie Aussagen mit einem eigenen Beispiel – das trägt länger als allgemeine Sätze."
+                  ],
+                  "musterloesung": "Ich möchte über meinen früheren Arbeitgeber sprechen, ein mittelgroßes Unternehmen für Verpackungen, bei dem ich in Rumänien vier Jahre lang gearbeitet habe. Ich gehe auf vier Punkte ein: die Branche, den Aufbau des Betriebs, die Besonderheiten und die Frage, warum ich heute wieder dort anfangen würde.\n\nZur Branche: Die Firma stellt Kartonverpackungen für Lebensmittel her, vor allem für Bäckereien und für zwei große Molkereien. Neben der Produktion gab es einen kleinen Bereich für Sonderanfertigungen – wenn ein Kunde eine ungewöhnliche Größe brauchte, wurde die bei uns von Hand entwickelt. Dienstleistungen im engeren Sinn boten wir nicht an, aber die Beratung beim Design gehörte immer dazu.\n\nDer Betrieb hatte etwa 120 Beschäftigte und war in vier Abteilungen gegliedert. Die Produktion war mit Abstand die größte, dazu kamen der Vertrieb, die Verwaltung und ein kleines Labor für die Qualitätskontrolle. Ich selbst war im Vertrieb, genauer in der Auftragsbearbeitung: Angebote schreiben, Liefertermine abstimmen, Reklamationen bearbeiten.\n\nEine Besonderheit war, dass die Geschäftsführerin einmal im Monat eine Stunde für alle offen hatte. Jeder konnte hingehen, ohne vorher zu fragen und ohne den Vorgesetzten zu informieren. Das klingt klein, hat aber viel verändert: Probleme kamen früher auf den Tisch. Eine zweite Besonderheit war die Schichtplanung – die Produktion hat ihre Pläne selbst gemacht, nicht die Verwaltung.\n\nWarum ich dort wieder anfangen würde? Nicht wegen des Gehalts, das war eher durchschnittlich. Aber ich wusste immer, woran ich war. Wenn etwas schiefging, wurde nicht zuerst nach einem Schuldigen gesucht, sondern nach einer Lösung. Genau das suche ich auch hier in Deutschland – und ehrlich gesagt merke ich beim Bewerben, dass man das aus einer Stellenanzeige nicht herauslesen kann."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp1-b",
+                  "prompt": "Aufgabe B – Antworten Sie auf die Frage: „Was ist bei einem Arbeitgeber wichtiger – ein hohes Gehalt oder ein gutes Verhältnis zu den Kolleginnen und Kollegen?“",
+                  "hints": [
+                    "Beziehen Sie klar Position und begründen Sie sie – eine Antwort ohne Meinung wirkt auf B2 ausweichend.",
+                    "Greifen Sie ein Gegenargument auf: „Dagegen könnte man einwenden, dass …“",
+                    "Zwei Minuten reichen; wichtiger als Länge ist ein klarer Aufbau."
+                  ],
+                  "musterloesung": "Für mich ist das Verhältnis zu den Kolleginnen und Kollegen wichtiger, allerdings nur bis zu einer bestimmten Grenze.\n\nWenn das Gehalt nicht reicht, um die Miete zu bezahlen, hilft mir die netteste Kollegin nichts. Insofern ist die Frage etwas unfair gestellt: Ein Mindestmaß an Bezahlung muss stimmen, sonst stellt sich die Frage gar nicht.\n\nIst diese Grenze aber erreicht, zählt für mich eindeutig das Team. Ich habe beides erlebt. In meiner ersten Stelle hier habe ich deutlich mehr verdient als heute, aber niemand hat mir etwas erklärt, und Fragen waren offensichtlich lästig. Ich bin jeden Morgen mit Bauchschmerzen hingefahren und habe nach fünf Monaten gekündigt.\n\nDagegen könnte man einwenden, dass man mit einem höheren Gehalt schneller Rücklagen bildet oder der Familie mehr schicken kann. Das stimmt, und für jemanden, der eine Ausbildung finanziert oder Angehörige unterstützt, kann die Antwort deshalb auch anders ausfallen.\n\nBei mir überwiegt trotzdem das andere Argument: Man verbringt acht Stunden am Tag an diesem Ort. Ein paar hundert Euro mehr gleichen es nicht aus, wenn man diese acht Stunden nur übersteht."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Auf eine Aussage reagieren",
+          "instructions": "In diesem Teil führen Sie ein Gespräch. Ihre Gesprächspartnerin oder Ihr Gesprächspartner beginnt mit einer Aussage, Sie reagieren darauf, und daraus entsteht ein Dialog: Stellen Sie Rückfragen, machen Sie Vorschläge, reagieren Sie auf Einwände. Für beide Aussagen zusammen haben Sie etwa drei Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-a",
+              "stimuli": [
+                {
+                  "title": "Aussage 1",
+                  "text": "„Unsere Teambesprechung dauert jedes Mal über eine Stunde, und am Ende ist trotzdem nichts entschieden. Was meinst du – wie könnte man das ändern?“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Führen Sie das Gespräch weiter. Sie sind Partner B.",
+                  "hints": [
+                    "Reagieren heißt nicht nur zustimmen: Gehen Sie auf das Gesagte ein und bringen Sie dann etwas Eigenes.",
+                    "Rechnen Sie mit einem Einwand und antworten Sie darauf – genau das macht den Unterschied zu einem Monolog.",
+                    "Nützlich: „Das geht mir genauso, vor allem wenn …“, „Ich würde vorschlagen, dass …“, „Und wenn jemand …?“"
+                  ],
+                  "musterloesung": "Partner A: Unsere Teambesprechung dauert jedes Mal über eine Stunde, und am Ende ist trotzdem nichts entschieden. Was meinst du – wie könnte man das ändern?\n\nPartner B: Das geht mir genauso, vor allem freitags, wenn alle schon mit den Gedanken im Wochenende sind. Ich glaube, das Hauptproblem ist, dass wir ohne Tagesordnung anfangen.\n\nPartner A: Eine Tagesordnung hatten wir doch mal. Die hat auch nichts gebracht.\n\nPartner B: Weil sie erst in der Sitzung entstanden ist. Ich würde vorschlagen, dass jeder seine Punkte bis Mittwochmittag in eine gemeinsame Liste schreibt. Wer nichts einträgt, hat auch nichts zu besprechen.\n\nPartner A: Und wenn jemand kurzfristig etwas Dringendes hat?\n\nPartner B: Dann kommt es ans Ende, unter Verschiedenes. Wichtig wäre mir, dass die Punkte oben stehen, bei denen wirklich etwas entschieden werden muss. Das Berichten kann warten.\n\nPartner A: Das klingt vernünftig. Nur wer achtet auf die Zeit? Unsere Chefin bestimmt nicht, die redet selbst am meisten.\n\nPartner B: Dann sollten wir uns abwechseln. Eine Person pro Sitzung, die nach fünfundvierzig Minuten laut sagt, dass Schluss ist. Das ist leichter, wenn es eine Regel ist und nicht die Entscheidung eines Einzelnen.\n\nPartner A: Einverstanden. Sollen wir das nächste Woche vorschlagen?\n\nPartner B: Ja, aber lass es uns zu zweit machen. Wenn das von einer Person allein kommt, klingt es schnell nach Kritik."
+                }
+              ]
+            },
+            {
+              "id": "sprechen-teil-2-b",
+              "stimuli": [
+                {
+                  "title": "Aussage 2",
+                  "text": "„Mein Sohn wird im Sommer eingeschult. Wie habt ihr das damals mit den Arbeitszeiten geregelt?“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Führen Sie das Gespräch weiter. Sie sind Partner B.",
+                  "hints": [
+                    "Hier ist ein persönliches Gespräch gefragt, kein Vortrag – antworten Sie aus eigener Erfahrung.",
+                    "Fragen Sie zurück und geben Sie einen konkreten Hinweis; ein Gespräch lebt davon, dass beide etwas beitragen."
+                  ],
+                  "musterloesung": "Partner A: Mein Sohn wird im Sommer eingeschult. Wie habt ihr das damals mit den Arbeitszeiten geregelt?\n\nPartner B: Herzlichen Glückwunsch – und ehrlich gesagt: Das war bei uns die schwierigste Zeit überhaupt. Der Kindergarten hatte bis 17 Uhr geöffnet, die Schule ist um halb zwölf aus. Damit haben wir nicht gerechnet.\n\nPartner A: Genau das macht mir Sorgen. Ich arbeite bis vier.\n\nPartner B: Wir haben es zweigleisig gelöst. Meine Frau hat ihre Stunden für ein Jahr auf dreißig reduziert, und ich habe mit meinem Vorgesetzten vereinbart, dass ich zweimal in der Woche um sieben anfange und dafür um halb drei gehe.\n\nPartner A: Hat er da einfach zugestimmt?\n\nPartner B: Nicht sofort. Wichtig war, dass ich nicht nur um etwas gebeten, sondern gleich gesagt habe, wie die Arbeit trotzdem erledigt wird. Und ich habe es für ein halbes Jahr zur Probe vorgeschlagen – das nimmt einem Vorgesetzten die Angst, sich festzulegen.\n\nPartner A: Der Punkt ist gut. Und der Nachmittag?\n\nPartner B: Da gibt es an vielen Schulen eine Betreuung. Aber pass auf: Die Anmeldefrist war bei uns schon im Februar, also lange vor der Einschulung. Wer das verpasst, steht im September ohne Platz da.\n\nPartner A: Das wusste ich nicht. Ich frage diese Woche in der Schule nach.\n\nPartner B: Mach das. Und sprich früh mit deiner Abteilungsleitung, nicht erst im August. Je mehr Zeit sie zum Planen hat, desto eher sagt sie ja."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Gemeinsam eine Lösung finden",
+          "instructions": "Lesen Sie die Situation. Finden Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner eine Lösung. Machen Sie Vorschläge, gehen Sie auf die Vorschläge der anderen Person ein und einigen Sie sich am Ende. Sie haben dafür etwa vier Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "stimuli": [
+                {
+                  "title": "Situation",
+                  "heading": "Ausfall in der Abteilung",
+                  "text": "Sie arbeiten in der Auftragsbearbeitung eines mittelgroßen Betriebs. Eine Kollegin ist seit drei Wochen krankgeschrieben, und es ist nicht absehbar, wann sie zurückkommt.\n\nDie liegengebliebene Arbeit wird täglich mehr, Kundenanfragen bleiben zu lange unbeantwortet, und im Team ist die Stimmung gereizt. Ihre Teamleitung bittet Sie und eine weitere Person, bis Freitag gemeinsam einen Vorschlag zu machen.\n\nStichpunkte:\n\n· Welche Aufgaben sind wirklich dringend, welche können warten?\n· Wer im Team könnte was übernehmen – und was fällt dafür weg?\n· Brauchen Sie eine Aushilfe oder Unterstützung aus einer anderen Abteilung?\n· Was schlagen Sie der Teamleitung konkret vor?"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Finden Sie gemeinsam eine Lösung und einigen Sie sich auf einen Vorschlag an die Teamleitung.",
+                  "hints": [
+                    "Einigen heißt nicht, allem zuzustimmen. Ein gutes Gespräch enthält auch einen Gegenvorschlag.",
+                    "Nützlich: „Ich würde vorschlagen, dass …“, „Das sehe ich anders, weil …“, „Können wir uns darauf einigen, dass …?“",
+                    "Fassen Sie am Ende zusammen, wer was macht – genau danach fragt die Teamleitung."
+                  ],
+                  "musterloesung": "Partner A: Wir sollten zuerst sortieren, was wirklich dringend ist. Meiner Meinung nach sind das die Aufträge mit fester Lieferzusage und die Reklamationen.\n\nPartner B: Bei den Reklamationen bin ich dabei. Bei den Angeboten würde ich widersprechen – wenn wir die zwei Wochen liegen lassen, sind die Kunden weg. Das merkt man nur nicht sofort.\n\nPartner A: Guter Punkt. Dann also Aufträge, Reklamationen und Angebote, und alles andere – Statistiken, Ablage, die Pflege der Preislisten – schieben wir bewusst.\n\nPartner B: Einverstanden. Wer übernimmt was? Ich könnte die Reklamationen machen, das habe ich früher zwei Jahre lang gemacht.\n\nPartner A: Sehr gut. Ich nehme die Aufträge. Bleiben die Angebote – das schaffen wir zu zweit nicht zusätzlich.\n\nPartner B: Dann brauchen wir Unterstützung. Im Einkauf hat Herr Vidović gerade eine ruhige Phase, und er kennt unser System.\n\nPartner A: Ich hätte eher an eine Aushilfe gedacht.\n\nPartner B: Das würde ich nicht machen. Bis eine Aushilfe eingearbeitet ist, vergehen zwei Wochen, und so lange sind wir vielleicht schon wieder vollzählig. Bei einer Krankheit von unbekannter Dauer ist mir das zu viel Aufwand.\n\nPartner A: Das überzeugt mich. Dann fragen wir zuerst intern, und wenn es länger als sechs Wochen dauert, reden wir noch einmal über eine Aushilfe.\n\nPartner B: Können wir uns darauf einigen, dass wir das der Teamleitung genau so sagen? Also mit einer klaren Frist?\n\nPartner A: Ja, das halte ich sogar für den wichtigsten Punkt. Sonst wird aus der Übergangslösung ein Dauerzustand – das haben wir schon einmal erlebt.\n\nPartner B: Genau. Und wir sollten dazusagen, was wir nicht mehr machen. Wenn wir nur sagen „wir schaffen das“, fragt in vier Wochen jemand nach den Statistiken.\n\nPartner A: Einverstanden. Dann fasse ich zusammen: Ich übernehme die Aufträge, du die Reklamationen, wir bitten um Herrn Vidović für die Angebote, Statistiken und Ablage ruhen. Nach sechs Wochen wird neu entschieden.\n\nPartner B: So schreiben wir es auf. Ich mache den Entwurf bis Donnerstag, dann schaust du noch einmal drüber."
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "status": "in-arbeit"
+  ]
 }

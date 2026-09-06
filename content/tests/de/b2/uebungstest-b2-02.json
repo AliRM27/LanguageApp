@@ -1,0 +1,1473 @@
+{
+  "id": "uebungstest-b2-02",
+  "language": "de",
+  "level": "B2",
+  "title": "Übungstest B2 Beruf – Nr. 2",
+  "description": "Ein vollständiger berufsbezogener Übungstest auf Niveau B2 mit den Teilen Lesen, Lesen und Schreiben, Hören, Hören und Schreiben, Sprachbausteine und Schreiben sowie Sprechen. Themenschwerpunkt: Arbeitsumfeld und Betriebsklima.",
+  "sections": [
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 45,
+      "description": "Sie lesen Beiträge aus einem Ratgeber, zwei Unterweisungen, Fragen und Tipps aus einer Beratung sowie ein Besprechungsprotokoll. Insgesamt bearbeiten Sie 18 Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Informationen zum Arbeitsmarkt",
+          "instructions": "Sie betreuen im Betriebsrat das Schwarze Brett „Rat und Recht“. Fünf Kolleginnen und Kollegen haben Fragen geschickt. Welcher der acht Artikel passt zu welcher Person? Jeder Artikel kann nur einmal verwendet werden; drei Artikel passen zu keiner Person.",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-artikel",
+              "stimuli": [
+                {
+                  "title": "Artikel a",
+                  "heading": "Wenn die Schicht kippt",
+                  "text": "Was gilt, wenn Dienstpläne kurzfristig geändert werden: Ankündigungsfristen, Zustimmung des Betriebsrats und die Frage, wann Sie eine Änderung ablehnen dürfen. Mit Hinweisen für Beschäftigte mit Betreuungspflichten."
+                },
+                {
+                  "title": "Artikel b",
+                  "heading": "Mobbing oder schlechter Tag?",
+                  "text": "Wo Konflikt aufhört und Mobbing anfängt, warum ein Gedächtnisprotokoll wichtiger ist als Zeugen und an welche Stellen im Betrieb und außerhalb Sie sich wenden können."
+                },
+                {
+                  "title": "Artikel c",
+                  "heading": "Der Betriebsrat und Sie",
+                  "text": "Was ein Betriebsrat entscheiden darf und was nicht, wie eine Sprechstunde abläuft und warum Gespräche dort vertraulich bleiben – auch gegenüber Vorgesetzten."
+                },
+                {
+                  "title": "Artikel d",
+                  "heading": "Lärm, Licht, Luft",
+                  "text": "Welche Grenzwerte an Arbeitsplätzen gelten, wann Gehörschutz gestellt werden muss und wie eine Gefährdungsbeurteilung zustande kommt. Mit einer Übersicht für Lager und Produktion."
+                },
+                {
+                  "title": "Artikel e",
+                  "heading": "Zielvereinbarung verstehen",
+                  "text": "Wie Ziele formuliert sein müssen, damit eine Prämie nachvollziehbar ist, was bei Krankheit oder Elternzeit gilt und warum unrealistische Ziele auch für den Betrieb ein Problem sind."
+                },
+                {
+                  "title": "Artikel f",
+                  "heading": "Das Betriebliche Eingliederungsmanagement",
+                  "text": "Nach sechs Wochen Krankheit im Jahr muss der Betrieb ein Gespräch anbieten. Was dort besprochen wird, wer teilnimmt und warum eine Ablehnung keine Nachteile haben darf."
+                },
+                {
+                  "title": "Artikel g",
+                  "heading": "Urlaub planen ohne Streit",
+                  "text": "Wie Urlaubswünsche im Team abgestimmt werden, welche Gründe Vorrang haben und was passiert, wenn zwei Personen denselben Zeitraum wollen."
+                },
+                {
+                  "title": "Artikel h",
+                  "heading": "Sicher im Homeoffice",
+                  "text": "Welche Regeln für Arbeitszeit, Erreichbarkeit und Ausstattung gelten, wenn zu Hause gearbeitet wird – und wer für einen Unfall am heimischen Schreibtisch haftet."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Wenn die Schicht kippt"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Mobbing oder schlechter Tag?"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Der Betriebsrat und Sie"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Lärm, Licht, Luft"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Zielvereinbarung verstehen"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Das Betriebliche Eingliederungsmanagement"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Urlaub planen ohne Streit"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Sicher im Homeoffice"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l1-1",
+                  "prompt": "Pawel hat in diesem Jahr schon acht Wochen gefehlt. Die Personalabteilung hat ihn zu einem Gespräch eingeladen und er weiß nicht, worum es geht und ob er hingehen muss.",
+                  "solution": "f",
+                  "explanation": "Artikel f behandelt das Eingliederungsmanagement nach sechs Wochen Krankheit, die Teilnehmenden und die Folgen einer Ablehnung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-2",
+                  "prompt": "Elif arbeitet im Lager. Seit die zweite Abfüllanlage läuft, ist es so laut, dass sie sich abends noch benommen fühlt. Sie fragt sich, ob der Betrieb etwas tun muss.",
+                  "solution": "d",
+                  "explanation": "Artikel d nennt Grenzwerte, Gehörschutz und die Gefährdungsbeurteilung, ausdrücklich für Lager und Produktion."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-3",
+                  "prompt": "Herr Molnár wird seit Wochen von zwei Kollegen ausgeschlossen und vor anderen lächerlich gemacht. Er überlegt, ob er sich das nur einbildet und an wen er sich wenden könnte.",
+                  "solution": "b",
+                  "explanation": "Artikel b zieht die Grenze zwischen Konflikt und Mobbing und nennt Anlaufstellen im Betrieb und außerhalb."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-4",
+                  "prompt": "Frau Osei bekommt jedes Jahr eine Prämie, aber diesmal versteht sie die Berechnung nicht. Außerdem war sie vier Monate in Elternzeit.",
+                  "solution": "e",
+                  "explanation": "Artikel e behandelt Zielvereinbarungen, die Nachvollziehbarkeit der Prämie und was bei Elternzeit gilt."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-5",
+                  "prompt": "Andrii soll ab nächster Woche in die Spätschicht wechseln – erfahren hat er das gestern. Er holt jeden Tag um 16 Uhr seine Tochter von der Kita ab.",
+                  "solution": "a",
+                  "explanation": "Artikel a behandelt kurzfristige Dienstplanänderungen, Ankündigungsfristen und Beschäftigte mit Betreuungspflichten."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Einweisungen und Unterweisungen",
+          "instructions": "Sie lesen zwei Texte aus Ihrem Betrieb. Entscheiden Sie zu jedem Text, ob die Aussage richtig oder falsch ist, und wählen Sie danach die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-text-1",
+              "stimuli": [
+                {
+                  "title": "Text 1",
+                  "heading": "Unterweisung: Gefahrstoffe im Reinigungslager",
+                  "text": "Seit dem 1. März lagern die Reinigungsmittel für die gesamte Halle im abgetrennten Bereich hinter Tor 3. Diese Unterweisung gilt für alle, die dort etwas entnehmen.\n\nZugang\nDen Bereich betritt nur, wer an dieser Unterweisung teilgenommen hat. Der Schlüssel hängt im Meisterbüro und wird mit Namen und Uhrzeit ausgetragen. Ein Nachschlüssel wird nicht ausgegeben.\n\nEntnahme\nEntnommen wird ausschließlich in Originalgebinden. Das Umfüllen in Getränkeflaschen oder unbeschriftete Kanister ist in jedem Fall verboten, auch für den Weg von wenigen Metern. Für kleine Mengen stehen beschriftete Dosierflaschen bereit.\n\nSchutzausrüstung\nHandschuhe und Schutzbrille liegen am Eingang und sind zu tragen, sobald ein Gebinde geöffnet wird. Wer eine Sehhilfe trägt, erhält auf Anfrage eine Überbrille.\n\nBei einem Unfall\nHautkontakt: mindestens fünfzehn Minuten mit Wasser spülen. Augenkontakt: Augendusche neben Tor 3 benutzen und in jedem Fall die Ersthelferin oder den Ersthelfer rufen – auch wenn die Beschwerden nachlassen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l2-1",
+                  "statement": "Für kurze Wege darf man Reinigungsmittel in andere Behälter umfüllen.",
+                  "solution": false,
+                  "explanation": "„Das Umfüllen in Getränkeflaschen oder unbeschriftete Kanister ist in jedem Fall verboten, auch für den Weg von wenigen Metern.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l2-2",
+                  "prompt": "Was gilt bei Augenkontakt mit einem Gefahrstoff?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Man benutzt die Augendusche und ruft in jedem Fall den Ersthelfer."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Man spült und meldet es am nächsten Tag."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Man wartet ab, ob die Beschwerden nachlassen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… Augendusche neben Tor 3 benutzen und in jedem Fall die Ersthelferin oder den Ersthelfer rufen – auch wenn die Beschwerden nachlassen.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-2-text-2",
+              "stimuli": [
+                {
+                  "title": "Text 2",
+                  "heading": "Einweisung: Neues Verfahren bei Krankmeldungen",
+                  "text": "Liebe Kolleginnen und Kollegen,\n\nab dem 1. April ändert sich, wie Sie sich krankmelden. Grund ist die elektronische Bescheinigung, die inzwischen alle Praxen ausstellen.\n\nWas bleibt\nSie melden sich weiterhin selbst und vor Schichtbeginn bei Ihrer direkten Führungskraft – telefonisch, nicht per Kurznachricht. Daran ändert sich nichts, und das ist auch der wichtigste Punkt.\n\nWas entfällt\nDen gelben Zettel müssen Sie uns nicht mehr schicken. Ihre Praxis übermittelt die Bescheinigung direkt an Ihre Krankenkasse, wir rufen sie von dort ab.\n\nWas Sie trotzdem behalten sollten\nDen Ausdruck für Ihre Unterlagen. Er ist Ihr Nachweis, falls die Übermittlung einmal nicht funktioniert – das kommt selten vor, aber es kommt vor.\n\nPrivat versichert?\nDann gilt das neue Verfahren nicht. Reichen Sie die Bescheinigung bitte wie bisher im Original ein."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l2-3",
+                  "statement": "Eine Krankmeldung per Kurznachricht ist ausdrücklich erlaubt.",
+                  "solution": false,
+                  "explanation": "„… telefonisch, nicht per Kurznachricht.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l2-4",
+                  "prompt": "Was gilt für privat Versicherte?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie melden sich erst ab dem dritten Tag."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Für sie gilt das neue Verfahren nicht."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie schicken die Bescheinigung an die Krankenkasse."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Privat versichert? Dann gilt das neue Verfahren nicht.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Rahmenbedingungen der Arbeit",
+          "instructions": "In der Sprechstunde des Betriebsrats sind vier Fragen eingegangen. Welcher der sechs Tipps a–f passt zu welcher Frage? Zu einer Frage passt keiner der Tipps – wählen Sie dann „x“.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-tipps",
+              "prompt": "Welcher Tipp passt zu welcher Frage?",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Ein Anspruch auf einen bestimmten Urlaubszeitraum besteht nicht. Kollidieren zwei Wünsche, entscheiden soziale Gründe – etwa schulpflichtige Kinder – und nicht, wer zuerst eingetragen hat."
+                },
+                {
+                  "id": "b",
+                  "text": "Lassen Sie sich die Gefährdungsbeurteilung für Ihren Arbeitsplatz zeigen. Der Betrieb ist zur Erstellung verpflichtet, und Sie haben ein Recht, sie einzusehen."
+                },
+                {
+                  "id": "c",
+                  "text": "Führen Sie ein Gedächtnisprotokoll mit Datum, Uhrzeit und Beteiligten. Ohne Aufzeichnungen steht später Aussage gegen Aussage, und genau daran scheitern die meisten Fälle."
+                },
+                {
+                  "id": "d",
+                  "text": "Ihre Führungskraft darf nicht erfahren, was Sie in der Sprechstunde des Betriebsrats besprechen. Die Verschwiegenheit gilt auch nach Ende der Amtszeit."
+                },
+                {
+                  "id": "e",
+                  "text": "Änderungen am Dienstplan müssen in der Regel vier Tage vorher angekündigt werden. Bei kürzerer Frist dürfen Sie ablehnen, ohne dass Ihnen daraus ein Nachteil entsteht."
+                },
+                {
+                  "id": "f",
+                  "text": "Prüfen Sie, ob die Ziele überhaupt messbar formuliert sind. Ein Ziel, das niemand nachrechnen kann, ist auch keine Grundlage für die Kürzung einer Prämie."
+                },
+                {
+                  "id": "x",
+                  "text": "Hierzu passt keiner der Tipps."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l3-1",
+                  "prompt": "„Mein Chef hat mich gefragt, was ich neulich beim Betriebsrat besprochen habe. Muss ich ihm das sagen?“",
+                  "solution": "d",
+                  "explanation": "Tipp d: Die Verschwiegenheit gilt gegenüber Vorgesetzten und auch nach der Amtszeit."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-2",
+                  "prompt": "„Ich soll ab Montag Frühschicht machen, erfahren habe ich es am Samstag. Kann ich das ablehnen?“",
+                  "solution": "e",
+                  "explanation": "Tipp e: In der Regel vier Tage Ankündigung; bei kürzerer Frist darf man ablehnen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-3",
+                  "prompt": "„Ich habe seit Monaten Rückenschmerzen vom Heben. Gibt es eine Möglichkeit, dass die Firma mir einen anderen Arbeitsplatz gibt?“",
+                  "solution": "x",
+                  "explanation": "Keiner der sechs Tipps behandelt die Umsetzung auf einen anderen Arbeitsplatz aus gesundheitlichen Gründen. Tipp b geht um die Gefährdungsbeurteilung, nicht um einen Anspruch auf Versetzung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-4",
+                  "prompt": "„Meine Kollegin und ich wollen beide in der ersten Augustwoche Urlaub. Sie hat sich zuerst eingetragen – zählt das?“",
+                  "solution": "a",
+                  "explanation": "Tipp a: Nicht die Reihenfolge entscheidet, sondern soziale Gründe."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-4",
+          "title": "Teil 4 – Aufgaben und Aufgabenverteilung",
+          "instructions": "Lesen Sie das Protokoll der letzten Teambesprechung und die Aufgaben. Welche Antwort passt am besten?",
+          "blocks": [
+            {
+              "id": "lesen-teil-4-protokoll",
+              "stimuli": [
+                {
+                  "title": "Protokoll",
+                  "heading": "Teambesprechung Lager und Versand",
+                  "text": "Datum: Montag, 12. Mai\nUhrzeit: 7:15 – 8:00 Uhr\nOrt: Meisterbüro Halle 2\nAnwesende: R. Osei (Leitung), P. Nowak, T. Molnár, F. Adamu\nEntschuldigt: L. Brandt (Schulung)\nProtokoll: F. Adamu\n\nTagesordnung\nTOP 1 Auswertung der Inventur\nTOP 2 Neue Regale in Gang C\nTOP 3 Schulung Flurförderzeuge\nTOP 4 Beschwerde aus dem Versand\nTOP 5 Verschiedenes\n\nTOP 1 – Auswertung der Inventur\nDie Abweichung liegt bei 1,8 Prozent, im Vorjahr waren es 0,9. Auffällig ist, dass fast alle Differenzen den Bereich Kleinteile betreffen. Als Ursache wurde nicht Diebstahl vermutet, sondern die Zählweise: Kleinteile werden gewogen, nicht gezählt, und die hinterlegten Stückgewichte sind teilweise veraltet. Herr Nowak prüft bis Ende Mai die Gewichtstabelle.\n\nTOP 2 – Neue Regale in Gang C\nDie Regale werden in der Woche nach Pfingsten aufgebaut. Gang C ist in dieser Zeit gesperrt; die betroffenen Artikel stehen vorübergehend in Gang F. Der Aufbau erfolgt durch eine Fremdfirma, nicht durch das eigene Team – ausdrücklich auch nicht die Vorbereitung.\n\nTOP 3 – Schulung Flurförderzeuge\nDie jährliche Unterweisung findet am 3. Juni statt, zwei Durchgänge um 6 Uhr und um 14 Uhr. Teilnahme ist für alle mit Fahrberechtigung verpflichtend. Wer an beiden Terminen verhindert ist, meldet sich vorher bei Frau Osei; ein Nachholtermin wird nur einmal angeboten.\n\nTOP 4 – Beschwerde aus dem Versand\nDer Versand meldet, dass Paletten zunehmend ohne Lieferschein ankommen. Beschlossen wurde, dass der Lieferschein künftig sichtbar an der Stirnseite befestigt wird und nicht mehr obenauf liegt. Frau Adamu beschafft die Klarsichttaschen.\n\nTOP 5 – Verschiedenes\nDer Wasserkocher im Pausenraum ist defekt. Ersatz wurde bereits bestellt.\n\nNächster Termin: Montag, 26. Mai, 7:15 Uhr"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-1",
+                  "prompt": "Worauf wird die höhere Abweichung bei der Inventur zurückgeführt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Auf Diebstahl im Bereich Kleinteile."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Auf zu wenig Personal bei der Zählung."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Auf veraltete Stückgewichte beim Wiegen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Als Ursache wurde nicht Diebstahl vermutet, sondern die Zählweise … die hinterlegten Stückgewichte sind teilweise veraltet.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-2",
+                  "prompt": "Wer baut die neuen Regale auf?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Eine Fremdfirma."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das eigene Team nach Feierabend."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Das Team bereitet vor, die Fremdfirma baut auf."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Der Aufbau erfolgt durch eine Fremdfirma … ausdrücklich auch nicht die Vorbereitung.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-3",
+                  "prompt": "Was gilt für die Schulung am 3. Juni?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie ist freiwillig."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie ist für alle mit Fahrberechtigung Pflicht."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie gilt nur für neue Beschäftigte."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Teilnahme ist für alle mit Fahrberechtigung verpflichtend.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-4",
+                  "prompt": "Was ändert sich wegen der Beschwerde aus dem Versand?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Versand holt die Paletten selbst ab."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Lieferscheine werden künftig per E-Mail geschickt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der Lieferschein wird an der Stirnseite befestigt."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… dass der Lieferschein künftig sichtbar an der Stirnseite befestigt wird und nicht mehr obenauf liegt.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-5",
+                  "prompt": "Was wurde zum defekten Wasserkocher beschlossen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nichts, der Ersatz ist bereits bestellt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das Team sammelt Geld für einen neuen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Er wird repariert."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Der Wasserkocher im Pausenraum ist defekt. Ersatz wurde bereits bestellt.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen-schreiben",
+      "title": "Lesen und Schreiben",
+      "durationMinutes": 20,
+      "description": "Ihre Teamleitung leitet Ihnen die Nachricht einer Kundin oder eines Kunden weiter und sagt Ihnen, was in Ihrer Antwort stehen soll. Sie beantworten zwei Fragen zu den Texten und schreiben dann die Antwort.",
+      "parts": [
+        {
+          "id": "lesen-schreiben-teil-1",
+          "title": "E-Mail an einen Kunden",
+          "instructions": "Lesen Sie beide E-Mails. Beantworten Sie zuerst die zwei Fragen und schreiben Sie danach die Antwort. Gehen Sie dabei auf alle Punkte Ihrer Teamleitung ein.",
+          "blocks": [
+            {
+              "id": "lesen-schreiben-block",
+              "stimuli": [
+                {
+                  "title": "E-Mail 1",
+                  "heading": "Von: R. Osei (Leitung) – Weitergeleitet: Reklamation Bäckerei Sommer",
+                  "text": "Hallo,\n\nübernehmen Sie das bitte heute noch. Die Bäckerei Sommer beliefern wir seit sechs Jahren, das ist kein Kunde, den wir verlieren wollen.\n\nBitte gehen Sie auf Folgendes ein:\n\n1. Entschuldigen Sie sich für die beschädigte Ware und nennen Sie den Grund: Beim Umbau in Gang C stand die Palette zwei Tage im Durchgang.\n2. Sagen Sie eine kostenlose Ersatzlieferung für Donnerstag zu.\n3. Bieten Sie an, die beschädigte Ware bei der nächsten Anlieferung mitzunehmen – zurückschicken muss der Kunde nichts.\n4. Fragen Sie, ob künftig vormittags oder nachmittags geliefert werden soll; Herr Sommer hatte das zuletzt angesprochen.\n\nDanke!\nR. Osei"
+                },
+                {
+                  "title": "E-Mail 2",
+                  "heading": "Von: M. Sommer – Lieferung 3391 – Ware beschädigt",
+                  "text": "Sehr geehrte Damen und Herren,\n\ngestern haben wir unsere Wochenlieferung erhalten (Lieferschein 3391). Von den zwölf Kartons Backpapier waren fünf eingedrückt, bei zweien war der Inhalt so verknickt, dass wir ihn nicht verwenden können.\n\nDas ist in sechs Jahren nicht vorgekommen, deshalb wundere ich mich. Wir haben am Wochenende einen Großauftrag und mussten kurzfristig woanders kaufen.\n\nIch möchte wissen, wie Sie das regeln, und ich hätte gern eine Rückmeldung noch in dieser Woche.\n\nMit freundlichen Grüßen\nMartin Sommer\nBäckerei Sommer"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "ls-1",
+                  "prompt": "Warum wundert sich Herr Sommer besonders?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil die Lieferung zu spät kam."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil so etwas in sechs Jahren nicht vorgekommen ist."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil der Preis gestiegen ist."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Das ist in sechs Jahren nicht vorgekommen, deshalb wundere ich mich.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "ls-2",
+                  "prompt": "Was sollen Sie laut Ihrer Teamleitung anbieten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Einen Preisnachlass auf die nächste Lieferung."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Eine Gutschrift über den vollen Betrag."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Eine kostenlose Ersatzlieferung für Donnerstag."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Sagen Sie eine kostenlose Ersatzlieferung für Donnerstag zu.“"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "ls-3",
+                  "prompt": "Schreiben Sie die Antwort an Herrn Sommer.",
+                  "criteria": [
+                    "Entschuldigung und Grund für den Schaden",
+                    "Zusage der Ersatzlieferung am Donnerstag",
+                    "Angebot: Rücknahme der beschädigten Ware",
+                    "Rückfrage: Lieferung vormittags oder nachmittags?"
+                  ],
+                  "hints": [
+                    "Sie schreiben an einen langjährigen Kunden: förmlich, aber nicht unpersönlich.",
+                    "Nennen Sie den Grund, ohne sich herauszureden – der Schaden ist bei Ihnen entstanden.",
+                    "Gehen Sie darauf ein, dass er kurzfristig woanders kaufen musste, auch wenn das nicht in der Liste steht."
+                  ],
+                  "minWords": 100,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrter Herr Sommer,\n\nvielen Dank für Ihre Nachricht – und es tut mir aufrichtig leid, dass Sie beschädigte Ware erhalten haben. Dass Sie deswegen kurzfristig woanders kaufen mussten, ärgert mich besonders, gerade vor einem Großauftrag.\n\nDie Ursache liegt bei uns: Wegen eines Regalumbaus stand Ihre Palette zwei Tage im Durchgang und ist dort mehrfach angefahren worden. Das hätte uns auffallen müssen, bevor die Lieferung das Haus verlässt.\n\nWir liefern Ihnen die zwölf Kartons selbstverständlich kostenlos nach, und zwar am Donnerstag. Die beschädigte Ware nehmen unsere Fahrer bei dieser Gelegenheit gleich mit; Sie müssen also nichts zurückschicken und auch nichts verpacken.\n\nEine Frage hätte ich noch: Sie hatten zuletzt angesprochen, dass Ihnen eine andere Uhrzeit lieber wäre. Sollen wir künftig vormittags oder nachmittags liefern? Sagen Sie mir kurz Bescheid, dann hinterlege ich das fest in Ihrem Kundenkonto.\n\nMit freundlichen Grüßen\nF. Adamu\nVersand"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 20,
+      "description": "Sie hören Gespräche aus dem Arbeitsalltag, eine Präsentation und telefonische Mitteilungen. Insgesamt bearbeiten Sie 19 Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Gespräche am Arbeitsplatz",
+          "instructions": "Sie hören drei kurze Gespräche. Zu jedem Gespräch gibt es zwei Aufgaben: Entscheiden Sie zuerst, ob die Aussage richtig oder falsch ist, und wählen Sie dann die richtige Antwort. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-02/hoeren-teil-1.mp3",
+            "transcript": "Gespräch 1\nFrau Osei: Herr Nowak, die Gewichtstabelle – kommen Sie bis Ende Mai durch?\n\nHerr Nowak: Ehrlich gesagt nein. Ich habe die Hälfte, aber bei den Schrauben fehlen mir die Datenblätter.\n\nFrau Osei: Wer hat die?\n\nHerr Nowak: Der Einkauf. Ich habe zweimal gefragt, ohne Antwort.\n\nFrau Osei: Dann gehen Sie hin. Wenn Sie bis Mittwoch nichts haben, sagen Sie mir Bescheid – dann rufe ich dort an.\n\nGespräch 2\nHerr Molnár: Frau Adamu, ich wollte etwas ansprechen. Die neuen Klarsichttaschen halten nicht.\n\nFrau Adamu: Wie meinen Sie das?\n\nHerr Molnár: Der Klebestreifen löst sich in der Kälte. Bei den Tiefkühlpaletten liegen die Lieferscheine nach zehn Minuten auf dem Boden.\n\nFrau Adamu: Das habe ich nicht bedacht. Es gibt welche mit Magnet, die kosten etwas mehr.\n\nHerr Molnár: Für die Tiefkühlware wäre mir das lieber. Für den Rest reichen die jetzigen.\n\nGespräch 3\nFrau Brandt: Sie waren doch auf der Schulung. War die etwas?\n\nHerr Kaminski: Der erste Teil ja, der zweite war verlorene Zeit. Vier Stunden Theorie, die man auch lesen könnte.\n\nFrau Brandt: Soll ich mich trotzdem anmelden?\n\nHerr Kaminski: Wenn Sie die Fahrberechtigung brauchen, haben Sie keine Wahl. Aber nehmen Sie den Termin um 6 Uhr – nachmittags waren wir zu dritt und es hat sich niemand getraut zu fragen.\n\nFrau Brandt: Gut zu wissen. Dann trage ich mich für morgens ein."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-gespraech-1",
+              "prompt": "Gespräch 1",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-1",
+                  "statement": "Herr Nowak hat schon zweimal beim Einkauf nachgefragt.",
+                  "solution": true,
+                  "explanation": "„Ich habe zweimal gefragt, ohne Antwort.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Was soll Herr Nowak jetzt tun?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Persönlich in den Einkauf gehen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Tabelle ohne die Schrauben abgeben."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Auf die Antwort per E-Mail warten."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Dann gehen Sie hin.“ – und bei Erfolglosigkeit bis Mittwoch Bescheid sagen."
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-gespraech-2",
+              "prompt": "Gespräch 2",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-3",
+                  "statement": "Die Klarsichttaschen sollen komplett ersetzt werden.",
+                  "solution": false,
+                  "explanation": "„Für die Tiefkühlware wäre mir das lieber. Für den Rest reichen die jetzigen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Worin besteht das Problem?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Taschen sind zu klein."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Der Kleber hält bei Kälte nicht."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Taschen sind zu teuer."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Der Klebestreifen löst sich in der Kälte.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-gespraech-3",
+              "prompt": "Gespräch 3",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-5",
+                  "statement": "Frau Brandt entscheidet sich für den Termin am Morgen.",
+                  "solution": true,
+                  "explanation": "„Dann trage ich mich für morgens ein.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-6",
+                  "prompt": "Warum empfiehlt Herr Kaminski den Morgentermin?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil er kürzer ist."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil die Referentin besser ist."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil die Gruppe dort größer ist und man eher fragt."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… nachmittags waren wir zu dritt und es hat sich niemand getraut zu fragen.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Was passt zu welchem Gespräch?",
+          "instructions": "Sie hören vier kurze Gespräche. Welcher Satz a–f passt zu welchem Gespräch? Zwei Sätze bleiben übrig. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-02/hoeren-teil-2.mp3",
+            "transcript": "Gespräch 1\nFrau Adamu: Die Rückmeldung zur Schulung muss bis Freitag raus, sonst sind die Plätze weg.\n\nHerr Nowak: Freitag schon? Ich dachte, wir hätten bis Monatsende.\n\nFrau Adamu: Nein, das war letztes Jahr. Diesmal ist die Frist früher.\n\nGespräch 2\nHerr Molnár: Ich muss noch einmal auf die Palette von gestern zurückkommen. Die habe ich falsch beschriftet.\n\nFrau Osei: Die ist schon raus.\n\nHerr Molnár: Ich weiß, und das tut mir leid. Ich rufe den Kunden gleich selbst an.\n\nGespräch 3\nFrau Brandt: Dass Gang C drei Wochen gesperrt bleibt, halte ich für falsch.\n\nHerr Kaminski: Die Leitung hat aber so entschieden.\n\nFrau Brandt: Trotzdem. Wir verlieren jeden Tag eine Stunde mit Umwegen, das hat offenbar niemand gerechnet.\n\nGespräch 4\nHerr Nowak: Die Restposten in Gang F muss jemand neu sortieren. Das ist keine schöne Arbeit.\n\nFrau Adamu: Ich mache es. Ich kenne die Artikelnummern am besten, dann geht es wenigstens schnell.\n\nHerr Nowak: Danke, das nehme ich an."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "prompt": "Welcher Satz passt zu welchem Gespräch?",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Jemand bietet an, eine unangenehme Aufgabe zu übernehmen."
+                },
+                {
+                  "id": "b",
+                  "text": "Jemand kündigt an, eine Anschaffung selbst zu bezahlen."
+                },
+                {
+                  "id": "c",
+                  "text": "Jemand weist darauf hin, dass eine Frist abläuft."
+                },
+                {
+                  "id": "d",
+                  "text": "Jemand widerspricht einer Entscheidung der Leitung."
+                },
+                {
+                  "id": "e",
+                  "text": "Jemand entschuldigt sich für einen eigenen Fehler."
+                },
+                {
+                  "id": "f",
+                  "text": "Jemand bittet darum, früher gehen zu dürfen."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h2-1",
+                  "prompt": "Gespräch 1",
+                  "solution": "c",
+                  "explanation": "Frau Adamu weist auf die ablaufende Frist hin."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-2",
+                  "prompt": "Gespräch 2",
+                  "solution": "e",
+                  "explanation": "Herr Molnár räumt einen eigenen Fehler ein und entschuldigt sich."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-3",
+                  "prompt": "Gespräch 3",
+                  "solution": "d",
+                  "explanation": "Frau Brandt widerspricht der Entscheidung der Leitung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-4",
+                  "prompt": "Gespräch 4",
+                  "solution": "a",
+                  "explanation": "Frau Adamu bietet an, die unangenehme Aufgabe zu übernehmen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Eine Präsentation",
+          "instructions": "Sie hören eine Präsentation im Betrieb. Über jeder Aufgabe steht ein Stichwort, damit Sie wissen, an welcher Stelle Sie sich befinden. Wählen Sie die richtige Antwort. Sie hören die Präsentation einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-02/hoeren-teil-3.mp3",
+            "transcript": "Moderatorin: So, dann übergebe ich an Frau Winkler. Sie kommt von unserer Berufsgenossenschaft und stellt die neue Regelung zum Heben und Tragen vor.\n\nFrau Winkler: Vielen Dank. Ich bin nicht von einer Firma, die Ihnen etwas verkaufen möchte, sondern von der Berufsgenossenschaft – das sage ich gleich zu Beginn, weil die Frage sonst später kommt.\n\nFrau Winkler: Zur Sache. Ab dem 1. Juli gilt in diesem Betrieb eine neue Grenze für das Heben von Hand: fünfzehn Kilogramm. Bisher waren es fünfundzwanzig. Wichtig ist dabei nicht die Zahl allein, sondern was ab dieser Grenze passiert: Es muss ein Hilfsmittel eingesetzt werden, und zwar unabhängig davon, ob Sie sich das zutrauen.\n\nFrau Winkler: Was heißt das im Alltag? Für die meisten von Ihnen wenig, weil ohnehin Hubwagen im Einsatz sind. Ändern wird sich vor allem der Wareneingang: Dort werden Kartons bisher einzeln vom Lkw genommen. Dafür kommen zwei Hebehilfen, eine je Rampe.\n\nFrau Winkler: Der häufigste Rückenschaden entsteht übrigens nicht beim schweren Heben. Er entsteht beim Drehen mit Last – wenn Sie einen Karton aufnehmen und sich gleichzeitig zur Seite drehen. Zwei Schritte machen statt sich zu drehen, das ist die wirksamste Regel, die ich Ihnen mitgeben kann.\n\nFrau Winkler: Zum Schluss die Frage nach den Kosten, die immer kommt: Die Hebehilfen zahlt der Betrieb. Die Berufsgenossenschaft gibt einen Zuschuss von vierzig Prozent, weil es sich um eine Präventionsmaßnahme handelt."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-a",
+              "prompt": "WER SPRICHT",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-1",
+                  "prompt": "Wer hält die Präsentation?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Eine Vertreterin der Berufsgenossenschaft."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Eine Mitarbeiterin des Betriebs."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Eine Verkäuferin für Hebehilfen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… sondern von der Berufsgenossenschaft.“ Sie stellt ausdrücklich klar, dass sie nichts verkauft."
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-b",
+              "prompt": "NEUE GRENZE",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Was ist an der neuen Regelung entscheidend?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass niemand mehr als fünfzehn Kilogramm tragen darf."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass ab der Grenze ein Hilfsmittel benutzt werden muss."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass jeder selbst entscheidet, was er sich zutraut."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Es muss ein Hilfsmittel eingesetzt werden, und zwar unabhängig davon, ob Sie sich das zutrauen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-c",
+              "prompt": "RÜCKENSCHÄDEN",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-3",
+                  "prompt": "Wodurch entstehen die meisten Rückenschäden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Durch zu schweres Heben."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Durch langes Stehen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Durch Drehen mit einer Last."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Er entsteht beim Drehen mit Last.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-d",
+              "prompt": "KOSTEN",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Wer bezahlt die Hebehilfen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Der Betrieb, mit einem Zuschuss von vierzig Prozent."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Vollständig die Berufsgenossenschaft."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Beschäftigten über eine Umlage."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Die Hebehilfen zahlt der Betrieb. Die Berufsgenossenschaft gibt einen Zuschuss von vierzig Prozent.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-4",
+          "title": "Teil 4 – Telefonische Mitteilungen",
+          "instructions": "Sie hören fünf Nachrichten auf dem Anrufbeantworter. Wählen Sie zu jeder Nachricht die richtige Antwort. Sie hören jede Nachricht einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-02/hoeren-teil-4.mp3",
+            "transcript": "Mitteilung 1\nFrau Winkler: Guten Tag, hier ist Winkler von der Berufsgenossenschaft. Die Hebehilfen für den Wareneingang sind bewilligt, aber nur eine statt zwei. Für die zweite brauchen wir noch die Fotos der Rampe. Schicken Sie die bitte bis Freitag, sonst fällt der Antrag aus dem laufenden Jahr.\n\nMitteilung 2\nHerr Kaminski: Hallo, Kaminski hier. Ich stehe am Tor und komme nicht rein, mein Ausweis wird nicht erkannt. Die Pforte ist nicht besetzt. Ich fahre jetzt zur Rampe 4, da macht mir vielleicht jemand auf. Ruft mich bitte an, wenn ihr das lest.\n\nMitteilung 3\nFrau Adamu: Guten Tag, hier ist Adamu vom Versand. Es geht um die Klarsichttaschen mit Magnet. Der Lieferant hat sie da, aber nur in Schwarz statt Gelb. Preislich ist es dasselbe. Sagt mir bitte kurz, ob wir die nehmen, sonst warten wir drei Wochen auf Gelb.\n\nMitteilung 4\nHerr Nowak: Nowak hier. Ich habe die Gewichtstabelle fertig, aber ich habe dabei etwas gefunden: Bei den Dichtungsringen ist das hinterlegte Gewicht doppelt so hoch wie das tatsächliche. Das erklärt vermutlich einen großen Teil der Inventurdifferenz. Ich schicke die Liste gleich.\n\nMitteilung 5\nFrau Brandt: Guten Tag, Brandt hier. Ich wollte nur Bescheid geben, dass ich morgen zur Schulung um 6 Uhr komme und nicht um 14 Uhr. Ich habe mich umgetragen. Falls jemand meine Frühschicht übernehmen muss: Herr Molnár hat schon zugesagt."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-4-mitteilung-1",
+              "prompt": "Mitteilung 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-1",
+                  "prompt": "Was fehlt noch für die zweite Hebehilfe?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Eine Unterschrift der Leitung."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Fotos der Rampe."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ein neuer Antrag."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Für die zweite brauchen wir noch die Fotos der Rampe.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-2",
+              "prompt": "Mitteilung 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-2",
+                  "prompt": "Was ist das Problem?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Er hat seinen Ausweis vergessen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Das Tor ist defekt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sein Ausweis funktioniert nicht."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… mein Ausweis wird nicht erkannt.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-3",
+              "prompt": "Mitteilung 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-3",
+                  "prompt": "Worum bittet Frau Adamu?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Um eine Entscheidung wegen der Farbe."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Um mehr Geld für die Bestellung."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Um Hilfe beim Auspacken."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Sagt mir bitte kurz, ob wir die nehmen, sonst warten wir drei Wochen auf Gelb.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-4",
+              "prompt": "Mitteilung 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-4",
+                  "prompt": "Was hat Herr Nowak entdeckt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass Ware fehlt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass ein hinterlegtes Gewicht falsch ist."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass die Regale zu klein sind."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Bei den Dichtungsringen ist das hinterlegte Gewicht doppelt so hoch wie das tatsächliche.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-5",
+              "prompt": "Mitteilung 5",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-5",
+                  "prompt": "Warum ruft Frau Brandt an?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie sagt die Schulung ab."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie sucht eine Vertretung."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie hat ihren Schulungstermin gewechselt."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… dass ich morgen zur Schulung um 6 Uhr komme und nicht um 14 Uhr.“ Die Vertretung ist bereits geklärt."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "hoeren-schreiben",
+      "title": "Hören und Schreiben",
+      "durationMinutes": 5,
+      "description": "Sie hören eine telefonische Mitteilung und halten das Wichtigste in einer Notiz fest.",
+      "parts": [
+        {
+          "id": "hoeren-schreiben-teil-1",
+          "title": "Notiz zu einem Anruf",
+          "instructions": "Sie sind allein im Büro und nehmen einen Anruf entgegen. Wählen Sie zuerst den Grund des Anrufs. Füllen Sie danach die Notiz für Ihre Kollegin aus. Sie hören die Mitteilung zweimal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-02/hoeren-schreiben.mp3",
+            "transcript": "Frau Kovac: Guten Tag, hier spricht Ivana Kovac von der Firma Tiefbau Reuter. Ich rufe an wegen unserer Bestellung von letzter Woche, Nummer 5 5 2 7. Wir hatten dreißig Rollen Absperrband bestellt, geliefert wurden aber nur zwölf, und auf der Rechnung stehen trotzdem dreißig. Das müssen wir dringend klären, wir haben ab Montag eine Baustelle. Bitte rufen Sie mich heute noch zurück, meine Durchwahl ist 0 2 0 1 – 7 7 3 4 5 0. Ich bin bis sechzehn Uhr erreichbar. Danke."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-schreiben-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "hs-1",
+                  "prompt": "Grund für den Anruf",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Angebot"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bestellung / Buchung"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Beschwerde"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Es wurde zu wenig geliefert, aber die volle Menge berechnet – die Anruferin beanstandet Lieferung und Rechnung."
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-2",
+                  "prompt": "Name",
+                  "inputMode": "single-line",
+                  "musterloesung": "Ivana Kovac, Firma Tiefbau Reuter"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-3",
+                  "prompt": "Telefonnummer",
+                  "inputMode": "single-line",
+                  "musterloesung": "0201 – 773450"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-4",
+                  "prompt": "Weitere Informationen",
+                  "inputMode": "single-line",
+                  "musterloesung": "Bestellung 5527: 30 Rollen Absperrband bestellt, nur 12 geliefert, Rechnung über 30. Baustelle beginnt am Montag."
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-5",
+                  "prompt": "Zu erledigen",
+                  "inputMode": "single-line",
+                  "musterloesung": "Heute noch zurückrufen, Frau Kovac ist bis 16 Uhr erreichbar. Lieferung und Rechnung prüfen."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprachbausteine",
+      "title": "Sprachbausteine und Schreiben",
+      "durationMinutes": 35,
+      "description": "Sie ergänzen zwei Texte aus dem Berufsalltag und schreiben zum Schluss Ihre Meinung zu einem Thema. Insgesamt bearbeiten Sie 13 Aufgaben.",
+      "parts": [
+        {
+          "id": "sprachbausteine-teil-1",
+          "title": "Teil 1 – Wörter aus dem Kasten",
+          "instructions": "Lesen Sie den folgenden Text. Welche Wörter a–j passen am besten in die Lücken? Sie können jedes Wort nur einmal verwenden. Nicht alle Wörter passen in den Text.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-1-block",
+              "inlineGaps": true,
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Seit"
+                },
+                {
+                  "id": "b",
+                  "text": "einheitlich"
+                },
+                {
+                  "id": "c",
+                  "text": "Falls"
+                },
+                {
+                  "id": "d",
+                  "text": "sowohl"
+                },
+                {
+                  "id": "e",
+                  "text": "als auch"
+                },
+                {
+                  "id": "f",
+                  "text": "noch"
+                },
+                {
+                  "id": "g",
+                  "text": "obwohl"
+                },
+                {
+                  "id": "h",
+                  "text": "weshalb"
+                },
+                {
+                  "id": "i",
+                  "text": "dennoch"
+                },
+                {
+                  "id": "j",
+                  "text": "inzwischen"
+                }
+              ],
+              "stimuli": [
+                {
+                  "title": "Text",
+                  "heading": "Aushang: Neue Pausenregelung",
+                  "text": "Liebe Kolleginnen und Kollegen,\n\n___(1)___ wir im Februar auf den Zweischichtbetrieb umgestellt haben, hat sich gezeigt, dass die bisherige Pausenregelung nicht mehr passt.\n\nAb dem 1. Juni gilt daher: Die erste Pause beginnt ___(2)___ um 9 Uhr 30, die zweite um 12 Uhr. ___(3)___ Sie an einer Maschine arbeiten, die nicht angehalten werden kann, sprechen Sie sich bitte vorher im Team ab.\n\nDie Pausenzeiten sind ___(4)___ für die Frühschicht ___(5)___ für die Spätschicht verbindlich. Wer ___(6)___ Fragen hat, wendet sich an die Schichtleitung.\n\nMit freundlichen Grüßen\nDie Betriebsleitung"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-1",
+                  "prompt": "Lücke (1)",
+                  "solution": "a",
+                  "explanation": "„Seit wir umgestellt haben“ – der Nebensatz nennt den Zeitpunkt, seit dem das Problem besteht."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-2",
+                  "prompt": "Lücke (2)",
+                  "solution": "b",
+                  "explanation": "„beginnt einheitlich um 9 Uhr 30“ – für alle gleich."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-3",
+                  "prompt": "Lücke (3)",
+                  "solution": "c",
+                  "explanation": "Eine Bedingung: „Falls Sie an einer Maschine arbeiten …“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-4",
+                  "prompt": "Lücke (4)",
+                  "solution": "d",
+                  "explanation": "Doppelkonnektor: „sowohl … als auch …“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-5",
+                  "prompt": "Lücke (5)",
+                  "solution": "e",
+                  "explanation": "Der zweite Teil des Doppelkonnektors."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-6",
+                  "prompt": "Lücke (6)",
+                  "solution": "f",
+                  "explanation": "„Wer noch Fragen hat“ – die übliche Schlussformel."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprachbausteine-teil-2",
+          "title": "Teil 2 – Wörter im Text ergänzen",
+          "instructions": "Lesen Sie die E-Mail und wählen Sie für jede Lücke das passende Wort.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-2-block",
+              "inlineGaps": true,
+              "stimuli": [
+                {
+                  "title": "E-Mail",
+                  "heading": "Antwort auf eine Anfrage",
+                  "text": "Sehr geehrter Herr Falke,\n\nvielen Dank für ___(1)___ vom 8. Juni.\n\nGern senden wir Ihnen die gewünschten Unterlagen. ___(2)___ finden Sie unsere aktuelle Preisliste sowie das Datenblatt zu den Transportboxen.\n\nSie hatten nach der Mindestbestellmenge gefragt: Bei Standardgrößen ___(3)___ sie fünfzig Stück, bei Sonderanfertigungen zweihundert.\n\nFalls Sie ___(4)___ benötigen, rufe ich Sie gern an. Ich bin montags bis donnerstags ___(5)___ erreichbar.\n\nIch ___(6)___ mich auf Ihre Rückmeldung.\n\nMit freundlichen Grüßen\nF. Adamu"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-1",
+                  "prompt": "Lücke (1) – Nomen",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ihre Anfrage"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ihr Angebot"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ihre Zusage"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Herr Falke hat gefragt – der Brief reagiert auf eine Anfrage."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-2",
+                  "prompt": "Lücke (2) – Präposition + Nomen",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Im Auftrag"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Im Anhang"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Im Anschluss"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "Die Unterlagen liegen der Mail bei: „Im Anhang finden Sie …“."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-3",
+                  "prompt": "Lücke (3) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "betrifft"
+                    },
+                    {
+                      "id": "b",
+                      "text": "begreift"
+                    },
+                    {
+                      "id": "c",
+                      "text": "beträgt"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Die Mindestbestellmenge beträgt fünfzig Stück“ – die feste Verbindung für Mengenangaben."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-4",
+                  "prompt": "Lücke (4) – Nomen",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "weitere Auskünfte"
+                    },
+                    {
+                      "id": "b",
+                      "text": "weitere Ausgaben"
+                    },
+                    {
+                      "id": "c",
+                      "text": "weitere Ausreden"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Gemeint sind zusätzliche Informationen: „weitere Auskünfte“."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-5",
+                  "prompt": "Lücke (5) – Adverb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "durchschnittlich"
+                    },
+                    {
+                      "id": "b",
+                      "text": "durchgehend"
+                    },
+                    {
+                      "id": "c",
+                      "text": "durchsichtig"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„montags bis donnerstags durchgehend erreichbar“ – ohne Unterbrechung."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-6",
+                  "prompt": "Lücke (6) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "erfreue"
+                    },
+                    {
+                      "id": "b",
+                      "text": "befreie"
+                    },
+                    {
+                      "id": "c",
+                      "text": "freue"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Ich freue mich auf Ihre Rückmeldung“ – die feste Schlussformel."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprachbausteine-teil-3",
+          "title": "Teil 3 – Ihre Meinung",
+          "instructions": "Lesen Sie die Information und schreiben Sie Ihre Meinung zu dem Thema. Schreiben Sie mindestens 100 Wörter.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-3-block",
+              "stimuli": [
+                {
+                  "title": "Information",
+                  "heading": "Sollen Betriebe die Arbeitszeit vollständig elektronisch erfassen?",
+                  "text": "Seit einigen Jahren müssen Betriebe in Deutschland die Arbeitszeit ihrer Beschäftigten vollständig erfassen. Viele setzen dafür Apps oder Terminals ein, andere führen weiterhin Listen auf Papier.\n\nAus einer Befragung von 2.500 Beschäftigten:\n\n· 58 % sagen, dass ihre Überstunden seit der Erfassung sichtbarer geworden sind.\n· 41 % fühlen sich durch die Erfassung stärker kontrolliert.\n· 33 % geben an, dass sie Pausen jetzt zuverlässiger nehmen.\n· In Betrieben ohne Erfassung schätzen 62 % der Beschäftigten, dass sie mehr arbeiten als vertraglich vereinbart."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "sb3-1",
+                  "prompt": "Schreiben Sie Ihre Meinung zu dem Thema.",
+                  "criteria": [
+                    "Ihre Meinung: Ist die vollständige Erfassung sinnvoll?",
+                    "Eine Begründung mit einem Beispiel aus Ihrer Erfahrung",
+                    "Ein Argument der Gegenseite und Ihre Antwort darauf",
+                    "Ein Vorschlag, wie man es in der Praxis regeln könnte"
+                  ],
+                  "hints": [
+                    "Auf B2 reicht es nicht zu sagen, was Sie denken – Sie müssen es begründen und ein Gegenargument aufgreifen.",
+                    "Nützlich: „Einerseits … andererseits …“, „Dagegen wird oft eingewandt, dass …“, „Aus meiner Sicht …“.",
+                    "Sie dürfen die Zahlen aus dem Kasten benutzen, müssen es aber nicht."
+                  ],
+                  "minWords": 100,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Aus meiner Sicht ist die vollständige Erfassung richtig, und zwar vor allem im Interesse der Beschäftigten.\n\nIch arbeite im Lager, und bei uns wurde jahrelang nichts aufgeschrieben. Wer zehn Minuten früher anfing und zwanzig Minuten länger blieb, tat das umsonst. Seit wir die Terminals haben, steht das schwarz auf weiß – und siehe da, es waren im Schnitt drei Stunden im Monat. Das deckt sich mit den 58 Prozent aus der Befragung.\n\nDagegen wird oft eingewandt, dass man sich kontrolliert fühlt, und dieses Argument nehme ich ernst. Immerhin 41 Prozent sagen das. Ich verstehe auch, warum: Wenn jede Minute erfasst wird, entsteht schnell der Eindruck, dass jemand mitzählt, wie lange man auf der Toilette war.\n\nAber genau hier liegt für mich der Unterschied zwischen Erfassung und Überwachung. Erfasst werden muss, wann die Arbeit beginnt und endet – nicht, was jemand in welcher Minute tut. Solange die Daten nur für die Abrechnung genutzt werden und nicht für Leistungsvergleiche zwischen Kolleginnen und Kollegen, sehe ich kein Problem.\n\nMein Vorschlag wäre deshalb, das ausdrücklich in einer Betriebsvereinbarung festzuhalten: welche Daten erfasst werden, wer sie sehen darf und wann sie gelöscht werden. Dann profitieren beide Seiten – und die Diskussion über Kontrolle erledigt sich weitgehend von selbst."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Die mündliche Prüfung wird zu zweit abgelegt: Sie sprechen über ein berufliches Thema, führen ein Gespräch mit Ihrer Partnerin oder Ihrem Partner und lösen gemeinsam ein Problem aus dem Betrieb. Dieser Teil wird nicht automatisch bewertet; nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Über ein Thema sprechen",
+          "instructions": "Thema 2: Beschreiben Sie, wie Sie sich ein gutes Arbeitsumfeld vorstellen. Zuerst sprechen Sie etwa vier Minuten zusammenhängend über das Thema (Aufgabe A). Danach beantworten Sie eine Frage dazu (Aufgabe B). In der Prüfung übernimmt anschließend die zweite Person denselben Ablauf mit einem eigenen Thema.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "stimuli": [
+                {
+                  "title": "Thema",
+                  "heading": "Thema 2 – Ein gutes Arbeitsumfeld",
+                  "text": "Beschreiben Sie, wie Sie sich ein gutes Arbeitsumfeld vorstellen.\n\nSie können sich an diesen Punkten orientieren:\n\n· Jobsicherheit und Bezahlung\n· Karrierechancen und Weiterbildung\n· Kommunikation im Betrieb\n· Beispiele aus Ihrer eigenen Berufserfahrung"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-a",
+                  "prompt": "Aufgabe A – Sprechen Sie etwa vier Minuten darüber, wie Sie sich ein gutes Arbeitsumfeld vorstellen.",
+                  "hints": [
+                    "Vier Minuten sind lang. Legen Sie sich vorher eine Reihenfolge zurecht und arbeiten Sie die Punkte nacheinander ab.",
+                    "Auf B2 wird Struktur erwartet: „Zunächst …“, „Ein zweiter Punkt ist …“, „Zusammenfassend …“.",
+                    "Belegen Sie Aussagen mit einem eigenen Beispiel – das trägt länger als allgemeine Sätze."
+                  ],
+                  "musterloesung": "Ich möchte beschreiben, wie ich mir ein gutes Arbeitsumfeld vorstelle, und gehe dabei auf vier Punkte ein: Sicherheit und Bezahlung, Entwicklungsmöglichkeiten, Kommunikation und zum Schluss ein Beispiel aus meiner eigenen Erfahrung.\n\nZunächst zur Sicherheit. Für mich steht sie noch vor der Höhe des Gehalts. Ich hatte drei Jahre lang befristete Verträge, immer für sechs Monate, und in dieser Zeit konnte ich nichts planen – keine Wohnung, keinen Kurs, nichts. Ein unbefristeter Vertrag mit durchschnittlichem Lohn ist mir deshalb lieber als ein befristeter mit einem Zuschlag.\n\nDer zweite Punkt sind die Entwicklungsmöglichkeiten. Damit meine ich nicht unbedingt eine Beförderung. Wichtiger ist mir, dass man neue Aufgaben bekommt, bevor man sie perfekt beherrscht. In meinem jetzigen Betrieb darf ich seit einem Jahr die Inventur mitplanen, obwohl das eigentlich nicht meine Aufgabe ist. Ich habe dabei mehr gelernt als in jeder Schulung.\n\nDrittens die Kommunikation, und das ist für mich der wichtigste Punkt. Ein gutes Arbeitsumfeld erkenne ich daran, wie mit Fehlern umgegangen wird. Wenn jemand etwas falsch macht und die erste Frage lautet „Wer war das?“, dann melden die Leute Fehler nicht mehr. Wenn die erste Frage lautet „Wie verhindern wir das nächste Mal?“, kommen Probleme früh auf den Tisch.\n\nEin Beispiel dazu: Bei uns hat ein Kollege eine Palette falsch beschriftet und es selbst gemeldet, bevor der Kunde sich beschwerte. Er hat dafür keinen Ärger bekommen, sondern es wurde gefragt, warum die Etiketten so leicht zu verwechseln sind. Inzwischen haben sie verschiedene Farben.\n\nZusammenfassend: Sicherheit ist die Grundlage, Entwicklung macht die Arbeit interessant, aber die Kommunikation entscheidet darüber, ob man gern hingeht."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp1-b",
+                  "prompt": "Aufgabe B – Antworten Sie auf die Frage: „Was kann eine einzelne Person tun, um das Betriebsklima zu verbessern?“",
+                  "hints": [
+                    "Beziehen Sie klar Position und begründen Sie sie – eine Antwort ohne Meinung wirkt auf B2 ausweichend.",
+                    "Greifen Sie ein Gegenargument auf: „Dagegen könnte man einwenden, dass …“",
+                    "Zwei Minuten reichen; wichtiger als Länge ist ein klarer Aufbau."
+                  ],
+                  "musterloesung": "Ich glaube, eine einzelne Person kann mehr tun, als man denkt – allerdings nicht durch große Aktionen.\n\nDas Wirksamste ist aus meiner Sicht, selbst anzufangen. Wenn ich Kolleginnen und Kollegen morgens begrüße, auch die aus anderen Abteilungen, und wenn ich Fehler zugebe, statt sie zu verstecken, verändert das nach ein paar Wochen tatsächlich etwas. Bei uns ist das Klima spürbar besser geworden, seit ein neuer Kollege konsequent nachfragt, wenn jemand still wird.\n\nEin zweiter Punkt: über Menschen nicht in ihrer Abwesenheit sprechen. Das klingt banal, ist aber schwer, weil sich das Reden über andere in einer Pause fast von selbst ergibt.\n\nDagegen könnte man einwenden, dass das Klima vor allem von der Führung abhängt, und das stimmt zum Teil. Wenn eine Leitung Konflikte ignoriert oder Beschäftigte gegeneinander ausspielt, kann eine einzelne Person das nicht ausgleichen.\n\nAber selbst dann bleibt Handlungsspielraum: Man kann sich mit anderen zusammentun und gemeinsam zum Betriebsrat gehen. Allein wird man leicht als schwierig abgestempelt, zu dritt oder zu viert nicht mehr."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Auf eine Aussage reagieren",
+          "instructions": "In diesem Teil führen Sie ein Gespräch. Ihre Gesprächspartnerin oder Ihr Gesprächspartner beginnt mit einer Aussage, Sie reagieren darauf, und daraus entsteht ein Dialog: Stellen Sie Rückfragen, machen Sie Vorschläge, reagieren Sie auf Einwände. Für beide Aussagen zusammen haben Sie etwa drei Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-a",
+              "stimuli": [
+                {
+                  "title": "Aussage 1",
+                  "text": "„In unserer Pause sitzt jeder allein mit dem Handy. Früher haben wir wenigstens geredet. Findest du das auch schade?“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Führen Sie das Gespräch weiter. Sie sind Partner B.",
+                  "hints": [
+                    "Reagieren heißt nicht nur zustimmen: Gehen Sie auf das Gesagte ein und bringen Sie dann etwas Eigenes.",
+                    "Rechnen Sie mit einem Einwand und antworten Sie darauf.",
+                    "Nützlich: „Das ist mir auch aufgefallen, allerdings …“, „Wie wäre es, wenn wir …?“"
+                  ],
+                  "musterloesung": "Partner A: In unserer Pause sitzt jeder allein mit dem Handy. Früher haben wir wenigstens geredet. Findest du das auch schade?\n\nPartner B: Das ist mir auch aufgefallen, allerdings sehe ich es nicht nur negativ. Manche brauchen die zwanzig Minuten wirklich für sich, gerade nach einer lauten Schicht.\n\nPartner A: Schon, aber dann könnte man sich auch gleich in sein Auto setzen.\n\nPartner B: Da hast du recht. Ich würde es aber nicht verbieten wollen, so etwas funktioniert nie. Besser wäre ein Anlass, bei dem Reden von selbst passiert.\n\nPartner A: Und was schwebt dir vor?\n\nPartner B: Bei uns in der alten Firma gab es einmal im Monat ein gemeinsames Frühstück, jeder hat etwas mitgebracht. Das klingt nach wenig, aber an dem Tag saßen wirklich alle am Tisch.\n\nPartner A: Wer soll das organisieren? Am Ende bleibt es an einer Person hängen.\n\nPartner B: Deshalb würde ich eine Liste aushängen und reihum gehen lassen. Und wir zwei fangen an, dann muss niemand als Erster den Anfang machen.\n\nPartner A: Einverstanden. Nächsten Monat?\n\nPartner B: Ja, und lass es uns beim Schichtwechsel ansprechen, da sind beide Schichten kurz zusammen."
+                }
+              ]
+            },
+            {
+              "id": "sprechen-teil-2-b",
+              "stimuli": [
+                {
+                  "title": "Aussage 2",
+                  "text": "„Ich überlege, mich intern auf die Stelle als Schichtleiter zu bewerben. Aber ich habe keine Ausbildung dafür. Was meinst du?“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Führen Sie das Gespräch weiter. Sie sind Partner B.",
+                  "hints": [
+                    "Hier ist ein persönliches Gespräch gefragt – ermutigen Sie, aber bleiben Sie ehrlich.",
+                    "Fragen Sie zurück und geben Sie einen konkreten Hinweis."
+                  ],
+                  "musterloesung": "Partner A: Ich überlege, mich intern auf die Stelle als Schichtleiter zu bewerben. Aber ich habe keine Ausbildung dafür. Was meinst du?\n\nPartner B: Bewirb dich. Im Ausschreibungstext steht „abgeschlossene Ausbildung erwünscht“, nicht „erforderlich“ – das ist ein großer Unterschied, den viele überlesen.\n\nPartner A: Trotzdem werden sich Leute mit Ausbildung bewerben.\n\nPartner B: Sicher. Aber du machst die Schichtplanung seit zwei Jahren mit, wenn Frau Osei im Urlaub ist. Das kann von den externen Bewerbern niemand vorweisen.\n\nPartner A: Daran hatte ich gar nicht gedacht.\n\nPartner B: Genau das gehört in deine Bewerbung, und zwar konkret: welche Schichten, wie viele Leute, was schiefgegangen ist und wie du es gelöst hast. Nicht nur „Ich habe Erfahrung in der Planung“.\n\nPartner A: Und wenn sie nach der fehlenden Ausbildung fragen?\n\nPartner B: Dann sag, dass du den Meisterkurs berufsbegleitend machen würdest. Damit drehst du die Lücke in einen Plan um. Frag am besten vorher bei der Personalabteilung, ob der Betrieb das unterstützt – wenn ja, kannst du es im Gespräch nennen.\n\nPartner A: Das mache ich diese Woche.\n\nPartner B: Gut. Und lass mich vorher über deine Bewerbung schauen, vier Augen sehen mehr."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Gemeinsam eine Lösung finden",
+          "instructions": "Lesen Sie die Situation. Finden Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner eine Lösung. Machen Sie Vorschläge, gehen Sie auf die Vorschläge der anderen Person ein und einigen Sie sich am Ende. Sie haben dafür etwa vier Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "stimuli": [
+                {
+                  "title": "Situation",
+                  "heading": "Unzufriedenheit im Team",
+                  "text": "Sie arbeiten im Lager eines mittelgroßen Betriebs. Seit der Umstellung auf zwei Schichten klagt das Team über die Übergabe: Informationen gehen verloren, angefangene Aufträge bleiben liegen, und beide Schichten werfen sich gegenseitig vor, nicht sauber zu arbeiten.\n\nIhre Schichtleitung bittet Sie und eine weitere Person, bis Freitag einen Vorschlag zu machen.\n\nStichpunkte:\n\n· Was genau geht bei der Übergabe verloren?\n· Wie könnte man Informationen weitergeben – mündlich, schriftlich, beides?\n· Wie viel Zeit soll die Übergabe kosten, und wer bezahlt sie?\n· Was schlagen Sie der Schichtleitung konkret vor?"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Finden Sie gemeinsam eine Lösung und einigen Sie sich auf einen Vorschlag.",
+                  "hints": [
+                    "Einigen heißt nicht, allem zuzustimmen. Ein gutes Gespräch enthält auch einen Gegenvorschlag.",
+                    "Nützlich: „Ich würde vorschlagen, dass …“, „Das sehe ich anders, weil …“, „Können wir uns darauf einigen, dass …?“",
+                    "Fassen Sie am Ende zusammen, wer was macht."
+                  ],
+                  "musterloesung": "Partner A: Ich glaube, das Kernproblem ist, dass es überhaupt keine Übergabe gibt. Die Frühschicht geht, die Spätschicht kommt, und dazwischen liegen zehn Minuten, in denen niemand redet.\n\nPartner B: Sehe ich genauso. Ich würde deshalb eine feste Übergabe von fünfzehn Minuten vorschlagen, bezahlt, mit Überschneidung der Schichten.\n\nPartner A: Fünfzehn Minuten für alle? Das sind bei zwölf Leuten drei Stunden pro Tag. Das genehmigt die Leitung nie.\n\nPartner B: Nicht für alle – nur für zwei Personen pro Schicht, die die Übergabe machen. Die anderen fangen normal an.\n\nPartner A: Das klingt machbar. Aber dann muss klar sein, was übergeben wird, sonst reden die zwei über das Wetter.\n\nPartner B: Deshalb würde ich zusätzlich ein festes Formular nehmen: offene Aufträge, Störungen an Maschinen, fehlende Ware, Besonderheiten. Vier Punkte, mehr nicht.\n\nPartner A: Nur mündlich reicht mir nicht. Wenn die Spätschicht nachts etwas findet, ist morgens niemand da, den man fragen kann.\n\nPartner B: Einverstanden, dann beides: Das Formular wird ausgefüllt und liegt im Meisterbüro, und die zwei Personen gehen es zusammen durch. Schriftlich allein liest nämlich auch niemand.\n\nPartner A: Und wer macht die Übergabe? Wenn wir das jedes Mal neu klären, macht es am Ende immer dieselbe Person.\n\nPartner B: Ich würde es an die Funktion binden, nicht an Personen: wer den Wareneingang hat und wer die Kommissionierung. Das wechselt ohnehin nach Plan.\n\nPartner A: Gut. Und die gegenseitigen Vorwürfe?\n\nPartner B: Die hören meiner Erfahrung nach von selbst auf, sobald man sich täglich fünfzehn Minuten in die Augen schaut. Man beschwert sich schwerer über jemanden, mit dem man gerade gesprochen hat.\n\nPartner A: Dann fasse ich zusammen: fünfzehn Minuten bezahlte Überschneidung, zwei Personen je Schicht nach Funktion, ein Formular mit vier Punkten, das gemeinsam durchgegangen wird.\n\nPartner B: Genau. Ich schreibe den Vorschlag bis Donnerstag auf, dann schaust du drüber, und wir geben ihn zu zweit ab."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

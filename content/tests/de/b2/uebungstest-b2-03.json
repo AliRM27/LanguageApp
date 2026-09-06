@@ -1,0 +1,1473 @@
+{
+  "id": "uebungstest-b2-03",
+  "language": "de",
+  "level": "B2",
+  "title": "Übungstest B2 Beruf – Nr. 3",
+  "description": "Ein vollständiger berufsbezogener Übungstest auf Niveau B2 mit den Teilen Lesen, Lesen und Schreiben, Hören, Hören und Schreiben, Sprachbausteine und Schreiben sowie Sprechen. Themenschwerpunkt: Pflege und Gesundheitswesen.",
+  "sections": [
+    {
+      "kind": "lesen",
+      "title": "Lesen",
+      "durationMinutes": 45,
+      "description": "Sie lesen Beiträge aus einem Ratgeber, zwei Unterweisungen, Fragen und Tipps aus einer Beratung sowie ein Besprechungsprotokoll. Insgesamt bearbeiten Sie 18 Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil-1",
+          "title": "Teil 1 – Informationen zum Arbeitsmarkt",
+          "instructions": "Sie arbeiten in der Pflegedienstleitung eines Seniorenzentrums. In Ihrem Postfach liegt eine Sammlung von Fachartikeln, und fünf Kolleginnen und Kollegen suchen etwas dazu. Welcher der acht Artikel passt zu welcher Person? Jeder Artikel kann nur einmal verwendet werden; drei Artikel passen zu keiner Person.",
+          "blocks": [
+            {
+              "id": "lesen-teil-1-artikel",
+              "stimuli": [
+                {
+                  "title": "Artikel a",
+                  "heading": "Anerkennung ausländischer Abschlüsse",
+                  "text": "Wie das Verfahren abläuft, welche Unterlagen übersetzt werden müssen, wie lange es dauert und was eine Anpassungsqualifikation bedeutet. Mit einer Übersicht der zuständigen Stellen je Bundesland."
+                },
+                {
+                  "title": "Artikel b",
+                  "heading": "Die Pflegedokumentation entlasten",
+                  "text": "Warum das Strukturmodell weniger Schreibarbeit bedeutet, was die Berichte enthalten müssen und wo die häufigsten Fehler bei der Umstellung liegen."
+                },
+                {
+                  "title": "Artikel c",
+                  "heading": "Umgang mit Demenz im Alltag",
+                  "text": "Wie man auf Weglauftendenzen, Aggression oder wiederholte Fragen reagiert, ohne zu korrigieren. Mit Beispielen aus der Validation und Hinweisen für Angehörige."
+                },
+                {
+                  "title": "Artikel d",
+                  "heading": "Nachtdienst gesund überstehen",
+                  "text": "Wie sich Schlaf, Ernährung und Licht auf die Erholung auswirken, warum ein fester Rhythmus wichtiger ist als viel Schlaf und welche Rechte Nachtarbeitende haben."
+                },
+                {
+                  "title": "Artikel e",
+                  "heading": "Wenn Angehörige zu viel fordern",
+                  "text": "Wie man Grenzen freundlich, aber klar zieht, welche Erwartungen realistisch sind und wann ein gemeinsames Gespräch mit der Leitung sinnvoll ist."
+                },
+                {
+                  "title": "Artikel f",
+                  "heading": "Weiterbildung Praxisanleitung",
+                  "text": "Wie man Auszubildende anleitet, wie viele Stunden vorgeschrieben sind, was die Weiterbildung kostet und welche Fördermöglichkeiten es gibt."
+                },
+                {
+                  "title": "Artikel g",
+                  "heading": "Hygiene bei Noroviren",
+                  "text": "Welche Maßnahmen bei einem Ausbruch gelten, wie lange ein Zimmer isoliert bleibt und warum Händedesinfektion allein hier nicht ausreicht."
+                },
+                {
+                  "title": "Artikel h",
+                  "heading": "Zurück nach langer Krankheit",
+                  "text": "Wie die stufenweise Wiedereingliederung funktioniert, wer sie beantragt, wie das Gehalt in dieser Zeit gezahlt wird und wie lange sie dauern darf."
+                }
+              ],
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "a) Anerkennung ausländischer Abschlüsse"
+                },
+                {
+                  "id": "b",
+                  "text": "b) Die Pflegedokumentation entlasten"
+                },
+                {
+                  "id": "c",
+                  "text": "c) Umgang mit Demenz im Alltag"
+                },
+                {
+                  "id": "d",
+                  "text": "d) Nachtdienst gesund überstehen"
+                },
+                {
+                  "id": "e",
+                  "text": "e) Wenn Angehörige zu viel fordern"
+                },
+                {
+                  "id": "f",
+                  "text": "f) Weiterbildung Praxisanleitung"
+                },
+                {
+                  "id": "g",
+                  "text": "g) Hygiene bei Noroviren"
+                },
+                {
+                  "id": "h",
+                  "text": "h) Zurück nach langer Krankheit"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l1-1",
+                  "prompt": "Frau Nguyen hat in Vietnam als Krankenschwester gearbeitet und möchte hier im Beruf arbeiten. Sie weiß nicht, an welche Behörde sie sich wenden muss.",
+                  "solution": "a",
+                  "explanation": "Artikel a beschreibt das Anerkennungsverfahren samt Übersicht der zuständigen Stellen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-2",
+                  "prompt": "Auf Station 2 haben in drei Tagen sieben Bewohnerinnen Durchfall und Erbrechen. Die Leitung fragt, welche Maßnahmen jetzt gelten.",
+                  "solution": "g",
+                  "explanation": "Artikel g behandelt genau den Norovirus-Ausbruch, Isolierung und Hygienemaßnahmen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-3",
+                  "prompt": "Herr Kowalczyk ist seit fünf Monaten wegen einer Operation krank und möchte langsam wieder anfangen, aber nicht sofort Vollzeit.",
+                  "solution": "h",
+                  "explanation": "Artikel h erklärt die stufenweise Wiedereingliederung, Antrag, Bezahlung und Dauer."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-4",
+                  "prompt": "Die Tochter einer Bewohnerin ruft täglich mehrmals an und verlangt, dass ihre Mutter jeden Morgen um sieben geweckt wird. Das Team fühlt sich unter Druck.",
+                  "solution": "e",
+                  "explanation": "Artikel e behandelt fordernde Angehörige, Grenzen und das Gespräch mit der Leitung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l1-5",
+                  "prompt": "Herr Baumann arbeitet seit einem Jahr nur nachts und schläft immer schlechter. Er sucht Hinweise, wie er damit besser zurechtkommt.",
+                  "solution": "d",
+                  "explanation": "Artikel d behandelt Schlaf, Rhythmus und Rechte im Nachtdienst."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-2",
+          "title": "Teil 2 – Einweisungen und Unterweisungen",
+          "instructions": "Sie lesen zwei Texte aus Ihrem Betrieb. Entscheiden Sie zu jedem Text, ob die Aussage richtig oder falsch ist, und wählen Sie danach die richtige Antwort.",
+          "blocks": [
+            {
+              "id": "lesen-teil-2-text-1",
+              "stimuli": [
+                {
+                  "title": "Text 1",
+                  "heading": "Verfahrensanweisung: Sturz eines Bewohners",
+                  "text": "Diese Anweisung gilt für alle Pflegekräfte und Auszubildenden im Haus.\n\nSofortmaßnahmen\nBleiben Sie bei der gestürzten Person. Richten Sie sie nicht auf, bevor Sie geprüft haben, ob sie Schmerzen hat, sich bewegen kann und ansprechbar ist. Bei Verdacht auf einen Bruch oder bei Bewusstlosigkeit rufen Sie sofort den Rettungsdienst.\n\nMeldung\nJeder Sturz wird gemeldet – auch dann, wenn die Person unverletzt wirkt und selbst aufsteht. Verletzungen im Kopfbereich können sich erst nach Stunden zeigen.\n\nDokumentation\nDas Sturzprotokoll wird noch in derselben Schicht ausgefüllt, nicht am nächsten Tag. Es enthält Zeitpunkt, Ort, Tätigkeit vor dem Sturz, Schuhwerk, Beleuchtung und Zeugen.\n\nNach dem Sturz\nIn den folgenden 24 Stunden wird die Person engmaschig beobachtet; Auffälligkeiten werden im Bericht vermerkt. Die Sturzursache wird in der nächsten Teamsitzung besprochen – nicht um Schuld zu klären, sondern um Wiederholungen zu vermeiden."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l2-1",
+                  "statement": "Nach einem Sturz wird die Person 24 Stunden lang engmaschig beobachtet.",
+                  "solution": true,
+                  "explanation": "„In den folgenden 24 Stunden wird die Person engmaschig beobachtet; Auffälligkeiten werden im Bericht vermerkt.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l2-2",
+                  "prompt": "Wann muss das Sturzprotokoll ausgefüllt werden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Noch in derselben Schicht."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Innerhalb von 24 Stunden."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Vor der nächsten Teamsitzung."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Das Sturzprotokoll wird noch in derselben Schicht ausgefüllt, nicht am nächsten Tag.“"
+                }
+              ]
+            },
+            {
+              "id": "lesen-teil-2-text-2",
+              "stimuli": [
+                {
+                  "title": "Text 2",
+                  "heading": "Information: Springerpool ab Oktober",
+                  "text": "Liebe Kolleginnen und Kollegen,\n\nab Oktober richten wir einen Springerpool ein. Wer sich meldet, arbeitet nicht fest auf einer Station, sondern dort, wo kurzfristig jemand ausfällt.\n\nWas Sie davon haben\nSie erhalten eine Zulage von 250 Euro im Monat und einen zusätzlichen freien Tag pro Quartal. Außerdem gilt für Sie eine Ankündigungsfrist: Ihr Einsatzort wird Ihnen spätestens am Vortag bis 15 Uhr mitgeteilt.\n\nWas wir erwarten\nBereitschaft, auf allen drei Stationen zu arbeiten, einschließlich des beschützenden Bereichs. Wer dort noch nicht gearbeitet hat, wird vorher eine Woche eingearbeitet.\n\nWas nicht dazugehört\nDer Pool ersetzt keine Rufbereitschaft. Sie werden in Ihrer Freizeit nicht angerufen, und Sie müssen nicht einspringen, wenn Sie frei haben.\n\nMeldungen bitte bis 15. September an die Pflegedienstleitung."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "l2-3",
+                  "statement": "Wer im Springerpool ist, muss in der Freizeit erreichbar sein.",
+                  "solution": false,
+                  "explanation": "„Sie werden in Ihrer Freizeit nicht angerufen, und Sie müssen nicht einspringen, wenn Sie frei haben.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l2-4",
+                  "prompt": "Was gilt für den beschützenden Bereich?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Er ist vom Pool ausgenommen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Wer dort neu ist, wird eine Woche eingearbeitet."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dort arbeiten nur examinierte Kräfte mit Zusatzausbildung."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Wer dort noch nicht gearbeitet hat, wird vorher eine Woche eingearbeitet.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-3",
+          "title": "Teil 3 – Rahmenbedingungen der Arbeit",
+          "instructions": "In der Sprechstunde des Betriebsrats sind vier Fragen eingegangen. Welcher der sechs Tipps a–f passt zu welcher Frage? Zu einer Frage passt keiner der Tipps – wählen Sie dann „x“.",
+          "blocks": [
+            {
+              "id": "lesen-teil-3-tipps",
+              "prompt": "Welcher Tipp passt zu welcher Frage?",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Bringen Sie zur Beratung alle Zeugnisse im Original und in beglaubigter Übersetzung mit. Ohne beides beginnt das Verfahren nicht, und Sie verlieren mehrere Wochen."
+                },
+                {
+                  "id": "b",
+                  "text": "Widersprechen Sie nicht, wenn jemand nach einer verstorbenen Person fragt. Fragen Sie stattdessen nach dieser Person – das nimmt die Unruhe, ohne dass Sie etwas Falsches sagen."
+                },
+                {
+                  "id": "c",
+                  "text": "Vereinbaren Sie feste Zeiten für Auskünfte an Angehörige. Wer jederzeit erreichbar ist, wird jederzeit angerufen, und die Pflege bleibt liegen."
+                },
+                {
+                  "id": "d",
+                  "text": "Schlafen Sie nach dem Nachtdienst nicht bis zum Nachmittag, sondern nur vier bis fünf Stunden und legen Sie sich abends früh hin. Ein fester Rhythmus wirkt stärker als die reine Stundenzahl."
+                },
+                {
+                  "id": "e",
+                  "text": "Notieren Sie im Bericht, was Sie beobachtet haben, nicht was Sie vermuten. „Hat das Frühstück stehen gelassen“ ist überprüfbar, „war schlecht gelaunt“ nicht."
+                },
+                {
+                  "id": "f",
+                  "text": "Nutzen Sie das Aufstiegs-BAföG für die Weiterbildung zur Praxisanleitung. Ein großer Teil der Kosten wird übernommen, und viele Einrichtungen zahlen den Rest."
+                },
+                {
+                  "id": "x",
+                  "text": "Hierzu passt keiner der Tipps."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "l3-1",
+                  "prompt": "„Eine Bewohnerin fragt mich jeden Tag, wann ihr Mann kommt. Er ist vor vier Jahren gestorben. Was soll ich antworten?“",
+                  "solution": "b",
+                  "explanation": "Tipp b: nicht widersprechen, sondern nach der Person fragen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-2",
+                  "prompt": "„Ich schreibe abends immer, dass Herr K. unruhig war. Meine Anleiterin sagt, das reicht nicht. Warum?“",
+                  "solution": "e",
+                  "explanation": "Tipp e: Beobachtungen statt Bewertungen dokumentieren."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-3",
+                  "prompt": "„Ich möchte die Weiterbildung zur Praxisanleiterin machen, aber 2.000 Euro sind viel Geld. Gibt es eine Unterstützung?“",
+                  "solution": "f",
+                  "explanation": "Tipp f nennt das Aufstiegs-BAföG und die Beteiligung der Einrichtungen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "l3-4",
+                  "prompt": "„Mein Rücken macht seit dem Umzug auf die Pflegestation Probleme. Gibt es spezielle Übungen für Pflegekräfte?“",
+                  "solution": "x",
+                  "explanation": "Kein Tipp behandelt Rückenübungen oder Prävention. Tipp d geht um Schlaf im Nachtdienst, nicht um körperliche Beschwerden."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lesen-teil-4",
+          "title": "Teil 4 – Aufgaben und Aufgabenverteilung",
+          "instructions": "Lesen Sie das Protokoll der letzten Teambesprechung und die Aufgaben. Welche Antwort passt am besten?",
+          "blocks": [
+            {
+              "id": "lesen-teil-4-protokoll",
+              "stimuli": [
+                {
+                  "title": "Protokoll",
+                  "heading": "Protokoll der Stationsbesprechung Station 2",
+                  "text": "Datum: Mittwoch, 9. Oktober\nUhrzeit: 13:30 – 14:20 Uhr\nOrt: Aufenthaltsraum Station 2\nAnwesende: S. Weber (PDL), A. Nguyen, M. Kowalczyk, J. Baumann, H. Terzi\nEntschuldigt: keine\nProtokoll: H. Terzi\n\nTagesordnung\nTOP 1 Auswertung der Sturzprotokolle\nTOP 2 Springerpool\nTOP 3 Neue Auszubildende\nTOP 4 Umstellung der Dokumentation\nTOP 5 Verschiedenes\n\nTOP 1 – Auswertung der Sturzprotokolle\nIm dritten Quartal wurden vierzehn Stürze gemeldet, im Vorquartal neun. Bei der Durchsicht fiel auf, dass elf davon zwischen 5 und 7 Uhr passiert sind, also beim ersten Aufstehen. Als Maßnahme wird die Nachtbeleuchtung im Flur nicht mehr komplett ausgeschaltet, sondern auf zwanzig Prozent gedimmt. Frau Weber klärt mit der Haustechnik, ob das ohne Umbau möglich ist.\n\nTOP 2 – Springerpool\nVier Meldungen sind eingegangen, benötigt werden sechs. Die Leitung wird die Frist bis zum 30. September verlängern. Ausdrücklich festgehalten: Niemand wird in den Pool versetzt, die Teilnahme bleibt freiwillig.\n\nTOP 3 – Neue Auszubildende\nAm 1. November beginnen zwei Auszubildende im ersten Lehrjahr. Praxisanleiterin ist Frau Nguyen; Herr Terzi übernimmt die Vertretung. Wichtig: Auszubildende im ersten Lehrjahr arbeiten nicht allein in der Nachtschicht, auch nicht stundenweise.\n\nTOP 4 – Umstellung der Dokumentation\nDie Umstellung auf das Strukturmodell wird um zwei Monate verschoben, weil die Schulungstermine des Anbieters ausgebucht sind. Neuer Starttermin: 1. Januar.\n\nTOP 5 – Verschiedenes\nHerr Baumann bittet darum, die Dienstpläne früher zu veröffentlichen. Frau Weber sagt zu, dass der Plan künftig sechs Wochen im Voraus steht statt vier.\n\nNächster Termin: Mittwoch, 6. November, 13:30 Uhr"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-1",
+                  "prompt": "Was ist bei der Auswertung der Stürze aufgefallen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass sie fast alle nachts um Mitternacht passieren."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass fast nur neue Bewohner betroffen sind."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass die meisten frühmorgens beim Aufstehen passieren."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… elf davon zwischen 5 und 7 Uhr passiert sind, also beim ersten Aufstehen.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-2",
+                  "prompt": "Was wurde zum Springerpool festgehalten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Teilnahme bleibt freiwillig."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Fehlende Plätze werden zugeteilt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der Pool wird nicht eingerichtet."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Niemand wird in den Pool versetzt, die Teilnahme bleibt freiwillig.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-3",
+                  "prompt": "Was gilt für die neuen Auszubildenden?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie beginnen erst im Januar."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie arbeiten im ersten Lehrjahr nicht allein nachts."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie werden von Herrn Terzi angeleitet."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Auszubildende im ersten Lehrjahr arbeiten nicht allein in der Nachtschicht, auch nicht stundenweise.“ Anleiterin ist Frau Nguyen, Herr Terzi vertritt nur."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-4",
+                  "prompt": "Warum wird die Umstellung der Dokumentation verschoben?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil das Team dagegen gestimmt hat."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil die Software noch fehlt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil die Schulungstermine ausgebucht sind."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… weil die Schulungstermine des Anbieters ausgebucht sind.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "l4-5",
+                  "prompt": "Was ändert sich bei den Dienstplänen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie stehen künftig sechs statt vier Wochen im Voraus."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie werden nur noch digital veröffentlicht."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie werden vom Team selbst erstellt."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… dass der Plan künftig sechs Wochen im Voraus steht statt vier.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lesen-schreiben",
+      "title": "Lesen und Schreiben",
+      "durationMinutes": 20,
+      "description": "Ihre Teamleitung leitet Ihnen die Nachricht einer Kundin oder eines Kunden weiter und sagt Ihnen, was in Ihrer Antwort stehen soll. Sie beantworten zwei Fragen zu den Texten und schreiben dann die Antwort.",
+      "parts": [
+        {
+          "id": "lesen-schreiben-teil-1",
+          "title": "E-Mail an eine Angehörige",
+          "instructions": "Lesen Sie beide E-Mails. Beantworten Sie zuerst die zwei Fragen und schreiben Sie danach die Antwort. Gehen Sie dabei auf alle Punkte Ihrer Teamleitung ein.",
+          "blocks": [
+            {
+              "id": "lesen-schreiben-block",
+              "stimuli": [
+                {
+                  "title": "E-Mail 1",
+                  "heading": "Von: S. Weber (PDL) – Bitte übernehmen Sie die Antwort",
+                  "text": "Hallo,\n\nFrau Richter hat geschrieben, ihre Mutter wohnt seit drei Wochen bei uns. Bitte antworten Sie noch heute, sie wartet schon seit Freitag.\n\nBitte gehen Sie auf Folgendes ein:\n\n1. Bestätigen Sie, dass die Mutter in der ersten Zeit tatsächlich weniger isst – das ist beim Einzug häufig und legt sich meist nach vier bis sechs Wochen.\n2. Erklären Sie, was wir bereits tun: Gewichtskontrolle wöchentlich, Lieblingsspeisen abgefragt, Zwischenmahlzeiten.\n3. Laden Sie sie zu einem Gespräch ein – Dienstag oder Donnerstag ab 15 Uhr.\n4. Bitten Sie darum, Anrufe nicht während der Essenszeiten (12 bis 13 Uhr) zu machen, und nennen Sie eine bessere Zeit.\n\nBleiben Sie freundlich, sie macht sich einfach Sorgen.\n\nS. Weber"
+                },
+                {
+                  "title": "E-Mail 2",
+                  "heading": "Von: K. Richter – Sorge um meine Mutter",
+                  "text": "Sehr geehrte Damen und Herren,\n\nmeine Mutter, Frau Ilse Richter, wohnt seit dem 15. September bei Ihnen. Wenn ich sie besuche, steht das Essen oft unangetastet auf dem Tisch. Sie sagt, sie habe keinen Hunger.\n\nZu Hause hat sie immer gut gegessen. Ich mache mir große Sorgen, dass sie abnimmt und niemand es merkt.\n\nIch habe am Freitag zweimal angerufen, aber es ging niemand ans Telefon. Bitte teilen Sie mir mit, was Sie unternehmen, und ob ich vorbeikommen kann, um darüber zu sprechen.\n\nMit freundlichen Grüßen\nKatrin Richter"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "ls-1",
+                  "prompt": "Worüber macht sich Frau Richter Sorgen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass ihre Mutter das Zimmer nicht mag."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass ihre Mutter zu wenig isst und abnimmt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass ihre Mutter keinen Kontakt zu anderen hat."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ich mache mir große Sorgen, dass sie abnimmt und niemand es merkt.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "ls-2",
+                  "prompt": "Was sollen Sie laut Pflegedienstleitung ansprechen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dass Besuche nur nach Anmeldung möglich sind."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dass die Kosten für Zusatznahrung selbst zu tragen sind."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dass Anrufe nicht zwischen 12 und 13 Uhr erfolgen sollen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Bitten Sie darum, Anrufe nicht während der Essenszeiten (12 bis 13 Uhr) zu machen.“"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "ls-3",
+                  "prompt": "Schreiben Sie die Antwort an Frau Richter.",
+                  "criteria": [
+                    "Verständnis und Einordnung: weniger Appetit in den ersten Wochen",
+                    "Was die Einrichtung bereits tut",
+                    "Einladung zu einem Gespräch (Dienstag oder Donnerstag ab 15 Uhr)",
+                    "Bitte: Anrufe nicht zwischen 12 und 13 Uhr"
+                  ],
+                  "hints": [
+                    "Nehmen Sie die Sorge ernst, bevor Sie erklären – sonst wirkt die Erklärung wie eine Abwehr.",
+                    "Gehen Sie auch auf die erfolglosen Anrufe am Freitag ein.",
+                    "Formulieren Sie die Bitte um andere Anrufzeiten so, dass sie nicht wie eine Zurechtweisung klingt."
+                  ],
+                  "minWords": 100,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Sehr geehrte Frau Richter,\n\nvielen Dank für Ihre Nachricht. Dass Sie sich Sorgen machen, verstehe ich gut – und es tut mir leid, dass Sie uns am Freitag zweimal nicht erreicht haben. Das lag an einem kurzfristigen Ausfall im Team, entschuldigen Sie das bitte.\n\nZu Ihrer Beobachtung: Sie täuschen sich nicht, Ihre Mutter isst zurzeit tatsächlich weniger. Das erleben wir bei fast allen Bewohnerinnen und Bewohnern in den ersten Wochen nach dem Einzug. Die Umgebung ist neu, die Essenszeiten sind andere, und oft fehlt einfach die gewohnte Küche. In der Regel legt sich das nach vier bis sechs Wochen.\n\nWir beobachten das aber nicht nur, sondern haben bereits reagiert: Ihre Mutter wird einmal wöchentlich gewogen, sodass eine Abnahme sofort auffällt. Außerdem haben wir sie nach ihren Lieblingsspeisen gefragt – Kartoffelsuppe und Milchreis stehen jetzt regelmäßig auf dem Plan. Zusätzlich bieten wir ihr am Vormittag und am Nachmittag eine Zwischenmahlzeit an, weil kleinere Portionen erfahrungsgemäß besser angenommen werden.\n\nGern besprechen wir alles Weitere in Ruhe persönlich. Passt es Ihnen am Dienstag oder am Donnerstag, jeweils ab 15 Uhr? Sagen Sie mir einfach, was Ihnen lieber ist.\n\nEine Bitte hätte ich noch: Zwischen 12 und 13 Uhr sind wir beim Mittagessen auf den Zimmern und deshalb schlecht erreichbar. Am besten rufen Sie zwischen 14 und 16 Uhr an – dann haben wir auch wirklich Zeit für Ihre Fragen.\n\nMit freundlichen Grüßen\nH. Terzi\nStation 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "hoeren",
+      "title": "Hören",
+      "durationMinutes": 20,
+      "description": "Sie hören Gespräche aus dem Arbeitsalltag, eine Präsentation und telefonische Mitteilungen. Insgesamt bearbeiten Sie 19 Aufgaben.",
+      "parts": [
+        {
+          "id": "hoeren-teil-1",
+          "title": "Teil 1 – Gespräche am Arbeitsplatz",
+          "instructions": "Sie hören drei kurze Gespräche. Zu jedem Gespräch gibt es zwei Aufgaben: Entscheiden Sie zuerst, ob die Aussage richtig oder falsch ist, und wählen Sie dann die richtige Antwort. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-03/hoeren-teil-1.mp3",
+            "transcript": "Gespräch 1\nFrau Weber: Herr Baumann, Sie hatten nach den Dienstplänen gefragt. Sechs Wochen im Voraus – bekommen wir hin.\n\nHerr Baumann: Das freut mich. Gilt das schon für November?\n\nFrau Weber: Nein, erst ab Januar. Für November steht der Plan schon.\n\nHerr Baumann: Schade. Ich wollte einen Kurs buchen und brauche die Termine.\n\nFrau Weber: Sagen Sie mir die Tage, dann trage ich sie jetzt schon als Wunsch ein.\n\nGespräch 2\nFrau Nguyen: Herr Terzi, kurz zur Anleitung der Neuen. Sie machen die Vertretung?\n\nHerr Terzi: Ja, aber ich habe die Weiterbildung noch nicht abgeschlossen. Fehlen mir noch dreißig Stunden.\n\nFrau Nguyen: Dann dürfen Sie anleiten, solange ich im Haus bin. Allein noch nicht.\n\nHerr Terzi: Verstanden. Und wenn Sie im Urlaub sind?\n\nFrau Nguyen: Dann übernimmt Frau Weber. Das habe ich schon mit ihr geklärt.\n\nGespräch 3\nHerr Kowalczyk: Frau Weber, ich wollte über die Wiedereingliederung sprechen. Der Arzt hat mir einen Plan geschrieben.\n\nFrau Weber: Sehr gut. Wie sieht der aus?\n\nHerr Kowalczyk: Vier Wochen je vier Stunden, danach sechs, dann normal. Insgesamt zehn Wochen.\n\nFrau Weber: Das machen wir. Aber Nachtdienst würde ich in den ersten Wochen ganz weglassen.\n\nHerr Kowalczyk: Damit bin ich einverstanden. Ehrlich gesagt hatte ich davor am meisten Respekt."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-1-gespraech-1",
+              "prompt": "Gespräch 1",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-1",
+                  "statement": "Für den November steht der Dienstplan bereits fest.",
+                  "solution": true,
+                  "explanation": "„Nein, erst ab Januar. Für November steht der Plan schon.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-2",
+                  "prompt": "Wie hilft Frau Weber ihm trotzdem?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sie trägt die Tage als Wunsch ein."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sie gibt ihm für den Kurs frei."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Sie verschiebt den Plan doch."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… dann trage ich sie jetzt schon als Wunsch ein.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-gespraech-2",
+              "prompt": "Gespräch 2",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-3",
+                  "statement": "Herr Terzi darf die Auszubildenden allein anleiten.",
+                  "solution": false,
+                  "explanation": "„… solange ich im Haus bin. Allein noch nicht.“"
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-4",
+                  "prompt": "Warum darf Herr Terzi noch nicht allein anleiten?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil er zu wenig Berufserfahrung hat."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil ihm noch dreißig Stunden der Weiterbildung fehlen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil er im Nachtdienst arbeitet."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Fehlen mir noch dreißig Stunden.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-1-gespraech-3",
+              "prompt": "Gespräch 3",
+              "tasks": [
+                {
+                  "type": "richtig-falsch",
+                  "id": "h1-5",
+                  "statement": "Herr Kowalczyk soll in den ersten Wochen keinen Nachtdienst machen.",
+                  "solution": true,
+                  "explanation": "„… Nachtdienst würde ich in den ersten Wochen ganz weglassen.“ – Er ist einverstanden."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "h1-6",
+                  "prompt": "Wie lange dauert der Wiedereingliederungsplan insgesamt?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Vier Wochen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sechs Wochen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Zehn Wochen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Insgesamt zehn Wochen.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-2",
+          "title": "Teil 2 – Was passt zu welchem Gespräch?",
+          "instructions": "Sie hören vier kurze Gespräche. Welcher Satz a–f passt zu welchem Gespräch? Zwei Sätze bleiben übrig. Sie hören jedes Gespräch einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-03/hoeren-teil-2.mp3",
+            "transcript": "Gespräch 1\nHerr Terzi: Kannst du am Samstag für mich einspringen?\n\nFrau Nguyen: Diesmal nicht. Ich habe schon zwei Wochenenden hintereinander gearbeitet und brauche das freie.\n\nHerr Terzi: Verstehe. Dann frage ich Herrn Baumann.\n\nGespräch 2\nFrau Weber: Die Sturzprotokolle vom Quartal müssten noch ausgewertet werden.\n\nHerr Kowalczyk: Sollen wir das nicht zusammen machen? Zu zweit sind wir in einer Stunde durch, allein sitze ich den halben Nachmittag.\n\nFrau Weber: Gute Idee. Donnerstag nach der Übergabe?\n\nGespräch 3\nFrau Nguyen: Du warst letzte Woche nicht da. Geht es dir wieder besser?\n\nHerr Baumann: Danke der Nachfrage, ja. War eine Grippe, ich bin noch etwas müde.\n\nFrau Nguyen: Dann übernimm heute nichts Schweres, das schaffen wir auch so.\n\nGespräch 4\nHerr Baumann: Die Auszubildende möchte am Freitag im Nachtdienst mitlaufen. Nur ein paar Stunden.\n\nFrau Weber: Das geht im ersten Lehrjahr nicht, auch nicht stundenweise. So steht es in der Regelung.\n\nHerr Baumann: Dann sage ich ihr das."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-2-block",
+              "prompt": "Welcher Satz passt zu welchem Gespräch?",
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Jemand lehnt eine Bitte ab und begründet das."
+                },
+                {
+                  "id": "b",
+                  "text": "Jemand schlägt vor, etwas gemeinsam zu machen."
+                },
+                {
+                  "id": "c",
+                  "text": "Jemand erkundigt sich nach dem Befinden einer Kollegin."
+                },
+                {
+                  "id": "d",
+                  "text": "Jemand weist auf eine Vorschrift hin."
+                },
+                {
+                  "id": "e",
+                  "text": "Jemand macht ein Kompliment für die Arbeit."
+                },
+                {
+                  "id": "f",
+                  "text": "Jemand kündigt an, sich krankzumelden."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "h2-1",
+                  "prompt": "Gespräch 1",
+                  "solution": "a",
+                  "explanation": "Frau Nguyen lehnt ab und nennt den Grund."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-2",
+                  "prompt": "Gespräch 2",
+                  "solution": "b",
+                  "explanation": "Herr Kowalczyk schlägt vor, die Aufgabe gemeinsam zu erledigen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-3",
+                  "prompt": "Gespräch 3",
+                  "solution": "c",
+                  "explanation": "Frau Nguyen erkundigt sich nach dem Befinden des Kollegen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "h2-4",
+                  "prompt": "Gespräch 4",
+                  "solution": "d",
+                  "explanation": "Frau Weber verweist auf die geltende Regelung."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-3",
+          "title": "Teil 3 – Eine Präsentation",
+          "instructions": "Sie hören eine Präsentation im Betrieb. Über jeder Aufgabe steht ein Stichwort, damit Sie wissen, an welcher Stelle Sie sich befinden. Wählen Sie die richtige Antwort. Sie hören die Präsentation einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-03/hoeren-teil-3.mp3",
+            "transcript": "Moderator: Ich begrüße Frau Dr. Ostermann. Sie leitet ein Forschungsprojekt zur Personalgewinnung in der Pflege und stellt heute die Ergebnisse vor.\n\nFrau Ostermann: Vielen Dank. Bevor ich anfange, eine Vorbemerkung: Wir haben nicht untersucht, warum Menschen den Pflegeberuf wählen, sondern warum sie ihn wieder verlassen. Das ist eine andere Frage, und sie führt zu anderen Antworten.\n\nFrau Ostermann: Befragt wurden zweitausend Pflegekräfte, die in den letzten fünf Jahren gekündigt haben. Der meistgenannte Grund war nicht die Bezahlung. Er lautete: fehlende Planbarkeit. Also kurzfristiges Einspringen, ständig wechselnde Dienstpläne, Urlaub, der nicht sicher ist.\n\nFrau Ostermann: Die Bezahlung steht auf Platz drei, hinter der körperlichen Belastung. Das überrascht viele Einrichtungen, weil sie zuerst über Zulagen nachdenken, wenn Personal fehlt.\n\nFrau Ostermann: Interessant ist der Vergleich mit denen, die geblieben sind. Sie unterscheiden sich kaum in der Belastung – aber deutlich darin, ob sie ihre Dienstpläne verlässlich vier Wochen im Voraus kannten.\n\nFrau Ostermann: Was empfehlen wir? Nicht in erster Linie mehr Geld, sondern verbindliche Dienstpläne und, das ist der zweite Punkt, ein wirkliches Recht, ein Einspringen abzulehnen. Wo dieses Recht auf dem Papier steht, aber jeder weiß, dass Ablehnen Ärger bedeutet, wirkt es nicht."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-3-a",
+              "prompt": "UNTERSUCHUNG",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-1",
+                  "prompt": "Was hat die Studie untersucht?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Warum Pflegekräfte den Beruf verlassen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Warum Menschen den Pflegeberuf wählen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Wie viele Pflegekräfte fehlen."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… sondern warum sie ihn wieder verlassen.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-b",
+              "prompt": "HAUPTGRUND",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-2",
+                  "prompt": "Was war der am häufigsten genannte Grund für die Kündigung?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Bezahlung."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die fehlende Planbarkeit."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die körperliche Belastung."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Der meistgenannte Grund war nicht die Bezahlung. Er lautete: fehlende Planbarkeit.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-c",
+              "prompt": "VERGLEICH",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-3",
+                  "prompt": "Worin unterscheiden sich die Gebliebenen von den Gegangenen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "In der körperlichen Belastung."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Im Alter."
+                    },
+                    {
+                      "id": "c",
+                      "text": "In der Verlässlichkeit der Dienstpläne."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… aber deutlich darin, ob sie ihre Dienstpläne verlässlich vier Wochen im Voraus kannten.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-3-d",
+              "prompt": "EMPFEHLUNG",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h3-4",
+                  "prompt": "Was empfiehlt Frau Ostermann?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Verbindliche Dienstpläne und ein wirksames Recht, Einspringen abzulehnen."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Höhere Zulagen für Nachtdienste."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Mehr Ausbildungsplätze."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„Nicht in erster Linie mehr Geld, sondern verbindliche Dienstpläne und … ein wirkliches Recht, ein Einspringen abzulehnen.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoeren-teil-4",
+          "title": "Teil 4 – Telefonische Mitteilungen",
+          "instructions": "Sie hören fünf Nachrichten auf dem Anrufbeantworter. Wählen Sie zu jeder Nachricht die richtige Antwort. Sie hören jede Nachricht einmal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-03/hoeren-teil-4.mp3",
+            "transcript": "Mitteilung 1\nFrau Ostermann: Guten Tag, hier ist Dr. Ostermann. Ich hatte bei Ihnen den Vortrag gehalten. Sie hatten nach den Folien gefragt – die schicke ich Ihnen gern, aber bitte nicht an die Sammeladresse, sondern an eine persönliche. In den Folien stehen Zahlen einzelner Einrichtungen, die nicht öffentlich sind.\n\nMitteilung 2\nHerr Terzi: Hallo, Terzi hier. Ich bin bei der Haustechnik gewesen wegen der Nachtbeleuchtung. Dimmen geht, aber nicht auf zwanzig Prozent – die vorhandenen Leuchten können nur an oder aus. Der Techniker schlägt stattdessen kleine Bodenleuchten vor, das wäre auch billiger. Sagt Frau Weber bitte Bescheid.\n\nMitteilung 3\nFrau Nguyen: Guten Tag, Nguyen hier. Zwei Dinge: Erstens sind jetzt sechs Meldungen für den Springerpool da, wir müssen die Frist also nicht verlängern. Zweitens hat die neue Auszubildende angerufen, sie kann erst am 8. November anfangen, nicht am 1. – ihre Wohnung ist noch nicht frei.\n\nMitteilung 4\nHerr Baumann: Baumann hier, aus dem Nachtdienst. Ich muss etwas melden: Der Schrank mit den Betäubungsmitteln auf Station 2 ließ sich heute Nacht zweimal nicht abschließen, das Schloss hakt. Ich habe ihn mit einem Vorhängeschloss gesichert und den Schlüssel bei mir. Das muss heute repariert werden.\n\nMitteilung 5\nFrau Weber: Guten Tag, Weber hier. Für alle im Team: Die Schulung zum Strukturmodell hat einen früheren Termin bekommen, den 20. November. Wer im Januar eingeplant war, kann jetzt schon. Das ist freiwillig – wer lieber im Januar geht, bleibt im Januar. Bitte meldet euch bis Freitag."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-teil-4-mitteilung-1",
+              "prompt": "Mitteilung 1",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-1",
+                  "prompt": "Warum will Frau Ostermann die Folien nicht an die Sammeladresse schicken?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Weil die Datei zu groß ist."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weil die Folien nicht öffentliche Zahlen enthalten."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Weil sie die Adresse nicht kennt."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„In den Folien stehen Zahlen einzelner Einrichtungen, die nicht öffentlich sind.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-2",
+              "prompt": "Mitteilung 2",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-2",
+                  "prompt": "Was hat die Haustechnik ergeben?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Beleuchtung bleibt wie sie ist."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Der Umbau ist zu teuer."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dimmen ist mit den vorhandenen Leuchten nicht möglich."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„… die vorhandenen Leuchten können nur an oder aus.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-3",
+              "prompt": "Mitteilung 3",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-3",
+                  "prompt": "Was hat sich beim Springerpool ergeben?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die nötige Zahl ist erreicht."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Es fehlen weiterhin zwei Meldungen."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Der Pool startet später."
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„… jetzt sechs Meldungen für den Springerpool da, wir müssen die Frist also nicht verlängern.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-4",
+              "prompt": "Mitteilung 4",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-4",
+                  "prompt": "Was ist im Nachtdienst passiert?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ein Medikament fehlt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ein Schrankschloss ist defekt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ein Schlüssel wurde verloren."
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„… ließ sich heute Nacht zweimal nicht abschließen, das Schloss hakt.“"
+                }
+              ]
+            },
+            {
+              "id": "hoeren-teil-4-mitteilung-5",
+              "prompt": "Mitteilung 5",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "h4-5",
+                  "prompt": "Was gilt für den neuen Schulungstermin?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Er ist für alle verpflichtend."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Er ersetzt den Januartermin."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Er ist freiwillig, der Januartermin bleibt bestehen."
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Das ist freiwillig – wer lieber im Januar geht, bleibt im Januar.“"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "hoeren-schreiben",
+      "title": "Hören und Schreiben",
+      "durationMinutes": 5,
+      "description": "Sie hören eine telefonische Mitteilung und halten das Wichtigste in einer Notiz fest.",
+      "parts": [
+        {
+          "id": "hoeren-schreiben-teil-1",
+          "title": "Notiz zu einem Anruf",
+          "instructions": "Sie sind allein im Büro und nehmen einen Anruf entgegen. Wählen Sie zuerst den Grund des Anrufs. Füllen Sie danach die Notiz für Ihre Kollegin aus. Sie hören die Mitteilung zweimal.",
+          "audio": {
+            "src": "/audio/de/b2/uebungstest-b2-03/hoeren-schreiben.mp3",
+            "transcript": "Herr Schneider: Guten Tag, mein Name ist Robert Schneider vom Sanitätshaus Lindner. Ich rufe an wegen der Pflegebetten, die Sie bei uns angefragt haben. Wir könnten Ihnen drei Betten zum Sonderpreis anbieten, weil wir ein Ausstellungsmodell auflösen – statt 1.400 Euro pro Bett nur 950 Euro, mit voller Garantie. Das Angebot gilt bis Ende des Monats. Rufen Sie mich bitte zurück, meine Nummer ist 0 2 3 4 – 5 1 9 0 2 8. Am besten vormittags. Vielen Dank."
+          },
+          "blocks": [
+            {
+              "id": "hoeren-schreiben-block",
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "hs-1",
+                  "prompt": "Grund für den Anruf",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Angebot"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Bestellung / Buchung"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Beschwerde"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Herr Schneider unterbreitet von sich aus ein Preisangebot für Pflegebetten."
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-2",
+                  "prompt": "Name",
+                  "inputMode": "single-line",
+                  "musterloesung": "Robert Schneider, Sanitätshaus Lindner"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-3",
+                  "prompt": "Telefonnummer",
+                  "inputMode": "single-line",
+                  "musterloesung": "0234 – 519028"
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-4",
+                  "prompt": "Weitere Informationen",
+                  "inputMode": "single-line",
+                  "musterloesung": "Drei Pflegebetten (Ausstellungsmodelle) statt 1.400 € für 950 € pro Stück, mit voller Garantie. Angebot gilt bis Monatsende."
+                },
+                {
+                  "type": "schreiben",
+                  "id": "hs-5",
+                  "prompt": "Zu erledigen",
+                  "inputMode": "single-line",
+                  "musterloesung": "Zurückrufen, am besten vormittags. Vor Monatsende entscheiden."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprachbausteine",
+      "title": "Sprachbausteine und Schreiben",
+      "durationMinutes": 35,
+      "description": "Sie ergänzen zwei Texte aus dem Berufsalltag und schreiben zum Schluss Ihre Meinung zu einem Thema. Insgesamt bearbeiten Sie 13 Aufgaben.",
+      "parts": [
+        {
+          "id": "sprachbausteine-teil-1",
+          "title": "Teil 1 – Wörter aus dem Kasten",
+          "instructions": "Lesen Sie den folgenden Text. Welche Wörter a–j passen am besten in die Lücken? Sie können jedes Wort nur einmal verwenden. Nicht alle Wörter passen in den Text.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-1-block",
+              "inlineGaps": true,
+              "showOptionList": true,
+              "optionPool": [
+                {
+                  "id": "a",
+                  "text": "Während"
+                },
+                {
+                  "id": "b",
+                  "text": "falls"
+                },
+                {
+                  "id": "c",
+                  "text": "und"
+                },
+                {
+                  "id": "d",
+                  "text": "allerdings"
+                },
+                {
+                  "id": "e",
+                  "text": "jedoch"
+                },
+                {
+                  "id": "f",
+                  "text": "Verständnis"
+                },
+                {
+                  "id": "g",
+                  "text": "Verhalten"
+                },
+                {
+                  "id": "h",
+                  "text": "dennoch"
+                },
+                {
+                  "id": "i",
+                  "text": "weil"
+                },
+                {
+                  "id": "j",
+                  "text": "insbesondere"
+                }
+              ],
+              "stimuli": [
+                {
+                  "title": "Text",
+                  "heading": "Aushang: Besuchsregelung im Winter",
+                  "text": "Liebe Angehörige,\n\n___(1)___ der kalten Jahreszeit bitten wir Sie um Ihre Mithilfe.\n\nBesuche sind weiterhin täglich von 10 bis 18 Uhr möglich. Wir bitten Sie jedoch, ___(2)___ Sie Erkältungssymptome haben, auf einen Besuch zu verzichten und stattdessen anzurufen.\n\nIm Eingangsbereich finden Sie Desinfektionsmittel. Bitte benutzen Sie es beim Betreten ___(3)___ beim Verlassen des Hauses.\n\nDie Cafeteria bleibt geöffnet, ___(4)___ die Zahl der Plätze ist reduziert.\n\nWir wissen, dass diese Regeln unbequem sind. Sie schützen ___(5)___ die Menschen, die hier leben. Vielen Dank für Ihr ___(6)___.\n\nDie Heimleitung"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-1",
+                  "prompt": "Lücke (1)",
+                  "solution": "a",
+                  "explanation": "„Während der kalten Jahreszeit“ – Präposition mit Genitiv für den Zeitraum."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-2",
+                  "prompt": "Lücke (2)",
+                  "solution": "b",
+                  "explanation": "Eine Bedingung: „falls Sie Erkältungssymptome haben“."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-3",
+                  "prompt": "Lücke (3)",
+                  "solution": "c",
+                  "explanation": "„beim Betreten und beim Verlassen“ – beide Zeitpunkte."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-4",
+                  "prompt": "Lücke (4)",
+                  "solution": "d",
+                  "explanation": "Einschränkung: geöffnet, „allerdings“ mit weniger Plätzen."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-5",
+                  "prompt": "Lücke (5)",
+                  "solution": "j",
+                  "explanation": "„Sie schützen insbesondere die Menschen, die hier leben“ – Hervorhebung."
+                },
+                {
+                  "type": "zuordnung",
+                  "id": "sb1-6",
+                  "prompt": "Lücke (6)",
+                  "solution": "f",
+                  "explanation": "Feste Wendung: „Vielen Dank für Ihr Verständnis.“"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprachbausteine-teil-2",
+          "title": "Teil 2 – Wörter im Text ergänzen",
+          "instructions": "Lesen Sie die E-Mail und wählen Sie für jede Lücke das passende Wort.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-2-block",
+              "inlineGaps": true,
+              "stimuli": [
+                {
+                  "title": "E-Mail",
+                  "heading": "Anfrage an einen Anbieter",
+                  "text": "Sehr geehrte Damen und Herren,\n\nwir sind ein Seniorenzentrum mit 84 Plätzen und ___(1)___ uns für Ihre Pflegebetten.\n\n___(2)___ Sie uns bitte ein Angebot über vier Betten inklusive Lieferung und Aufbau.\n\nWichtig ist uns, dass die Betten ___(3)___ höhenverstellbar sind und über eine Notabsenkung verfügen.\n\nAußerdem hätten wir gern eine Auskunft darüber, wie lange die ___(4)___ dauert und ob Sie einen Wartungsvertrag anbieten.\n\nÜber ein Angebot bis zum 15. November würden wir uns freuen. Bei Rückfragen ___(5)___ ich Ihnen gern zur Verfügung.\n\nMit ___(6)___ Grüßen\nS. Weber"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-1",
+                  "prompt": "Lücke (1) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "interessieren"
+                    },
+                    {
+                      "id": "b",
+                      "text": "informieren"
+                    },
+                    {
+                      "id": "c",
+                      "text": "engagieren"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "„sich für etwas interessieren“ – die feste Verbindung mit „für“."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-2",
+                  "prompt": "Lücke (2) – Verb (Imperativ)",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Machen"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Unterbreiten"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Bekommen"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Unterbreiten Sie uns bitte ein Angebot“ – die geschäftsübliche Formulierung."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-3",
+                  "prompt": "Lücke (3) – Adverb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "elektronisch"
+                    },
+                    {
+                      "id": "b",
+                      "text": "elektrizierend"
+                    },
+                    {
+                      "id": "c",
+                      "text": "elektrisch"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "Betten werden elektrisch (per Motor) höhenverstellt."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-4",
+                  "prompt": "Lücke (4) – Nomen",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Lieferzeit"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Liefermenge"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Lieferschein"
+                    }
+                  ],
+                  "solution": "a",
+                  "explanation": "Gefragt wird, wie lange es dauert – also nach der Lieferzeit."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-5",
+                  "prompt": "Lücke (5) – Verb",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "stelle"
+                    },
+                    {
+                      "id": "b",
+                      "text": "stehe"
+                    },
+                    {
+                      "id": "c",
+                      "text": "stehle"
+                    }
+                  ],
+                  "solution": "b",
+                  "explanation": "„Ich stehe Ihnen gern zur Verfügung“ – feste Wendung."
+                },
+                {
+                  "type": "multiple-choice",
+                  "id": "sb2-6",
+                  "prompt": "Lücke (6) – Adjektiv",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "freundlich"
+                    },
+                    {
+                      "id": "b",
+                      "text": "freundlicher"
+                    },
+                    {
+                      "id": "c",
+                      "text": "freundlichen"
+                    }
+                  ],
+                  "solution": "c",
+                  "explanation": "„Mit freundlichen Grüßen“ – Dativ Plural nach „mit“."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprachbausteine-teil-3",
+          "title": "Teil 3 – Ihre Meinung",
+          "instructions": "Lesen Sie die Information und schreiben Sie Ihre Meinung zu dem Thema. Schreiben Sie mindestens 100 Wörter.",
+          "blocks": [
+            {
+              "id": "sprachbausteine-teil-3-block",
+              "stimuli": [
+                {
+                  "title": "Information",
+                  "heading": "Sollte der Pflegeberuf besser bezahlt werden – oder braucht er andere Veränderungen?",
+                  "text": "In Deutschland fehlen nach Schätzungen zehntausende Pflegekräfte. Über die Ursachen wird seit Jahren gestritten.\n\nAus einer Befragung von 2.000 ehemaligen Pflegekräften:\n\n· 61 % nannten fehlende Planbarkeit als Kündigungsgrund.\n· 54 % nannten die körperliche Belastung.\n· 38 % nannten die Bezahlung.\n· 71 % sagten, sie würden unter besseren Bedingungen in den Beruf zurückkehren."
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "schreiben",
+                  "id": "sb3-1",
+                  "prompt": "Schreiben Sie Ihre Meinung zu dem Thema.",
+                  "criteria": [
+                    "Ihre Meinung: Was müsste sich zuerst ändern?",
+                    "Eine Begründung mit einem Beispiel",
+                    "Ein Argument der Gegenseite und Ihre Antwort darauf",
+                    "Ein konkreter Vorschlag"
+                  ],
+                  "hints": [
+                    "Auf B2 reicht es nicht zu sagen, was Sie denken – Sie müssen es begründen und ein Gegenargument aufgreifen.",
+                    "Nützlich: „Einerseits … andererseits …“, „Dagegen wird oft eingewandt, dass …“, „Aus meiner Sicht …“.",
+                    "Sie dürfen die Zahlen aus dem Kasten benutzen, müssen es aber nicht."
+                  ],
+                  "minWords": 100,
+                  "inputMode": "multi-line",
+                  "musterloesung": "Ich halte höhere Löhne für richtig, aber nicht für den entscheidenden Hebel. Wichtiger ist, dass Pflegekräfte wieder planen können.\n\nDas klingt zunächst nebensächlich, ist es aber nicht. Eine Bekannte von mir hat sieben Jahre in einem Altenheim gearbeitet und schließlich gekündigt – nicht wegen des Gehalts, sondern weil sie in einem Jahr elfmal aus dem Frei geholt wurde. Sie hat aufgehört, Verabredungen zu treffen, weil sie sie ohnehin absagen musste. Genau das spiegeln die 61 Prozent aus der Befragung wider.\n\nNun wird eingewandt, dass Planbarkeit bei akutem Personalmangel schlicht unmöglich sei: Wenn jemand krank wird, muss jemand einspringen, und mehr Geld bekommt man schneller organisiert als mehr Personal. Der Einwand ist nicht falsch.\n\nAber er beschreibt einen Kreislauf, kein Naturgesetz. Weil die Bedingungen schlecht sind, gehen Leute; weil Leute gehen, wird ständig eingesprungen; weil ständig eingesprungen wird, gehen weitere. Wer nur die Löhne erhöht, dreht an einer Stelle, an der der Kreislauf nicht unterbrochen wird. Bemerkenswert finde ich, dass 71 Prozent unter besseren Bedingungen zurückkämen – das Personal ist also da, es arbeitet nur woanders.\n\nMein Vorschlag: eine feste Springerreserve, die dafür bezahlt wird, dass sie einspringt, damit niemand sonst aus dem Frei geholt werden muss. Das kostet Geld, aber es kostet weniger als die dauernde Neubesetzung von Stellen."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "sprechen",
+      "title": "Sprechen",
+      "durationMinutes": 15,
+      "description": "Die mündliche Prüfung wird zu zweit abgelegt: Sie sprechen über ein berufliches Thema, führen ein Gespräch mit Ihrer Partnerin oder Ihrem Partner und lösen gemeinsam ein Problem aus dem Betrieb. Dieser Teil wird nicht automatisch bewertet; nach der Abgabe sehen Sie zu jeder Aufgabe ein Beispiel.",
+      "parts": [
+        {
+          "id": "sprechen-teil-1",
+          "title": "Teil 1 – Über ein Thema sprechen",
+          "instructions": "Thema 3: Sprechen Sie über Ihre Berufswahl. Zuerst sprechen Sie etwa vier Minuten zusammenhängend über das Thema (Aufgabe A). Danach beantworten Sie eine Frage dazu (Aufgabe B). In der Prüfung übernimmt anschließend die zweite Person denselben Ablauf mit einem eigenen Thema.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-1-block",
+              "stimuli": [
+                {
+                  "title": "Thema",
+                  "heading": "Thema 3 – Berufswahl",
+                  "text": "Sprechen Sie über Ihre Berufswahl.\n\nSie können sich an diesen Punkten orientieren:\n\n· Wie sind Sie zu Ihrem Beruf gekommen?\n· Welche Ausbildung oder Erfahrung war nötig?\n· Was gefällt Ihnen, was ist schwierig?\n· Würden Sie sich heute wieder so entscheiden?"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp1-a",
+                  "prompt": "Aufgabe A – Sprechen Sie etwa vier Minuten über Ihre Berufswahl.",
+                  "hints": [
+                    "Vier Minuten sind lang. Legen Sie sich vorher eine Reihenfolge zurecht und arbeiten Sie die Punkte nacheinander ab.",
+                    "Auf B2 wird Struktur erwartet: „Zunächst …“, „Ein zweiter Punkt ist …“, „Zusammenfassend …“.",
+                    "Belegen Sie Aussagen mit einem eigenen Beispiel – das trägt länger als allgemeine Sätze."
+                  ],
+                  "musterloesung": "Ich möchte über meine Berufswahl sprechen und dabei vier Punkte ansprechen: wie ich zu dem Beruf gekommen bin, welche Ausbildung nötig war, was mir gefällt und was schwierig ist, und ob ich mich heute wieder so entscheiden würde.\n\nZum ersten Punkt: Ich bin nicht geplant in die Pflege gekommen. Ich wollte ursprünglich Medizin studieren, habe aber keinen Studienplatz bekommen und in der Wartezeit ein Praktikum in einem Pflegeheim gemacht. Aus den drei Monaten sind zwölf Jahre geworden. Ich sage das ohne Bedauern – ich hätte den Beruf sonst nie kennengelernt.\n\nZur Ausbildung: Ich habe die dreijährige Ausbildung gemacht, damals noch Altenpflege, heute ist sie zusammengelegt. Später kam die Weiterbildung zur Praxisanleiterin dazu, zweihundert Stunden neben der Arbeit. Das war anstrengend, aber es hat meine Arbeit verändert: Ich erkläre seitdem mehr und mache weniger selbst.\n\nWas mir gefällt, ist schwer in einem Satz zu sagen. Am ehesten dies: Ich sehe am Ende einer Schicht, was ich getan habe. Das ist in vielen Berufen nicht so. Und der Kontakt zu den Bewohnerinnen und Bewohnern – manche kenne ich seit Jahren und weiß, wie sie ihren Kaffee trinken.\n\nSchwierig ist die Personalsituation, nicht die Arbeit selbst. Wenn ich für zwanzig Menschen zuständig bin, kann ich pflegen, aber ich kann nicht zuhören. Und Zuhören ist eigentlich die Hälfte des Berufs. Diese Lücke zwischen dem, was man tun möchte, und dem, was die Zeit erlaubt – daran gehen viele kaputt.\n\nOb ich mich wieder so entscheiden würde? Für den Beruf ja. Aber ich würde früher lernen, Nein zu sagen, wenn das Telefon im Frei klingelt. Das habe ich erst nach zehn Jahren gelernt, und es hätte mir einiges erspart."
+                },
+                {
+                  "type": "sprechen",
+                  "id": "sp1-b",
+                  "prompt": "Aufgabe B – Antworten Sie auf die Frage: „Was würden Sie jemandem raten, der überlegt, in Ihrem Beruf zu arbeiten?“",
+                  "hints": [
+                    "Beziehen Sie klar Position und begründen Sie sie – eine Antwort ohne Meinung wirkt auf B2 ausweichend.",
+                    "Greifen Sie ein Gegenargument auf: „Dagegen könnte man einwenden, dass …“",
+                    "Zwei Minuten reichen; wichtiger als Länge ist ein klarer Aufbau."
+                  ],
+                  "musterloesung": "Ich würde zuerst raten, ein Praktikum zu machen, und zwar nicht drei Tage, sondern mindestens vier Wochen. In den ersten Tagen sieht man nur das Ungewohnte, danach erst den Alltag.\n\nZweitens würde ich empfehlen, sich die Einrichtung genau anzusehen, nicht nur den Beruf. Zwischen zwei Häusern liegen Welten – wie viele Bewohner auf eine Pflegekraft kommen, ob Dienstpläne halten, ob man nach einer schwierigen Schicht mit jemandem sprechen kann.\n\nDrittens, und das sage ich ehrlich: Wer kein Blut, keine Ausscheidungen und keine Nähe erträgt, sollte es lassen. Das ist keine Frage der Gewöhnung, sondern des Typs, und niemandem ist gedient, wenn man das erst nach der Ausbildung merkt.\n\nMan könnte einwenden, dass ich mit solchen Sätzen Leute abschrecke, obwohl wir dringend Personal brauchen. Aber wer nach zwei Jahren wieder aufhört, hilft niemandem – am wenigsten sich selbst.\n\nPositiv würde ich sagen: Es ist einer der wenigen Berufe, in denen man nie das Gefühl hat, etwas Sinnloses getan zu haben. Wer das sucht, findet es hier."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-2",
+          "title": "Teil 2 – Auf eine Aussage reagieren",
+          "instructions": "In diesem Teil führen Sie ein Gespräch. Ihre Gesprächspartnerin oder Ihr Gesprächspartner beginnt mit einer Aussage, Sie reagieren darauf, und daraus entsteht ein Dialog: Stellen Sie Rückfragen, machen Sie Vorschläge, reagieren Sie auf Einwände. Für beide Aussagen zusammen haben Sie etwa drei Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-2-a",
+              "stimuli": [
+                {
+                  "title": "Aussage 1",
+                  "text": "„Bei uns wird in der Übergabe immer über Bewohner geredet, als wären sie nicht da – auch wenn sie im Zimmer sitzen. Stört dich das nicht?“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-1",
+                  "prompt": "Führen Sie das Gespräch weiter. Sie sind Partner B.",
+                  "hints": [
+                    "Reagieren heißt nicht nur zustimmen: Gehen Sie auf das Gesagte ein und bringen Sie dann etwas Eigenes.",
+                    "Rechnen Sie mit einem Einwand und antworten Sie darauf.",
+                    "Nützlich: „Da bin ich ganz bei dir, allerdings …“, „Ich würde vorschlagen, dass …“"
+                  ],
+                  "musterloesung": "Partner A: Bei uns wird in der Übergabe immer über Bewohner geredet, als wären sie nicht da – auch wenn sie im Zimmer sitzen. Stört dich das nicht?\n\nPartner B: Doch, sehr. Mich stört sogar noch etwas anderes: dass in der dritten Person geredet wird. „Sie hat heute nicht gegessen“, während die Frau danebensitzt.\n\nPartner A: Genau das meine ich.\n\nPartner B: Andererseits verstehe ich, wie es dazu kommt. Die Übergabe dauert zehn Minuten, und man ist im Berichtsmodus. Da denkt niemand daran, dass jemand zuhört.\n\nPartner A: Trotzdem darf das keine Entschuldigung sein.\n\nPartner B: Nein. Ich würde vorschlagen, die Übergabe konsequent außerhalb der Zimmer zu machen, im Dienstzimmer. Und was die Person selbst betrifft, sagt man ihr direkt.\n\nPartner A: Im Dienstzimmer sind wir aber weiter weg, wenn die Klingel geht.\n\nPartner B: Stimmt. Dann eben im Flur, aber nicht im Zimmer. Und ehrlich gesagt hilft ein einfacher Satz mehr als jede Regel: Wenn jemand es doch tut, einfach sagen „Frau Richter, wollen Sie das selbst erzählen?“\n\nPartner A: Das traue ich mich vielleicht nicht bei jedem.\n\nPartner B: Dann fangen wir bei uns beiden an. Wenn zwei es machen, machen es nach drei Wochen fünf."
+                }
+              ]
+            },
+            {
+              "id": "sprechen-teil-2-b",
+              "stimuli": [
+                {
+                  "title": "Aussage 2",
+                  "text": "„Ich soll die neue Auszubildende anleiten, aber ich habe selbst erst zwei Jahre Erfahrung. Ich weiß nicht, ob ich das kann.“"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp2-2",
+                  "prompt": "Führen Sie das Gespräch weiter. Sie sind Partner B.",
+                  "hints": [
+                    "Hier ist ein persönliches Gespräch gefragt – ermutigen Sie, aber bleiben Sie ehrlich.",
+                    "Fragen Sie zurück und geben Sie einen konkreten Hinweis."
+                  ],
+                  "musterloesung": "Partner A: Ich soll die neue Auszubildende anleiten, aber ich habe selbst erst zwei Jahre Erfahrung. Ich weiß nicht, ob ich das kann.\n\nPartner B: Zwei Jahre sind nicht wenig. Und ehrlich gesagt kann jemand mit zwei Jahren oft besser erklären als jemand mit zwanzig.\n\nPartner A: Wie meinst du das?\n\nPartner B: Du weißt noch, was schwierig war. Wer etwas seit zwanzig Jahren macht, hat vergessen, dass es überhaupt schwierig ist, und wundert sich dann.\n\nPartner A: Aber wenn sie etwas fragt, das ich nicht weiß?\n\nPartner B: Dann sagst du „Weiß ich nicht, das schauen wir zusammen nach“. Das ist keine Schwäche, das ist genau das, was sie lernen soll. Schlimm wird es nur, wenn du etwas erfindest.\n\nPartner A: Und formal? Ich habe die Weiterbildung nicht.\n\nPartner B: Dann darfst du nicht allein anleiten – eine Praxisanleiterin muss im Haus sein. Kläre das vorher mit Frau Weber, schriftlich am besten. Damit schützt du dich, falls etwas passiert.\n\nPartner A: Daran hätte ich nicht gedacht.\n\nPartner B: Und melde dich für die Weiterbildung an. Es gibt Förderung dafür, ich schicke dir den Link heute Abend."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sprechen-teil-3",
+          "title": "Teil 3 – Gemeinsam eine Lösung finden",
+          "instructions": "Lesen Sie die Situation. Finden Sie gemeinsam mit Ihrer Gesprächspartnerin oder Ihrem Gesprächspartner eine Lösung. Machen Sie Vorschläge, gehen Sie auf die Vorschläge der anderen Person ein und einigen Sie sich am Ende. Sie haben dafür etwa vier Minuten.",
+          "blocks": [
+            {
+              "id": "sprechen-teil-3-block",
+              "stimuli": [
+                {
+                  "title": "Situation",
+                  "heading": "Ein Tag der offenen Tür",
+                  "text": "Ihr Seniorenzentrum findet seit Monaten keine Auszubildenden. Die Heimleitung möchte einen Tag der offenen Tür veranstalten und bittet Sie und eine Kollegin, den Ablauf zu planen.\n\nStichpunkte:\n\n· Wen wollen Sie erreichen und wie?\n· Was soll an diesem Tag stattfinden?\n· Wie zeigen Sie den Beruf ehrlich, ohne abzuschrecken?\n· Wer aus dem Team macht mit, und wann findet es statt?"
+                }
+              ],
+              "tasks": [
+                {
+                  "type": "sprechen",
+                  "id": "sp3-1",
+                  "prompt": "Finden Sie gemeinsam eine Lösung und einigen Sie sich auf einen Vorschlag.",
+                  "hints": [
+                    "Einigen heißt nicht, allem zuzustimmen. Ein gutes Gespräch enthält auch einen Gegenvorschlag.",
+                    "Nützlich: „Ich würde vorschlagen, dass …“, „Das sehe ich anders, weil …“, „Können wir uns darauf einigen, dass …?“",
+                    "Fassen Sie am Ende zusammen, wer was macht."
+                  ],
+                  "musterloesung": "Partner A: Bevor wir über den Ablauf reden – wen wollen wir eigentlich erreichen? Wenn wir nur die üblichen Flyer verteilen, kommen wieder dieselben zwanzig Leute, die schon interessiert sind.\n\nPartner B: Ich würde zwei Gruppen ansprechen: Schulabgänger über die zwei Schulen im Stadtteil, und Quereinsteiger über die Arbeitsagentur. Die zweite Gruppe unterschätzen wir immer.\n\nPartner A: Bei Quereinsteigern habe ich Bedenken. Viele stellen sich das falsch vor und hören nach einem halben Jahr auf.\n\nPartner B: Das passiert aber genauso bei Achtzehnjährigen. Der Unterschied ist nicht das Alter, sondern ob jemand vorher wirklich gesehen hat, was der Beruf bedeutet. Und genau dafür ist der Tag ja da.\n\nPartner A: Gut, überzeugt. Was machen wir an dem Tag?\n\nPartner B: Auf keinen Fall nur Vorträge. Ich würde Stationen aufbauen: einen Rollstuhlparcours, einen Alterssimulationsanzug, eine Station zum Blutdruckmessen. Etwas zum Anfassen.\n\nPartner A: Und wie zeigen wir den Beruf ehrlich? Ein Simulationsanzug ist nett, aber das ist nicht der Alltag.\n\nPartner B: Deshalb würde ich zusätzlich ein offenes Gespräch anbieten – zwei Auszubildende, keine Leitung dabei, und die Besucher dürfen alles fragen. Auch die unangenehmen Dinge.\n\nPartner A: Ohne Leitung? Das wird der Heimleitung nicht gefallen.\n\nPartner B: Genau deshalb funktioniert es. Solange eine Vorgesetzte im Raum sitzt, sagt niemand etwas Ehrliches, und die Besucher merken das sofort.\n\nPartner A: Da hast du recht. Wer macht mit?\n\nPartner B: Ich frage die beiden Auszubildenden und Herrn Terzi, der macht den Parcours. Übernimmst du die Schulen und die Arbeitsagentur?\n\nPartner A: Mache ich. Und der Termin? Ein Samstag wäre am besten, aber dann arbeiten wir am Wochenende.\n\nPartner B: Dann ein Samstagvormittag, drei Stunden, und wir bekommen die Zeit als Arbeitszeit gutgeschrieben. Das würde ich der Leitung gleich mit vorschlagen, sonst meldet sich niemand freiwillig.\n\nPartner A: Einverstanden. Ich schreibe das bis Freitag zusammen, dann schauen wir es gemeinsam durch."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
